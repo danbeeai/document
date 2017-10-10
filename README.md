@@ -9,11 +9,11 @@ ruby 2.0 and above
  - https://rubyinstaller.org/downloads/
  - RubyInstallers download
  #### ruby 2.0.0 ~ 2.3.x
- - 1. Development Kit download
- - 2. Extract the compressed folder’s contents into any folder in C dirve
- - 3. cd foldername
- - 4. ruby dk.rb init
- - 5. ruby dk.rb install
+  1. Development Kit download
+  2. Extract the compressed folder’s contents into any folder in C dirve
+  3. cd foldername
+  4. ruby dk.rb init
+  5. ruby dk.rb install
 
 ## Install
 git clone https://github.com/danbeeai/document.git
