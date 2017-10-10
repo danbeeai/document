@@ -10,9 +10,9 @@ ruby 2.0 and above (전역 설치)
  - RubyInstallers download
  #### ruby 2.0.0 ~ 2.3.x
   1. run rubyinstaller.exe - "Add Ruby executables to your PATH" 반드시 체크 <br/>
-  2. Development Kit download <br/>
-  3. Extract the compressed folder’s contents into any folder in C dirve <br/>
-  4. cd foldername <br/>
+  2. Development Kit download <br/> 
+  3. Extract the compressed folder’s contents into any folder in C dirve <br/> 
+  4. cd foldername <br/> 
   5. ruby dk.rb init <br/> 
   6. ruby dk.rb install <br/>
  #### ruby 2.4.x
