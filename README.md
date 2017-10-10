@@ -16,11 +16,11 @@ ruby 2.0 and above
   5. ruby dk.rb install
 
 ## Install
-git clone https://github.com/danbeeai/document.git
-cd document
-..document> gem install jekyll
-..document> gem install bundler
-..document> bundle install
+git clone https://github.com/danbeeai/document.git <br/>
+cd document <br/>
+..document> gem install jekyll <br/>
+..document> gem install bundler <br/>
+..document> bundle install <br/>
 
 ## START
 ..document> bundle exec jekyll serve
