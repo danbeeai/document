@@ -1,14 +1,14 @@
 ---
-title: 1.2. 기본 대화하기
+title: 2.7. 데모 및 테스트패널
 tags: []
 keywords: Basic Conversation
-summary: 기본대화하기
+summary: 데모 및 테스트패널
 sidebar: danbee_doc_sidebar
 permalink: 2_7_demo_n_test_panel.html
 folder: danbeeDoc
 ---
 
-## 기본 대화하기
+## 데모 및 테스트패널
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 

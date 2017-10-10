@@ -1,18 +1,41 @@
 ---
-title: 1.2. 기본 대화하기
+title: 2.3. 대화흐름 관리
 tags: []
 keywords: Basic Conversation
-summary: 기본대화하기
+summary: 대화흐름 관리
 sidebar: danbee_doc_sidebar
 permalink: 2_3_chatflow.html
 folder: danbeeDoc
 ---
 
-## 기본 대화하기
+## 대화흐름 관리
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
-### 1. 뭐넣을까요?
+### 2.3.1. 리슨 노드
 
-Ruby has a number of plugins referred to as "gems." Just because you have Ruby doesn't mean you have all the necessary Ruby gems that your program needs to run. Gems provide additional functionality for Ruby programs. There are thousands of [Rubygems](https://rubygems.org/) available for you to use.
+listen
 
+### 2.3.2. 스피크 노드
+
+speak
+
+### 2.3.3. 슬랏 노드
+
+slot
+
+### 2.3.4. 스플릿 노드
+
+split
+
+### 2.3.5. 캐로셀 노드
+
+carousel
+
+### 2.3.6. API 노드 > 밑에 (4)로 이동 ??
+
+4.2 에서 확인
+
+### 2.3.7. Function 노드
+
+function

@@ -1,5 +1,5 @@
 ---
-title: 1.2. 기본 대화하기
+title: 4.1. API 관리
 tags: []
 keywords: Basic Conversation
 summary: 기본대화하기
@@ -8,7 +8,7 @@ permalink: 4_1_external_API_management.html
 folder: danbeeDoc
 ---
 
-## 기본 대화하기
+## API 관리
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 

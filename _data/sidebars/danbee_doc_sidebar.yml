@@ -36,8 +36,8 @@ entries:
       url: /1_3_reconfirm.html
       output: web, pdf
 
-    - title: 1.4. 튜토리얼 > 튜토리얼로 이동(임시)
-      url: /1_4_tutorial.html
+    - title: 1.4. 튜토리얼
+      url: /tutorials.html
       output: web, pdf
 
   - title: 2. 주요기능

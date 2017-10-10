@@ -1,14 +1,14 @@
 ---
-title: 1.2. 기본 대화하기
+title: 5.1. 웰컴메시지 API
 tags: []
 keywords: Basic Conversation
-summary: 기본대화하기
+summary: 웰컴메시지 API
 sidebar: danbee_doc_sidebar
 permalink: 5_1_welcome_API.html
 folder: danbeeDoc
 ---
 
-## 기본 대화하기
+## 웰컴메시지 API
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
