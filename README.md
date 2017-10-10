@@ -30,7 +30,7 @@ cd document <br/>
 
 ※ window 에서 Conversion error 시 cmd창에서, <br/>
   ..document> chcp 65001<br/>
->> 위 명령어로 cmd utf-8로 encoding 후 serve 재실행 시도<br/>
+위 명령어로 cmd utf-8로 encoding 후 serve 재실행 시도<br/>
   
 
 
