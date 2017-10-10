@@ -20,17 +20,17 @@ Jekyll runs on Ruby, a programming language. You have to have Ruby on your compu
 
 .
 
-###3.2.3. 라인
+### 3.2.3. 라인
 
 .
 
-###3.2.4. 텔레그램
+### 3.2.4. 텔레그램
 
 .
 
-###3.2.5. 슬랙
+### 3.2.5. 슬랙
 
 .
 
-###3.2.6. 카카오톡
+### 3.2.6. 카카오톡
 .
