@@ -3,17 +3,20 @@
 http://doc.danbee.ai
 
 ## Requirement
-ruby 2.0 and above
+ruby 2.0 and above (전역 설치)
 
 ### window
  - https://rubyinstaller.org/downloads/
  - RubyInstallers download
  #### ruby 2.0.0 ~ 2.3.x
-  1. Development Kit download
-  2. Extract the compressed folder’s contents into any folder in C dirve
-  3. cd foldername
-  4. ruby dk.rb init
-  5. ruby dk.rb install
+  1. run rubyinstaller.exe - "Add Ruby executables to your PATH" 반드시 체크
+  2. Development Kit download
+  3. Extract the compressed folder’s contents into any folder in C dirve
+  4. cd foldername
+  5. ruby dk.rb init
+  6. ruby dk.rb install
+ #### ruby 2.4.x
+  ruby installer download page 참고
 
 ## Install
 git clone https://github.com/danbeeai/document.git <br/>
