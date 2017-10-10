@@ -1,0 +1,16 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Tutorial
+    output: web
+    folderitems:
+    - title: 인기 Tutorial
+      url: /tutorials.html
+      output: web
+    - title: Tutorial 모음
+      url: /tutorials_archive.html
+      output: web
