@@ -50,6 +50,8 @@ feedback_disable: true
 # feedback_link: "http://helpy.io/"
 # if you uncomment the previous line, it changes where the feedback link points to
 
+encoding: utf-8
+
 highlighter: rouge
 # library used for syntax highlighting
 
