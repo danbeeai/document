@@ -28,6 +28,12 @@ cd document <br/>
 ## START
 ..document> bundle exec jekyll serve
 
+※ window 에서 Conversion error 시 cmd창에서, <br/><br/>
+  ..document> chcp 65001<br/><br/>
+  - 위 명령어로 cmd utf-8로 encoding 후 serve 재실행 시도<br/>
+  
+
+
 ## Manual Add/Edit
 pages > danbeeDoc > md file edit
 
