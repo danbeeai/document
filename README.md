@@ -40,6 +40,9 @@ pages > danbeeDoc > md file edit
 ## Tutorial Add/Edit 
 _posts > md file add/edit
 
+## References
+http://idratherbewriting.com/documentation-theme-jekyll/index.html
+
 
 
   
