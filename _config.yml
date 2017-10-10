@@ -1,27 +1,27 @@
-repository: tdanbeeai/document
+repository: danbeeai/document
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Danbee Documentation
+topnav_title: DANBEE.AI Documentation
 # this appears on the top navigation bar next to the home button
 
-site_title: Danbee documentation
+site_title: DANBEE.AI Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Cowabunga Ent.
 # this appears in the footer
 
-github_editme_path: tdanbeeai/document/blob/gh-pages/
+github_editme_path: danbeeai/document/blob/gh-pages/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-disqus_shortname: idrbwjekyll
+disqus_shortname: 
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
-google_analytics: UA-91561921-1
+google_analytics: 
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
@@ -35,7 +35,7 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Danbee documentation
+feedback_subject_line: DANBEE.AI Documentation
 
 feedback_email: danbee.ai@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
@@ -76,7 +76,7 @@ defaults:
       layout: "page"
       comments: true
       search: true
-      sidebar: document_sidebar
+      sidebar: danbee_doc_sidebar
       topnav: topnav
   -
     scope:
@@ -102,7 +102,7 @@ defaults:
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- document_sidebar
+- danbee_doc_sidebar
 - tutorial_sidebar
 - other
 

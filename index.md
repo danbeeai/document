@@ -1,34 +1,16 @@
 ---
-title: 단비에 오신걸 환영합니다.
-keywords: Danbee Documentation
+title: 1.1 챗봇생성하기
+keywords: Create Chatbot
 tags: [getting_started]
-sidebar: document_sidebar
+sidebar: danbee_doc_sidebar
 permalink: index.html
-summary: 이페이지가 홈페이지에요 ㅋ
+summary: DANBEE.AI 챗봇 생성하기
 ---
 
-## 헤더1
+## 챗봇 생성하기
 
-내용무 
+Follow these instructions to build the theme.
 
-### 1. 헤더1.1
+### 1. 뭐가들어갈까요?
 
-내용무
-
-### 2. 헤더1.2
-
-내용 무 
-
-### 3. 헤더1.3
-
-커맨드라인 
-
-```
-실행문 
-```
-
-내용 무
-
-### 4. 헤더1.4
-
-{% include links.html %}
+First download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
