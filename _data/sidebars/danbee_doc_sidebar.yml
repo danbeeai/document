@@ -155,3 +155,55 @@ entries:
     - title: 사용자 의견 보내기
       url: /feedback.html
       output: web, pdf
+
+  - title: References
+    output: web, pdf
+
+    folderitems:
+    - title: 페이지 설명
+      url: /mydoc_pages.html
+      output: web, pdf
+
+    - title: 툴팁
+      url: /mydoc_adding_tooltips.html
+      output: web, pdf
+
+    - title: 경고문
+      url: /mydoc_alerts.html
+      output: web, pdf
+
+    - title: 아이콘
+      url: /mydoc_icons.html
+      output: web, pdf
+
+    - title: 이미지
+      url: /mydoc_images.html
+      output: web, pdf
+
+    - title: 라벨
+      url: /mydoc_labels.html
+      output: web, pdf
+
+    - title: 리스트
+      url: /mydoc_lists.html
+      output: web, pdf
+
+    - title: 조건부
+      url: /mydoc_conditional_logic.html
+      output: web, pdf
+
+    - title: 컨텐츠 재사용
+      url: /mydoc_content_reuse.html
+      output: web, pdf
+
+    - title: special layouts - glossary
+      url: /mydoc_glossary.html
+      output: web, pdf
+
+    - title: special layouts - knowledge-base layout
+      url: /mydoc_kb_layout.html
+      output: web, pdf                  
+
+    - title: special layouts - shuffle
+      url: /mydoc_shuffle.html
+      output: web, pdf  
