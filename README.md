@@ -13,8 +13,19 @@ ruby 2.0 and above (전역 설치)
  2. Development Kit download <br/> 
  3. Extract the compressed folder’s contents into any folder in C dirve <br/> 
  4. cd foldername <br/> 
- 5. ruby dk.rb init <br/> 
- 6. ruby dk.rb install <br/>
+ 5. config.yml edit
+  ```
+  # 
+  # Example:
+  # ---
+  # - C:/ruby19trunk
+  # - C:/ruby192dev
+  #
+  --- 
+  - C:\Ruby23-x64 #여기에 실제 Ruby를 설치한 위치를 입력해주세요.
+  ```
+ 6. ruby dk.rb init <br/> 
+ 7. ruby dk.rb install <br/>
  #### ruby 2.4.x
   ruby installer download page 참고
 
