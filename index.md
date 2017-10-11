@@ -1,13 +1,13 @@
 ---
-title: 1.1 챗봇생성하기
+title: 기본 용어
 keywords: Create Chatbot
 tags: [getting_started]
 sidebar: danbee_doc_sidebar
 permalink: index.html
-summary: DANBEE.AI 챗봇 생성하기
+summary: DANBEE.AI 기본 용어
 ---
 
-## 챗봇 생성하기
+## 기본 용어
 
 Follow these instructions to build the theme.
 

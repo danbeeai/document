@@ -1,10 +1,10 @@
 ---
-title: 2.2. 엔티티 관리
+title: 엔티티 관리
 tags: []
 keywords: Basic Conversation
 summary: 엔티티 관리
 sidebar: danbee_doc_sidebar
-permalink: 2_2_entity.html
+permalink: entity.html
 folder: danbeeDoc
 ---
 
