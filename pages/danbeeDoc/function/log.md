@@ -1,14 +1,14 @@
 ---
-title: 3.1. 챗봇 채널 연계 설정
+title: 대화 로그 관리
 tags: []
 keywords: Basic Conversation
-summary: 챗봇 채널 연계 설정
+summary: 대화 로그 관리
 sidebar: danbee_doc_sidebar
-permalink: 3_1_channel_connection_settings.html
+permalink: log.html
 folder: danbeeDoc
 ---
 
-## 챗봇 채널 연계 설정
+## 대화 로그 관리
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 

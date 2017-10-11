@@ -1,10 +1,10 @@
 ---
-title: 6.1. 사용자 의견 보내기
+title: 사용자 의견 보내기
 tags: []
 keywords: Basic Conversation
 summary: 사용자 의견 보내기
 sidebar: danbee_doc_sidebar
-permalink: 6_1_feedback.html
+permalink: feedback.html
 folder: danbeeDoc
 ---
 

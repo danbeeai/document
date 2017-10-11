@@ -1,14 +1,14 @@
 ---
-title: 2.3. 대화흐름 관리
+title: Carousel 노드
 tags: []
 keywords: Basic Conversation
 summary: 대화흐름 관리
 sidebar: danbee_doc_sidebar
-permalink: 2_3_chatflow.html
+permalink: chatflow_carousel.html
 folder: danbeeDoc
 ---
 
-## 대화흐름 관리
+## Corousel 노드
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 

@@ -1,14 +1,14 @@
 ---
-title: 3.2. 외부 채널 설정
+title: 텔레그램
 tags: []
 keywords: Basic Conversation
 summary: 외부 채널 설정
 sidebar: danbee_doc_sidebar
-permalink: 3_2_external_channel_connection_settings.html
+permalink: channel_telegram.html
 folder: danbeeDoc
 ---
 
-## 외부 채널 설정
+## 텔레그램
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
