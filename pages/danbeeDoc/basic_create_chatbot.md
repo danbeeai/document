@@ -1,14 +1,14 @@
 ---
-title: 2.1. 의도 관리
+title: 챗봇 생성하기
 tags: []
 keywords: Basic Conversation
-summary: 의도(Intent) 관리
+summary: 기본대화하기
 sidebar: danbee_doc_sidebar
-permalink: 2_1_intent.html
+permalink: basic_create_chatbot.html
 folder: danbeeDoc
 ---
 
-## 의도 관리
+## 챗봇 생성하기
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
