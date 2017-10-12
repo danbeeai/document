@@ -133,7 +133,7 @@ li.sidebarTitle {
     border-color: white;
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #f69023!important;
+    background-color: white;
 }
 .tab-conversation.active>a {
     color: #2a2e2e!important;
