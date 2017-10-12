@@ -35,7 +35,9 @@ layout: default
    {% endif %}
 
     {% unless page.toc == false %}
-    {% include toc.html %}
+    <div class="center-toc" >
+        {% include toc.html %}
+    </div>
     {% endunless %}
 
 

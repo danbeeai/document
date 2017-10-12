@@ -165,7 +165,7 @@ li.sidebarTitle {
 }
 #toc ul li{
 }
-#toc ul li ul{
+#toc ul li ul, #toc_side ul li ul{
     border: none;
 }
 @media (min-width: 1000px){
@@ -183,4 +183,125 @@ div#toc >ul::before {
 }
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #f69023;
+}
+
+/*======================jenny test css====================*/
+@media (min-width: 1400px) {
+    .container{
+        width: 1400px
+    }
+
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9 {
+        float: left
+    }
+
+    .col-xl-12 {
+        width: 100%
+    }
+    .col-xl-11 {
+        width: 91.66666667%
+    }
+    .col-xl-10 {
+        width: 83.33333333%
+    }
+    .col-xl-9 {
+        width: 75%
+    }
+    .col-xl-8 {
+        width: 66.66666667%
+    }
+    .col-xl-7 {
+        width: 58.33333333%
+    }
+    .col-xl-6 {
+        width: 50%
+    }
+    .col-xl-5 {
+        width: 41.66666667%
+    }
+    .col-xl-4 {
+        width: 33.33333333%
+    }
+    .col-xl-3 {
+        width: 25%
+    }
+    .col-xl-2 {
+        width: 16.66666667%
+    }
+    .col-xl-1 {
+        width: 8.33333333%
+    }   
+    
+    .side-toc {
+        display:block
+    }
+
+    #toc_side {
+        position:fixed;
+        margin: 0px 10px
+    }
+
+    div#toc_side ul li{
+        margin: 15px 0px 8px 20px;
+        font-size: 90%;
+        list-style: circle;
+    }
+
+    div#toc_side >ul::before {
+        content: "Table of Contents";
+        font-weight: 700;
+        color: #f69023;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #f69023;
+    }
+
+    div#toc_side ul {
+        background-color: white;
+        padding: 5px;
+        max-width: 250px;
+        color: gray;
+
+    }
+
+    div#toc_side ul {
+        border: 6px solid whitesmoke;
+        list-style: circle;
+        padding: 10px;
+    }
+
+    #toc_side ul li ul li {
+        margin: 0px 0px 8px 10px;
+    }
+
+    .center-toc{
+        display:none
+    }
+}
+
+@media (max-width: 1399px){
+    .side-toc {
+        display:none
+    }    
+    .center-toc{
+        display:block
+    }
+}
+
+@media (min-width: 991px) {
+    #mysidebar {
+        position: fixed
+    }
 }

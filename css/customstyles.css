@@ -241,12 +241,13 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
-div#toc ul li {
+/*Jenny 수정*/
+div#toc ul li{
     margin: 8px 0px 8px 22px;
     font-size: 90%;
     list-style: circle;
 }
-div#toc ul {
+div#toc ul{
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
@@ -254,12 +255,12 @@ div#toc ul {
     color: gray;
 }
 
-div#toc ul li ul {
+div#toc ul li ul, div#toc_side ul li ul {
     padding-left:8px;
 
 }
 
-div#toc ul li ul li::before {
+div#toc ul li ul li::before, div#toc_side ul li ul li::before{
     content: "–  ";
 }
 
