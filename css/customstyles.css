@@ -230,6 +230,7 @@ ul#results-container a:hover {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin-top:10px;
+    border: none;
 }
 /* end search */
 
@@ -240,12 +241,13 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
-div#toc ul li {
+/*Jenny 수정*/
+div#toc ul li{
     margin: 8px 0px 8px 22px;
     font-size: 90%;
-    list-style: square;
+    list-style: circle;
 }
-div#toc ul {
+div#toc ul{
     background-color: whitesmoke;
     padding: 5px;
     border-radius: 5px;
@@ -253,12 +255,12 @@ div#toc ul {
     color: gray;
 }
 
-div#toc ul li ul {
+div#toc ul li ul, div#toc_side ul li ul {
     padding-left:8px;
 
 }
 
-div#toc ul li ul li::before {
+div#toc ul li ul li::before, div#toc_side ul li ul li::before{
     content: "–  ";
 }
 
@@ -330,7 +332,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav > li li {
-    margin: 2px 0;
+    /* margin: 2px 0' */
 }
 
 .nav a {
@@ -351,15 +353,14 @@ a.accordion-toggle, a.accordion-collapsed {
 
 
 .nav li > a > span:after {
-    content: '\25be';
+    content: '\002b';
 }
 .nav li.active > a > span:after {
-    content: '\25b4';
+    content: '\002d';
 }
 
 .nav a:hover, .nav li.active > a {
-    background-color: #8D8D8D;
-    color: #f5f5f5;
+    background-color: whitesmoke;
 }
 
 .nav > li.active > a  {
@@ -381,6 +382,8 @@ background-color: #347DBE;
 
 ul#mysidebar {
     border-radius:0px;
+    border: 6px solid whitesmoke;
+    padding: 3px;
 }
 
 .nav ul li ul li a {
@@ -404,17 +407,17 @@ ul#mysidebar {
 }
 
 .nav li a:hover {
-    background-color: #8D8D8D;
+    background-color: whitesmoke;
 }
 
 .nav ul li a {
-    border-top:1px solid whitesmoke;
-    padding-left:10px;
+    padding-left:20px;
+    background: none;
 }
 /* end sidebar */
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    border-radius:5px;
+    border-radius:0;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
