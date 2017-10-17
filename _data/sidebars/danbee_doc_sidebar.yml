@@ -32,10 +32,6 @@ entries:
       url: /basic_create_chatbot.html
       output: web, pdf
 
-    - title: 튜토리얼
-      url: /tutorials.html
-      output: web, pdf
-
   - title: 주요 기능
     output: web, pdf
     folderitems:
