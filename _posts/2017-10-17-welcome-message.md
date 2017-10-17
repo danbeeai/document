@@ -1,7 +1,7 @@
 ---
 title:  "Welcome Message 만들기"
 published: true
-permalink: tutorial_002.html
+permalink: tutorial_003.html
 summary: "튜토리얼 샘플입니다. 2."
 tags: [tutorial]
 ---
