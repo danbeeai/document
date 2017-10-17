@@ -1,17 +1,12 @@
 ---
 title:  "Welcome Message 만들기"
 published: true
-permalink: tutorial_003.html
-summary: "튜토리얼 샘플입니다. 2."
-tags: [tutorial]
+permalink: tutorial_welcome_message.html
+summary: "Welcome Message는 챗봇이 사용자에게 첫 인사를 하는 것으로 텍스트 입력 방식과 chatflow 호출 방식 두 가지로 구현할 수 있습니다."
+tags: [welcome message, 첫인사]
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
+## 텍스트 Welcome Message 만들기
 
-## Heading
-
-but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries
-
-{% include links.html %}
+ {% include callout.html content="위치 : [고급설정(Advanced)] - [성격(Personality)] - [기본 답변(General)] - [Welcome Message]" type="default" %}
+**텍스트 Welcome Message**란, 챗봇이 사용자에게 보여주는 첫 인사를 **텍스트**로 입력/설정한 것입니다.<br/>
