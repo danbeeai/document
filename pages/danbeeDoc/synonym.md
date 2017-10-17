@@ -6,6 +6,14 @@ summary: 유의어 관리
 sidebar: danbee_doc_sidebar
 permalink: synonym.html
 folder: danbeeDoc
+previous: {
+    title: 챗봇 성격 설정,
+    url: personality_settings.html
+}
+next: {
+    title: 대화 로그 관리,
+    url: log.html
+}
 ---
 
 ## 유의어 관리

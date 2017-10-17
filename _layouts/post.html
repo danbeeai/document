@@ -32,6 +32,28 @@ layout: default
 
 </article>
 
+<!-- tutorial previous and next -->
+<!--
+<ul class="posts posts--previous-next">
+  {% if page.previous %} 
+    <li>
+      <h4 class="pagination-title"><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h4>
+      <h5 class="pagination-date">{{ page.previous.date }}</h5>
+      <p class="pagination-description">{{ page.previous.description }}</p>
+    </li>
+  {% endif %}
+  {% if page.next %} 
+    <li>
+      <h4 class="pagination-title"><a href="{{ page.next.url }}">{{ page.next.title }}</a></h4>
+      <h5 class="pagination-date">{{ page.next.date }}</h5>
+      <p class="pagination-description">{{ page.next.description }}</p>
+    </li>
+  {% endif %}
+</ul>
+-->
+
+
+
 {% include disqus.html %}
 
 {{site.data.alerts.hr_shaded}}

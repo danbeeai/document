@@ -6,6 +6,14 @@ summary: 기본대화하기
 sidebar: danbee_doc_sidebar
 permalink: basic_create_chatbot.html
 folder: danbeeDoc
+previous: {
+    title: 기본용어, 
+    url: index.html
+}
+next: {
+    title: 의도관리,
+    url: intent.html
+}
 ---
 
 ## 챗봇 생성하기

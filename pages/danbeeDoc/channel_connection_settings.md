@@ -6,6 +6,14 @@ summary: 챗봇 채널 연계 설정
 sidebar: danbee_doc_sidebar
 permalink: channel_connection_settings.html
 folder: danbeeDoc
+previous: {
+    title: 데모 및 테스트 패널,
+    url: demo_n_test_panel.html
+}
+next: {
+    title: 프로그(단비자체웹채널),
+    url: channel_frogu.html
+}
 ---
 
 ## 챗봇 채널 연계 설정

@@ -6,6 +6,14 @@ summary: 외부 채널 설정
 sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc
+previous: {
+    title: 프로그(단비자체웹채널),
+    url: channel_frogu.html
+}
+next: {
+    title: 페이스북,
+    url: channel_facebook.html
+}
 ---
 
 ## Native App(API)
