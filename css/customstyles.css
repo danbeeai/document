@@ -260,7 +260,7 @@ div#toc ul li ul, div#toc_side ul li ul {
 
 }
 
-div#toc ul li ul li::before, div#toc_side ul li ul li::before{
+div#toc ul li ul li::before{
     content: "–  ";
 }
 
