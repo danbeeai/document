@@ -10,3 +10,6 @@ tags: [welcome message, 첫인사]
 
  {% include callout.html content="위치 : [고급설정(Advanced)] - [성격(Personality)] - [기본 답변(General)] - [Welcome Message]" type="default" %}
 **텍스트 Welcome Message**란, 챗봇이 사용자에게 보여주는 첫 인사를 **텍스트**로 입력/설정한 것입니다.<br/>
+
+
+{% include links.html %}
