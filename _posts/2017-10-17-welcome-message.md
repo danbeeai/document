@@ -19,6 +19,22 @@ tags: [welcome message, 첫인사]
 
 설정된 웰컴 메시지는 아래와 같이 보여집니다.<br/>
 
- {% include image.html file="welcome_message_text_channel.PNG" alt="welcome_message_text_channel" caption="welcome_message_text_channel" %}
+ {% include image.html file="welcome_message_text_channel.PNG" alt="welcome_message_text" caption="welcome_message_text" %}
+
+
+## 웰컴 메시지에서 버튼 사용하기
+
+ {% include callout.html content="위치 : [고급설정(Advanced)] - [성격(Personality)] - [기본 답변(General)] - [Welcome Message]" type="default" %}
+웰컴 메시지에 버튼을 사용하기 위해서는 웰컴 메시지를 **대화흐름**으로 작성해야 합니다.<br/>
+
+설정방법은 아래와 같습니다.<br/>
+ 1. CHATFLOW 옵션 선택
+ 2. 웰컴 메시지에 해당하는 대화 흐름 선택
+
+ {% include image.html file="welcome_message_chatflow.PNG" alt="welcome_message_chatflow" caption="welcome_message_chatflow" %}
+
+설정된 웰컴 메시지는 아래와 같이 보여집니다.<br/>
+
+ {% include image.html file="welcome_message_chatflow_channel.PNG" alt="welcome_message_chatflow_channel" caption="welcome_message_chatflow_channel" %}
  
 {% include links.html %}
