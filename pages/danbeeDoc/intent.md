@@ -21,9 +21,9 @@ next: {
 **의도(Intent)**란, 사용자가 한 말에 대해 봇이 어떻게 대답할 지에 대한 **관계**를 설정한 것입니다.<br/>
 
 해당 메뉴에서는 다음과 같은 내용을 설정할 수 있습니다.<br/> 
- - 사용자 예문
- - 파라미터(Parameter)
- - Intent 속성
+ - [사용자 예문](intent.html#사용자-예문)
+ - [파라미터(Parameter)](intent.html#파라미터parameter)
+ - [Intent 속성](intent.html#intent-속성)
 
 ### 사용자 예문
 
