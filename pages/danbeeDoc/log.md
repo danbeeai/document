@@ -6,6 +6,14 @@ summary: 대화 로그 관리
 sidebar: danbee_doc_sidebar
 permalink: log.html
 folder: danbeeDoc
+previous: {
+    title: 유의어 관리,
+    url: synonym.html
+}
+next: {
+    title: 데모 및 테스트 패널,
+    url: demo_n_test_panel.html
+}
 ---
 
 ## 대화 로그 관리

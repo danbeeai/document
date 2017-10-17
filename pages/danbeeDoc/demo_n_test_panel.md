@@ -6,6 +6,14 @@ summary: 데모 및 테스트 패널
 sidebar: danbee_doc_sidebar
 permalink: demo_n_test_panel.html
 folder: danbeeDoc
+previous: {
+    title: 대화 로그 관리,
+    url: log.html
+}
+next: {
+    title: 챗봇 채널 연계 설정,
+    url: channel_connection_settings.html
+}
 ---
 
 ## 데모 및 테스트 패널

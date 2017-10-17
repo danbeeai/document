@@ -6,6 +6,14 @@ summary: 대화흐름 관리
 sidebar: danbee_doc_sidebar
 permalink: chatflow_api.html
 folder: danbeeDoc
+previous: {
+    title: Carousel 노드,
+    url: chatflow_carousel.html
+}
+next: {
+    title: Function 노드,
+    url: chatflow_function.html
+}
 ---
 
 ## API 노드

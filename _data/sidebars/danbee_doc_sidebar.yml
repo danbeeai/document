@@ -132,9 +132,9 @@ entries:
           url: /channel_kakaotalk.html
           output: web, pdf
 
-        - title: 슬랙
-          url: /channel_slack.html
-          output: web, pdf
+        # - title: 슬랙
+        #   url: /channel_slack.html
+        #   output: web, pdf
 
   - title: 외부 API 사용
     output: web, pdf

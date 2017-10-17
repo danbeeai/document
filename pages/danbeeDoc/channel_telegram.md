@@ -6,6 +6,14 @@ summary: 외부 채널 설정
 sidebar: danbee_doc_sidebar
 permalink: channel_telegram.html
 folder: danbeeDoc
+previous: {
+    title: 라인,
+    url: channel_line.html
+}
+next: {
+    title: 카카오톡,
+    url: channel_kakaotalk.html
+}
 ---
 
 ## 텔레그램

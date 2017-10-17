@@ -5,6 +5,10 @@ tags: [getting_started]
 sidebar: danbee_doc_sidebar
 permalink: index.html
 summary: DANBEE.AI 기본 용어
+next: {
+    title: 챗봇 생성하기,
+    url: basic_create_chatbot.html
+}
 ---
 
 ## 기본 용어

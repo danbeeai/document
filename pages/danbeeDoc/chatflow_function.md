@@ -6,6 +6,14 @@ summary: 대화흐름 관리
 sidebar: danbee_doc_sidebar
 permalink: chatflow_function.html
 folder: danbeeDoc
+previous: {
+    title: API 노드,
+    url: chatflow_api.html
+}
+next: {
+    title: 챗봇 성격 설정,
+    url: personality_settings.html
+}
 ---
 
 ## Function 노드
