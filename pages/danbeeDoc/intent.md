@@ -29,7 +29,7 @@ next: {
 
 **사용자 입력 예문**은 사용자가 입력한 말 중 해당 Intent로 구분되길 원하는 말을 의미합니다. DANBEE.AI는 사용자의 말과 동일하거나 가장 비슷한 예문을 가지고 있는 Intent를 찾게 됩니다. 예를 들어 사용자가 '안녕'이라는 말을 했을 때 봇이 '인사'로 알아듣길 원한다면 '인사' Intent에 '안녕'이라는 사용자 입력 예문을 추가하시면 됩니다.<br/>
 
-{% include image.html file="intent/Intent_input_sentence.png" max-width="900" caption="사용자 입력 예문 추가" %} 
+{% include image.html file="intent/Intent_input_sentence.PNG" max-width="900" caption="사용자 입력 예문 추가" %} 
 
 *사용자예문입력*란에 추가하길 원하는 예문을 입력한 뒤 *Enter*를 누르면 예문이 추가됩니다. 추가된 예문은 *전체 등록 예문*에서 확인이 가능하며 등록된 총 예문 개수가 표시됩니다. <br/>
 
@@ -110,13 +110,13 @@ popup 설명 + 제약사항 summary
 위에 해당되는 경우 봇은 사용자의 의도를 정확하게 파악하기 위하여 버튼 형식으로 되물어보게 됩니다.
 이때 버튼명은 Intent 버튼명에 설정한 값으로 보여집니다. 만약 벼튼명을 입력하지 않았을 때 기본값은 Intent 명이 됩니다.<br/>
 
-{% include image.html file="intent/Intent_button_name_01.png" max-width="900" caption="Intent 버튼명 결과확인" %} 
+{% include image.html file="intent/Intent_button_name_01.PNG" max-width="900" caption="Intent 버튼명 결과확인" %} 
 
 
 #### Multi Intent 제외 설정
 본 속성을 체크하는 경우 해당 Intent는 확률이 낮거나 여러 의도로 파악되더라도 버튼으로 되물어보지 않게 됩니다.
-{% include image.html file="intent/intent_multi01.png" max-width="900" caption="Multi Intent 제외 설정 전" %}
-{% include image.html file="intent/intent_multi02.png" max-width="900" caption="Multi Intent 제외 설정 후" %} 
+{% include image.html file="intent/intent_multi01.PNG" max-width="900" caption="Multi Intent 제외 설정 전" %}
+{% include image.html file="intent/intent_multi02.PNG" max-width="900" caption="Multi Intent 제외 설정 후" %} 
 
 #### 채널 Fallback 설정
 본 속성을 체크하는 경우 해당 Intent로 파악되면 강제적으로 Default Fallback으로 넘어갑니다. 즉, 봇이 말을 알아듣지 못한 것처럼 반응하게 됩니다. Default Fallback 시 챗봇의 반응은 개발자가 지정할 수 있습니다.<span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Default Fallback 자세히 보기](personality_settings)</span>
