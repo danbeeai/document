@@ -22,7 +22,7 @@ Jekyll runs on Ruby, a programming language. You have to have Ruby on your compu
 
 ### 2.3.1. 리슨 노드
 
-Listen Node는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫번째 Node입니다. Listen Node가 없으면 대화흐름은 어떤 의도를 기반으로 어떤 질문들을 해야할지 파악할 수 없는 필수 Node 입니다. 
+Listen Node는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫번째 Node입니다. Listen Node가 없으면 대화흐름은 어떤 의도를 기반으로 어떤 질문들을 해야할지 파악할 수 없는 필수 Node 입니다.  
 
 ### 2.3.2. 스피크 노드
 
