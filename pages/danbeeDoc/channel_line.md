@@ -6,6 +6,14 @@ summary: 외부 채널 설정
 sidebar: danbee_doc_sidebar
 permalink: channel_line.html
 folder: danbeeDoc
+previous: {
+    title: 페이스북,
+    url: channel_facebook.html
+}
+next: {
+    title: 텔레그램,
+    url: channel_telegram.html
+}
 ---
 
 ## 라인

@@ -6,6 +6,14 @@ summary: 챗봇성격 설정
 sidebar: danbee_doc_sidebar
 permalink: personality_settings.html
 folder: danbeeDoc
+previous: {
+    title: Function 노드,
+    url: chatflow_function.html
+}
+next: {
+    title: 유의어 관리,
+    url: synonym.html
+}
 ---
 
 ## 챗봇 성격 설정

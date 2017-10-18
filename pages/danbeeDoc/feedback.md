@@ -6,6 +6,10 @@ summary: 사용자 의견 보내기
 sidebar: danbee_doc_sidebar
 permalink: feedback.html
 folder: danbeeDoc
+previous: {
+    title: API 관리,
+    url: external_API_management.html
+}
 ---
 
 ## 사용자 의견 보내기

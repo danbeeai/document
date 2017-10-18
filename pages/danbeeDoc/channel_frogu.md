@@ -6,6 +6,14 @@ summary: 외부 채널 설정
 sidebar: danbee_doc_sidebar
 permalink: channel_frogu.html
 folder: danbeeDoc
+previous: {
+    title: 챗봇 채널 연계 설정,
+    url: channel_connection_settings.html
+}
+next: {
+    title: Native App(API),
+    url: channel_native_app.html
+}
 ---
 
 ## 프로그(단비자체웹채널)

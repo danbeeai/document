@@ -6,6 +6,14 @@ summary: 대화흐름 관리
 sidebar: danbee_doc_sidebar
 permalink: chatflow_speak.html
 folder: danbeeDoc
+previous: {
+    title: Listen 노드, 
+    url: chatflow_listen.html
+}
+next: {
+    title: Slot 노드,
+    url: chatflow_slot.html
+}
 ---
 
 ## Speak 노드

@@ -32,10 +32,6 @@ entries:
       url: /basic_create_chatbot.html
       output: web, pdf
 
-    - title: 튜토리얼
-      url: /tutorials.html
-      output: web, pdf
-
   - title: 주요 기능
     output: web, pdf
     folderitems:
@@ -136,9 +132,9 @@ entries:
           url: /channel_kakaotalk.html
           output: web, pdf
 
-        - title: 슬랙
-          url: /channel_slack.html
-          output: web, pdf
+        # - title: 슬랙
+        #   url: /channel_slack.html
+        #   output: web, pdf
 
   - title: 외부 API 사용
     output: web, pdf

@@ -6,6 +6,14 @@ summary: 엔티티 관리
 sidebar: danbee_doc_sidebar
 permalink: entity.html
 folder: danbeeDoc
+previous: {
+    title: 의도 관리, 
+    url: intent.html
+}
+next: {
+    title: 대화흐름 기본 설명,
+    url: chatflow.html
+}
 ---
 
 ## 엔티티 관리

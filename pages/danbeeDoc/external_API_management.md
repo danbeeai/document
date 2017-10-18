@@ -6,6 +6,14 @@ summary: 기본대화하기
 sidebar: danbee_doc_sidebar
 permalink: external_API_management.html
 folder: danbeeDoc
+previous: {
+    title: 카카오톡,
+    url: channel_kakaotalk.html
+}
+next: {
+    title: 사용자 의견 보내기,
+    url: feedback.html
+}
 ---
 
 ## API 관리
