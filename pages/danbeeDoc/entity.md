@@ -2,7 +2,7 @@
 title: 엔티티 관리
 tags: []
 keywords: Basic Conversation
-summary: 엔티티 관리
+summary: 
 sidebar: danbee_doc_sidebar
 permalink: entity.html
 folder: danbeeDoc
@@ -16,9 +16,11 @@ next: {
 }
 ---
 
-## 엔티티 관리
+## 엔티티(Entity)
 
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
+ {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [단어 추출(Entity)]" type="default" %}
+
+**엔티티(이하 Entity)**란, 사용자가  대해 봇이 어떻게 대답할 지에 대한 **관계**를 설정한 것입니다.<br/>
 
 ### 2.2.1. 날짜 엔티티
 

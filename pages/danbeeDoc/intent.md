@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-## 의도(Intent) 관리
+## 의도(Intent)
  {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
 **의도(이하 Intent)**란, 사용자가 한 말에 대해 봇이 어떻게 대답할 지에 대한 **관계**를 설정한 것입니다.<br/>
 
@@ -58,10 +58,11 @@ next: {
 
 ### 파라미터(Parameter)
 
-**파라미터(이하, Parameter)**란 사용자와의 대화에서 뽑아내는 정보를 담아내는 껍데기입니다. 일종의 변수와도 같은 개념으로 대화흐름 속에서 특정 값을 전달하기위해 사용됩니다. Parameter 등록 방법으로는 크게 2가지가 있습니다.
+**파라미터(이하, Parameter)**란 사용자와의 대화에서 뽑아내는 정보를 담아내는 껍데기입니다. 일종의 변수와도 같은 개념으로 대화흐름 속에서 특정 값을 전달하기위해 사용됩니다. Parameter에는 2가지 필수 정보가 존재합니다. **Parameter 명**과 **Entity** 입니다. Parameter 명은 변수 명, Entity는 변수 타입과 같은 종류로 볼 수 있습니다.<br/> 
+Parameter 등록 방법으로는 크게 2가지가 있습니다.
 
 - [예문에 직접 지정](intent.html#예문에서-정보-추출하기)
-- Intent에 종류 추가
+- Intent에 내에서 추가
 
 첫 번째 경우는 앞서 사용자 입력 예문에서 설명한 것과 같습니다.<br/> 
 두 번째 경우는 대화 흐름 속에서 사용될 예정인 Parameter를 Intent 페이지 최하단에서 추가하는 방법입니다.
@@ -69,22 +70,53 @@ next: {
 #### Parameter 추가
 
 {% include image.html file="intent/Intent_parameter_01.png" max-width="900" caption="추출되는 Parameter" %}
-추가 버튼 누름
+Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] 버튼 누르면 Parameter를 추가할 수 있는 팝업이 뜨게 됩니다.
 
 {% include image.html file="intent/Intent_parameter_02.png" max-width="900" caption="Parameter 추가 팝업" %}
-popup 설명 + 제약사항 summary
+
+팝업 내에서 Parameter 명을 입력하고 Entity를 선택하게 됩니다. Parameter 명을 입력할 때에는 다음과 같은 제약사항이 존재합니다.
+
+- Parameter 명에는 띄워쓰기를 허용하지 않는다.
+- Parameter 명에는 $와 _를 제외한 특수문를 허용하지 않는다.
+- Parameter 명은 한 Intent 내에서 유일해야 한다.
+- 최대 50자까지 허용한다.
+
+제약사항을 지켜 두 필수값을 입력한 다음 [추가] 버튼을 누르면 해당 Intent에 Parameter가 추가됩니다.
 
 {% include image.html file="intent/Intent_parameter_03.png" max-width="900" caption="추가된 Parameter" %}
-추가 완료
+
+해당 Intent에 추가되어 있는 전체 Parameter는 '추출되는 Parameter'에서 확인할 수 있습니다. 이때 사용개수는 해당 Parameter가 예문에서 지정되어 사용 중인 개수를 의미합니다. 예문에서 한 군데라도 사용중이라면 삭제가 불가능합니다.
+
+#### Parameter 수정
+챗봇 개발자는 등록한 Parameter에 대하여 일부 정보를 수정을 할 수 있습니다. 
 
 {% include image.html file="intent/Intent_parameter_04.png" max-width="900" caption="Parameter 이름 변경" %}
-이름 변경 + 예문에 등록된 파라미터일 경우 자동으로 이름이 변경됨
 
-참고로 위에서 변경하면 새로운 파라미터로 추가됨
+먼저 **Parameter명**을 변경하고 싶다면 위와 같이 추가되어 있는 위치에서 바로 변경이 가능합니다. 추가적으로 예문에 바로 밑에 위치한 Parameter명을 수정할 경우 동일한 Parameter가 추가되어 있지 않다면 새로운 Parameter로 추가됨에 유의하시길 바랍니다. <br/>
 
+**Entity**는 한 번 지정한 후에는 변경이 불가합니다. Entity를 변경하기 위해서는 삭제 후 재추가를 하셔야 합니다.<br/>
 
-자세한 활용법은 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다. 
+**Default** 값은 등록 후에 설정이 가능합니다. 아무런 정보가 들어오지 않았을 때 Parameter에 담겨있는 값입니다. 해당 값은 Entity에 담겨 있는 값들과는 상관 없이 설정이 가능합니다.
 
+{% include image.html file="intent/Intent_parameter_05_default.png" max-width="900" caption="Parameter Default 값 설정" %}
+
+만약 위와 같이 Default 값을 설정해두었다면 사용자의 말 속에서 '야식종류Entity'에 포함된 정보가 없다면 Default 값을 던져주게 됩니다.
+
+{% include image.html file="intent/Intent_parameter_06_default_result.png" max-width="900" caption="Parameter Default 값 테스트" %}
+
+#### 특수 Parameter
+
+DANBEE.AI에서는 다음과 같은 특수한 Parameter를 제공하고 있습니다.
+
+| Parameter명 | Entity | 기능 |
+|-------------|-------------|-------------|
+| **positive** | sys.any | 감정 분석 결과 ***긍정도***를 제공 |
+| **negative** | sys.any | 감정 분석 결과 ***부정도***를 제공 |
+| **neutral** | sys.any | 감정 분석 결고 ***중립도***를 제공 |
+
+Intent에 위 Parameter들을 추가해두고  <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[감정분석 및 감정정보 Parameter 공유 설정](personality_settings.html)</span>을 하시면 해당 특수 Parameter를 사용할 수 있습니다. 해당 Parameter들을 통해 대화흐름 속에서 사용자의 감정을 분석하여 긍정, 부정, 중립에 대한 정도를 수치로 제공받을 수 있습니다.<br/>
+
+Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다. 
 
 
 ### Intent 속성
@@ -97,7 +129,7 @@ popup 설명 + 제약사항 summary
 
 #### Intent 버튼명
 
-사용자가 말을 입력하면 봇은 적절한 Intent를 찾게 됩니다. 하지만 다음과 같이 찾은 Intent에 대하여 확신을 가지지 못하는 경우가 발생합니다.<br/><br/>
+사용자가 말을 입력하면 봇은 적절한 Intent를 찾게 됩니다. 하지만 다음과 같이 찾은 Intent에 대하여 확신을 가지지 못하는 경우가 발생합니다.
 
  - Reconfirm : 사용자가 한 말에 대하여 Intent를 찾았지만 해당 Intent일 확률이 낮을 경우
  <span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Reconfirm 자세히 보기](personality_settings)</span> 
@@ -105,8 +137,6 @@ popup 설명 + 제약사항 summary
 <span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Multi Intent 자세히 보기](personality_settings)</span>
  
 
-
-<br/>
 위에 해당되는 경우 봇은 사용자의 의도를 정확하게 파악하기 위하여 버튼 형식으로 되물어보게 됩니다.
 이때 버튼명은 Intent 버튼명에 설정한 값으로 보여집니다. 만약 벼튼명을 입력하지 않았을 때 기본값은 Intent 명이 됩니다.<br/>
 
