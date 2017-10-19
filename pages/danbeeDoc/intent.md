@@ -58,10 +58,11 @@ next: {
 
 ### 파라미터(Parameter)
 
-**파라미터(이하, Parameter)**란 사용자와의 대화에서 뽑아내는 정보를 담아내는 껍데기입니다. 일종의 변수와도 같은 개념으로 대화흐름 속에서 특정 값을 전달하기위해 사용됩니다. Parameter 등록 방법으로는 크게 2가지가 있습니다.
+**파라미터(이하, Parameter)**란 사용자와의 대화에서 뽑아내는 정보를 담아내는 껍데기입니다. 일종의 변수와도 같은 개념으로 대화흐름 속에서 특정 값을 전달하기위해 사용됩니다. Parameter에는 2가지 필수 정보가 존재합니다. **Parameter 명**과 **Entity** 입니다. Parameter 명은 변수 명, Entity는 변수 타입과 같은 종류로 볼 수 있습니다.<br/> 
+Parameter 등록 방법으로는 크게 2가지가 있습니다.
 
 - [예문에 직접 지정](intent.html#예문에서-정보-추출하기)
-- Intent에 종류 추가
+- Intent에 내에서 추가
 
 첫 번째 경우는 앞서 사용자 입력 예문에서 설명한 것과 같습니다.<br/> 
 두 번째 경우는 대화 흐름 속에서 사용될 예정인 Parameter를 Intent 페이지 최하단에서 추가하는 방법입니다.
@@ -69,22 +70,28 @@ next: {
 #### Parameter 추가
 
 {% include image.html file="intent/Intent_parameter_01.png" max-width="900" caption="추출되는 Parameter" %}
-추가 버튼 누름
+Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] 버튼 누르면 Parameter를 추가할 수 있는 팝업이 뜨게 됩니다.
 
 {% include image.html file="intent/Intent_parameter_02.png" max-width="900" caption="Parameter 추가 팝업" %}
-popup 설명 + 제약사항 summary
+
+팝업 내에서 Parameter 명을 입력하고 Entity를 선택하게 됩니다. Parameter 명을 입력할 때에는 다음과 같은 제약사항이 존재합니다.
+
+- Parameter 명에는 띄워쓰기를 허용하지 않는다.
+- Parameter 명에는 $와 _를 제외한 특수문를 허용하지 않는다.
+- Parameter 명은 한 Intent 내에서 유일해야 한다.
+- 최대 50자까지 허용한다.
+
+제약사항을 지켜 두 필수값을 입력한 다음 [추가] 버튼을 누르면 해당 Intent에 Parameter가 추가됩니다.
 
 {% include image.html file="intent/Intent_parameter_03.png" max-width="900" caption="추가된 Parameter" %}
-추가 완료
+
+해당 Intent에 추가되어 있는 전체 Parameter는 '추출되는 Parameter'에서 확인할 수 있습니다. 이때 사용개수는 해당 Parameter가 예문에서 지정되어 사용 중인 개수를 의미합니다. 예문에서 한 군데라도 사용중이라면 삭제가 불가능합니다.
 
 {% include image.html file="intent/Intent_parameter_04.png" max-width="900" caption="Parameter 이름 변경" %}
-이름 변경 + 예문에 등록된 파라미터일 경우 자동으로 이름이 변경됨
 
-참고로 위에서 변경하면 새로운 파라미터로 추가됨
+Parameter명을 변경하고 싶다면 위와 같이 추가되어 있는 위치에서 바로 변경이 가능합니다. 추가적으로 예문에 바로 밑에 위치한 Parameter명을 수정할 경우 동일한 Parameter가 추가되어 있지 않다면 새로운 Parameter로 추가됨에 유의하시길 바랍니다. 
 
-
-자세한 활용법은 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다. 
-
+Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다. 
 
 
 ### Intent 속성
