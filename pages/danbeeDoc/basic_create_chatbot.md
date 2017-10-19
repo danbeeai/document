@@ -1,7 +1,7 @@
 ---
 title: 챗봇 생성하기
 tags: []
-keywords: Basic Conversation
+keywords: 챗봇 생성, 챗봇 만들기
 summary: 기본대화하기
 sidebar: danbee_doc_sidebar
 permalink: basic_create_chatbot.html
