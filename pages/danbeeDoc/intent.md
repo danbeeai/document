@@ -18,7 +18,7 @@ next: {
 
 ## 의도 추론(Intent)
  {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
-**의도 추론(이하 Intent)**란, 입력 문장이 어떤 의도인지 분류하기 위한 기준입니다. <br/>
+**의도 추론(이하 Intent)**란, 입력 문장이 어떤 의도인지 분류하기 위한 기준입니다.<br/>
 
 해당 메뉴에서는 다음과 같은 내용을 설정할 수 있습니다.<br/> 
  - [사용자 입력 예문](intent.html#사용자-입력-예문)
