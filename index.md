@@ -74,4 +74,4 @@ danbee.Ai는 위와 같은 대화를 손쉽게 만들고 서비스 할 수 있�
 ### 다음으로 할 일
 위에서 나온 챗봇관련 개념에 익숙해지셨다면, 다음 글을 읽어보시면 좋을 것 같습니다. 
 
-[챗봇생성하기](/basic_create_chatbot.html)
+<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇생성하기](/basic_create_chatbot.html)</span>
