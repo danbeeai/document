@@ -1,13 +1,13 @@
 ---
-title: 챗봇 생성하기
-tags: [chatbot, create]
+title: 챗봇 생성 및 기본정보 변경
+tags: [create_chatbot]
 keywords: 챗봇 생성, 챗봇 만들기
 summary: 대화 주체의 단위인 챗봇을 생성하는 법을 알아보겠습니다.
 sidebar: danbee_doc_sidebar
 permalink: basic_create_chatbot.html
 folder: danbeeDoc
 previous: {
-    title: 기본용어, 
+    title: 챗봇을 만들기 위해 알아야할 기본, 
     url: index.html
 }
 next: {
@@ -50,8 +50,14 @@ Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각
 ***"사진변경"***버튼을 눌러 프로필사진을 변경하거나 설명을 수정하고 우측 상단의 ***"저장"***버튼을 클릭하면 변경사항이 반영됩니다.
 
 
+### 챗봇 삭제
+챗봇 설정 화면의 하단에 있는 ***"Chatbot 삭제"***기능은 매우 조심해야 하는 기능입니다. 등록되어 있는 모든 학습데이터와 대응되는 답변 시나리오가 삭제됩니다.
 
 
+### 다음으로 할 일
+위에서 나온 챗봇관련 개념에 익숙해지셨다면, 본격적으로 챗봇이 파악할 수 있는 인텐트(의도)를 등록하는 것을 시작할 수 있겠습니다.
+
+<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[의도관리](/intent.html)</span>
 
 
 

@@ -23,12 +23,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 기본 용어
+    - title: 챗봇을 만들기 위해 알아야할 기본
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: 챗봇 생성하기
+    - title: 챗봇 생성 및 기본정보 변경
       url: /basic_create_chatbot.html
       output: web, pdf
 

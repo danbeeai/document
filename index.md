@@ -6,7 +6,7 @@ sidebar: danbee_doc_sidebar
 permalink: index.html
 summary: DANBEE.AI 기본 개념
 next: {
-    title: 챗봇 생성하기,
+    title: 챗봇 생성 및 기본정보 변경,
     url: basic_create_chatbot.html
 }
 ---
@@ -74,4 +74,4 @@ danbee.Ai는 위와 같은 대화를 손쉽게 만들고 서비스 할 수 있�
 ### 다음으로 할 일
 위에서 나온 챗봇관련 개념에 익숙해지셨다면, 다음 글을 읽어보시면 좋을 것 같습니다. 
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇생성하기](/basic_create_chatbot.html)</span>
+<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇 생성 및 기본정보 변경](/basic_create_chatbot.html)</span>
