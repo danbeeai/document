@@ -2,7 +2,7 @@
 title: 데모 및 테스트 패널
 tags: [demo, test, analytics]
 keywords: Basic Conversation
-summary: 데모 및 테스트 패널
+summary: 데모 및 테스트 패널을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: demo_n_test_panel.html
 folder: danbeeDoc
