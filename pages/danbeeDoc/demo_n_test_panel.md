@@ -53,7 +53,7 @@ Intent Candidates 영역 우측에 보면 [+] 버튼이 존재합니다. 해당 
 
 먼저 입력 문장에 대해 판별한 정보가 어떤 형태로 되돌아오는지 확인할 수 있습니다. NLU Intent 테스트 패널 최하단 [SHOW JSON] 버튼을 누르면 JSON 형태의 정보를 볼 수 있는 팝업이 뜹니다.
 
-{% include image.html file="test_panel_n_demo/NLU_intent_test_panel03_json_popup.PNG" max-width="900" caption="NLU Intent 테스트 패널 - JSON 팝업" %}
+{% include image.html file="test_panel_n_demo/NLU_intent_test_panel03_json_popup.png" max-width="900" caption="NLU Intent 테스트 패널 - JSON 팝업" %}
 
 해당 팝업에서는 필요에 따라 사용할 수 있도록 복사 기능을 제공하고 있습니다. 복사를 누르면 해당 정보가 JSON String 형태로 복사됩니다.
 
