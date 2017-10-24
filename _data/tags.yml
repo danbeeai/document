@@ -16,3 +16,6 @@ allowed-tags:
   - intent
   - parameter
   - entity
+  - demo
+  - test
+  - analytics
