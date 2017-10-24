@@ -51,7 +51,7 @@ Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각
 
 
 ### 챗봇 삭제
-챗봇 설정 화면의 하단에 있는 ***"Chatbot 삭제"***기능은 매우 조심해야 하는 기능입니다. 등록되어 있는 모든 학습데이터와 대응되는 답변 시나리오가 삭제됩니다.
+챗봇 설정 화면의 하단에 있는 ***"Chatbot 삭제"***기능은 매우 조심해야 하는 기능입니다. 등록되어 있는 모든 학습데이터와 대응되는 답변 시나리오가 삭제됩니다. ***매우 매우 조심하시기 바랍니다!***
 
 
 ## 대화 서비스 만들기
@@ -61,11 +61,14 @@ Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각
 
 ### 사용자의 의도를 포함한 표현을 등록하라!
 의도를 인식하기 위해서는 의도 추론(Intent)메뉴에서 사용자의 의도가 담겨있는 다양한 표현을 등록해야 합니다.
+좌측 메뉴에 아래 경로의 화면을 호출합니다.
 
- {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
-**의도 추론(이하 Intent)**란, 입력 문장이 어떤 의도인지 분류하기 위한 기준입니다.<br/>
+{% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
 
-{% include image.html file="chatbot_create\05_Intent생성.PNG" max-width="900" caption="챗봇 기본정보 변경 화면" %}
+Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"Intent 생성"***버튼을 클릭합니다.
+
+{% include image.html file="chatbot_create\sample_sentence.gif" max-width="900" caption="인텐트별 예문 등록" %}
+
 
 
 ### 다음으로 할 일
