@@ -11,7 +11,7 @@ previous: {
     url: personality_settings.html
 }
 next: {
-    title: 대화 로그 관리,
+    title: 대화 이력 관리,
     url: log.html
 }
 ---

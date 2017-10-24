@@ -15,3 +15,8 @@ allowed-tags:
   - mobile
   - intent
   - parameter
+  - entity
+  - simulation
+  - test
+  - analytics
+  - log
