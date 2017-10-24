@@ -1,5 +1,5 @@
 ---
-title: 대화 로그 관리
+title: 대화 이력 관리
 tags: []
 keywords: Basic Conversation
 summary: 대화 로그 관리
@@ -11,7 +11,7 @@ previous: {
     url: synonym.html
 }
 next: {
-    title: 데모 및 테스트 패널,
+    title: 테스트 패널 및 시뮬레이션,
     url: demo_n_test_panel.html
 }
 ---

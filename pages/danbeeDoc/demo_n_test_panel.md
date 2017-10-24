@@ -1,13 +1,13 @@
 ---
-title: 데모 및 테스트 패널
-tags: [demo, test, analytics]
+title: 테스트 패널 및 시뮬레이션
+tags: [simulation, test, analytics]
 keywords: Basic Conversation
-summary: 데모 및 테스트 패널을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
+summary: 테스트 패널 및 시뮬레이션을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: demo_n_test_panel.html
 folder: danbeeDoc
 previous: {
-    title: 대화 로그 관리,
+    title: 대화 이력 관리,
     url: log.html
 }
 next: {
@@ -89,9 +89,9 @@ Chatflow 테스트 패널 하단에 노출되는 정보는 다음과 같습니�
 
 이와 같이 테스트 패널을 잘 활용한다면 보다 쉽게 자연스러운 대화를 만들 수 있을 것입니다.
 
-## 데모
-{% include callout.html content="화면 위치 : [DEMO]" type="default" %}
+## 시뮬레이션
+{% include callout.html content="화면 위치 : [시뮬레이션(Simulation)]" type="default" %}
 
-{% include image.html file="test_panel_n_demo/DEMO.png" max-width="900" caption="데모" %}
+{% include image.html file="test_panel_n_demo/DEMO.png" max-width="900" caption="시뮬레이션" %}
 
-데모 화면에서는 웰컴 메세지부터 시작하여 실제로 챗봇이 어떻게 대답하는지 확인하실 수 있습니다.
+시뮬레이션 화면에서는 웰컴 메세지부터 시작하여 실제로 챗봇이 어떻게 대답하는지 확인하실 수 있습니다.

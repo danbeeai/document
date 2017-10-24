@@ -16,6 +16,6 @@ allowed-tags:
   - intent
   - parameter
   - entity
-  - demo
+  - simulation
   - test
   - analytics
