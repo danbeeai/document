@@ -19,3 +19,4 @@ allowed-tags:
   - simulation
   - test
   - analytics
+  - log
