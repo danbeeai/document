@@ -66,8 +66,19 @@ Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각
 {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
 
 Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"Intent 생성"***버튼을 클릭합니다.
+챗봇이 인식할 인텐트명을 입력하고, 해당 인텐트로 해석될 수 있는 표현을 입력하고 엔터키를 누릅니다.
+"만남 인사"로 해석될 수 있는 표현은, "안녕" "반가워" "방가방가" "하이" 등이 될 수 있겠네요.
 
-{% include image.html file="chatbot_create\sample_sentence.gif" max-width="900" caption="인텐트별 예문 등록" %}
+{% include image.html file="chatbot_create\06_sample_sentence.gif" max-width="900" caption="인텐트별 예문 등록" %}
+
+예문을 등록하고 나서는 우측 상단의 "저장" 버튼을 클릭하여 저장합니다.
+저장하고 나면, 바로 오른쪽 테스트 패널에서 테스트가 가능합니다.
+
+{% include image.html file="chatbot_create\07_intent_test.gif" max-width="900" caption="인텐트 분류 테스트" %}
+{% include image.html file="chatbot_create\08_intent_test_babara.gif" max-width="900" caption="인텐트 분류 테스트" %}
+
+안녕 이라고 테스트 해보면, Intent Candidate에 "만남 인사"로 100% 신뢰도로 추론된다는 결과가 나옵니다.
+
 
 
 
