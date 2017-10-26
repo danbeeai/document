@@ -29,10 +29,13 @@ Slot 노드에서는 사용자가 물어본 문장에서 ‘내일’ 이라는 
 
 Slot 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](Chatflow_slot.html#기본정보)
-- [질문 설정] 설정](Chatflow_slot.html#질문 설정)
+- [질문 설정](Chatflow_slot.html#질문 설정)
 
 
 ### 기본정보
 
+{% include image.html file="chatflow/Chatflow_slot_basic.png" max-width="900" caption="Slot노드 기본정보" %}
 
 ### 질문 설정
+
+{% include image.html file="chatflow/Chatflow_slot_question.png" max-width="900" caption="질문 설정" %}
