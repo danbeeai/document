@@ -1,6 +1,6 @@
 ---
 title: 의도 관리
-tags: [intent, parameter]
+tags: [intent, parameter, nlu]
 keywords: Basic Conversation
 summary: Intent를 통하여 입력 문장을 어떤 의도로 분류할 것인가를 설정할 수 있습니다.
 sidebar: danbee_doc_sidebar

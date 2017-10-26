@@ -1,6 +1,6 @@
 ---
 title: 테스트 패널 및 시뮬레이션
-tags: [simulation, test, analytics]
+tags: [simulation, test, analytics, nlu, chatflow]
 keywords: Basic Conversation
 summary: 테스트 패널 및 시뮬레이션을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
 sidebar: danbee_doc_sidebar
