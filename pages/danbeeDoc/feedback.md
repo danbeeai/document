@@ -1,8 +1,8 @@
 ---
 title: 사용자 의견 보내기
-tags: []
+tags: [feedback]
 keywords: Basic Conversation
-summary: 사용자 의견 보내기
+summary: 화면 어디에서든 쉽게 의견을 보낼 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: feedback.html
 folder: danbeeDoc
@@ -14,9 +14,12 @@ previous: {
 
 ## 사용자 의견 보내기
 
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
+### danbee.Ai 개선에 참여하세요
+사용자 의견 보내기를 통해 쉽게 의견을 보낼 수 있습니다. 아래 하단의 의견 보내기 버튼을 클릭하고,
 
-### 1. 뭐넣을까요?
+{% include image.html file="feedback/feedback_01.PNG" max-width="900" caption="의견 보내기" %}
 
-Ruby has a number of plugins referred to as "gems." Just because you have Ruby doesn't mean you have all the necessary Ruby gems that your program needs to run. Gems provide additional functionality for Ruby programs. There are thousands of [Rubygems](https://rubygems.org/) available for you to use.
+<br/>
 
+설명을 입력한 뒤, 문제 혹은 개선 사항 화면을 캡쳐하여 첨부한 뒤 전송을 클릭하여 직접 의견을 보내세요.
+{% include image.html file="feedback/feedback_02.PNG" max-width="900"%}
