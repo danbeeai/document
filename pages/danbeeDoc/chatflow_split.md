@@ -18,7 +18,7 @@ next: {
 
 ## Split 노드
 
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
+Split 노드는 입력된 메시지 및 파라미터 조건에 따라 대화의 흐름을 분기 시켜주는 노드입니다. Split 노드에서 분기할 노드를 추가하기 위해선 연결한 노드가 미리 추가되어있고 노드들은 연결선으로 Split 노드와 연결되어 있어야 합니다. Split 노드와 연결된 노드만 분기할 노드로 선택할 수 있습니다.
 
 ### 2.3.1. 리슨 노드
 

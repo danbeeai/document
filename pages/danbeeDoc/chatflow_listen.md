@@ -18,7 +18,9 @@ next: {
 
 ## Listen 노드
 
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
+Listen 노드는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫 번째 노드입니다. Listen 노드가 없으면 대화흐름은 어떤 의도를 기반으로 어떤 질문들을 해야 할지 파악할 수 없는 필수 노드입니다.
+Listen 노드는 예문 패턴이 등록된 인텐트와 매핑함으로써 예문 패턴과 일치할 때 해당 Listen 노드가 대화 흐름을 시작하게 됩니다.
+
 
 ### 2.3.1. 리슨 노드
 
