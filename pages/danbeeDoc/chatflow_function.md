@@ -20,3 +20,18 @@ next: {
 
 챗봇의 대화 흐름 진행 과정에서 여러 파라미터들이 사용되는데, 경우에 따라서는 파라미터 문자열을 가공한다던가 날짜, 숫자 계산이 필요한 경우가 있습니다. 
 Function 노드에서는 자바스크립트 문법을 사용하여 이러한 파라미터 데이터를 가공처리 할 수 있는 기능을 제공합니다. 
+
+
+Function 노드는 2개의 상세 화면으로 구성됩니다.
+- [기본정보](Chatflow_function.html#기본정보)
+- [Script 연결](Chatflow_function.html#Script 연결)
+
+
+
+### 기본정보
+
+{% include image.html file="chatflow/Chatflow_function_basic.png" max-width="900" caption="Function노드 기본정보" %}
+
+### Script 정보
+
+{% include image.html file="chatflow/Chatflow_function_script.png" max-width="900" caption="Function노드 Script" %}

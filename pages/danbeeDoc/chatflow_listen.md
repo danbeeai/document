@@ -24,13 +24,22 @@ Listen 노드가 없으면 대화흐름은 어떤 의도를 기반으로 어떤 
 매핑된 인텐트의 예문 패턴이 일치할 때 해당 Listen 노드가 대화 흐름을 시작하게 됩니다.
 
 
+
 Listen 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_listen.html#기본 정보)
+- [기본정보](Chatflow_listen.html#기본정보)
 - [인텐트 연결](Chatflow_listen.html#인텐트 연결)
 
 
-## 기본 정보
+### 기본정보
+
+{% include image.html file="chatflow/Chatflow_listen_basic.png" max-width="900" caption="Listen노드 기본정보" %}
 
 
-## 인텐트 연결
+### 인텐트 연결
+
+{% include image.html file="chatflow/Chatflow_listen_select.png" max-width="900" caption="인텐트 선택" %}
+
+{% include image.html file="chatflow/Chatflow_listen_intent.png" max-width="900" caption="인텐트 탭" %}
+
+{% include image.html file="chatflow/Chatflow_listen_parameter.png" max-width="900" caption="파라미터 탭" %}
 

@@ -25,3 +25,17 @@ Speak 노드 내에서 메시지 조건을 설정하여 다양한 답변하는 �
 그리고 Speak 노드에서 사용자의 의도 질문에 한가지로만 답하는 식상한 챗봇이 아닌 같은 대답을 다양한 표현으로 친근감을 제공하기 위한 랜덤 메시지 기능을 제공 합니다. 
 챗봇이 연달아 메시지 답변을 하고자 할 경우에는 Speak 노드를 연이어 배치하면 됩니다. 
 
+
+Speak 노드는 2개의 상세 화면으로 구성됩니다.
+- [기본정보](Chatflow_speak.html#기본정보)
+- [메시지 설정](Chatflow_speak.html#메시지 설정)
+
+
+### 기본정보
+
+{% include image.html file="chatflow/Chatflow_speak_basic.png" max-width="900" caption="Speak노드 기본정보" %}
+
+
+### 메시지 설정
+
+{% include image.html file="chatflow/Chatflow_speak_message.png" max-width="900" caption="메시지 설정" %}
