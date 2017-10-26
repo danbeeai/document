@@ -20,3 +20,5 @@ allowed-tags:
   - test
   - analytics
   - log
+  - nlu
+  - chatflow
