@@ -27,6 +27,10 @@ next: {
  - [API 수정]
 
 ### 1. API 조회 
+API를 등록한 테넌트 별 선택 조회가 가능합니다. 기본 검색 조건은 [모든 테넌트] 입니다. 테넌트 선택 버튼 클릭시 테넌트를 선택할 수 있는 팝업창이 조회됩니다. 
+{% include image.html file="external_API/api_filter_search.PNG" max-width="900" caption="테넌트 조회 선택" %} 
+{% include image.html file="external_API/api_find_tenant.PNG" max-width="900" caption="테넌트 조회" %} 
+
 ### 2. API 등록 
 단비 운영진에, 신규 API를 등록 요청 할 수 있는 기능입니다. <br/>
 {% include image.html file="external_API/api_register.PNG" max-width="900" caption="API등록" %} 
@@ -36,18 +40,23 @@ next: {
 예시 ) danbee 가입 여부 조회  
 {% include image.html file="external_API/api_enroll_desc.PNG" max-width="900" caption="API설명" %} 
 #### API 메서드 / Request URL
- - 메서드 : 현재 API 메서드는 REST로 fix 되어있습니다. 
+메서드는 클라이언트와 danbee.ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
+  <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
+ - 메서드 : 현재 API 메서드는 REST로 고정 되어있습니다. 
  - Request URL : 등록 요청할 API의 URL을 입력합니다. <br/>
     예시 ) Rest, http://api.openweathermap.org/data/2.5/weather   
 {% include image.html file="external_API/api_enroll_method.PNG" max-width="900" caption="API메서드" %} 
     
 #### Content Type
-현재 API Content Type은 는 JSON으로 fix 되어있습니다.   
+Content Type 은 danbee.Ai 서버로 넘길 내용의 유형을 의미합니다. 현재 API Content Type은 는 JSON으로 fix 되어있습니다.   
 {% include image.html file="external_API/api_enroll_conType.PNG" max-width="900" caption="Content Type" %} 
 
 #### 요청 Parameter
-단비 측에서, API에 전송할 parameter명과 값을 설정 및 입력합니다. 요청 parameter 추가시 요청 parameter 입력 테이블 우측 상단의 **+ 요청 Parameter 추가** 버튼을 클릭합니다. 
+danbee.Ai 측에서, API에 전송할 parameter명과 값을 설정 및 입력합니다. 요청 parameter 추가시 요청 parameter 입력 테이블 우측 상단의 **+ 요청 Parameter 추가** 버튼을 클릭합니다. 
 {% include image.html file="external_API/api_enroll_param1.PNG" max-width="900" caption="요청 Parameter" %} 
+
+#### Response API Tree
+API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니다. 실패시 아무런 데이터가 조회되지 않습니다. 
 
 #### 실행
 parameter 입력 후, **실행** 버튼을 클릭해, Response API Tree에서 API 적용 실행 결과를 확인할 수 있습니다. 
@@ -57,6 +66,7 @@ parameter 입력 후, **실행** 버튼을 클릭해, Response API Tree에서 AP
 {% include image.html file="external_API/api_enroll_paramComplete.PNG" max-width="900" caption="요청 Parameter 입력 완료 예시" %} 
 #### 저장
 API 정보 정상 입력 후 **저장** 버튼을 클릭해, API 등록 정보를 저장합니다. 
+성공시 
 
 #### 취소
 {% include callout.html content="위치 : [Administrator] - [API 관리] - [API클릭] - [더보기]- [취소]" type="default" %}
@@ -68,4 +78,5 @@ API 상세 조회 화면 우측 상단에, **수정** 버튼이 조회 됩니다
 API 수정 입력 절차는 API 등록 절차와 같습니다. 
 
 ### 4. API 사용
-등록된  API는 API 노드에서 조회 및 사용 가능 합니다.
+등록된  API는 chatflow 설계의 API 노드에서 조회 및 사용 가능 합니다.
+{% include image.html file="external_API/cf_api_node.PNG" max-width="900" caption="요청 Parameter 입력 완료 예시" %} 
