@@ -5,6 +5,8 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/danbeeai/document
+    - title: Pricing
+      url: /pricing.html
     - title: Document
       url: /index.html
     - title: Tutorial
