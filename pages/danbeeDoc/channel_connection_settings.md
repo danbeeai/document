@@ -31,7 +31,7 @@ next: {
             </div>
             <div class="panel-body">
                 <h4>danbee.Frogue</h4>
-                <p>Danbee.Ai 플랫폼에서 사용자와 연결하십시오.</p>
+                <p>danbee.Ai 플랫폼에서 제공하는 웹채팅창, Frogue에서 제작한 챗봇이 동작합니다.</p>
                 <a href="channel_frogu.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -46,7 +46,7 @@ next: {
             </div>
             <div class="panel-body">
                 <h4>Native App</h4>
-                <p>자체 채널과 Danbee.Ai서비스를 연결하십시오.</p>
+                <p>직접만든 App이나Web연결하는 방법을 소개합니다.</p>
                 <a href="channel_native_app.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -67,7 +67,7 @@ next: {
                 </span>
             </div>
             <div class="panel-body">
-                <h4>Facebook</h4>
+                <h4>페이스북</h4>
                 <p>페이스북 메신저 플랫폼에서 사용자와 연결하십시오.</p>
                 <a href="channel_facebook.html" class="btn btn-primary">자세히</a>
             </div>
@@ -81,7 +81,7 @@ next: {
                 </span>
             </div>
             <div class="panel-body">
-                <h4>LINE</h4>
+                <h4>네이버 라인</h4>
                 <p>라인 메신저 플랫폼에서 사용자와 연결하십시오.</p>
                 <a href="channel_line.html" class="btn btn-primary">자세히</a>
             </div>
@@ -95,7 +95,7 @@ next: {
                 </span>
             </div>
             <div class="panel-body">
-                <h4>Telegram</h4>
+                <h4>텔레그램</h4>
                 <p>텔레그램 메신저 플랫폼에서 사용자와 연결하십시오.</p>
                 <a href="channel_telegram.html" class="btn btn-primary">자세히</a>
             </div>
@@ -109,7 +109,7 @@ next: {
                 </span>
             </div>
             <div class="panel-body">
-                <h4>KakaoTalk</h4>
+                <h4></h4>
                 <p>카카오톡 메신저 플랫폼에서 사용자와 연결하십시오.</p>
                 <a href="channel_kakaotalk.html" class="btn btn-primary">자세히</a>
             </div>
