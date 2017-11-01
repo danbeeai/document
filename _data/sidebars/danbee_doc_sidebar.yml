@@ -108,7 +108,7 @@ entries:
       - title: 외부 채널 설정
         output: web, pdf
         subfolderitems:    
-        - title: 프로그(단비자체웹채널)
+        - title: Frogue(자체웹채널)
           url: /channel_frogu.html
           output: web, pdf
 
@@ -116,19 +116,19 @@ entries:
           url: /channel_native_app.html
           output: web, pdf
 
-        - title: 페이스북
+        - title: Facebook
           url: /channel_facebook.html
           output: web, pdf
 
-        - title: 라인
+        - title: LINE
           url: /channel_line.html
           output: web, pdf
 
-        - title: 텔레그램
+        - title: Telegram
           url: /channel_telegram.html
           output: web, pdf
 
-        - title: 카카오톡
+        - title: KakaoTalk
           url: /channel_kakaotalk.html
           output: web, pdf
 
