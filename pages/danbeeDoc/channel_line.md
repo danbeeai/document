@@ -70,10 +70,15 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
 Messaging settings 의 Webhook URL로 스크롤하여 Danbee.Ai에서 복사 한 URL 을 입력하십시오. 
 확인 버튼을 클릭하여 테스트가 완료되면 녹색 확인 아이콘이 표시됩니다.<figure><img class="docimage" src="images/channel/line/line_channel_webhook_setting.png" alt="line channel url setting" style="max-width: 800px"></figure>
 
+### LINE 채널 자동 대답 설정 변경 
+<span style="color:#f69023;">[LINE developers](https://developers.line.me/en/){:target="_blank"}</span> 페이지로 돌아가서 
+Using LINE@ features 의 Auto-reply messages을 disabled 처리합니다.
+최초 방문시 메시지인 Greeting messages 설정도 disabled 처리합니다.<figure><img class="docimage" src="images/channel/line/line_channel_features_setting.png" alt="line channel url setting" style="max-width: 800px"></figure>
+
 ### LINE 앱 테스트
 챗봇을 테스트하려면 LINE 앱의 기본 화면에서 3개의 수평점을 누릅니다. 
 그런 다음 친구추가 아이콘을 클릭 하여 QR 코드 아이콘을 탭하고 채널의 설정 페이지에서 QR 코드를 스캔하십시오.<figure><img class="docimage" src="images/channel/line/line_app_add_chatbot.png" alt="line app add chatbot" style="max-width: 800px"></figure>
-또는 <span style="color:#f69023;">[LINE 비즈니스 센터](http://at.line.me/ko){:target="_blank"}</span>에 LINE@ MANAGER 계약정보 > 등록정보에 LINE ID로 검색하여 친구추가를 합니다.<figure><img class="docimage" src="images/channel/line/line_app_add_chatbot_id.png" alt="line app add chatbot" style="max-width: 800px"></figure>
-그러면 대화 탭에 대화 친구가 추가됩니다.
+그리고 <span style="color:#f69023;">[LINE 비즈니스 센터](http://at.line.me/ko){:target="_blank"}</span>에 LINE@ MANAGER 계약정보 > 등록정보에 LINE ID로 검색하여 친구추가를 합니다.<figure><img class="docimage" src="images/channel/line/line_app_add_chatbot_id.png" alt="line app add chatbot" style="max-width: 800px"></figure>
+그러면 해당 앱의 관리자가 친구가 추가됩니다.
 
 
