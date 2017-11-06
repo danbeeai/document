@@ -29,8 +29,8 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
 
 
 ### LINE 봇 만들기
-1. LINE 모바일 앱에서 설정> 계정> 이메일 계정 등록으로 이동하여 계정을 만듭니다.
-2. 브라우저에서 <span style="color:#f69023;">[LINE 비즈니스 센터](http://at.line.me/ko){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/line/line_bizcenter_homepage.png" alt="LINE 비즈니스 센터" style="max-width: 800px"></figure>
+1. LINE 모바일 앱에서 설정> 계정> 이메일 계정 등록으로 이동하여 계정을 만듭니다. (이미 E-mail이 등록되어 있다면 할필요가 없습니다.)
+2. 브라우저에서 <span style="color:#f69023;">[LINE 비즈니스 센터](http://at.line.me/ko/){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/line/line_bizcenter_homepage.png" alt="LINE 비즈니스 센터" style="max-width: 800px"></figure>
 3. LINE@ 계정(일반계정)을 생성 후 관리화면에 로그인 합니다. (휴대기기에 LINE앱에서 본인확인 절차 필요)
 4. LINE@ MANAGER에서 계정 리스트를 확인 합니다.
 5. 브라우저에서 <span style="color:#f69023;">[LINE developers](https://developers.line.me/en/){:target="_blank"}</span>에 접속하여 개발자 계정을 등록하십시오.<figure><img class="docimage" src="images/channel/line/line_developers_homepage.png" alt="LINE developers" style="max-width: 800px"></figure>
