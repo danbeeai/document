@@ -58,3 +58,6 @@ Speak 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 {% include image.html file="chatflow/Chatflow_speak_paramSlot.png" max-width="900" caption="Slot 노드 설정" %}
 
 {% include image.html file="chatflow/Chatflow_speak_paramSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+
+
+{% include image.html file="chatflow/Chatflow_speak_paramTest.png" max-width="900" caption="변수값 표시 테스트" %}
