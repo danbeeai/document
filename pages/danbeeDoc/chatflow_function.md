@@ -55,7 +55,7 @@ test = 10;
 {% include image.html file="chatflow/Chatflow_function_script01.png" max-width="900" caption="Function노드 Script" %}
 
 
-### 샘플 시나리오 (랜덤 테스트)
+### 샘플 시나리오 (랜덤 분기 테스트)
 
 Function 노드에 Javascript 함수를 활용하여 랜덤으로 Speak 노드를 실행하도록 샘플 시나리오를 설정해 보겠습니다. 
 해당 시나리오는 Function 노드에서 0 ~ 2 에 한정한 랜덤 수를 발생하여 randomNum 변수(Parameter)에 값을 저장하게 되고 Split 노드에서 randomNum 값을 기준으로
