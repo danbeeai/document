@@ -48,3 +48,13 @@ Speak 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 {% include image.html file="chatflow/Chatflow_speak_randomCanvas.png" max-width="900" caption="기본 메시지 랜덤 설정" %}
 
 {% include image.html file="chatflow/Chatflow_speak_random.png" max-width="900" caption="기본 메시지 랜덤 설정" %}
+
+### 샘플 시나리오 (변수값 표시)
+
+{% include image.html file="chatflow/Chatflow_speak_paramCanvas.png" max-width="900" caption="변수값 표시 시나리오" %}
+
+{% include image.html file="chatflow/Chatflow_speak_paramListen.png" max-width="900" caption="Listen 노드 설정" %}
+
+{% include image.html file="chatflow/Chatflow_speak_paramSlot.png" max-width="900" caption="Slot 노드 설정" %}
+
+{% include image.html file="chatflow/Chatflow_speak_paramSpeak.png" max-width="900" caption="Speak 노드 설정" %}
