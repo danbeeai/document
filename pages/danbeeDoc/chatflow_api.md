@@ -36,8 +36,22 @@ Api 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입
 
 ### API 설정
 
+- [요청 Parameter](Chatflow_api.html#요청 Parameter)
+- [출력 Parameter](Chatflow_api.html#출력 Parameter)
+
 {% include image.html file="chatflow/Chatflow_api_select.png" max-width="900" caption="API 선택" %}
+
+#### 요청 Parameter
 
 {% include image.html file="chatflow/Chatflow_api_input.png" max-width="900" caption="API노드 요청 Parameters" %}
 
+#### 출력 Parameter
+
 {% include image.html file="chatflow/Chatflow_api_output.png" max-width="900" caption="API노드 출력 Parameters" %}
+
+
+### 샘플 시나리오 (오늘 날씨 어때?)
+
+오늘 날씨에 대한 의도를 파악하고 API노드를 통해 '기상청'과 같이 날씨 컨텐츠를 제공하는 서비스와 연계를 하고 그 결과를 답변하는 시나리오로 구성되어 있습니다.
+
+{% include image.html file="chatflow/Chatflow_sample_weather.png" max-width="900" caption="샘플 시나리오(오늘날씨 어때?)" %}
