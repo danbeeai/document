@@ -43,7 +43,7 @@ Speak 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 
 {% include image.html file="chatflow/Chatflow_speak_message.png" max-width="900" caption="메시지 설정" %}
 
-### 샘플 시나리오 (랜덤 메시지 테스트)
+### 샘플 시나리오 (랜덤 메시지)
 
 {% include image.html file="chatflow/Chatflow_speak_randomCanvas.png" max-width="900" caption="기본 메시지 랜덤 설정" %}
 
