@@ -30,6 +30,8 @@ Split 노드는 2개의 상세 화면으로 구성됩니다.
 
 ### 기본정보
 
+Split 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입력합니다.
+
 {% include image.html file="chatflow/Chatflow_split_basic.png" max-width="900" caption="Split노드 기본정보" %}
 
 ### 분리조건 설정
