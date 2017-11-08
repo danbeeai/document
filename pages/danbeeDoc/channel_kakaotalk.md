@@ -51,5 +51,5 @@ KakaoTalk 채널 연계 설정을 하려면 다음이 필요합니다.
 5. API형 시작하기 버튼을 눌러 서비스를 시작합니다. <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apistart.png" alt="API형 시작하기" style="max-width: 800px"></figure>
 
 ## KakaoTalk 앱 테스트
-* 챗봇을 테스트하려면 KakaoTalk앱에서 플러스친구를 검색하여 테스트할수 있습니다.
+* 챗봇을 테스트하려면 KakaoTalk앱에서 플러스친구를 검색하여 테스트할수 있습니다.<figure><img class="docimage" src="images/channel/kakao/kakao_app_add_chatbot.png" alt="line app add chatbot" style="max-width: 800px"></figure>
 
