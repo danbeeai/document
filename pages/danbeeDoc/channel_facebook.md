@@ -1,8 +1,8 @@
 ---
-title: 페이스북
-tags: []
+title: Facebook
+tags: [facebook,channel,messenger]
 keywords: Basic Conversation
-summary: 외부 채널 설정
+summary: Danbee.Ai의 Facebook 채널 연계 후 Danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 Facebook 챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_facebook.html
 folder: danbeeDoc
@@ -16,29 +16,47 @@ next: {
 }
 ---
 
-## 페이스북
+## Facebook 채널 연결 
+ {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
 
-Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
-### 3.2.1. 프로그(단비자체웹채널)
+### Facebook 설정
+Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 
-.
+* Facebook 계정
+* 챗봇을 추가 할 페이스북 페이지
+{% include note.html content="사용자가 페이스북 페이지에 방문하여 메시지를 보내면 챗봇과 대화하게 됩니다." %}
 
-### 3.2.2. 페이스북
 
-.
+### Facebook 앱 만들기
+1. 브라우저에서 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_homepage.png" alt="Facebook for developers" style="max-width: 800px"></figure>
+2. Facebook 계정으로 로그인 후 우측 상단의 내앱 > ***새앱 추가***를 클릭합니다.
+3. 표시이름과 연락처 이메일을 입력 후 앱ID를 만듭니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_appadd.png" alt="Facebook App Add" style="max-width: 800px"></figure>
+4. 제품중 Messenger의 버튼을 클릭 하여 설정 페이지로 이동한다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_messenger_setting.png" alt="Facebook Messenger Set" style="max-width: 800px"></figure>
+5. 토큰 생성 영역의 페이지 선택을 클릭하여 챗봇을 추가할 페이스북 페이지를 선택합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_page_setting.png" alt="Facebook Page Set" style="max-width: 800px"></figure>
+6. 생성된 페이지 액세스 토큰은 Danbee.Ai 설정에 사용하므로 미리 기록해놓으십시오.
 
-### 3.2.3. 라인
+### Danbee.Ai 채널 연결 설정
+1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
+2. Facebook 타일 우측 상단에 설정 아이콘을 클릭하십시오.
+3. 다음 필드에 관련 값을 입력하십시오. 이전에 기록한 페이지 엑세스 토큰도 함께 입력하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_danbee_setting.png" alt="danbee facebook channel setting" style="max-width: 800px"></figure>
+  * 콜백 URL : 채널 WEBHOOK URL ( 자동생성 )
+  * 확인 토큰 : 채널 WEBHOOK 확인 토큰 
+  * 페이지 엑세스 토큰 : 채널 액세스 토큰 
+4. 확인 토큰과 콜백 URL 복사하십시오. ( 확인토큰은 입력한 값을 함께 기록해놓으십시오 )
+5. 연결 버튼을 클릭하십시오.
+{% include note.html content="WEBHOOK URL은 자동생성 되므로 확인 토큰만 유지 관리하십시오." %}
 
-.
+### Facebook Webhook 설정 
+1. <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 돌아갑니다. 
+2. Webhooks 영역의 Webhooks 설정 버튼을 클릭하여 설정을 합니다. 
+3. 다음 필드에 관련 값을 입력하십시오. 입력 후 확인 및 저장버튼을 클릭합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
+  * 콜백 URL : Danbee.Ai에서 자동생성된 URL
+  * 확인 토큰 : Danbee.Ai에 입력한 확인 토큰 
+  * 받아보기 필드 : messages, messaging_postbacks, messaging_option 체크 
+4. 설정 페이지로 다시 들어오면 Webhooks가 "완료"상태 여야합니다. 그리고 이벤트를 받아볼 페이지를 선택 후 받아보기를 선택하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting1.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
 
-### 3.2.4. 텔레그램
-
-.
-
-### 3.2.5. 슬랙
-
-.
-
-### 3.2.6. 카카오톡
-.
+### Facebook Messenger 테스트
+1. 챗봇을 테스트하기 위해서는 앱을 공개해야합니다. 공개를 위해 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 이동합니다.
+2. 왼쪽 메뉴에서 앱검수를 클릭하시고 앱을 공개 설정합니다. 앱 카테고리를 선택하라는 메시지가 표시됩니다. 목록에서 Messenger 용 앱 선택 후 확인 버튼을 클릭하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_public.png" alt="facebook 공개 설정" style="max-width: 800px"></figure>
+3. 또한 페이지의 사용자 이름을 설정해야합니다. 챗봇 사용할 때 사용자가 채팅 할 챗봇 이름입니다. 챗봇 이름을 설정하려면 페이지의 프로필 사진과 제목 아래에있는 페이지 만들기 @사용자 이름 링크를 클릭하십시오 .
