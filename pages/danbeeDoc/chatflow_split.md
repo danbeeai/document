@@ -55,7 +55,7 @@ Split 노드는 다른 노드와 연결이 되어야 있어야 분기조건 설�
 
 {% include image.html file="chatflow/Chatflow_split_condition.png" max-width="900" caption="분기조건 설정" %}
 
-
+{% include warning.html content="입력된 값이 모든 조건에 부합하지 않을 경우는 분기를 하지 않고 오류가 발생하니, 조건을 꼼꼼히 체크하시기 바랍니다." %}
 
 ### 샘플 시나리오 (분기 테스트)
 
