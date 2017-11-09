@@ -34,7 +34,7 @@ Split 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 
 {% include image.html file="chatflow/Chatflow_split_basic.png" max-width="900" caption="Split노드 기본정보" %}
 
-### 분리조건 설정
+### 분리조건 설정 
 
 분기조건 설정에 부합할 경우 이동할 노드를 선택합니다. 
 
@@ -57,9 +57,15 @@ Split 노드는 다른 노드와 연결이 되어야 있어야 분기조건 설�
 
 ### 샘플 시나리오 (분기 테스트)
 
+Split 노드에서는 Listen 노드에 선언된 단어항목(parameter)들의 값을 메시지에 표시할 수 있습니다. 
+Split 노드는 분기 조건을 설정하여 해당하는 
+해당 시나리오는 'name' 변수값에 이름을 입력 받고 입력 받은 값을 메시지에 표시합니다.
+
 {% include image.html file="chatflow/Chatflow_split_sample.png" max-width="900" caption="분기 테스트 시나리오" %}
 
 {% include image.html file="chatflow/Chatflow_split_sampleSplit.png" max-width="900" caption="분기 설정" %}
 
-{% include image.html file="chatflow/Chatflow_split_sampleDemo.png" max-width="900" caption="분기 설정" %}
+'분기 테스트' 시나리오를 테스트해 보면 Split 노드에 부합하는 조건에 해당하는 Speak 노드가 호출되는 것을 확인할 수 있습니다. 
+
+{% include image.html file="chatflow/Chatflow_split_sampleDemo.png" max-width="900" caption="분기 테스트 결과" %}
 
