@@ -53,6 +53,7 @@ Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 
 테스트 예문을 입력하고 그에 따른 답변과 현재 진행되고 있는 상태 정보를 확인 할 수 있습니다.
 각각의 항목은 아래와 같은 정보를 의미합나다.
 
+{% include image.html file="chatflow/Chatflow_tester_module.png" max-width="900" caption="Chatflow Tester 항목" %}
 
 | 항목명 | 설명 | 
 |-------------------------|------------------------|
@@ -64,7 +65,7 @@ Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 
 | 의도추론 | 현재 대화에 대해 NLU가 파악한 의도 정보를 나타냅니다. |
 | 오류메시지 영역 | 대화 과정에서 발생하는 오류 정보가 표시됩니다. |
 
-{% include image.html file="chatflow/Chatflow_tester_module.png" max-width="900" caption="Chatflow Tester 항목" %}
+
 
 ### Chatflow 생성
 
