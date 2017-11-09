@@ -27,7 +27,7 @@ Slot Node는 Slot-filling 노드의 줄임말로 챗봇이 사용자의 의도�
 Slot 노드에서는 사용자가 물어본 문장에서 ‘내일’ 이라는 일자와 ‘A회의실’ 이라는 장소 정보가 있기 때문에 굳이 ‘일자’ 와 ‘장소’ 정보를 되물을 필요가 없기 때문에 Slot 노드에서는 부족한 정보 참여자, 시간 정보만을 되묻게 됩니다. 
 
 
-Slot 노드는 2개의 상세 화면으로 구성됩니다.
+Slot 노드는 2개의 상세 화면으로 구성됩니다.  
 - [기본정보](Chatflow_slot.html#기본정보)
 - [질문 설정](Chatflow_slot.html#질문 설정)
 
@@ -72,22 +72,22 @@ Slot 노드는 질문하고자하는 항목 변수의 값이 이미 있는 경�
 Slot 노드에서는 Listen 노드에 선언된 단어항목(parameter)들에 한해 값을 물어보기 위한 설정을 할 수 있습니다.
 해당 시나리오는 'name' 변수값에 이름을 입력 받고 입력 받은 값을 메시지에 표시합니다.
 
-{% include image.html file="chatflow/Chatflow_speak_paramCanvas.png" max-width="900" caption="변수값 물어보기 시나리오" %}
+{% include image.html file="chatflow/Chatflow_slot_sampleCanvas.png" max-width="900" caption="변수값 물어보기 시나리오" %}
 
 Listen 노드에 'name' 변수를 다음과 같이 선언합니다.
 
-{% include image.html file="chatflow/Chatflow_speak_paramListen.png" max-width="900" caption="Listen 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_slot_sampleListen.png" max-width="900" caption="Listen 노드 설정" %}
 
 Slot 노드에서는 'name' 값을 입력 받기 위해 다음과 변수를 지정하고 질문 메시지를 등록합니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_paramSlot.png" max-width="900" caption="Slot 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_slot_sampleSlot.png" max-width="900" caption="Slot 노드 설정" %}
 
 Speak 노드에서는 답변 메시지를 입력할때 변수 값을 표시하고 싶은 경우 #{변수명} 과 같이 표시하면 됩니다. 
 해당 시나리오 실행시에는 #{변수명} 은 변수값으로 치환되어 보여지게 됩니다.
 
-{% include image.html file="chatflow/Chatflow_speak_paramSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_slot_sampleSpeak.png" max-width="900" caption="Speak 노드 설정" %}
 
 '변수값 표시' 시나리오를 테스트해 보면 Speak 노드에 입력된 메시시 중에 변수처리 된 부분은 #{name} 은 입력 받은 값이 치환되어 다음과 같은 결과가 나오게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_paramTest.png" max-width="900" caption="변수값 표시 테스트" %}
+{% include image.html file="chatflow/Chatflow_slot_sampleTest.png" max-width="900" caption="변수값 표시 테스트" %}
 
