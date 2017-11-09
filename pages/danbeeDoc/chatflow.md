@@ -93,6 +93,9 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 
 {% include image.html file="chatflow/Chatflow_design.png" max-width="900" caption="Chatflow canvas" %}
 
+
+{% include warning.html content="Chatflow 저장을 하지 않고 다른 화면으로 이동하면 입력되었던 작업은 사라지게 되니 유의하시기 바랍니다. " %}
+
 ### 샘플 시나리오 (야식주문)
 
 대화노드를 설명하는데 있어 "야식 주문" 시나리오 샘플로 Chatflow 노드를 배치해 보겠습니다.
