@@ -27,7 +27,7 @@ next: {
 
 ### 유의어 추가
 
-**유의어 추가**는 입력 단어가 해당 대표어로 검색되길 원하는 단어를 의미합니다. DANBEE.AI는 입력 단어가 의미하는 대표어를 찾습니다. 예를 들어 사용자가 입력한 문장 중 '스벅' 이라는 단어를 입력하였을때 '스타벅스' 라는 대표어를 검색하게 됩니다.<br/>
+**유의어 추가**는 입력 단어가 해당 대표어로 검색되길 원하는 단어를 의미합니다. danbee.Ai는 입력 단어가 의미하는 대표어를 찾습니다. 예를 들어 사용자가 입력한 문장 중 '스벅' 이라는 단어를 입력하였을때 '스타벅스' 라는 대표어를 검색하게 됩니다.<br/>
 
 {% include image.html file="synonym/synonym_add_01.png" max-width="900" caption="유의어 추가" %} 
 {% include image.html file="synonym/synonym_add_02.png" max-width="900" caption="유의어 저장" %} 

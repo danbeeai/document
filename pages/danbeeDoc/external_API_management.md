@@ -40,7 +40,7 @@ API를 등록한 테넌트 별 선택 조회가 가능합니다. 기본 검색 �
 예시 ) danbee 가입 여부 조회  
 {% include image.html file="external_API/api_enroll_desc.PNG" max-width="900" caption="API설명" %} 
 #### API 메서드 / Request URL
-메서드는 클라이언트와 danbee.ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
+메서드는 클라이언트와 danbee.Ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
   <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
  - 메서드 : 현재 API 메서드는 REST로 고정 되어있습니다. 
  - Request URL : 등록 요청할 API의 URL을 입력합니다. <br/>

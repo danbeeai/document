@@ -4,7 +4,7 @@ keywords: 챗봇 만들기, 챗봇이란? 챗봇은 어떻게 만드나요?
 tags: [getting_started]
 sidebar: danbee_doc_sidebar
 permalink: index.html
-summary: DANBEE.AI 기본 개념
+summary: danbee.Ai 기본 개념
 next: {
     title: 간단한 챗봇 만들어보기,
     url: basic_create_chatbot.html

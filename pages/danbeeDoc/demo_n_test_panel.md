@@ -20,7 +20,7 @@ next: {
 
 {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도추론(Intent)]/[단어추출(Entity)] & [대화흐름(CHATFLOW)] > [대화흐름 목록(Chatflow List)] 우측" type="default" %}
 
-DANBEE.AI에서는 지금까지 등록한 정보가 시스템에서 어떻게 인식되는지 테스트할 수 있도록 테스트 패널을 제공하고 있습니다. 테스트 패널은 총 2가지 종류가 제공됩니다.
+danbee.Ai에서는 지금까지 등록한 정보가 시스템에서 어떻게 인식되는지 테스트할 수 있도록 테스트 패널을 제공하고 있습니다. 테스트 패널은 총 2가지 종류가 제공됩니다.
 
 - [NLU Intent 테스트 패널](demo_n_test_panel.html#nlu-intent-테스트-패널)
 - [Chatflow 테스트 패널](demo_n_test_panel.html#chatflow-테스트-패널)
