@@ -40,9 +40,16 @@ Slot 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 {% include image.html file="chatflow/Chatflow_slot_basic.png" max-width="900" caption="Slot노드 기본정보" %}
 
 ### 질문 설정
-
+ 
 질문을 물어볼 경우에는 질문 대상과 대상에 대한 메시지가 있어야 합니다. 
 질문설정 탭에서는 질문 대상을 Parameter로 지정할 수 있으며, 사용자가 질문에 대한 답변을 할 경우에 지정된 Parameter에 값이 저장되게 됩니다. 
+
+Slot 노드는 질문하고자하는 항목 변수의 값이 이미 있는 경우에는 해당 질문을 하지 않습니다. 
+변수의 값이 없는 경우에만 질문을 하여 중복 질문을 하지 않도록 설계되어 있습니다. 
+그러나 변수 값이 있는 경우라도 재확인 차원에서도 질문을 해야하는 경우가 필요할 때는 '무조건 물어보기' 설정을 체크하면 됩니다. 
+
+{% include image.html file="chatflow/Chatflow_slot_question.png" max-width="900" caption="질문 설정" %}
+
 질문을 메시지 형태로 물어볼 수도 있겠지만 사용자에게 선택지 옵션을 제공함으로써 사용자 편의성을 제공할 수 있습니다.
 선택지 옵션은 일부 '단비' 엔진에서 처리하는 선택지 옵션과 채널(Web, 스마트폰, IoT디바이스)에서 옵션정보를 활용하여 처리해야하는 항목들로 구성되어 있고
 그 항목들은 다음과 같습니다. 
@@ -56,6 +63,5 @@ Slot 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 | 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
 | Chatflow호출 | 다른 Chatflow를 호출합니다. |
 
-{% include image.html file="chatflow/Chatflow_slot_option.png" max-width="900" caption="질문 설정" %}
+{% include image.html file="chatflow/Chatflow_slot_option.png" max-width="900" caption="선택지 설정" %}
 
-{% include image.html file="chatflow/Chatflow_slot_question.png" max-width="900" caption="질문 설정" %}
