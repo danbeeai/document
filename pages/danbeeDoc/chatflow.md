@@ -43,6 +43,29 @@ Chatflow는 이러한 대화 과정에서 필요한 기본적인 듣고, 말하�
 {% include image.html file="chatflow/Chatflow_list.png" max-width="900" caption="Chatflow list" %}
 
 
+### Chatflow Tester
+
+Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 사전에 테스트할 수 있습니다. 
+
+{% include image.html file="chatflow/Chatflow_tester_layout.png" max-width="900" caption="Chatflow Tester 영역" %}
+
+
+테스트 예문을 입력하고 그에 따른 답변과 현재 진행되고 있는 상태 정보를 확인 할 수 있습니다.
+각각의 항목은 아래와 같은 정보를 의미합나다.
+
+
+| 항목명 | 설명 | 
+|-------------------------|------------------------|
+| 세션 | '대화세션아이디'의 줄임말으로 대화를 시작해서 끝날 때까지의 대화를 식별하기 위한 정보입니다. |
+| 대화흐름 | 하나의 단일 시나리오를 의미하는 'Chatflow'를 식별할 수 있는 아이디 정보 입니다.  |
+| 인스턴스 | 'ChatflowInstance'의 줄임말로 'Chatflow' 단위로 이야기를 진행할때 인스턴스 단위로 발급되는 식별 아이디 입니다. |
+| 노드 | 'Chatflow' 안에 사용된 노드에서 현재 진행 중인 노드의 아이디를 나타냅니다. |
+| 파라메터 | Slot, Carousel 노드 처럼 챗봇이 되물어 보고자 하는 대상 변수 정보를 나타냅니다. |
+| 의도추론 | 현재 대화에 대해 NLU가 파악한 의도 정보를 나타냅니다. |
+| 오류메시지 영역 | 대화 과정에서 발생하는 오류 정보가 표시됩니다. |
+
+{% include image.html file="chatflow/Chatflow_tester_module.png" max-width="900" caption="Chatflow Tester 항목" %}
+
 ### Chatflow 생성
 
 
