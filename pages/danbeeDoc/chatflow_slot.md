@@ -63,5 +63,5 @@ Slot 노드는 질문하고자하는 항목 변수의 값이 이미 있는 경�
 | 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
 | Chatflow호출 | 다른 Chatflow를 호출합니다. |
 
-{% include image.html file="chatflow/Chatflow_slot_option.png" max-width="900" caption="선택지 설정" %}
+{% include image.html file="chatflow/Chatflow_slot_option.png" max-width="900" caption="Slot 선택지 설정" %}
 
