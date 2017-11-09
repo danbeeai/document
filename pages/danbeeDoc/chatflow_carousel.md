@@ -24,7 +24,7 @@ Slot 노드는 하나의 노드에 여러 개의 질문지를 제시할 수 있�
 
 Corousel 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](Chatflow_carousel.html#기본 정보)
-- [메시지 카드 설정] 설정](Chatflow_carousel.html#메시지 카드 설정)
+- [메시지 카드 설정](Chatflow_carousel.html#메시지 카드 설정)
 
 {% include image.html file="chatflow/Chatflow_carousel_cavas.png" max-width="900" caption="Carousel 노드" %}
 
