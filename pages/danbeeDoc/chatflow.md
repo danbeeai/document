@@ -77,4 +77,7 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 
 {% include image.html file="chatflow/Chatflow_sample.png" max-width="900" caption="샘플 시나리오(야식주문)" %}
 
+야식주문 시나리오는 '야식 먹고 싶다'라는 이야기에 챗봇이 야식 종류(치킨, 피자)와 그에 따른 선택지(치킨종류, 피자크기)를 묻는 대화가 진행됩니다.
+
+{% include image.html file="chatflow/Chatflow_sample_test.png" max-width="900" caption="야식주문 테스트 결과" %}
  
