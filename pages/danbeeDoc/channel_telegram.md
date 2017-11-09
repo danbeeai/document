@@ -2,7 +2,7 @@
 title: Telegram
 tags: [telegram,channel,messenger]
 keywords: Basic Conversation
-summary: Danbee.Ai의 Telegram 채널 연계 후 Danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 Telegram 챗봇을 쉽게 만들 수 있습니다.
+summary: danbee.Ai의 Telegram 채널 연계 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 Telegram 챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_telegram.html
 folder: danbeeDoc
@@ -33,7 +33,7 @@ Telegram 채널 연계 설정을 하려면 다음이 필요합니다.
 5. 봇이름을 입력합니다. 봇이름은 bot로 끝나야 합니다.(예:Namebot)
 6. BotFather(봇 아버지)가 생성해준 액세스 토큰을 기록해 놓습니다.<figure><img class="docimage" src="images/channel/telegram/telegram_web_newbot.png" alt="telegram 봇 만들기" style="max-width: 800px"></figure>
 
-### Danbee.Ai 채널 연결 설정
+### danbee.Ai 채널 연결 설정
 1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
 2. Telegram 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/telegram/telegram_danbee_setting.png" alt="danbee line channel setting" style="max-width: 800px"></figure>

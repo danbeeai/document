@@ -2,7 +2,7 @@
 title: Facebook
 tags: [facebook,channel,messenger]
 keywords: Basic Conversation
-summary: Danbee.Ai의 Facebook 채널 연계 후 Danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 Facebook 챗봇을 쉽게 만들 수 있습니다.
+summary: danbee.Ai의 Facebook 채널 연계 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 Facebook 챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_facebook.html
 folder: danbeeDoc
@@ -34,9 +34,9 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 3. 표시이름과 연락처 이메일을 입력 후 앱ID를 만듭니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_appadd.png" alt="Facebook App Add" style="max-width: 800px"></figure>
 4. 제품중 Messenger의 버튼을 클릭 하여 설정 페이지로 이동한다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_messenger_setting.png" alt="Facebook Messenger Set" style="max-width: 800px"></figure>
 5. 토큰 생성 영역의 페이지 선택을 클릭하여 챗봇을 추가할 페이스북 페이지를 선택합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_page_setting.png" alt="Facebook Page Set" style="max-width: 800px"></figure>
-6. 생성된 페이지 액세스 토큰은 Danbee.Ai 설정에 사용하므로 미리 기록해놓으십시오.
+6. 생성된 페이지 액세스 토큰은 danbee.Ai 설정에 사용하므로 미리 기록해놓으십시오.
 
-### Danbee.Ai 채널 연결 설정
+### danbee.Ai 채널 연결 설정
 1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
 2. Facebook 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오. 이전에 기록한 페이지 엑세스 토큰도 함께 입력하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_danbee_setting.png" alt="danbee facebook channel setting" style="max-width: 800px"></figure>
@@ -51,8 +51,8 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 1. <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 돌아갑니다. 
 2. Webhooks 영역의 Webhooks 설정 버튼을 클릭하여 설정을 합니다. 
 3. 다음 필드에 관련 값을 입력하십시오. 입력 후 확인 및 저장버튼을 클릭합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
-  * 콜백 URL : Danbee.Ai에서 자동생성된 URL
-  * 확인 토큰 : Danbee.Ai에 입력한 확인 토큰 
+  * 콜백 URL : danbee.Ai에서 자동생성된 URL
+  * 확인 토큰 : danbee.Ai에 입력한 확인 토큰 
   * 받아보기 필드 : messages, messaging_postbacks, messaging_option 체크 
 4. 설정 페이지로 다시 들어오면 Webhooks가 "완료"상태 여야합니다. 그리고 이벤트를 받아볼 페이지를 선택 후 받아보기를 선택하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting1.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
 

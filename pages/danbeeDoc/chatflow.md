@@ -22,7 +22,7 @@ next: {
 
 처음에 인사를 하고 안부를 묻고 둘 사이의 관심사 등에 대해서 서로 이야기를 진행해 나가듯이 대화 과정에서 하나하나의 이야기 단위들이 (인사, 날씨문의, 취미 등) 모여 대화의 흐름을 구성하게 됩니다. 
 
-여기에서 그 하나하나의 이야기 단위를 Danbee.Ai 에서는 Chatflow 라는 이야기 단위로 명명을 하고 있습니다. 
+여기에서 그 하나하나의 이야기 단위를 danbee.Ai 에서는 Chatflow 라는 이야기 단위로 명명을 하고 있습니다. 
 대화할 때에는 상대방의 이야기를 듣고 대답하는 것이 기본일 것입니다. Chatflow에서도 챗봇이 사람과 대화하는데 있어서 말귀를 알아 듣고 (Listen 노드) 대답 (Speak 노드) 하는 기본 방식으로 구성이 되어 있습니다. 
 
 대화 과정에서 확인해야 할 사항이 있다면 되묻는 질문을 할 수 도 있겠고, 상대방의 답변에 대해 논리적으로 판단하여 대화의 흐름을 달리 이야기해야 할 경우도 있을 것입니다. 
@@ -41,6 +41,30 @@ Chatflow는 이러한 대화 과정에서 필요한 기본적인 듣고, 말하�
 
 
 {% include image.html file="chatflow/Chatflow_list.png" max-width="900" caption="Chatflow list" %}
+
+
+### Chatflow Tester
+
+Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 사전에 테스트할 수 있습니다. 
+
+{% include image.html file="chatflow/Chatflow_tester_layout.png" max-width="900" caption="Chatflow Tester 영역" %}
+
+
+테스트 예문을 입력하고 그에 따른 답변과 현재 진행되고 있는 상태 정보를 확인 할 수 있습니다.
+각각의 항목은 아래와 같은 정보를 의미합나다.
+
+{% include image.html file="chatflow/Chatflow_tester_module.png" max-width="900" caption="Chatflow Tester 항목" %}
+
+| 항목명 | 설명 | 
+|-------------------------|------------------------|
+| 세션 | '대화세션아이디'의 줄임말으로 대화를 시작해서 끝날 때까지의 대화를 식별하기 위한 정보입니다. |
+| 대화흐름 | 하나의 단일 시나리오를 의미하는 'Chatflow'를 식별할 수 있는 아이디 정보 입니다.  |
+| 인스턴스 | 'ChatflowInstance'의 줄임말로 'Chatflow' 단위로 이야기를 진행할때 인스턴스 단위로 발급되는 식별 아이디 입니다. |
+| 노드 | 'Chatflow' 안에 사용된 노드에서 현재 진행 중인 노드의 아이디를 나타냅니다. |
+| 파라메터 | Slot, Carousel 노드 처럼 챗봇이 되물어 보고자 하는 대상 변수 정보를 나타냅니다. |
+| 의도추론 | 현재 대화에 대해 NLU가 파악한 의도 정보를 나타냅니다. |
+| 오류메시지 영역 | 대화 과정에서 발생하는 오류 정보가 표시됩니다. |
+
 
 
 ### Chatflow 생성
@@ -69,6 +93,18 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 
 
 {% include image.html file="chatflow/Chatflow_design.png" max-width="900" caption="Chatflow canvas" %}
+
+### Chatflow 저장
+
+Chatflow 설계하고 나서 [Chatflow 저장] 버튼을 클릭을 하면 해당 내용이 서버에 반영됩니다. 
+Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simulation) 에서 테스트해 볼 수 있습니다.
+
+{% include image.html file="chatflow/Chatflow_save.png" max-width="900" caption="Chatflow 저장" %}
+
+
+
+
+{% include warning.html content="Chatflow 저장을 하지 않고 다른 화면으로 이동하면 입력되었던 작업은 사라지게 되니 유의하시기 바랍니다. " %}
 
 ### 샘플 시나리오 (야식주문)
 

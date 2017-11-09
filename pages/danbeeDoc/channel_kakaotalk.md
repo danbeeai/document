@@ -2,7 +2,7 @@
 title: 카카오톡
 tags: [kakaotalk,kakao,channel,messenger]
 keywords: Basic Conversation
-summary: Danbee.Ai의 KakaoTalk 채널 연계 후 Danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 KakaoTalk 챗봇을 쉽게 만들 수 있습니다.
+summary: danbee.Ai의 KakaoTalk 채널 연계 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 KakaoTalk 챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_kakaotalk.html
 folder: danbeeDoc
@@ -19,7 +19,7 @@ next: {
 ## KakaoTalk 채널 연결 
  {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
 
-## Danbee.Ai 채널 연결 설정
+## danbee.Ai 채널 연결 설정
 1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
 2. Kakao Talk 타일 우측 상단에 설정 아이콘을 클릭하십시오.<figure><img class="docimage" src="images/channel/kakao/kakao_danbee_setting.png" alt="카카오 셋팅" style="max-width: 800px"></figure>
 3. 앱 URL 복사하십시오.
@@ -46,7 +46,7 @@ KakaoTalk 채널 연계 설정을 하려면 다음이 필요합니다.
 ## KakaoTalk 스마트채팅 앱 만들기 
 1. 스마트채팅의 API형으로 앱을 등록합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_app1.png" alt="API형 추가" style="max-width: 800px"></figure>
 2. API형으로 앱 정보 입력 <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_app2.png" alt="API형 정보입력" style="max-width: 800px"></figure>
-3. Danbee.Ai 설정에서 복사한 앱 URL을 입력한 후 API 테스트를합니다.
+3. danbee.Ai 설정에서 복사한 앱 URL을 입력한 후 API 테스트를합니다.
 4. 개인정보 수집 및 이용에 동의, 전화번호 를 등록하여 알림설정을 한 후 API형을 저장합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apisetting.png" alt="API형 정보입력" style="max-width: 800px"></figure>
 5. API형 시작하기 버튼을 눌러 서비스를 시작합니다. <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apistart.png" alt="API형 시작하기" style="max-width: 800px"></figure>
 

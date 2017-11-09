@@ -25,7 +25,7 @@ Entity의 종류에는 크게 2가지가 있습니다.
 - [사용자정의 ENtity](entity.html#사용자정의-entity)
 
 ### 시스템 Entity
-**시스템 Entity**는 DANBEE.AI에서 기본적으로 제공하는 Entity를 의미합니다. DANBEE.AI에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
+**시스템 Entity**는 danbee.Ai에서 기본적으로 제공하는 Entity를 의미합니다. danbee.Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
 - [날짜 Entity : sys.year, sys.month, sys.date](entity.html#날짜-entity)
 - [확인 Entity : sys.confirm](entity.html#확인-entity)
 - [일반 Entity : sys.any](entity.html#일반-entity)
@@ -97,7 +97,7 @@ Entity 등록/수정에는 다음과 같은 제약사항이 존재합니다.
 
 ## 엔티티(Entity) 업로드/다운로드
 
-DANBEE.AI는 편의 기능의 일종으로 사용자정의Entity 업로드/다운로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+danbee.Ai는 편의 기능의 일종으로 사용자정의Entity 업로드/다운로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
@@ -166,7 +166,7 @@ Entry2,"ref2_1,ref2_2"
 샘플 파일을 다운로드 받으셔서 해당 파일을 업로드 해서 결과를 확인해보세요.
 
 ### 다운로드
-생성한 Entity를 CSV 파일로 다운로드 받으실 수 있습니다. DANBEE.AI는 챗봇 별 전체 Entity 다운로드 기능과 Entity 별 단건 다운로드 기능을 제공하고 있습니다.
+생성한 Entity를 CSV 파일로 다운로드 받으실 수 있습니다. danbee.Ai는 챗봇 별 전체 Entity 다운로드 기능과 Entity 별 단건 다운로드 기능을 제공하고 있습니다.
 
 #### 단건 다운로드
 {% include callout.html content="버튼 위치 : [자연어이해(NLU)] > [단어추출(Entity)] > 특정 Entity 선택 > [더보기] > [Entity 다운]" type="default" %}

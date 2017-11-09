@@ -3,10 +3,10 @@ repository: danbeeai/document
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: DANBEE.AI Doc
+topnav_title: danbee.Ai Doc
 # this appears on the top navigation bar next to the home button
 
-site_title: DANBEE.AI Doc
+site_title: danbee.Ai Doc
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Cowabunga Ent.
@@ -35,9 +35,9 @@ exclude:
   - .gitignore
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: DANBEE.AI Documentation
+feedback_subject_line: danbee.Ai Documentation
 
-feedback_email: danbee.ai@gmail.com
+feedback_email: danbee.Ai@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar
 
 # feedback_disable: true
@@ -112,4 +112,4 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://danbee.ai
+url: http://danbee.Ai

@@ -12,7 +12,7 @@ folder: danbeeDoc
 
 Jekyll runs on Ruby, a programming language. You have to have Ruby on your computer in order to run Ruby-based programs like Jekyll. Ruby is installed on the Mac by default, but you must add it to Windows.
 
-### 3.2.1. 프로그(단비자체웹채널)
+### 3.2.1. 프로그(단비에이아이웹채널)
 
 .
 

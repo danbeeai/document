@@ -27,7 +27,7 @@ next: {
 
 ### 사용자 입력 예문
 
-**사용자 입력 예문**은 입력 문장 중 해당 Intent로 구분되길 원하는 문장을 의미합니다. DANBEE.AI는 입력 문장과 동일하거나 가장 비슷한 예문을 가지고 있는 Intent를 찾게 됩니다. 예를 들어 사용자가 '안녕'이라는 말을 했을 때 봇이 '인사'로 알아듣길 원한다면 '인사' Intent에 '안녕'이라는 사용자 입력 예문을 추가하시면 됩니다.<br/>
+**사용자 입력 예문**은 입력 문장 중 해당 Intent로 구분되길 원하는 문장을 의미합니다. danbee.Ai는 입력 문장과 동일하거나 가장 비슷한 예문을 가지고 있는 Intent를 찾게 됩니다. 예를 들어 사용자가 '안녕'이라는 말을 했을 때 봇이 '인사'로 알아듣길 원한다면 '인사' Intent에 '안녕'이라는 사용자 입력 예문을 추가하시면 됩니다.<br/>
 
 {% include image.html file="intent/Intent_input_sentence.PNG" max-width="900" caption="사용자 입력 예문 추가" %} 
 
@@ -106,7 +106,7 @@ Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] �
 
 #### 특수 Parameter
 
-DANBEE.AI에서는 다음과 같은 특수한 Parameter를 제공하고 있습니다.
+danbee.Ai에서는 다음과 같은 특수한 Parameter를 제공하고 있습니다.
 
 | Parameter명 | Entity | 기능 |
 |-------------|-------------|-------------|
@@ -159,7 +159,7 @@ Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa
 
 ## 의도(Intent) 업로드/다운로드
 
-DANBEE.AI는 편의 기능의 일종으로 Intent 업로드/다운로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+danbee.Ai는 편의 기능의 일종으로 Intent 업로드/다운로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
@@ -236,7 +236,7 @@ Parameter명,@Entity명
 샘플 파일을 다운로드 받으셔서 해당 파일을 업로드 해서 결과를 확인해보세요.
 
 ### 다운로드
-생성한 Intent를 CSV 파일로 다운로드 받으실 수 있습니다. DANBEE.AI는 챗봇 별 전체 Intent 다운로드 기능과 Intent 별 단건 다운로드 기능을 제공하고 있습니다.
+생성한 Intent를 CSV 파일로 다운로드 받으실 수 있습니다. danbee.Ai는 챗봇 별 전체 Intent 다운로드 기능과 Intent 별 단건 다운로드 기능을 제공하고 있습니다.
 
 #### 단건 다운로드
 {% include callout.html content="버튼 위치 : [자연어이해(NLU)] > [의도 추론(Intent)] > 특정 Intent 선택 > [더보기] > [Intent 다운]" type="default" %}

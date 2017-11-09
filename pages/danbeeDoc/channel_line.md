@@ -2,7 +2,7 @@
 title: LINE
 tags: [line,channel,messenger]
 keywords: Basic Conversation
-summary: Danbee.Ai의 LINE 채널 연계 후 Danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 LINE 챗봇을 쉽게 만들 수 있습니다.
+summary: danbee.Ai의 LINE 채널 연계 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 LINE 챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_line.html
 folder: danbeeDoc
@@ -55,7 +55,7 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
   * Channel secret : 채널 비밀번호
   * Channel access token : 채널 액세스 토큰
 
-### Danbee.Ai 채널 연결 설정
+### danbee.Ai 채널 연결 설정
 1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
 2. LINE 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/line/line_danbee_setting.png" alt="danbee line channel setting" style="max-width: 800px"></figure>
@@ -67,7 +67,7 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
 
 ### LINE 채널 연계 정보 설정 수정 
 <span style="color:#f69023;">[LINE developers](https://developers.line.me/en/){:target="_blank"}</span> 페이지로 돌아가서 
-Messaging settings 의 Webhook URL로 스크롤하여 Danbee.Ai에서 복사 한 URL 을 입력하십시오. 
+Messaging settings 의 Webhook URL로 스크롤하여 danbee.Ai에서 복사 한 URL 을 입력하십시오. 
 확인 버튼을 클릭하여 테스트가 완료되면 녹색 확인 아이콘이 표시됩니다.<figure><img class="docimage" src="images/channel/line/line_channel_webhook_setting.png" alt="line channel url setting" style="max-width: 800px"></figure>
 
 ### LINE 채널 자동 대답 설정 변경 

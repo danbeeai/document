@@ -2,12 +2,12 @@
 title: Native App(API)
 tags: [api,channel,messenger]
 keywords: Basic Conversation
-summary:  Danbee.Ai의 API를 활용하여  챗봇을 쉽게 만들 수 있습니다.
+summary:  danbee.Ai의 API를 활용하여  챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc
 previous: {
-    title: 프로그(단비자체웹채널),
+    title: 프로그(단비에이아이웹채널),
     url: channel_frogu.html
 }
 next: {
@@ -17,7 +17,7 @@ next: {
 ---
 
 # Native App(API)
-채널에서 Danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명한다.
+채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명한다.
 
 ## Welcome 메시지 API
 대화 채널이 처음 사용자와 대화가 시작될때 챗봇이 먼저 인사를 하거나 메뉴 선택지를 제공하고자 할 경우 사용하는 API다.
@@ -26,7 +26,7 @@ next: {
 
 | Field | Infomation |
 |--------|--------|
-| URL | https://danbee.ai/chatflow/welcome.do |
+| URL | https://danbee.Ai/chatflow/welcome.do |
 | METOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
@@ -108,7 +108,7 @@ next: {
 
 | Field | Infomation |
 |--------|--------|
-| URL | https://danbee.ai/chatflow/engine.do |
+| URL | https://danbee.Ai/chatflow/engine.do |
 | METOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
