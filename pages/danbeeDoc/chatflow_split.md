@@ -60,3 +60,6 @@ Split 노드는 다른 노드와 연결이 되어야 있어야 분기조건 설�
 {% include image.html file="chatflow/Chatflow_split_sample.png" max-width="900" caption="분기 테스트 시나리오" %}
 
 {% include image.html file="chatflow/Chatflow_split_sampleSplit.png" max-width="900" caption="분기 설정" %}
+
+{% include image.html file="chatflow/Chatflow_split_sampleDemo.png" max-width="900" caption="분기 설정" %}
+
