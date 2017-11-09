@@ -1,6 +1,6 @@
 ---
 title: 카카오톡
-tags: [kakao,channel,messenger]
+tags: [kakaotalk,kakao,channel,messenger]
 keywords: Basic Conversation
 summary: Danbee.Ai의 KakaoTalk 채널 연계 후 Danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 KakaoTalk 챗봇을 쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
