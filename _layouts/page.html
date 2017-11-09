@@ -9,9 +9,9 @@ layout: default
 {% if page.simple_map == true %}
 
 <script>
-    $(document).ready ( function(){        
+    $(document).ready ( function(){
         $('.box{{page.box_number}}').addClass('active');
-    });    
+    });
 </script>
 
 {% include custom/{{page.map_name}}.html %}
@@ -68,14 +68,14 @@ layout: default
     </div>
 
 <ul class="posts posts--previous-next">
-  {% if page.previous %} 
+  {% if page.previous %}
     <li>
-      <h5 class="pagination-title"><a href="{{ page.previous.url }}">Prev : {{ page.previous.title }}</a></h5>
+      <h5 class="pagination-title"><a href="{{ page.previous.url }}"><i class="fa fa-angle-left" aria-hidden="true"></i> {{ page.previous.title }}</a></h5>
     </li>
   {% endif %}
-  {% if page.next %} 
+  {% if page.next %}
     <li>
-      <h5 class="pagination-title"><a href="{{ page.next.url }}">Next : {{ page.next.title }}</a></h5>
+      <h5 class="pagination-title"><a href="{{ page.next.url }}">{{ page.next.title }} <i class="fa fa-angle-right" aria-hidden="true"></i></a></h5>
     </li>
   {% endif %}
 </ul>
@@ -87,4 +87,3 @@ layout: default
 {{site.data.alerts.hr_shaded}}
 
 {% include footer.html %}
-
