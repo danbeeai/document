@@ -77,8 +77,4 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 
 {% include image.html file="chatflow/Chatflow_sample.png" max-width="900" caption="샘플 시나리오(야식주문)" %}
 
-### 샘플 시나리오 (오늘 날씨 어때?)
-
-오늘 날씨에 대한 의도를 파악하고 API노드를 통해 '기상청'과 같이 날씨 컨텐츠를 제공하는 서비스와 연계를 하고 그 결과를 답변하는 시나리오로 구성되어 있습니다.
-
-{% include image.html file="chatflow/Chatflow_sample_weather.png" max-width="900" caption="샘플 시나리오(오늘날씨 어때?)" %}
+ 
