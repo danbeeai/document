@@ -61,7 +61,8 @@ Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 
 | 인스턴스 | 'ChatflowInstance'의 줄임말로 'Chatflow' 단위로 이야기를 진행할때 인스턴스 단위로 발급되는 식별 아이디 입니다. |
 | 노드 | 'Chatflow' 안에 사용된 노드에서 현재 진행 중인 노드의 아이디를 나타냅니다. |
 | 파라메터 | Slot, Carousel 노드 처럼 챗봇이 되물어 보고자 하는 대상 변수 정보를 나타냅니다. |
-| 의도추론 | 현재 대화에 대해 NLU가 파악한 의도정보를 나타냅니다. |
+| 의도추론 | 현재 대화에 대해 NLU가 파악한 의도 정보를 나타냅니다. |
+| 오류메시지 영역 | 대화 과정에서 발생하는 오류 정보가 표시됩니다. |
 
 {% include image.html file="chatflow/Chatflow_tester_module.png" max-width="900" caption="Chatflow Tester 항목" %}
 
