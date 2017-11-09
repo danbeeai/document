@@ -104,4 +104,4 @@ Speak 노드에서는 답변 메시지를 입력할때 변수 값을 표시하�
 
 '변수값 표시' 시나리오를 테스트해 보면 Speak 노드에 입력된 메시시 중에 변수처리 된 부분은 #{name} 은 입력 받은 값이 치환되어 다음과 같은 결과가 나오게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_paramTest.png" max-width="900" caption="변수값 표시 테스트" %}
+{% include image.html file="chatflow/Chatflow_speak_paramTest.png" max-width="900" caption="변수값 표시 테스트 결과" %}
