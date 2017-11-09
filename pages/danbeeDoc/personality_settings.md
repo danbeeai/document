@@ -1,7 +1,7 @@
 ---
-title: 챗봇 성격 설정
-tags: [personality]
-keywords: Basic Conversation
+title: 기본 답변
+tags: [preference, general]
+keywords: General Conversation
 summary: 챗봇의 답변을 여러 상황에 맞춰 다르게 말할 수 있도록 설정할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: personality_settings.html
@@ -16,9 +16,9 @@ next: {
 }
 ---
 
-## 챗봇 성격 설정(Personality)
- {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [성격(Personality)]" type="default" %}
-**성격(이하 Personality)**란, 다음과 같은 상황에서 답변 내용을 설정할 수 있습니다. <br/>
+## 기본 답변 설정(General)
+ {% include callout.html content="화면 위치 : [설정(Preference)] > [기본답변(General)]" type="default" %}
+**기본 답변(이하 General)**란, 다음과 같은 상황에서 답변 내용을 설정할 수 있습니다. <br/>
 
 - [Welcome](personality_settings.html#Welcome)
 - [Reconfirm](personality_settings.html#Reconfirm)
@@ -35,7 +35,7 @@ next: {
 Chatflow를 해당 상황에서 단순한 메세지 대신 특정 챗플로우의 Listen 노드로 연결하여 다양한 인사말을 할 수 있습니다.
 {% include image.html file="personality/personality_welcome_03.PNG" max-width="900" caption="Chatflow Welcome Message" %}
 
-Welcome Message를 Chatflow로 설정하여 Welcome Chatflow의 Welcome Listen 노드로 설정하면 
+Welcome Message를 Chatflow로 설정하여 Welcome Chatflow의 Welcome Listen 노드로 설정하면
 {% include image.html file="personality/personality_welcome_04.PNG" max-width="900" caption="Welcome Chatflow" %}
 
 Speak 노드에 Random으로 메세지 보내기를 체크하면 처음 인사말에 해당 Speak 노드에 설정된 인사말이 랜덤으로 나가게 됩니다.
@@ -50,7 +50,7 @@ Speak 노드에 Random으로 메세지 보내기를 체크하면 처음 인사�
 
 ### Default Fallback
 #### Default
-**Default Fallback**은 사용자가 한 말의 Intent를 파악하지 못했을 때 챗봇이 하는 말로 설정한 NLU 답변설정 Minimum Percent 보다 Intent 매칭률이 작을 때 Default Fallback 메세지가 사용자에게 나가게 됩니다. 
+**Default Fallback**은 사용자가 한 말의 Intent를 파악하지 못했을 때 챗봇이 하는 말로 설정한 NLU 답변설정 Minimum Percent 보다 Intent 매칭률이 작을 때 Default Fallback 메세지가 사용자에게 나가게 됩니다.
 {% include image.html file="personality/personality_default_01.PNG" max-width="900" caption="Deafult Fallback Percent" %}
 
 #### Chatflow
