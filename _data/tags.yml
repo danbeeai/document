@@ -22,3 +22,13 @@ allowed-tags:
   - log
   - nlu
   - chatflow
+  - facebook
+  - kakaotalk
+  - kakao
+  - line
+  - telegram
+  - slack
+  - channel
+  - frogue
+  - messenger
+  - api
