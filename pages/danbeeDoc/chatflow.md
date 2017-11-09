@@ -93,6 +93,15 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 
 {% include image.html file="chatflow/Chatflow_design.png" max-width="900" caption="Chatflow canvas" %}
 
+### Chatflow 저장
+
+Chatflow 설계하고 나서 [Chatflow 저장] 버튼을 클릭을 하면 해당 내용이 서버에 반영됩니다. 
+Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simulation) 에서 테스트해 볼 수 있습니다.
+
+{% include image.html file="chatflow/Chatflow_save.png" max-width="900" caption="Chatflow 저장" %}
+
+
+
 
 {% include warning.html content="Chatflow 저장을 하지 않고 다른 화면으로 이동하면 입력되었던 작업은 사라지게 되니 유의하시기 바랍니다. " %}
 
