@@ -2,7 +2,7 @@
 title: Facebook
 tags: [facebook,channel,messenger]
 keywords: Basic Conversation
-summary: danbee.Ai의 Facebook 채널 연계 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 Facebook 챗봇을 쉽게 만들 수 있습니다.
+summary: 간단한 설정으로 Facebook Messenger에 연결할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_facebook.html
 folder: danbeeDoc

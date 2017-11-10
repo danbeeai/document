@@ -2,7 +2,7 @@
 title: Native App(API)
 tags: [api,channel,messenger]
 keywords: Basic Conversation
-summary:  danbee.Ai의 API를 활용하여  챗봇을 쉽게 만들 수 있습니다.
+summary:  danbee.Ai의 API를 활용하여 직접만든 대화채널에 연결할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc

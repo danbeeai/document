@@ -2,7 +2,7 @@
 title: Frogue(단비에이아이웹채널)
 tags: [frogue,channel,messenger]
 keywords: Basic Conversation
-summary: danbee.Ai의 간단한 설정 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 웹기반 챗봇을 쉽게 만들 수 있습니다.
+summary: 간단한 설정으로 danbee.Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_frogu.html
 folder: danbeeDoc

@@ -2,7 +2,7 @@
 title: LINE
 tags: [line,channel,messenger]
 keywords: Basic Conversation
-summary: danbee.Ai의 LINE 채널 연계 후 danbee.Ai의 자연어 이해(NLU)와 챗플로우 기능을 활용하여 LINE 챗봇을 쉽게 만들 수 있습니다.
+summary: 간단한 설정으로 네이버 라인에 연결할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_line.html
 folder: danbeeDoc
