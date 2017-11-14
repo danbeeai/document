@@ -87,7 +87,7 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 | [Speak 노드](chatflow_speak.html#Speak 노드) | 챗봇의 답변 메시지를 설정하는 노드입니다. |
 | [Slot 노드](chatflow_slot.html#Slot 노드) | 대화 과정에서 필요한 정보를 얻기 위해 되묻는 질문을 설정하는 노드입니다. |
 | [Split 노드](chatflow_split.html#Split 노드) | 대화 흐름을 분기하기 위해 정보를 설정하는 노드입니다. |
-| [Carousel 노드](chatflow_carousel.html#Corousel 노드) | 사용자에게 카스 형태로 선택지를 제시하는 노드입니다. |
+| [Carousel 노드](chatflow_carousel.html#Corousel 노드) | 사용자에게 카드 형태로 선택지를 제시하는 노드입니다. |
 | [Api 노드](chatflow_api.html#API 노드) | 다른 컨텐츠 서비스와 연계하여 정보를 얻기 위한 노드입니다. |
 | [Function 노드](chatflow_function.html#Function 노드) | 파라미터 정보를 가공 처리할 경우 사용하는 노드입니다. |
 
