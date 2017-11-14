@@ -107,6 +107,7 @@ Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] �
 #### 특수 Parameter
 
 danbee.Ai에서는 다음과 같은 특수한 Parameter를 제공하고 있습니다.
+(감성분석 기능은 제휴를 한 사용자를 대상으로만 서비스 됩니다.)
 
 | Parameter명 | Entity | 기능 |
 |-------------|-------------|-------------|
