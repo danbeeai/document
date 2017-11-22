@@ -26,7 +26,7 @@ next: {
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_danbee_l.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                    <img src="https://danbee.Ai/platform/img/channel/c_danbee.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
                 </span>
             </div>
             <div class="panel-body">
@@ -63,7 +63,7 @@ next: {
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_facebook_l.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                    <img src="https://danbee.Ai/platform/img/channel/c_facebook.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
                 </span>
             </div>
             <div class="panel-body">
@@ -77,7 +77,7 @@ next: {
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_line_l.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                    <img src="https://danbee.Ai/platform/img/channel/c_line.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
                 </span>
             </div>
             <div class="panel-body">
@@ -91,7 +91,7 @@ next: {
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_telegram_l.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                    <img src="https://danbee.Ai/platform/img/channel/c_telegram.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
                 </span>
             </div>
             <div class="panel-body">
@@ -105,7 +105,7 @@ next: {
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_kakaotalk_l.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                    <img src="https://danbee.Ai/platform/img/channel/c_kakaotalk.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
                 </span>
             </div>
             <div class="panel-body">
