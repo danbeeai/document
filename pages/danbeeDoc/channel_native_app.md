@@ -26,7 +26,7 @@ next: {
 
 | Field | Infomation |
 |--------|--------|
-| URL | https://danbee.Ai/chatflow/welcome.do |
+| URL | https://danbee.ai/chatflow/welcome.do |
 | METOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
@@ -108,7 +108,7 @@ next: {
 
 | Field | Infomation |
 |--------|--------|
-| URL | https://danbee.Ai/chatflow/engine.do |
+| URL | https://danbee.ai/chatflow/engine.do |
 | METOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
