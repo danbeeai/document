@@ -54,6 +54,7 @@ next: {
 | another_result | JSON Array  | No | NLU 에서 파악한 다른 의도 결과 |
 | result | JSON Array | No | 답변 메시지 결과 정보 |
 | parameters | JSON | No | 파라미터 정보 (내부 파라미터 정보가 표시됩니다)|
+| evaluate_setting | String | No | 채널 사용자 평가 문장 사용 여부 (제휴기능) |
 | emotions | JSON | No | 감정 정보 (감성정보 설정시에만 값이 표시됩니다)|
 | debugCode | String | No | 디버그 코드정보|
 | debugMsg | String | No | 디버그 메시지|
@@ -144,6 +145,7 @@ next: {
 | user_id | String | No | 사용자 아이디 |
 | input_sentence | String | No | 사용자 대화 문장 |
 | session_id | String | Yes | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
+| log_id | int | Yes | 챗봇 대화의 로그 아이디 ( 사용자 평가 시 사용 )  |
 | ins_id | String | Yes | 챗플로우 인스턴스 아이디 (챗플로우 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
 | intent_id | String | Yes | 인텐트 아이디 (Slot 노드, Carousel 노드에서 사용함) |
 | node_id | String | Yes | 노드 아이디 |
@@ -154,6 +156,7 @@ next: {
 | result | JSON Array | No | 답변 메시지 결과 정보 |
 | parameters | JSON | No | 파라미터 정보 (내부 파라미터 정보가 표시됩니다)|
 | emotions | JSON | No | 감정 정보 (감성정보 설정시에만 값이 표시됩니다)|
+| evaluate_setting | String | No | 채널 사용자 평가 문장 사용 여부 (제휴기능) |
 | debugCode | String | No | 디버그 코드정보|
 | debugMsg | String | No | 디버그 메시지|
 | resultStatus | JSON | No | 결과 상태정보|
@@ -221,3 +224,45 @@ next: {
 | 외부 App 실행 | outApp | 스마트폰에서 외부 App 실행을 하기 위한 정보를 설정합니다. |
 | Call (전화연결) | call | 스마트폰에서 전화연결을 하기 위한 정보를 설정합니다. |
 | Chatflow 호출 | callFlow | 다른 Chatflow 를 진행하기 위한 정보를 설정합니다. |
+ 
+
+## 사용자 대화 평가 API 
+대화 채널에서 챗봇 대화에 대해서 사용자 평가를 처리하는 API. 챗봇에 대답에 대해 약 7가지의 평가를 진행할 수 있다.
+ * like : 좋아요
+ * love : 사랑해요
+ * haha : 빵터짐
+ * yay : 흐믓해요
+ * wow : 놀라워요
+ * sad : 슬퍼요
+ * angry : 화나요
+ * bad   : 싫어요
+
+### 기본 정보
+
+| Field | Infomation |
+|--------|--------|
+| URL | https://danbee.ai/chatflow/evaluateMsg.do |
+| METOD | POST |
+| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+
+### REQUEST 정보 
+
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| log_id | int | Yes | 로그아이디 |
+| evaluate_flag | String | Yes | 평가 |
+
+### RESPONSE 정보
+
+| KEY | TYPE | Required | Description |
+|--------|--------|--------|--------|
+| code | String | Yes | 결과코드  |
+| result | JSON | No | 결과 |
+
+#### RESPONSE Object 정보
+* result Object
+
+| KEY | Description |
+|--------|--------|
+| log_id | 로그아이디 |
+| evaluate_flag | 평가 |
