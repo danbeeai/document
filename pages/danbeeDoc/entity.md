@@ -28,6 +28,7 @@ Entity의 종류에는 크게 2가지가 있습니다.
 **시스템 Entity**는 danbee.Ai에서 기본적으로 제공하는 Entity를 의미합니다. danbee.Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
 - [날짜 Entity : sys.year, sys.month, sys.date](entity.html#날짜-entity)
 - [확인 Entity : sys.confirm](entity.html#확인-entity)
+- [숫자 Entity : sys.number](entity.html#숫자-entity)
 - [일반 Entity : sys.any](entity.html#일반-entity)
 
 #### 날짜 Entity
@@ -57,6 +58,20 @@ Intent에 날짜 Entity 타입의 Parameter를 추가하고 날짜 지칭 단어
 {% include image.html file="entity/Entitiy_system_confirm.png" max-width="900" caption="sys.confirm 결과값 확인" %}
 
 위 예시와 같이 좋고 싫음 혹은 예, 아니요를 요구하는 질문에 대하여 돌아오는 대답에 따라 다른 반응을 보일 수 있도록 지정하는데 유용하게 활용할 수 있습니다.
+
+#### 숫자 Entity
+
+| Entity | 대표어(값) | 
+|--------|-------|
+| sys.number | 일(1),이(2), ..., 백(100), 천(1000) 등 |
+
+**숫자 Entity**는 숫자 표현을 구분합니다.
+
+{% include image.html file="entity/Entitiy_system_number01.png" max-width="900" caption="Parameter 추가 - sys.number Entity" %}
+
+{% include image.html file="entity/Entitiy_system_number02.png" max-width="900" caption="sys.number 결과값 확인" %}
+
+Intent에 숫자 Entity 타입의 Parameter를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. danbee.Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
 
 #### 일반 Entity
 

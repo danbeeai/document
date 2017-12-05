@@ -35,6 +35,7 @@ next: {
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
 | chatbot_id | String | Yes | 챗봇아이디 |
+| parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 
 ### RESPONSE 정보
 
