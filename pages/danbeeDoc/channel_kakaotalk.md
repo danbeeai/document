@@ -11,8 +11,8 @@ previous: {
     url: channel_telegram.html
 }
 next: {
-    title: API 관리,
-    url: external_API_management.html
+    title: 네이버톡톡,
+    url: channel_navertalk.html
 }
 ---
 

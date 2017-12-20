@@ -132,6 +132,11 @@ entries:
           url: /channel_kakaotalk.html
           output: web, pdf
 
+        - title: 네이버톡톡
+          url: /channel_navertalk.html
+          output: web, pdf
+          
+
         # - title: 슬랙
         #   url: /channel_slack.html
         #   output: web, pdf
