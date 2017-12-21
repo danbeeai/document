@@ -271,9 +271,9 @@ next: {
 
 #### RESPONSE resultStatus 유형
 
-| code | Description |
-|--------|--------|
-| 200 |  정상코드 |
+| Code | Description |
+|--------|--------------------------|
+| 200 | 정상코드 |
 | 201 | 여러가지 의도로 해석되는 경우 |
 | 400 | [NLU] 의도 파악이 안되었을 경우, EngineHandler 예외상황 |
 | 404 | [Chatflow] Intent에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
