@@ -270,6 +270,7 @@ next: {
 
 
 #### RESPONSE resultStatus 유형
+
 | code | Description |
 |--------|--------|
 | 200 |  정상코드 |
