@@ -27,7 +27,7 @@ next: {
 | Field | Infomation |
 |--------|--------|
 | URL | https://danbee.ai/chatflow/welcome.do |
-| METOD | POST |
+| METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
 ### REQUEST 정보 
@@ -111,7 +111,7 @@ next: {
 | Field | Infomation |
 |--------|--------|
 | URL | https://danbee.ai/chatflow/engine.do |
-| METOD | POST |
+| METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
 ### REQUEST 정보 
@@ -243,7 +243,7 @@ next: {
 | Field | Infomation |
 |--------|--------|
 | URL | https://danbee.ai/chatflow/evaluateMsg.do |
-| METOD | POST |
+| METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 
 ### REQUEST 정보 
