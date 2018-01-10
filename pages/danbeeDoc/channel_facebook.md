@@ -60,3 +60,38 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 1. 챗봇을 테스트하기 위해서는 앱을 공개해야합니다. 공개를 위해 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 이동합니다.
 2. 왼쪽 메뉴에서 앱검수를 클릭하시고 앱을 공개 설정합니다. 앱 카테고리를 선택하라는 메시지가 표시됩니다. 목록에서 Messenger 용 앱 선택 후 확인 버튼을 클릭하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_public.png" alt="facebook 공개 설정" style="max-width: 800px"></figure>
 3. 또한 페이지의 사용자 이름을 설정해야합니다. 챗봇 사용할 때 사용자가 채팅 할 챗봇 이름입니다. 챗봇 이름을 설정하려면 페이지의 프로필 사진과 제목 아래에있는 페이지 만들기 @사용자 이름 링크를 클릭하십시오 .
+
+## Facebook 고정메뉴
+{% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
+
+danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook 고정메뉴 설정 기능을 제공하고 있습니다.
+
+### Facebook 고정메뉴 설정
+
+고정메뉴는 채널 연결시 뜨는 팝업 하단 사용자 고정 메뉴 설정 블락에서 설정하실 수 있습니다.
+
+#### 메인 메뉴
+메인 메뉴는 최대 3개까지 설정이 가능하나 **'시작하기'** 및 **'danbee.Ai로 만든 봇'** 메뉴는 변경할 수 없습니다.<br/>
+
+{% include image.html file="channel/facebook/facebook_menu_setting_01.png" max-width="900" caption="Facebook 메인 메뉴 설정" %} 
+
+메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 챗플로우 호출, 서브메뉴가 존재합니다.
+
+| 메뉴 옵션 | 설명 | 
+|--------|-------|
+| 선택지 | 입력값을 호출합니다. |
+| Web Link | 팝업으로 호출할 Link 정보를 제공합니다. |
+| Chatflow호출 | 다른 Chatflow를 호출합니다. |
+| 서브메뉴 | 하위 메뉴를 설정합니다. |
+
+#### 서브 메뉴
+
+{% include image.html file="channel/facebook/facebook_menu_setting_02.png" max-width="900" caption="Facebook 서브 메뉴 설정" %} 
+
+메뉴 옵션에서 서브메뉴를 선택 시 'Edit Submenu'를 클릭하면 하위 메뉴를 설정할 수 있습니다. 서브 메뉴는 최대 2레벨, 각 레벨당 최대 5개의 메뉴를 지원합니다. 1레벨 서브 메뉴는 메인 메뉴와 동일한 옵션을 제공하며 2레벨 서브 메뉴는 서브메뉴 옵션을 제외한 나머지 옵션을 지원합니다.<br/>
+
+메뉴를 설정한 뒤 [연결]버튼을 누르면 해당 메뉴가 자동으로 Facebook Messanger에 세팅됩니다.
+
+{% include image.html file="channel/facebook/facebook_menu_setting_03.png" max-width="900" caption="Facebook Messenger 고정 메뉴 확인" %}
+
+{% include warning.html content="메뉴 적용 여부 확인 시 Facebook Messanger 대화창이 켜져있다면 나갔다 다시 접속해야 변경 사항을 확인할 수 있습니다." %}
