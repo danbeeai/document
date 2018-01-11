@@ -59,7 +59,7 @@ next: {
         간단한 설정으로 원하는 메신저와 연결하세요.<br/>
     </div>
     <div class="col-lg-12"><br/></div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
@@ -73,7 +73,7 @@ next: {
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
@@ -82,12 +82,12 @@ next: {
             </div>
             <div class="panel-body">
                 <h4>네이버 라인</h4>
-                <p>라인 메신저에 연결하는 방법</p>
+                <p>네이버 라인 메신저에 연결하는 방법</p>
                 <a href="channel_line.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
@@ -101,7 +101,7 @@ next: {
             </div>
         </div>
     </div>
-    <div class="col-md-3 col-sm-6">
+    <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
                 <span class="fa-stack fa-5x">
@@ -109,9 +109,23 @@ next: {
                 </span>
             </div>
             <div class="panel-body">
-                <h4></h4>
+                <h4>카카오톡</h4>
                 <p>카카오톡 메신저에 연결하는 방법</p>
                 <a href="channel_kakaotalk.html" class="btn btn-primary">자세히</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                    <img src="https://danbee.Ai/platform/img/channel/c_naver_talktalk.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                </span>
+            </div>
+            <div class="panel-body">
+                <h4>네이버톡톡</h4>
+                <p>네이버톡톡 메신저에 연결하는 방법</p>
+                <a href="channel_navertalk.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
     </div>
