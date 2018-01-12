@@ -1,6 +1,6 @@
 ---
 title: API 노드
-tags: []
+tags: [chatflow, API]
 keywords: Basic Conversation
 summary: Api 노드에 대한 이해와 설정하는 방법을 설명합니다.
 sidebar: danbee_doc_sidebar

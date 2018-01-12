@@ -41,7 +41,7 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 2. Facebook 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오. 이전에 기록한 페이지 엑세스 토큰도 함께 입력하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_danbee_setting.png" alt="danbee facebook channel setting" style="max-width: 800px"></figure>
   * 콜백 URL : 채널 WEBHOOK URL ( 자동생성 )
-  * 확인 토큰 : 채널 WEBHOOK 확인 토큰 
+  * 확인 토큰 : 채널 WEBHOOK 확인 토큰 - 사용자 임의 생성
   * 페이지 엑세스 토큰 : 채널 액세스 토큰 
 4. 확인 토큰과 콜백 URL 복사하십시오. ( 확인토큰은 입력한 값을 함께 기록해놓으십시오 )
 5. 연결 버튼을 클릭하십시오.
@@ -57,9 +57,32 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 4. 설정 페이지로 다시 들어오면 Webhooks가 "완료"상태 여야합니다. 그리고 이벤트를 받아볼 페이지를 선택 후 받아보기를 선택하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting1.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
 
 ### Facebook Messenger 테스트
-1. 챗봇을 테스트하기 위해서는 앱을 공개해야합니다. 공개를 위해 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 이동합니다.
-2. 왼쪽 메뉴에서 앱검수를 클릭하시고 앱을 공개 설정합니다. 앱 카테고리를 선택하라는 메시지가 표시됩니다. 목록에서 Messenger 용 앱 선택 후 확인 버튼을 클릭하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_public.png" alt="facebook 공개 설정" style="max-width: 800px"></figure>
-3. 또한 페이지의 사용자 이름을 설정해야합니다. 챗봇 사용할 때 사용자가 채팅 할 챗봇 이름입니다. 챗봇 이름을 설정하려면 페이지의 프로필 사진과 제목 아래에있는 페이지 만들기 @사용자 이름 링크를 클릭하십시오 .
+
+앱 테스트는 <span style="color:#f69023;">[Facebook Messenger](https://www.messenger.com){:target="_blank"}</span>에서 진행할 수 있습니다. 연결한 페이지 이름을 검색하여 테스트하십시오.
+
+{% include warning.html content="앱이 비공개일 경우 해당 앱에 역할이 부여된 계정만 해당 페이지를 검색할 수 있습니다." %}
+
+
+### Facebook 앱 공개
+
+모든 사람이 해당 챗봇을 사용할 수 있도록 만들기 위해서는 앱을 공개해야 합니다. 앱 공개를 위해서는 다음과 같은 과정이 선행되어야 합니다. 앱 공개를 위해서 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 이동합니다.
+
+1. 기본 설정 세팅<br/>
+  : Facebook 앱 관리 페이지의 **[설정] - [기본설정]**에서 다음 정보를 반드시 입력해야 합니다.
+  - 개인정보처리방침 URL
+  - 앱아이콘 : Facebook Messenger에서 대화시 노출되는 프로필 사진으로 1024x1024 해상도의 이미지만 등록할 수 있습니다.
+  - 카테고리 설정
+
+2. 페이지 사용자 이름 설정<br/>
+  : 챗봇 사용할 때 사용자가 채팅 할 챗봇 이름입니다. 챗봇 이름을 설정하려면 연결한 Facebook 페이지로 접속하여 프로필 사진과 제목 아래에있는 **페이지@사용자 이름 만들기** 링크를 클릭하십시오.
+
+3. 메신저 사용을 위한 검수 사항 제출<br/>
+  : 기본 설정 항목을 모두 입력하셨다면 메신저 앱 사용을 위한 검수 사항을 제출하여야 합니다.<br/>
+  Facebook 앱 관리 페이지의 **[Messenger] - [설정]**에 들어가서 하단으로 내려보시면 [Messenger의 앱 검수] 블럭이 존재합니다. 해당 블럭에서 **pages_messaging** 우측 [제출에 추가] 버튼을 클릭하시면 해당 사항에 대하여 검수를 받으실 수 있습니다.
+
+3. 앱 공개<br/>
+  : [앱 검수]메뉴에서 앱 공개를 '예'로 변경합니다. 검수가 완료되면 모드 사용자가 해당 앱을 사용할 수 있습니다. 
+
 
 ## Facebook 고정메뉴
 {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
@@ -95,3 +118,6 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 {% include image.html file="channel/facebook/facebook_menu_setting_03.png" max-width="900" caption="Facebook Messenger 고정 메뉴 확인" %}
 
 {% include warning.html content="메뉴 적용 여부 확인 시 Facebook Messanger 대화창이 켜져있다면 나갔다 다시 접속해야 변경 사항을 확인할 수 있습니다." %}
+
+
+
