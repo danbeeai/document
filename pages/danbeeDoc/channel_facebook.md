@@ -57,9 +57,11 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 4. 설정 페이지로 다시 들어오면 Webhooks가 "완료"상태 여야합니다. 그리고 이벤트를 받아볼 페이지를 선택 후 받아보기를 선택하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting1.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
 
 ### Facebook Messenger 테스트
+
 앱 테스트는 <span style="color:#f69023;">[Facebook Messenger](https://www.messenger.com){:target="_blank"}</span>에서 진행할 수 있습니다. 연결한 페이지 이름을 검색하여 테스트하십시오.
 
 {% include warning.html content="앱이 비공개일 경우 해당 앱에 역할이 부여된 계정만 해당 페이지를 검색할 수 있습니다." %}
+
 
 ### Facebook 앱 공개
 
@@ -80,4 +82,42 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 
 3. 앱 공개<br/>
   : [앱 검수]메뉴에서 앱 공개를 '예'로 변경합니다. 검수가 완료되면 모드 사용자가 해당 앱을 사용할 수 있습니다. 
+
+
+## Facebook 고정메뉴
+{% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
+
+danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook 고정메뉴 설정 기능을 제공하고 있습니다.
+
+### Facebook 고정메뉴 설정
+
+고정메뉴는 채널 연결시 뜨는 팝업 하단 사용자 고정 메뉴 설정 블락에서 설정하실 수 있습니다.
+
+#### 메인 메뉴
+메인 메뉴는 최대 3개까지 설정이 가능하나 **'시작하기'** 및 **'danbee.Ai로 만든 봇'** 메뉴는 변경할 수 없습니다.<br/>
+
+{% include image.html file="channel/facebook/facebook_menu_setting_01.png" max-width="900" caption="Facebook 메인 메뉴 설정" %} 
+
+메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 챗플로우 호출, 서브메뉴가 존재합니다.
+
+| 메뉴 옵션 | 설명 | 
+|--------|-------|
+| 선택지 | 입력값을 호출합니다. |
+| Web Link | 팝업으로 호출할 Link 정보를 제공합니다. |
+| Chatflow호출 | 다른 Chatflow를 호출합니다. |
+| 서브메뉴 | 하위 메뉴를 설정합니다. |
+
+#### 서브 메뉴
+
+{% include image.html file="channel/facebook/facebook_menu_setting_02.png" max-width="900" caption="Facebook 서브 메뉴 설정" %} 
+
+메뉴 옵션에서 서브메뉴를 선택 시 'Edit Submenu'를 클릭하면 하위 메뉴를 설정할 수 있습니다. 서브 메뉴는 최대 2레벨, 각 레벨당 최대 5개의 메뉴를 지원합니다. 1레벨 서브 메뉴는 메인 메뉴와 동일한 옵션을 제공하며 2레벨 서브 메뉴는 서브메뉴 옵션을 제외한 나머지 옵션을 지원합니다.<br/>
+
+메뉴를 설정한 뒤 [연결]버튼을 누르면 해당 메뉴가 자동으로 Facebook Messanger에 세팅됩니다.
+
+{% include image.html file="channel/facebook/facebook_menu_setting_03.png" max-width="900" caption="Facebook Messenger 고정 메뉴 확인" %}
+
+{% include warning.html content="메뉴 적용 여부 확인 시 Facebook Messanger 대화창이 켜져있다면 나갔다 다시 접속해야 변경 사항을 확인할 수 있습니다." %}
+
+
 
