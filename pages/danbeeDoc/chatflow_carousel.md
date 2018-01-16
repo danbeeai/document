@@ -1,6 +1,6 @@
 ---
 title: Carousel 노드
-tags: []
+tags: [chatflow]
 keywords: Basic Conversation
 summary: Carousel 노드에 대한 이해와 설정하는 방법을 설명합니다.
 sidebar: danbee_doc_sidebar
@@ -23,8 +23,8 @@ Slot 노드는 하나의 노드에 여러 개의 질문지를 제시할 수 있�
 
 
 Carousel 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_carousel.html#기본 정보)
-- [메시지 카드 설정](Chatflow_carousel.html#메시지 카드 설정)
+- [기본정보](Chatflow_carousel.html#기본-정보)
+- [메시지 카드 설정](Chatflow_carousel.html#메시지-카드-설정)
 
 {% include image.html file="chatflow/Chatflow_carousel_cavas.png" max-width="900" caption="Carousel 노드" %}
 
@@ -36,11 +36,37 @@ Carousel 노드에 표시될 기본적인 노드명과 노드에 대한 내용�
 
 ### 메시지 카드 설정
 
+#### 기본 카드 설정
 Carousel 노드는 Slot 노드와 마찬가지로 대화자에게 선택을 받기 위한 노드입니다. 
 그렇기 때문에 Slot 노드에서 처럼 질문에 대한 메시지와 질문 대상을 Parameter로 입력 받을 수 있습니다. 
 Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노드로 아래 그림처럼 "좋아하는 음식을 선택하시요" 라는 질문으로 짜장면과 짬뽕 카드를 제시할 수 있습니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_card.png" max-width="900" caption="메시지 카드 설정" %}
+
+카드는 최대 5개까지 추가가 가능하며 각 카드 당 버튼은 최대 3개까지 추가할 수 있습니다. 카드 당 버튼 추가시 선택할 수 있는 옵션은 다음과 같습니다.
+
+| 선택지 옵션 | 설명 | 
+|--------|-------|
+| 선택지(버튼) | 버튼 형태 선택지를 제공합니다. |
+| Web Link | 팝업으로 호출할 Link 정보를 제공합니다. |
+| 내부 App실행 | 스마트폰에서 내부 App을 실행합니다.  |
+| 외부 App실행 | 스마트폰에서 외부 App을 실행합니다.  |
+| 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
+| Chatflow호출 | 다른 Chatflow를 호출합니다. |
+
+#### Quick Reply List 설정
+
+카드 형태 메세지와 함께 보낼 Quick Reply 버튼은 리스트를 설정할 수 있습니다. Quick Reply 버튼은 입력창 상단에 위치하는 버튼 형태로 선택지와 Chatflow 호출 두가지 옵션을 선택할 수 있습니다.
+
+{% include image.html file="chatflow/Chatflow_carousel_card02.png" max-width="900" caption="Quick Reply List 설정" %}
+
+{% include image.html file="chatflow/Chatflow_carousel_card03.png" max-width="900" caption="Quick Reply 사용 결과" %}
+
+Quick Reply 버튼은 최대 20개까지 설정 가능하나 실 사용 개수는 각 메신저에서 지원하는 개수에 따라 달라집니다.
+- Facebook : 최대 11개
+- 네이버톡톡 : 최대 10개
+
+{% include warning.html content="해당 기능은 ***Facebook***과 ***네이버 톡톡***에서만 제공됩니다. 현재 danbee.Ai 내의 시뮬레이션, 테스트 패널, 기타 다른 메신저에서는 확인이 불가합니다." %}
 
 ### 샘플 시나리오 (좋아하는 음식은?)
 
