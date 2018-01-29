@@ -94,7 +94,7 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 고정메뉴는 채널 연결시 뜨는 팝업 하단 사용자 고정 메뉴 설정 블락에서 설정하실 수 있습니다.
 
 #### 메인 메뉴
-메인 메뉴는 최대 3개까지 설정이 가능하나 **'시작하기'** 및 **'danbee.Ai로 만든 봇'** 메뉴는 변경할 수 없습니다.<br/>
+**메인 메뉴**는 **최대 3개**까지 설정이 가능하나 **'시작하기'** 및 **'danbee.Ai로 만든 봇'** 메뉴는 변경할 수 없습니다.<br/>
 
 {% include image.html file="channel/facebook/facebook_menu_setting_01.png" max-width="900" caption="Facebook 메인 메뉴 설정" %} 
 

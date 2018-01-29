@@ -37,13 +37,12 @@ Carousel 노드에 표시될 기본적인 노드명과 노드에 대한 내용�
 ### 메시지 카드 설정
 
 #### 기본 카드 설정
-Carousel 노드는 Slot 노드와 마찬가지로 대화자에게 선택을 받기 위한 노드입니다. 
-그렇기 때문에 Slot 노드에서 처럼 질문에 대한 메시지와 질문 대상을 Parameter로 입력 받을 수 있습니다. 
+Carousel 노드는 Slot 노드와 마찬가지로 대화자에게 선택을 받기 위한 노드입니다. 그렇기 때문에 Slot 노드에서 처럼 질문에 대한 메시지와 질문 대상을 Parameter로 입력 받을 수 있습니다. 단, Slot 노드와 동일하게 질문하고자하는 항목 변수의 값이 이미 있는 경우에는 해당 질문을 하지 않습니다. <br/>변수 값이 있는 경우라도 재확인 차원에서도 질문을 해야하는 경우가 필요할 때는 **'무조건 물어보기'** 설정을 체크하면 됩니다.
 Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노드로 아래 그림처럼 "좋아하는 음식을 선택하시요" 라는 질문으로 짜장면과 짬뽕 카드를 제시할 수 있습니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_card.png" max-width="900" caption="메시지 카드 설정" %}
 
-카드는 최대 5개까지 추가가 가능하며 각 카드 당 버튼은 최대 3개까지 추가할 수 있습니다. 카드 당 버튼 추가시 선택할 수 있는 옵션은 다음과 같습니다.
+**카드**는 **최대 10개**까지 추가가 가능하며 각 **카드 당 버튼**은 **최대 3개**까지 추가할 수 있습니다. 카드 당 버튼 추가시 선택할 수 있는 옵션은 다음과 같습니다.
 
 | 선택지 옵션 | 설명 | 
 |--------|-------|
@@ -62,7 +61,7 @@ Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노�
 
 {% include image.html file="chatflow/Chatflow_carousel_card03.png" max-width="900" caption="Quick Reply 사용 결과" %}
 
-Quick Reply 버튼은 최대 20개까지 설정 가능하나 실 사용 개수는 각 메신저에서 지원하는 개수에 따라 달라집니다.
+**Quick Reply 버튼**은 **최대 20개**까지 설정 가능하나 실 사용 개수는 각 메신저에서 지원하는 개수에 따라 달라집니다.
 - Facebook : 최대 11개
 - 네이버톡톡 : 최대 10개
 
@@ -88,6 +87,6 @@ Speak 노드에 'question1' 변수 기준으로 값이 '짜장면', '짬뽕' 경
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleSpeak.png" max-width="900" caption="Speak 노드 설정" %}
 
-'좋아하는 음식은?' 질문에 '짜장면'을 선택하면 아래와 같이 결과가 나타납니다. 
+'좋아하는 음식은?' 질문에 '짬뽕'을 선택하면 아래와 같이 결과가 나타납니다. 
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleTest.png" max-width="900" caption="좋아하는 음식은? 테스트 결과" %}
