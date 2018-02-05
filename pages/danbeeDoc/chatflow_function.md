@@ -11,8 +11,8 @@ previous: {
     url: chatflow_api.html
 }
 next: {
-    title: 챗봇 성격 설정,
-    url: personality_settings.html
+    title: 유의어 관리,
+    url: synonym.html
 }
 ---
 

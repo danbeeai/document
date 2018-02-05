@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: log.html
 folder: danbeeDoc
 previous: {
-    title: 유의어 관리,
-    url: synonym.html
+    title: NLU 설정,
+    url: settings_nlu.html
 }
 next: {
     title: 테스트 패널 및 시뮬레이션,

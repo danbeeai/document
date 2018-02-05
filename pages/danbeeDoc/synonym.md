@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: synonym.html
 folder: danbeeDoc
 previous: {
-    title: 챗봇 성격 설정,
-    url: personality_settings.html
+    title: Function 노드,
+    url: chatflow_function.html
 }
 next: {
-    title: 대화 이력 관리,
-    url: log.html
+    title: 기본답변 설정,
+    url: settings_personality.html
 }
 ---
 

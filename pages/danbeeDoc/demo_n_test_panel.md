@@ -39,7 +39,7 @@ NLU Intent 테스트 패널에서는 입력 받은 문장이 어떻게 분석되
 
 {% include image.html file="test_panel_n_demo/NLU_intent_test_panel02.png" max-width="900" caption="NLU Intent 테스트 패널 - Intent Candidates 영역" %}
 
-앞서 [챗봇 성격 설정](personality_settings)에서 설명한 것과 같이 입력 문장은 여러개의 Intent로 파악될 수 있습니다. 그렇기 때문에 **Intent Candidates 영역**에서는 입력 문장이 분류될 수 있는 모든 Intent를 보여줍니다. 또한 하나의 Intent로 파악되더라도 해당 Intent로 파악된 매칭률을 확인할 수 있습니다.<br/>
+앞서 [기본 답변 설정](settings_personality)에서 설명한 것과 같이 입력 문장은 여러개의 Intent로 파악될 수 있습니다. 그렇기 때문에 **Intent Candidates 영역**에서는 입력 문장이 분류될 수 있는 모든 Intent를 보여줍니다. 또한 하나의 Intent로 파악되더라도 해당 Intent로 파악된 매칭률을 확인할 수 있습니다.<br/>
 
 Intent Candidates 영역 우측에 보면 [+] 버튼이 존재합니다. 해당 버튼을 누를 시 테스트로 입력한 문장이 자동으로 해당 인텐트에 들어가게 됩니다.<br/>
 

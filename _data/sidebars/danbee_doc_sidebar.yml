@@ -78,15 +78,23 @@ entries:
 
         - title: Function 노드
           url: /chatflow_function.html
-          output: web, pdf              
-
-    - title: 챗봇 성격 설정
-      url: /personality_settings.html
-      output: web, pdf
+          output: web, pdf   
 
     - title: 유의어 관리
       url: /synonym.html
-      output: web, pdf
+      output: web, pdf               
+
+      subfolders:
+      - title: 챗봇 설정
+        output: web, pdf
+        subfolderitems:
+        - title: 기본답변 설정
+          url: /settings_personality.html
+          output: web, pdf
+
+        - title: NLU 설정 
+          url: /settings_nlu.html
+          output: web, pdf
 
     - title: 대화 이력 관리
       url: /log.html

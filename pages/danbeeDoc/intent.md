@@ -115,7 +115,7 @@ danbee.Ai에서는 다음과 같은 특수한 Parameter를 제공하고 있습�
 | **negative** | sys.any | 감성 분석 결과 ***부정도***를 제공 |
 | **neutral** | sys.any | 감성 분석 결고 ***중립도***를 제공 |
 
-Intent에 위 Parameter들을 추가해두고  <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[감성분석 및 감성정보 Parameter 공유 설정](personality_settings.html)</span>을 하시면 해당 특수 Parameter를 사용할 수 있습니다. 해당 Parameter들을 통해 대화흐름 속에서 사용자의 감성을 분석하여 긍정, 부정, 중립에 대한 정도를 수치로 제공받을 수 있습니다.<br/>
+Intent에 위 Parameter들을 추가해두고  **감성분석 및 감성정보 Parameter 공유 설정**을 하시면 해당 특수 Parameter를 사용할 수 있습니다. 해당 Parameter들을 통해 대화흐름 속에서 사용자의 감성을 분석하여 긍정, 부정, 중립에 대한 정도를 수치로 제공받을 수 있습니다.<br/>
 
 Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다. 
 
@@ -133,9 +133,9 @@ Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa
 문장을 입력 받으면 봇은 적절한 Intent를 찾게 됩니다. 하지만 다음과 같이 찾은 Intent에 대하여 확신을 가지지 못하는 경우가 발생합니다.
 
  - Reconfirm : 입력 문장에 대하여 Intent를 찾았지만 해당 Intent일 확률이 낮을 경우
- <span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Reconfirm 자세히 보기](personality_settings)</span> 
+ <span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Reconfirm 자세히 보기](settings_personality.html#reconfirm)</span> 
  - Multi Intent : 입력 문장에 대하여 여러개의 Intent를 찾을 경우
-<span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Multi Intent 자세히 보기](personality_settings)</span>
+<span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Multi Intent 자세히 보기](settings_personality.html#multi-intent)</span>
  
 
 위에 해당되는 경우 봇은 사용자의 의도를 정확하게 파악하기 위하여 버튼 형식으로 되물어보게 됩니다.
@@ -150,7 +150,7 @@ Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa
 {% include image.html file="intent/intent_multi02.PNG" max-width="900" caption="Multi Intent 제외 설정 후" %} 
 
 #### 채널 Fallback 설정
-본 속성을 체크하는 경우 해당 Intent로 파악되면 강제적으로 Default Fallback으로 넘어갑니다. 즉, 봇이 말을 알아듣지 못한 것처럼 반응하게 됩니다. Default Fallback 시 챗봇의 반응은 성격 화면에서 지정할 수 있습니다.<span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Default Fallback 자세히 보기](personality_settings)</span>
+본 속성을 체크하는 경우 해당 Intent로 파악되면 강제적으로 Default Fallback으로 넘어갑니다. 즉, 봇이 말을 알아듣지 못한 것처럼 반응하게 됩니다. Default Fallback 시 챗봇의 반응은 성격 화면에서 지정할 수 있습니다.<span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Default Fallback 자세히 보기](settings_personality.html#default-fallback)</span>
 
 {% include image.html file="intent/intent_default_01.png" max-width="900" caption="채널 Fallback 설정 전" %}
 {% include image.html file="intent/intent_default_02.png" max-width="900" caption="채널 Fallback 설정 후" %} 

@@ -1,30 +1,30 @@
 ---
-title: 기본 답변
-tags: [preference, general]
+title: 기본 답변 설정
+tags: [settings]
 keywords: General Conversation
 summary: 챗봇의 답변을 여러 상황에 맞춰 다르게 말할 수 있도록 설정할 수 있습니다.
 sidebar: danbee_doc_sidebar
-permalink: personality_settings.html
+permalink: settings_personality.html
 folder: danbeeDoc
 previous: {
-    title: Function 노드,
-    url: chatflow_function.html
-}
-next: {
     title: 유의어 관리,
     url: synonym.html
+}
+next: {
+    title: NLU 설정,
+    url: settings_nlu.html
 }
 ---
 
 ## 기본 답변 설정(General)
  {% include callout.html content="화면 위치 : [설정(Preference)] > [기본답변(General)]" type="default" %}
-**기본 답변(이하 General)**란, 다음과 같은 상황에서 답변 내용을 설정할 수 있습니다. <br/>
+**기본 답변(이하 General)**이란, 다음과 같은 상황에서 답변 내용을 설정할 수 있습니다. <br/>
 
-- [Welcome](personality_settings.html#Welcome)
-- [Reconfirm](personality_settings.html#Reconfirm)
-- [Default Fallback](personality_settings.html#Default-Fallback)
-- [Multi Intent](personality_settings.html#Multi-Intent)
-- [Error](personality_settings.html#Error)
+- [Welcome](settings_personality.html#welcome)
+- [Reconfirm](settings_personality.html#reconfirm)
+- [Default Fallback](settings_personality.html#default-fallback)
+- [Multi Intent](settings_personality.html#multi-intent)
+- [Error](settings_personality.html#error)
 
 ### Welcome
 #### Default
