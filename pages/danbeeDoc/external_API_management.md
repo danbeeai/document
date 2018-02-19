@@ -17,28 +17,27 @@ next: {
 ---
 
 ## API 관리
- {% include callout.html content="위치 : [Administrator] - [API 관리]- [API 등록]" type="default" %}
+ {% include callout.html content="위치 : [API 관리]" type="default" %}
  챗봇 설계에 사용할, 사용자 등록 API를 관리하는 메뉴입니다. 
   <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)</span>
 
-해당 메뉴에서는 다음과 같은 내용을 설정할 수 있습니다.<br/> 
- - [API 조회]
- - [API 등록]
- - [API 수정]
+해당 메뉴에서는 다음과 같은 내용을 이용할 수 있습니다.<br/> 
+ - [API 조회](external_API_management.html#api-조회)
+ - [API 등록](external_API_management.html#api-등록)
+ - [API 수정](external_API_management.html#api-수정)
 
-### 1. API 조회 
-API를 등록한 테넌트 별 선택 조회가 가능합니다. 기본 검색 조건은 [모든 테넌트] 입니다. 테넌트 선택 버튼 클릭시 테넌트를 선택할 수 있는 팝업창이 조회됩니다. 
-{% include image.html file="external_API/api_filter_search.PNG" max-width="900" caption="테넌트 조회 선택" %} 
-{% include image.html file="external_API/api_find_tenant.PNG" max-width="900" caption="테넌트 조회" %} 
+### API 조회 
+API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습니다. 해당 목록에서는 등록한 API 이름으로 검색이 가능합니다.
+{% include image.html file="external_API/api_find.png" max-width="900" caption="API 조회" %} 
 
-### 2. API 등록 
+### API 등록 
 단비 운영진에, 신규 API를 등록 요청 할 수 있는 기능입니다. <br/>
-{% include image.html file="external_API/api_register.PNG" max-width="900" caption="API등록" %} 
+{% include image.html file="external_API/api_register.PNG" max-width="900" caption="API 등록" %} 
 
 #### API 설명
 등록 API에 대한 간략한 설명을 등록합니다. 
 예시 ) danbee 가입 여부 조회  
-{% include image.html file="external_API/api_enroll_desc.PNG" max-width="900" caption="API설명" %} 
+{% include image.html file="external_API/api_enroll_desc.PNG" max-width="900" caption="API 설명" %} 
 #### API 메서드 / Request URL
 메서드는 클라이언트와 danbee.Ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
   <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
@@ -66,17 +65,15 @@ parameter 입력 후, **실행** 버튼을 클릭해, Response API Tree에서 AP
 {% include image.html file="external_API/api_enroll_paramComplete.PNG" max-width="900" caption="요청 Parameter 입력 완료 예시" %} 
 #### 저장
 API 정보 정상 입력 후 **저장** 버튼을 클릭해, API 등록 정보를 저장합니다. 
-성공시 
 
 #### 취소
-{% include callout.html content="위치 : [Administrator] - [API 관리] - [API클릭] - [더보기]- [취소]" type="default" %}
-화면 우측 상단의  **더보기** 버튼 클릭시, **취소**  버튼이 조회됩니다.  **취소**  클릭시, API 목록화면으로 이동하고, 작성하던 정보는 삭제됩니다. 
+{% include callout.html content="위치 : [API 관리] - [API클릭] - [더보기]- [취소]" type="default" %}
+화면 우측 상단의  **더보기** 버튼 클릭시, **취소**  버튼이 존재합니다.  **취소**  클릭시, API 목록화면으로 이동하고, 작성하던 정보는 삭제됩니다. 
 
-### 3. API 수정 
-{% include callout.html content="위치 : [Administrator] - [API 관리] - [API클릭] - [수정]" type="default" %}
-API 상세 조회 화면 우측 상단에, **수정** 버튼이 조회 됩니다. 로그인한 계정으로 작성한 적 있는 API에 한해, API 수정이 가능합니다. 수정 불가한 API에 대해 **수정** 버튼 클릭시, '수정 권한이 없습니다.' 알림창이 조회되고, 수정이 되지 않습니다.
-API 수정 입력 절차는 API 등록 절차와 같습니다. 
+### API 수정 
+{% include callout.html content="위치 : [API 관리] - [API클릭] - [수정]" type="default" %}
+API 수정을 위해서는 API 상세 조회 화면 우측 상단 **수정** 버튼을 클릭하면 됩니다. API 수정 입력 절차는 API 등록 절차와 같습니다. 
 
-### 4. API 사용
+## API 사용
 등록된  API는 chatflow 설계의 API 노드에서 조회 및 사용 가능 합니다.
 {% include image.html file="external_API/cf_api_node.PNG" max-width="900" caption="요청 Parameter 입력 완료 예시" %} 
