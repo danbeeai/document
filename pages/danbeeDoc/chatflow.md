@@ -94,6 +94,10 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 
 {% include image.html file="chatflow/Chatflow_design.png" max-width="900" caption="Chatflow canvas" %}
 
+### 대화노드 삭제
+
+Chatflow 캔버스 상에 있는 Node와 연결 선은 선택한 후에 delete키를 눌러 삭제할 수 있습니다. (Mac에서는 fn + delete)
+
 ### Chatflow 저장
 
 Chatflow 설계하고 나서 [Chatflow 저장] 버튼을 클릭을 하면 해당 내용이 서버에 반영됩니다. 
