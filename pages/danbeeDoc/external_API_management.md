@@ -41,10 +41,10 @@ API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습
 #### API 메서드 / Request URL
 메서드는 클라이언트와 danbee.Ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
   <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
- - 메서드 : 현재 API 메서드는 REST로 고정 되어있습니다. 
+ - 메서드 : GET, POST 메소드를 선택합니다. 
  - Request URL : 등록 요청할 API의 URL을 입력합니다. <br/>
     예시 ) Rest, http://api.openweathermap.org/data/2.5/weather   
-{% include image.html file="external_API/api_enroll_method.PNG" max-width="900" caption="API메서드" %} 
+{% include image.html file="external_API/api_enroll_method2.PNG" max-width="900" caption="API메서드" %} 
     
 #### Content Type
 Content Type 은 danbee.Ai 서버로 넘길 내용의 유형을 의미합니다. 현재 API Content Type은 는 JSON으로 fix 되어있습니다.   
