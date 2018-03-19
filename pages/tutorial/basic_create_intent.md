@@ -4,11 +4,11 @@ tags: [Intent, Chatflow]
 keywords: Tutorial
 summary: danbee.Ai의 기본 구조를 이해할 수 있습니다.
 sidebar: tutorial_sidebar
-permalink: basic01.html
+permalink: basic_create_intent.html
 folder: tutorial
 next: {
-    title: Step 2. Listen Node와 Speak Node를 사용하여 대화만들기
-    url: basic02.html
+    #title: Step 2. Listen Node와 Speak Node를 사용하여 대화만들기
+    #url: basic02.html
 }
 ---
 
@@ -28,34 +28,34 @@ danbee.Ai를 이용하려면 먼저 <span style="color:#f69023;"><i class="fa fa
 이해를 돕기 위해 피자가게의 사업자가 피자를 주문 받을 수 있는 챗봇을 만든다고 가정하여 진행하겠습니다.
 
 
-##의도추론(Intent) 만들기
+## 의도추론(Intent) 만들기
 {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도추론(Intent)]" type="default" %}
 피자를 주문 받으려면 “피자 주문해줘”와 같은 사용자의 말이 입력되었을 때 “피자를 주문하고 싶다”는 사용자의 의도를 파악할 수 있어야 합니다. 그 의도를 정의할 수 있는 메뉴가 “의도추론 (Intent)” 입니다.
 
-###Intent 생성
+### Intent 생성
 1) ***”Intent 생성”*** 버튼을 클릭하여 Intent 생성 페이지로 이동해주세요.
 
-{% include image.html file="chatbot_create\01_no_chatbot.PNG" max-width="900" caption="Intent 없는 상태" %}
+{% include image.html file="chatbot_create/01_no_chatbot.png" max-width="900" caption="Intent 없는 상태" %}
 
 2) 상단의 Intent명 입력란에 ***”피자주문”***과 같이 Intent명을 적어주세요. 챗봇의 완성도가 높아질수록 Intent 수가 많아지므로 명확히 구분할 수 있고, 검색하기 쉽게 정의하는 것이 좋습니다.
 
-{% include image.html file="chatbot_create\02_chatbot_create.PNG" max-width="900" caption="Intent 생성 화면" %}
+{% include image.html file="chatbot_create/02_chatbot_create.png" max-width="900" caption="Intent 생성 화면" %}
 
 3) ***“페퍼로니 피자 주문해줘”***와 같이 피자주문 Intent로 연결될 수 있는 예문을 1개 이상 필수로 등록해야 합니다. 예문은 여러 Intent들과 중복되지 않으면서 구체적으로 적어주는 것이 좋습니다. 사용자가 입력한 말과 예문을 비교하여 가장 비슷한 Intent로 연결하기 때문에 응답의 정확도를 높이기 위해서는 예문을 적절하게 정의하는 것이 매우 중요합니다.
 
-{% include image.html file="chatbot_create\03_chatbot_created.PNG" max-width="900" caption="예문 입력된 모습" %}
+{% include image.html file="chatbot_create/03_chatbot_created.png" max-width="900" caption="예문 입력된 모습" %}
 
 4) Intent 명과 예문을 입력하였으면 ***“저장”*** 버튼을 클릭하여 Intent를 생성합니다. 그 외의 Intent 설정 항목에 관해서는 document의 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[의도관리](/intent.html)</span>를 보시면 더욱 자세히 알 수 있습니다.
 
 
-##Intent 테스트
+## Intent 테스트
 우측의 테스트 패널에서 저장한 Intent가 제대로 동작하는지 테스트 해볼 수 있습니다.
 NLU Intent 탭에서 “페퍼로니 피자 주문해줘” 예문을 입력해보면 Intent가 “피자주문”으로 조회되는 것을 확인할 수 있습니다.
 
-{% include image.html file="chatbot_create\03_chatbot_created.PNG" max-width="900" caption="Intent 테스트패널”}
+{% include image.html file="chatbot_create/03_chatbot_created.png" max-width="900" caption="Intent 테스트패널" %}
 
 
-##다음 Step에서는
+## 다음 Step에서는
 사용자의 “피자 주문” 의도를 파악할 수 있게 되었으니 이제 어떻게 응답할지 정의해야겠죠?
 대화흐름(Chatflow) 메뉴에서 챗봇이 대답할 메시지를 정의해보도록 하겠습니다.
 

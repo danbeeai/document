@@ -8,9 +8,15 @@ entries:
   - title: Tutorial
     output: web
     folderitems:
-    - title: 인기 Tutorial
-      url: /tutorials.html
+    # - title: 인기 Tutorial
+    #   url: /tutorials.html
+    #   output: web
+    # - title: Tutorial 모음
+    #   url: /tutorials_archive.html
+    #   output: web
+    - title: Step 1. Intent와 Chatflow 생성하기
+      url: /basic_create_intent.html
       output: web
-    - title: Tutorial 모음
-      url: /tutorials_archive.html
+    - title: API 노드 사용하기
+      url: /usingApiNode.html
       output: web
