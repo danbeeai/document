@@ -73,7 +73,7 @@ Chatflow가 완성되었으니 우측 상단의 저장버튼을 클릭하여 데
 우측의 테스트 패널에서 저장한 Chatflow가 제대로 동작하는지 테스트 해볼 수 있습니다.
 Chatflow 탭에서 ***“피자 주문해줘”*** 예문을 입력해보면 Speak Node에 등록했던 메시지로 응답하는 것을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/basic02_test_chatflow.png" max-width="900" caption="Chatflow 테스트패널” %}
+{% include image.html file="tutorial/basic02_test_chatflow.png" max-width="900" caption="Chatflow 테스트 패널" %}
 
 
 ## 다음 Step에서는
