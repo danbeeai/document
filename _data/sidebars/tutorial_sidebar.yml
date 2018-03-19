@@ -17,6 +17,9 @@ entries:
     - title: Intent 생성하기
       url: /basic_create_intent.html
       output: web
+    - title: Chatflow 생성하기
+      url: /basic_listen_speak.html
+      output: web  
 
     - title: API 노드 사용하기
       url: /usingApiNode.html

@@ -7,8 +7,8 @@ sidebar: tutorial_sidebar
 permalink: basic_create_intent.html
 folder: tutorial
 next: {
-    #title: Listen Node와 Speak Node를 사용하여 대화만들기
-    #url: basic02.html
+    title: Listen Node와 Speak Node를 사용하여 Chatflow만들기,
+    url: basic_listen_speak.html
 }
 ---
 

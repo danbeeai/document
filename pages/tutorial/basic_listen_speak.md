@@ -4,10 +4,10 @@ tags: [liten_node]
 keywords: Tutorial
 summary: Chatlflow의 개념을 이해하고, Listen Node와 Speak Node로 대화를 만들 수 있습니다.
 sidebar: tutorial_sidebar
-permalink: basic_create_chatflow.html
+permalink: basic_listen_speak.html
 folder: tutorial
 previous: {
-    title: Intent 생성하기
+    title: Intent 생성하기,
     url: basic_create_intent.html
 }
 next: {
