@@ -18,4 +18,6 @@ next: {
 
 1) 먼저 Chatflow 상단의 Api Node 를 클릭하여 추가해 주세요.
 
-2) Carausel Node 와 Split Node 사이에 Api Node를 위치 시키고 각 노드와 연결해 주세요.
+2) Carausel Node 와 Split Node 사이에 Api Node를 위치 시키고 앞뒤 노드와 연결해 주세요. 기존에 연결된 선의 경우 마우스로 선을 클릭하고 선이 붉은색으로 하이라이트된 후 키보드의 delete 키를 누르면 삭제됩니다.
+
+3) Api Node를 더블 클릭하여 상세화면으로 이동해주세요. Api Node 의 경우
