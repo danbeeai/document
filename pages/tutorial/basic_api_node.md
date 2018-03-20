@@ -5,8 +5,9 @@ tags: [API Node]
 sidebar: tutorial_sidebar
 permalink: basic_api_node.html
 folder: tutorial
+summary: API Node의 개념을 이해할 수 있습니다.
 next: {
-    title: 간단한 챗봇 만들어보기,
+    title: Function 노드 사용하기,
     url: basic_function_node.html
 }
 ---
@@ -15,11 +16,12 @@ next: {
 단비에서 대화를 만들다 보면 외부에 있는 데이터를 가져와 대화에 넣어야 할 경우가 있습니다. <br/>
 지금까지 만들었던 피자주문 시나리오를 예로들면 피자 가격을 피자 가격정보를 관리하던 기존 시스템에서 가져와 보여주는 것이 바람직 합니다. <br/>
 단비의 Speak Node 나 Slot Node 에 피자가격을 직접 입력하여 사용하면 기존 시스템에서 가격이 변경 될 경우 가격을 여러번 수정해야하는 소요가 생깁니다. <br/>
-또한 공공데이터 포탈과 같이 API 형태로 데이터를하는 곳에서 데이터를 가져와 대화흐름에 녹여 보고 싶을때가 있습니다. <br/>
+또한 공공데이터 포탈과 같이 API 형태로 데이터를 제공하는 곳에서 데이터를 가져와 대화흐름에서 사용하고 싶을때도 있습니다. <br/>
 이때 만들고 있는 대화로 외부의 데이터를 들고 오는 역할을 하는 것이 API Node 입니다. <br/>
 이번 Step에서는 Api Node 를 추가하여 외부의 데이터를 단비의 대화흐름으로 가져와 대화에서 보여 주는 방법을 알아 보겠습니다. <br/>
 
-## API 생성하기
+### API 만들기
+#### API 기본정보 등록하기
 1) 좌측 사이드 메뉴에서 ***“API 관리”*** 눌러 해당 메뉴로 들어갑니다.
 {% include callout.html content="화면 위치 : [API 관리]" type="default" %}
 
@@ -39,6 +41,7 @@ API 의 경우 개별 챗봇으로 관리하는 것이 아니고 개별 테넌�
 
 {% include image.html file="tutorial/using_api_node2.gif" max-width="900" caption="API 만들기1" %}
 
+#### API 호출정보 등록하기
 6) API 의 Request(호출) URL 을 입력합니다. 현재 만들고 있는 대화흐름에 외부정보를 갖다 줄 URL을 호출할 것입니다. <br/>
 URL 호출방식은 GET 방식과 POST 방식 중에 선택할 수 있습니다. <br/>
 튜토리얼에서는 GET 방식을 이용하도록 하겠습니다. <br/>
@@ -65,8 +68,8 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 우상단의 ***“저장”*** 버튼을 누르며 저장합니다. 이제 생성한 API 를 대화흐름에서 어떻게 쓰는지 알아보도록 하겠습니다.
 
 
-## API Node 생성하기
-
+### API Node 만들기
+#### API Node 를 Chatflow 창에서 설정하기
 1) 좌측 사이드 메뉴에서 ***“대화흐름 목록 (Chatflow List)”*** 눌러 해당 메뉴로 들어갑니다.
 {% include callout.html content="화면 위치 : [대화흐름 (Chatflow)] > 대화흐름 목록 (Chatflow List)]" type="default" %}
 
@@ -79,6 +82,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 
 {% include image.html file="tutorial/using_api_node1-1.gif" max-width="900" caption="API Node 생성하기1" %}
 
+#### API Node 상세정보 설정하기(요청 Parameter)
 5) Api Node를 더블 클릭하여 상세화면으로 이동해주세요. 상세화면의 ***“API 설정”*** 탭이 열립니다. 
 
 6) ***“사용 API”*** 부분에 ***“선택하세요”*** 를 누르면 현재 테넌트에서 사용 가능한 API 목록이 하단에 펼쳐집니다. <br/>
@@ -92,6 +96,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 외부시스템은 대화흐름에서 사용자가 선택한 #{피자메뉴} 변수를 받아 해당 메뉴에 해당하는 가격을 보내 줄 것입니다. <br/>
 앞서서 q 라는 변수에 피자메뉴를 넘겨주기로 약속했기 때문에 사용자가 선택한 피자메뉴가 담겨있는 내부 변수 #{피자메뉴}를 q 에 입력 하도록 하겠습니다.
 
+#### API Node 상세정보 설정하기(출력 Parameters)
 9) 외부시스템에서 받아온 값을 대화흐름에서 사용하기 위해서는 외부시스템에서 받은 결과를 대화흐름 내부의 변수에 Mapping 시켜줘야 합니다. <br/>
 이 작업 진행을 위해  ***“출력 Parameters”*** 탭으로 이동합니다. <br/>
 

@@ -37,3 +37,6 @@ entries:
     - title: API 노드 사용하기
       url: /basic_api_node.html
       output: web
+    - title: Function 노드 사용하기
+      url: /basic_function_node.html
+      output: web
