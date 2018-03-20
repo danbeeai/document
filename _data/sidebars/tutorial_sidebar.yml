@@ -19,7 +19,14 @@ entries:
       output: web
     - title: Chatflow 생성하기
       url: /basic_listen_speak.html
+      output: web
+    - title: Entity와 Parameter 이해하기
+      url: /basic_entity_parameter.html
+      output: web
+    - title: Slot Node를 사용하여 질문던지기
+      url: /basic_slot.html
       output: web  
+            
 
     - title: API 노드 사용하기
       url: /using_api_node.html

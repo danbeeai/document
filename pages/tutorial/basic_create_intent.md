@@ -1,13 +1,13 @@
 ---
 title: Intent 생성하기
-tags: [Intent, Chatflow]
+tags: [intent, chatflow]
 keywords: Tutorial
 summary: danbee.Ai의 기본 구조를 이해할 수 있습니다.
 sidebar: tutorial_sidebar
 permalink: basic_create_intent.html
 folder: tutorial
 next: {
-    title: Listen Node와 Speak Node를 사용하여 Chatflow만들기,
+    title: Chatflow 생성하기,
     url: basic_listen_speak.html
 }
 ---
