@@ -1,6 +1,6 @@
 ---
 title: Chatflow 생성하기
-tags: [chatflow, liten node, speak node]
+tags: [chatflow, liten_node, speak_node]
 keywords: Tutorial
 summary: Chatlflow의 개념을 이해하고, Listen Node와 Speak Node로 대화를 만들 수 있습니다.
 sidebar: tutorial_sidebar
@@ -68,7 +68,7 @@ Speak Node는 챗봇이 어떻게 응답할지 챗봇 메시지를 정의하는 
 ### 선 연결하기
 Listen Node와 Speak Node 작성을 완료하면, 두 노드 끝에 있는 점과 점을 마우스로 드래그하여 연결해주세요. 이 선은 대화흐름을 만들어주는 역할을 하며, Listen Node에서 시작해서 마지막으로 연결된 노드까지 순차적으로 실행되어 하나의 대화흐름을 완료하게 됩니다.
 
-Chatflow가 완성되었으니 우측 상단의 저장버튼을 클릭하여 데이터를 저장해주세요.
+Chatflow가 완성되었으니 우측 상단의 ***"Chatflow 저장" 버튼을 클릭하여 데이터를 저장해주세요.
 
 {% include image.html file="tutorial/basic02_connect_line.png" max-width="900" caption="Listen Node와 Speak Node 선으로 연결" %}
 
