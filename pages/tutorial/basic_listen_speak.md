@@ -1,6 +1,6 @@
 ---
 title: Chatflow 생성하기
-tags: [liten_node]
+tags: [chatflow, liten node, speak node]
 keywords: Tutorial
 summary: Chatlflow의 개념을 이해하고, Listen Node와 Speak Node로 대화를 만들 수 있습니다.
 sidebar: tutorial_sidebar
@@ -11,8 +11,8 @@ previous: {
     url: basic_create_intent.html
 }
 next: {
-    #title: Entity와 Parameter 이해하기,
-    #url: intent.html
+    title: Entity와 Parameter 이해하기,
+    url: intent.html
 }
 ---
 
