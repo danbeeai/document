@@ -29,5 +29,5 @@ entries:
             
 
     - title: API 노드 사용하기
-      url: /using_api_node.html
+      url: /basic_api_node.html
       output: web

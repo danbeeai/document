@@ -3,11 +3,11 @@ title: API 노드 사용하기
 keywords: API 노드 사용하기
 tags: [API Node]
 sidebar: tutorial_sidebar
-permalink: using_api_node.html
+permalink: basic_api_node.html
 folder: tutorial
 next: {
     title: 간단한 챗봇 만들어보기,
-    url: basic_create_chatbot.html
+    url: basic_function_node.html
 }
 ---
 
