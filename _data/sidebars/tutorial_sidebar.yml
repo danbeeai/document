@@ -23,9 +23,12 @@ entries:
     - title: Entity와 Parameter 이해하기
       url: /basic_entity_parameter.html
       output: web
-    - title: Slot Node를 사용하여 질문던지기
+    - title: Slot Node를 사용하기
       url: /basic_slot.html
-      output: web  
+      output: web
+    - title: Carousel Node를 사용하기
+      url: /basic_carousel.html
+      output: web      
             
 
     - title: API 노드 사용하기
