@@ -1,5 +1,5 @@
 ---
-title: Slot Node를 사용하기
+title: Slot Node 사용하기
 tags: [slot_node]
 keywords: Tutorial
 summary: Slot Node의 개념을 이해할 수 있습니다.
@@ -11,7 +11,7 @@ previous: {
     url: basic_entity_parameter.html
 }
 next: {
-    title: Carousel Node를 사용하여 이미지 보여주기,
+    title: Carousel Node를 사용하기,
     url: basic_carousel.html
 }
 ---

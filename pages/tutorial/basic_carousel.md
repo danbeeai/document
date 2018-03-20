@@ -1,5 +1,5 @@
 ---
-title: Carousel Node를 사용하기
+title: Carousel Node 사용하기
 tags: [carousel_node]
 keywords: Tutorial
 summary: Carousel Node의 개념을 이해할 수 있습니다.
@@ -7,11 +7,11 @@ sidebar: tutorial_sidebar
 permalink: basic_carousel.html
 folder: tutorial
 previous: {
-    title: Slot Node를 사용하여 질문던지기, 
+    title: Slot Node 사용하기, 
     url: basic_slot.html
 }
 next: {
-    #title: Split Node를 사용하여 조건별 메시지 나누기,
+    #title: Split Node 사용하기,
     #url: intent.html
 }
 ---
