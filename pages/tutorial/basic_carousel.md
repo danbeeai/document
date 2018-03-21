@@ -48,27 +48,30 @@ Slot Node와 같은 역할을 하기 위해서는 Parameter가 필요합니다. 
 이미지는 URL 형태로 첨부만 가능하고, 컴퓨터에서 파일을 직접 업로드 하는 것은 지원하지 않습니다. 즉, 온라인상에 있는 무료 이미지를 사용하거나 네이버 블로그, Pinterest, GitHub와 같은 다른 서비스에 공개 형태로 이미지를 업로드한 후 URL를 복사해오는 방법으로 이미지를 첨부할 수 있습니다.
 
 이미지 영역을 클릭한 후 아래의 샘플이미지 URL을 복사하여 이미지를 첨부해주세요.<br> 
-샘플이미지 URL : https://danbee.ai/img/landing/img_danbee.png
+샘플이미지 URL :<br>
+ http://doc.danbee.ai/images/tutorial/pizza_001.png<br>
+ http://doc.danbee.ai/images/tutorial/pizza_002.png<br>
+ http://doc.danbee.ai/images/tutorial/pizza_003.png<br>
 
-{% include image.html file="tutorial/basic05_add_image.png" max-width="900" caption="이미지 URL 첨부" %}
+{% include image.html file="tutorial/basic05_add_image2.png" max-width="900" caption="이미지 URL 첨부" %}
 
 #### 버튼 및 설명 추가하기
 이미지 외에 Title, Sub Title, 버튼 등을 추가할 수 있습니다. 피자 토핑에 대한 설명과 메뉴를 선택할 수 있는 버튼을 추가해보겠습니다.
 
 1) Sub Title에 ***“토핑 정보 : 페퍼로니, 모짜렐라 치즈”***를 입력해 주세요. Sub Title은 이미지 아래에 노출됩니다. 선택지의 버튼명과 Parameter 값으로 ***“페퍼로니”***를 입력해 주세요.  
 
-{% include image.html file="tutorial/basic05_add_button.png" max-width="900" caption="카드 내용 입력" %}
+{% include image.html file="tutorial/basic05_add_button2.png" max-width="900" caption="카드 내용 입력" %}
 
 2) 왼쪽 하단의 ***”카드추가”*** 버튼을 클릭하면 오른쪽으로 카드가 하나씩 추가됩니다. 같은 방법으로 쉬림프와 치즈 메뉴를 추가해주세요.
 
-{% include image.html file="tutorial/basic05_add_card.png" max-width="900" caption="카드 추가" %}
+{% include image.html file="tutorial/basic05_add_card2.png" max-width="900" caption="카드 추가" %}
 
 3) 우측 하단의 ***”확인”*** 버튼을 클릭하여 Carousel Node 설정 화면을 닫아주세요.
 
 #### Carousel Node 테스트
 우측 상단의 ***“Chatflow 저장”***버튼을 클릭한 후 우측의 테스트 패널에서 테스트를 해보세요. ***“피자 주문해줘”***라고 입력하면 Carousel Node에서 만든 카드 메시지가 나타나고, 버튼을 클릭하면 Speak Node에서 정의한 응답 메시지가 나타납니다.
 
-{% include image.html file="tutorial/basic05_test_carousel.png" max-width="900" caption="Carousel Node 테스트" %}
+{% include image.html file="tutorial/basic05_test_carousel2.png" max-width="900" caption="Carousel Node 테스트" %}
 
 
 ## 다음 Step에서는

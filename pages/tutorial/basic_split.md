@@ -52,13 +52,13 @@ Split Node는 하나의 Chatflow 안에서 대화흐름을 여러 갈래로 나�
 
 6) 이제 3개의 Speak Node 상세 화면으로 이동하여 각각 다른 메시지와 이미지를 입력해주세요.
 
-{% include image.html file="tutorial/basic06_speak_pepperoni.png" max-width="900" caption="페퍼로니주문 Speak Node 메시지" %}
-{% include image.html file="tutorial/basic06_speak_shrimp.png" max-width="900" caption="쉬림프주문 Speak Node 메시지" %}
-{% include image.html file="tutorial/basic06_speak_cheese.png" max-width="900" caption="치즈주문 Speak Node 메시지" %}
+{% include image.html file="tutorial/basic06_speak_pepperoni2.png" max-width="900" caption="페퍼로니주문 Speak Node 메시지" %}
+{% include image.html file="tutorial/basic06_speak_shrimp2.png" max-width="900" caption="쉬림프주문 Speak Node 메시지" %}
+{% include image.html file="tutorial/basic06_speak_cheese2.png" max-width="900" caption="치즈주문 Speak Node 메시지" %}
 
 7) ***“Chatflow 저장”*** 버튼을 클릭한 후 우측의 테스트 패널에서 ***"페퍼로니 피자 주문해줘”, “쉬림프 피자 주문해줘”***와 같이 다른 메뉴를 입력하면 각각 다른 메시지가 나타나는 것을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/basic06_test_split.png" max-width="900" caption="Split Node 테스트" %}
+{% include image.html file="tutorial/basic06_test_split2.png" max-width="900" caption="Split Node 테스트" %}
 
 
 ## 다음 Step에서는
