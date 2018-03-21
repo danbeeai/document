@@ -48,3 +48,6 @@ entries:
   - title: 피자주문봇 만들기
     output: web
     folderitems:
+    - title: 피자주문봇 만들기
+      url: /advanced_order_pizza_bot.html
+      output: web

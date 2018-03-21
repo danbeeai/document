@@ -11,8 +11,8 @@ previous: {
     url: basic_slot.html
 }
 next: {
-    #title: Split Node 사용하기,
-    #url: intent.html
+    title: Split Node 사용하기,
+    url: basic_split.html
 }
 ---
 
