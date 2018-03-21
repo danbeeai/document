@@ -4,7 +4,13 @@ entries:
 - title: Sidebar
   levels: one
   folders:
-
+  - title: 시작하기
+    output: web
+    folderitems:
+    - title: 샘플챗봇 가져오기
+      url: /samplebot.html
+      output: web
+  
   - title: Tutorial
     output: web
     folderitems:
@@ -31,12 +37,14 @@ entries:
       output: web
     - title: Split Node 사용하기
       url: /basic_split.html
-      output: web         
-            
-
+      output: web        
     - title: API 노드 사용하기
       url: /basic_api_node.html
       output: web
     - title: Function 노드 사용하기
       url: /basic_function_node.html
       output: web
+
+  - title: 피자주문봇 만들기
+    output: web
+    folderitems:
