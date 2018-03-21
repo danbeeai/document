@@ -5,7 +5,7 @@ keywords: Tutorial
 summary: 튜토리얼과 샘플챗봇을 활용하여 누구나 쉽게 챗봇을 만들 수 있습니다.
 sidebar: tutorial_sidebar
 permalink: samplebot.html
-folder: tutorial
+folder: Tutorial 시작하기
 next: {
     title: Intent 생성하기,
     url: basic_create_intent.html
