@@ -11,8 +11,8 @@ previous: {
     url: basic_carousel.html
 }
 next: {
-    #title: Step API Node 사용하기,
-    #url: intent.html
+    title: API 노드 사용하기,
+    url: basic_api_node.html
 }
 ---
 

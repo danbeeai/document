@@ -16,14 +16,13 @@ next: {
 
 danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 차근차근 따라하며 챗봇을 만들어보실 수 있도록 튜토리얼을 제공하고 있습니다.
 
-danbee.Ai의 여러 가지 기능들을 익혀볼 수 있는 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[튜토리얼봇](/basic_create_intent.html)</span>과<br>
-챗봇을 이용하여 서비스를 만들어보는 예시로 제공되는 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[피자주문봇](/basic_create_intent.html)</span>을 따라서 만들어 보시면 다른 새로운 챗봇을 만드는데 많은 도움이 될 것입니다.
+danbee.Ai의 여러 가지 기능들을 익혀볼 수 있는 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[튜토리얼봇](/basic_create_intent.html)</span>과 챗봇을 이용하여 서비스를 만들어보는 예시로 제공되는 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[피자주문봇](/basic_create_intent.html)</span>을 따라서 만들어 보시면 다른 새로운 챗봇을 만드는데 많은 도움이 될 것입니다.
 
 ## 샘플챗봇 가져오기
-튜토리얼의 이해를 돕고 새로운 챗봇을 만드는데 유용하도록 튜토리얼에서 만든 챗봇을 샘플로 가져와 직접 수정해보실 수 있습니다.
+튜토리얼의 이해를 돕고 새로운 챗봇을 만드는데 유용하도록 튜토리얼에서 만든 챗봇을 샘플로 받아서 직접 수정해보실 수 있습니다.
 
 ### Bot List에 Sample Chatbot 추가하기
-danbee.Ai에 신규 챗봇을 추가하는 경우 아무 내용이 없는 빈 챗봇을 생성하거나 이미 어느 정도 만들어져있는 샘플챗봇을 추가하는 방법이 있습니다.챗봇을 처음 만들어본다면 샘플챗봇을 참고하면서 원하는대로 내용을 조금씩 수정하는 것이 더 쉽게 챗봇을 만드는 방법일 수 있습니다. 앞으로 다양하게 활용하실 수 있도록 계속해서 샘플챗봇을 추가할 예정입니다.
+danbee.Ai에 신규 챗봇을 추가할 때 아무 내용이 없는 빈 챗봇을 생성하거나 이미 어느 정도 만들어져있는 샘플챗봇을 추가하는 방법 두 가지가 있습니다.챗봇을 처음 만들어본다면 샘플챗봇을 참고하면서 원하는대로 내용을 조금씩 수정하는 것이 더 쉽게 챗봇을 만드는 방법일 수 있습니다. 앞으로 다양하게 활용하실 수 있도록 계속해서 샘플챗봇을 추가할 예정입니다.
 
 1) 먼저 로그인한 후 Bot List에서 ***"Sample Chatbot 가져오기"*** 버튼을 클릭해 주세요.
 

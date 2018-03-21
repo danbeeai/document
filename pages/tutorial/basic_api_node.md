@@ -6,6 +6,10 @@ sidebar: tutorial_sidebar
 permalink: basic_api_node.html
 folder: tutorial
 summary: API Node의 개념을 이해할 수 있습니다.
+previous: {
+    title: Split Node 사용하기,
+    url: basic_split.html
+}
 next: {
     title: Function 노드 사용하기,
     url: basic_function_node.html
@@ -39,7 +43,7 @@ API 의 경우 개별 챗봇으로 관리하는 것이 아니고 개별 테넌�
 4) 화면의 진입 후 상단에 생성할 API 명을 입력합니다. <br/>
 튜토리얼에서는 ***“피자주문하기_api_피자가격 가져오기”*** 로 입력하겠습니다.
 
-5) API 설명을 입력합니다.
+5) ***“API 설명”***을 입력합니다.
 
 {% include image.html file="tutorial/using_api_node2.gif" max-width="900" caption="API 만들기1" %}
 
@@ -49,20 +53,21 @@ URL 호출방식은 GET 방식과 POST 방식 중에 선택할 수 있습니다.
 예시로 입력하는 URL 은 튜토리얼에서 필요한 피자 가격을 들고 있는 시스템에서 제공하는 API 를 호출합니다. <br/>
 ***“https://channel.danbee.ai:3000/pizzaTutorial/getPrice”***
 
-7) Content Type 부분에서는 외부 시스템과 정보를 주고 받을때 정보의 형태를 무엇으로 할지를 선택할 수 있습니다. <br/>
+7) ***“Content Type”*** 부분에서는 외부 시스템과 정보를 주고 받을때 정보의 형태를 무엇으로 할지를 선택할 수 있습니다. <br/>
 현재는 [JSON](https://www.json.org/json-ko.html) 형태를 지원하고 있습니다. 
 {% include warning.html content="API 설정전에 정보를 주는 외부 시스템에서 JSON 형태로 정보를 던지는지 꼭 확인이 필요합니다." %}
 
-8) 요청 Parameter 부분에서는 외부 시스템 API 호출시 넘겨줘야할 파라미터를 정의합니다. <br/>
+8) ***“요청 Parameter”*** 부분에서는 외부 시스템 API 호출시 넘겨줘야할 파라미터를 정의합니다. <br/>
 튜토리얼에서는 대화흐름에서 사용자가 선택한 피자메뉴를 외부시스템에 알려줘야 합니다. <br/>
 외부시스템은 피자메뉴를 받아 해당하는 피자의 가격을 대화흐름에 넘겨 줄 것입니다. <br/>
 q 라는 변수에 피자메뉴를 넘겨준다고 미리 정의 하였기 때문에 Name 부분에 q 를 입력합니다. 그리고 ***“실행”*** 버튼을 클릭합니다.. <br/>
 
-9) 우하단의 Response API Tree 부분에 외부시스템에서 JSON 형태로 받아온 결과값이 트리형태로 나타납니다. <br/>
+9) 우하단의 ***“Response API Tree”*** 부분에 외부시스템에서 JSON 형태로 받아온 결과값이 트리형태로 나타납니다. <br/>
 튜토리얼에서 호출한 API 의 경우 피자메뉴와 피자값을 넘겨주는 JSON 을 반환했습니다. <br/>
 예시로 입력한 URL의 경우 parameter 에 특정 값이 들어가지 않아도 기본형태를 넘겨주기 때문에 결과값이 나타났습니다. <br/>
-호출하는 API 에 따라 기본값이 들어가야 결과값이 반환되는 경우가 있을 수 있습니다. <br/>
-API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 Value 를 기입하도록 합니다.
+
+{% include warning.html content="호출하는 API 에 따라 기본값이 들어가야 결과값이 반환되는 경우가 있을 수 있습니다. <br/>
+API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 Value 를 기입하도록 합니다." %}
 
 {% include image.html file="tutorial/using_api_node3.gif" max-width="900" caption="API 만들기2" %}
 
@@ -113,18 +118,23 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 좌측 ***“Api Tree”*** 에 외부시스템에서 Price 변수에 가격 정보를 넣어줬기 때문에 Price 를 클릭한 상태로 드래그 하여 피자가격 박스 부분에서 클릭을 풀어줍니다. <br/>
 
 4) API Node 생성을 완료하였습니다. 우 하단의 ***“확인”*** 버튼을 눌러 더블 클릭하여 열은 상세화면을 닫아 주세요. <br/>
-***“확인”*** 누르지 않으면 작업한 내용이 저장되지 않으니 꼭 ***“확인”*** 버튼을 통하여 창을 닫아야 합니다. <br/>
-상세화면 닫은 후 우상단의 ***“Chatflow 저장”*** 버튼도 꼭 누르셔야 내용이 저장 됩니다.
+
+{% include warning.html content="***“확인”*** 누르지 않으면 작업한 내용이 저장되지 않으니 꼭 ***“확인”*** 버튼을 통하여 창을 닫아야 합니다. <br/>
+상세화면 닫은 후 우상단의 ***“Chatflow 저장”*** 버튼도 꼭 누르셔야 내용이 저장 됩니다." %}
 
 {% include image.html file="tutorial/using_api_node5.gif" max-width="900" caption="API Node 생성하기3" %}
 
 #### API Node 테스트
 1) API Node 에서 외부에서 피자가격을 가져와 피자가격 변수에 값을 넣는 방법을 알아 보았습니다.<br/>
-받아온 피자가격을 사용자에게 보여주기 위해 
-1) “Chatflow 저장” 버턴을 클릭한 후 우측의 테스트 패널에서 테스트를 해보세요. “피자 주문해줘”라고 입력 후 피자메뉴 선택 하면 <br/>
-피자가격 변수의 값이 12,000 으로 변경된 것을 확인 할 수 있습니다.
+이제는 받아온 피자가격을 사용자에게 보여주기 위해 Speak Node 문구를 변경해 줍니다. 각각의 Speak 노드에 #{피자가격} 을 넣어 문구를 만들어 주세요. <br/>
+다시한번 말씀드리지만 문구 수정 후 ***“확인”*** 버튼을 통해 상세창을 닫아주세요. 상세화면 닫은 후 우상단의 ***“Chatflow 저장”*** 버튼도 꼭 누르셔야 내용이 저장 됩니다. 
 
-{% include image.html file="tutorial/basic_function_node1.png" max-width="900" caption="Function Node 생성하기2" %}
+{% include image.html file="tutorial/using_api_node7.gif" max-width="900" caption="API Node test1" %}
+
+2) 우측의 테스트 패널에서 테스트를 해보세요. “피자 주문해줘”라고 입력 후 피자메뉴 선택 하면 <br/>
+Speak 노드에 #{피자가격} 을 넣어 만든 문구를 확인하실 수 있습니다.
+
+{% include image.html file="tutorial/using_api_node_test.png" max-width="900" caption="API Node test2" %}
 
 ## 다음 Step 에서는 
 지금까지 API 를 등록하고 API Node 를 설정하는 방법을 알아 보았습니다.<br/>

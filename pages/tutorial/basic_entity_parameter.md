@@ -45,20 +45,35 @@ Entity를 만들었으니, Entity를 인식할 수 있도록 Intent의 예문에
 {% include image.html file="tutorial/basic03_add_entity.png" max-width="900" caption="예문에 추가할 Entity 선택" %}
 
 4) 우측 상단의 ***“저장”*** 버튼을 눌러 수정된 내용을 저장해주세요. Intent를 저장하면 Entity를 지정했던 글자가 컬러로 표시되는 것을 확인할 수 있습니다. 이렇게 Entity를 연결하면, “쉬림프 피자 주문해줘”, “치즈 피자 주문해줘”와 같이 메뉴 별로 하나하나 예문으로 등록하지 않아도 동일하게 동작하게 됩니다.
-- Entity를 설정할 때 Entity 리스트에서 sys.any와 같이 정의하지 않았던 Entity가 리스트에 보여지고 있는데, 이것은 danbee.Ai에서 기본적으로 제공하는 Entity로 document의 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[시스템 Entity](/entity.html#%EC%8B%9C%EC%8A%A4%ED%85%9C-entity)</span>를 보시면 더욱 자세히 알 수 있습니다.
 
 {% include image.html file="tutorial/basic03_added_entity.png" max-width="900" caption="예문에 Entity 추가된 모습" %}
 
 ## 파라미터(Parameter) 활용
 예문에 Entity를 연결하면 동시에 같은 이름의 Parameter가 생성된 것을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/basic03_create_parameter.png" max-width="900" caption="Parameter 생성된 모습" %}
-
 Parameter란 사용자가 입력한 Entity 값을 담아내는 껍데기 입니다. 사용자가 "페퍼로니 피자 주문해줘"라고 입력하면 “페퍼로니”라는 Entity 값이 “피자메뉴” Parameter에 담겨지게 됩니다. 이후에 “피자메뉴” Parameter를 호출하면 “페퍼로니”라는 값이 조회되게 됩니다. 이렇게 Parameter에 필요한 정보를 담아 놓고 Chatflow에서 Parameter를 이용하여 그 값을 목적에 맞게 조회하여 활용할 수 있습니다. 
 
-그럼 Entity와 Parameter를 이용하여 Chatflow를 만들어보겠습니다.
+{% include image.html file="tutorial/basic03_create_parameter.png" max-width="900" caption="Parameter 생성된 모습" %}
+
+### Parameter 추가
+예문에 Entity를 등록하지 않고 직접 Parameter를 추가할 수도 있습니다. 피자가격 정보를 담을 Parameter를 추가해 보겠습니다.
+
+1) Intent 상세 페이지에서 ***추츨되는 Parameter*** 영역 우측에 있는 ***"+ Parameter"*** 버튼을 클릭해주세요.
+
+{% include image.html file="tutorial/basic03_add_parameter_button.png" max-width="900" caption="Parameter 추가 버튼" %}
+
+2) Parameter 명을 ***"피자가격"***, Entity를 ***"sys.any"***로 입력해주세요. ***sys.any***는 danbee.Ai에서 기본적으로 제공하는 Entity 중 하나로 어떤 값이든 모두 Parameter로 받을 수 있는 Entity 입니다. 피자메뉴 Entity처럼 대표어를 별도로 관리할 필요가 없습니다.
+- sys.any와 같이 danbee.Ai에서 기본적으로 제공하는 Entity에 대한 자세한 설명은 document의 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[시스템 Entity](/entity.html#%EC%8B%9C%EC%8A%A4%ED%85%9C-entity)</span>에서 확인할 수 있습니다.
+
+{% include image.html file="tutorial/basic03_new_parameter.png" max-width="900" caption="신규 Parameter 내용 입력" %}
+
+3) ***"추가"*** 버튼을 클릭하여 팝업을 닫으면 Parameter가 추가된 것을 확인할 수 있습니다. 우측 상단의 ***"저장"*** 버튼을 클릭하여 수정한 내용을 저장해주세요.
+
+{% include image.html file="tutorial/basic03_parameter_list.png" max-width="900" caption="Parameter 목록" %}
 
 ### Parameter를 이용하여 메시지 만들기
+Entity와 Parameter를 이용하여 Chatflow를 만들어보겠습니다.
+
 1) “피자주문” Intent 상세페이지에서 우측 상단에 ***연관 Chatflow***로 Step2에서 이미 만들었던 “피자주문하기” Chatflow가 연결되어 있는 것을 확인할 수 있습니다. “피자주문하기” Chatflow를 클릭하여 Chatflow 상세화면으로 이동해주세요.
 
 {% include image.html file="tutorial/basic03_linked_chatflow.png" max-width="900" caption="연관 Chatflow" %}
