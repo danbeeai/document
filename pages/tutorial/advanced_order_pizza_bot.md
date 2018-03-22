@@ -99,9 +99,9 @@ Api 설정 방법 및 Api Node 설정 방법은 위에 챕터 내용 참고해 �
 - **요청 Parameter**: q, s
 - **Response API Tree**: size, price, name
 
-{% include image.html file="tutorial/ad_7.png" max-width="900" caption=Api 설정 화면" %}
-{% include image.html file="tutorial/ad_8.png" max-width="900" caption=Api Node 상세 요청 Parameter 화면" %}
-{% include image.html file="tutorial/ad_9.png" max-width="900" caption=Api Node 상세 출력 Parameters 화면" %}
+{% include image.html file="tutorial/ad_7.png" max-width="900" caption="Api 설정 화면" %}
+{% include image.html file="tutorial/ad_8.png" max-width="900" caption="Api Node 상세 요청 Parameter 화면" %}
+{% include image.html file="tutorial/ad_9.png" max-width="900" caption="Api Node 상세 출력 Parameters 화면" %}
 
 ### 최종 가격 계산 Function Node 설정하기
 사용자가 선택한 메뉴와 사이즈와 외부시스템에서 가져온 피자 가격까지 대화흐름에 가져왔습니다. 
