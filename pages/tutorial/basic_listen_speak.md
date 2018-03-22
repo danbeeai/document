@@ -11,8 +11,8 @@ previous: {
     url: basic_create_intent.html
 }
 next: {
-    title: Entity와 Parameter 이해하기,
-    url: intent.html
+    title: Entity와 Parameter 이해하기, 
+    url: basic_entity_parameter.html
 }
 ---
 

@@ -40,16 +40,18 @@ API 의 경우 개별 챗봇으로 관리하는 것이 아니고 개별 테넌�
 3) 피자주문 튜토리얼에서는 피자가격을 가져올 API 를 생성해 보겠습니다. <br/>
 우상단의 ***“API 등록”*** 버튼을 눌러 API 생성화면으로 들어갑니다. 
 
-4) 화면의 진입 후 상단에 생성할 API 명을 입력합니다. <br/>
-튜토리얼에서는 ***“피자주문하기_api_피자가격 가져오기”*** 로 입력하겠습니다.
+4) 화면의 진입 후 상단에 생성할 API 명을 입력합니다. 튜토리얼에서는 ***“피자주문하기_api_피자가격 가져오기”*** 를 입력하겠습니다.
 
 5) ***“API 설명”***을 입력합니다.
+튜토리얼에서는 ***“피자주문 튜토리얼에서 피자메뉴에 따른 피자가격을 가지고 오는 API 입니다.”*** 를 입력하겠습니다.
 
 {% include image.html file="tutorial/using_api_node2.gif" max-width="900" caption="API 만들기1" %}
 
-6) API 의 Request(호출) URL 을 입력합니다. 현재 만들고 있는 대화흐름에 외부정보를 갖다 줄 URL을 호출할 것입니다. <br/>
-URL 호출방식은 GET 방식과 POST 방식 중에 선택할 수 있습니다. <br/>
-튜토리얼에서는 GET 방식을 이용하도록 하겠습니다. <br/>
+6) ***“API 메서드 / Request URL”*** 부분에 Request(호출) URL 을 입력합니다. 현재 만들고 있는 대화흐름에 외부정보를 갖다 줄 URL을 호출할 것입니다. <br/>
+URL 호출방식은 GET 방식과 POST 방식 중에 선택할 수 있습니다. 튜토리얼에서는 GET 방식을 이용하도록 하겠습니다. <br/>
+
+{% include warning.html content="호출하는 URL 이 GET 과 POST 중 어떤 방식을 지원하는지 꼭 확인하시기 바랍니다. " %}
+
 예시로 입력하는 URL 은 튜토리얼에서 필요한 피자 가격을 들고 있는 시스템에서 제공하는 API 를 호출합니다. <br/>
 ***“https://channel.danbee.ai:3000/pizzaTutorial/getPrice”***
 
@@ -72,7 +74,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 {% include image.html file="tutorial/using_api_node3.gif" max-width="900" caption="API 만들기2" %}
 
 10) 예상한 결과값이 잘 나타난다면 외부시스템 정보를 들고올 준비가 되었습니다. <br/>
-우상단의 ***“저장”*** 버튼을 누르며 저장합니다. 이제 생성한 API 를 대화흐름에서 어떻게 쓰는지 알아보도록 하겠습니다.
+우상단의 ***“저장”*** 버튼을 눌러 저장합니다. 이제 생성한 API 를 대화흐름에서 어떻게 쓰는지 알아보도록 하겠습니다.
 
 
 ### API Node 만들기
@@ -80,13 +82,13 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 1) 좌측 사이드 메뉴에서 ***“대화흐름 목록 (Chatflow List)”*** 눌러 해당 메뉴로 들어갑니다.
 {% include callout.html content="화면 위치 : [대화흐름 (Chatflow)] > 대화흐름 목록 (Chatflow List)]" type="default" %}
 
-2) API 를 등록할 Chatflow 를 생성합니다. 튜토리얼에서는 계속해서 만들던 피자주문 시나리오에 API 를 적용해 보도록 하겠습니다.
+2) 계속해서 만들던 피자주문 시나리오에 API 를 적용해 보도록 하겠습니다.
 
 3) Chatflow 상단의 Api Node 를 클릭하여 추가해 주세요.
 
 4) Carausel Node 와 Split Node 사이에 Api Node를 위치 시키고 앞뒤 노드와 연결해 주세요. <br/>
 기존에 연결된 선의 경우 마우스로 선을 클릭하고 선이 붉은색으로 하이라이트된 후 키보드의 delete 키를 누르면 삭제됩니다. <br/>
-기왕이면 알아보기 쉽도록 노드명을 수정해 주면 좋겠죠?~~~ <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Node명 수정하기](/basic_listen_speak.html#node-%EB%AA%85-%EC%88%98%EC%A0%95)</span>
+기왕이면 알아보기 쉽도록 ***“외부에서 피자가격 가져오기”*** 와 같은 노드명을 부여하면 좋겠죠? <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Node명 수정하기](/basic_listen_speak.html#node-%EB%AA%85-%EC%88%98%EC%A0%95)</span>
 
 {% include image.html file="tutorial/using_api_node6.gif" max-width="900" caption="API Node 생성하기1" %}
 
@@ -112,12 +114,12 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 2) ***“출력 Parameters”*** 섹션 우측의 + 버튼을 누르면 대화흐름 내부에서 정의한 변수들이 나타납니다. <br/>
 피자가격을 받아오기 위해 대화흐름 내부에서 정의한 피자가격 변수를 선택합니다. 피자가격 변수가 보이지 않을 경우 <br/>
 피자가격 변수를 만들어 주세요. 만드는 방법은 이전 챕터에서 설명한 내용을 보시기 바랍니다.
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Parameter 추가하기](/basic_entity_parameter.html#%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0parameter-%ED%99%9C%EC%9A%A9)</span>
+<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Parameter 추가하기](/basic_entity_parameter.html#parameter-%EC%B6%94%EA%B0%80)</span>
 
 3) ***“출력 Parameters”*** 섹션 하단에 피자가격 변수에 외부시스템 값을 설정할 박스가 나타납니다. <br/>
 좌측 ***“Api Tree”*** 에 외부시스템에서 Price 변수에 가격 정보를 넣어줬기 때문에 Price 를 클릭한 상태로 드래그 하여 피자가격 박스 부분에서 클릭을 풀어줍니다. <br/>
 
-4) API Node 생성을 완료하였습니다. 우 하단의 ***“확인”*** 버튼을 눌러 더블 클릭하여 열은 상세화면을 닫아 주세요. <br/>
+4) API Node 생성을 완료하였습니다. 우 하단의 ***“확인”*** 버튼을 눌러 상세화면을 닫아 주세요. <br/>
 
 {% include warning.html content="***“확인”*** 누르지 않으면 작업한 내용이 저장되지 않으니 꼭 ***“확인”*** 버튼을 통하여 창을 닫아야 합니다. <br/>
 상세화면 닫은 후 우상단의 ***“Chatflow 저장”*** 버튼도 꼭 누르셔야 내용이 저장 됩니다." %}

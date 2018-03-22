@@ -11,8 +11,8 @@ previous: {
     url: basic_listen_speak.html
 }
 next: {
-    title: Slot Node를 사용하여 질문던지기,
-    url: intent.html
+    title: Slot Node 사용하기, 
+    url: basic_slot.html
 }
 ---
 
