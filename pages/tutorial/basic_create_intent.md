@@ -19,7 +19,7 @@ next: {
 어떤 말을 알아들을 것인지와 어떻게 대답할 것인지를 정의하면 하나의 대화를 완성할 수 있습니다.
 
 ## 챗봇 생성
-danbee.Ai를 이용하려면 먼저 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[로그인](/platform/#/danbeelogin)</span>을 해주셔야 합니다.
+danbee.Ai를 이용하려면 먼저 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[로그인](https://danbee.ai/platform/#/danbeelogin)</span>을 해주셔야 합니다.
 
 처음 로그인을 하시면, 먼저 챗봇을 만들어주세요.
 챗봇 생성방법은 document의 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[간단한 챗봇 만들어보기](/basic_create_chatbot.html)</span>를 참고하시면 됩니다.

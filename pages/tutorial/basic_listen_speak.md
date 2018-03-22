@@ -38,7 +38,7 @@ Chatflow에는 각각 역할을 지닌 여러 Node들이 존재하는데 처음 
 ### Listen Node
 Listen Node는 Chatflow에서 항상 첫 번째로 시작하는 노드로, 앞서 생성했던 Intent를 포함하고 있는 노드입니다. 사용자가 입력한 말이 어떤 Intent인지 파악되면, 그 Intent로 설정되어 있는 Chatflow가 시작되는 것입니다.
 
-    Listen Node를 더블 클릭하여 상세 화면으로 들어가면, 생성된 Intent를 조회하여 연결할 수 있는데, 피자주문 Intent에서 바로 Chatflow를 생성하여 넘어왔기 때문에 피자주문 Intent가 이미 선택되어 있는 것을 확인할 수 있습니다. Intent와 Chatflow는 1 대 1로만 연결되며, 선택된 Intent에 포함된 다른 정보들도 Listen Node에서 함께 조회할 수 있습니다.
+Listen Node를 더블 클릭하여 상세 화면으로 들어가면, 생성된 Intent를 조회하여 연결할 수 있는데, 피자주문 Intent에서 바로 Chatflow를 생성하여 넘어왔기 때문에 피자주문 Intent가 이미 선택되어 있는 것을 확인할 수 있습니다. Intent와 Chatflow는 1 대 1로만 연결되며, 선택된 Intent에 포함된 다른 정보들도 Listen Node에서 함께 조회할 수 있습니다.
 
 {% include image.html file="tutorial/basic02_listen_detail.png" max-width="900" caption="Listen Node 상세화면" %}
 
@@ -68,7 +68,7 @@ Speak Node는 챗봇이 어떻게 응답할지 챗봇 메시지를 정의하는 
 ### 선 연결하기
 Listen Node와 Speak Node 작성을 완료하면, 두 노드 끝에 있는 점과 점을 마우스로 드래그하여 연결해주세요. 이 선은 대화흐름을 만들어주는 역할을 하며, Listen Node에서 시작해서 마지막으로 연결된 노드까지 순차적으로 실행되어 하나의 대화흐름을 완료하게 됩니다.
 
-Chatflow가 완성되었으니 우측 상단의 ***"Chatflow 저장" 버튼을 클릭하여 데이터를 저장해주세요.
+Chatflow가 완성되었으니 우측 상단의 ***"Chatflow 저장"*** 버튼을 클릭하여 데이터를 저장해주세요.
 
 {% include image.html file="tutorial/basic02_connect_line.png" max-width="900" caption="Listen Node와 Speak Node 선으로 연결" %}
 

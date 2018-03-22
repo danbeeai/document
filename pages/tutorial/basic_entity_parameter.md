@@ -51,14 +51,14 @@ Entity를 만들었으니, Entity를 인식할 수 있도록 Intent의 예문에
 ## 파라미터(Parameter) 활용
 예문에 Entity를 연결하면 동시에 같은 이름의 Parameter가 생성된 것을 확인할 수 있습니다.
 
-Parameter란 사용자가 입력한 Entity 값을 담아내는 껍데기 입니다. 사용자가 "페퍼로니 피자 주문해줘"라고 입력하면 “페퍼로니”라는 Entity 값이 “피자메뉴” Parameter에 담겨지게 됩니다. 이후에 “피자메뉴” Parameter를 호출하면 “페퍼로니”라는 값이 조회되게 됩니다. 이렇게 Parameter에 필요한 정보를 담아 놓고 Chatflow에서 Parameter를 이용하여 그 값을 목적에 맞게 조회하여 활용할 수 있습니다. 
+***Parameter***란 사용자가 입력한 Entity 값을 담아내는 껍데기 입니다. 사용자가 "페퍼로니 피자 주문해줘"라고 입력하면 “페퍼로니”라는 Entity 값이 “피자메뉴” Parameter에 담겨지게 됩니다. 이후에 “피자메뉴” Parameter를 호출하면 “페퍼로니”라는 값이 조회되게 됩니다. 이렇게 Parameter에 필요한 정보를 담아 놓고 Chatflow에서 Parameter를 이용하여 그 값을 목적에 맞게 조회하여 활용할 수 있습니다. 
 
 {% include image.html file="tutorial/basic03_create_parameter.png" max-width="900" caption="Parameter 생성된 모습" %}
 
 ### Parameter 추가
 예문에 Entity를 등록하지 않고 직접 Parameter를 추가할 수도 있습니다. 피자가격 정보를 담을 Parameter를 추가해 보겠습니다.
 
-1) Intent 상세 페이지에서 ***추츨되는 Parameter*** 영역 우측에 있는 ***"+ Parameter"*** 버튼을 클릭해주세요.
+1) Intent 상세 페이지에서 ***추출되는 Parameter*** 영역 우측에 있는 ***"+ Parameter"*** 버튼을 클릭해주세요.
 
 {% include image.html file="tutorial/basic03_add_parameter_button.png" max-width="900" caption="Parameter 추가 버튼" %}
 
