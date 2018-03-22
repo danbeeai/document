@@ -19,7 +19,7 @@ previous: {
 그러나 사용자에게 가격을 보여줄때는 천단위에 쉼표를 넣어서 보여주고 싶은 경우에는 어떻게 해야 할까요? <br/>
 아래 예제를 통해 살펴 보도록 하겠습니다.
 
-### Function Node
+### Function Node 만들기
 #### Function Node 를 Chatflow 창에서 설정하기
 계속해서 기존에 만들던 피자주문 시나리오에 Function Node 를 추가 하도록 하겠습니다. <br/>
 <br/>
