@@ -80,6 +80,10 @@ entries:
           url: /chatflow_function.html
           output: web, pdf   
 
+        - title: Jump 노드
+          url: /chatflow_jump.html
+          output: web, pdf             
+
     - title: 유의어 관리
       url: /synonym.html
       output: web, pdf               

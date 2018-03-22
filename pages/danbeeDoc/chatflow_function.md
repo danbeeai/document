@@ -11,8 +11,8 @@ previous: {
     url: chatflow_api.html
 }
 next: {
-    title: 유의어 관리,
-    url: synonym.html
+    title: Jump 노드,
+    url: chatflow_jump.html
 }
 ---
 
