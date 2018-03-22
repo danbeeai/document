@@ -10,6 +10,10 @@ previous: {
     title: API 노드 사용하기,
     url: basic_api_node.html
 }
+nest: {
+    title: 피자주문봇 만들기,
+    url: advanced_order_pizza_bot.html
+}
 ---
 
 ## Function Node 를 활용하여 변수값을 가공하기
@@ -21,7 +25,7 @@ previous: {
 
 ### Function Node 만들기
 #### Function Node 를 Chatflow 창에서 설정하기
-계속해서 기존에 만들던 피자주문 시나리오에 Function Node 를 추가 하도록 하겠습니다. <br/>
+계속해서 기존에 만들던 피자주문 시나리오에 [Function Node](/chatflow_function.html#function-%EB%85%B8%EB%93%9C) 를 추가 하도록 하겠습니다. <br/>
 <br/>
 1) Chatflow 상단의 Function Node 를 클릭하여 추가해 주세요.
 
