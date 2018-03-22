@@ -10,7 +10,7 @@ previous: {
     title: API 노드 사용하기,
     url: basic_api_node.html
 }
-nest: {
+next: {
     title: 피자주문봇 만들기,
     url: advanced_order_pizza_bot.html
 }
