@@ -4,12 +4,7 @@ entries:
 - title: Sidebar
   levels: one
   folders:
-  - title: 시작하기
-    output: web
-    folderitems:
-    - title: 샘플챗봇 가져오기
-      url: /samplebot.html
-      output: web
+  
   
   - title: Tutorial
     output: web
@@ -20,34 +15,33 @@ entries:
     # - title: Tutorial 모음
     #   url: /tutorials_archive.html
     #   output: web
-    - title: Intent 생성하기
+    - title: 0. 튜토리얼 시작하기
+      url: /samplebot.html
+      output: web
+    - title: 1. Intent 생성하기
       url: /basic_create_intent.html
       output: web
-    - title: Chatflow 생성하기
+    - title: 2. Chatflow 생성하기
       url: /basic_listen_speak.html
       output: web
-    - title: Entity와 Parameter 이해하기
+    - title: 3. Entity와 Parameter 이해하기
       url: /basic_entity_parameter.html
       output: web
-    - title: Slot Node 사용하기
+    - title: 4. Slot Node 사용하기
       url: /basic_slot.html
       output: web
-    - title: Carousel Node 사용하기
+    - title: 5. Carousel Node 사용하기
       url: /basic_carousel.html
       output: web
-    - title: Split Node 사용하기
+    - title: 6. Split Node 사용하기
       url: /basic_split.html
       output: web        
-    - title: API 노드 사용하기
+    - title: 7. API 노드 사용하기
       url: /basic_api_node.html
       output: web
-    - title: Function 노드 사용하기
+    - title: 8. Function 노드 사용하기
       url: /basic_function_node.html
       output: web
-
-  - title: 피자주문봇 만들기
-    output: web
-    folderitems:
-    - title: 피자주문봇 만들기
+    - title: 9. 피자주문봇 만들기
       url: /advanced_order_pizza_bot.html
-      output: web
+      output: web  

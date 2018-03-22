@@ -23,7 +23,7 @@ next: {
 
 danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 차근차근 따라하며 챗봇을 만들어보실 수 있도록 샘플챗봇을 만드는 방법을 튜토리얼로 제공하고 있습니다.
 
-- <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[튜토리얼봇](/basic_create_intent.html)</span> : danbee.Ai의 여러 가지 기능들을 쉬운 것부터 하나씩 익혀볼 수 있습니다. Tutorial 1부터 10까지가 튜토리얼봇에 대한 단계별 설명입니다.
+- <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[튜토리얼봇](/basic_create_intent.html)</span> : danbee.Ai의 여러 가지 기능들을 쉬운 것부터 하나씩 익혀볼 수 있습니다. Tutorial 1부터 8까지가 튜토리얼봇에 대한 단계별 설명입니다.
 - <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[피자주문봇](/basic_create_intent.html)</span> : 챗봇을 이용하여 서비스를 만들어보는 예시로 피자주문봇을 만들어볼 수 있습니다. 기본적인 기능들을 모두 담고 있으므로 응용하여 다른 새로운 챗봇을 만드는데 많은 도움이 될 것입니다.
 
 ## 샘플챗봇 가져오기
