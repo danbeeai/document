@@ -42,6 +42,6 @@ entries:
     - title: 8. Function 노드 사용하기
       url: /basic_function_node.html
       output: web
-    - title: 9. 피자주문봇 만들기
-      url: /advanced_order_pizza_bot.html
-      output: web  
+    # - title: 9. 피자주문봇 만들기
+    #   url: /advanced_order_pizza_bot.html
+    #   output: web  
