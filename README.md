@@ -1,5 +1,5 @@
 # DANBEE.AI Documentaion
-2017.10.10 기준
+2018.03.16 기준
 http://doc.danbee.ai
 
 ## Requirement
@@ -36,6 +36,8 @@ cd document <br/>
 ..document> gem install bundler <br/>
 ..document> gem install wdm -v '0.1.1' <br/>
 ..document> bundle install <br/>
+
+※ window 에서 SSL error 시 Gemfile 파일 내용중 source 를 https 에서 http 로 변경한후 다시 install <br/>
 
 ## START
 ..document> bundle exec jekyll serve
