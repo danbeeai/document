@@ -10,10 +10,10 @@ previous: {
     title: API 노드 사용하기,
     url: basic_api_node.html
 }
-# next: {
-#     title: 피자주문봇 만들기,
-#     url: advanced_order_pizza_bot.html
-# }
+next: {
+    title: 피자주문봇 만들기,
+    url: advanced_order_pizza_bot.html
+}
 ---
 
 ## Function Node 를 활용하여 변수값을 가공하기
