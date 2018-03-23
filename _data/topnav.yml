@@ -10,7 +10,7 @@ topnav:
     - title: Document
       url: /index.html
     - title: Tutorial
-      url: /tutorials.html
+      url: /samplebot.html
 
 #Topnav dropdowns
 #topnav_dropdowns:
