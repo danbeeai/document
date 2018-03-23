@@ -67,9 +67,14 @@ Intent Candidates 영역 우측에 보면 [+] 버튼이 존재합니다. 해당 
 
 ### Chatflow 테스트 패널
 
-Chatflow 테스트 패널에서는 현재 만들어진 Chatflow가 제대로 동작하는지 테스트할 수 있습니다. 테스트의 결과는 2가지 모드로 확인할 수 있습니다. 모드는 테스트 화면 상단 벌래 아이콘 클릭을 통하여 변경할 수 있습니다.
+Chatflow 테스트 패널에서는 현재 만들어진 Chatflow가 제대로 동작하는지 테스트할 수 있습니다. 
 
-{% include image.html file="test_panel_n_demo/chatflow_testpanel_01.png" max-width="900" caption="Chatflow 테스트 패널 - 모드 변경" %}
+{% include image.html file="test_panel_n_demo/chatflow_testpanel_01.png" max-width="900" caption="Chatflow 테스트 패널 - 구성" %}
+
+Chatflow 테스트 패널 상단에는 모드 전환 버튼과 초기화 버튼이 존재합니다.
+
+- **초기화 버튼** : 대화 내용을 초기화 시킵니다. 챗봇을 변경하거나 로그아웃하시면 자동으로 대화가 초기화되지만 그외의 경우에는 모든 대화내용이 유지됩니다. 대화 내용이 길어지면 초기화 시키는 것을 권장합니다.
+- **모드 전환 버튼** : 테스트의 결과를 크게 일반 모드와 디버그 모드, 총 2가지 모드로 확인할 수 있습니다. 
 
 #### 일반 모드
 
@@ -83,7 +88,7 @@ Chatflow 테스트 패널에서는 현재 만들어진 Chatflow가 제대로 동
 | 노드ID | 마지막 답변 또는 클릭된 노드의 ID를 보여줍니다. |
 | 요청 파라메터 |  마지막 답변 또는 클릭된 노드에서 정보를 받고자하는 Parameter를 보여줍니다. |
 
-우측 [챗플로우 상세] 버튼을 클릭하면 해당 노드가 존재하는 Chatflow의 상세 화면으로 이동합니다.
+우측 **[챗플로우 상세]** 버튼을 클릭하면 해당 노드가 존재하는 Chatflow의 상세 화면으로 이동합니다.
 
 #### 디버그 모드
 
@@ -102,13 +107,13 @@ Chatflow 테스트 패널에서는 현재 만들어진 Chatflow가 제대로 동
 | Carousel | 답변 받기를 선택했다면 무조건 물어보기 선택 여부 및 받은 파라미터 값을 보여줍니다. |
 | Api | API명 및 URL을 보여줍니다. |
 | Function | Function 노드 내부에서 값이 변경된 파라미터를 보여줍니다. |
-<br/>
+
 {% include image.html file="test_panel_n_demo/chatflow_testpanel_04.png" max-width="900" caption="Chatflow 테스트 패널 - 파라미터 값 확인" %}
 
-각 답변을 클릭하면 [?]모양의 버튼이 뜨는 것을 확인할 수 있습니다. [?]버튼을 클릭하면 해당 노드에 들어왔을때 값이 존재하는 파라미터의 정보를 확인할 수 있습니다. 해당 노드에 들어왔을때 값이 수정된 파라미터가 있다면 표시가 되는 것 또한 확인할 수 있습니다.
+각 답변을 클릭하면 **[?]**모양의 버튼이 뜨는 것을 확인할 수 있습니다. **[?]버튼**을 클릭하면 해당 노드에 들어왔을때 값이 존재하는 파라미터의 정보를 확인할 수 있습니다. 해당 노드에 들어왔을때 값이 수정된 파라미터가 있다면 표시가 되는 것 또한 확인할 수 있습니다.
 
 
-- 리컨펌, 멀티, 디버깅 메세지 이미지
+{% include image.html file="test_panel_n_demo/chatflow_testpanel_05.png" max-width="900" caption="Chatflow 테스트 패널 - 기본 설정 답변 확인" %}
 
 직접 만든 Chatflow 이외에 기본 설정에서 세팅한 정보에 따라 출력되는 답변에 대한 추가적인 정보 역시 쉽게 확인할 수 있습니다.
 
@@ -119,25 +124,34 @@ Chatflow 테스트 패널에서는 현재 만들어진 Chatflow가 제대로 동
 
 특히 Default Fallback 메세지가 노출되는 이유에 대하여 자세하게 확인할 수 있습니다.<br/>
 
+{% include image.html file="test_panel_n_demo/chatflow_testpanel_06.png" max-width="900" caption="Chatflow 테스트 패널 - Default Fallback Case" %}
+
 - **CASE 01** : 추론 정확도가 낮습니다.
 
  [기본 설정]에서 설정한 Reconfirm 임계값보다 낮은 정확도로 찾을 경우 발생합니다. 붉은색 디버깅 메세지를 클릭하면 어떤 Intent 몇 퍼센트의 정확도로 추론하였는지, 되묻기 임계값이 얼마인지 확인할 수 있습니다.
-
+ <br/><br/>
 - **CASE 02** : 채널 Fallback 설정된 Intent 입니다.
 
  찾은 Intent가 Fallback 설정이 체크된 Intent일 경우 발생합니다. 디버깅 메세지 클릭 시 추론한 Intent에 대한 정보를 얻을 수 있습니다.
- 
+
+{% include image.html file="test_panel_n_demo/chatflow_testpanel_06_01.png" max-width="900" caption="채널 Fallback 설정 확인" %} 
+
+ Intent 목록에서 실제로 추론된 Intent가 채널 Fallback 설정이 되어 있음을 확인할 수 있습니다.
+ <br/><br/>
 - **CASE 03** : Intent에 연결된 Chatflow를 찾지 못했습니다.
 
- Intent는 찾았지만 해당 Intent에 연결된 Chatflow가 없을 경우 발생합니다. 디버깅 메세지 클릭 시 추론한 Intent에 대한 정보를 얻을 수 있습니다.
+ Intent는 찾았지만 해당 Intent에 연결된 Chatflow가 없을 경우 발생합니다. 디버깅 메세지 클릭 시 추론한 Intent에 대한 정보를 얻을 수 있습니다. 
+ 
+ {% include image.html file="test_panel_n_demo/chatflow_testpanel_06_02.png" max-width="900" caption="연결 Chatflow 확인" %} 
+ 
+ 추론된 Intent를 찾아 들어가면 실제로 연결된 Chatflow가 없음을 확인할 수 있습니다.<br/><br/>
+예시 이외에도 다양한 CASE에 대하여 Default Fallback 발생 원인 파악에 용이한 정보를 제공하고 있습니다.<br/>
 
-예시 이외에도 다양한 CASE에 대하여 Default Fallback 발생 원인 파악에 용이한 정보를 제공하고 있습니다.<br/><br/>
+이와 같이 테스트 패널을 잘 활용한다면 보다 쉽게 자연스러운 대화를 만들 수 있을 것입니다.<br/>
 
-이와 같이 테스트 패널을 잘 활용한다면 보다 쉽게 자연스러운 대화를 만들 수 있을 것입니다.
+{% include note.html content="테스트 패널은 필요에 따라 언제는지 접고 필 수 있습니다." %}
 
-{% include note.html content="테스트 패널을 보고싶지 않다면 언제든 접고 필 수 있습니다." %}
-
-- 테스트패널 접기 버튼
+{% include image.html file="test_panel_n_demo/chatflow_testpanel_07.png" max-width="900" caption="테스트 패널 여닫기" %} 
 
 ## 시뮬레이션
 {% include callout.html content="화면 위치 : [시뮬레이션(Simulation)]" type="default" %}
