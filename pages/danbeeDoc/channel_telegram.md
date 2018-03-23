@@ -26,8 +26,8 @@ Telegram 채널 연계 설정을 하려면 다음이 필요합니다.
 * Telegram 계정
 
 ### Telegram 봇 만들기
-1. 브라우저에서 <span style="color:#f69023;">[Telegram Web-version](https://web.telegram.org){:target="_blank"}</span>에 접속한 후 로그인 합니다.<figure><img class="docimage" src="images/channel/telegram/telegram_web_login.png" alt="telegram 웹 앱" style="max-width: 800px"></figure>
-2. <span style="color:#f69023;">[Telegram 봇 아버지](https://telegram.me/botfather){:target="_blank"}</span>로 이동하십시오.
+1. 브라우저에서 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Telegram Web-version](https://web.telegram.org){:target="_blank"}</span>에 접속한 후 로그인 합니다.<figure><img class="docimage" src="images/channel/telegram/telegram_web_login.png" alt="telegram 웹 앱" style="max-width: 800px"></figure>
+2. <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Telegram 봇 아버지](https://telegram.me/botfather){:target="_blank"}</span>로 이동하십시오.
 3. 웹 인터페이스에서 시작 단추를 클릭 하거나 ***/start***를 입력하십시오.<figure><img class="docimage" src="images/channel/telegram/telegram_web_start.png" alt="telegram 봇 시작하기" style="max-width: 800px"></figure>
 4. 봇을 생성하기 위해  ***/newbot***을 입력하십시오.
 5. 봇이름을 입력합니다. 봇이름은 bot로 끝나야 합니다.(예:Namebot)
@@ -41,7 +41,7 @@ Telegram 채널 연계 설정을 하려면 다음이 필요합니다.
 5. 연결 버튼을 클릭하십시오.
 
 ### Telegram 봇 테스트
-1. 브라우저에서 <span style="color:#f69023;">[Telegram Web-version](https://web.telegram.org){:target="_blank"}</span>에 접속한 후 로그인 합니다.
+1. 브라우저에서 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Telegram Web-version](https://web.telegram.org){:target="_blank"}</span>에 접속한 후 로그인 합니다.
 2. 생성한 봇 이름으로 검색 후 /start를 입력하여 챗봇과 대화를 시작합니다.<figure><img class="docimage" src="images/channel/telegram/telegram_app_add_chatbot.png" alt="line app add chatbot" style="max-width: 800px"></figure>
-3. 또는 https://web.telegram.org/#/im?p=@$봇이름$ 으로 접속해서 대화를 시작합니다.
+3. 또는 https://web.telegram.org/#/im?p=@봇이름 으로 접속해서 대화를 시작합니다.
 
