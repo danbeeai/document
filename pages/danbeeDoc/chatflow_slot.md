@@ -31,7 +31,7 @@ Slot 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](Chatflow_slot.html#기본정보)
 - [질문 설정](Chatflow_slot.html#질문 설정)
 
-{% include image.html file="chatflow/Chatflow_slot_cavas.png" max-width="900" caption="Slot 노드" %}
+{% include image.html file="chatflow/Chatflow_slot_canvas.png" max-width="900" caption="Slot 노드" %}
 
 ### 기본정보
 

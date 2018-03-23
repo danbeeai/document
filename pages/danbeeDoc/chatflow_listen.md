@@ -29,7 +29,7 @@ Listen 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](Chatflow_listen.html#기본정보)
 - [인텐트 연결](Chatflow_listen.html#인텐트 연결)
 
-{% include image.html file="chatflow/Chatflow_listen_cavas.png" max-width="900" caption="Listen노드" %}
+{% include image.html file="chatflow/Chatflow_listen_canvas.png" max-width="900" caption="Listen노드" %}
 
 
 

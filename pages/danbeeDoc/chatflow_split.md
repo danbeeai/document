@@ -25,7 +25,7 @@ Split 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](Chatflow_split.html#기본정보)
 - [분리조건 설정](Chatflow_split.html#분리조건 설정)
 
-{% include image.html file="chatflow/Chatflow_split_cavas.png" max-width="900" caption="Split 노드" %}
+{% include image.html file="chatflow/Chatflow_split_canvas.png" max-width="900" caption="Split 노드" %}
 
 
 ### 기본정보

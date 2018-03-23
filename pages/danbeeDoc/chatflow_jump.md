@@ -26,7 +26,7 @@ Jump 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](Chatflow_jump.html#기본정보)
 - [Jump 설정](Chatflow_jump.html#Jump 설정)
 
-{% include image.html file="chatflow/Chatflow_jump_cavas.png" max-width="900" caption="Jump 노드" %}
+{% include image.html file="chatflow/Chatflow_jump_canvas.png" max-width="900" caption="Jump 노드" %}
 
 ### 기본정보
 
@@ -36,7 +36,7 @@ Jump 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 
 ### Jump 설정
 
-Jump 노드는 기존에 등록 관리되고 있는 Jump들을 불러와 선택 설정하는 방식으로 구성이 되어 있습니다. 
+Jump 노드는 이동할 챗플로우를 지정하고 전달하고 싶은 파라미터들을 매핑 설정하는 방식으로 구성기존에 등록 관리되고 있는 Jump들을 불러와 선택 설정하는 방식으로 구성이 되어 있습니다. 
 이는 동일한 Jump 서비스를 서로 다른 챗봇, 서로 다른 시나리오에서 쓰고자 할 경우 매번 등록 설정해야하는 번거로움을 해소하고자 별도의 Jump들을 관리하고 불러서 사용하는 방식으로 구성된 이유이기도 합니다. 
 Jump관리에 대해 자세히 알고자 할 경우 아래 Jump관리 내용을 확인하시기 바랍니다. 
 
