@@ -133,6 +133,60 @@ Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simul
 
 {% include image.html file="chatflow/Chatflow_sample.png" max-width="900" caption="샘플 시나리오(야식주문)" %}
 
+
+#### '야식 주문' listen 설정 화면
+
+야식 주문에 사용할 파라미터들을 설정 합니다. 
+
+- [야식 종류] : type
+- [피자 크기] : size
+- [양념,후라이드] : cook_type
+
+{% include image.html file="chatflow/Chatflow_sample_listen.png" max-width="900" caption="'야식주문' 설정 화면" %}
+
+
+#### '야식종류' slot 설정 화면
+
+피자와 치킨 중에 어떤 야식을 선택할 것인지 묻는 질문과 파라미터를 설정합니다. 
+
+{% include image.html file="chatflow/Chatflow_sample_slot1.png" max-width="900" caption="'야식종류' 설정 화면" %}
+
+
+#### '피자, 치킨?' split 설정 화면
+
+야식 종류 기준으로 피자주문 대화 흐름을 진행할 것인지, 치킨 주문 대화 흐름을 진행할 것인지 판단합니다. 
+
+{% include image.html file="chatflow/Chatflow_sample_split.png" max-width="900" caption="'피자, 치킨?' 설정 화면" %}
+
+
+#### '피자 사이즈는?' slot 설정 화면
+
+피자 크기를 묻는 질문과 파라미터를 설정합니다. 
+
+{% include image.html file="chatflow/Chatflow_sample_slot_pizza.png" max-width="900" caption="'피자 사이즈는?' 설정 화면" %}
+
+
+#### '양념/후라이드?' slot 설정 화면
+
+양념, 후라이드 선택을 묻는 질문과 파라미터를 설정합니다. 
+
+{% include image.html file="chatflow/Chatflow_sample_slot_chicken.png" max-width="900" caption="'양념/후라이드?' 설정 화면" %}
+
+
+#### '역시 피자는~' speak 설정 화면
+
+선택한 피자와 크기에 대한 답변을 조건별로 설정합니다. 
+
+{% include image.html file="chatflow/Chatflow_sample_speak_pizza.png" max-width="900" caption="'역시 피자는~' 설정 화면" %}
+
+
+#### '역시 피자는~' speak 설정 화면
+
+선택한 치킨에 대한 답변을 조건별로 설정합니다. 
+
+{% include image.html file="chatflow/Chatflow_sample_speak_chicken.png" max-width="900" caption="'역시 피자는~' 설정 화면" %}
+
+
 야식주문 시나리오는 '야식 먹고 싶다'라는 이야기에 챗봇이 야식 종류(치킨, 피자)와 그에 따른 선택지(치킨종류, 피자크기)를 묻는 대화가 진행됩니다.
 
 {% include image.html file="chatflow/Chatflow_sample_test.png" max-width="900" caption="야식주문 치킨 선택 결과" %}
