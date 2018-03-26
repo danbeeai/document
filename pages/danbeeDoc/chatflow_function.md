@@ -63,17 +63,25 @@ Function 노드에 Javascript 함수를 활용하여 랜덤으로 Speak 노드�
 
 {% include image.html file="chatflow/Chatflow_function_random01.png" max-width="900" caption="랜덤 테스트 시나리오" %}
 
+#### Listen 노드 설정
+
 Listen 노드에서는 램덤 수를 담기 위한 변수 randomNum을 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_function_random02.png" max-width="900" caption="Listen 노드 설정" %}
+
+#### Function 노드 설정
 
 Function 노드에서 랜덤 수를 발생하기 위해 Javascript 함수를 아래와 같이 입력합니다. 
 
 {% include image.html file="chatflow/Chatflow_function_random03.png" max-width="900" caption="Function 노드 설정" %}
 
+#### Split 노드 설정
+
 Split 노드에 조건을 다음과 같이 randomNum 값이 0, 경우에는 '램덤1'을 1일 경우에는 '램덤2', 2일 경우에는 '랜덤3'을 실행하도록 설정합니다.
 
 {% include image.html file="chatflow/Chatflow_function_random04.png" max-width="900" caption="Split 노드 설정" %}
+
+#### Speak 노드 설정
 
 '램덤1', '램덤2','램덤3' Speak 노드는 단순히 기본 메시지를 출력하도록 설정합니다.
 
@@ -83,6 +91,8 @@ Split 노드에 조건을 다음과 같이 randomNum 값이 0, 경우에는 '램
 
 {% include image.html file="chatflow/Chatflow_function_random07.png" max-width="900" caption="[랜덤3] Speak 노드 설정" %}
 
+
+#### 테스트
 
 랜덤 분기 테스트를 실행해 보면 다음과 같이 같은 질문에 무작위로 다른 메시지를 내뱉게 됩니다. 
 
