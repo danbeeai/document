@@ -114,14 +114,14 @@ Chatflow의 대화 노드 종류에는 크게 8가지가 있습니다.
 
 노드는 클릭 또는 드래그로 선택할 수 있습니다. 
 
-{% include image.html file="chatflow/Chatflow_select.png" max-width="900" caption="Create chatflow" %}
+{% include image.html file="chatflow/Chatflow_select.png" max-width="900" caption="노드 선택" %}
 
 
 #### 노드 연결
 
 노드의 연결점을 클릭, 드래그하는 방식으로 노드들을 연결할 수 있습니다.
 
-{% include image.html file="chatflow/Chatflow_node_line.png" max-width="900" caption="Create chatflow" %}
+{% include image.html file="chatflow/Chatflow_node_line.png" max-width="900" caption="노드 연결" %}
 
 
 
@@ -129,7 +129,7 @@ Chatflow의 대화 노드 종류에는 크게 8가지가 있습니다.
 
 Chatflow 캔버스 상에 있는 Node와 연결 선은 선택한 후에 delete키를 눌러 삭제할 수 있습니다. (Mac에서는 fn + delete)
 
-{% include image.html file="chatflow/Chatflow_node_delete.png" max-width="900" caption="Create chatflow" %}
+{% include image.html file="chatflow/Chatflow_node_delete.png" max-width="900" caption="노드 삭제" %}
 
 
 ### Chatflow 저장
@@ -181,14 +181,14 @@ Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simul
 
 피자 크기를 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_slot_pizza.png" max-width="900" caption="'피자 사이즈는?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_speak_pizza.png" max-width="900" caption="'피자 사이즈는?' 설정 화면" %}
 
 
 #### '양념/후라이드?' slot 설정 화면
 
 양념, 후라이드 선택을 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_slot_chicken.png" max-width="900" caption="'양념/후라이드?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_speak_chicken.png" max-width="900" caption="'양념/후라이드?' 설정 화면" %}
 
 
 #### '역시 피자는~' speak 설정 화면
