@@ -54,9 +54,22 @@ Jump 노드는 이동할 챗플로우를 지정하고 전달하고 싶은 파라
 대화의 흐름을 자연스럽게 이어줄 것입니다. 
 
 
-{% include image.html file="chatflow/Chatflow_jump_canvas1.png" max-width="900" caption="점프할 챗플로우" %}
+#### 시작 챗플로우
+
+Slot 노드로 이름을 정보(name)를 물어보고 Jump 노드를 활용하여 다음 챗플로우로 Jump 합니다. 
+
+{% include image.html file="chatflow/Chatflow_jump_canvas1.png" max-width="900" caption="시작 챗플로우" %}
 
 
+Jump 노드에서 이동할 챗플로우 '제 이름은 아무개 입니다"를 선택하고 점프할 때 함께 전달할 파라미터 'name'을 매핑 설정합니다.
+
+{% include image.html file="chatflow/Chatflow_jump_mapping2.png" max-width="900" caption="Jump 노드 설정" %}
+
+
+#### 이동할 챗플로우
 
 {% include image.html file="chatflow/Chatflow_jump_canvas2.png" max-width="900" caption="이동할 챗플로우" %}
+
+
+
 
