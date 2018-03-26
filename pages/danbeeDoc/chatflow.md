@@ -45,7 +45,7 @@ Chatflow는 이러한 대화 과정에서 필요한 기본적인 듣고, 말하�
 
 ### Chatflow 테스트 패널
 
-Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 사전에 테스트할 수 있습니다. 
+테스트 패널은 설계한 Chatflow가 정상적으로 흐름을 진행하는지 사전에 테스트할 수 있는 기능을 제공합니다.
 
 {% include image.html file="chatflow/Chatflow_tester_layout.png" max-width="900" caption="Chatflow Tester 영역" %}
 
@@ -57,7 +57,7 @@ Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 
 - [디버그 모드] : 메시지 뿐만 아니라 내부적으로 처리되는 데이터 처리 내용까지 확인이 가능합니다. 
 - [파라미터 팝업] : 특정 노드에서의 처리된 파라미터 내역 확인이 가능합니다. (? 표시 클릭)
 
-{% include image.html file="chatflow/Chatflow_tester_module_set.png" max-width="900" caption="Chatflow Tester" %}
+{% include image.html file="chatflow/Chatflow_tester_module_set.png" max-width="900" caption="테스트 패널" %}
 
 
 
