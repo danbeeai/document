@@ -61,13 +61,13 @@ Jump 노드는 이동할 챗플로우를 지정하고 전달하고 싶은 파라
 {% include image.html file="chatflow/Chatflow_jump_canvas1.png" max-width="900" caption="시작 챗플로우" %}
 
 
-##### Slot 노드 설정
+##### [이름 문의] Slot 노드 설정
 
 이름을 물어보는 질문과 답변을 받아 저장할 파라미터 'name'을 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_jump_slot.png" max-width="900" caption="Jump 노드 설정" %}
 
-##### Jump 노드 설정
+##### [점프:인사] Jump 노드 설정
 
 Jump 노드에서 이동할 챗플로우 '제 이름은 아무개 입니다"를 선택하고 점프할 때 함께 전달할 파라미터 'name'을 매핑 설정합니다.
 
@@ -87,10 +87,15 @@ Jump 노드에서 이동할 챗플로우 '제 이름은 아무개 입니다"를 
 
 {% include image.html file="chatflow/Chatflow_jump_speak.png" max-width="900" caption="Listen 노드 설정" %}
 
-##### Speak 노드 설정
+##### [반갑습니다.] Speak 노드 설정
 
 '시작 챗플로우'에서 전달받은 파라미터를 활용하여 답변을 다음과 같이 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_jump_speak.png" max-width="900" caption="Speak 노드 설정" %}
 
 
+#### 샘플 시나리오 테스트 
+
+아래와 같이 Jump 노드를 활용하여 챗플로우간 이동하면서 파라미터를 전달하는 간단한 인사 시나리오 테스트 확인이 가능합니다.
+
+{% include image.html file="chatflow/Chatflow_jump_test.png" max-width="900" caption="테스트 화면" %}
