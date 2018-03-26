@@ -53,7 +53,7 @@ Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 
 테스트 예문을 입력하고 그에 따른 답변과 현재 진행되고 있는 상태 정보를 확인 할 수 있습니다.
 각각의 항목은 아래와 같은 정보를 의미합나다.
 
-{% include image.html file="chatflow/Chatflow_tester_module.png" max-width="900" caption="Chatflow Tester 항목" %}
+{% include image.html file="chatflow/Chatflow_tester_module_set.png" max-width="900" caption="Chatflow Tester 항목" %}
 
 | 항목명 | 설명 | 
 |-------------------------|------------------------|
@@ -90,6 +90,7 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 | [Carousel 노드](chatflow_carousel.html#Corousel 노드) | 사용자에게 카드 형태로 선택지를 제시하는 노드입니다. |
 | [Api 노드](chatflow_api.html#API 노드) | 다른 컨텐츠 서비스와 연계하여 정보를 얻기 위한 노드입니다. |
 | [Function 노드](chatflow_function.html#Function 노드) | 파라미터 정보를 가공 처리할 경우 사용하는 노드입니다. |
+| [Jump 노드](chatflow_jump.html#Jump 노드) | 대화 흐름상 다른 챗플로우로 이동하고자 할 경우 사용하는 노드입니다. |
 
 
 {% include image.html file="chatflow/Chatflow_design.png" max-width="900" caption="Chatflow canvas" %}
