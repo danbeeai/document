@@ -59,19 +59,35 @@ Split 노드는 다른 노드와 연결이 되어야 있어야 분기조건 설�
 
 ### 샘플 시나리오 (분기 테스트)
 
+#### 샘플 시나리오 설계
+
 Split 노드에서는 Listen 노드에 선언된 단어항목(parameter)들의 값을 메시지에 표시할 수 있습니다. 
 Split 노드는 분기 조건을 설정하여 해당하는 
 해당 시나리오는 'name' 변수값에 이름을 입력 받고 입력 받은 값을 메시지에 표시합니다.
 
 {% include image.html file="chatflow/Chatflow_split_sample.png" max-width="900" caption="분기 테스트 시나리오" %}
 
+#### Split 노드 설정
+
 분기노드에 설정한 조건은 다음과 같이 '받은 메시지'(@message)에 '분기1' 단어가 포함될 경우에는 '1번 분기' Speak 노드로 '분기2', '분기3' 단어가 포함될 경우는 각각의 Speak 노드로 분기되도록 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_split_sampleSplit.png" max-width="900" caption="분기 설정" %}
 
+#### Speak 노드 설정
+
 Speak 노드에서는 분기시 구분되는 메시지를 '기본 메시지'로 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_split_sampleSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+
+'2번 분기' 노드에도 메시지를 다음과 같이 설정합니다.
+
+{% include image.html file="chatflow/Chatflow_split_sampleSpeak2.png" max-width="900" caption="Speak 노드 설정" %}
+
+'3번 분기' 노드에도 메시지를 다음과 같이 설정합니다.
+
+{% include image.html file="chatflow/Chatflow_split_sampleSpeak3.png" max-width="900" caption="Speak 노드 설정" %}
+
+#### 테스트
 
 '분기 테스트' 시나리오를 테스트해 보면 Split 노드에 부합하는 조건에 해당하는 Speak 노드가 호출되는 것을 확인할 수 있습니다. 
 
