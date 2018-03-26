@@ -74,13 +74,22 @@ API 서비스로 Request를 보냈다면 결과를 받게 될 것입니다.
 
 ### 샘플 시나리오 (오늘 날씨 어때?)
 
+#### 샘플 시나리오 설계
+
 오늘 날씨에 대한 의도를 파악하고 API노드를 통해 '기상청'과 같이 날씨 컨텐츠를 제공하는 서비스와 연계를 하고 그 결과를 답변하는 시나리오로 구성되어 있습니다.
 
 {% include image.html file="chatflow/Chatflow_sample_weather.png" max-width="900" caption="샘플 시나리오(오늘날씨 어때?)" %}
 
-API 노드에 날씨 OpenAPI 서비스 연계 설정을 하고 아래와 같이 '최고기온', '최저기온', '기상현황' 출력 Parameter를 매핑 설정합니다.
+#### 파라미터 매핑
+
+좌측에 API를 통해 조회된 Tree 구조의 정보에서 사용하고자 하는 우측 파라미터에 드래그 매핑 설정한다.
+드래그 매핑을 하게 되면 Tree 구조에서 선택한 파라미터의 위치가 JsonPath 형태로 자동적으로 표시가 됩니다.
+
+{% include image.html file="chatflow/Chatflow_api_drap.png" max-width="900" caption="출력 파라미터 드래그 매핑 설정" %}
 
 {% include image.html file="chatflow/Chatflow_api_output.png" max-width="900" caption="API노드 출력 Parameters" %}
+
+#### 답변 메시지 설정
 
 Speak 노드에서 답변 메시지와 함께 API 노드에서 얻은 출력 Parameter들을 아래 그림과 같이 설정합니다.
 
