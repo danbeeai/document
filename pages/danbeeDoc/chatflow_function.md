@@ -77,7 +77,12 @@ Split 노드에 조건을 다음과 같이 randomNum 값이 0, 경우에는 '램
 
 '램덤1', '램덤2','램덤3' Speak 노드는 단순히 기본 메시지를 출력하도록 설정합니다.
 
-{% include image.html file="chatflow/Chatflow_function_random05.png" max-width="900" caption="Speak 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_function_random05.png" max-width="900" caption="[랜덤1] Speak 노드 설정" %}
+
+{% include image.html file="chatflow/Chatflow_function_random06.png" max-width="900" caption="[랜덤2] Speak 노드 설정" %}
+
+{% include image.html file="chatflow/Chatflow_function_random07.png" max-width="900" caption="[랜덤3] Speak 노드 설정" %}
+
 
 랜덤 분기 테스트를 실행해 보면 다음과 같이 같은 질문에 무작위로 다른 메시지를 내뱉게 됩니다. 
 
