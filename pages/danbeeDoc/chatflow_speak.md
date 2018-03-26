@@ -83,7 +83,7 @@ Speak 노드에서는 단순히 입력된 메시지만 출력할 뿐만 아니�
 
 Speak 노드에서 #{변수명} 형태로 표시하면 채널에는 '변수명'에 가지고 있는 값이 치환되어 표시됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_parameter.png" max-width="900" caption="메시지 조건 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_parameter.png" max-width="900" caption="파라미터 활용 사례" %}
 
 
 

@@ -85,7 +85,7 @@ API 서비스로 Request를 보냈다면 결과를 받게 될 것입니다.
 좌측에 API를 통해 조회된 Tree 구조의 정보에서 사용하고자 하는 우측 파라미터에 드래그 매핑 설정한다.
 드래그 매핑을 하게 되면 Tree 구조에서 선택한 파라미터의 위치가 JsonPath 형태로 자동적으로 표시가 됩니다.
 
-{% include image.html file="chatflow/Chatflow_api_drap.png" max-width="900" caption="출력 파라미터 드래그 매핑 설정" %}
+{% include image.html file="chatflow/Chatflow_api_drag.png" max-width="900" caption="출력 파라미터 드래그 매핑 설정" %}
 
 {% include image.html file="chatflow/Chatflow_api_output.png" max-width="900" caption="API노드 출력 Parameters" %}
 
