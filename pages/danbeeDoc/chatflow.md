@@ -55,19 +55,27 @@ Chatflow Tester는 설계한 Chatflow 정상적으로 흐름을 진행하는지 
 
 - [일반 모드] : 챗봇과의 메시지를 주고 받는 상황을 일반 채팅창처럼 보여줍니다.
 - [디버그 모드] : 메시지 뿐만 아니라 내부적으로 처리되는 데이터 처리 내용까지 확인이 가능합니다. 
-- [파라미터 팝업] : 특정 노드에서의 처리된 파라미터 내역 확인이 가능합니다. 
+- [파라미터 팝업] : 특정 노드에서의 처리된 파라미터 내역 확인이 가능합니다. (? 표시 클릭)
 
 {% include image.html file="chatflow/Chatflow_tester_module_set.png" max-width="900" caption="Chatflow Tester" %}
 
-| 항목명 | 설명 | 
+
+
+테스트 패널에서는 여러 Chatflow를 테스트해 볼 수 있습니다. 만약 지금 진행 중인 Chatflow를 확인하고 싶다면 패널 아래 부분의 'Chatflow 상세' 버튼을 선택하시면 됩니다. 
+그러면 원하시는 챗플로우가 Chatflow canvas에 펼쳐지게 됩니다. 
+
+{% include image.html file="chatflow/Chatflow_tester_link.png" max-width="900" caption="Chatflow 상세 링크" %}
+
+
+#### 용어 설명
+
+| 용어 | 용어 설명 | 
 |-------------------------|------------------------|
-| 세션 | '대화세션아이디'의 줄임말으로 대화를 시작해서 끝날 때까지의 대화를 식별하기 위한 정보입니다. |
-| 대화흐름 | 하나의 단일 시나리오를 의미하는 'Chatflow'를 식별할 수 있는 아이디 정보 입니다.  |
-| 인스턴스 | 'ChatflowInstance'의 줄임말로 'Chatflow' 단위로 이야기를 진행할때 인스턴스 단위로 발급되는 식별 아이디 입니다. |
-| 노드 | 'Chatflow' 안에 사용된 노드에서 현재 진행 중인 노드의 아이디를 나타냅니다. |
-| 파라메터 | Slot, Carousel 노드 처럼 챗봇이 되물어 보고자 하는 대상 변수 정보를 나타냅니다. |
+| 대화세션 | '대화세션아이디'의 줄임말으로 대화를 시작해서 끝날 때까지의 대화를 식별하기 위한 단위 개념입니다. |
+| 인스턴스 | 'ChatflowInstance'의 줄임말로 'Chatflow' 단위로 이야기를 진행할때 인스턴스 단위로 발급되는 식별 단위 입니다. |
+| 노드 | 듣고, 말하고, 판단하고, 되묻고 하는 등, 대화 흐름을 이어가는데 필요한 기본 기능 단위 입니다. |
+| 파라미터 | Chatflow 내 흐름 과정에서 사용되는 변수들을 일컫는 것으로 Slot, Carousel에서 답변 정보를 저장하는 용도로 주로 사용합니다.  |
 | 의도추론 | 현재 대화에 대해 NLU가 파악한 의도 정보를 나타냅니다. |
-| 오류메시지 영역 | 대화 과정에서 발생하는 오류 정보가 표시됩니다. |
 
 
 
@@ -83,7 +91,7 @@ Chatflow 목록 메뉴 우측 상단에 있는 [Chatflow 생성] 버튼을 눌�
 
 Chatflow 캔버스 화면 상단에 있는 Node를 클릭하여 Canvas에 필요한 Node들을 추가할 수 있습니다. 
 
-Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
+Chatflow의 대화 노드 종류에는 크게 8가지가 있습니다.
 
 | 대화노드 | 설명 | 
 |--------|-------|
@@ -102,6 +110,9 @@ Chatflow의 대화 노드 종류에는 크게 7가지가 있습니다.
 ### 대화노드 삭제
 
 Chatflow 캔버스 상에 있는 Node와 연결 선은 선택한 후에 delete키를 눌러 삭제할 수 있습니다. (Mac에서는 fn + delete)
+
+{% include image.html file="chatflow/Chatflow_node_delete.png" max-width="900" caption="Create chatflow" %}
+
 
 ### Chatflow 저장
 
