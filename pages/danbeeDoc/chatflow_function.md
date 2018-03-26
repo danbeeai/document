@@ -1,6 +1,6 @@
 ---
 title: Function 노드
-tags: [chatflow], [function]
+tags: [chatflow, function]
 keywords: Basic Conversation
 summary: Function 노드에 대한 이해와 설정하는 방법을 설명합니다.
 sidebar: danbee_doc_sidebar
