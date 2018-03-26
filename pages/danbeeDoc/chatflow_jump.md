@@ -83,7 +83,7 @@ Jump 노드에서 이동할 챗플로우 '제 이름은 아무개 입니다"를 
 
 '시작 챗플로우'에서 전달할 파라미터를 받을 파라미터 역시 동일한 이름 'name'으로 설정합니다.
 
-(파라미터 명칭은 동일할 필요는 없습니다.)
+{% include note.html content="챗플로우간에 전달해 주고 받을 파라미터 명칭들은 동일할 필요는 없습니다." %}
 
 {% include image.html file="chatflow/Chatflow_jump_speak.png" max-width="900" caption="Listen 노드 설정" %}
 
