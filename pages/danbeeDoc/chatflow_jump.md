@@ -79,7 +79,7 @@ Jump 노드에서 이동할 Chatflow '제 이름은 아무개 입니다"를 선�
 {% include image.html file="chatflow/Chatflow_jump_canvas2.png" max-width="900" caption="이동할 Chatflow" %}
 
 
-#### Listen 노드 설정
+#### [Listen Node] Listen 노드 설정
 
 '시작 Chatflow'에서 전달할 파라미터를 받을 파라미터 역시 동일한 이름 'name'으로 설정합니다.
 
