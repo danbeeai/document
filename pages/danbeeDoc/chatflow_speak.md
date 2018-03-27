@@ -117,6 +117,8 @@ Danbee.Ai에서는 그러한 처리를 위해 몇가지 시스템 변수를 아�
 
 {% include image.html file="chatflow/Chatflow_speak_randomCanvas.png" max-width="900" caption="랜덤 메시지 시나리오" %}
 
+
+
 Speak 노드의 메시지 설정에 Random 설정을 체크하면 메시지 입력창을 여러 개 추가할 수 있게 됩니다. 
 유사한 답변을 등록하면 등록된 갯수 내에서 메시지를 무작위로 답변하게 됩니다. 
 
@@ -129,18 +131,26 @@ Speak 노드에서는 Listen 노드에 선언된 단어항목(parameter)들의 �
 
 {% include image.html file="chatflow/Chatflow_speak_paramCanvas.png" max-width="900" caption="변수값 표시 시나리오" %}
 
+#### [의도파악] Listen 노드 설정
+
 Listen 노드에 'name' 변수를 다음과 같이 선언합니다.
 
 {% include image.html file="chatflow/Chatflow_speak_paramListen.png" max-width="900" caption="Listen 노드 설정" %}
+
+#### [변수값 물어보기] Slot 노드 설정
 
 Slot 노드에서는 'name' 값을 입력 받기 위해 다음과 변수를 지정하고 질문 메시지를 등록합니다. 
 
 {% include image.html file="chatflow/Chatflow_speak_paramSlot.png" max-width="900" caption="Slot 노드 설정" %}
 
+#### [변수값 표시] Speak 노드 설정
+
 Speak 노드에서는 답변 메시지를 입력할때 변수 값을 표시하고 싶은 경우 #{변수명} 과 같이 표시하면 됩니다. 
 해당 시나리오 실행시에는 #{변수명} 은 변수값으로 치환되어 보여지게 됩니다.
 
 {% include image.html file="chatflow/Chatflow_speak_paramSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+
+#### 테스트
 
 '변수값 표시' 시나리오를 테스트해 보면 Speak 노드에 입력된 메시시 중에 변수처리 된 부분은 #{name} 은 입력 받은 값이 치환되어 다음과 같은 결과가 나오게 됩니다. 
 

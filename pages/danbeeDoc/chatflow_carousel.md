@@ -74,18 +74,26 @@ Carousel 노드에서는 Listen 노드에 선언된 단어항목(parameter)들�
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleCanvas.png" max-width="900" caption="좋아하는 음식은 시나리오" %}
 
+#### [캐로셀 테스트] Listen 노드 설정
+
 Listen 노드에 좋아하는 음식을 선택받기 위해 'question1' 변수를 선언한다. 
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleListen.png" max-width="900" caption="Listen 노드 설정" %}
+
+#### [짜장면, 짬뽕 카드 제시] Carousel 노드 설정
 
 '좋아하는 음식은?' 질문 메시지를 입록하고 'question1' 변수에 선택 카드 정보 값을 받겠다고 설정합니다. 
 그리고 좋아하는 '짜장면', '짬뽕' 카드를 아래와 같이 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_carousel_card.png" max-width="900" caption="Carousel 노드 설정" %}
 
+#### [답변 메시지] Speak 노드 설정
+
 Speak 노드에 'question1' 변수 기준으로 값이 '짜장면', '짬뽕' 경우에 따라 다른 메시지를 표시하도록 설정합니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+
+#### 테스트
 
 '좋아하는 음식은?' 질문에 '짬뽕'을 선택하면 아래와 같이 결과가 나타납니다. 
 

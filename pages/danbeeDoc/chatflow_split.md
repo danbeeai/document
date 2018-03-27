@@ -67,13 +67,13 @@ Split 노드는 분기 조건을 설정하여 해당하는
 
 {% include image.html file="chatflow/Chatflow_split_sample.png" max-width="900" caption="분기 테스트 시나리오" %}
 
-#### Split 노드 설정
+#### [분기노드] Split 노드 설정
 
 분기노드에 설정한 조건은 다음과 같이 '받은 메시지'(@message)에 '분기1' 단어가 포함될 경우에는 '1번 분기' Speak 노드로 '분기2', '분기3' 단어가 포함될 경우는 각각의 Speak 노드로 분기되도록 설정합니다. 
 
 {% include image.html file="chatflow/Chatflow_split_sampleSplit.png" max-width="900" caption="분기 설정" %}
 
-#### Speak 노드 설정
+#### [1번 분기, 2번 분기, 3번 분기] Speak 노드 설정
 
 Speak 노드에서는 분기시 구분되는 메시지를 '기본 메시지'로 설정합니다. 
 

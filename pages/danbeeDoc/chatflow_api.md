@@ -80,20 +80,40 @@ API 서비스로 Request를 보냈다면 결과를 받게 될 것입니다.
 
 {% include image.html file="chatflow/Chatflow_sample_weather.png" max-width="900" caption="샘플 시나리오(오늘날씨 어때?)" %}
 
-#### 파라미터 매핑
+
+#### [오늘날씨 요청] Listen 노드 설정
+
+##### 파라미터 생성
+
+날씨 API를 통해 얻어온 정보를 담기 위한 파라미터들을 생성합니다.
+
+- [기상정보] : sky
+- [최고온도] : tmax
+- [최조온도] : tmin
+
+{% include image.html file="chatflow/Chatflow_api_listen.png" max-width="900" caption="파라미터 생성" %}
+
+#### [날씨 API연계] Api 노드 설정
+
+##### 파라미터 매핑
 
 좌측에 API를 통해 조회된 Tree 구조의 정보에서 사용하고자 하는 우측 파라미터에 드래그 매핑 설정한다.
 드래그 매핑을 하게 되면 Tree 구조에서 선택한 파라미터의 위치가 JsonPath 형태로 자동적으로 표시가 됩니다.
 
 {% include image.html file="chatflow/Chatflow_api_drag.png" max-width="900" caption="출력 파라미터 드래그 매핑 설정" %}
 
-{% include image.html file="chatflow/Chatflow_api_output.png" max-width="900" caption="API노드 출력 Parameters" %}
+{% include image.html file="chatflow/Chatflow_api_output.png" max-width="900" caption="파라미터 매핑" %}
 
-#### 답변 메시지 설정
+#### [오늘날씨 알려줌] Speak 노드 설정
+
+##### 답변 메시지 설정
 
 Speak 노드에서 답변 메시지와 함께 API 노드에서 얻은 출력 Parameter들을 아래 그림과 같이 설정합니다.
 
 {% include image.html file="chatflow/Chatflow_api_sampleSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+
+
+#### 테스트
 
 '오늘 날씨 어때?' 시나리오를 실행해 보면 아래와 같이 현재 기상정보를 답변하게 됩니다.
 
