@@ -181,14 +181,14 @@ Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simul
 
 피자 크기를 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_speak_pizza.png" max-width="900" caption="'피자 사이즈는?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_slot_pizza.png" max-width="900" caption="'피자 사이즈는?' 설정 화면" %}
 
 
 #### '양념/후라이드?' slot 설정 화면
 
 양념, 후라이드 선택을 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_speak_chicken.png" max-width="900" caption="'양념/후라이드?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_slot_chicken.png" max-width="900" caption="'양념/후라이드?' 설정 화면" %}
 
 
 #### '역시 피자는~' speak 설정 화면
