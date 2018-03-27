@@ -5,7 +5,7 @@ keywords: Tutorial
 summary: 튜토리얼과 샘플챗봇을 활용하여 누구나 쉽게 챗봇을 만들 수 있습니다.
 sidebar: tutorial_sidebar
 permalink: samplebot.html
-folder: Tutorial
+folder: tutorial
 next: {
     title: Intent 생성하기,
     url: basic_create_intent.html
@@ -24,7 +24,7 @@ next: {
 danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 차근차근 따라하며 챗봇을 만들어보실 수 있도록 샘플챗봇을 만드는 방법을 튜토리얼로 제공하고 있습니다.
 
 - <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[튜토리얼봇](/basic_create_intent.html)</span> : danbee.Ai의 여러 가지 기능들을 쉬운 것부터 하나씩 익혀볼 수 있습니다. Tutorial 1부터 8까지가 튜토리얼봇에 대한 단계별 설명입니다.
-- <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[피자주문봇](/basic_create_intent.html)</span> : 챗봇을 이용하여 서비스를 만들어보는 예시로 피자주문봇을 만들어볼 수 있습니다. 기본적인 기능들을 모두 담고 있으므로 응용하여 다른 새로운 챗봇을 만드는데 많은 도움이 될 것입니다.
+- <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[피자주문봇](/advanced_order_pizza_bot.html)</span> : 챗봇을 이용하여 서비스를 만들어보는 예시로 피자주문봇을 만들어볼 수 있습니다. 기본적인 기능들을 모두 담고 있으므로 응용하여 다른 새로운 챗봇을 만드는데 많은 도움이 될 것입니다.
 
 ## 샘플챗봇 가져오기
 튜토리얼에서 만든 샘플챗봇 완성본을 직접 확인하고 수정해보실 수 있습니다. 챗봇을 처음 만들어본다면 샘플챗봇을 참고하면서 원하는대로 내용을 조금씩 수정하는 것이 더 쉽게 챗봇을 만드는 방법일 수 있습니다. 앞으로 다양하게 활용하실 수 있도록 계속해서 샘플챗봇을 추가할 예정입니다.
