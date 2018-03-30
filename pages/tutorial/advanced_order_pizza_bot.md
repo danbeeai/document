@@ -110,13 +110,12 @@ Function Node 사용방법은 위에 챕터 내용을 참고 하시기 바랍니
 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Function Node 사용하기](/basic_function_node.html#function-node-%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC-%EB%B3%80%EC%88%98%EA%B0%92%EC%9D%84-%EA%B0%80%EA%B3%B5%ED%95%98%EA%B8%B0) </span><br/>
 Function Node 안에 들어갈 내용은 아래와 같습니다. <br/>
 
-{% include sampleCode.html content="<br/>/* 피자 최종 가격 계산 하기 */ <br/> 
-피자_계산금액 = 피자_가격 * 피자_선택수량; <br/>
-<br/>
-/* 천단위 쉼표 처리 */ <br/>
-피자_계산금액 = 피자_계산금액.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, \"$1,\"); <br/>
-피자_가격 = 피자_가격.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, \"$1,\");<br/>
-피자_선택수량 = 피자_선택수량.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, \"$1,\");<br/>" %}
+```js
+/* 천단위 쉼표 처리 */ 
+피자_계산금액 = 피자_계산금액.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"); 
+피자_가격 = 피자_가격.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+피자_선택수량 = 피자_선택수량.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+````
 
 {% include image.html file="tutorial/ad_10.png" max-width="900" caption="최종 가격 계산 Function Node 상세화면" %}
 

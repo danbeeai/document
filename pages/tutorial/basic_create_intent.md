@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-***영상위치***
+<iframe width="854" height="480" src="https://www.youtube.com/embed/nuaRRwKoAYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 영상으로 danbee.Ai 사용법을 배울 수 있습니다. 위 영상은 튜토리얼의 ***1. Intent 생성하기***와 ***2. Chatflow 생성하기***의 내용을 포함합니다. 
 
 ## danbee.Ai의 기본 구조
