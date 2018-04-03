@@ -29,7 +29,7 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 
 
 ### Facebook 앱 만들기
-1. 브라우저에서 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_homepage.png" alt="Facebook for developers" style="max-width: 800px"></figure>
+1. 브라우저에서 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_homepage.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 2. Facebook 계정으로 로그인 후 우측 상단의 내앱 > ***새앱 추가***를 클릭합니다.
 3. 표시이름과 연락처 이메일을 입력 후 앱ID를 만듭니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_appadd.png" alt="Facebook App Add" style="max-width: 800px"></figure>
 4. 제품중 Messenger의 버튼을 클릭 하여 설정 페이지로 이동한다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_messenger_setting.png" alt="Facebook Messenger Set" style="max-width: 800px"></figure>
@@ -48,7 +48,7 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 {% include note.html content="WEBHOOK URL은 자동생성 되므로 확인 토큰만 유지 관리하십시오." %}
 
 ### Facebook Webhook 설정 
-1. <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 돌아갑니다. 
+1. <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 돌아갑니다. 
 2. Webhooks 영역의 Webhooks 설정 버튼을 클릭하여 설정을 합니다. 
 3. 다음 필드에 관련 값을 입력하십시오. 입력 후 확인 및 저장버튼을 클릭합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
   * 콜백 URL : danbee.Ai에서 자동생성된 URL
@@ -58,14 +58,14 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 
 ### Facebook Messenger 테스트
 
-앱 테스트는 <span style="color:#f69023;">[Facebook Messenger](https://www.messenger.com){:target="_blank"}</span>에서 진행할 수 있습니다. 연결한 페이지 이름을 검색하여 테스트하십시오.
+앱 테스트는 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Facebook Messenger](https://www.messenger.com){:target="_blank"}</span>에서 진행할 수 있습니다. 연결한 페이지 이름을 검색하여 테스트하십시오.
 
 {% include warning.html content="앱이 비공개일 경우 해당 앱에 역할이 부여된 계정만 해당 페이지를 검색할 수 있습니다." %}
 
 
 ### Facebook 앱 공개
 
-모든 사람이 해당 챗봇을 사용할 수 있도록 만들기 위해서는 앱을 공개해야 합니다. 앱 공개를 위해서는 다음과 같은 과정이 선행되어야 합니다. 앱 공개를 위해서 <span style="color:#f69023;">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 이동합니다.
+모든 사람이 해당 챗봇을 사용할 수 있도록 만들기 위해서는 앱을 공개해야 합니다. 앱 공개를 위해서는 다음과 같은 과정이 선행되어야 합니다. 앱 공개를 위해서 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 이동합니다.
 
 1. 기본 설정 세팅<br/>
   : Facebook 앱 관리 페이지의 **[설정] - [기본설정]**에서 다음 정보를 반드시 입력해야 합니다.

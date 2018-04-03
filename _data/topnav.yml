@@ -9,8 +9,8 @@ topnav:
       url: /pricing.html
     - title: Document
       url: /index.html
-#    - title: Tutorial
-#      url: /tutorials.html
+    - title: Tutorial
+      url: /samplebot.html
 
 #Topnav dropdowns
 #topnav_dropdowns:
