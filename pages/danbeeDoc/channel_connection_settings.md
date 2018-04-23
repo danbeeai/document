@@ -129,6 +129,20 @@ next: {
             </div>
         </div>
     </div>
+    <div class="col-md-4 col-sm-6">
+        <div class="panel panel-default text-center">
+            <div class="panel-heading">
+                <span class="fa-stack fa-5x">
+                    <img src="https://danbee.Ai/platform/img/channel/c_slack.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
+                </span>
+            </div>
+            <div class="panel-body">
+                <h4>Slack</h4>
+                <p>Slack 메신저에 연결하는 방법</p>
+                <a href="channel_slack.html" class="btn btn-primary">자세히</a>
+            </div>
+        </div>
+    </div>
 </div>
 
 ## 채널 별 제약사항
@@ -151,6 +165,7 @@ next: {
 | 페이스북 | 3개 | 
 | 텔레그램 | 제한없음 |
 | 네이버 톡톡 | 10개 |
+| Slack | 5개 |
 
 해당 제약사항은 대화채널 설정 화면에서 간결한 아이콘으로 확인할 수 있습니다.
 

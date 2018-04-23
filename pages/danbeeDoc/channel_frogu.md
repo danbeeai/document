@@ -17,7 +17,7 @@ next: {
 ---
 
 ## Frogue(단비에이아이웹채널) 채널 연결 
- {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
+ {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
 
 ## danbee.Ai 채널 연결 설정
 1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
