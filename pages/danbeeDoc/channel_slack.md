@@ -29,6 +29,7 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 * App 이름과 Slack Workspace를 선택하여 Create App 버튼을 눌러 새로운 App을 생성합니다.
 
 
+
 ### 2. Bot User 추가하기
 생성한 Slack App에서 대화할 Bot User를 생성합니다.
 <figure><img class="docimage" src="images/channel/slack/slack_02_add_bot_user.png" alt="Facebook for developers" style="max-width: 800px"></figure>
@@ -37,12 +38,14 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 * Add Bot User 버튼을 클릭하여 Bot User를 추가합니다.
 
 
+
 ### 3. Slack App 기본정보 Danbee.Ai 에 입력 및 연결하기
 대화 채널 연결을 위해 Slack App의 기본정보를 Danbee.ai 입력하고 연결합니다.
 <figure><img class="docimage" src="images/channel/slack/slack_03_basic_info.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 * Basic Information 섹션에서 Client ID, Client Secret 그리고 Verification Token 을 복사합니다.
 <figure><img class="docimage" src="images/channel/slack/slack_03_basic_info_d.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 * 복사한 값을 대화채널 메뉴의 Slack 채널 설정 팝업창에 각각 입력한 후 연결 버튼을 클릭합니다.
+
 
 
 ### 4. Slack 채널 연결 정보 입력하기
@@ -77,6 +80,7 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 * Enable Interactive Components 버튼을 한번 클릭하여 입력창을 생성한 뒤 Request URL에 복사한 Action URL 값을 입력한 뒤 저장합니다.
 
 
+
 ### 5. App Install 하기, Slack에 App 추가하기
 대화 채널 연계 마무리 단계입니다. 내가 만든 챗봇과 연결된 Slack App을 설치하고 내가 속한 Workspace 추가합니다.
 
@@ -92,3 +96,15 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 Slack 채널 연계가 완료되었습니다. 이제 Slack에서도 내가 만든 챗봇과 대화할 수 있습니다.
 
 
+
+### 제약사항
+Slack 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약사항을 꼭 확인하세요.
+
+| 제약사항 | 상세 |
+|--------|-------|
+| 버튼 | 최대 5개 |
+| 이미지 | image url만 가능 | 
+| 캐로샐 | 최대 20개 | 
+| 메시지 전송 제한 | <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Access Tier별 확인](https://api.slack.com/docs/rate-limits#tiers){:target="_blank"}</span> |
+
+{% include warning.html content=" Danbee.Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}
