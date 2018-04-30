@@ -57,9 +57,10 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 <figure><img class="docimage" src="images/channel/slack/slack_04_url_auth.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 * 복사한 oAuth URL 값을 Redirect URLs 에 추가합니다.
 
-* 이어서 바로 아래에 있는 Scopes 에 다음 7개 항목들을 검색하여 추가하고 저장합니다.
+* 이어서 바로 아래에 있는 Scopes 에 다음 10개 항목들을 검색하여 추가하고 저장합니다.
 
-  bot, channels:read, channels:write, chat:write:bot, groups:read, groups:write, team:read
+  bot, channels:read, channels:write, chat:write:bot, chat:write:user, groups:read, groups:write, im:read, im:write, team:read
+  
 <figure><img class="docimage" src="images/channel/slack/slack_04_url_auth2.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 
 * 이번엔 Slack 채널 설정 팝업창의 Event Request URL 값을 복사하고 Slack App 설정의 Event Subscriptions 섹션으로 이동합니다.
