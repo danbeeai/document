@@ -11,8 +11,8 @@ previous: {
     url: chatflow_carousel.html
 }
 next: {
-    title: 유의어 관리,
-    url: synonym.html
+    title: 사용자사전 관리,
+    url: dictionary.html
 }
 ---
 

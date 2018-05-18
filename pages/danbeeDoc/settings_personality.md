@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: settings_personality.html
 folder: danbeeDoc
 previous: {
-    title: 유의어 관리,
-    url: synonym.html
+    title: 사용자사전 관리,
+    url: dictionary.html
 }
 next: {
     title: NLU 설정,
