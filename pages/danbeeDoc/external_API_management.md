@@ -17,7 +17,7 @@ next: {
 ---
 
 ## API 관리
- {% include callout.html content="위치 : [대화흐름(Chatflow)] > [대화흐름 목록(Chatflow List)]" type="default" %}
+ {% include callout.html content="위치 : [대화흐름(Chatflow)] > [API 관리]" type="default" %}
  챗봇 설계에 사용할, 사용자 등록 API를 관리하는 메뉴입니다. 
   <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)</span>
 
