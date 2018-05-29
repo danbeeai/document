@@ -84,8 +84,8 @@ entries:
           url: /chatflow_jump.html
           output: web, pdf             
 
-    - title: 유의어 관리
-      url: /synonym.html
+    - title: 사용자사전 관리
+      url: /dictionary.html
       output: web, pdf               
 
       subfolders:

@@ -94,6 +94,8 @@ Intent에 일반 Entity 타입의 Parameter를 추가하고 예문의 특정 위
 
 **사용자정의 Entity**는 직접 정의하여 사용하는 Entity 입니다. 즉, Parameter를 해당 Entity로 지정할 경우 담길 수 있는 정보를 직접 정의할 수 있습니다.<br/>
 
+#### 사용자정의 Entity 등록하기
+
 해당 메뉴에서는 Entry와 Reference를 등록하게 됩니다. **Entry**란 뽑아내고자 하는 정보의 대표어를 의미합니다. 그리고 **Reference**란 Entry로 인식되는 참조어를 의미합니다.<br/> 
 
 {% include image.html file="entity/Entitiy_user_define01.png" max-width="900" caption="사용자정의 Entity 등록" %}
@@ -109,6 +111,20 @@ Entity 등록/수정에는 다음과 같은 제약사항이 존재합니다.
 - Entry와 Reference는 최대 각 40자로 제한한다.
 - 하나의 Entry에 Reference는 최대 100개까지 등록이 가능하다.
 
+
+#### 사용자사전 등록 추천 단어
+
+사용자정의 Entity를 저장하면 사전에 등록하면 좋을 단어들을 추천합니다. 해당 단어는 인식률이 떨어질 수 있는 단어들이기 때문에 사용자사전 등록을 권장합니다. 사용자사전에 관하여 더 자세한 내용은 **[사용자사전 관리](dictionary.html)** 메뉴에서 확인할 수 있습니다.
+
+{% include image.html file="entity/Entity_user_define03_recommend.png" max-width="900" caption="사전 등록 추천어 확인" %}
+
+#### 사용자사전 불러오기
+
+{% include image.html file="entity/Entity_user_define04_userdic01.png" max-width="900" caption="사용자사전 불러오기" %}
+
+위 버튼을 클릭하면 사용자정의 Entity에서 사용자사전에 등록해놓은 단어를 불러와서 사용할 수 있습니다. 원하는 단어를 체크한 뒤 불러오기 버튼을 클릭하면 해당 Entity의 Entry와 Reference로 추가되는 것을 확인할 수 있습니다.
+
+{% include image.html file="entity/Entity_user_define04_userdic02.png" max-width="900" caption="사용자사전 불러오기 - 결과" %}
 
 ## 엔티티(Entity) 업로드/다운로드
 
