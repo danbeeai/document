@@ -82,12 +82,12 @@ Event 연결은 2개의 탭으로 구성되어 있습니다.
 만들고자 하는 Event 명칭을 작성합니다. 확인 버튼을 누른 뒤 chatflow 저장 버튼을 눌러 chatflow를 저장합니다.
 저장 후 Listen Node 를 클릭 하면 Event Url 정보를 확인 할 수 있고, 해당 Url로 chatflow를 실행 할 수 있습니다.
 
-{% include image.html file="chatflow/Chatflow_listen_event.png" max-width="900" caption="파라미터 탭" %}
+{% include image.html file="chatflow/Chatflow_listen_event.png" max-width="900" caption="이벤트 탭" %}
 
 Event호출 방법은 Post방식으로 호출 합니다. 필수 값은 chatbot id, parameters 배열 객체를 기본값 으로 설정 하셔야합니다.
 응답 결과는 Json형태로 Return 됩니다.
 
-{% include image.html file="chatflow/Chatflow_listen_event_result.png" max-width="900" caption="파라미터 탭" %}
+{% include image.html file="chatflow/Chatflow_listen_event_result.png" max-width="900" caption="이벤트 결과 탭" %}
 
 #### Event Parameter
 
@@ -95,4 +95,4 @@ Event 내부에서 사용하는 Parameter를 설정 할 수 있습니다. Event 
 클릭하여 Parameter 명을 설정 합니다. Default Value 는 해당 Parameter의 기본 값으로 입력 값이 없을때 Default Value
 를 Parameter 값 으로 다음 Node로 넘기게 됩니다.
 
-{% include image.html file="chatflow/Chatflow_listen_event_parameter.png" max-width="900" caption="파라미터 탭" %}
+{% include image.html file="chatflow/Chatflow_listen_event_parameter.png" max-width="900" caption="이벤트 파라미터 탭" %}
