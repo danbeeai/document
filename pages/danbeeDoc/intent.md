@@ -124,6 +124,7 @@ Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa
 
 특정 Intent에 대하여 다음과 같은 속성을 지정할 수 있습니다.
 - [Intent 버튼명](intent.html#intent-버튼명)
+- [답변 유형](intent.html#답변-유형)
 - [Multi Intent 제외 설정](intent.html#multi-intent-제외-설정)
 - [채널 Fallback 설정](intent.html#채널-fallback-설정)
 - [Intent ID](intent.html#intent-id)
@@ -143,6 +144,29 @@ Parameter의 자세한 활용법은 <span style="color:#f69023;"><i class="fa fa
 
 {% include image.html file="intent/Intent_button_name_01.PNG" max-width="900" caption="Intent 버튼명 결과확인" %} 
 
+#### 답변 유형
+
+답변 유형은 해당 의도로 파악되었을때 내보낼 답변을 어떻게 설정할지에 대한 선택지입니다. danbee.Ai에서는 2가지의 답변 유형을 제공하고 있습니다.
+- 간편답변
+- Chatflow
+
+##### 간편답변
+간편답변을 선택하면 해당 Intent 페이지 하단 **간편답변 작성**에서 간단하게 답변을 설정할 수 있습니다. [+Random 메세지] 버튼으로 여러개의 메세지를 추가할 수 있으며 실제로 해당 메세지 중 하나를 랜덤으로 선택하여 답변을 내보내게 됩니다.
+{% include image.html file="intent/intent_simple_answer_01.png" max-width="900" caption="간편답변 설정 및 결과" %}
+
+만약 답변을 입력하지 않을 경우, 해당 Intent를 찾았을 때 답변을 내보내지 않습니다.
+
+{% include image.html file="intent/intent_simple_answer_02.png" max-width="900" caption="답변 없은 간편 Intent" %}
+
+테스트 패널에서는 실제 엔진이 동작했음을 보여주기 위하여 빈 말풍선을 내보내고 있지만 아래 이미지와 같이 시뮬레이션에서는 답하지 않음을 확인할 수 있습니다.
+{% include image.html file="intent/intent_simple_answer_03.png" max-width="900" caption="테스트패널(좌) / 시뮬레이션(우) 결과 비교" %}
+ 
+간편답변을 내보내는 Intent의 경우 의도추론 페이지 상단 [+간편 Intent 생성]에서 예문과 답변만 등록하여 빠르게 생성할 수 있습니다. 
+{% include image.html file="intent/intent_simple_answer_04.png" max-width="900" caption="간편 Intent 생성" %}
+
+
+##### Chatflow
+Chatflow를 선택하면 답변을 내보내기 위해 해당 Intent와 연결할 Chatflow를 만들어야만 합니다. Chatflow에 대한 자세한 내용은 <span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i>[대화흐름관리 메뉴](chatflow.html)에서 설명하고 있습니다.
 
 #### Multi Intent 제외 설정
 본 속성을 체크하는 경우 해당 Intent는 확률이 낮거나 여러 의도로 파악되더라도 버튼으로 되물어보지 않게 됩니다.
@@ -174,7 +198,7 @@ danbee.Ai는 편의 기능의 일종으로 Intent 업로드/다운로드 기능�
 해당 메뉴에서 <span style="color:#337ab7">**Intent Upload Sample File 보기**</span>를 클릭하시면 업로드 형식을 확인할 수 있으며 샘플 파일을 다운로드 받으실 수 있습니다.
 
 #### 업로드 형식
-입력하고자 하는 정보는 정의된 구분자에 의해 구분되며 반드시 START 태그와 END 태그를 한쌍으로 가집니다. 구분자의 START와 END 사이의 정보를 업로드 하게 되며 구분자에는 INTENT, NAME, SENTENCE, PARAM 이 존재합니다.
+입력하고자 하는 정보는 정의된 구분자에 의해 구분되며 반드시 START 태그와 END 태그를 한쌍으로 가집니다. 구분자의 START와 END 사이의 정보를 업로드 하게 되며 구분자에는 INTENT, NAME, SENTENCE, PARAM, ANSWER 이 존재합니다.
 
 <table>
     <colgroup>
@@ -210,6 +234,11 @@ danbee.Ai는 편의 기능의 일종으로 Intent 업로드/다운로드 기능�
             <td markdown="span">선택</td>
             <td markdown="span">Parameter에 관한 정보임을 나타냅니다. Parameter명과 Entity를 입력합니다. 존재하지 않는 Entity를 입력하면 업로드가 되지 않습니다. Entity명 앞에는 반드시 @를 붙여줘야 합니다. Parameter명이 중복될 시에도 업로드가 불가합니다.</td>
         </tr>
+        <tr>
+            <td markdown="span">**ANSWER**</td>
+            <td markdown="span">선택</td>
+            <td markdown="span">간편답변 리스트를 나타냅니다. 한 줄당 하나의 답변으로 인식합니다.</td>
+        </tr>
     </tbody>
 </table>
 
@@ -228,6 +257,10 @@ Intent명,Intent별명(생략가능),IntentID(생략가능)
 >>START_PARAM
 Parameter명,@Entity명
 >>END_PARAM
+>>START_ANSWER
+간편답변입력줄
+"예문과 동일하게 콤마(,) 입력시 반드시 큰따옴표로 묶어주세요"
+>>END_ANSWER
 >END_INTENT
 {%endraw%}
 ```
