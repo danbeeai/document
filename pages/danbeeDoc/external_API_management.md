@@ -45,9 +45,10 @@ API 등록 요청 화면 입니다.
 &nbsp;&nbsp;&nbsp;&nbsp; 추가 Header 정보를 'Header 추가' 버튼으로 추가할 수 있습니다.
 - ⑥ 마찬가지로 API URL로 보내는 요청의 Parameter 정보를 설정하는 란입니다.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; API에서 요구하는 파라미터를 추가하려면 '요청 Parameter 추가' 버튼을 클릭하여 추가합니다.
+- ⑦ API의 메서드가 'POST'일 경우(③번에서 POST를 선택한 경우) Body를 입력하는 란이 표시됩니다.
+&nbsp;&nbsp;&nbsp;&nbsp; Body는 다른 파라미터와 마찬가지로 하나씩 추가하여 입력하거나 Text Editor를 이용하여 입력할 수 있습니다.
 
 
- 
 #### API 메서드 / Request URL
 메서드는 클라이언트와 danbee.Ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
   <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
@@ -69,6 +70,12 @@ danbee.Ai 측에서, API에 전송할 parameter명과 값을 설정 및 입력�
 
 parameter 입력 후, **실행** 버튼을 클릭해, Response API Tree에서 API 적용 실행 결과를 확인할 수 있습니다.
 
+#### Body
+등록할 외부 API의 메서드가 POST일 경우 Request Body를 작성할 수 있습니다.<br/>
+Header, 요청 Parameter와 같이 'Body 추가' 버튼으로 하나씩 추가하거나,<br/>
+Editor를 이용하여 직접 작성할 수도 있습니다 (현재, JSON 형식만 지원합니다.)<br/>
+{% include image.html file="external_API/04_api_manage_body_editor.png" max-width="600" caption="Body 입력" %}
+
 #### Response API Tree
 실행 성공시, Response API Tree에서 Tree 형태의 데이터가 조회됩니다.<br/>
 API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니다. 실패시 아무런 데이터가 조회되지 않습니다. 
@@ -88,4 +95,4 @@ API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습
 
 ## API 사용
 등록된  API는 chatflow 설계의 API 노드에서 조회 및 사용 가능 합니다.
-{% include image.html file="external_API/cf_api_node.PNG" max-width="900" caption="요청 Parameter 입력 완료 예시" %} 
+{% include image.html file="external_API/cf_api_node.PNG" max-width="900" caption="API 노드에서의 기등록 API 예시" %} 
