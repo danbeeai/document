@@ -3,7 +3,7 @@ title: "API 알아보기"
 tagName: API
 search: exclude
 permalink: tag_api.html
-sidebar: danbee_doc_sidebar
+sidebar: tag_sidebar
 folder: tags
 ---
 {% include taglogic.html %}

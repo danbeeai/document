@@ -1,6 +1,6 @@
 ---
 title: Split Node 사용하기
-tags: [split_node]
+tags: [tutorial, chatflow, basic]
 keywords: Tutorial
 summary: Split Node의 개념을 이해할 수 있습니다.
 sidebar: tutorial_sidebar

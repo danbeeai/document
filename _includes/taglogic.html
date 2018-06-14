@@ -1,4 +1,4 @@
-<p><button type="button" style="cursor: default" class="btn btn-default navbar-btn">{{page.tagName}}</button> 페이지 확인하기</p>
+<p><button type="button" style="cursor: default" class="btn btn-default navbar-btn">{{page.tagName}}</button> 관련 페이지 확인하기</p>
 <table><thead><tr><th>Title</th><th>Type</th><th>Summary</th></tr></thead>
     <tbody>
     {% assign thisTag = page.tagName %}
@@ -7,7 +7,11 @@
         {% if tag == thisTag %}
 
         <tr><td><a href="{{ page.url | remove: "/" }}">{{page.title}}</a></td>
-            <td><span class="label label-default">Page</span></td>
+            <td>{% if page.folder == "tutorial"%}
+              <span class="label label-primary">Tutorial</span>
+            {% else %}
+              <span class="label label-default">Doc</span>
+            {% endif %}</td>
           <td>{% if page.summary %} {{ page.summary | strip_html | strip_newlines | truncate: 160 }} {% else %} {{ page.content | truncatewords: 50 | strip_html }} {% endif %}</td>
         </tr>
         {% endif %}

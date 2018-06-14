@@ -1,7 +1,7 @@
 ---
 title: Function 노드 사용하기
 keywords: Function 노드 사용하기
-tags: [Function Node]
+tags: [tutorial, chatflow, advanced]
 sidebar: tutorial_sidebar
 permalink: basic_function_node.html
 folder: tutorial

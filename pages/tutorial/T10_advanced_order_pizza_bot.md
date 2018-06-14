@@ -1,7 +1,7 @@
 ---
 title: 피자주문봇 만들기
 keywords: 피자주문봇
-tags: [피자주문봇]
+tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
 permalink: advanced_order_pizza_bot.html
 folder: 피자주문봇 만들기

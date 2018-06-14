@@ -1,8 +1,8 @@
 ---
-title: "시뮬레이션 알아보기"
-tagName: simulation
+title: "튜토리얼 알아보기"
+tagName: tutorial
 search: exclude
-permalink: tag_simulation.html
+permalink: tag_tutorial.html
 sidebar: tag_sidebar
 folder: tags
 ---

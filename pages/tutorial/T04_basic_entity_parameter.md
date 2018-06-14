@@ -1,6 +1,6 @@
 ---
 title: Entity와 Parameter 이해하기
-tags: [entity, parameter]
+tags: [nlu, tutorial, basic]
 keywords: Tutorial
 summary: Entity와 Parameter의 개념을 이해할 수 있습니다.
 sidebar: tutorial_sidebar

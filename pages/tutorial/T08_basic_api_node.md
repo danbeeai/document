@@ -1,7 +1,7 @@
 ---
 title: API 노드 사용하기
 keywords: API 노드 사용하기
-tags: [API Node]
+tags: [tutorial, chatflow, API, advanced]
 sidebar: tutorial_sidebar
 permalink: basic_api_node.html
 folder: tutorial

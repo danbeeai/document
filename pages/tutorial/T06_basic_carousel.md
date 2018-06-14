@@ -1,6 +1,6 @@
 ---
 title: Carousel Node 사용하기
-tags: [carousel_node]
+tags: [tutorial, chatflow, basic]
 keywords: Tutorial
 summary: Carousel Node의 개념을 이해할 수 있습니다.
 sidebar: tutorial_sidebar

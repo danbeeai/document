@@ -1,6 +1,6 @@
 ---
 title: Intent 생성하기
-tags: [intent, chatflow]
+tags: [nlu, tutorial, basic]
 keywords: Tutorial
 summary: danbee.Ai의 기본 구조를 이해할 수 있습니다.
 sidebar: tutorial_sidebar

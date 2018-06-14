@@ -1,0 +1,62 @@
+entries:
+- title: Sidebar
+  folders:
+  - title: Document
+    output: web
+    folderitems:
+    - title: 시작하기
+      url: /index.html
+      output: web, pdf
+      type: homepage
+    - title: 주요 기능
+      url: /intent.html
+      output: web, pdf
+    - title: 채널 연계
+      url: /channel_connection_settings.html
+      output: web, pdf
+    - title: 외부 API 사용
+      url: /external_API_management.html
+      output: web, pdf
+    - title: 사용자 의견 보내기
+      url: /feedback.html
+      output: web, pdf
+
+  - title: Tutorial
+    output: web
+    folderitems:
+    # - title: 인기 Tutorial
+    #   url: /tutorials.html
+    #   output: web
+    # - title: Tutorial 모음
+    #   url: /tutorials_archive.html
+    #   output: web
+    - title: 0. 튜토리얼 시작하기
+      url: /samplebot.html
+      output: web
+    - title: 1. Intent 생성하기
+      url: /basic_create_intent.html
+      output: web
+    - title: 2. Chatflow 생성하기
+      url: /basic_listen_speak.html
+      output: web
+    - title: 3. Entity와 Parameter 이해하기
+      url: /basic_entity_parameter.html
+      output: web
+    - title: 4. Slot Node 사용하기
+      url: /basic_slot.html
+      output: web
+    - title: 5. Carousel Node 사용하기
+      url: /basic_carousel.html
+      output: web
+    - title: 6. Split Node 사용하기
+      url: /basic_split.html
+      output: web        
+    - title: 7. API 노드 사용하기
+      url: /basic_api_node.html
+      output: web
+    - title: 8. Function 노드 사용하기
+      url: /basic_function_node.html
+      output: web
+    - title: 9. 피자주문봇 만들기
+      url: /advanced_order_pizza_bot.html
+      output: web  
