@@ -27,7 +27,7 @@ next: {
 ### API 만들기
 #### API 등록하기
 1) 좌측 사이드 메뉴에서 ***“API 관리”*** 눌러 해당 메뉴로 들어갑니다.
-{% include callout.html content="화면 위치 : [API 관리]" type="default" %}
+{% include callout.html content="화면 위치 : [대화흐름(Chatflow)]-[API 관리]" type="default" %}
 
 2) 현재 사용하고 있는 테넌트에서 만든 API 목록이 나타납니다. <br/>
 
