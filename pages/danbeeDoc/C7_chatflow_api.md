@@ -64,17 +64,49 @@ API 선택시 기본적으로 'API관리'에 등록되었던 Value 값은 초기
 
 {% include image.html file="chatflow/00_api_node_parameters.png" max-width="900" caption="API노드 요청 Parameters" %}
 
-#### 출력 Parameter
+#### 응답 Parameter 와 출력 Parameters
 
 API 서비스로 Request를 성공적으로 보냈다면 응답(Response) 결과를 받게 됩니다.<br/>
-그 결과는 아래와 같이 JSON 데이터 구조가 Tree로 표현됩니다.(JSON형태로 받는 서비스에 한해서)<br/> 
-이렇게 응답으로 받은 데이터를 Parameter에 담아야 하는데, 이 역할을 하는 것이 '출력 Parameter'에 변수명과 JsonPath 표기된 부분입니다.<br/>
-응답으로 받은 데이터를 Parameter에 담기위해 매핑하고자 할 경우 두가지 방법이 있습니다.
+그 결과 데이터는 아래와 같이 Tree 로 표현되며, 이렇게 응답으로 받은 데이터를 '출력 Parameter'에 담아야 사용할 수 있습니다.<br/>
+이 담는 역할을 하는 것이 '출력 Parameters'에 추가한 변수와 이 변수에 매핑할 '응답 Parameter'의 Tree 경로입니다. 
+
+응답으로 받은 데이터를 Parameter에 담기위해 매핑을 하는 방법에는 다음 두가지 방법이 있습니다.
  - '출력 Parameters'의 JsonPath를 직접 입력(매핑할 경로 직접입력)
  - 'Api Tree'에서 노드를 drag&drop 으로 '출력 Parameters' JsonPath 입력부로 끌어오기(매핑할 경로 자동 입력)
 
-이와 같이 API Request를 통해 응답받은 데이터를 원하는 Parameter에 담아 사용할 수 있습니다.
-{% include image.html file="chatflow/00_api_node_response_tree.png" max-width="900" caption="API노드 출력 Parameters" %}
+이와 같이 API Request를 통해 응답받은 데이터를 원하는 '출력 Parameter'에 담아 사용할 수 있습니다.
+{% include image.html file="chatflow/00_api_node_response_tree.png" max-width="900" caption="API 응답 데이터 매핑하기" %}
+
+{% include note.html content="이제 배열과 JSON 객체를 원하는 Parameter에 담아 사용할 수 있습니다." %}
+
+이제 중간 노드에 해당하는 경로를 '출력 Parameters'의 변수로 매핑을 하면 해당 데이터 묶음을 사용할 수 있습니다.<br/>
+다만 Function Node를 이용해야 하며, 그 방법을 예시를 통해 알아보겠습니다.<br/>
+
+응답 결과를 표시하는 Tree는 크게 Root, Node, Leaf로 구성되어있습니다.
+- Root : 최상위를 의미 ($ 로 표시)
+- Node : 데이터 구조의 중간지점을 의미하며 Node 명을 key 로 사용 (첫번째 Node 명이 'node1' 일경우 $.node1 로 표시)
+- Leaf : 더이상 하위 Node가 없는 Node, 최하위 Node를 의미
+{% include image.html file="chatflow/00_api_node_response_tree_desc.png" max-width="900" caption="응답 파라미터 Tree" %}
+
+아래 그림과같이 'test' 라는 '출력 Parameter' 변수에 데이터 묶음(JSON객체, 배열)을 담는다고 할 때,
+{% include image.html file="chatflow/00_api_node_out_mapping.png" max-width="900" caption="응답 파라미터 Tree" %}
+JSON 객체의 경우<br/>
+&nbsp;&nbsp; 'soap:Body' 라는 객체를 담는다고 할 경우, 해당 노드를 마우스로 드래그 하거나 '$.soap:Envelope.soap:Body' 를 직접 입력하여 매핑합니다.<br/>
+배열의 경우 <br/>
+&nbsp;&nbsp; 'newAddressListAreaCd' 라는 배열을 담을경우, 해당 노드를 마우스로 드래그 하거나 '$.NewAddressListResponse.newAddressListAreaCd' 를 직접 입력하여 매핑합니다.
+
+매핑이 완료한 뒤 API Node 다음에 Function Node를 연결합니다.
+{% include image.html file="chatflow/00_api_node_to_fn_node.png" max-width="900" caption="응답 파라미터 Tree" %}
+연결한 Function Node에서 각 경우에 맞게 데이터를 Parsing 하여 사용합니다.
+{% include image.html file="chatflow/00_api_node_parsing.png" max-width="900" caption="Function Node에서의 Parsing" %}
+
+
+
+
+
+
+
+
 
 
 ### 샘플 시나리오 (오늘 날씨 어때?)
