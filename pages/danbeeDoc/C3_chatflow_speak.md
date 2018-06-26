@@ -27,8 +27,8 @@ Speak 노드 내에서 메시지 조건을 설정하여 다양한 답변하는 �
 
 
 Speak 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_speak.html#기본정보)
-- [메시지 설정](Chatflow_speak.html#메시지 설정)
+- [기본정보](chatflow_speak.html#기본정보)
+- [메시지 설정](chatflow_speak.html#메시지 설정)
 
 {% include image.html file="chatflow/Chatflow_speak_canvas.png" max-width="900" caption="Speak 노드" %}
 
@@ -69,12 +69,13 @@ Speak 노드는 답변 메시지와 함께 사용자에게 다음 선택지 옵�
 | 내부 App실행 | 스마트폰에서 내부 App을 실행합니다.  |
 | 외부 App실행 | 스마트폰에서 외부 App을 실행합니다.  |
 | 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
-| Chatflow호출 | 다른 Chatflow를 호출합니다. |
+| [Chatflow호출](chatflow_speak.html#chatflow-호출-파라미터-연결) | 다른 Chatflow를 호출합니다. 이때 현재 Chatflow의 파라미터를 넘겨줄 수 있습니다. |
 | Quick Reply | 입력창 상단에 버튼 형태의 선택지를 제공합니다. |
 
 {% include note.html content="Quick Reply 타입은 facebook, 네이버톡톡에서 해당 형태로 이용 가능하며 제공되지 않는 채널에서는 선택지와 동일하게 표시됩니다." %}
 
 {% include image.html file="chatflow/Chatflow_speak_option.png" max-width="900" caption="Speak 선택지 설정" %}
+
 
 
 ### 파라미터 활용
@@ -108,6 +109,23 @@ Danbee.Ai에서는 그러한 처리를 위해 몇가지 시스템 변수를 아�
 
 {% include image.html file="chatflow/Chatflow_parameter_add.png" max-width="900" caption="일반 변수 추가" %}
 
+
+#### Chatflow 호출 파라미터 연결
+
+Chatflow 호출 버튼을 눌렀을때 각 Chatflow에서 사용되는 파라미터들끼리 연결이 가능합니다. 버튼형 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Jump 노드](chatflow_jump.html)</span> 기능으로 볼 수 있습니다.<br/>
+예를 들어 날씨를 물은 뒤 사용자가 버튼을 클릭하면 날씨에 따라 음식을 추천한다고 가정해보겠습니다.
+
+{% include image.html file="chatflow/Chatflow_callflow_param_01.png" max-width="900" caption="Chatflow 호출 파라미터 연결" %}
+
+위와 같이 Speak 메세지를 설정하고 Chatflow 호출 버튼을 추가합니다. 호출할 Chatflow를 선택하면 [Parameter 연결] 버튼이 활성화 됩니다.
+
+{% include image.html file="chatflow/Chatflow_callflow_param_02.png" max-width="900" caption="Chatflow 호출 파라미터 연결 팝업" %}
+
+Parameter 연결 버튼을 클릭하면 호출할 Chatflow와 현재 Chatflow의 파라미터 값을 연결할 수 있는 창이 뜹니다. 예시와 같이 *'tempo'*라는 파라미터를 연결하고 테스트패널에서 테스트 해보면 다음과 같은 결과를 확인할 수 있습니다.
+
+{% include image.html file="chatflow/Chatflow_callflow_param_03.png" max-width="900" caption="Chatflow 호출 파라미터 연결 테스트" %}
+
+<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[디버그 모드](demo_n_test_panel.html#디버그-모드)</span>에서 기존 날씨 Chatflow에서 세팅되었던 tempo의 '폭우'라는 값이 야식 Chatflow의 파라미터로 넘어갔음을 확인할 수 있습니다.
 
 ### 샘플 시나리오 (랜덤 메시지)
 
