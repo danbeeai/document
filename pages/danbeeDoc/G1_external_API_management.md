@@ -59,8 +59,9 @@ API 등록 요청 화면 입니다.
     
 #### Header 와 Content Type 
 Header에는 여러가지 정보를 담을 수 있습니다.
-Content-Type도 그중 하나로써, 서버로 보내는 정보의 유형을 의미합니다.<br/>
-현재 JSON만 지원하며 추후 XML도 지원할 예정입니다.   
+Content-Type도 그중 하나로써, 서버로 보내는 정보의 유형을 의미하며 다음과 같은 형식을 지원합니다.<br/>
+- JSON : 'application/json' 가장 일반적인 JSON 형식
+- XML  : 'application/xml', 'text/xml' 두가지 방식을 지원하며 사용하려는 API에서 정의된 형식을 선택하시면 됩니다.
 {% include image.html file="external_API/02_api_manage_c_header.png" max-width="900" caption="Header와 Content-Type" %} 
 
 #### 요청 Parameter
@@ -78,9 +79,11 @@ Editor를 이용하여 직접 작성할 수도 있습니다 (현재, JSON 형식
 
 #### Response API Tree
 실행 성공시, Response API Tree에서 Tree 형태의 데이터가 조회됩니다.<br/>
-API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니다. 실패시 아무런 데이터가 조회되지 않습니다. 
+API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니다. 실패시 아무런 데이터가 조회되지 않습니다.
 {% include image.html file="external_API/02_api_manage_c_response_tree.png" max-width="900" caption="Response API Tree 예시" %}
-  
+{% include note.html content="이제 배열과 JSON 객체를 원하는 Parameter에 담아 사용할 수 있습니다." %}
+- 자세한 사항은 [API 노드](chatflow_api.html#응답-parameter-와-출력-parameters) 에서 확인해 주세요.
+
 #### 저장
 API 정보 정상 입력 후 **저장** 버튼을 클릭해, API 등록 정보를 저장합니다. 
 
