@@ -43,9 +43,11 @@ API 등록 요청 화면 입니다.
 - ⑤ 입력한 API URL로 보내는 요청의 [Header](external_API_management.html#header-와-content-type) 정보를 설정하는 란입니다.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; [Content-Type](external_API_management.html#header-와-content-type) 은 고정값이며 현재 JSON 형태만 지원합니다.<br/>
 &nbsp;&nbsp;&nbsp;&nbsp; 추가 Header 정보를 'Header 추가' 버튼으로 추가할 수 있습니다.
-- ⑥ 마찬가지로 API URL로 보내는 요청의 Parameter 정보를 설정하는 란입니다.<br/>
-&nbsp;&nbsp;&nbsp;&nbsp; API에서 요구하는 파라미터를 추가하려면 '요청 Parameter 추가' 버튼을 클릭하여 추가합니다.
-- ⑦ API의 메서드가 'POST'일 경우(③번에서 POST를 선택한 경우) Body를 입력하는 란이 표시됩니다.
+- ⑥ API URL에 key=value 형식으로 사용하는 Query Parameter 정보를 설정하는 란입니다.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; 
+- ⑦ API URL에 경로처럼 사용하는 Path Parameter를 설정하는 란입니다.
+&nbsp;&nbsp;&nbsp;&nbsp; 
+- ⑧ API의 메서드가 'POST'일 경우(③번에서 POST를 선택한 경우) Body를 입력하는 란이 표시됩니다.
 &nbsp;&nbsp;&nbsp;&nbsp; Body는 다른 파라미터와 마찬가지로 하나씩 추가하여 입력하거나 Text Editor를 이용하여 입력할 수 있습니다.
 
 
@@ -64,18 +66,32 @@ Content-Type도 그중 하나로써, 서버로 보내는 정보의 유형을 의
 - XML  : 'application/xml', 'text/xml' 두가지 방식을 지원하며 사용하려는 API에서 정의된 형식을 선택하시면 됩니다.
 {% include image.html file="external_API/02_api_manage_c_header.png" max-width="900" caption="Header와 Content-Type" %} 
 
-#### 요청 Parameter
-danbee.Ai 측에서, API에 전송할 parameter명과 값을 설정 및 입력합니다.<br/>
-요청 parameter 추가시 요청 parameter 입력 테이블 우측 상단의 **+ 요청 Parameter 추가** 버튼을 클릭합니다. 
-{% include image.html file="external_API/02_api_manage_c_parameter.png" max-width="900" caption="요청 Parameter 예시" %} 
+#### Query Parameter / Path Parameter
+API URL에 Parameter를 실어 보내는 방법으로 Query Parameter 방식과 Path Parameter 방식을 제공합니다.
+'http://apiurl/api'이라는 API URL이 있을 때 'name'이란 변수명으로 'value'란 값을 보낼 때
+Query Parameter는<br/>
+<pre><code>http://apiurl/api?name=value</code></pre><br/>
+와 같이 Parameter를 URL에 Query String 형식으로 작성하여 사용하는 방식입니다.<br/>
+(Query Parameter는 danbee.Ai에서 기존에 제공하던 기능과 동일합니다.)<br/>
+{% include image.html file="external_API/02_api_manage_c_parameter.png" max-width="900" caption="Query Parameter" %}
 
-parameter 입력 후, **실행** 버튼을 클릭해, Response API Tree에서 API 적용 실행 결과를 확인할 수 있습니다.
+Path Parameter는<br/>
+<pre><code>http://apiurl/api/value</code></pre><br/>
+와 같이 URL의 경로처럼 사용하여 해당 경로를 값으로 사용하는 방식입니다.<br/>
+danbee.Ai에서는 Path Parameter 기능을 값 치환 방법으로 제공합니다.<br/>
+즉 아래와 같이 API URL에 '{name}' 과 같이 중괄호로 둘러싼 Path Parameter의 Name을 등록되어있는 Value로 치환합니다.
+{% include image.html file="external_API/05_api_manage_path_param.png" max-width="900" caption="Path Parameter" %}
+
+두가지 방식(Query Parameter와 Path Parameter)은 혼용하여 사용 가능합니다.<br/>
 
 #### Body
 등록할 외부 API의 메서드가 POST일 경우 Request Body를 작성할 수 있습니다.<br/>
 Header, 요청 Parameter와 같이 'Body 추가' 버튼으로 하나씩 추가하거나,<br/>
 Editor를 이용하여 직접 작성할 수도 있습니다 (현재, JSON 형식만 지원합니다.)<br/>
 {% include image.html file="external_API/04_api_manage_body_editor.png" max-width="600" caption="Body 입력" %}
+
+parameter 입력 후, **실행** 버튼을 클릭해하여<br/>
+Response API Tree에서 API 적용 실행 결과를 확인할 수 있습니다.
 
 #### Response API Tree
 실행 성공시, Response API Tree에서 Tree 형태의 데이터가 조회됩니다.<br/>
