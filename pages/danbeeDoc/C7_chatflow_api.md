@@ -63,9 +63,19 @@ API 설정은 2개의 Tab으로 구성이 됩니다.
 #### 요청 Parameter
 
 API 선택시 기본적으로 'API관리'에 등록되었던 Value 값은 초기화 됩니다. 
-아래 화면처럼 고정된 값을 입력할 수 있으며, 어떤 변수값을 받아서 입력하고 싶다면 #{변수명}과 같이 입력할 수 있습니다.
+아래 화면처럼 고정된 값을 입력할 수 있으며, 어떤 파라미터값(챗플로우에 지정된)을 받아서 입력하고 싶다면 #{파라미터명}과 같이 입력할 수 있습니다.
 
 {% include image.html file="chatflow/00_api_node_parameters.png" max-width="900" caption="API노드 요청 Parameters" %}
+
+참고로 시스템에서 제공하는 파라미터도 사용가능합니다. 사용시 다른파라미터와 동일하게 사용가능합니다. ( 예 : #{@message} )  
+
+| 시스템 파라미터 | 표기 | 설명 | 
+|--------|-------|-------|
+| 사용자 식별정보 | @userId | 사용자ID가 표시됩니다. (ex: email ) |
+| 챗봇명 | @chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
+| 채널아이디 | @channelId | 접속한 채널 아이디가 표시됩니다. <br/>(ex : 5-facebook / 3-kakaotalk / 2-line / 7-navertalk / 6-telegram / 4-slack)  |
+| 받은 메시지 | @message | 사용자로부터 받은 질문 메시지 입니다. |
+
 
 #### 응답 Parameter 와 출력 Parameters
 

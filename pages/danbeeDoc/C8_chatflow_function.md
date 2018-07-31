@@ -54,6 +54,17 @@ test = 10;
 
 {% include image.html file="chatflow/Chatflow_function_script01.png" max-width="900" caption="Function노드 Script" %}
 
+#### 시스템 파라미터
+
+시스템에서 제공하는 파라미터도 사용가능합니다. 해당 파라미터는 스크립트내에서 읽기 전용으로만 사용가능합니다. ( 예 : var danbee_message; )
+
+| 시스템 파라미터 | 표기 | 설명 | 
+|--------|-------|-------|
+| 사용자 식별정보 | danbee_userId | 사용자ID가 표시됩니다. (ex: email ) |
+| 챗봇명 | danbee_chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
+| 채널아이디 | danbee_channelId | 접속한 채널 아이디가 표시됩니다. <br/>(ex : 5-facebook / 3-kakaotalk / 2-line / 7-navertalk / 6-telegram / 4-slack)  |
+| 받은 메시지 | danbee_message | 사용자로부터 받은 질문 메시지 입니다. |
+
 
 ### 샘플 시나리오 (랜덤 분기 테스트)
 
