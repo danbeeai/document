@@ -9,10 +9,7 @@ ruby 2.0 and above (전역 설치)
  - https://rubyinstaller.org/downloads/
  - RubyInstallers download
 
-### mac
- - 깔려서 나옵니다:)
- 
- #### ruby 2.0.0 ~ 2.3.x
+ #### ruby 2.0.0 ~ 2.3.x (for window)
  1. run rubyinstaller.exe - "Add Ruby executables to your PATH" 반드시 체크 <br/>
  2. Development Kit download <br/> 
  3. Extract the compressed folder’s contents into any folder in C dirve <br/> 
@@ -30,8 +27,23 @@ ruby 2.0 and above (전역 설치)
   - C:\Ruby23-x64 #여기에 실제 Ruby를 설치한 위치를 입력해주세요.
   ```
  7. ruby dk.rb install <br/>
+ 
  #### ruby 2.4.x
   ruby installer download page 참고
+
+### mac
+ - ruby가 깔려서 나옵니다:)
+ 
+ #### ruby for mac
+ - https://brew.sh/index_ko 여기가서 홈브류를 설치하세요. 그리고 아래 내용대로 쭉쭉..<br/>
+ - $ brew update  <br/>
+ - $ brew install rbenv  <br/>
+ - $ brew upgrade ruby-build  <br/>
+ - $ rbenv install 2.5.1 && rbenv rehash <br /> 
+ - $ rbenv global 2.3.3 <br />
+ - 다 되고 나면 아래 Install부분을 차례로 진행합니다.
+ 
+
 
 ## Install
 git clone https://github.com/danbeeai/document.git <br/>
