@@ -8,6 +8,10 @@ ruby 2.0 and above (전역 설치)
 ### window
  - https://rubyinstaller.org/downloads/
  - RubyInstallers download
+
+### mac
+ - 깔려서 나옵니다:)
+ 
  #### ruby 2.0.0 ~ 2.3.x
  1. run rubyinstaller.exe - "Add Ruby executables to your PATH" 반드시 체크 <br/>
  2. Development Kit download <br/> 
