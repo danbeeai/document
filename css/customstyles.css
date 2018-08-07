@@ -223,13 +223,14 @@ ul#results-container a:hover {
 }
 #search-input {
     padding: .5em;
-    margin-left:20px;
     width:20em;
     font-size: 0.8em;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     margin-top:10px;
+    margin-left:20px;
+    margin-bottom:10px;
     border: none;
 }
 /* end search */
@@ -1165,8 +1166,8 @@ h4.panel-title {
 }
 
 /*set navbar breakpoint so that it converts to hamburger earlier */
-
-@media (max-width: 1200px) {
+/* 햄버거로 변하는 시점을 정하는 포인트임. */
+@media (max-width: 768px) {
     .navbar-header {
         float: none;
     }

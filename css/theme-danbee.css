@@ -42,6 +42,13 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
     border-radius: 5px 5px 0 0;
 }
 
+.navbar-brand.logo-graphic{
+  padding:10px 0;
+}
+.navbar-brand.logo-text{
+  padding:15px 10px;
+}
+
 /*.navbar-inverse .navbar-nav>li>a:hover{
      border-bottom: 1px solid white;
 }
@@ -83,7 +90,7 @@ a[data-toggle="tooltip"] {
 }
 .navbar-inverse .navbar-brand>img {
     display:inline;
-    margin-right:5px;
+    width:24px;
 }
 .navbar-inverse .container .navbar-header button {
     background:none;
@@ -616,12 +623,14 @@ div#toc >ul::before {
 
 @media (min-width: 991px) {
     #mysidebar {
-        position: fixed;
+        /*position: fixed;*/
     }
 }
 
+
+
 /*-- 스타일 변경 반응형 처리 --*/
-@media (max-width: 1200px) {
+@media (max-width: 640px) {
     /*-- header --*/
     .navbar-inverse .navbar-collapse {
         border-color:#596d80 !important;
