@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: entity.html
 folder: danbeeDoc
 previous: {
-    title: 의도 관리, 
+    title: 의도 관리,
     url: intent.html
 }
 next: {
@@ -18,11 +18,11 @@ next: {
 
 ## 엔티티(Entity)
 
-**엔티티(이하 Entity)**란, 사용자의 말 속에서 원하는 정보를 뽑아내기 위해 설정하는 값입니다. 앞서 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Intent의 Parameter](intent.html#파라미터parameter)</span>에서 설명한 것과 같이 Parameter라는 껍데기가 어떤 정보를 담을 수 있을지 결정해주는 역할을 합니다.<br/>
+**엔티티(이하 Entity)**란, 사용자의 말 속에서 원하는 정보를 뽑아내기 위해 설정하는 값입니다. 앞서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Intent의 Parameter](intent.html#파라미터parameter)</span>에서 설명한 것과 같이 Parameter라는 껍데기가 어떤 정보를 담을 수 있을지 결정해주는 역할을 합니다.<br/>
 
 Entity의 종류에는 크게 2가지가 있습니다.
 - [시스템 Entity](entity.html#시스템-entity)
-- [사용자정의 ENtity](entity.html#사용자정의-entity)
+- [사용자정의 Entity](entity.html#사용자정의-entity)
 
 ### 시스템 Entity
 **시스템 Entity**는 danbee.Ai에서 기본적으로 제공하는 Entity를 의미합니다. danbee.Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
@@ -33,7 +33,7 @@ Entity의 종류에는 크게 2가지가 있습니다.
 
 #### 날짜 Entity
 
-| Entity | 대표어 | 
+| Entity | 대표어 |
 |--------|-------|
 | sys.date | 오늘, 내일, 모레, 어제, 그제, 3일 전, 3일 후 등 |
 | sys.month | 당월, 익월, 전월, 익익월, 전전월 등 |
@@ -46,10 +46,10 @@ Entity의 종류에는 크게 2가지가 있습니다.
 {% include image.html file="entity/Entitiy_system_date02.png" max-width="900" caption="sys.date 결과값 확인" %}
 
 Intent에 날짜 Entity 타입의 Parameter를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 단어가 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. '오늘', '당월', '올해'를 0으로 잡고 기준으로 부터 떨어진 날짜수를 계산하여 반환하게 됩니다.  
- 
+
 #### 확인 Entity
 
-| Entity | 대표어(값) | 
+| Entity | 대표어(값) |
 |--------|-------|
 | sys.confirm | 예(Y), 아니오(N), 대답회피(C) |
 
@@ -61,7 +61,7 @@ Intent에 날짜 Entity 타입의 Parameter를 추가하고 날짜 지칭 단어
 
 #### 숫자 Entity
 
-| Entity | 대표어(값) | 
+| Entity | 대표어(값) |
 |--------|-------|
 | sys.number | 일(1),이(2), ..., 백(100), 천(1000) 등 |
 
@@ -75,7 +75,7 @@ Intent에 숫자 Entity 타입의 Parameter를 추가하고 숫자를 지칭 단
 
 #### 일반 Entity
 
-| Entity | 대표어 | 
+| Entity | 대표어 |
 |--------|-------|
 | sys.any | N/A |
 
@@ -85,8 +85,8 @@ Intent에 숫자 Entity 타입의 Parameter를 추가하고 숫자를 지칭 단
 
 {% include image.html file="entity/Entitiy_system_any_02.png" max-width="900" caption="sys.any 결과값 확인" %}
 
-Intent에 일반 Entity 타입의 Parameter를 추가하고 예문의 특정 위치를 지정하면 해당 위치에 들어가는 모든 단어 또는 어구가 Parameter에 담기는 것을 확인할 수 있습니다.<br/> 
-다만, 세 번째 테스트에서는 *'라파엘'*이라는 글자만 얻고자 했지만 문장 패턴이 '내 이름은 ~야'로 지정되어 있기 때문에 *'라파엘이'* 라는 정보를 가져오게 됩니다. 이와 같이 sys.any는 모든 말이 담기기 때문에 예문에 특정 패턴으로 지정해서 사용 시에는 주의해서 사용해야 합니다. 
+Intent에 일반 Entity 타입의 Parameter를 추가하고 예문의 특정 위치를 지정하면 해당 위치에 들어가는 모든 단어 또는 어구가 Parameter에 담기는 것을 확인할 수 있습니다.<br/>
+다만, 세 번째 테스트에서는 *'라파엘'*이라는 글자만 얻고자 했지만 문장 패턴이 '내 이름은 ~야'로 지정되어 있기 때문에 *'라파엘이'* 라는 정보를 가져오게 됩니다. 이와 같이 sys.any는 모든 말이 담기기 때문에 예문에 특정 패턴으로 지정해서 사용 시에는 주의해서 사용해야 합니다.
 
 ### 사용자정의 Entity
 
@@ -96,7 +96,7 @@ Intent에 일반 Entity 타입의 Parameter를 추가하고 예문의 특정 위
 
 #### 사용자정의 Entity 등록하기
 
-해당 메뉴에서는 Entry와 Reference를 등록하게 됩니다. **Entry**란 뽑아내고자 하는 정보의 대표어를 의미합니다. 그리고 **Reference**란 Entry로 인식되는 참조어를 의미합니다.<br/> 
+해당 메뉴에서는 Entry와 Reference를 등록하게 됩니다. **Entry**란 뽑아내고자 하는 정보의 대표어를 의미합니다. 그리고 **Reference**란 Entry로 인식되는 참조어를 의미합니다.<br/>
 
 {% include image.html file="entity/Entitiy_user_define01.png" max-width="900" caption="사용자정의 Entity 등록" %}
 
@@ -212,6 +212,3 @@ Entry2,"ref2_1,ref2_2"
 다건 다운로드 시 챗봇 전체 Entity가 CSV 파일로 저장되며 zip 파일로 압축되어 제공됩니다.
 
 {% include warning.html content="유니코드가 깨질 수 있기 때문에 압축을 풀때는 알집 8버전 이상, 혹은 다른 압축해제 프로그램 사용을 권장 합니다." %}
-
-
-

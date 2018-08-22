@@ -1,7 +1,3 @@
-body {
-    font-size:15px;
-}
-
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
@@ -242,41 +238,7 @@ ul#results-container a:hover {
     margin: 3px;
 }
 
-/*Jenny 수정*/
-div#toc ul li{
-    margin: 8px 0px 8px 22px;
-    font-size: 90%;
-    list-style: circle;
-}
-div#toc ul{
-    background-color: whitesmoke;
-    padding: 5px;
-    border-radius: 5px;
-    max-width: 300px;
-    color: gray;
-}
 
-div#toc ul li ul, div#toc_side ul li ul {
-    padding-left:8px;
-
-}
-
-div#toc ul li ul li::before{
-    content: "–  ";
-}
-
-div#toc >ul::before {
-    content: "Table of Contents";
-    font-weight: 500;
-    color: #555;
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-    width:70px;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left:10px;
-}
 
 li.dropdownActive a {
     font-weight: bold;
@@ -594,8 +556,7 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+
 
 .alert, .callout {
     overflow: hidden;
@@ -611,10 +572,7 @@ ol li ul li {list-style-type: disc;}
 
 li img {clear:both; }
 
-div#toc ul li ul li {
-    list-style-type: none;
-    margin: 5px 0px 0px 0px;
-}
+
 
 .tab-content {
     padding: 15px;
@@ -663,10 +621,7 @@ button.cursorNorm {
     cursor: pointer;
 }
 
-h2  {
-    font-size:24px;
-    line-height:29px;
-}
+
 span.otherProgrammingLanguages {
     font-style: normal;
 }
@@ -862,15 +817,7 @@ span.soft {
     }
 }
 
-@media (min-width: 1000px) {
-
-    ul#mysidebar {
-        width: 225px;
-    }
-}
-
 @media (max-width: 900px) {
-
     ul#mysidebar {
         max-width: 100%;
     }

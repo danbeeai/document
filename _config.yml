@@ -3,13 +3,13 @@ repository: danbeeai/document
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: danbee.Ai Doc
+topnav_title: danbee.Ai Document
 # this appears on the top navigation bar next to the home button
 
-site_title: danbee.Ai Doc
+site_title: danbee.Ai Document
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Cowabunga Ent.
+company_name: danbee Inc
 # this appears in the footer
 
 github_editme_path: danbeeai/document/blob/gh-pages/
@@ -21,7 +21,7 @@ github_editme_path: danbeeai/document/blob/gh-pages/
 disqus_shortname: danbeeai
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
-google_analytics: UA-91561921-1 
+google_analytics: UA-91561921-1
 # if you have google-analytics ID, put it in. if not, edit this value to blank.
 
 host: 127.0.0.1
