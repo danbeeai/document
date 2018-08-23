@@ -32,9 +32,9 @@ previous: {
 
 **Sample Chatbot 가져오기** 를 통해 **선택결단봇, 캡틴초이** 을 가져오면 챗봇을 확인할 수 있습니다. <br />
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[선택결단봇, 캡틴초이를 카카오톡에서 만나보기](http://pf.kakao.com/_hHxjxoC)</span><br/>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[선택결단봇, 캡틴초이를 카카오톡에서 만나보기](http://pf.kakao.com/_hHxjxoC)</span><br/>
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
 {% include image.html file="tutorial/sample_captainchoi/captainchoi_kakao.png" width="170" caption="카카오톡에서 미소 짓는 캡틴초이" %}
 
@@ -153,7 +153,7 @@ previous: {
 danbee.Ai의 좌측메뉴에서 설정(Preference) > 기본답변(General)에 들어가면 최상단에 Welcome Message라는 영역이 있습니다. 여기가 바로 처음 만났을때 하는 인사를 정해주는 곳입니다. 단, 카카오톡 등 채팅플랫폼 별로 Welcome Message를 정하게 하기도 합니다.
 샘플챗봇을 가져온 경우라도 기본답변은 별도로 입력하게 되어있습니다. 생각하는 챗봇의 성격에 맞는 말투를 생각해보고 입력해보시기 바랍니다.
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[기본답변 설정에 대해 더 알아보기](/settings_personality.html)</span>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[기본답변 설정에 대해 더 알아보기](/settings_personality.html)</span>
 
 ### 메인시나리오 시작을 인식할 수 있게 학습하기
 인사를 할 수 있게 작업이 되었네요.
@@ -208,7 +208,7 @@ danbee.Ai의 좌측메뉴에서 설정(Preference) > 기본답변(General)에 �
 여러분들은 캡틴초이보다 더 매력적인 캐릭터를 생각하실지도 모르겠네요. 그렇다면 캡틴초이가 아니라 다른 이름을 학습시켜야 겠죠?
 거의 동일한 시나리오로 만든 수달이를 참고해보시기 바랍니다.
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[수달이의 선택장애해결을 카카오톡에서 만나보기](http://pf.kakao.com/_hHxjxoC)</span><br/>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[수달이의 선택장애해결을 카카오톡에서 만나보기](http://pf.kakao.com/_hHxjxoC)</span><br/>
 {% include image.html file="tutorial/sample_captainchoi/soodal_kakao.png" caption="수달이는 캡틴초이보다 친근하고 부드럽다." %}
 
 ## 마무리

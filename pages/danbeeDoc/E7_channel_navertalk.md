@@ -25,7 +25,7 @@ next: {
 * 네이버톡톡 계정
 
 ### 네이버톡톡 계정 만들기
-1. 브라우저에서 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[네이버톡톡 파트너센터](https://partner.talk.naver.com/){:target="_blank"}</span>에 접속하십시오.
+1. 브라우저에서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[네이버톡톡 파트너센터](https://partner.talk.naver.com/){:target="_blank"}</span>에 접속하십시오.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_01_partner_center.png" alt="네이버톡톡 파트너센터" style="max-width: 800px"></figure>
 2. 네이버톡톡 계정을 만들기 위해 네이버 계정으로 로그인을 합니다.
 
@@ -54,14 +54,14 @@ next: {
 5. 연결 버튼을 클릭하십시오.
 
 ### 네이버톡톡 Webhook 설정
-1. <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[네이버톡톡 파트너센터](https://partner.talk.naver.com/){:target="_blank"}</span> 의 [계정관리 홈] - [챗봇 API] - [API설정] 페이지로 돌아갑니다.
+1. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[네이버톡톡 파트너센터](https://partner.talk.naver.com/){:target="_blank"}</span> 의 [계정관리 홈] - [챗봇 API] - [API설정] 페이지로 돌아갑니다.
 2. Webhook의 이벤트 받을 URL 란에 danbee.Ai에서 복사한 콜백 URL을 입력하고 등록을 클릭합니다.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_10_webhook.png" alt="네이버톡톡 Webhook설정" style="max-width: 800px"></figure>
 3. 이벤트 변경 버튼을 클릭하여 send, open을 선택합니다.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_11_event_setting.png" alt="네이버톡톡 이벤트 설정" style="max-width: 800px"></figure>
 
 ## 네이버톡톡 테스트
-* 연결한 챗봇은 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[네이버 톡톡 홈페이지](https://talk.naver.com/){:target="_blank"}</span>의 톡톡 가맹정 찾기 또는 URL로 직접 접속하여 테스트할 수 있습니다. 
+* 연결한 챗봇은 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[네이버 톡톡 홈페이지](https://talk.naver.com/){:target="_blank"}</span>의 톡톡 가맹정 찾기 또는 URL로 직접 접속하여 테스트할 수 있습니다. 
 * 직접 접속 URL은 관리 계정 리스트에서 확인할 수 있습니다. 또는 톡톡앱아이디를 확인하여 talk.naver.com/{톡톡앱아이디} 로 접속할 수 있습니다.
 <figure><img class="docimage" src="images/channel/navertalk/navertalk_13_app_id.png" alt="line app add chatbot" style="max-width: 800px"></figure>
 
