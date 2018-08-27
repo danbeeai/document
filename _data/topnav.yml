@@ -6,12 +6,12 @@ topnav:
 #    - title: GitHub
 #      external_url: https://github.com/danbeeai/document
 
-    - title: Tutorial
-      url: /samplebot.html
-    - title: Document
-      url: /index.html
     - title: FAQ
       url: /faq_00_gateway.html
+    - title: Document
+      url: /index.html
+    - title: Tutorial
+      url: /samplebot.html
     - title: Pricing
       url: /pricing.html
 
