@@ -29,7 +29,7 @@ Step 1에서 만든 피자주문 Intent 페이지를 보면 연관 Chatflow에 �
 
 ### Chatflow 생성
 Intent 상세 페이지에서 “Chatflow 생성” 버튼을 클릭하면 해당 Intent와 동일한 이름의 Chatflow가 자동으로 생성되어 상세페이지로 이동합니다.
-Chatflow 목록에서 직접 Chatflow를 생성하는 방법은 document의 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Chatflow 생성](/chatflow.html#chatflow-%EC%83%9D%EC%84%B1)</span>을 보시면 더욱 자세히 알 수 있습니다.
+Chatflow 목록에서 직접 Chatflow를 생성하는 방법은 document의 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Chatflow 생성](/chatflow.html#chatflow-%EC%83%9D%EC%84%B1)</span>을 보시면 더욱 자세히 알 수 있습니다.
 
 Chatflow에는 각각 역할을 지닌 여러 Node들이 존재하는데 처음 Chatflow 상세화면으로 진입하면 Listen Node와 Speak Node가 기본적으로 생성되어 있습니다. 이 두 가지가 대화를 만들 수 있는 가장 기본적인 노드입니다. 그럼 Listen Node와 Speak Node를 이용하여 대화를 만들어보겠습니다.
 
@@ -53,7 +53,7 @@ Node를 한번만 클릭하면 Node에서 직접 Node 명을 바꿀 수도 있�
 {% include image.html file="tutorial/basic02_edit_node_name.png" max-width="900" caption="Node 명 수정상태" %}
 
 ### Speak Node
-Speak Node는 챗봇이 어떻게 응답할지 챗봇 메시지를 정의하는 노드입니다. 기본적으로는 텍스트 형태로 메시지를 작성할 수 있고, 필요에 따라 메시지를 여러 개 작성하거나 이미지나 버튼을 포함시킬 수 있습니다. 다양한 Speak Node 사용 방법은 document의 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Speak 노드](/chatflow_speak.html)</span>를 보시면 더욱 자세히 알 수 있습니다.
+Speak Node는 챗봇이 어떻게 응답할지 챗봇 메시지를 정의하는 노드입니다. 기본적으로는 텍스트 형태로 메시지를 작성할 수 있고, 필요에 따라 메시지를 여러 개 작성하거나 이미지나 버튼을 포함시킬 수 있습니다. 다양한 Speak Node 사용 방법은 document의 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Speak 노드](/chatflow_speak.html)</span>를 보시면 더욱 자세히 알 수 있습니다.
 이번 Step에서는 간단히 텍스트 메시지 형태로 만들어보도록 하겠습니다.
 
 #### 기본 메시지 작성

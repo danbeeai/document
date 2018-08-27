@@ -5,12 +5,15 @@ topnav:
   items:
 #    - title: GitHub
 #      external_url: https://github.com/danbeeai/document
-    - title: Pricing
-      url: /pricing.html
+
+    - title: FAQ
+      url: /faq_00_gateway.html
     - title: Document
       url: /index.html
     - title: Tutorial
       url: /samplebot.html
+    - title: Pricing
+      url: /pricing.html
 
 #Topnav dropdowns
 #topnav_dropdowns:

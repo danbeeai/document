@@ -112,7 +112,7 @@ Danbee.Ai에서는 그러한 처리를 위해 몇가지 시스템 변수를 아�
 
 #### Chatflow 호출 파라미터 연결
 
-Chatflow 호출 버튼을 눌렀을때 각 Chatflow에서 사용되는 파라미터들끼리 연결이 가능합니다. 버튼형 <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Jump 노드](chatflow_jump.html)</span> 기능으로 볼 수 있습니다.<br/>
+Chatflow 호출 버튼을 눌렀을때 각 Chatflow에서 사용되는 파라미터들끼리 연결이 가능합니다. 버튼형 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Jump 노드](chatflow_jump.html)</span> 기능으로 볼 수 있습니다.<br/>
 예를 들어 날씨를 물은 뒤 사용자가 버튼을 클릭하면 날씨에 따라 음식을 추천한다고 가정해보겠습니다.
 
 {% include image.html file="chatflow/Chatflow_callflow_param_01.png" max-width="900" caption="Chatflow 호출 파라미터 연결" %}
@@ -125,7 +125,7 @@ Parameter 연결 버튼을 클릭하면 호출할 Chatflow와 현재 Chatflow의
 
 {% include image.html file="chatflow/Chatflow_callflow_param_03.png" max-width="900" caption="Chatflow 호출 파라미터 연결 테스트" %}
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[디버그 모드](demo_n_test_panel.html#디버그-모드)</span>에서 기존 날씨 Chatflow에서 세팅되었던 tempo의 '폭우'라는 값이 야식 Chatflow의 파라미터로 넘어갔음을 확인할 수 있습니다.
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[디버그 모드](demo_n_test_panel.html#디버그-모드)</span>에서 기존 날씨 Chatflow에서 세팅되었던 tempo의 '폭우'라는 값이 야식 Chatflow의 파라미터로 넘어갔음을 확인할 수 있습니다.
 
 ### 샘플 시나리오 (랜덤 메시지)
 

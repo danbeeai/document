@@ -25,7 +25,7 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 
 
 ### 1. Slack App 만들기
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Slack Developer Console](https://api.slack.com/apps/new){:target="_blank"}</span> 에서 내가 만든 챗봇과 연결할 Slack App을 생성합니다.<figure><img class="docimage" src="images/channel/slack/slack_01_create_app.png" alt="Facebook for developers" style="max-width: 800px"></figure>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Slack Developer Console](https://api.slack.com/apps/new){:target="_blank"}</span> 에서 내가 만든 챗봇과 연결할 Slack App을 생성합니다.<figure><img class="docimage" src="images/channel/slack/slack_01_create_app.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 * App 이름과 Slack Workspace를 선택하여 Create App 버튼을 눌러 새로운 App을 생성합니다.
 
 
@@ -106,6 +106,6 @@ Slack 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약�
 | 버튼 | 최대 5개 |
 | 이미지 | image url만 가능 | 
 | 캐로샐 | 최대 20개 | 
-| 메시지 전송 제한 | <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Access Tier별 확인](https://api.slack.com/docs/rate-limits#tiers){:target="_blank"}</span> |
+| 메시지 전송 제한 | <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Access Tier별 확인](https://api.slack.com/docs/rate-limits#tiers){:target="_blank"}</span> |
 
 {% include warning.html content=" Danbee.Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}

@@ -51,7 +51,7 @@ Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노�
 | 내부 App실행 | 스마트폰에서 내부 App을 실행합니다.  |
 | 외부 App실행 | 스마트폰에서 외부 App을 실행합니다.  |
 | 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
-| <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Chatflow호출](chatflow_speak.html#chatflow-호출-파라미터-연결)</span> | 다른 Chatflow를 호출합니다. 이때 현재 Chatflow의 파라미터를 넘겨줄 수 있습니다. |
+| <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Chatflow호출](chatflow_speak.html#chatflow-호출-파라미터-연결)</span> | 다른 Chatflow를 호출합니다. 이때 현재 Chatflow의 파라미터를 넘겨줄 수 있습니다. |
 
 #### Quick Reply List 설정
 

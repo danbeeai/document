@@ -19,7 +19,7 @@ next: {
 ## API 관리
  {% include callout.html content="위치 : [대화흐름(Chatflow)] > [API 관리]" type="default" %}
  챗봇 설계에 사용할, 사용자 등록 API를 관리하는 메뉴입니다. 
-  <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)</span>
+  <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)</span>
 
 해당 메뉴에서는 다음과 같은 내용을 이용할 수 있습니다.<br/>
  - [API 등록/수정](external_API_management.html#api-등록수정)  
@@ -53,7 +53,7 @@ API 등록 요청 화면 입니다.
 
 #### API 메서드 / Request URL
 메서드는 클라이언트와 danbee.Ai 서버 사이에 이루어지는 요청(Request)과 응답(Response) 데이터를 전송하는 방식입니다. 
-  <span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
+  <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[http와 메소드](http://terms.naver.com/entry.nhn?docId=2271985&cid=51207&categoryId=51207)</span>
  - 메서드 : GET, POST 메소드를 선택합니다. 
  - Request URL : 등록 요청할 API의 URL을 입력합니다. <br/>
     예시 ) Rest, http://api.openweathermap.org/data/2.5/weather   

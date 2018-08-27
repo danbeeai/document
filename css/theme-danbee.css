@@ -2,7 +2,7 @@
 
 body, html {
     color: #212121;
-    font: 400 1em/1.4em Roboto,sans-serif;
+    font: 400 16px/24px Roboto,sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     height: 100%;
@@ -13,7 +13,7 @@ body, html {
 }
 
 a {
-    color: #337ab7; /*#2b1a09*/
+    color: #0d6fbd; /*#2b1a09*/
     text-decoration: none;
 }
 
@@ -175,11 +175,14 @@ ul#mysidebar li.active li.active li a {
 }
 
 /*-- toc side --*/
+div#toc_side{
+    padding:10px;
+}
 div#toc_side ul {
     border:none;
 }
 div#toc_side ul a {
-    color:#1b80b2;
+    color:#334a60;
     padding-left:0;
 }
 div#toc_side > ul {
@@ -189,14 +192,13 @@ div#toc_side ul > li {
     margin-left:0;
 }
 div#toc_side > ul > li {
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 div#toc_side > ul > li > ul > li {
     margin-bottom:10px;
 }
 div#toc_side > ul > li > a {
     display:inline-block;
-    margin-bottom:5px;
     font-size:14px;
 }
 div#toc_side ul li ul li a {
@@ -219,7 +221,7 @@ div#toc_side ul li ul li ul li a {
 div#toc_side >ul::before {
     display:block;
     margin-bottom:10px;
-    content: "Table of Contents";
+    content: "본문 목차";
     font-size:15px;
     font-weight: 600;
     color:#333;
@@ -259,7 +261,7 @@ div#toc_side ul ul ul {
     font-weight:bold;
 }
 .post-content .link{
-  color:#337ab7;
+  color:#395168;
   display:inline-block;
 }
 .post-content p strong {
@@ -422,7 +424,7 @@ div#toc > ul > li> ul > a{
 }
 
 div#toc >ul::before {
-    content: "Table of Contents";
+    content: "본문 목차";
     font-weight: 500;
     color: #555;
     text-align:center;
@@ -529,6 +531,22 @@ div#toc >ul::before {
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #a1aab2;
 }
+
+.side-toc{
+    position:relative;
+}
+#toc_side{
+    position:fixed;
+}
+
+/* 블락콧 blockquote */
+.post-content blockquote{
+    font-size:1em;
+    line-height:1.8em;
+    word-break : normal;
+    
+}
+
 
 /*======================jenny test css====================*/
 @media (min-width: 1400px) {

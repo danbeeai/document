@@ -14,7 +14,7 @@ next: {
 ## 잠깐! 이미 danbee.Ai에 가입하여 사용하고 계시나요?
 
 아래 내용보다는 바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇 만들기 튜토리얼](/samplebot.html)</span>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇 만들기 튜토리얼](/samplebot.html)</span>
 
 
 ## 챗봇을 만드는 가장 쉬운 방법, danbee.Ai란?
@@ -80,4 +80,4 @@ danbee.Ai는 위와 같은 대화를 손쉽게 만들고 서비스 할 수 있�
 ### 다음으로 할 일
 위에서 나온 챗봇관련 개념에 익숙해지셨다면, 다음 글을 읽어보시면 좋을 것 같습니다.
 
-<span style="color:#f69023;"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[간단한 챗봇 만들어보기](/basic_create_chatbot.html)</span>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[간단한 챗봇 만들어보기](/basic_create_chatbot.html)</span>

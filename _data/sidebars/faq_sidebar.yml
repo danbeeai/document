@@ -1,0 +1,34 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  #levels: one 활성화 하면,
+  folders:
+
+  - title: FAQ-기본
+    output: web
+    folderitems:
+    - title: 자주 묻는 문의
+      url: /faq_00_gateway.html
+      output: web
+
+  # - title: FAQ-기획
+  #   output: web
+  #   folderitems:
+  #   - title: 페르소나가 무엇인가요? 어떻게 설정하나요?
+  #     url: /faq_10_persona.html
+  #     output: web
+
+  # - title: FAQ-단비 사용법
+  #   output: web
+  #   folderitems:
+  #   - title: Intent
+  #     url: /faq_20_persona.html
+  #     output: web
+    
+  # - title: FAQ-API 연동
+  #   output: web
+  #   folderitems:
+  #   - title: danbee와 연동하는 API는 어떤 것들이 있나요?
+  #     url: /faq_api.html
+  #     output: web
