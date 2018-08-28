@@ -23,8 +23,8 @@ Function 노드에서는 자바스크립트 문법을 사용하여 이러한 파
 
 
 Function 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_function.html#기본정보)
-- [Script 연결](Chatflow_function.html#Script 연결)
+- [기본정보](chatflow_function.html#기본정보)
+- [Script 연결](chatflow_function.html#Script 연결)
 
 {% include image.html file="chatflow/Chatflow_function_canvas.png" max-width="900" caption="Function 노드" %}
 

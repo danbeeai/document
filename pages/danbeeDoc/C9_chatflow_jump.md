@@ -22,8 +22,8 @@ JUMP 노드는 Chatflow 시나리오 도중에 다른 챗플로우로 이동하�
 JUMP 노드를 통해 Chatflow 간 이동하면서 파라미터 값을 전달을 할 수 있는 기능을 함께 제공함으로써 연이은 대화 시나리오 흐름을 이어 갈 수 있도록 구성이 가능합니다. 
 
 Jump 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_jump.html#기본정보)
-- [Jump 설정](Chatflow_jump.html#Jump 설정)
+- [기본정보](chatflow_jump.html#기본정보)
+- [Jump 설정](chatflow_jump.html#Jump 설정)
 
 {% include image.html file="chatflow/Chatflow_jump_canvas.png" max-width="900" caption="Jump 노드" %}
 
