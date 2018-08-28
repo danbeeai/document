@@ -26,9 +26,9 @@ Listen 노드가 없으면 대화흐름은 어떤 의도를 기반으로 어떤 
 
 
 Listen 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_listen.html#기본정보)
-- [인텐트 연결](Chatflow_listen.html#인텐트-연결)
-- [Event 연결](Chatflow_listen.html#event-연결)
+- [기본정보](chatflow_listen.html#기본정보)
+- [인텐트 연결](chatflow_listen.html#인텐트-연결)
+- [Event 연결](chatflow_listen.html#event-연결)
 
 {% include image.html file="chatflow/Chatflow_listen_canvas.png" max-width="900" caption="Listen노드" %}
 
@@ -45,8 +45,8 @@ Listen 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 
 
 Listen Node 연결 방법 라디오 버튼 중 Intent를 선택합니다.
 인텐트 연결은 2개의 탭으로 구성되어 있습니다. 
-- [의도추론예문](Chatflow_listen.html#의도추론예문)
-- [Parameter](Chatflow_listen.html#parameter)
+- [의도추론예문](chatflow_listen.html#의도추론예문)
+- [Parameter](chatflow_listen.html#parameter)
 
 의도관리에서 등록된 인텐트들을 매핑함으로써 인텐트에 등록된 예문 페턴이 일치될때 해당 Listen 노드가 구동되어 Chatflow의 흐름을 타게 됩니다. 
 Listen 노드와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 때문에 인텐트 연결시 이미 매핑된 인텐트와 선택가능한 인텐트가 구분되어 보여지게 됩니다.
@@ -74,8 +74,8 @@ Listen 노드에서 Parameter를 추가적으로 등록하고 싶다면 [+] 버�
 Listen Node 연결 방법 라디오 버튼 중 Event를 선택합니다.
 Event 연결은 2개의 탭으로 구성되어 있습니다.
 
-- [Event](Chatflow_listen.html#event)
-- [Parameter](Chatflow_listen.html#event-parameter)
+- [Event](chatflow_listen.html#event)
+- [Parameter](chatflow_listen.html#event-parameter)
 
 #### Event
 

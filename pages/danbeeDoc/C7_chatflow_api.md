@@ -21,10 +21,9 @@ next: {
 API 노드는 챗봇이 ‘날씨’, ‘검색’ 등과 같이 다양한 컨텐츠 서비스 정보를 활용하여 대답할 수 있도록 컨텐츠 서비스들과 연계하기 위해 관련 정보를 설정하는 노드입니다. 
 컨텐츠 서비스들은 공공기관에서 오픈 된 컨텐츠 뿐만 아니라 기업 내에 제공하는 기간계 서비스들과도 연계가 가능합니다. 
 
-
 Function 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](Chatflow_api.html#기본정보)
-- [API 설정](Chatflow_api.html#api-설정)
+- [기본정보](chatflow_api.html#기본정보)
+- [API 설정](chatflow_api.html#api-설정)
 
 {% include image.html file="chatflow/Chatflow_api_canvas.png" max-width="900" caption="Api 노드" %}
 
@@ -36,10 +35,10 @@ Api 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입
 
 ### API 설정
 
-API 노드는 기존에 등록 관리되고 있는 API들 중 하나를 선택하여 사용할 수 있습니다. 
-이는 동일한 API를 서로 다른 챗봇, 서로 다른 시나리오에서 쓰고자 할 경우<br/>
-매번 등록 설정해야하는 번거로움을 해소하고자 별도의 API들을 관리하고 불러서 사용하는 방식으로 구성된 이유이기도 합니다.<br/> 
-API관리에 대해 자세히 알고자 할 경우 아래 API관리 내용을 확인하시기 바랍니다. 
+API 노드는 API관리 메뉴에 등록된 API들 중 하나를 선택하여 사용할 수 있습니다. 
+동일한 API를 서로 다른 챗봇, 서로 다른 시나리오에서 쓰고자 할 경우,<br/>
+매번 등록 설정해야하는 번거로움이 해소됩니다. <br/> 
+아직 API관리메뉴에서 API를 등록하지 않았다면 아래 API관리 내용을 먼저 확인하시기 바랍니다. 
 
 - [API 관리](external_API_management.html#API 관리)
 
@@ -56,8 +55,8 @@ API를 선택하여 '적용' 버튼을 누르면 등록해둔 Header, 요청 Par
 API설정은 외부의 데이터 서비스와 연계시 서비스에 보내야할 요청 Parameter와 받아야할 출력 Parameter 정보를 설정합니다. 
 API 설정은 2개의 Tab으로 구성이 됩니다.
 
-- [요청 Parameter](Chatflow_api.html#요청 Parameter)
-- [출력 Parameter](Chatflow_api.html#출력 Parameter)
+- [요청 Parameter](chatflow_api.html#요청 Parameter)
+- [출력 Parameter](chatflow_api.html#출력 Parameter)
 
 
 #### 요청 Parameter
