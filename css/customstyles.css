@@ -389,7 +389,19 @@ ul#mysidebar {
 
 span.projectTitle {
     font-family: Helvetica;
-    font-weight: bold;
+    font-weight: normal;
+    font-size:12px;
+    display:inline-block;
+    line-height: 14px;
+    padding-top: 2px; 
+    position: relative;
+    top: 8px;
+    margin-left: 4px;
+
+}
+span.projectTitle > strong{
+    display:block;
+    font-size:16px;
 }
 
 .footer {
