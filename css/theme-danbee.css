@@ -87,10 +87,12 @@ a[data-toggle="tooltip"] {
     color: #fff;
     font-weight: normal;
     margin-left:0;
+    padding:0;
+    margin-top: 3px;
 }
 .navbar-inverse .navbar-brand>img {
-    display:inline;
-    width:24px;
+    display:inline-block;
+    width:20px;
 }
 .navbar-inverse .container .navbar-header button {
     background:none;
@@ -633,7 +635,7 @@ div#toc >ul::before {
 /*-- 스타일 변경 반응형 처리 --*/
 @media (max-width: 640px) {
     .container{
-        width: 640px;
+        min-width: 320px;
     }
     /*-- header --*/
     .navbar-inverse .navbar-collapse {
