@@ -8,7 +8,7 @@ entries:
   - title: FAQ-기본
     output: web
     folderitems:
-    - title: 자주 묻는 문의
+    - title: 가장 자주 묻는 문의
       url: /faq_00_gateway.html
       output: web
 
