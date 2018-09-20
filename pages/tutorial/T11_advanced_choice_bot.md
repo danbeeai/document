@@ -34,6 +34,8 @@ previous: {
 
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[선택결단봇, 캡틴초이를 카카오톡에서 만나보기](http://pf.kakao.com/_hHxjxoC)</span><br/>
 
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[선택결단봇, 캡틴초이를 프로그(Frogue)에서 만나보기](https://frogue.danbee.ai/?chatbot_id=bb5c9c5f-0505-444d-8e84-13b132fbaedd)</span><br/>
+
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
 {% include image.html file="tutorial/sample_captainchoi/captainchoi_kakao.png" width="170" caption="카카오톡에서 미소 짓는 캡틴초이" %}
@@ -112,6 +114,7 @@ previous: {
 
 캡틴초이는 카카오톡에 연결해서 공개하기로 하였습니다. 카카오톡에서는 처음에 "시작하기"를 탭하여 대화를 시작하게 되어있습니다.
 시작하기를 선택하면 인사를 하고, 시작을 유도하는 것이지요.
+
 
 ### 챗봇 대화흐름 메인시나리오 설계
 
