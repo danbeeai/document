@@ -279,4 +279,41 @@ next: {
 | 404 | [Chatflow] Intent에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
 | 405 | [Chatflow] flow 설정 문제 (답변 메시지를 못 찾았을 때, 분기 오류인 경우) |
 
+## 대화이력 조회 API
+대화 이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
 
+대화이력 다운로드 KEY 발급은 [대화 이력 관리-다운로드-api-key-관리](log.html#다운로드-api-key-관리) 에서 확인 가능합니다.
+
+### 기본 정보
+
+| Field | Infomation |
+|--------|--------|
+| URL | https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve |
+| METHOD | GET |
+| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+
+### REQUEST 정보 
+
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| chatbotId | String | Yes | 챗봇아이디 |
+| baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
+| apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 대화이력 화면에서 생성 및 조회 가능 ) |
+
+### RESPONSE 정보
+
+| KEY | TYPE | Required | Description |
+|--------|--------|--------|--------|
+| logId | Number | Yes | 대화이력 로그 아이디 |
+| sessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
+| flowId | String | Yes | 챗플로우 아이디 |
+| flowName | String | Yes | 챗플로우 명 |
+| nodeName | String | No | 노드 명 |
+| nodeType | String | No | 노드 유형 |
+| userId | String | No | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
+| message | String | No | 사용자 또는 챗봇의 대화내용 |
+| createDate | String | Yes | 로그 생성 일시 |
+| updateDate | String | Yes | 로그 수정 일시 |
+| neg | Number | No | 대화내용 감정 부정 수치 |
+| neu | Number  | No | 대화내용 감정 중립 수치 |
+| pos | Number | No | 대화내용 감정 긍정 수치 |
