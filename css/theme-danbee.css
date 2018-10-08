@@ -273,8 +273,7 @@ div#toc_side ul ul ul {
   color:#395168;
   display:inline-block;
 }
-.post-content p strong {
-}
+
 .post-content p strong em {
     font-style: normal;
 }
@@ -443,6 +442,83 @@ div#toc >ul::before {
     padding-top:20px;
     padding-bottom:20px;
     padding-left:10px;
+}
+/* pricing */
+.post-content .pricing table thead tr th{
+    background-color:#4d9c81;
+    text-align:center;
+}
+.post-content .pricing table thead th .plan-cate{
+    font-size:26px;
+}
+.post-content .pricing table thead th .plan{
+    font-size: 20px;
+
+}
+
+.post-content .pricing table tbody th{
+    background-color:#768c83;
+    color:#fff;
+    border-top: 1px solid #637b71;
+    border-left: 1px solid #637b71;
+    font-weight:normal;
+    word-break: keep-all;
+}
+
+.post-content .pricing table tbody th sup a{
+    color:#b1ffbb;
+    font-weight:normal;
+}
+
+.post-content .pricing table td{
+    border-bottom: none;
+    border-left:0;
+    border-right:1px solid #dee8e5;
+    text-align: center;
+    word-break: keep-all;
+}
+.post-content .pricing table td .price{
+    font-size:18px;
+    font-weight: bold;
+    color:#777;
+    display:inline-block;
+    line-height:30px;
+}
+.post-content .pricing table td .price small{
+    font-size:12px;
+}
+.post-content .pricing table td .alert {
+    color:#b55252;
+    padding:0;
+}
+
+.post-content .pricing table tbody td:last-child{
+    background-color:#0043ff08;
+}
+.post-content .pricing table tbody th span.alert,
+.post-content .pricing table tbody td span.alert{
+    color:#b55252;
+    padding:0;
+}
+
+.post-content .pricing table tbody td sup a{
+    color:#04af72;
+}
+
+.post-content .pricing table tbody th.category-title{
+    padding-top: 24px;
+    font-size: 18px;
+    color: #676767;
+    font-weight: bold;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-left: 0;
+    border-top:1px solid #bbc7c2;
+    border-bottom:1px solid #bbc7c2;
+}
+
+.btn-call-on strong{
+    font-size:18px;
 }
 
 /* not sure if using this ...*/
