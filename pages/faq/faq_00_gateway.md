@@ -32,4 +32,4 @@ folder: FAQ
 >    
 > danbee.Ai에서는 완성된 챗봇을 사람들과 연결할 수 있도록 2가지 기능을 제공합니다.
 > 1. 카카오톡, 라인, 페이스북, 네이버톡톡과 같은 메신저에 연결할 수 있는 연결기능
-> 2. 직접만든 앱, 웹사이트, 또는 AI스피커나 대화하는 로봇에 연결할 수 있는 Native API <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i></span>[대화이력관리](/channel_native_app.html)를 보시면, 실제 대화를 통해 쌓인 데이터가 어떻게 쌓이고 학습에 활용되는지 알 수 있습니다.
+> 2. 직접만든 앱, 웹사이트, 또는 AI스피커나 대화하는 로봇에 연결할 수 있는 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i></span>[Native API](/channel_native_app.html)를 보시면, 실제 대화를 통해 쌓인 데이터가 어떻게 쌓이고 학습에 활용되는지 알 수 있습니다.
