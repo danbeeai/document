@@ -110,6 +110,8 @@ margin-top: -40px
     color: gray;
 }
 
+
+/*
 table {
     background-color: transparent;
 }
@@ -125,7 +127,6 @@ th {
 table {
     max-width: 90%;
     margin-bottom: 20px;
-    border: 1px solid #dedede;
 }
 
 table > thead > tr > th,
@@ -147,6 +148,7 @@ table > thead > tr > th {
     color: white;
     text-align: left;
 }
+
 table > caption + thead > tr:first-child > th,
 table > colgroup + thead > tr:first-child > th,
 table > thead:first-child > tr:first-child > th,
@@ -175,7 +177,7 @@ table th[class*="col-"] {
 table tr td {
     hyphens: auto;
 }
-
+*/
 
 p.external a {
     text-align:right;
@@ -294,9 +296,6 @@ a.accordion-toggle, a.accordion-collapsed {
     margin: 1px 0;
 }
 
-.nav > li li {
-    /* margin: 2px 0' */
-}
 
 .nav a {
     color: #333;

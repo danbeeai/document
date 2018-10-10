@@ -74,7 +74,7 @@ API 선택시 기본적으로 'API관리'에 등록되었던 Value 값은 초기
 | 챗봇명 | @chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
 | 채널아이디 | @channelId | 접속한 채널 아이디가 표시됩니다. <br/>(ex : 5-facebook / 3-kakaotalk / 2-line / 7-navertalk / 6-telegram / 4-slack)  |
 | 받은 메시지 | @message | 사용자로부터 받은 질문 메시지 입니다. |
-
+{: .table .table-striped}
 
 #### 응답 Parameter 와 출력 Parameters
 

@@ -313,6 +313,18 @@ div#toc_side ul ul ul {
     box-shadow:0 1px 3px rgba(0,0,0,.1);
     max-width:100% !important;
 }
+.post-content table{
+    border-bottom:1px solid #ddd; 
+    border-top:1px solid #ddd;
+}
+.post-content table th{
+    background:#e5f0fa;
+}
+.post-content table thead tr th,
+.post-content table tbody tr td {
+    padding:8px 12px;
+}
+/*
 .post-content table {
     font-size:14px;
     border:none;
@@ -328,10 +340,7 @@ div#toc_side ul ul ul {
     border-bottom:1px solid #ddd;
     border-left:1px solid #e5e5e5;
 }
-.post-content table thead tr th,
-.post-content table tbody tr td {
-    padding:8px 12px;
-}
+
 .post-content table > tbody > tr:nth-of-type(odd) {
     background:#f8f8f8;
 }
@@ -341,6 +350,7 @@ div#toc_side ul ul ul {
 .post-content table tbody tr td:last-child {
     border-right:1px solid #ddd;
 }
+*/
 
 .post-content .tags {
     margin-bottom:40px;
@@ -448,14 +458,20 @@ div#toc >ul::before {
     background-color:#4d9c81;
     text-align:center;
 }
+
+
 .post-content .pricing table thead th .plan-cate{
-    font-size:26px;
+    font-size:18px;
+    color:#fff;
 }
 .post-content .pricing table thead th .plan{
     font-size: 20px;
-
+    color:#fff;
 }
 
+.post-content .pricing table tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
 .post-content .pricing table tbody th{
     background-color:#768c83;
     color:#fff;
@@ -463,19 +479,29 @@ div#toc >ul::before {
     border-left: 1px solid #637b71;
     font-weight:normal;
     word-break: keep-all;
+    padding:8px 12px;
 }
 
 .post-content .pricing table tbody th sup a{
     color:#b1ffbb;
     font-weight:normal;
 }
-
+.post-content .pricing table tr th a{   
+    color: #b1ffbb;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post-content .pricing table tr th a:hover{
+    color:#fff;
+}
 .post-content .pricing table td{
     border-bottom: none;
     border-left:0;
     border-right:1px solid #dee8e5;
     text-align: center;
     word-break: keep-all;
+    padding:8px 12px;
+    vertical-align: top;
 }
 .post-content .pricing table td .price{
     font-size:18px;
@@ -484,8 +510,9 @@ div#toc >ul::before {
     display:inline-block;
     line-height:30px;
 }
-.post-content .pricing table td .price small{
-    font-size:12px;
+.post-content .pricing table td .price .additional_info{
+    font-size:16px;
+    font-weight:normal;
 }
 .post-content .pricing table td .alert {
     color:#b55252;
@@ -516,7 +543,9 @@ div#toc >ul::before {
     border-top:1px solid #bbc7c2;
     border-bottom:1px solid #bbc7c2;
 }
-
+.post-content #note ul li{
+    list-style: none;
+}
 .btn-call-on strong{
     font-size:18px;
 }
@@ -581,7 +610,7 @@ li.sidebarTitle {
     color: #2a2e2e!important;
 }
 
-* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+* { font-family: 'Roboto', 'Sans-serif'; }
 .unread .notification-container:hover .notification-icon {
     color: #f69023;
 }
@@ -632,6 +661,14 @@ div#toc >ul::before {
     
 }
 
+.modal-body{
+    padding:15px 30px;
+}
+.modal-header .close{
+    position: absolute;
+    top: 40px;
+    right: 16px;
+}
 
 /*======================jenny test css====================*/
 @media (min-width: 1400px) {

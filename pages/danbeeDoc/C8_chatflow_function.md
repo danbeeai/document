@@ -64,7 +64,7 @@ test = 10;
 | 챗봇명 | danbee_chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
 | 채널아이디 | danbee_channelId | 접속한 채널 아이디가 표시됩니다. <br/>(ex : 5-facebook / 3-kakaotalk / 2-line / 7-navertalk / 6-telegram / 4-slack)  |
 | 받은 메시지 | danbee_message | 사용자로부터 받은 질문 메시지 입니다. |
-
+{: .table .table-striped}
 
 ### 샘플 시나리오 (랜덤 분기 테스트)
 

@@ -15,8 +15,8 @@ next: {
     url: entity.html
 }
 ---
-
 ## 의도 추론(Intent)
+
  {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
 **의도 추론(이하 Intent)**란, 입력 문장이 어떤 의도인지 분류하기 위한 기준입니다.<br/>
 
@@ -114,6 +114,7 @@ danbee.Ai에서는 다음과 같은 특수한 Parameter를 제공하고 있습�
 | **positive** | sys.any | 감성 분석 결과 ***긍정도***를 제공 |
 | **negative** | sys.any | 감성 분석 결과 ***부정도***를 제공 |
 | **neutral** | sys.any | 감성 분석 결고 ***중립도***를 제공 |
+{: .table .table-striped}
 
 Intent에 위 Parameter들을 추가해두고  **감성분석 및 감성정보 Parameter 공유 설정**을 하시면 해당 특수 Parameter를 사용할 수 있습니다. 해당 Parameter들을 통해 대화흐름 속에서 사용자의 감성을 분석하여 긍정, 부정, 중립에 대한 정도를 수치로 제공받을 수 있습니다.<br/>
 

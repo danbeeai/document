@@ -1,7 +1,7 @@
 ---
 title: Pricing
 keywords: price, pricing
-summary: 개인용도는 1일 1만건 이내 무료로 제공되고 있습니다. 1만건을 초과하거나 상업/업무용도로 사용하실 경우 제휴를 신청하시기 바랍니다.
+summary: 본 정책은 2018년 11월 11일에 변경될 예정입니다. <a href="https://doc.danbee.ai/pricing_20181111.html" title="신규 회원정책 미리보기">신규 회원정책 미리보기</a>
 permalink: pricing.html
 toc: false
 sidebar: false
