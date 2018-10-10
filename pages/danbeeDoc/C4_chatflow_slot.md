@@ -63,6 +63,7 @@ Slot 노드는 질문하고자하는 항목 변수의 값이 이미 있는 경�
 | 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
 | <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Chatflow호출](chatflow_speak.html#chatflow-호출-파라미터-연결)</span> | 다른 Chatflow를 호출합니다. 이때 현재 Chatflow의 파라미터를 넘겨줄 수 있습니다. |
 | Quick Reply | 입력창 상단에 버튼 형태의 선택지를 제공합니다. |
+{: .table .table-striped}
 
 {% include note.html content="Quick Reply 타입은 facebook, 네이버톡톡에서 해당 형태로 이용 가능하며 제공되지 않는 채널에서는 선택지와 동일하게 표시됩니다." %}
 

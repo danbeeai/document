@@ -48,6 +48,7 @@ Intent 를 만들고 Chatflow 화면에 들어와 Listen Node 를 설정합니�
 | 피자_선택수량	          | sys.number	|
 | 피자_선택사이즈          | 사이즈	    |
 | 주문진행여부	            | sys.confirm	|
+{: .table .table-striped}
 
 예문 추가 방법과 파라미터 추가 방법은 위에 챕터를 참고 하시기 바랍니다. <br/>
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[예문 추가 방법](/basic_create_intent.html#intent-%EC%83%9D%EC%84%B1)</span>

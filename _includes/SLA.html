@@ -1,0 +1,105 @@
+<!-- SLA 회원등급별 가격정책 -->
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLongTitle">danbee.Ai 서비스 수준 계약(Service Level Agreement)</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <blackquote>시행일 : 2018년 11월 11일</blackquote>
+        <p>
+          danbee.Ai 서비스 계약의 기간동안 회원등급별 다음과 같은 월간 정상 가동률을 보장합니다.
+        </p>
+        <table class="table table table-bordered" style="width: 80%;margin-left: 10%;">
+          <colgroup>
+            <col width="30%"/>
+            <col/>
+          </colgroup>
+          <thead>
+            <tr>
+              <th>회원등급</th>
+              <th>월간 정상 가동률</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>보슬비(무료)</td>
+              <td>해당사항 없음</td>
+            </tr>
+            <tr>
+              <td>가랑비</td>
+              <td>99% 이상</td>
+            </tr>
+            <tr>
+              <td>장대비 & 함께 맞는 비</td>
+              <td>99.9% 이상</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          SLA에는 다음과 같은 정의가 적용됩니다.
+        </p>
+
+  <ul>
+    <li>월간 정상 가동률은 해당월의 총 시간(분)에서 해당 월에 발생한 비정상가동시간을 빼고 해당월의 총 시간(분)으로 나눈 값을 의미합니다.</li>
+    <li>다음의 경우는 정상가동시간으로 간주합니다.
+      <ul>
+        <li>미리 고지된 danbee.Ai 서비스의 정기점검/긴급점검 시간</li>
+        <li>danbee.Ai 서비스가 사용하는 클라우드 컴퓨팅 서비스의 장애/정기점검/긴급점검 시간</li>
+      </ul>
+    </li>
+    <li>다음의 경우 비정상가동시간 간주합니다.
+      <ul>
+        <li>danbee.Ai 서비스가 제공하는 표준 API가 정상적으로 호출되지 않은 경우</li>
+        <li>danbee.Ai 서비스를 이용하여 구현된 챗봇이 연결된 대화채널에서 정상적으로 응답하지 않은 경우 <br />(단, 회원이 임의로 사용한 외부 API로 인한 응답 지연 및 장애는 제외)</li>
+      </ul>
+    </li>
+  </ul>
+<p>
+월간 정상 가동률을 충족하지 못한 경우 해당월의 청구금액을 정상 청구금액 대비 아래와 같이 조정하여 청구합니다.
+</p>
+<table class="table table-bordered" style="width: 80%;margin-left: 10%;">
+  <colgroup>
+    <col width="30%"/>
+    <col/>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>회원등급</th>
+      <th>월간 정상 가동률</th>
+      <th>조정비율</th>
+    </tr>
+    <tr>
+      <td>가랑비</td>
+      <td>99% 미만</td>
+      <td>20% 감액 후 청구</td>
+    </tr>
+    <tr>
+      <td rowspan="2">장대비 & 함께 맞는 비
+        </td>
+      <td>99% 이상 99.9% 미만</td>
+      <td>10% 감액 후 청구</td>
+    </tr>
+    <tr>
+      <td>99% 미만</td>
+      <td>25% 감액 후 청구</td>
+    </tr>
+  </thead>
+</table>
+
+      </div>
+      <div class="modal-footer">
+        <!--
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">취소</button>
+        -->
+        <button type="button" class="btn btn-primary" data-dismiss="modal">확인</button>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -107,5 +107,6 @@ Slack 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약�
 | 이미지 | image url만 가능 | 
 | 캐로샐 | 최대 20개 | 
 | 메시지 전송 제한 | <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Access Tier별 확인](https://api.slack.com/docs/rate-limits#tiers){:target="_blank"}</span> |
+{: .table .table-striped}
 
 {% include warning.html content=" Danbee.Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}
