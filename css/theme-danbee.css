@@ -281,9 +281,6 @@ div#toc_side ul ul ul {
     font-style: normal;
     font-size:110%;
 }
-.post-content ul li {
-    font-size:14px;
-}
 .post-content .bs-callout {
     border:none;
     border-left:4px solid #d2d2d2;
@@ -668,6 +665,12 @@ div#toc >ul::before {
     position: absolute;
     top: 40px;
     right: 16px;
+}
+.modal-body .table{
+    font-size:14px;
+}
+.modal-body .table-bordered>thead>tr>td{
+    border-bottom-width:1px;
 }
 
 /*======================jenny test css====================*/
