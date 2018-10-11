@@ -101,6 +101,17 @@ defaults:
       sidebar: tutorial_sidebar
       topnav: topnav
 
+  -
+    scope:
+      path: ""
+      type: "pricing"
+    values:
+      layout: "pricing"
+      comments: false
+      search: true
+      sidebar: false
+      topnav: topnav
+
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
