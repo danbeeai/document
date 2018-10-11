@@ -6,6 +6,7 @@ permalink: pricing.html
 toc: false
 sidebar: false
 folder: pricing
+comments : false
 ---
 
 
