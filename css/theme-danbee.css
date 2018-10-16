@@ -540,6 +540,10 @@ div#toc >ul::before {
     border-top:1px solid #bbc7c2;
     border-bottom:1px solid #bbc7c2;
 }
+.post-content .pricing table tbody th.category-title small{
+    font-size: 16px;
+    font-weight: normal;
+}
 .post-content #note ul li{
     list-style: none;
 }
