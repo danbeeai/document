@@ -16,6 +16,9 @@ next: {
 }
 ---
 
+{% include important.html content="<br/>카카오톡의 서비스 정책 변화로 인해, 카카오톡 챗봇 연동 서비스는<br/>11월30까지 등록된 스마트채팅 플러스친구 계정만 지원합니다.<br/>기존에 연동을 해놓은 챗봇은 2019년 12월 2일까지만 서비스 됩니다.<br/> [카카오톡 공지사항 확인하기](https://github.com/plusfriend/auto_reply){:target="_blank"} " %}
+
+
 ## KakaoTalk 채널 연결 
  {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
 
