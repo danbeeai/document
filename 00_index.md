@@ -13,15 +13,14 @@ next: {
 
 ## 챗봇은 이미 알고 있고, 바로 만들어보고 싶은 분들께
 
-아래 내용보다는 바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
+바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇 만들기 튜토리얼](/samplebot.html)</span>
-
 
 ## 챗봇을 만드는 가장 쉬운 방법, danbee.Ai란
 
 대화는 둘 이상의 주체가 서로 의도를 묻고, 의도에 따라 답을 하거나 정확한 의도를 알아내기 위해 다시 질문하는 과정입니다.
-만약 모든 대화 상황에 대해 대응 할 수 있도록 만들 수 있다면, 상대방이 사람인지 기계인지 알 수 없을 것입니다.
 danbee.Ai는 챗봇과 같은 대화 서비스에서 필요한 다양한 상황을 개발코드 작성 없이 만들 수 있게 해주는 서비스 입니다.
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[자주 문의되는 질문](/faq_00_gateway.html)</span>
 
 ### 챗봇이란?
 

@@ -12,7 +12,7 @@ folder: FAQ
 
 > 어디에 적용할지 고민이 되시나요? 의사결정챗봇 디티와 이야기 해보세요. <br />
 > <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i></span>
-> [의사결정지원챗봇, 디트! 만나러 가기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5&user_id=fromfaq) <br/>
+> [의사결정나무봇, 디트! 만나러 가기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5&user_id=fromfaq) <br/>
 > 그리고 Tutorial을 통해서 하나씩 따라하며 이해해 보시길 권유드립니다.   
 > <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i></span>[Tutorial](/samplebot.html), 챗봇을 만드는 방법을 순서대로 배우면서 기본기를 익힐 수 있습니다.
 
