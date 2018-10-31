@@ -54,8 +54,15 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
   padding:15px 10px;
 }
 
-
-
+p{
+    line-height:32px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    line-height:24px;
+}
+pre code{
+    line-height:24px;
+}
 
 @media (max-width: 1000px){
     .githubEditButton{

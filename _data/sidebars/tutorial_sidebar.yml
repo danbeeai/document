@@ -58,6 +58,9 @@ entries:
     - title: 10. 선택장애제거봇, 캡틴초이 살펴보기
       url: /advanced_choice_bot.html
       output: web
+    - title: 11. 의사결정나무봇, 디트 살펴보기
+      url: /advanced_decision_tree_bot.html
+      output: web
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web

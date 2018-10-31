@@ -75,8 +75,8 @@ h4[id],
 h5[id],
 h6[id],
 dt[id]{
-padding-top: 60px;
-margin-top: -40px
+padding-top: 24px;
+
 }
 
 .post-content img {
@@ -337,8 +337,8 @@ background-color: #347DBE;
 }
 
 .nav > li > a {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 28px;
     padding: 4px 10px;
 }
 
