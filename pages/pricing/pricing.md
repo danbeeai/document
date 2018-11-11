@@ -12,7 +12,7 @@ comments : false
 ---
 
 ## 최적의 회원정책을 선택하세요.
-<br /><br />
+<br />
 
 {% include price_policy_for_notice.html %}
 {% include SLA.html %}
