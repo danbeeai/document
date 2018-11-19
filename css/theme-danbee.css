@@ -54,8 +54,15 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
   padding:15px 10px;
 }
 
-
-
+p{
+    line-height:32px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    line-height:24px;
+}
+pre code{
+    line-height:24px;
+}
 
 @media (max-width: 1000px){
     .githubEditButton{
@@ -273,17 +280,13 @@ div#toc_side ul ul ul {
   color:#395168;
   display:inline-block;
 }
-.post-content p strong {
-}
+
 .post-content p strong em {
     font-style: normal;
 }
 .post-content p em {
     font-style: normal;
     font-size:110%;
-}
-.post-content ul li {
-    font-size:14px;
 }
 .post-content .bs-callout {
     border:none;
@@ -314,6 +317,18 @@ div#toc_side ul ul ul {
     box-shadow:0 1px 3px rgba(0,0,0,.1);
     max-width:100% !important;
 }
+.post-content table{
+    border-bottom:1px solid #ddd; 
+    border-top:1px solid #ddd;
+}
+.post-content table th{
+    background:#e5f0fa;
+}
+.post-content table thead tr th,
+.post-content table tbody tr td {
+    padding:8px 12px;
+}
+/*
 .post-content table {
     font-size:14px;
     border:none;
@@ -329,10 +344,7 @@ div#toc_side ul ul ul {
     border-bottom:1px solid #ddd;
     border-left:1px solid #e5e5e5;
 }
-.post-content table thead tr th,
-.post-content table tbody tr td {
-    padding:8px 12px;
-}
+
 .post-content table > tbody > tr:nth-of-type(odd) {
     background:#f8f8f8;
 }
@@ -342,6 +354,7 @@ div#toc_side ul ul ul {
 .post-content table tbody tr td:last-child {
     border-right:1px solid #ddd;
 }
+*/
 
 .post-content .tags {
     margin-bottom:40px;
@@ -444,6 +457,115 @@ div#toc >ul::before {
     padding-bottom:20px;
     padding-left:10px;
 }
+/* pricing */
+.post-content .pricing table thead tr th{
+    background-color:#4d9c81;
+    text-align:center;
+}
+
+
+.post-content .pricing table thead th .plan-cate{
+    font-size:18px;
+    color:#fff;
+}
+.post-content .pricing table thead th .plan{
+    font-size: 20px;
+    color:#fff;
+}
+
+.post-content .pricing table tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.post-content .pricing table tbody th{
+    background-color:#768c83;
+    color:#fff;
+    border-top: 1px solid #637b71;
+    border-left: 1px solid #637b71;
+    font-weight:normal;
+    word-break: keep-all;
+    padding:8px 12px;
+}
+
+.post-content .pricing table tbody th sup a{
+    color:#b1ffbb;
+    font-weight:normal;
+}
+.post-content .pricing table tr th a{   
+    color: #b1ffbb;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post-content .pricing table tr th a:hover{
+    color:#fff;
+}
+.post-content .pricing table td{
+    border-bottom: none;
+    border-left:0;
+    border-right:1px solid #dee8e5;
+    text-align: center;
+    word-break: keep-all;
+    padding:8px 12px;
+    vertical-align: top;
+}
+.post-content .pricing table td .price{
+    font-size:18px;
+    font-weight: bold;
+    color:#777;
+    display:inline-block;
+    line-height:30px;
+}
+.post-content .pricing table td .price .additional_info{
+    font-size:16px;
+    font-weight:normal;
+}
+.post-content .pricing table td .alert {
+    color:#b55252;
+    padding:0;
+}
+
+.post-content .pricing table tbody td:last-child{
+    background-color:#0043ff08;
+}
+.post-content .pricing table tbody th span.alert,
+.post-content .pricing table tbody td span.alert{
+    color:#b55252;
+    padding:0;
+}
+
+.post-content .pricing table tbody td sup a{
+    color:#04af72;
+}
+
+.post-content .pricing table tbody th.category-title{
+    padding-top: 24px;
+    font-size: 18px;
+    color: #676767;
+    font-weight: bold;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-left: 0;
+    border-top:1px solid #bbc7c2;
+    border-bottom:1px solid #bbc7c2;
+}
+.post-content .pricing table tbody th.category-title small{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.post-content .pricing table tbody th small.beta{
+    font-size: 12px;
+    position: relative;
+    bottom: 5px;
+    margin-left: 4px;
+}
+
+
+.post-content #note ul li{
+    list-style: none;
+}
+.btn-call-on strong{
+    font-size:18px;
+}
 
 /* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -505,7 +627,7 @@ li.sidebarTitle {
     color: #2a2e2e!important;
 }
 
-* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+* { font-family: 'Roboto', 'Sans-serif'; }
 .unread .notification-container:hover .notification-icon {
     color: #f69023;
 }
@@ -556,6 +678,20 @@ div#toc >ul::before {
     
 }
 
+.modal-body{
+    padding:15px 30px;
+}
+.modal-header .close{
+    position: absolute;
+    top: 40px;
+    right: 16px;
+}
+.modal-body .table{
+    font-size:14px;
+}
+.modal-body .table-bordered>thead>tr>td{
+    border-bottom-width:1px;
+}
 
 /*======================jenny test css====================*/
 @media (min-width: 1400px) {

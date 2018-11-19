@@ -106,6 +106,7 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 | Web Link | 팝업으로 호출할 Link 정보를 제공합니다. |
 | Chatflow호출 | 다른 Chatflow를 호출합니다. |
 | 서브메뉴 | 하위 메뉴를 설정합니다. |
+{: .table .table-striped}
 
 #### 서브 메뉴
 
