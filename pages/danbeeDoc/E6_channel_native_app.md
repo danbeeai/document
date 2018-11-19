@@ -279,6 +279,42 @@ next: {
 | 404 | [Chatflow] Intent에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
 | 405 | [Chatflow] flow 설정 문제 (답변 메시지를 못 찾았을 때, 분기 오류인 경우) |
 
+## 의도추론이력 조회 API
+의도추론이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
+
+의도추론이력 다운로드 KEY 발급은 [의도추론 이력 관리-다운로드-api-key-관리](log.html#다운로드-api-key-관리) 에서 확인 가능합니다.
+
+### 기본 정보
+
+| Field | Infomation |
+|--------|--------|
+| URL | https://danbee.ai/chatbot/chatbotlog/nlu/retrieve |
+| METHOD | GET |
+| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+
+### REQUEST 정보 
+
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| chatbotId | String | Yes | 챗봇아이디 |
+| baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
+| apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 의도추론이력 화면에서 생성 및 조회 가능 ) |
+
+### RESPONSE 정보
+
+| KEY | TYPE | Required | Description |
+|--------|--------|--------|--------|
+| logId | String | Yes | 의도추론이력 로그 아이디 |
+| logSdatetime | Date | Yes | 의도추론 이력 시작일시 |
+| logDatetime | Date | Yes | 의도추론 이력 일시 |
+| inputSentence | String | Yes | 사용자 입력 문장 |
+| intentId | String | No | 의도추론 아이디 |
+| intentName | String | No | 의도추론 명 |
+| resultScore | Number | No | 의도 추론율 |
+| opIntentId | String | No | 의도추론 아이디 ( 의도추론 상세화면에서 설정된 값 ) |
+| userId | String | Yes | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
+| chatSessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
+
 ## 대화이력 조회 API
 대화 이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
 
