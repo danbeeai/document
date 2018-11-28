@@ -6,6 +6,8 @@ topnav:
 #    - title: GitHub
 #      external_url: https://github.com/danbeeai/document
 
+    - title: Blog
+      url: /blog_000_landing.html
     - title: FAQ
       url: /faq_00_gateway.html
     - title: Document
