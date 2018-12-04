@@ -9,3 +9,6 @@ entries:
     - title: 1호. HCI의 흐름에서 보는 챗봇의 미래
       url: /blog_000_landing.html
       output: web
+    - title: 2호. 챗봇UX 1편, Welcome Message
+      url: /blog_002_UX01_welcome.html
+      output: web
