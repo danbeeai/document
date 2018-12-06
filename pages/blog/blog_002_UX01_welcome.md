@@ -17,8 +17,6 @@ folder: blog
 
 {% include image.html file="blog/002_01_screenshot_hipmunk_welcome.png" max-width="700" caption="페이스북 챗봇, 힙멍크의 Welcome Message https://www.facebook.com/hipmunk/" %}
 
-
-단비팀에서 좋아하는 챗봇입니다.
 힙멍크는 귀여운 다람쥐 캐릭터입니다. Welcome Message를 찬찬히 살펴보죠. 
 
 - 안녕? 단비! 난 힙멍크의 봇이야! **(자기 소개)**
