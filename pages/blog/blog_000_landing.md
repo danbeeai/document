@@ -31,7 +31,7 @@ Wikipedia에 따르면 [HCI](https://ko.wikipedia.org/wiki/인간-컴퓨터_상�
 초기에는 천공 카드, 천공 테이프를 이용해 컴퓨터에 입력하고, 저장하였습니다. 2018년 사용하고 있는 [OMR](https://ko.wikipedia.org/wiki/광학_마크_인식){:target=_blank} 카드를 떠올리면 이해가 쉽겠네요! 싸인펜으로 컴퓨터가 인식할 수 있도록 칠하듯 천공 카드나 천공 테이프에서는 2진법으로 구멍을 뚫었습니다. 구멍을 뚫는 
 전문적인 기계가 있었고, 구멍을 혹시라도 잘못 뚫으면(?) 다시 처음부터 구멍을 뚫기도 했습니다.
 
-{% include image.html file="blog/001_01_천공카드.png" max-width="700" caption="천공카드" %}
+{% include image.html file="blog/001_01_perforated_card.png" max-width="700" caption="천공카드" %}
 
 ### 명령어 기반의 인터렉션, CLI(Command Line Interface)
 
