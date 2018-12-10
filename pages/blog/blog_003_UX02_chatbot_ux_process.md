@@ -73,7 +73,7 @@ UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 �
 
 {% include image.html file="blog/003_04_chatbot-ux-welcome-get-started-greeting.jpg" max-width="700" caption="챗봇 UI 요소, image source : <a href='https://www.searchenginejournal.com/marketers-guide-facebook-messenger-bots/179028'>searchenginejournal.com</a>" %}
 
-{% include note.html content="지난 포스트에서 Welcome Message의 설계 방법에 대해 공유한적이 있습니다. [여기](http://doc.danbee.ai/blog_002_UX1_welcome.html)에서 확인이 가능합니다. " %}
+{% include note.html content="지난 포스트에서 Welcome Message의 설계 방법에 대해 공유한적이 있습니다. [여기](http://doc.danbee.ai/blog_002_UX01_welcome.html)에서 확인이 가능합니다. " %}
 
 
 ### 5. 대화 및 지능 구축하기
