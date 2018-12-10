@@ -36,7 +36,7 @@ folder: blog
 
 다시 재방문 하느냐 마느냐는 버튼을 눌러서 처음으로 경험한 메인 대화 흐름에 크게 좌우됩니다. Welcome Message에서 던진 사용자 가치(서비스나 콘텐츠)가 기대한 만큼 괜찮은지, 사용자의 가치가 전달되는 방식이 흥미롭고 매력적인지에 따라 말이죠.
 
-{% include image.html file="blog/002_02_웰컴메시지중요성.png" max-width="700" caption="Welcome Message의 중요성" %}
+{% include image.html file="blog/002_02_importance_welcome_message.png" max-width="700" caption="Welcome Message의 중요성" %}
 
 ## Welcome Message의 중요성
 여러분이 만드는 챗봇의 Welcome Message는 상상도 할 수 없을 만큼 중요합니다. 첫번째 기회를 놓지면, 두번째도 없습니다. 강한 첫인상을 주기 위해 잘 만들어야 함은 물론이고, 오픈 후에도 사용자의 반응을 분석하여 개선해 나가야 합니다.
