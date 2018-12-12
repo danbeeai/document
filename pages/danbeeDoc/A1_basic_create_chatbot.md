@@ -126,7 +126,13 @@ Listen노드와 Speak노드가 만들어졌다면, 우측 상단의 저장버튼
 
 
 ### 다음으로 할 일
-위에서 나온 챗봇관련 개념에 익숙해지셨다면, 본격적으로 챗봇이 파악할 수 있는 인텐트(의도)를 등록하는 것을 시작할 수 있겠습니다.
+
+위에서 나온 챗봇관련 개념에 익숙해지셨고, 자신감이 생기셨다면! 지금 바로 챗봇을 만들러 GOGO!
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[danbee.Ai 시작하기](https://danbee.ai/platform/#/loginPrivateStep)</span>
+
+
+조금더 공부를 해보고 싶다면, 인텐트(의도)를 등록하는 것을 시작할 수 있겠습니다.
+
 
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[의도관리](/intent.html)</span>
 
