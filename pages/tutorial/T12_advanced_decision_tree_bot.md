@@ -1,5 +1,5 @@
 ---
-title: 의사결정나무봇, 디트 살펴보기
+title: 의사결정나무봇, 디트 살펴보기 
 keywords: 의사결정, 추천
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar

@@ -1,5 +1,5 @@
 ---
-title: "튜토리얼 알아보기"
+title: "튜토리얼 알아보기" 
 tagName: tutorial
 search: exclude
 permalink: tag_tutorial.html

@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: Pricing 
 keywords: price, pricing
 summary: 챗봇 만들고 가꾸기를 무료로 시작하실 수 있습니다.
 permalink: pricing.html

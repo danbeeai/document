@@ -1,5 +1,5 @@
 ---
-title: 선택장애제거, 캡틴초이 살펴보기
+title: 선택장애제거, 캡틴초이 살펴보기 
 keywords: 선택장애
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
