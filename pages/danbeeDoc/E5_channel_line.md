@@ -1,5 +1,5 @@
 ---
-title: LINE
+title: LINE 
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 네이버 라인에 연결할 수 있습니다.

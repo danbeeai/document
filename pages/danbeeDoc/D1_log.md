@@ -1,5 +1,5 @@
 ---
-title: 대화 이력 관리
+title: 대화 이력 관리 
 tags: [log, nlu, chatflow, basic]
 keywords: Basic Conversation
 summary: 챗봇 사용 이력을 확인합니다.

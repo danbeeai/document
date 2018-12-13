@@ -1,5 +1,5 @@
 ---
-title: 챗봇 채널 연계 설정
+title: 챗봇 채널 연계 설정 
 tags: [channel, basic]
 keywords: Basic Conversation
 summary: 원하는 채팅창, 메신저 플랫폼과 연결하는 방법을 소개합니다.

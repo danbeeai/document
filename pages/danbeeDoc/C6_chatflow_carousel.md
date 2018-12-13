@@ -1,5 +1,5 @@
 ---
-title: Carousel 노드
+title: Carousel 노드 
 tags: [chatflow, basic]
 keywords: Basic Conversation
 summary: Carousel 노드에 대한 이해와 설정하는 방법을 설명합니다.

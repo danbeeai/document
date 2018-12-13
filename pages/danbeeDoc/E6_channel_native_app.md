@@ -1,5 +1,5 @@
 ---
-title: Native App(API)
+title: Native App(API) 
 tags: [api,channel, advanced]
 keywords: Basic Conversation
 summary:  danbee.Ai의 API를 활용하여 직접만든 대화채널에 연결할 수 있습니다.

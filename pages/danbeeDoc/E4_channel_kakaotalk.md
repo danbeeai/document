@@ -1,5 +1,5 @@
 ---
-title: 카카오톡
+title: 카카오톡 
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 카카오톡에 연결할 수 있습니다.

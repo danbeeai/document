@@ -1,5 +1,5 @@
 ---
-title: Frogue(단비에이아이웹채널)
+title: Frogue(단비에이아이웹채널) 
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 danbee.Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.

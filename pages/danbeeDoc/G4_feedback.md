@@ -1,5 +1,5 @@
 ---
-title: 사용자 의견 보내기
+title: 사용자 의견 보내기 
 tags: [basic]
 keywords: Basic Conversation
 summary: 화면 어디에서든 쉽게 의견을 보낼 수 있습니다.
