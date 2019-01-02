@@ -300,6 +300,11 @@ next: {
 | baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
 | apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 의도추론이력 화면에서 생성 및 조회 가능 ) |
 
+### REQUEST 브라우저 테스트
+아래의 예시로 브라우저에서 간단히 테스트가 가능함.
+
+https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXXXXXXXX
+
 ### RESPONSE 정보
 
 | KEY | TYPE | Required | Description |
@@ -335,6 +340,11 @@ next: {
 | chatbotId | String | Yes | 챗봇아이디 |
 | baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
 | apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 대화이력 화면에서 생성 및 조회 가능 ) |
+
+### REQUEST 브라우저 테스트
+아래의 예시로 브라우저에서 간단히 테스트가 가능함.
+
+https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXXXXXXXX
 
 ### RESPONSE 정보
 
