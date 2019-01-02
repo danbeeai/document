@@ -15,3 +15,6 @@ entries:
     - title: 챗봇UX 2편, 챗봇 설계 UX 프로세스 (번역글)
       url: /blog_003_UX02_chatbot_ux_process.html
       output: web
+    - title: 챗봇UX 3편, 지속적인 대화를 위한 3가지 UX요소와 7가지 폴백메시지 유형
+      url: /blog_004_UX03_continue_fallback.html
+      output: web
