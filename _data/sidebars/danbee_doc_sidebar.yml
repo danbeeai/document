@@ -47,7 +47,7 @@ entries:
       subfolders:
       - title: 대화흐름 관리
         output: web, pdf
-        subfolderitems:    
+        subfolderitems:
         - title: 대화흐름 기본 설명
           url: /chatflow.html
           output: web, pdf
@@ -78,15 +78,15 @@ entries:
 
         - title: Function 노드
           url: /chatflow_function.html
-          output: web, pdf   
+          output: web, pdf
 
         - title: Jump 노드
           url: /chatflow_jump.html
-          output: web, pdf             
+          output: web, pdf
 
     - title: 사용자사전 관리
       url: /dictionary.html
-      output: web, pdf               
+      output: web, pdf
 
       subfolders:
       - title: 챗봇 설정
@@ -96,7 +96,7 @@ entries:
           url: /settings_personality.html
           output: web, pdf
 
-        - title: NLU 설정 
+        - title: NLU 설정
           url: /settings_nlu.html
           output: web, pdf
 
@@ -116,10 +116,10 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-      subfolders: 
+      subfolders:
       - title: 외부 채널 설정
         output: web, pdf
-        subfolderitems:    
+        subfolderitems:
         - title: Frogue(자체웹채널)
           url: /channel_frogu.html
           output: web, pdf
@@ -147,7 +147,7 @@ entries:
         - title: 네이버톡톡
           url: /channel_navertalk.html
           output: web, pdf
-          
+
         - title: Slack
           url: /channel_slack.html
           output: web, pdf
@@ -166,4 +166,24 @@ entries:
     folderitems:
     - title: 사용자 의견 보내기
       url: /feedback.html
+      output: web, pdf
+
+  - title: 단비 제공 API
+    output: web, pdf
+
+    folderitems:
+    - title: Gmail 메일 전송
+      url: /predefined_api_gmailsender.html
+      output: web, pdf
+
+    - title: 네이버 메일 전송
+      url: /predefined_api_navermailsender.html
+      output: web, pdf
+
+    - title: 슬랙채널 메시지 전송
+      url: /predefined_api_slackchannelsender.html
+      output: web, pdf
+
+    - title: AWS 메일 전송
+      url: /predefined_api_awssessender.html
       output: web, pdf
