@@ -1,5 +1,5 @@
 ---
-title: Frogue(단비에이아이웹채널)
+title: Frogue(단비에이아이웹채널) 
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 danbee.Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.
@@ -19,9 +19,10 @@ next: {
 
 ## Frogue(프로그)
 
+
 <strong>단비가 내리면, 개구리가 운다!</strong>
 
-챗봇을 만들어서 바로 사용하시려면, 채팅창이 필요합니다. Frogue는 danbee.Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
+챗봇, 채팅창이 필요합니다. Frogue는 danbee.Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
 아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
 {% include note.html content="설정 > 채널연결 > Frogue by danbee.Ai" %}
 

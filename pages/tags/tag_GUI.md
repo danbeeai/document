@@ -1,5 +1,5 @@
 ---
-title: "GUI"
+title: "GUI" 
 tagName: GUI
 search: include
 permalink: tag_GUI.html

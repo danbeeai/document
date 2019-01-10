@@ -1,5 +1,5 @@
 ---
-title: Slot Node 사용하기
+title: Slot Node 사용하기 
 tags: [tutorial, chatflow, basic]
 keywords: Tutorial
 summary: Slot Node의 개념을 이해할 수 있습니다.

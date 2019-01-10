@@ -1,5 +1,5 @@
 ---
-title: Function 노드
+title: Function 노드 
 tags: [chatflow, advanced]
 keywords: Basic Conversation
 summary: Function 노드에 대한 이해와 설정하는 방법을 설명합니다.

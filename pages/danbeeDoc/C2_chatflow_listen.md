@@ -1,5 +1,5 @@
 ---
-title: Listen 노드
+title: Listen 노드 
 tags: [chatflow, basic, listen, intent, event, 이벤트, 챗플로우, 리슨노드, 의도추론예문, 파라미터]
 keywords: Basic Conversation
 summary: Listen 노드에 대한 이해와 설정하는 방법을 설명합니다.

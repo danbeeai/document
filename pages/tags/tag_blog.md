@@ -1,5 +1,5 @@
 ---
-title: "blog"
+title: "blog" 
 tagName: blog
 search: include
 permalink: tag_blog.html

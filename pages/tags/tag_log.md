@@ -1,5 +1,5 @@
 ---
-title: "이력 확인 알아보기"
+title: "이력 확인 알아보기" 
 tagName: log
 search: exclude
 permalink: tag_log.html
