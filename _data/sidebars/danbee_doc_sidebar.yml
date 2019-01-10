@@ -112,12 +112,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 챗봇 채널 연계 설정
+    - title: 연결 가능한 대화 채널
       url: /channel_connection_settings.html
       output: web, pdf
 
       subfolders: 
-      - title: 외부 채널 설정
+      - title: 대화 채널 설정
         output: web, pdf
         subfolderitems:    
         - title: Frogue(자체웹채널)
