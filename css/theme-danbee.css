@@ -85,7 +85,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 }
 
 p{
-    line-height:24px;
+    line-height:32px;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
     line-height:24px;
@@ -566,7 +566,8 @@ div#toc >ul::before {
     padding:0;
 }
 
-.post-content .pricing table tbody td sup a{
+.post-content .pricing table tbody td sup a,
+.post-content .pricing sup a{
     color: #04af72;
     font-size: 12px;
 }
