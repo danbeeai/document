@@ -601,6 +601,9 @@ div#toc >ul::before {
 .btn-call-on strong{
     font-size:18px;
 }
+.channel_gate{
+    display:inline-block;
+}
 .channel_gate p{
     font-size:14px;
 }

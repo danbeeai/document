@@ -35,6 +35,7 @@ next: {
 
 홈페이지에 바로 적용을 하거나 별도의 URL에서 동작하는 챗봇을 사용하실 수 있습니다.
 
+{% include image.html file="channel/frogue/frogue06_on.PNG" max-width="700" caption="danbee.Ai 홈페이지에 적용된 Frogue의 모습" %}
 
 ### 2. 연결을 한 후 즉시 URL에서 확인이 가능합니다.
 기본적으로 접근 가능한 URL을 제공합니다. 오프라인 환경에서 챗봇을 만나게 하실 경우 QR코드를 활용하세요.
