@@ -16,25 +16,51 @@ next: {
 }
 ---
 
-## Frogue(단비에이아이웹채널) 채널 연결 
- {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
 
-## danbee.Ai 채널 연결 설정
-1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
-2. danbee.Frogue 타일 하단에 on/off 버튼을 클릭하십시오.<figure><img class="docimage" src="images/channel/frogue/frogue_danbee_setting.png" alt="Frogue 셋팅" style="max-width: 800px"></figure>
-
-## Frogue(단비에이아이웹채널) 웹페이지 테스트
-1. 챗봇을 테스트하려면 웹브라우저에서 URL로 접속하여 테스트할 수 있습니다.
-2. danbee.Ai의 좌측 상단 챗봇이름 우측에 화살표 아이콘을 클릭합니다.
-3. 챗봇 목록을 확인하고 Chatbot List 버튼을 클릭하여 현재 생성된 챗봇들을 확인합니다. 우측 설정 아이콘 또는 챗봇 카드를 선택하면 챗봇 프로필을 확인할 수 있습니다.<figure><img class="docimage" src="images/channel/frogue/frogue_danbee_chatbotlist.png" alt="챗봇 목록" style="max-width: 800px"></figure>
-4. Frogue채널에 연결한 챗봇을 선택하여 Chatbot Id를 복사합니다.
-    <figure><img class="docimage" src="images/channel/frogue/frogue_danbee_chatbotdetail.png" alt="챗봇 프로필" style="max-width: 800px"></figure>
-5. 브라우저에서 <span class="link">Frogue</span>에 접속하십시오.
-  * 접속 URL ( 로그인 X ) : https://frogue.danbee.ai/?chatbot_id=챗봇아이디&user_id=사용자아이디 <br />
-    샘플 : https://frogue.danbee.ai/?chatbot_id=5bbd93a3-00be-4054-b79a-03c4c50424bc&user_id=donny <br />
-    ( 사용자아이디를 셋팅하여 챗봇과 대화가 가능합니다. 없을 경우 임의로 생성하여 처리됩니다. ) <br />
-  * 접속 URL ( 로그인 O )  : http://vpa.danbee.ai/#/chats?chatbotId=챗봇아이디 <figure><img class="docimage" src="images/channel/frogue/frogue_login.png" alt="Frogue 로그인" style="max-width: 800px"></figure>
-6. 챗봇별로 사용자가 관리됩니다.간단하게 이메일과 비밀번호 정보로 회원가입 후 이용 가능합니다.<figure><img class="docimage" src="images/channel/frogue/frogue_chatting.png" alt="Frogue 대화" style="max-width: 800px"></figure>
+## Frogue(프로그)
 
 
- 
+<strong>단비가 내리면, 개구리가 운다!</strong>
+
+챗봇, 채팅창이 필요합니다. Frogue는 danbee.Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
+아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
+{% include note.html content="설정 > 채널연결 > Frogue by danbee.Ai" %}
+
+{% include image_border.html file="channel/frogue/frogue05_livechat.PNG" max-width="700" caption="danbee.Ai 홈페이지에 적용된 Frogue의 모습" %}
+
+
+
+
+
+### 1. Frogue by danbee.Ai 에 [ON/OFF] 버튼을 클릭하십시오.
+
+홈페이지에 바로 적용을 하거나 별도의 URL에서 동작하는 챗봇을 사용하실 수 있습니다.
+
+
+### 2. 연결을 한 후 즉시 URL에서 확인이 가능합니다.
+기본적으로 접근 가능한 URL을 제공합니다. 오프라인 환경에서 챗봇을 만나게 하실 경우 QR코드를 활용하세요.
+
+{% include image_border.html file="channel/frogue/frogue01_basic.PNG" max-width="700" caption="기본설정" %}
+
+
+### 3. 홈페이지에 붙이고 싶은 경우, embedding 코드를 활용하여 적용할 수 있습니다.
+
+모바일에서도 잘 동작하는 라이브챗 스타일로 홈페이지에서 안내, 문의응답을 고려하신다면 임베딩 코드를 홈페이지에 삽입하시기 바랍니다.
+{% include image_border.html file="channel/frogue/frogue02_embedding.PNG" max-width="700" caption="임베딩 코드로 홈페이지에 라이브챗 스타일로 적용할 수 있습니다." %}
+
+라이브챗 스타일은 홈페이지 우측 하단에 대화를 유도하는 버튼을 달아 사용자와 실시간으로 채팅하는 스타일의 UI를 말합니다.
+
+
+
+
+
+### 4. 디자인을 변경하실 수 있어요! 테마를 선택하거나 색상을 변경하실 수 있습니다.
+
+홈페이지에 잘 어울리는 색상을 적용하실 수 있습니다.
+브랜드에 맞는 톤앤매너로 바꿔보세요.
+{% include image_border.html file="channel/frogue/frogue03_design.PNG" max-width="700" caption="Frogue 디자인 설정" %}
+
+### 5. 아래 배너를 제거하실 수 있습니다. 
+
+서비스 레벨에 따라 danbee.Ai 브랜드가 나오지 않게 설정을 변경할 수 있습니다.
+{% include image_border.html file="channel/frogue/frogue04_banner.PNG" max-width="700" caption="배너 설정" %}
