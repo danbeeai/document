@@ -12,7 +12,6 @@ folder: blog
 2018년 11월 현재, 챗봇은 [가트너 하이프 사이클](https://ko.wikipedia.org/wiki/하이프_사이클){:target=_blank} 상에서 환멸단계(Through of Disillusionment)라고 느껴집니다. 부풀려진 기대의 정점(Peak of Inflated Expectations)에서 성공과 실패를 지켜보면서 성공한 사례에만 투자하는 것이죠. 최근 챗봇을 적용한 기업들이 챗봇을 통해 얻은 성과에 대해 발표를 하고 있지만, '폭발적인' '혁신적인'이라는 표현보다는 '의미있는' 정도의 평가입니다. 하지만, 그럼에도 불구하고 기업들이 챗봇에 관심을 끈을 놓지 않는 이유는 잘될 수 밖에 없는 근본적인 이유가 있기 때문입니다.
 
 
-
 ## 왜 챗봇이 잘 될 수 밖에 없나? 
 
 챗봇은 [인간과 컴퓨터 상호작용(HCI, Human Computer Interaction)](https://ko.wikipedia.org/wiki/인간-컴퓨터_상호작용){:target=_blank}의 미래입니다.

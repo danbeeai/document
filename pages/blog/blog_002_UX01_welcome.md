@@ -13,6 +13,7 @@ folder: blog
 
 챗봇UX에서 첫 만남에 해당하는 것이 웰컴메시지(Welcome Message)입니다. 챗봇이 하는 일, 챗봇의 캐릭터가 다르기 때문에 챗봇도 각기 다른 웰컴메시지를 보여주고 있습니다. 
 
+
 ## 좋은 챗봇 Welcome Message의 사례
 
 {% include image.html file="blog/002_01_screenshot_hipmunk_welcome.png" max-width="700" caption="페이스북 챗봇, 힙멍크의 Welcome Message https://www.facebook.com/hipmunk/" %}

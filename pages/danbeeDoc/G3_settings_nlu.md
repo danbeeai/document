@@ -1,5 +1,5 @@
 ---
-title: NLU 설정
+title: NLU 설정 
 tags: [settings, nlu, advanced]
 keywords: General Conversation
 summary: 챗봇이 자연어를 이해하는 방법에 대하여 설정할 수 있습니다.

@@ -1,5 +1,5 @@
 ---
-title: "설정 알아보기"
+title: "설정 알아보기" 
 tagName: settings
 search: exclude
 permalink: tag_settings.html

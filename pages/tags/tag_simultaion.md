@@ -1,5 +1,5 @@
 ---
-title: "시뮬레이션 알아보기"
+title: "시뮬레이션 알아보기" 
 tagName: simulation
 search: exclude
 permalink: tag_simulation.html

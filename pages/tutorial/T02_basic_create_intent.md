@@ -1,5 +1,5 @@
 ---
-title: Intent 생성하기
+title: Intent 생성하기 
 tags: [nlu, tutorial, basic]
 keywords: Tutorial
 summary: danbee.Ai의 기본 구조를 이해할 수 있습니다.

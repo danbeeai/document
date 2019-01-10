@@ -1,5 +1,5 @@
 ---
-title: API 노드
+title: API 노드 
 tags: [chatflow, API, advanced]
 keywords: Basic Conversation
 summary: API 노드에 대한 이해와 설정하는 방법을 설명합니다.

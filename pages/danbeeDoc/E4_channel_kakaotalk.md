@@ -1,5 +1,5 @@
 ---
-title: 카카오톡
+title: 카카오톡 
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 카카오톡에 연결할 수 있습니다.
@@ -26,7 +26,8 @@ next: {
 1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
 2. Kakao Talk 타일 우측 상단에 설정 아이콘을 클릭하십시오.<figure><img class="docimage" src="images/channel/kakao/kakao_danbee_setting.png" alt="카카오 셋팅" style="max-width: 800px"></figure>
 3. 앱 URL 복사하십시오.
-4. 연결 버튼을 클릭하십시오.
+4. 카카오톡에서 처음시작되는 버튼명을 설정하십시오. ( 추후 변경할때 아래 API 테스트에서 테스트 후 저장해야 실제 반영됩니다. )
+5. 연결 버튼을 클릭하십시오.
 
 ## KakaoTalk 설정
 KakaoTalk 채널 연계 설정을 하려면 다음이 필요합니다.
@@ -49,7 +50,7 @@ KakaoTalk 채널 연계 설정을 하려면 다음이 필요합니다.
 ## KakaoTalk 스마트채팅 앱 만들기 
 1. 스마트채팅의 API형으로 앱을 등록합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_app1.png" alt="API형 추가" style="max-width: 800px"></figure>
 2. API형으로 앱 정보 입력 <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_app2.png" alt="API형 정보입력" style="max-width: 800px"></figure>
-3. danbee.Ai 설정에서 복사한 앱 URL을 입력한 후 API 테스트를합니다.
+3. danbee.Ai 설정에서 복사한 앱 URL을 입력한 후 API 테스트를합니다. ( 설정한 시작 버튼명이 보입니다. 여기서 저장된 값이 카카오톡에 보여집니다. )
 4. 개인정보 수집 및 이용에 동의, 전화번호 를 등록하여 알림설정을 한 후 API형을 저장합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apisetting.png" alt="API형 정보입력" style="max-width: 800px"></figure>
 5. API형 시작하기 버튼을 눌러 서비스를 시작합니다. <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apistart.png" alt="API형 시작하기" style="max-width: 800px"></figure>
 
