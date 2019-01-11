@@ -29,7 +29,7 @@ next: {
 
 **사용자 입력 예문**은 입력 문장 중 해당 Intent로 구분되길 원하는 문장을 의미합니다. danbee.Ai는 입력 문장과 동일하거나 가장 비슷한 예문을 가지고 있는 Intent를 찾게 됩니다. 예를 들어 사용자가 '안녕'이라는 말을 했을 때 봇이 '인사'로 알아듣길 원한다면 '인사' Intent에 '안녕'이라는 사용자 입력 예문을 추가하시면 됩니다.<br/>
 
-{% include image.html file="intent/Intent_input_sentence.PNG" max-width="900" caption="사용자 입력 예문 추가" %}
+{% include image.html file="intent/Intent_input_sentence.PNG"  caption="사용자 입력 예문 추가" %}
 
 *사용자예문입력*란에 추가하길 원하는 예문을 입력한 뒤 *Enter*를 누르면 예문이 추가됩니다. 추가된 예문은 *전체 등록 예문*에서 확인이 가능하며 등록된 총 예문 개수가 표시됩니다. <br/>
 
@@ -41,17 +41,17 @@ next: {
 
 지금부터 어떻게 예문에서 정보를 추출할 수 있는지 알아보겠습니다.
 
-{% include image.html file="intent/Intent_sentence_parameter_01.png" max-width="900" caption="예문에 Parameter 추가 01" %}
+{% include image.html file="intent/Intent_sentence_parameter_01.png"  caption="예문에 Parameter 추가 01" %}
 
 먼저, 입력한 예문에서 추출하고 싶은 영역을 *드래그* 하면 위 그림과 같이 Entity를 선택할 수 있는 창이 뜹니다. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Entity](entity.html)</span>에 관한 자세한 내용은 다음 페이지에서 계속됩니다.
 
-{% include image.html file="intent/Intent_sentence_parameter_02.png" max-width="900" caption="예문에 Parameter 추가 02" %}
+{% include image.html file="intent/Intent_sentence_parameter_02.png"  caption="예문에 Parameter 추가 02" %}
 
 특정 Entity를 선택하면 창은 닫히고 예문 아래 Parameter가 추가됩니다. Intent를 저장하면 Parameter를 지정한 영역의 색이 바뀌는 것을 확인할 수 있습니다.<br/>
 
 이렇게 예문을 등록했을때 어떻게 정보가 추출되는지 확인하고 싶다면 우측에 있는 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[테스트 패널](demo_n_test_panel.html#테스트-패널)</span>을 활용할 수 있습니다. NLU Intent 테스트 패널에 등록한 예문과 동일한 패턴의 문장을 입력합니다.
 
-{% include image.html file="intent/Intent_sentence_parameter_03.png" max-width="900" caption="문장에서 추출되는 정보 확인" %}
+{% include image.html file="intent/Intent_sentence_parameter_03.png"  caption="문장에서 추출되는 정보 확인" %}
 
 위의 테스트를 통해 '피자 먹고 싶어'라는 문장의 ***'피자'***가 지정한 Parameter인 '야식종류Entity' Parameter에 value로 담긴 것을 확인할 수 있습니다. 또한 '햄버거 먹고 싶어'라는 문장의 ***'햄버거'*** 역시 해당 Parameter의 value로 추출됩니다. 그러나 마지막 테스트인 '뭐라도 먹고 싶어'라는 문장에서 ***'뭐라도'***는 value로 뽑아내지 않고 있습니다. 이는 Parameter를 지정할 때 선택하였던 Entity인 '야식종류Entity'에 '뭐라도'라는 문구가 들어있지 않기 때문입니다. 만약 '먹고 싶어' 앞에 모든 문구를 추출하고 싶다면 Entity를 선택할 때 **sys.any** 라는 Entity를 선택하면 됩니다.
 
@@ -69,10 +69,10 @@ Parameter 등록 방법으로는 크게 2가지가 있습니다.
 
 #### Parameter 추가
 
-{% include image.html file="intent/Intent_parameter_01.png" max-width="900" caption="추출되는 Parameter" %}
+{% include image.html file="intent/Intent_parameter_01.png"  caption="추출되는 Parameter" %}
 Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] 버튼 누르면 Parameter를 추가할 수 있는 팝업이 뜨게 됩니다.
 
-{% include image.html file="intent/Intent_parameter_02.png" max-width="900" caption="Parameter 추가 팝업" %}
+{% include image.html file="intent/Intent_parameter_02.png"  caption="Parameter 추가 팝업" %}
 
 팝업 내에서 Parameter 명을 입력하고 Entity를 선택하게 됩니다. Parameter 명을 입력할 때에는 다음과 같은 제약사항이 존재합니다.
 
@@ -83,14 +83,14 @@ Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] �
 
 제약사항을 지켜 두 필수값을 입력한 다음 [추가] 버튼을 누르면 해당 Intent에 Parameter가 추가됩니다.
 
-{% include image.html file="intent/Intent_parameter_03.png" max-width="900" caption="추가된 Parameter" %}
+{% include image.html file="intent/Intent_parameter_03.png"  caption="추가된 Parameter" %}
 
 해당 Intent에 추가되어 있는 전체 Parameter는 '추출되는 Parameter'에서 확인할 수 있습니다. 이때 사용개수는 해당 Parameter가 예문에서 지정되어 사용 중인 개수를 의미합니다. 예문에서 한 군데라도 사용중이라면 삭제가 불가능합니다.
 
 #### Parameter 수정
 등록한 Parameter에 대하여 일부 정보를 수정을 할 수 있습니다.
 
-{% include image.html file="intent/Intent_parameter_04.png" max-width="900" caption="Parameter 이름 변경" %}
+{% include image.html file="intent/Intent_parameter_04.png"  caption="Parameter 이름 변경" %}
 
 먼저 **Parameter명**을 변경하고 싶다면 위와 같이 추가되어 있는 위치에서 바로 변경이 가능합니다. 추가적으로 예문에 바로 밑에 위치한 Parameter명을 수정할 경우 동일한 Parameter가 추가되어 있지 않다면 새로운 Parameter로 추가됨에 유의하시길 바랍니다. <br/>
 
@@ -98,11 +98,11 @@ Intent 페이지 최하단 '추출되는 Parameter' 영역 우측 [+Parameter] �
 
 **Default** 값은 등록 후에 설정이 가능합니다. 아무런 정보가 들어오지 않았을 때 Parameter에 담겨있는 값입니다. 해당 값은 Entity에 담겨 있는 값들과는 상관 없이 설정이 가능합니다.
 
-{% include image.html file="intent/Intent_parameter_05_default.png" max-width="900" caption="Parameter Default 값 설정" %}
+{% include image.html file="intent/Intent_parameter_05_default.png"  caption="Parameter Default 값 설정" %}
 
 만약 위와 같이 Default 값을 설정해두었다면 사용자 입력 문장 내에 '야식종류Entity'에 관한 정보가 없다면 Default 값을 던져주게 됩니다.
 
-{% include image.html file="intent/Intent_parameter_06_default_result.png" max-width="900" caption="Parameter Default 값 테스트" %}
+{% include image.html file="intent/Intent_parameter_06_default_result.png"  caption="Parameter Default 값 테스트" %}
 
 #### 특수 Parameter
 
@@ -143,7 +143,7 @@ Parameter의 자세한 활용법은 <span class="link"><i class="fa fa-external-
 위에 해당되는 경우 봇은 사용자의 의도를 정확하게 파악하기 위하여 버튼 형식으로 되물어보게 됩니다.
 이때 버튼명은 Intent 버튼명에 설정한 값으로 보여집니다. 만약 버튼명을 입력하지 않았을 때 기본값은 Intent 명이 됩니다.<br/>
 
-{% include image.html file="intent/Intent_button_name_01.PNG" max-width="900" caption="Intent 버튼명 결과확인" %}
+{% include image.html file="intent/Intent_button_name_01.PNG"  caption="Intent 버튼명 결과확인" %}
 
 #### 답변 유형
 
@@ -153,17 +153,17 @@ Parameter의 자세한 활용법은 <span class="link"><i class="fa fa-external-
 
 ##### 간편답변
 간편답변을 선택하면 해당 Intent 페이지 하단 **간편답변 작성**에서 간단하게 답변을 설정할 수 있습니다. [+Random 메세지] 버튼으로 여러개의 메세지를 추가할 수 있으며 실제로 해당 메세지 중 하나를 랜덤으로 선택하여 답변을 내보내게 됩니다.
-{% include image.html file="intent/intent_simple_answer_01.png" max-width="900" caption="간편답변 설정 및 결과" %}
+{% include image.html file="intent/intent_simple_answer_01.png"  caption="간편답변 설정 및 결과" %}
 
 만약 답변을 입력하지 않을 경우, 해당 Intent를 찾았을 때 답변을 내보내지 않습니다.
 
-{% include image.html file="intent/intent_simple_answer_02.png" max-width="900" caption="답변 없은 간편 Intent" %}
+{% include image.html file="intent/intent_simple_answer_02.png"  caption="답변 없은 간편 Intent" %}
 
 테스트 패널에서는 실제 엔진이 동작했음을 보여주기 위하여 빈 말풍선을 내보내고 있지만 아래 이미지와 같이 시뮬레이션에서는 답하지 않음을 확인할 수 있습니다.
-{% include image.html file="intent/intent_simple_answer_03.png" max-width="900" caption="테스트패널(좌) / 시뮬레이션(우) 결과 비교" %}
+{% include image.html file="intent/intent_simple_answer_03.png"  caption="테스트패널(좌) / 시뮬레이션(우) 결과 비교" %}
 
 간편답변을 내보내는 Intent의 경우 의도추론 페이지 상단 [+간편 Intent 생성]에서 예문과 답변만 등록하여 빠르게 생성할 수 있습니다.
-{% include image.html file="intent/intent_simple_answer_04.png" max-width="900" caption="간편 Intent 생성" %}
+{% include image.html file="intent/intent_simple_answer_04.png"  caption="간편 Intent 생성" %}
 
 
 ##### Chatflow
@@ -171,14 +171,14 @@ Chatflow를 선택하면 답변을 내보내기 위해 해당 Intent와 연결�
 
 #### Multi Intent 제외 설정
 본 속성을 체크하는 경우 해당 Intent는 확률이 낮거나 여러 의도로 파악되더라도 버튼으로 되물어보지 않게 됩니다.
-{% include image.html file="intent/intent_multi01.PNG" max-width="900" caption="Multi Intent 제외 설정 전" %}
-{% include image.html file="intent/intent_multi02.PNG" max-width="900" caption="Multi Intent 제외 설정 후" %}
+{% include image.html file="intent/intent_multi01.PNG"  caption="Multi Intent 제외 설정 전" %}
+{% include image.html file="intent/intent_multi02.PNG"  caption="Multi Intent 제외 설정 후" %}
 
 #### 채널 Fallback 설정
 본 속성을 체크하는 경우 해당 Intent로 파악되면 강제적으로 Default Fallback으로 넘어갑니다. 즉, 봇이 말을 알아듣지 못한 것처럼 반응하게 됩니다. Default Fallback 시 챗봇의 반응은 성격 화면에서 지정할 수 있습니다.<span style="color:#f69023; font-size:13px"><i class="fa fa-external-link-square" aria-hidden="true" style="margin-left:5px"></i> [Default Fallback 자세히 보기](settings_personality.html#default-fallback)</span>
 
-{% include image.html file="intent/intent_default_01.png" max-width="900" caption="채널 Fallback 설정 전" %}
-{% include image.html file="intent/intent_default_02.png" max-width="900" caption="채널 Fallback 설정 후" %}
+{% include image.html file="intent/intent_default_01.png"  caption="채널 Fallback 설정 전" %}
+{% include image.html file="intent/intent_default_02.png"  caption="채널 Fallback 설정 후" %}
 
 #### Intent ID
 필요에 따라 임의로 Intent ID를 지정할 수 있습니다. 단, Intent ID는 한 챗봇 내에서 유일해야 하며 공백으로 둘 경우 자동적으로 시스템 ID가 적용됩니다.

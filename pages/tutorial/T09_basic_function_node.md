@@ -32,7 +32,7 @@ next: {
 2) Api Node 와 Split Node 사이에 Function Node를 위치 시키고 앞뒤 노드와 연결해 주세요. <br/>
 기존에 연결된 선의 경우 마우스로 선을 클릭하고 선이 붉은색으로 하이라이트된 후 키보드의 delete 키를 누르면 삭제됩니다.
 
-{% include image.html file="tutorial/basic_function_node1.gif" max-width="900" caption="Function Node 생성하기1" %}
+{% include image.html file="tutorial/basic_function_node1.gif"  caption="Function Node 생성하기1" %}
 
 #### Function Node 상세정보 설정하기
 1) Function Node를 더블 클릭하여 상세화면으로 이동해주세요. 상세화면의 ***“Script 작성”*** 탭이 열립니다. 
@@ -53,10 +53,10 @@ Function Node 에서 대화흐름내 내부 변수명을 기입하면 변수에 
 “확인” 누르지 않으면 작업한 내용이 저장되지 않으니 꼭 “확인” 버튼을 통하여 창을 닫아야 합니다. 
 상세화면 닫은 후 우상단의 “Chatflow 저장” 버튼도 꼭 누르셔야 내용이 저장 됩니다.
 
-{% include image.html file="tutorial/basic_function_node2.gif" max-width="900" caption="Function Node 생성하기2" %}
+{% include image.html file="tutorial/basic_function_node2.gif"  caption="Function Node 생성하기2" %}
 
 #### Function Node 테스트
 1) “Chatflow 저장” 버턴을 클릭한 후 우측의 테스트 패널에서 테스트를 해보세요. “피자 주문해줘”라고 입력 후 피자메뉴 선택 하면 <br/>
 피자가격 변수의 값이 12,000 으로 변경된 것을 확인 할 수 있습니다.
 
-{% include image.html file="tutorial/basic_function_node1.png" max-width="900" caption="Function Node 생성하기2" %}
+{% include image.html file="tutorial/basic_function_node1.png"  caption="Function Node 생성하기2" %}

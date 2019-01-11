@@ -71,7 +71,7 @@ q 라는 변수에 피자메뉴를 넘겨준다고 미리 정의 하였기 때�
 {% include warning.html content="호출하는 API 에 따라 기본값이 들어가야 결과값이 반환되는 경우가 있을 수 있습니다. <br/>
 API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 Value 를 기입하도록 합니다." %}
 
-{% include image.html file="tutorial/using_api_node3.gif" max-width="900" caption="API 만들기2" %}
+{% include image.html file="tutorial/using_api_node3.gif"  caption="API 만들기2" %}
 
 10) 예상한 결과값이 잘 나타난다면 외부시스템 정보를 들고올 준비가 되었습니다. <br/>
 우상단의 ***“저장”*** 버튼을 눌러 저장합니다. 이제 생성한 API 를 대화흐름에서 어떻게 쓰는지 알아보도록 하겠습니다.
@@ -90,7 +90,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 기존에 연결된 선의 경우 마우스로 선을 클릭하고 선이 붉은색으로 하이라이트된 후 키보드의 delete 키를 누르면 삭제됩니다. <br/>
 기왕이면 알아보기 쉽도록 ***“외부에서 피자가격 가져오기”*** 와 같은 노드명을 부여하면 좋겠죠? <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Node명 수정하기](/basic_listen_speak.html#node-%EB%AA%85-%EC%88%98%EC%A0%95)</span>
 
-{% include image.html file="tutorial/using_api_node6.gif" max-width="900" caption="API Node 생성하기1" %}
+{% include image.html file="tutorial/using_api_node6.gif"  caption="API Node 생성하기1" %}
 
 #### API Node 상세정보 설정하기(요청 Parameter)
 1) Api Node를 더블 클릭하여 상세화면으로 이동해주세요. 상세화면의 ***“API 설정”*** 탭이 열립니다. 
@@ -100,7 +100,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 
 3) ***“피자주문하기_api_피자가격 가져오기”*** 를 선택해 주세요. 선택 후 적용을 누르면 앞에서 설정한 내역을 불러 옵니다.
 
-{% include image.html file="tutorial/using_api_node4.gif" max-width="900" caption="API Node 생성하기2" %}
+{% include image.html file="tutorial/using_api_node4.gif"  caption="API Node 생성하기2" %}
 
 4) 불러온 부분의 ***“요청 Parameter”*** 탭의 ***“요청 Parameter”*** 부분에 요청시 보낼 Parameter 를 설정합니다. <br/>
 외부시스템은 대화흐름에서 사용자가 선택한 #{피자메뉴} 변수를 받아 해당 메뉴에 해당하는 가격을 보내 줄 것입니다. <br/>
@@ -124,19 +124,19 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 {% include warning.html content="***“확인”*** 누르지 않으면 작업한 내용이 저장되지 않으니 꼭 ***“확인”*** 버튼을 통하여 창을 닫아야 합니다. <br/>
 상세화면 닫은 후 우상단의 ***“Chatflow 저장”*** 버튼도 꼭 누르셔야 내용이 저장 됩니다." %}
 
-{% include image.html file="tutorial/using_api_node5.gif" max-width="900" caption="API Node 생성하기3" %}
+{% include image.html file="tutorial/using_api_node5.gif"  caption="API Node 생성하기3" %}
 
 #### API Node 테스트
 1) API Node 에서 외부에서 피자가격을 가져와 피자가격 변수에 값을 넣는 방법을 알아 보았습니다.<br/>
 이제는 받아온 피자가격을 사용자에게 보여주기 위해 Speak Node 문구를 변경해 줍니다. 각각의 Speak 노드에 #{피자가격} 을 넣어 문구를 만들어 주세요. <br/>
 다시한번 말씀드리지만 문구 수정 후 ***“확인”*** 버튼을 통해 상세창을 닫아주세요. 상세화면 닫은 후 우상단의 ***“Chatflow 저장”*** 버튼도 꼭 누르셔야 내용이 저장 됩니다. 
 
-{% include image.html file="tutorial/using_api_node7.gif" max-width="900" caption="API Node test1" %}
+{% include image.html file="tutorial/using_api_node7.gif"  caption="API Node test1" %}
 
 2) 우측의 테스트 패널에서 테스트를 해보세요. “피자 주문해줘”라고 입력 후 피자메뉴 선택 하면 <br/>
 Speak 노드에 #{피자가격} 을 넣어 만든 문구를 확인하실 수 있습니다.
 
-{% include image.html file="tutorial/using_api_node_test.png" max-width="900" caption="API Node test2" %}
+{% include image.html file="tutorial/using_api_node_test.png"  caption="API Node test2" %}
 
 ## 다음 Step 에서는 
 지금까지 API 를 등록하고 API Node 를 설정하는 방법을 알아 보았습니다.<br/>

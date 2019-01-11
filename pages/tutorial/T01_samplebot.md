@@ -35,20 +35,20 @@ danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 �
 ### Bot List에 Sample Chatbot 추가하기
 1) 먼저 로그인한 후 Bot List에서 ***"Sample Chatbot 가져오기"*** 버튼을 클릭해 주세요.
 
-{% include image.html file="tutorial/samplebot_empty.png" max-width="900" caption="첫 로그인 화면" %}
+{% include image.html file="tutorial/samplebot_empty.png"  caption="첫 로그인 화면" %}
 
 2) 원하는 샘플챗봇의 ***"가져오기"*** 버튼을 클릭해주세요.여기서는 ***"튜토리얼봇"***을 가져와 보겠습니다.
 
-{% include image.html file="tutorial/import_samplebot.png" max-width="900" caption="샘플챗봇 가져오기" %}
+{% include image.html file="tutorial/import_samplebot.png"  caption="샘플챗봇 가져오기" %}
 
 3) Bot List에 선택한 샘플챗봇이 추가된 것을 확인하실 수 있습니다. 챗봇을 클릭하면 챗봇이름과 설명을 수정하실 수 있습니다.
 
-{% include image.html file="tutorial/samplebot_list.png" max-width="900" caption="챗봇 생성 완료" %}
+{% include image.html file="tutorial/samplebot_list.png"  caption="챗봇 생성 완료" %}
 
 4) ***의도추론(Intent)***과 ***대화흐름 목록(Chatflow List)*** 메뉴에서 샘플챗봇의 상세 내용을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/samplebot_intent.png" max-width="900" caption="Intent 상세화면" %}
-{% include image.html file="tutorial/samplebot_chatflow2.png" max-width="900" caption="Chatflow 상세화면" %}
+{% include image.html file="tutorial/samplebot_intent.png"  caption="Intent 상세화면" %}
+{% include image.html file="tutorial/samplebot_chatflow2.png"  caption="Chatflow 상세화면" %}
 
 ## 샘플챗봇 "튜토리얼봇" 테스트하기
 샘플챗봇 "튜토리얼봇"은 ***"피자 주문해줘"***라는 사용자의 입력에 대하여 여러가지 버전으로 대답할 수 있는 예시를 제공하고 있습니다. 따라서 다음에 제공되는 튜토리얼에 따라 대화를 테스트 해보기 위해서는 아래와 같이 Chatflow를 수정해주는 작업이 필요합니다.
@@ -58,7 +58,7 @@ danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 �
 
 2) ***"Chatflow 저장"*** 후 우측의 테스트 패널에서 ***"피자 주문해줘"***를 입력해보세요.
 
-{% include image.html file="tutorial/samplebot_test_tutorial2.png" max-width="900" caption="Tutorial 2 테스트" %}
+{% include image.html file="tutorial/samplebot_test_tutorial2.png"  caption="Tutorial 2 테스트" %}
 
 ### 다른 Tutorial의 예시를 테스트할 때
 1) Tutorial 2. 주문확인과 연결된 선을 지워주세요. 선을 클릭하고 ***[Delete] 키***를 누르면 선이 삭제됩니다. 
@@ -67,7 +67,7 @@ danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 �
 
 3) ***"Chatflow 저장"*** 후 우측의 테스트 패널에서 ***"피자 주문해줘"***를 입력해보세요.
 
-{% include image.html file="tutorial/samplebot_test_tutorial4.png" max-width="900" caption="Tutorial 4 테스트" %}
+{% include image.html file="tutorial/samplebot_test_tutorial4.png"  caption="Tutorial 4 테스트" %}
 
 이런 식으로 튜토리얼 단계별로 노드를 연결하여 테스트를 해볼 수 있습니다.
 

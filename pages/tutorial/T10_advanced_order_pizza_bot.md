@@ -55,8 +55,8 @@ Intent 를 만들고 Chatflow 화면에 들어와 Listen Node 를 설정합니�
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[파라미터 추가 방법](/basic_entity_parameter.html#parameter-%EC%B6%94%EA%B0%80)</span>
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Entity Type 설명](/entity.html#%EC%97%94%ED%8B%B0%ED%8B%B0entity)</span>
 
-{% include image.html file="tutorial/ad_1.png" max-width="900" caption="예문 추가된 모습" %}
-{% include image.html file="tutorial/ad_2.png" max-width="900" caption="파라미터 추가된 모습" %}
+{% include image.html file="tutorial/ad_1.png"  caption="예문 추가된 모습" %}
+{% include image.html file="tutorial/ad_2.png"  caption="파라미터 추가된 모습" %}
 
 ### 피자메뉴 선택 Carausel Node 설정하기
 
@@ -70,9 +70,9 @@ Sample Chatbot 을 가져 오셨으면 가져온 챗봇의 **단어추출(entity
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[사용자정의 Entity Type](/entity.html#%EC%82%AC%EC%9A%A9%EC%9E%90%EC%A0%95%EC%9D%98-entity)</span>
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Entity 설정 튜토리얼](/basic_entity_parameter.html#%EC%97%94%ED%8B%B0%ED%8B%B0entity-%EB%A7%8C%EB%93%A4%EA%B8%B0)</span>
 
-{% include image.html file="tutorial/ad_3-1.png" max-width="900" caption="피자종류 entity 정의" %}
+{% include image.html file="tutorial/ad_3-1.png"  caption="피자종류 entity 정의" %}
 
-{% include image.html file="tutorial/ad_3.png" max-width="900" caption="Carausel Node 설정" %}
+{% include image.html file="tutorial/ad_3.png"  caption="Carausel Node 설정" %}
 
 ### 사이즈 확인/수량 확인 Slot Node 설정하기
 사용자가 원하는 사이즈를 선택하고 수량을 입력할 수 있는 Slot Node 를 각각 설정합니다. <br/>
@@ -84,9 +84,9 @@ system entity 설명은 다음을 참고해 주세요.
 Slot Node 사용방법은 위에 챕터 내용을 참고 하시기 바랍니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Slot Node 사용하기](/basic_slot.html) </span>
 
-{% include image.html file="tutorial/ad_4.png" max-width="900" caption="사이즈 entity 정의" %}
-{% include image.html file="tutorial/ad_5.png" max-width="900" caption="사이즈 확인 Slot Node 설정" %}
-{% include image.html file="tutorial/ad_6.png" max-width="900" caption="수량 확인 Slot Node 설정" %}
+{% include image.html file="tutorial/ad_4.png"  caption="사이즈 entity 정의" %}
+{% include image.html file="tutorial/ad_5.png"  caption="사이즈 확인 Slot Node 설정" %}
+{% include image.html file="tutorial/ad_6.png"  caption="수량 확인 Slot Node 설정" %}
 
 ### 메뉴 가격 조회 Api Node 설정하기
 사용자가 선택한 메뉴와 사이즈를 가지고 피자 가격을 외부시스템에서 가져오는 Api Node 를 설정합니다. <br/>
@@ -103,9 +103,9 @@ Api 설정 방법 및 Api Node 설정 방법은 위에 챕터 내용 참고해 �
 - **요청 Parameter**: q, s
 - **Response API Tree**: size, price, name
 
-{% include image.html file="tutorial/ad_7.png" max-width="900" caption="Api 설정 화면" %}
-{% include image.html file="tutorial/ad_8.png" max-width="900" caption="메뉴 가격 조회 Api Node 상세 요청 Parameter 화면" %}
-{% include image.html file="tutorial/ad_9.png" max-width="900" caption="메뉴 가격 조회 Api Node 상세 출력 Parameters 화면" %}
+{% include image.html file="tutorial/ad_7.png"  caption="Api 설정 화면" %}
+{% include image.html file="tutorial/ad_8.png"  caption="메뉴 가격 조회 Api Node 상세 요청 Parameter 화면" %}
+{% include image.html file="tutorial/ad_9.png"  caption="메뉴 가격 조회 Api Node 상세 출력 Parameters 화면" %}
 
 ### 최종 가격 계산 Function Node 설정하기
 사용자가 선택한 메뉴, 사이즈, 주문수량 그리고 외부시스템에서 가져온 피자 가격까지 대화흐름에 가져왔습니다. <br/>
@@ -122,7 +122,7 @@ Function Node 안에 들어갈 내용은 아래와 같습니다. <br/>
 피자_선택수량 = 피자_선택수량.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
 ````
 
-{% include image.html file="tutorial/ad_10.png" max-width="900" caption="최종 가격 계산 Function Node 상세화면" %}
+{% include image.html file="tutorial/ad_10.png"  caption="최종 가격 계산 Function Node 상세화면" %}
 
 ### 주문확인 Slot Node 설정하기
 사용자에게 정말 주문을 원하는지를 물어보고 사용자의 답변을 받는 Slot Node 를 설정합니다. <br/>
@@ -132,14 +132,14 @@ system entity 설명은 다음을 참고해 주세요.
 Slot Node 사용방법은 위에 챕터 내용을 참고 하시기 바랍니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Slot Node 사용하기](/basic_slot.html) </span>
 
-{% include image.html file="tutorial/ad_11.png" max-width="900" caption="주문확인 Slot Node 상세화면" %}
+{% include image.html file="tutorial/ad_11.png"  caption="주문확인 Slot Node 상세화면" %}
 
 ### 주문진행여부 분기 Split Node 설정하기
 사용자가 선택한 주문진행여부에 따라 다른 답변을 하도록 Split Node 를 설정합니다.<br/>
 Split Node 사용방법은 위에 챕터 내용을 참고 하시기 바랍니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Split Node 사용하기](/basic_split.html#split-node) </span>
 
-{% include image.html file="tutorial/ad_12.png" max-width="900" caption="주문진행여부 분기 Split Node 상세화면" %}
+{% include image.html file="tutorial/ad_12.png"  caption="주문진행여부 분기 Split Node 상세화면" %}
 
 ### 주소입력 Slot Node 설정하기
 주문을 원하는 사용자에게 주소를 받는 Slot Node 를 설정합니다. <br/>
@@ -149,17 +149,17 @@ system entity 설명은 다음을 참고해 주세요.
 Slot Node 사용방법은 위에 챕터 내용을 참고 하시기 바랍니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Slot Node 사용하기](/basic_slot.html) </span>
 
-{% include image.html file="tutorial/ad_13.png" max-width="900" caption="주소입력 Slot Node 상세화면" %}
+{% include image.html file="tutorial/ad_13.png"  caption="주소입력 Slot Node 상세화면" %}
 
 ### 주문취소/주문접수완료 Speak Node 설정하기
 주문진행을 원하지 않는 사용자에게는 주문취소 메세지를 원하는 사용자에게는 주문 완료 메세지를 보여주는 Speak Node 를 설정합니다.<br/>
 Speak Node 사용방법은 위에 챕터 내용을 참고 하시기 바랍니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Speak Node 사용하기](/basic_listen_speak.html#speak-node) </span>
 
-{% include image.html file="tutorial/ad_14.png" max-width="900" caption="주문취소 Speak Node 상세화면" %}
-{% include image.html file="tutorial/ad_15.png" max-width="900" caption="주문접수완료 Speak Node 상세화면" %}
+{% include image.html file="tutorial/ad_14.png"  caption="주문취소 Speak Node 상세화면" %}
+{% include image.html file="tutorial/ad_15.png"  caption="주문접수완료 Speak Node 상세화면" %}
 
 ## 마무리
 지금까지 피자주문봇을 만드시느라 수고 많았습니다. 피자주문봇의 완성된 형태는 아마 아래와 같을 거에요. <br/>
 
-{% include image.html file="tutorial/ad_16.png" max-width="900" caption="피지주문봇 Chaflow" %}
+{% include image.html file="tutorial/ad_16.png"  caption="피지주문봇 Chaflow" %}

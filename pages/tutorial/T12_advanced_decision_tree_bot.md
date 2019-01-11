@@ -1,5 +1,5 @@
 ---
-title: 의사결정나무봇, 디트 살펴보기 
+title: 의사결정나무봇, 디트 
 keywords: 의사결정, 추천
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
@@ -8,6 +8,10 @@ summary: 대화를 통해 추천하는 챗봇을 샘플로 보고, 배워보아�
 previous: {
         title: 선택장애제거, 캡틴초이 살펴보기,
         url: advanced_choice_bot.html
+}
+next: {
+    title: 버그채집봇, 파브르 살펴보기,
+    url: advanced_bug_hunting_fabre.html
 }
 ---
 

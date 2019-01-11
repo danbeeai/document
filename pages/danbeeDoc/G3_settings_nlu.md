@@ -37,7 +37,7 @@ NLU에 대하여 다음과 같은 설정이 가능합니다.<br/>
 - 형태소 분석 우선 추론(A-B-C)
 - 머신러닝 우선 추론(A-C-B)
 
-{% include image.html file="nlu_settings/nlu_settings_01.png" max-width="900" caption="추론 순서 설정" %}
+{% include image.html file="nlu_settings/nlu_settings_01.png"  caption="추론 순서 설정" %}
 
 ##### 형태소 분석 우선 추론(A-B-C)
 **형태소 분석 우선 추론**의 경우 [패턴 매칭(이하, A패턴)](settings_nlu.html#패턴-매칭-a패턴) 추론에서 적합한 Intent를 찾지 못할 경우 [형태소 분석 추론(이하, B패턴)](settings_nlu.html#형태소-분석-추론-b패턴) 방식으로 Intent를 재추론하게 됩니다. B패턴 추론 결과 Intent를 찾지 못한 경우, 혹은 적합한 Intent를 찾았지만 추론율이 설정한 [형태소 분석 추론 성공범위](settings_nlu.html#형태소-분석-추론-성공범위-설정)의 임계값 미만일 경우 [머신러닝 추론(이하, C패턴)](settings_nlu.html#머신러닝-추론-c패턴)으로 넘어가게 됩니다. C패턴 추론 결과 역시 설정한 [머신러닝 추론 성공범위](settings_nlu.html#머신러닝-추론-성공범위-설정)이상일 경우 찾은 Intent를 반환하지만 설정값 이하일 경우 최종적으로 Default Fallback을 반환합니다.
@@ -56,13 +56,13 @@ danbee.Ai에서는 추론율이 낮다면 신뢰할 수 없는 데이터로 판�
 
 ##### 형태소 분석 추론 성공범위 설정 
 
-{% include image.html file="nlu_settings/nlu_settings_02.png" max-width="900" caption="형태소 분석 추론 성공범위 설정" %}
+{% include image.html file="nlu_settings/nlu_settings_02.png"  caption="형태소 분석 추론 성공범위 설정" %}
 
 해당 영역에서 B패턴의 추론 성공 범위를 설정할 수 있습니다. 앞서 설명한 것과 같이 B패턴으로 찾은 Intent의 추론율이 설정한 임계값 이상일 때는 해당 Intent가 반환 되지만 임계값 미만일 경우 Default Fallback으로 치환됩니다.
 
 ##### 머신러닝 추론 성공범위 설정
 
-{% include image.html file="nlu_settings/nlu_settings_03.png" max-width="900" caption="머신러닝 추론 성공범위 설정" %}
+{% include image.html file="nlu_settings/nlu_settings_03.png"  caption="머신러닝 추론 성공범위 설정" %}
 
 해당 영역에서 C패턴의 추론 성공 범위를 설정할 수 있습니다. 앞서 설명한 것과 같이 C패턴으로 찾은 Intent의 추론율이 설정한 임계값 이상일 때는 해당 Intent가 반환 되지만 임계값 미만일 경우 Default Fallback으로 치환됩니다.
 
@@ -74,22 +74,22 @@ NLU Intent 테스트 패널에서 같은 표현이 설정에 따라 어떻게 �
 
 - [가] 형태소 분석 우선 추론, 형태소 분석 성공범위 임계값 0%, 머신러닝 추론 성공범위 임계값 15%
 
- {% include image.html file="nlu_settings/nlu_settings_04-1.png" max-width="900" caption="[가]테스트 설정" %}
- {% include image.html file="nlu_settings/nlu_settings_04-2.png" max-width="900" caption="[가]테스트 결과" %}
+ {% include image.html file="nlu_settings/nlu_settings_04-1.png"  caption="[가]테스트 설정" %}
+ {% include image.html file="nlu_settings/nlu_settings_04-2.png"  caption="[가]테스트 결과" %}
 
  [가]와 같이 설정하였을때 B패턴으로 추론을 성공하였으며 추론율이 40.04%가 나옴을 먼저 확인하였습니다. [나]에서는 형태소 분석 성공범위 설정 동작을 확인하기 위해 해당 추론율 이상인 45%로 올려서 테스트를 진행합니다.
 <br/><br/>
 - [나] 형태소 분석 우선 추론, 형태소 분석 성공범위 임계값 45%, 머신러닝 추론 성공범위 임계값 15%
 
- {% include image.html file="nlu_settings/nlu_settings_05-1.png" max-width="900" caption="[나]테스트 설정" %}
- {% include image.html file="nlu_settings/nlu_settings_05-2.png" max-width="900" caption="[나]테스트 결과" %}
+ {% include image.html file="nlu_settings/nlu_settings_05-1.png"  caption="[나]테스트 설정" %}
+ {% include image.html file="nlu_settings/nlu_settings_05-2.png"  caption="[나]테스트 결과" %}
 
  [가]에서 확인한 기존 B패턴 추론 결과는 40.04%로 형태소 분석 성공범위의 임계값 미만이기 때문에 C패턴 테스트가 진행되었으면 확인할 수 있습니다. 또한, C패턴 추론 결과의 추론율이 15.69%로 성공범위 임계값 이상이기 때문에 추론에 성공함을 확인할 수 있습니다. [다]에서는 머신러닝 추론 성공범위 설정 동작을 확인하기 위해 해당 추론율 이상인 20%로 올려서 테스트를 진행합니다.
 <br/><br/>
 - [다] 형태소 분석 우선 추론, 형태소 분석 성공범위 임계값 45%, 머신러닝 추론 성공범위 임계값 20%
 
- {% include image.html file="nlu_settings/nlu_settings_06-1.png" max-width="900" caption="[다]]테스트 설정" %}
- {% include image.html file="nlu_settings/nlu_settings_06-2.png" max-width="900" caption="[다]테스트 결과" %}
+ {% include image.html file="nlu_settings/nlu_settings_06-1.png"  caption="[다]]테스트 설정" %}
+ {% include image.html file="nlu_settings/nlu_settings_06-2.png"  caption="[다]테스트 결과" %}
 
  [나]에서 확인한 C패턴 추론 결과는 15.69%로 성공범위 임계값 미만이기 때문에 Default Fallback 처리 되었음을 확인할 수 있습니다.<br/><br/>
 

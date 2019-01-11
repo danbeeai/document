@@ -40,14 +40,14 @@ Chatflow는 이러한 대화 과정에서 필요한 기본적인 듣고, 말하�
 {% include callout.html content="화면 위치 : [대화흐름(Chatflow)] > [대화흐름 목록(Chatflow List)]" type="default" %}
 
 
-{% include image.html file="chatflow/Chatflow_list.png" max-width="900" caption="Chatflow list" %}
+{% include image.html file="chatflow/Chatflow_list.png"  caption="Chatflow list" %}
 
 
 ### Chatflow 테스트 패널
 
 테스트 패널은 설계한 Chatflow가 정상적으로 흐름을 진행하는지 사전에 테스트할 수 있는 기능을 제공합니다.
 
-{% include image.html file="chatflow/Chatflow_tester_layout.png" max-width="900" caption="Chatflow Tester 영역" %}
+{% include image.html file="chatflow/Chatflow_tester_layout.png"  caption="Chatflow Tester 영역" %}
 
 
 테스트 예문을 입력하고 그에 따른 답변과 현재 진행되고 있는 상태 정보를 확인 할 수 있습니다.
@@ -57,14 +57,14 @@ Chatflow는 이러한 대화 과정에서 필요한 기본적인 듣고, 말하�
 - [디버그 모드] : 메시지 뿐만 아니라 내부적으로 처리되는 데이터 처리 내용까지 확인이 가능합니다. 
 - [파라미터 팝업] : 특정 노드에서의 처리된 파라미터 내역 확인이 가능합니다. (? 표시 클릭)
 
-{% include image.html file="chatflow/Chatflow_tester_module_set.png" max-width="900" caption="테스트 패널" %}
+{% include image.html file="chatflow/Chatflow_tester_module_set.png"  caption="테스트 패널" %}
 
 
 
 테스트 패널에서는 여러 Chatflow를 테스트해 볼 수 있습니다. 만약 지금 진행 중인 Chatflow를 확인하고 싶다면 패널 아래 부분의 'Chatflow 상세' 버튼을 선택하시면 됩니다. 
 그러면 원하시는 챗플로우가 Chatflow canvas에 펼쳐지게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_tester_link.png" max-width="900" caption="Chatflow 상세 링크" %}
+{% include image.html file="chatflow/Chatflow_tester_link.png"  caption="Chatflow 상세 링크" %}
 
 
 #### 용어 설명
@@ -84,7 +84,7 @@ Chatflow는 이러한 대화 과정에서 필요한 기본적인 듣고, 말하�
 
 Chatflow 목록 메뉴 우측 상단에 있는 [Chatflow 생성] 버튼을 눌러 호출된 팝업에서 Chatflow 제목을 입력하면 신규 Chatflow가 생성됩니다.
 
-{% include image.html file="chatflow/Chatflow_create.png" max-width="900" caption="Create chatflow" %}
+{% include image.html file="chatflow/Chatflow_create.png"  caption="Create chatflow" %}
 
 
 ### 대화노드 추가
@@ -105,7 +105,7 @@ Chatflow의 대화 노드 종류에는 크게 8가지가 있습니다.
 | [Jump 노드](chatflow_jump.html#Jump 노드) | 대화 흐름상 다른 챗플로우로 이동하고자 할 경우 사용하는 노드입니다. |
 {: .table .table-striped}
 
-{% include image.html file="chatflow/Chatflow_design.png" max-width="900" caption="Chatflow canvas" %}
+{% include image.html file="chatflow/Chatflow_design.png"  caption="Chatflow canvas" %}
 
 ### Chatflow 설계
 
@@ -114,14 +114,14 @@ Chatflow의 대화 노드 종류에는 크게 8가지가 있습니다.
 
 노드는 클릭 또는 드래그로 선택할 수 있습니다. 
 
-{% include image.html file="chatflow/Chatflow_select.png" max-width="900" caption="노드 선택" %}
+{% include image.html file="chatflow/Chatflow_select.png"  caption="노드 선택" %}
 
 
 #### 노드 연결
 
 노드의 연결점을 클릭, 드래그하는 방식으로 노드들을 연결할 수 있습니다.
 
-{% include image.html file="chatflow/Chatflow_node_line.png" max-width="900" caption="노드 연결" %}
+{% include image.html file="chatflow/Chatflow_node_line.png"  caption="노드 연결" %}
 
 
 
@@ -129,7 +129,7 @@ Chatflow의 대화 노드 종류에는 크게 8가지가 있습니다.
 
 Chatflow 캔버스 상에 있는 Node와 연결 선은 선택한 후에 delete키를 눌러 삭제할 수 있습니다. (Mac에서는 fn + delete)
 
-{% include image.html file="chatflow/Chatflow_node_delete.png" max-width="900" caption="노드 삭제" %}
+{% include image.html file="chatflow/Chatflow_node_delete.png"  caption="노드 삭제" %}
 
 
 ### Chatflow 저장
@@ -137,7 +137,7 @@ Chatflow 캔버스 상에 있는 Node와 연결 선은 선택한 후에 delete�
 Chatflow 설계하고 나서 [Chatflow 저장] 버튼을 클릭을 하면 해당 내용이 서버에 반영됩니다. 
 Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simulation) 에서 테스트해 볼 수 있습니다.
 
-{% include image.html file="chatflow/Chatflow_save.png" max-width="900" caption="Chatflow 저장" %}
+{% include image.html file="chatflow/Chatflow_save.png"  caption="Chatflow 저장" %}
 
 
 
@@ -149,7 +149,7 @@ Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simul
 대화노드를 설명하는데 있어 "야식 주문" 시나리오 샘플로 Chatflow 노드를 배치해 보겠습니다.
 먼저 Listen Node를 통해 "야식배달"이라는 의도를 파악(Listen 노드)하고 Slot Node를 통해서 주문할 야식의 종류를 되묻고(Slot 노드) 입력된 답변에 따라서 질문이 분기(Split 노드)된 후 치킨의 종류 혹은 피자사이즈를 되물은(Slot 노드) 뒤 종류나 사이즈에 따라 확인 답변(Speak 노드)을 하는 흐름으로 구성되어 있습니다.
 
-{% include image.html file="chatflow/Chatflow_sample.png" max-width="900" caption="샘플 시나리오(야식주문)" %}
+{% include image.html file="chatflow/Chatflow_sample.png"  caption="샘플 시나리오(야식주문)" %}
 
 
 #### [야식 주문] Listen 설정 화면
@@ -160,54 +160,54 @@ Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simul
 - [피자 크기] : size
 - [양념,후라이드] : cook_type
 
-{% include image.html file="chatflow/Chatflow_sample_listen.png" max-width="900" caption="'야식주문' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_listen.png"  caption="'야식주문' 설정 화면" %}
 
 
 #### [야식종류] Slot 설정 화면
 
 피자와 치킨 중에 어떤 야식을 선택할 것인지 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_slot1.png" max-width="900" caption="'야식종류' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_slot1.png"  caption="'야식종류' 설정 화면" %}
 
 
 #### [피자, 치킨?] Split 설정 화면
 
 야식 종류 기준으로 피자주문 대화 흐름을 진행할 것인지, 치킨 주문 대화 흐름을 진행할 것인지 판단합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_split.png" max-width="900" caption="'피자, 치킨?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_split.png"  caption="'피자, 치킨?' 설정 화면" %}
 
 
 #### [피자 사이즈는?] Slot 설정 화면
 
 피자 크기를 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_slot_pizza.png" max-width="900" caption="'피자 사이즈는?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_slot_pizza.png"  caption="'피자 사이즈는?' 설정 화면" %}
 
 
 #### [양념/후라이드?] Slot 설정 화면
 
 양념, 후라이드 선택을 묻는 질문과 파라미터를 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_slot_chicken.png" max-width="900" caption="'양념/후라이드?' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_slot_chicken.png"  caption="'양념/후라이드?' 설정 화면" %}
 
 
 #### [역시 피자는~] Speak 설정 화면
 
 선택한 피자와 크기에 대한 답변을 조건별로 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_speak_pizza.png" max-width="900" caption="'역시 피자는~' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_speak_pizza.png"  caption="'역시 피자는~' 설정 화면" %}
 
 
 #### [역시 피자는~] Speak 설정 화면
 
 선택한 치킨에 대한 답변을 조건별로 설정합니다. 
 
-{% include image.html file="chatflow/Chatflow_sample_speak_chicken.png" max-width="900" caption="'역시 피자는~' 설정 화면" %}
+{% include image.html file="chatflow/Chatflow_sample_speak_chicken.png"  caption="'역시 피자는~' 설정 화면" %}
 
 
 야식주문 시나리오는 '야식 먹고 싶다'라는 이야기에 챗봇이 야식 종류(치킨, 피자)와 그에 따른 선택지(치킨종류, 피자크기)를 묻는 대화가 진행됩니다.
 
-{% include image.html file="chatflow/Chatflow_sample_test.png" max-width="900" caption="야식주문 치킨 선택 결과" %}
+{% include image.html file="chatflow/Chatflow_sample_test.png"  caption="야식주문 치킨 선택 결과" %}
 
-{% include image.html file="chatflow/Chatflow_sample_test2.png" max-width="900" caption="야식주문 피자 선택 결과" %}
+{% include image.html file="chatflow/Chatflow_sample_test2.png"  caption="야식주문 피자 선택 결과" %}
  

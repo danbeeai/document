@@ -30,13 +30,13 @@ Speak 노드는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](chatflow_speak.html#기본정보)
 - [메시지 설정](chatflow_speak.html#메시지 설정)
 
-{% include image.html file="chatflow/Chatflow_speak_canvas.png" max-width="900" caption="Speak 노드" %}
+{% include image.html file="chatflow/Chatflow_speak_canvas.png"  caption="Speak 노드" %}
 
 ### 기본정보
 
 Speak 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입력합니다.
 
-{% include image.html file="chatflow/Chatflow_speak_basic.png" max-width="900" caption="Speak노드 기본정보" %}
+{% include image.html file="chatflow/Chatflow_speak_basic.png"  caption="Speak노드 기본정보" %}
 
 
 ### 메시지 설정
@@ -44,14 +44,14 @@ Speak 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 �
 Speak 노드는 챗봇이 대답할 메시지를 입력하는 노드입니다. 
 Speak 노드는 초기 '기본 메시지'로 설정이 되어 있고 사용자 선택에 따라 조건식을 활용하여 메시지를 다르게 표현할 수 있습니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_basicMessage.png" max-width="900" caption="메시지 기본 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_basicMessage.png"  caption="메시지 기본 설정" %}
 
 조건식을 활용하여 메시지를 표현하고 싶을 경우에는 아래와 같이 조건식을 설정할 수 있습니다. 
 조건식에 활용할 수 있는 것은 Listen 노드에서 선언하였던 변수를 활용하거나 이전에 사용자가 질문한 문장을 활용할 수도 있습니다. 
 조건식 선택박스에 변수들이 Parameter에 나열이 되게 되며, '받은 메시지'는 사용자가 질문한 문장을 의미하는데 이 변수는 시스템적으로 '@message' 변수명으로 표시됩니다.
 조건식은 [+] 버튼을 선택하여 다중 입력이 가능하며, 이 때 조건식을은 and 조건으로 연산처리하게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_message.png" max-width="900" caption="메시지 조건 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_message.png"  caption="메시지 조건 설정" %}
 
 
 {% include warning.html content="입력된 값이 모든 조건에 부합하지 않을 경우는 답변을 하지 않고 오류가 발생하니, 조건을 꼼꼼히 체크하시기 바랍니다." %}
@@ -82,7 +82,7 @@ Speak 노드는 답변 메시지와 함께 사용자에게 다음 버튼을 제�
 
 {% include note.html content="Quick Reply 타입은 facebook, 네이버톡톡에서 해당 형태로 이용 가능하며 제공되지 않는 채널에서는 선택지와 동일하게 표시됩니다." %}
 
-{% include image.html file="chatflow/Chatflow_speak_option.png" max-width="900" caption="Speak 선택지 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_option.png"  caption="Speak 선택지 설정" %}
 
 
 
@@ -92,7 +92,7 @@ Speak 노드에서는 단순히 입력된 메시지만 출력할 뿐만 아니�
 
 Speak 노드에서 #{파라미터명} 형태로 표시하면 채널에는 '파라미터명'에 가지고 있는 값이 치환되어 표시됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_parameter.png" max-width="900" caption="파라미터 활용 사례" %}
+{% include image.html file="chatflow/Chatflow_speak_parameter.png"  caption="파라미터 활용 사례" %}
 
 #### 시스템 파라미터
 
@@ -115,7 +115,7 @@ Danbee.Ai에서는 그러한 처리를 위해 몇가지 시스템 변수를 아�
 
 팝업에서 파라미터 선택시 해당 파라미터는 #{파라미터명} 식으로 메시지에 추가됩니다.
 
-{% include image.html file="chatflow/Chatflow_parameter_add.png" max-width="900" caption="일반 변수 추가" %}
+{% include image.html file="chatflow/Chatflow_parameter_add.png"  caption="일반 변수 추가" %}
 
 
 #### Chatflow 호출 파라미터 연결
@@ -123,15 +123,15 @@ Danbee.Ai에서는 그러한 처리를 위해 몇가지 시스템 변수를 아�
 Chatflow 호출 버튼을 눌렀을때 각 Chatflow에서 사용되는 파라미터들끼리 연결이 가능합니다. 버튼형 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Jump 노드](chatflow_jump.html)</span> 기능으로 볼 수 있습니다.<br/>
 예를 들어 날씨를 물은 뒤 사용자가 버튼을 클릭하면 날씨에 따라 음식을 추천한다고 가정해보겠습니다.
 
-{% include image.html file="chatflow/Chatflow_callflow_param_01.png" max-width="900" caption="Chatflow 호출 파라미터 연결" %}
+{% include image.html file="chatflow/Chatflow_callflow_param_01.png"  caption="Chatflow 호출 파라미터 연결" %}
 
 위와 같이 Speak 메세지를 설정하고 Chatflow 호출 버튼을 추가합니다. 호출할 Chatflow를 선택하면 [Parameter 연결] 버튼이 활성화 됩니다.
 
-{% include image.html file="chatflow/Chatflow_callflow_param_02.png" max-width="900" caption="Chatflow 호출 파라미터 연결 팝업" %}
+{% include image.html file="chatflow/Chatflow_callflow_param_02.png"  caption="Chatflow 호출 파라미터 연결 팝업" %}
 
 Parameter 연결 버튼을 클릭하면 호출할 Chatflow와 현재 Chatflow의 파라미터 값을 연결할 수 있는 창이 뜹니다. 예시와 같이 *'tempo'*라는 파라미터를 연결하고 테스트패널에서 테스트 해보면 다음과 같은 결과를 확인할 수 있습니다.
 
-{% include image.html file="chatflow/Chatflow_callflow_param_03.png" max-width="900" caption="Chatflow 호출 파라미터 연결 테스트" %}
+{% include image.html file="chatflow/Chatflow_callflow_param_03.png"  caption="Chatflow 호출 파라미터 연결 테스트" %}
 
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[디버그 모드](demo_n_test_panel.html#디버그-모드)</span>에서 기존 날씨 Chatflow에서 세팅되었던 tempo의 '폭우'라는 값이 야식 Chatflow의 파라미터로 넘어갔음을 확인할 수 있습니다.
 
@@ -141,43 +141,43 @@ Parameter 연결 버튼을 클릭하면 호출할 Chatflow와 현재 Chatflow의
 한가지 대답만으로 무미건조하게 느끼게 되고 
 이런 경우 Speak 노드의 Random 설정을 체크하여 해당 기능을 구현할 수 있습니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_randomCanvas.png" max-width="900" caption="랜덤 메시지 시나리오" %}
+{% include image.html file="chatflow/Chatflow_speak_randomCanvas.png"  caption="랜덤 메시지 시나리오" %}
 
 
 
 Speak 노드의 메시지 설정에 Random 설정을 체크하면 메시지 입력창을 여러 개 추가할 수 있게 됩니다. 
 유사한 답변을 등록하면 등록된 갯수 내에서 메시지를 무작위로 답변하게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_random.png" max-width="900" caption="기본 메시지 랜덤 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_random.png"  caption="기본 메시지 랜덤 설정" %}
 
 ### 샘플 시나리오 (변수값 표시)
 
 Speak 노드에서는 Listen 노드에 선언된 단어항목(parameter)들의 값을 메시지에 표시할 수 있습니다. 
 해당 시나리오는 'name' 변수값에 이름을 입력 받고 입력 받은 값을 메시지에 표시합니다.
 
-{% include image.html file="chatflow/Chatflow_speak_paramCanvas.png" max-width="900" caption="변수값 표시 시나리오" %}
+{% include image.html file="chatflow/Chatflow_speak_paramCanvas.png"  caption="변수값 표시 시나리오" %}
 
 #### [의도파악] Listen 노드 설정
 
 Listen 노드에 'name' 변수를 다음과 같이 선언합니다.
 
-{% include image.html file="chatflow/Chatflow_speak_paramListen.png" max-width="900" caption="Listen 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_paramListen.png"  caption="Listen 노드 설정" %}
 
 #### [변수값 물어보기] Slot 노드 설정
 
 Slot 노드에서는 'name' 값을 입력 받기 위해 다음과 변수를 지정하고 질문 메시지를 등록합니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_paramSlot.png" max-width="900" caption="Slot 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_paramSlot.png"  caption="Slot 노드 설정" %}
 
 #### [변수값 표시] Speak 노드 설정
 
 Speak 노드에서는 답변 메시지를 입력할때 변수 값을 표시하고 싶은 경우 #{변수명} 과 같이 표시하면 됩니다. 
 해당 시나리오 실행시에는 #{변수명} 은 변수값으로 치환되어 보여지게 됩니다.
 
-{% include image.html file="chatflow/Chatflow_speak_paramSpeak.png" max-width="900" caption="Speak 노드 설정" %}
+{% include image.html file="chatflow/Chatflow_speak_paramSpeak.png"  caption="Speak 노드 설정" %}
 
 #### 테스트
 
 '변수값 표시' 시나리오를 테스트해 보면 Speak 노드에 입력된 메시시 중에 변수처리 된 부분은 #{name} 은 입력 받은 값이 치환되어 다음과 같은 결과가 나오게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_speak_paramTest.png" max-width="900" caption="변수값 표시 테스트 결과" %}
+{% include image.html file="chatflow/Chatflow_speak_paramTest.png"  caption="변수값 표시 테스트 결과" %}
