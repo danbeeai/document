@@ -64,8 +64,8 @@ IT시스템 운영자는 시스템에 숨어있는 버그, 개선사항에 대�
 {% include image_border.html file="tutorial\sample_fabre\fabre_04_bug.PNG" caption="파브르는 이미지도 받을 수 있습니다." %}
 
 #### 3. 접수 끝
-버그 제보 사항이 잘 접수되었다고 알림이 옵니다.
-제보자는 자신이 등록한 내용이 잘 접수되었다는 것을 쉽게 알 수 있습니다.
+버그 제보 사항이 잘 접수되었다고 이야기를 해줍니다.
+제보자는 자신이 등록한 내용이 잘 접수되었다는 것을 이메일을 통해 쉽게 알 수 있습니다.
 {% include image_border.html file="tutorial\sample_fabre\fabre_05_mail.PNG" caption="파브르이름으로 접수자에게 메일을 보내줍니다." %}
 
 IT시스템운영팀 Slack에 메시지가 도착합니다.
@@ -94,7 +94,7 @@ IT시스템운영팀 Slack에 메시지가 도착합니다.
 danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
-danbee.Ai에서도 파브르가 일하고 있습니다.
+현재 danbee.Ai에서도 파브르가 일하고 있습니다.
 {% include image_border.html file="tutorial\sample_fabre\fabre_08_fabre_at_danbee.PNG" caption="파브르의 메인 Chatflow, 버그 접수" %}
 
 
