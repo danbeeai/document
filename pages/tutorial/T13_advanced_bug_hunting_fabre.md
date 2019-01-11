@@ -16,7 +16,7 @@ previous: {
 시스템을 운영하고 계신가요? 시스템에 바로 적용할 수 있는 파브르를 만나보시죠.
 
 
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[버그채집봇, 파브르를 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5){:target="_blank"}</span><br/>
+<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[버그채집봇, 파브르를 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=4064be4c-a3d1-4663-aa2e-ca9d2d852518){:target="_blank"}</span><br/>
 
 {% include image.html file="tutorial\sample_fabre\fabre_01_welcome.PNG" caption="Frogue에서 만나는 파브르" %}
 
