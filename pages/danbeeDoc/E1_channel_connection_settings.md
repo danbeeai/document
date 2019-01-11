@@ -1,5 +1,6 @@
 ---
-title: 챗봇 채널 연계 설정 
+
+title: 연결 가능한 대화 채널
 tags: [channel, basic]
 keywords: Basic Conversation
 summary: 원하는 채팅창, 메신저 플랫폼과 연결하는 방법을 소개합니다.
@@ -16,59 +17,39 @@ next: {
 }
 ---
 
-<div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">danbee.Ai 자체 채널</h2>
-        간단한 설정으로 원하는 danbee.Ai 제공하는 채널 플랫폼에 연결할 수 있습니다.<br/>
-    </div>
-    <div class="col-lg-12"><br/></div>
-    <div class="col-md-6 col-sm-6">
-        <div class="panel panel-default text-center">
-            <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_danbee.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
-            </div>
-            <div class="panel-body">
-                <h4>danbee.Frogue</h4>
-                <p>danbee.Ai에서 제공하는 웹채팅창에 연결하는 방법</p>
-                <a href="channel_frogu.html" class="btn btn-primary">자세히</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-sm-6">
-        <div class="panel panel-default text-center">
-            <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fa fa-comments fa-stack-1x fa-inverse"></i>
-                </span>
-            </div>
-            <div class="panel-body">
-                <h4>Native App</h4>
-                <p>직접만든 App이나 Web에 연결하는 방법</p>
-                <a href="channel_native_app.html" class="btn btn-primary">자세히</a>
-            </div>
-        </div>
-    </div>
-</div>
+danbee.Ai로 만든 대화모델, 챗봇은 어떤 대화채널이든 연결 가능합니다.
 
-<div class="row">
-    <div class="col-lg-12">
-        <h2 class="page-header">연계 설정 가능한 외부 채널 목록</h2>
-        간단한 설정으로 원하는 메신저와 연결하세요.<br/>
-    </div>
-    <div class="col-lg-12"><br/></div>
+바로 사용하실 수 있는 웹 채팅창 Frogue, 음성인식/합성 기술과 연계하거나 다른 서비스와 연계할 수 있는 개발자를 위한 Native API.
+그리고 국내외 많은 사람들이 이용하고 있는 메신저 플랫폼과 연계가능합니다.
+
+
+## danbee.Ai 자체 채널, Frogue(프로그)
+
+{% include image.html file="channel/c_frogue.png" max-width="200" caption="챗봇 전용 웹채팅창 Frogue by danbee.Ai" %}
+
+danbee.Ai에서 제공하는 챗봇 전용 채팅창 frogue를 여러분의 웹사이트에 바로 적용하세요!
+[프로그 자세히 보기](channel_frogu.html)
+
+## 개발자를 위한 Native API
+
+{% include image.html file="channel/c_danbee.png" max-width="200" caption="대화서비스와 연계할 수 있는 API by danbee.Ai" %}
+
+API를 활용해 자유롭게 챗봇, 음성봇 등 여러분이 상상하는 어떤 대화형 서비스라도 만들 수 있습니다.
+[Native App API 자세히 보기](channel_native_app.html)
+
+## 메신저 플랫폼 연동
+
+
+
+<div class="row" class="channel_gate">
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_facebook.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
+                <img src="https://danbee.Ai/platform/img/channel/c_facebook.png" />
             </div>
             <div class="panel-body">
-                <h4>페이스북</h4>
-                <p>페이스북 메신저에 연결하는 방법</p>
+                <h5>페이스북</h5>
+                <p>Facebook 페이지에 방문한 고객에게 챗봇이 대응합니다!</p><br />
                 <a href="channel_facebook.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -76,13 +57,11 @@ next: {
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_line.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
+                <img src="https://danbee.Ai/platform/img/channel/c_line.png" />
             </div>
             <div class="panel-body">
-                <h4>네이버 라인</h4>
-                <p>네이버 라인 메신저에 연결하는 방법</p>
+                <h5>네이버 라인</h5>
+                <p>글로벌 메신저, 라인에 챗봇을 연동해보세요. </p><br />
                 <a href="channel_line.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -90,13 +69,11 @@ next: {
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_telegram.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
+                <img src="https://danbee.Ai/platform/img/channel/c_telegram.png" />
             </div>
             <div class="panel-body">
-                <h4>텔레그램</h4>
-                <p>텔레그램 메신저에 연결하는 방법</p>
+                <h5>텔레그램</h5>
+                <p>글로벌 메신저, 텔레그램에 챗봇을 연동해 보세요.</p><br />
                 <a href="channel_telegram.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -104,13 +81,11 @@ next: {
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_kakaotalk.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
+                <img src="https://danbee.Ai/platform/img/channel/c_kakaotalk.png" />
             </div>
             <div class="panel-body">
-                <h4>카카오톡</h4>
-                <p>카카오톡 메신저에 연결하는 방법</p>
+                <h5>카카오톡</h5>
+                <p>2018년 11월 30일까지 생성된 플러스친구 계정에 연결가능합니다.</p><br />
                 <a href="channel_kakaotalk.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -118,13 +93,11 @@ next: {
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_naver_talktalk.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
+                <img src="https://danbee.Ai/platform/img/channel/c_naver_talktalk.png" />
             </div>
             <div class="panel-body">
-                <h4>네이버톡톡</h4>
-                <p>네이버톡톡 메신저에 연결하는 방법</p>
+                <h5>네이버톡톡</h5>
+                <p>네이버톡톡으로 자주 물어보는 고객에게 자동으로 답변하세요!</p><br />
                 <a href="channel_navertalk.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
@@ -132,19 +105,17 @@ next: {
     <div class="col-md-4 col-sm-6">
         <div class="panel panel-default text-center">
             <div class="panel-heading">
-                <span class="fa-stack fa-5x">
-                    <img src="https://danbee.Ai/platform/img/channel/c_slack.png" style="max-width:100%;max-height:100%;margin: 0px 0px 22px 0px;" />
-                </span>
+                <img src="https://danbee.Ai/platform/img/channel/c_slack.png" />
             </div>
             <div class="panel-body">
-                <h4>Slack</h4>
-                <p>Slack 메신저에 연결하는 방법</p>
+                <h5>Slack</h5>
+                <p>업무용 챗봇을 만들어 팀원들과 함께 사용해보세요.</p><br />
                 <a href="channel_slack.html" class="btn btn-primary">자세히</a>
             </div>
         </div>
     </div>
 </div>
-
+<br />
 ## 채널 별 제약사항
 채널 별로 환경이 다르기 때문에 몇 가지 제약사항이 존재합니다.
 
