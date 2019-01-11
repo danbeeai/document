@@ -51,7 +51,7 @@ danbee.Ai에서는 가장 많이 사용되는 GET과 POST를 제공합니다.
  - 메서드 : GET, POST 메소드를 선택합니다. 
  - Request URL : 등록 요청할 API의 URL을 입력합니다. <br/>
     예시 ) http://api.openweathermap.org/data/2.5/weather   
-{% include image.html file="external_API/api_enroll_method2.png" max-width="900" caption="API메서드, Request URL, API설명" %} 
+{% include image.html file="external_API/api_enroll_method2.png"  caption="API메서드, Request URL, API설명" %} 
 
 
 #### API 등록시 주의사항    
@@ -82,14 +82,14 @@ Header에는 여러가지 정보를 담을 수 있습니다.
 Content-Type도 그중 하나로써, 서버로 보내는 정보의 유형을 의미하며 다음과 같은 형식을 지원합니다.<br/>
 - JSON : 'application/json' 가장 일반적인 JSON 형식
 - XML  : 'application/xml', 'text/xml' 두 가지 방식을 지원하며 사용하려는 API에서 정의된 형식을 선택하시면 됩니다.
-{% include image.html file="external_API/02_api_manage_c_header.png" max-width="900" caption="Header와 Content-Type" %} 
+{% include image.html file="external_API/02_api_manage_c_header.png"  caption="Header와 Content-Type" %} 
 
 #### Query Parameter / Path Parameter
 API URL에 Parameter를 실어 보내는 방법으로 Query Parameter 방식과 Path Parameter 방식을 제공합니다.
 'http://apiurl/api'이라는 API URL이 있을 때 'name'이란 변수명으로 'value'란 값을 보낼 때
 Query Parameter는 아래와 같이 '?'뒤에 추가되어 호출하게 됩니다.<br/>
 <pre><code>http://apiurl/api?name=value</code></pre><br/>
-{% include image.html file="external_API/02_api_manage_c_parameter.png" max-width="900" caption="Query Parameter" %}
+{% include image.html file="external_API/02_api_manage_c_parameter.png"  caption="Query Parameter" %}
 API자체에 고정된 Query Parameter가 있거나, 개발경험이 많아 직접 URL에 적용하는 것이 편하다면, 이 기능을 사용하지 않고 직접 URL에 입력해도 무방합니다.
 
 
@@ -99,7 +99,7 @@ Path Parameter는<br/>
 danbee.Ai에서는 Path Parameter 기능을 값 치환 방법으로 제공합니다.<br/>
 즉 아래와 같이 API URL에 '{name}' 과 같이 중괄호로 둘러싼 Path Parameter의 Name을 등록되어있는 Value로 치환합니다.
 [주의] Chatflow에서 사용하는 양식인 '#{name}'이 아닌 '{name}'으로 사용해야 합니다.
-{% include image.html file="external_API/05_api_manage_path_param.png" max-width="900" caption="Path Parameter" %}
+{% include image.html file="external_API/05_api_manage_path_param.png"  caption="Path Parameter" %}
 
 두 가지 방식(Query Parameter와 Path Parameter)은 혼용하여 사용 가능합니다.<br/>
 
@@ -118,7 +118,7 @@ Response API Tree에서 API 적용 실행 결과를 확인할 수 있습니다.
 #### Response API Tree
 실행 성공시, Response API Tree에서 Tree 형태의 데이터가 조회됩니다.<br/>
 API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니다. 실패시 아무런 데이터가 조회되지 않습니다.
-{% include image.html file="external_API/02_api_manage_c_response_tree.png" max-width="900" caption="Response API Tree 예시" %}
+{% include image.html file="external_API/02_api_manage_c_response_tree.png"  caption="Response API Tree 예시" %}
 {% include note.html content="이제 배열과 JSON 객체를 원하는 Parameter에 담아 사용할 수 있습니다." %}
 - 자세한 사항은 [API 노드](chatflow_api.html#응답-parameter-와-출력-parameters) 에서 확인해 주세요.
 
@@ -132,8 +132,8 @@ API 정보 정상 입력 후 **저장** 버튼을 클릭해, API 등록 정보�
 
 ### API 조회 
 API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습니다. 해당 목록에서는 등록한 API 이름으로 검색이 가능합니다.
-{% include image.html file="external_API/03_api_manage_r_list.png" max-width="900" caption="API 조회" %}  
+{% include image.html file="external_API/03_api_manage_r_list.png"  caption="API 조회" %}  
 
 ## API 사용
 등록된  API는 chatflow 설계의 API 노드에서 조회 및 사용 가능 합니다.
-{% include image.html file="external_API/cf_api_node.PNG" max-width="900" caption="API 노드에서의 기등록 API 예시" %} 
+{% include image.html file="external_API/cf_api_node.PNG"  caption="API 노드에서의 기등록 API 예시" %} 

@@ -25,14 +25,14 @@ next: {
 
 최초 로그인을 하게 되면, 아래와 같이 챗봇이 하나도 없는 상태입니다.
 
-{% include image.html file="chatbot_create\01_no_chatbot.PNG" max-width="900" caption="챗봇이 없는 상태" %}
+{% include image.html file="chatbot_create\01_no_chatbot.PNG"  caption="챗봇이 없는 상태" %}
 
 1) 안내화면 가운데 또는 좌측 메뉴에 있는 ***"Chatbot 생성"*** 버튼을 클릭하여 아래와 같은 화면을 열어주세요.
 
-{% include image.html file="chatbot_create\02_chatbot_create.PNG" max-width="900" caption="챗봇 생성 화면" %}
+{% include image.html file="chatbot_create\02_chatbot_create.PNG"  caption="챗봇 생성 화면" %}
 2) Chatbot의 이름을 정하고 ***"저장"*** 버튼을 클릭합니다. 설명은 입력하지 않아도 저장이 가능합니다.
 
-{% include image.html file="chatbot_create\03_chatbot_created.PNG" max-width="900" caption="챗봇이 생성된 모습" %}
+{% include image.html file="chatbot_create\03_chatbot_created.PNG"  caption="챗봇이 생성된 모습" %}
 3) 챗봇의 프로필이미지가 자동으로 생성되고 챗봇별로 관리되는 데이터가 보입니다.
  - [Intents](intent.html) : 챗봇이 추론할 수 있는 의도(Intent)의 개수
  - [Entities](entity.html): 챗봇이 추출할 수 있는 Entity종류 수
@@ -46,7 +46,7 @@ Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각
 
 ### 챗봇 기본정보 변경
 챗봇명 우측의 ***"설정"*** 버튼을 클릭하면, 아래와 같은 화면이 나타납니다.
-{% include image.html file="chatbot_create\04_chatbot_edit.PNG" max-width="900" caption="챗봇 기본정보 변경 화면" %}
+{% include image.html file="chatbot_create\04_chatbot_edit.PNG"  caption="챗봇 기본정보 변경 화면" %}
 ***"사진변경"*** 버튼을 눌러 프로필사진을 변경하거나 설명을 수정하고 우측 상단의 ***"저장"*** 버튼을 클릭하면 변경사항이 반영됩니다.
 
 
@@ -70,12 +70,12 @@ Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"Intent 생성
 "만남 인사"로 해석될 수 있는 표현은, "안녕" "반가워" "방가방가" "하이" 등이 될 수 있겠네요.
 
 
-{% include image.html file="chatbot_create\06_sample_sentence.gif" max-width="900" caption="인텐트별 예문 등록" %}
+{% include image.html file="chatbot_create\06_sample_sentence.gif"  caption="인텐트별 예문 등록" %}
 
 예문을 등록하고 나서는 우측 상단의 "저장" 버튼을 클릭하여 저장합니다.
 저장하고 나면, 바로 오른쪽 테스트 패널에서 테스트가 가능합니다.
 
-{% include image.html file="chatbot_create\07_intent_test.gif" max-width="900" caption="인텐트 분류 테스트" %}
+{% include image.html file="chatbot_create\07_intent_test.gif"  caption="인텐트 분류 테스트" %}
 
 "안녕" 이라고 테스트 해보면, Intent Candidate에 "만남 인사"로 100% 신뢰도로 추론된다는 결과가 나옵니다.
 예문에 "안녕"이라는 학습데이터가 100% 일치하기 때문입니다.
@@ -94,10 +94,10 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 
 메뉴를 클릭하면, 아래와 같은 화면이 나타납니다.
 
-{% include image.html file="chatbot_create\08_Chatflow_create.PNG" max-width="900" caption="챗플로우 생성" %}
+{% include image.html file="chatbot_create\08_Chatflow_create.PNG"  caption="챗플로우 생성" %}
 화면 중앙, 또는 우측상단에 있는 "Chatflow 생성" 버튼을 클릭합니다.
 
-{% include image.html file="chatbot_create\09_chatflow_name.PNG" max-width="900" caption="챗플로우 생성" %}
+{% include image.html file="chatbot_create\09_chatflow_name.PNG"  caption="챗플로우 생성" %}
 챗플로우의 이름은 자유롭게 설정이 가능하지만, Intent명과 동일하게 작성하는 것이 나중에 다시 찾을때 편리합니다.
 "만남 인사"로 정하도록 하겠습니다.
 
@@ -105,24 +105,24 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 만남인사로 인식되면, 답인사를 하는 간단한 흐름을 만들어 보겠습니다.
 아래와 같이 "Listen노드"와 "Speak노드"를 클릭하고 양쪽을 선으로 연결합니다.
 
-{% include image.html file="chatbot_create\10_listen_speak.gif" max-width="900" caption="노드 생성 및 연결" %}
+{% include image.html file="chatbot_create\10_listen_speak.gif"  caption="노드 생성 및 연결" %}
 
 노드는 대화상에서의 단계를 의미합니다. Listen노드는 대화상대의 의도를 인식하는 단계이고, Speak노드는 챗봇이 말하는 단계입니다.
 두 가지 노드가 가장 자주 사용되는 노드이며, 다른 노드들에 대한 설명은 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[여기](/chatflow.html)</span> 에서 더 자세히 설명해 놓았습니다.
 Listen노드를 더블클릭하여 대화흐름의 출발점이 되는 Intent를 정해줍니다.
 
-{% include image.html file="chatbot_create\11_listen_setup.gif" max-width="900" caption="Listen노드 설정" %}
+{% include image.html file="chatbot_create\11_listen_setup.gif"  caption="Listen노드 설정" %}
 
 인텐트가 설정되면, 추론을 위해 학습한 예문이 표시됩니다.
 
 이번에는 답변에 해당하는 Speak노드를 더블클릭하여 답변을 입력해보겠습니다.
-{% include image.html file="chatbot_create\12_speak_setup.gif" max-width="900" caption="Speak노드 설정" %}
+{% include image.html file="chatbot_create\12_speak_setup.gif"  caption="Speak노드 설정" %}
 
 Listen노드와 Speak노드가 만들어졌다면, 우측 상단의 저장버튼을 클릭하면 대화모델 하나가 완성된 것입니다.
 
 화면 우측의 Chatflow 테스트 패널에서 테스트를 해볼 수 있습니다.
 
-{% include image.html file="chatbot_create\13_chatflow_test.gif" max-width="900" caption="챗플로우 테스트" %}
+{% include image.html file="chatbot_create\13_chatflow_test.gif"  caption="챗플로우 테스트" %}
 
 
 ### 다음으로 할 일

@@ -31,7 +31,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 **요약 정보**
 
-{% include image.html file="log/nlu_log_01.png" max-width="900" caption="의도 추론 이력 페이지" %}
+{% include image.html file="log/nlu_log_01.png"  caption="의도 추론 이력 페이지" %}
 
 | 구분 |  설명 |
 |------|------|
@@ -42,7 +42,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 **상세 정보**
 
-{% include image.html file="log/nlu_log_02.png" max-width="900" caption="의도 추론 이력 상세" %}
+{% include image.html file="log/nlu_log_02.png"  caption="의도 추론 이력 상세" %}
 
 | 구분 |  설명 |
 |------|------|
@@ -65,25 +65,25 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 **일시** : 입력 문장이 들어온 시간 범위를 정하여 조회가 가능합니다.
 
-{% include image.html file="log/nlu_log_filter_01.png" max-width="900" caption="의도 추론 이력 상세" %}
+{% include image.html file="log/nlu_log_filter_01.png"  caption="의도 추론 이력 상세" %}
 
 시작 날짜와 마지막 날짜를 선택하시고 시간 범위를 지정해주시면 해당 범위내에 들어온 로그만 확인할 수 있습니다.
  <br/>
 
 **Intent** : 입력 문장이 어떤 Intent로 파악되었는지에 대하여 원하는 일부 Intent를 선택하여 조회가 가능합니다.
 
-{% include image.html file="log/nlu_log_filter_02_1.png" max-width="900" caption="Intent 선택 팝업" %}
+{% include image.html file="log/nlu_log_filter_02_1.png"  caption="Intent 선택 팝업" %}
 
 가운데 있는 조건을 선택하시면 위와 같이 Intent를 선택할 수 있는 팝업이 노출됩니다. 특정 Intent를 선택하고 싶으실 때는 '모든 Intent 선택' 체크 박스를 해제하고 원하는 Intent를 선택하시면 됩니다. Intent는 최대 10개까지 선택이 가능합니다.
 
-{% include image.html file="log/nlu_log_filter_02_2.png" max-width="900" caption="Intent 선택" %}
+{% include image.html file="log/nlu_log_filter_02_2.png"  caption="Intent 선택" %}
 
 선택한 Intent는 [선택된 Intent] 아래에서 확인할 수 있습니다.
  <br/>
 
 **대화 내용** : 입력 문장이 포함하고 단어 또는 어구로 조회가 가능합니다.
 
-{% include image.html file="log/nlu_log_filter_03.png" max-width="900" caption="의도 추론 이력 상세" %}
+{% include image.html file="log/nlu_log_filter_03.png"  caption="의도 추론 이력 상세" %}
 
 
 
@@ -95,11 +95,11 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 상세 조회 후 다음 정보로 추가적인 필터링이 가능합니다.
  <br/>
 
-{% include image.html file="log/nlu_log_filter_04.png" max-width="900" caption="의도 추론 필터 영역" %}
+{% include image.html file="log/nlu_log_filter_04.png"  caption="의도 추론 필터 영역" %}
 
 - Default Fallback 여부 : 봇이 어떤 Intent인지 파악하지 못한 문장을 포함할 것인가에 대한 여부를 선택합니다.
 
-{% include image.html file="log/nlu_log_filter_04_2.png" max-width="900" caption="Default Fallback만 보기" %}
+{% include image.html file="log/nlu_log_filter_04_2.png"  caption="Default Fallback만 보기" %}
 
 예를 들어 Default Fallback만 보면 해당 조회 조건 내에서 봇이 알아듣지 못한 문장만을 표시해줍니다.
 
@@ -107,19 +107,19 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 의도 추론 페이지를 보다 활용할 수 있도록 danbee.Ai에서는 문장을 Intent에 바로 추가할 수 있는 기능을 제공합니다. 문장을 기존 Intent에 추가에 추가하거나 혹은 새로운 Intent 생성하여 추가하실 수 있습니다.
 
-{% include image.html file="log/nlu_log_add_intent_01.png" max-width="900" caption="다른 Intent에 추가" %}
+{% include image.html file="log/nlu_log_add_intent_01.png"  caption="다른 Intent에 추가" %}
 
 위의 경우 '할롱'이라는 입력어가 어떤 의미인지 파악하지 못했으므로 해당 문장을 '안녕'아리는 Intent에 추가하려 합니다. 이때 이력 상세 우측 하단 [다른 Intent에 추가] 버튼을 누르면 등록되어 있는 Intent의 목록이 뜹니다. Intent 목록 중 원하는 Intent인 '안녕'을 선택하면 '할롱'이라는 문장이 '안녕'Intent 예문으로 즉시 등록되게 됩니다.
 
-{% include image.html file="log/nlu_log_add_intent_02.png" max-width="900" caption="추가한 Intent 확인" %}
+{% include image.html file="log/nlu_log_add_intent_02.png"  caption="추가한 Intent 확인" %}
 
 문장을 추가한 다음에는 상세 정보에서 해당 문장이 어디 추가되었는지를 확인할 수 있습니다.
 
-{% include image.html file="log/nlu_log_add_intent_03.png" max-width="900" caption="새 Intent로 추가" %}
+{% include image.html file="log/nlu_log_add_intent_03.png"  caption="새 Intent로 추가" %}
 
 만약 분류할만한 Intent가 없다면 바로 새로운 Intent를 생성하여 예문으로 추가가 가능합니다.
 
-{% include image.html file="log/nlu_log_add_intent_04.png" max-width="900" caption="Multi Intent에 즉시 추가" %}
+{% include image.html file="log/nlu_log_add_intent_04.png"  caption="Multi Intent에 즉시 추가" %}
 
 마지막으로 해당 문장이 여러 Intent로 파악될 경우 최우측의 [+]버튼을 누르면 파악된 Intent에 예문으로 즉시 추가가 됩니다.
 
@@ -132,7 +132,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 **요약 정보**
 
-{% include image.html file="log/chatflow_log_01.png" max-width="900" caption="대화흐름 이력 요약" %}
+{% include image.html file="log/chatflow_log_01.png"  caption="대화흐름 이력 요약" %}
 
 | 구분 |  설명 |
 |------|------|
@@ -147,7 +147,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 **상세 정보**
 
-{% include image.html file="log/chatflow_log_02.png" max-width="900" caption="대화흐름 이력 상세" %}
+{% include image.html file="log/chatflow_log_02.png"  caption="대화흐름 이력 상세" %}
 
 | 구분 |  설명 |
 |------|------|
@@ -174,7 +174,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 상세 조회 후 다음 정보로 추가적인 필터링이 가능합니다.
 
-{% include image.html file="log/chatflow_log_filter.png" max-width="900" caption="대화흐름 필터 영역" %}
+{% include image.html file="log/chatflow_log_filter.png"  caption="대화흐름 필터 영역" %}
 
 - Default Fallback 여부 : 봇이 어떤 Intent인지 파악하지 못하거나 헷갈려한 대화를 포함하는가의 여부를 선택합니다.
 - 부정 포함 여부 : 부정적인 답변이 포함되었는가의 여부를 선택합니다. 부정만 선택시 감성 분석 결과가 '부정'인 대화 이력들만 조회됩니다.
