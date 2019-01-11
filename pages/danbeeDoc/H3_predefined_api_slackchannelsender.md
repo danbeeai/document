@@ -29,6 +29,9 @@ danbee.Ai에서 제공하는 여러가지 API 중 슬랙(Slack)의 특정채널�
 | channel | String | Yes | 슬랙(Slack)의 채널 아이디 |
 | username | String | Yes | 보내는 사람이름 ( 예 : 단비 ) |
 | text | String | Yes | 메시지 내용 |
+| imageurl | String | No | 전송 이미지 |
+| iconurl | String | No | 아이콘 이미지 |
+
 
 ## API 사용을 위한 값
 
