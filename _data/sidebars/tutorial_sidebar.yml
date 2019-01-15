@@ -61,6 +61,9 @@ entries:
     - title: 11. 의사결정나무봇, 디트 살펴보기
       url: /advanced_decision_tree_bot.html
       output: web
+    - title: 12. 버그채집봇, 파브르 살펴보기
+      url: /advanced_bug_hunting_fabre.html
+      output: web
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web

@@ -42,13 +42,13 @@ danbee.Ai를 이용하려면 먼저 <span class="link"><i class="fa fa-external-
 ### Intent 생성
 1) ***”Intent 생성”*** 버튼을 클릭하여 Intent 생성 페이지로 이동해주세요.
 
-{% include image.html file="tutorial/basic01_empty_intent.png" max-width="900" caption="Intent 없는 상태" %}
+{% include image.html file="tutorial/basic01_empty_intent.png"  caption="Intent 없는 상태" %}
 
 2) 상단의 Intent명 입력란에 ***”피자주문하기”***과 같이 Intent명을 적어주세요. 챗봇의 완성도가 높아질수록 Intent 수가 많아지므로 명확히 구분할 수 있고, 검색하기 쉽게 정의하는 것이 좋습니다.
 
 3) ***“피자 주문해줘”***와 같이 피자주문 Intent로 연결될 수 있는 예문을 1개 이상 필수로 등록해야 합니다. 예문은 여러 Intent들과 중복되지 않으면서 구체적으로 적어주는 것이 좋습니다. 사용자가 입력한 말과 예문을 비교하여 가장 비슷한 Intent로 연결하기 때문에 응답의 정확도를 높이기 위해서는 예문을 적절하게 정의하는 것이 매우 중요합니다.
 
-{% include image.html file="tutorial/basic01_create_intent.png" max-width="900" caption="Intent명과 예문 입력된 모습" %}
+{% include image.html file="tutorial/basic01_create_intent.png"  caption="Intent명과 예문 입력된 모습" %}
 
 4) Intent 명과 예문을 입력하였으면 ***“저장”*** 버튼을 클릭하여 Intent를 생성합니다. 그 외의 Intent 설정 항목에 관해서는 document의 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[의도관리](/intent.html)</span>를 보시면 더욱 자세히 알 수 있습니다.
 
@@ -57,7 +57,7 @@ danbee.Ai를 이용하려면 먼저 <span class="link"><i class="fa fa-external-
 우측의 테스트 패널에서 저장한 Intent가 제대로 동작하는지 테스트 해볼 수 있습니다.
 NLU Intent 탭에서 “피자 주문해줘” 예문을 입력해보면 Intent가 “피자주문하기”으로 조회되는 것을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/basic01_test_intent.png" max-width="900" caption="테스트패널에서 Intent 테스트" %}
+{% include image.html file="tutorial/basic01_test_intent.png"  caption="테스트패널에서 Intent 테스트" %}
 
 
 ## 다음 Step에서는

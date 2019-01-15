@@ -96,7 +96,7 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 #### 메인 메뉴
 **메인 메뉴**는 **최대 3개**까지 설정이 가능하나 **'시작하기'** 및 **'danbee.Ai로 만든 봇'** 메뉴는 변경할 수 없습니다.<br/>
 
-{% include image.html file="channel/facebook/facebook_menu_setting_01.png" max-width="900" caption="Facebook 메인 메뉴 설정" %} 
+{% include image.html file="channel/facebook/facebook_menu_setting_01.png"  caption="Facebook 메인 메뉴 설정" %} 
 
 메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 챗플로우 호출, 서브메뉴가 존재합니다.
 
@@ -110,13 +110,13 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 
 #### 서브 메뉴
 
-{% include image.html file="channel/facebook/facebook_menu_setting_02.png" max-width="900" caption="Facebook 서브 메뉴 설정" %} 
+{% include image.html file="channel/facebook/facebook_menu_setting_02.png"  caption="Facebook 서브 메뉴 설정" %} 
 
 메뉴 옵션에서 서브메뉴를 선택 시 'Edit Submenu'를 클릭하면 하위 메뉴를 설정할 수 있습니다. 서브 메뉴는 최대 2레벨, 각 레벨당 최대 5개의 메뉴를 지원합니다. 1레벨 서브 메뉴는 메인 메뉴와 동일한 옵션을 제공하며 2레벨 서브 메뉴는 서브메뉴 옵션을 제외한 나머지 옵션을 지원합니다.<br/>
 
 메뉴를 설정한 뒤 [연결]버튼을 누르면 해당 메뉴가 자동으로 Facebook Messanger에 세팅됩니다.
 
-{% include image.html file="channel/facebook/facebook_menu_setting_03.png" max-width="900" caption="Facebook Messenger 고정 메뉴 확인" %}
+{% include image.html file="channel/facebook/facebook_menu_setting_03.png"  caption="Facebook Messenger 고정 메뉴 확인" %}
 
 {% include warning.html content="메뉴 적용 여부 확인 시 Facebook Messanger 대화창이 켜져있다면 나갔다 다시 접속해야 변경 사항을 확인할 수 있습니다." %}
 

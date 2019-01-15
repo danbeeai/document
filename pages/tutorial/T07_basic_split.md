@@ -31,14 +31,14 @@ Split Node는 하나의 Chatflow 안에서 대화흐름을 여러 갈래로 나�
 
 3) ***Listen Node > Carousel Node > Split Node > Speak Node*** 순으로 선을 연결시켜주세요. ***Split Node는 상세 설정을 하기 전에 다음으로 넘어갈 노드들을 먼저 연결시켜주어야 합니다.*** Speak Node가 아닌 다른 노드들도 모두 연결이 가능합니다.
 
-{% include image.html file="tutorial/basic06_create_split.png" max-width="900" caption="Split Node 연결된 상태" %}
+{% include image.html file="tutorial/basic06_create_split.png"  caption="Split Node 연결된 상태" %}
 
 4) Split Node를 더블 클릭하여 상세 화면으로 이동해주세요.
 
 #### 조건 설정
 1) ***기본조건***은 구체적인 조건이 없거나 다른 조건이 맞지 않는 경우 기본적으로 연결할 Node를 선택하는 것입니다. 이번에 만들 Split Node는 기본조건이 없으므로 ***"기본조건 사용안함”***으로 선택해주세요.
 
-{% include image.html file="tutorial/basic06_default_condition.png" max-width="900" caption="Split Node 기본조건" %}
+{% include image.html file="tutorial/basic06_default_condition.png"  caption="Split Node 기본조건" %}
 
 2) 하단의 ***"조건추가”*** 버튼을 클릭하여 조건을 추가해주세요.
 
@@ -46,19 +46,19 @@ Split Node는 하나의 Chatflow 안에서 대화흐름을 여러 갈래로 나�
 
 4) 마찬가지로 조건을 추가하여 쉬림프와 치즈 조건을 입력해주세요.
 
-{% include image.html file="tutorial/basic06_add_condition.png" max-width="900" caption="Split Node 조건 추가" %}
+{% include image.html file="tutorial/basic06_add_condition.png"  caption="Split Node 조건 추가" %}
 
 5) 우측 하단의 ***“확인”*** 버튼을 클릭하여 Split Node 상세 화면을 닫아주세요.
 
 6) 이제 3개의 Speak Node 상세 화면으로 이동하여 각각 다른 메시지와 이미지를 입력해주세요.
 
-{% include image.html file="tutorial/basic06_speak_pepperoni2.png" max-width="900" caption="페퍼로니주문 Speak Node 메시지" %}
-{% include image.html file="tutorial/basic06_speak_shrimp2.png" max-width="900" caption="쉬림프주문 Speak Node 메시지" %}
-{% include image.html file="tutorial/basic06_speak_cheese2.png" max-width="900" caption="치즈주문 Speak Node 메시지" %}
+{% include image.html file="tutorial/basic06_speak_pepperoni2.png"  caption="페퍼로니주문 Speak Node 메시지" %}
+{% include image.html file="tutorial/basic06_speak_shrimp2.png"  caption="쉬림프주문 Speak Node 메시지" %}
+{% include image.html file="tutorial/basic06_speak_cheese2.png"  caption="치즈주문 Speak Node 메시지" %}
 
 7) ***“Chatflow 저장”*** 버튼을 클릭한 후 우측의 테스트 패널에서 ***"페퍼로니 피자 주문해줘”, “쉬림프 피자 주문해줘”***와 같이 다른 메뉴를 입력하면 각각 다른 메시지가 나타나는 것을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/basic06_test_split2.png" max-width="900" caption="Split Node 테스트" %}
+{% include image.html file="tutorial/basic06_test_split2.png"  caption="Split Node 테스트" %}
 
 
 ## 다음 Step에서는
