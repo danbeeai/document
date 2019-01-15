@@ -183,9 +183,9 @@ Chatflow를 선택하면 답변을 내보내기 위해 해당 Intent와 연결�
 #### Intent ID
 필요에 따라 임의로 Intent ID를 지정할 수 있습니다. 단, Intent ID는 한 챗봇 내에서 유일해야 하며 공백으로 둘 경우 자동적으로 시스템 ID가 적용됩니다.
 
-## 의도(Intent) 업로드/다운로드
+## 의도(Intent) 업로드
 
-danbee.Ai는 편의 기능의 일종으로 Intent 업로드/다운로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+danbee.Ai는 편의 기능의 일종으로 Intent 업로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
@@ -270,19 +270,3 @@ Parameter명,@Entity명
 
 샘플 파일을 다운로드 받으셔서 해당 파일을 업로드 해서 결과를 확인해보세요.
 
-### 다운로드
-생성한 Intent를 CSV 파일로 다운로드 받으실 수 있습니다. danbee.Ai는 챗봇 별 전체 Intent 다운로드 기능과 Intent 별 단건 다운로드 기능을 제공하고 있습니다.
-
-#### 단건 다운로드
-{% include callout.html content="버튼 위치 : [자연어이해(NLU)] > [의도 추론(Intent)] > 특정 Intent 선택 > [더보기] > [Intent 다운]" type="default" %}
-
-단건 다운로드 시 하나의 Intent에 관한 정보가 CSV 파일로 저장됩니다.
-
-
-
-#### 다건 다운로드
-{% include callout.html content="버튼 위치 : [자연어이해(NLU)] > [의도 추론(Intent)] > [더보기] > [Intent 다운]" type="default" %}
-
-다건 다운로드 시 챗봇 전체 Intent가 CSV 파일로 저장되며 zip 파일로 압축되어 제공됩니다.
-
-{% include warning.html content="유니코드가 깨질 수 있기 때문에 압축을 풀때는 알집 8버전 이상, 혹은 다른 압축해제 프로그램 사용을 권장 합니다." %}
