@@ -338,7 +338,22 @@ div#toc_side ul ul ul {
     padding-top: 0;
     margin-bottom: 24px;
 }
-
+.post-content .danbee-slider{
+    width:300px;
+    margin:0 auto;
+}
+.post-content .danbee-slider img{
+    margin:0;
+}
+.post-content .danbee-slider ul.slides li{
+    border:1px solid #ccc;
+}
+.post-content .danbee-slider .flex-control-paging{
+    bottom:0px;
+}
+.post-content .danbee-slider .flex-control-paging li{
+    margin:0 5px;
+}
 .post-content .alert {
     border-radius:0;
     margin-bottom:40px;
