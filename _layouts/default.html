@@ -107,8 +107,21 @@
 <!-- /#main -->
     </div>
 
-</body>
+<script>
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "fade",
+            directionNav: true,
+            slideshowSpeed: 5000,
+            animationSpeed: 600,
+            touch: true
+        });
+    });
+</script>
+
 {% if site.google_analytics %}
 {% include google_analytics.html %}
 {% endif %}
+</body>
+
 </html>
