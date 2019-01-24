@@ -104,6 +104,10 @@ entries:
       url: /log.html
       output: web, pdf
 
+    - title: 대시보드
+      url: /dashboard.html
+      output: web, pdf
+
     - title: 테스트 패널 및 시뮬레이션
       url: /demo_n_test_panel.html
       output: web, pdf

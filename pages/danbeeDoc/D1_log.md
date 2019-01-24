@@ -11,8 +11,8 @@ previous: {
     url: settings_nlu.html
 }
 next: {
-    title: 테스트 패널 및 시뮬레이션,
-    url: demo_n_test_panel.html
+    title: 대시보드,
+    url: dashboard.html
 }
 ---
 

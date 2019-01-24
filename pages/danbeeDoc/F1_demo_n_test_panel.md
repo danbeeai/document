@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: demo_n_test_panel.html
 folder: danbeeDoc
 previous: {
-    title: 대화 이력 관리,
-    url: log.html
+    title: 대시보드,
+    url: dashboard.html
 }
 next: {
     title: 챗봇 채널 연계 설정,
