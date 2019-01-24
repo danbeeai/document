@@ -39,6 +39,9 @@ entries:
     - title: 안양대학교, 대학학사지원챗봇 아리봇
       url: /casestudy_008_aribot.html
       output: web
+    - title: 민병철교육그룹, 유봇
+      url: /casestudy_009_ubot.html
+      output: web
     - title: LG CNS, 마곡이
       url: /casestudy_010_magoki.html
       output: web
@@ -52,6 +55,3 @@ entries:
       url: /casestudy_004_mike.html
       output: web
     
-#    - title: 민병철교육그룹, 유봇
-#      url: /casestudy_009_ubot.html
-#      output: web
