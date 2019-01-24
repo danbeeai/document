@@ -6,6 +6,14 @@ summary:  단 한번 뿐인 첫 만남, 첫 인상, Welcome Message를 어떻게
 sidebar: blog_sidebar
 permalink: blog_002_UX01_welcome.html
 folder: blog
+previous: {
+    title: HCI의 흐름에서 보는 챗봇의 미래,
+    url: blog_000_landing.html
+}
+next: {
+    title: 챗봇UX 2편, 챗봇 설계 UX 프로세스,
+    url: blog_003_UX02_chatbot_ux_process.html
+}
 ---
 
 ## 단 한번뿐인 첫 만남, 첫 인상

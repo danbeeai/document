@@ -6,6 +6,10 @@ summary:  챗봇이 잘될 수 밖에 없는 근본적인 이유에 대해 역�
 sidebar: blog_sidebar
 permalink: blog_000_landing.html
 folder: blog
+next: {
+    title: 챗봇UX 1편, Welcome Message,
+    url: blog_002_UX01_welcome.html
+}
 ---
 
 ## 챗봇 적용했더니 괜찮아?
