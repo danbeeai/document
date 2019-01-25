@@ -6,6 +6,16 @@ summary: 사용자가 대화를 지속적으로 할 수 있는 팁을 드립니�
 sidebar: blog_sidebar
 permalink: blog_004_UX03_continue_fallback.html
 folder: blog
+
+previous: {
+    title: 챗봇UX 2편, 챗봇 설계 UX 프로세스,
+    url: blog_003_UX02_chatbot_ux_process.html
+}
+next: {
+    title: 챗봇UX 4편, 챗봇이 다른 서비스와 다른 점, 페르소나,
+    url: blog_005_UX04_persona.html
+}
+
 ---
 
 챗봇시대를 함께 열어가는 여러분, 안녕하세요!
