@@ -6,6 +6,7 @@ summary: 챗봇에게 페르소나를 부여하세요!
 sidebar: blog_sidebar
 permalink: blog_005_UX04_persona.html
 folder: blog
+
 previous: {
     title: 챗봇UX 3편, 지속적인 대화를 위한 3가지 UX요소와 7가지 폴백메시지 유형,
     url: blog_004_UX03_continue_fallback.html
