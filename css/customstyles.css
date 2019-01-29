@@ -1128,11 +1128,18 @@ h4.panel-title {
     #search-demo-container input#search-input{
         margin: 0;
         width: 100%;
+        position: relative;
+        top: 4px;
     }
     .navbar-nav>li>a {
 
     }
     .collapse.in{
         display:block !important;
+        min-height: 280px;
+    }
+    #search-demo-container ul#results-container{
+        top: 44px;
+        left: 10px;
     }
 }
