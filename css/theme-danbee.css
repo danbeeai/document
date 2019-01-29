@@ -313,6 +313,7 @@ div#toc_side ul ul ul {
 .post-content h5{
     font-size:16px;
     font-weight:bold;
+    margin-top: 24px;
 }
 .post-content .link{
   color:#395168;
@@ -447,6 +448,13 @@ div#toc_side ul ul ul {
 .post-content ul.posts--previous-next li a.anchorjs-link {
     display:none;
 }
+
+.post-content .code-sample{
+    padding:10px;
+    font-size:14px;
+    font-family: Menlo,Monaco,Consolas,"Courier New", dotum, gulim, monospace;
+}
+
 /*-- footer --*/
 footer {
     font-size:12px;
