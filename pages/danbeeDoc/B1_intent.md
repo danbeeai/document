@@ -49,7 +49,7 @@ next: {
 
 특정 Entity를 선택하면 창은 닫히고 예문 아래 Parameter가 추가됩니다. Intent를 저장하면 Parameter를 지정한 영역의 색이 바뀌는 것을 확인할 수 있습니다.<br/>
 
-이렇게 예문을 등록했을때 어떻게 정보가 추출되는지 확인하고 싶다면 우측에 있는 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[테스트 패널](demo_n_test_panel.html#테스트-패널)</span>을 활용할 수 있습니다. NLU Intent 테스트 패널에 등록한 예문과 동일한 패턴의 문장을 입력합니다.
+이렇게 예문을 등록했을때 어떻게 정보가 추출되는지 확인하고 싶다면 우측에 있는 <span class="link">[테스트 패널](demo_n_test_panel.html#테스트-패널)</span>을 활용할 수 있습니다. NLU Intent 테스트 패널에 등록한 예문과 동일한 패턴의 문장을 입력합니다.
 
 {% include image.html file="intent/Intent_sentence_parameter_03.png"  caption="문장에서 추출되는 정보 확인" %}
 
@@ -118,7 +118,7 @@ danbee.Ai에서는 다음과 같은 특수한 Parameter를 제공하고 있습�
 
 Intent에 위 Parameter들을 추가해두고  **감성분석 및 감성정보 Parameter 공유 설정**을 하시면 해당 특수 Parameter를 사용할 수 있습니다. 해당 Parameter들을 통해 대화흐름 속에서 사용자의 감성을 분석하여 긍정, 부정, 중립에 대한 정도를 수치로 제공받을 수 있습니다.<br/>
 
-Parameter의 자세한 활용법은 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다.
+Parameter의 자세한 활용법은 <span class="link">[대화 흐름 설명 페이지](chatflow.html)</span>에서 확인하실 수 있습니다.
 
 
 ### Intent 속성

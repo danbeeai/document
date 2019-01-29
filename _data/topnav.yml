@@ -8,9 +8,11 @@ topnav:
 
     - title: Blog
       url: /blog_000_landing.html
+    - title: Case Study
+      url: /casestudy_000_landing.html
     - title: FAQ
       url: /faq_00_gateway.html
-    - title: Document
+    - title: Manual
       url: /index.html
     - title: Tutorial
       url: /samplebot.html

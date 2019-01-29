@@ -40,7 +40,7 @@ danbee.Ai에서 제공하는 여러가지 API 중 슬랙(Slack)의 특정채널�
 . 가이드 : https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens
 
 1. 먼저 슬랙에 접속을 하여 로그인을 합니다. ( https://워크스페이스-workspace.slack.com )
-2. 로그인 한 계정으로 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[토큰 생성 페이지](https://api.slack.com/custom-integrations/legacy-tokens){:target="_blank"}</span>로 이동합니다.
+2. 로그인 한 계정으로 <span class="link">[토큰 생성 페이지](https://api.slack.com/custom-integrations/legacy-tokens){:target="_blank"}</span>로 이동합니다.
 3. Legacy tokens 페이지의 "Legacy information" > "Legacy token generator" 섹션으로 이동합니다.
 4. 사용하고자 하는 워크스페이스(workspace) 의 사용자(User)로 "Create token" 버튼을 큭릭하여 토큰을 생성합니다.  
 5. 발급된 토큰을 API 의 token 입력값에 설정합니다.

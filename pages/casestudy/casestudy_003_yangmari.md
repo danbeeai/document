@@ -3,7 +3,7 @@ title: Case Study - danbee.Ai 자체 서비스, 혼밥추천 양마리
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: blog_sidebar
+sidebar: casestudy_sidebar
 permalink: casestudy_003_yangmari.html
 folder: blog
 ---
@@ -15,6 +15,9 @@ danbee.Ai를 이용하여 만들어진 혼밥추천 양마리는 1인 가구와 
 현재는 페이스북 메신저를 위주로 서비스를 제공하고 있으며, Line 메신저에서도 체험이 가능합니다.
 
 [적용사례 보러가기](https://www.facebook.com/shymarieyang/){:target=_blank}
+
+
+### 서비스 화면
 
 <div class="danbee-slider-container">
     <div class="flexslider danbee-slider">

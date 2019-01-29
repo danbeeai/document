@@ -3,7 +3,7 @@ title: Case Study - LG U+, 홈페이지 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: blog_sidebar
+sidebar: casestudy_sidebar
 permalink: casestudy_002_lguplus_hompage.html
 folder: blog
 ---
@@ -15,6 +15,8 @@ U+ 홈페이지 내 상담 버튼을 통해 제공되고있는 챗봇 서비스�
 유봇이라는 캐릭터를 설정하여 다양한 감성을 이모티콘으로 표현하며, 단순한 문답식 UX를 벗어나 현재 질문에 대한 답변에 집중할 수 있는 중앙 정렬식 UX를 도입하였습니다. 현재 시간, 요일, 날짜에 따라 서로 다른 맞춤형 인사말을 제공하며, 로그인 사용자의 경우에는 사용자의 상황에 따라 최적화된 인사말 및 추천을 제공합니다.
 
 [LG U+홈페이지 적용사례 보러가기](http://www.uplus.co.kr/){:target=_blank}
+
+### 서비스 화면
 
 <div class="danbee-slider-container">
     <div class="flexslider danbee-slider">

@@ -25,9 +25,9 @@ next: {
 **Sample Chatbot 가져오기** 를 통해 **의사결정나무봇, 디트** 를 가져오면 챗봇을 확인할 수 있습니다. 
 
 
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[의사결정나무봇, 디트 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5){:target="_blank"}</span><br/>
+<span class="link">[의사결정나무봇, 디트 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5){:target="_blank"}</span><br/>
 
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
+<span class="link">[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
 {% include image.html file="tutorial\sample_decisiontree_dete\디트시연이미지.PNG" width="170" caption="Frogue에서 만나는 디트" %}
 

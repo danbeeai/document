@@ -12,7 +12,7 @@ previous: {
     url: demo_n_test_panel.html
 }
 next: {
-    title: 프로그(단비에이아이웹채널),
+    title: 프로그(챗봇전용 채팅창),
     url: channel_frogu.html
 }
 ---

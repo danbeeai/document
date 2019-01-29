@@ -1,7 +1,7 @@
 entries:
 - title: Sidebar
   folders:
-  - title: Document
+  - title: Manual
     output: web
     folderitems:
     - title: 시작하기

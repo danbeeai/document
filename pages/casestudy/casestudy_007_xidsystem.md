@@ -3,7 +3,7 @@ title: Case Study - 씨드시스템, 대학학사지원 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: blog_sidebar
+sidebar: casestudy_sidebar
 permalink: casestudy_007_xidsystem.html
 folder: blog
 ---
@@ -13,6 +13,8 @@ folder: blog
 <a href="http://xidsys.co.kr/xe/index.php" title="(주)씨드시스템 홈페이지 바로가기">(주)씨드시스템</a>은 하드웨어가 필요없는 P2P블루투스 방식의 전자출결시스템을 제공하고 있습니다. 전자출결시스템에 탑재된 학사지원 챗봇은 언제 어디서든 학생들의 학사관련 문의사항에 24시간 대응하도록 만들어졌습니다.
 학생들은 전화통화를 할 필요 없이 실시간으로 궁금한 내용에 대해 답변을 받을 수 있고, 전문가 답변 서비스를 통해 챗봇이 응답하지 못하는 문의사항을 접수할 수 있습니다. 동명대학교와 부산여자대학교에서 서비스 중입니다.
 
+
+### 서비스 화면
 {% include image_border.html file="casestudy/case07_dongmyoung.jpg" %}
 
 #### 관련기사 

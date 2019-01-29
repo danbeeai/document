@@ -1,0 +1,45 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  folders:
+  - title: Case Study, 단비로 싹튼 챗봇
+    output: web
+    folderitems:
+    - title: danbee.Ai로 싹튼 챗봇 Case Study
+      url: /casestudy_000_landing.html
+      output: web
+    - title: NH농협캐피탈, 업무지원챗봇
+      url: /casestudy_011_nhc.html
+      output: web
+    - title: LG U+, 고객센터 상담 챗봇
+      url: /casestudy_001_lguplus_mobile_app.html
+      output: web
+    - title: LG U+, 홈페이지 챗봇
+      url: /casestudy_002_lguplus_hompage.html
+      output: web
+    - title: LG U+, 갤럭시 S9 사전예약
+      url: /casestudy_005_lguplus_galaxys9.html
+      output: web
+    - title: 씨드시스템, 대학학사지원 챗봇
+      url: /casestudy_007_xidsystem.html
+      output: web
+    - title: 안양대학교, 대학학사지원챗봇 아리봇
+      url: /casestudy_008_aribot.html
+      output: web
+    - title: 민병철교육그룹, 유봇
+      url: /casestudy_009_ubot.html
+      output: web
+    - title: LG CNS, 마곡이
+      url: /casestudy_010_magoki.html
+      output: web
+    - title: 단비챗봇, 버그채집봇 파브르
+      url: /casestudy_006_fabre.html
+      output: web
+    - title: 단비챗봇, 혼밥추천 양마리
+      url: /casestudy_003_yangmari.html
+      output: web
+    - title: 단비챗봇, 친절한 마이크
+      url: /casestudy_004_mike.html
+      output: web
+    

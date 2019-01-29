@@ -3,7 +3,7 @@ title: Case Study - LG CNS, 마곡이
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: blog_sidebar
+sidebar: casestudy_sidebar
 permalink: casestudy_010_magoki.html
 folder: blog
 ---

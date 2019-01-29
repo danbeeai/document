@@ -36,8 +36,8 @@ Naver의 이메일 서비스를 통해서 이메일을 사용하려면 추가적
 ## API 사용을 위한 Naver 설정
 
 Naver의 이메일 서비스의 환경 설정에서 SMTP 사용설정을 합니다. <br />
-1. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Naver](https://naver.com){:target="_blank"}</span>로 이동합니다.
-2. 네이버 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[메일](http://mail.naver.com){:target="_blank"}</span>로 이동합니다.
+1. <span class="link">[Naver](https://naver.com){:target="_blank"}</span>로 이동합니다.
+2. 네이버 <span class="link">[메일](http://mail.naver.com){:target="_blank"}</span>로 이동합니다.
 3. 맨 하단에 이메일 사용량 옆 "환경설정" 버튼을 큭릭하여 환경 설정 페이지로 이동합니다.
 4. 상단에 "POP3/IMAP 설정" 글자를 클릭하여 설정 페이지로 이동합니다.
 5. POP3/SMTP 설정 탭에 POP3/SMTP 사용을 "사용합" 으로 설정합니다.

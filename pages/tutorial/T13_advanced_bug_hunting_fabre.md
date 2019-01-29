@@ -16,7 +16,7 @@ previous: {
 시스템을 운영하고 계신가요? 시스템에 바로 적용할 수 있는 파브르를 만나보시죠.
 
 
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[버그채집봇, 파브르를 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=4064be4c-a3d1-4663-aa2e-ca9d2d852518){:target="_blank"}</span><br/>
+<span class="link">[버그채집봇, 파브르를 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=4064be4c-a3d1-4663-aa2e-ca9d2d852518){:target="_blank"}</span><br/>
 
 {% include image.html file="tutorial\sample_fabre\fabre_01_welcome.PNG" caption="Frogue에서 만나는 파브르" %}
 
@@ -92,7 +92,7 @@ IT시스템운영팀 Slack에 메시지가 도착합니다.
 
 파브르는 danbee.Ai에서 제공하는 샘플 챗봇입니다.
 danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
+<span class="link">[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
 현재 danbee.Ai에서도 파브르가 일하고 있습니다.
 {% include image_border.html file="tutorial\sample_fabre\fabre_08_fabre_at_danbee.PNG" caption="파브르의 메인 Chatflow, 버그 접수" %}
