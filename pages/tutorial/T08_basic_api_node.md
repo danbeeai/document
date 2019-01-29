@@ -88,7 +88,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 
 4) Carausel Node 와 Split Node 사이에 Api Node를 위치 시키고 앞뒤 노드와 연결해 주세요. <br/>
 기존에 연결된 선의 경우 마우스로 선을 클릭하고 선이 붉은색으로 하이라이트된 후 키보드의 delete 키를 누르면 삭제됩니다. <br/>
-기왕이면 알아보기 쉽도록 ***“외부에서 피자가격 가져오기”*** 와 같은 노드명을 부여하면 좋겠죠? <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Node명 수정하기](/basic_listen_speak.html#node-%EB%AA%85-%EC%88%98%EC%A0%95)</span>
+기왕이면 알아보기 쉽도록 ***“외부에서 피자가격 가져오기”*** 와 같은 노드명을 부여하면 좋겠죠? <span class="link">[Node명 수정하기](/basic_listen_speak.html#node-%EB%AA%85-%EC%88%98%EC%A0%95)</span>
 
 {% include image.html file="tutorial/using_api_node6.gif"  caption="API Node 생성하기1" %}
 
@@ -114,7 +114,7 @@ API 규격을 잘 보고 필요한 경우 Value 부분에 Name 에 해당하는 
 2) ***“출력 Parameters”*** 섹션 우측의 + 버튼을 누르면 대화흐름 내부에서 정의한 변수들이 나타납니다. <br/>
 피자가격을 받아오기 위해 대화흐름 내부에서 정의한 피자가격 변수를 선택합니다. 피자가격 변수가 보이지 않을 경우 <br/>
 피자가격 변수를 만들어 주세요. 만드는 방법은 이전 챕터에서 설명한 내용을 보시기 바랍니다.
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Parameter 추가하기](/basic_entity_parameter.html#parameter-%EC%B6%94%EA%B0%80)</span>
+<span class="link">[Parameter 추가하기](/basic_entity_parameter.html#parameter-%EC%B6%94%EA%B0%80)</span>
 
 3) ***“출력 Parameters”*** 섹션 하단에 피자가격 변수에 외부시스템 값을 설정할 박스가 나타납니다. <br/>
 좌측 ***“Api Tree”*** 에 외부시스템에서 Price 변수에 가격 정보를 넣어줬기 때문에 Price 를 클릭한 상태로 드래그 하여 피자가격 박스 부분에서 클릭을 풀어줍니다. <br/>

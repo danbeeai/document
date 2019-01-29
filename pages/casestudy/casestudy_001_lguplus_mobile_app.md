@@ -3,7 +3,7 @@ title: Case Study - LG U+, 고객센터 상담 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: blog_sidebar
+sidebar: casestudy_sidebar
 permalink: casestudy_001_lguplus_mobile_app.html
 folder: blog
 ---
@@ -12,6 +12,8 @@ folder: blog
 U+ 모바일 고객센터 App 내의 검색버튼을 통해 제공되고 있는 1:1 상담 챗봇으로, 업무 60여개에 대해 24시간 무중단 자동상담 서비스를 지원합니다. 사용자 질문 내용의 감성을 분석하여 감정에 따른 서로 다른 답변을 제공합니다.
 
 유플러스 모바일 가입자는 누구든 고객센터 App에 로그인하여 서비스를 받을 수 있으며, 챗봇으로 상담이 불가능한 영역에 대해서는 고객센터로 전화 연결이 됩니다.
+
+### 서비스 화면
 
 <div class="danbee-slider-container">
     <div class="flexslider danbee-slider">

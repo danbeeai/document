@@ -63,7 +63,7 @@ Entity를 만들었으니, Entity를 인식할 수 있도록 Intent의 예문에
 {% include image.html file="tutorial/basic03_add_parameter_button.png"  caption="Parameter 추가 버튼" %}
 
 2) Parameter 명을 ***"피자가격"***, Entity를 ***"sys.any"***로 입력해주세요. ***sys.any***는 danbee.Ai에서 기본적으로 제공하는 Entity 중 하나로 어떤 값이든 모두 Parameter로 받을 수 있는 Entity 입니다. 피자메뉴 Entity처럼 대표어를 별도로 관리할 필요가 없습니다.
-- sys.any와 같이 danbee.Ai에서 기본적으로 제공하는 Entity에 대한 자세한 설명은 document의 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[시스템 Entity](/entity.html#%EC%8B%9C%EC%8A%A4%ED%85%9C-entity)</span>에서 확인할 수 있습니다.
+- sys.any와 같이 danbee.Ai에서 기본적으로 제공하는 Entity에 대한 자세한 설명은 document의 <span class="link">[시스템 Entity](/entity.html#%EC%8B%9C%EC%8A%A4%ED%85%9C-entity)</span>에서 확인할 수 있습니다.
 
 {% include image.html file="tutorial/basic03_new_parameter.png"  caption="신규 Parameter 내용 입력" %}
 

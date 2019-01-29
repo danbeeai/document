@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc
 previous: {
-    title: 프로그(단비에이아이웹채널),
+    title: 프로그(챗봇전용 채팅창),
     url: channel_frogu.html
 }
 next: {

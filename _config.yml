@@ -3,7 +3,7 @@ repository: danbeeai/document
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: back to <strong>danbee.Ai</strong>
+topnav_title: Document
 # this appears on the top navigation bar next to the home button
 
 site_title: danbee.Ai Document
@@ -124,4 +124,4 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://danbee.Ai
+url: http://doc.danbee.Ai

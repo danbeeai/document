@@ -108,7 +108,7 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 {% include image.html file="chatbot_create\10_listen_speak.gif"  caption="노드 생성 및 연결" %}
 
 노드는 대화상에서의 단계를 의미합니다. Listen노드는 대화상대의 의도를 인식하는 단계이고, Speak노드는 챗봇이 말하는 단계입니다.
-두 가지 노드가 가장 자주 사용되는 노드이며, 다른 노드들에 대한 설명은 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[여기](/chatflow.html)</span> 에서 더 자세히 설명해 놓았습니다.
+두 가지 노드가 가장 자주 사용되는 노드이며, 다른 노드들에 대한 설명은 <span class="link">[여기](/chatflow.html)</span> 에서 더 자세히 설명해 놓았습니다.
 Listen노드를 더블클릭하여 대화흐름의 출발점이 되는 Intent를 정해줍니다.
 
 {% include image.html file="chatbot_create\11_listen_setup.gif"  caption="Listen노드 설정" %}
@@ -128,14 +128,14 @@ Listen노드와 Speak노드가 만들어졌다면, 우측 상단의 저장버튼
 ### 다음으로 할 일
 
 위에서 나온 챗봇관련 개념에 익숙해지셨고, 자신감이 생기셨다면! 지금 바로 챗봇을 만들러 GOGO!
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[danbee.Ai 시작하기](https://danbee.ai/platform/#/loginPrivateStep)</span>
+<span class="link">[danbee.Ai 시작하기](https://danbee.ai/platform/#/loginPrivateStep)</span>
 
 
 조금더 공부를 해보고 싶다면, 인텐트(의도)를 등록하는 것을 시작할 수 있겠습니다.
 
 
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[의도관리](/intent.html)</span>
+<span class="link">[의도관리](/intent.html)</span>
 
 아니면 바로 메신저에 연결해 볼 수도 있습니다.
 
-<span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[챗봇 채널 연계 설정](/channel_connection_settings.html)</span>
+<span class="link">[챗봇 채널 연계 설정](/channel_connection_settings.html)</span>

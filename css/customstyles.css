@@ -177,10 +177,9 @@ p.post-meta {font-size: 80%; color: #777;}
     font-size: 12px;
     background-color: white;
     position: absolute;
-    top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
+    top: 50px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
+    left: 32px;
     z-index: -1;
-    width:223px;
     border-left: 1px solid #dedede;
 }
 
@@ -366,19 +365,12 @@ background-color: #347DBE;
 }
 
 span.projectTitle {
-    font-family: Helvetica;
-    font-weight: normal;
-    font-size: 12px;
+    font-weight: lighter;
+    font-size: 24px;
+    line-height: 24px;
     display: inline-block;
-    line-height: 8px;
-    padding-top: 8px;
     position: relative;
-    top: 8px;
-    margin-left: 4px;
-}
-span.projectTitle > strong{
-    display:block;
-    font-size:16px;
+    top: 5px;
 }
 
 .footer {
@@ -1102,8 +1094,8 @@ h4.panel-title {
 }
 
 /*set navbar breakpoint so that it converts to hamburger earlier */
-/* 햄버거로 변하는 시점을 정하는 포인트임. */
-@media (max-width: 768px) {
+/* 햄버거로 변하는 시점을 정하는 포인트임. default : 768px */
+@media (max-width: 991px) {
     .navbar-header {
         float: none;
     }
@@ -1125,14 +1117,20 @@ h4.panel-title {
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 7.5px;
     }
     .navbar-nav>li {
         float: none;
     }
+    a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a{
+        margin-left:0;
+        margin-top:0;
+    }
+    #search-demo-container input#search-input{
+        margin: 0;
+        width: 100%;
+    }
     .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
+
     }
     .collapse.in{
         display:block !important;

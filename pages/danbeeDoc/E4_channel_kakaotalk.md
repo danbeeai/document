@@ -38,7 +38,7 @@ KakaoTalk 채널 연계 설정을 하려면 다음이 필요합니다.
 {% include note.html content="계정 가입은 모바일 앱을 통해 완료됩니다." %}
 
 ## KakaoTalk 플러스 친구 만들기 
-1. 브라우저에서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[카카오톡 플러스친구](https://center-pf.kakao.com/login){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_homepage.png" alt="카카오톡 플러스친구" style="max-width: 800px"></figure>
+1. 브라우저에서 <span class="link">[카카오톡 플러스친구](https://center-pf.kakao.com/login){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_homepage.png" alt="카카오톡 플러스친구" style="max-width: 800px"></figure>
 2. 플러스친구를 만들기 위해 카카오 계정으로 로그인을 합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_login.png" alt="카카오 로그인" style="max-width: 800px"></figure>
 3. 플러스 친구 관리자 가입을 합니다. ( 휴대기기에 KakaoTalk앱에서 본인확인 절차 필요 )<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_adminsign.png" alt="플러스친구 관리자가입" style="max-width: 800px"></figure>
 4. 플러스친구를 만듭니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_add1.png" alt="플러스친구 추가" style="max-width: 800px"></figure>

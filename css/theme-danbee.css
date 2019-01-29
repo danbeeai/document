@@ -144,7 +144,7 @@ a[data-toggle="tooltip"] {
     background:none !important;
 }
 #search-demo-container input#search-input {
-    width:auto;
+    
     background:#15191c;
     border:1px solid #0d1012;
     color:#cfdbe5;

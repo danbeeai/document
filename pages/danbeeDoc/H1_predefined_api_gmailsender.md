@@ -39,16 +39,16 @@ danbee.Ai에서 제공하는 여러가지 API 중 Google Gmail 게정을 통해 
 
 구글에서는 이 옵션을 사용하면 다른 사람이 내 계정에 쉽게 침입할 수 있으므로 사용을 권장하지는 않고 있습니다.
 하지만 이메일 전송 API 를 사용하기 위해서는 액세스 허용을 해야 합니다. 
-1. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[Google 계정의 보안 수준이 낮은 앱](https://myaccount.google.com/lesssecureapps){:target="_blank"}</span>섹션으로 이동합니다.
+1. <span class="link">[Google 계정의 보안 수준이 낮은 앱](https://myaccount.google.com/lesssecureapps){:target="_blank"}</span>섹션으로 이동합니다.
 2. 보안 수준이 낮은 앱 허용을 사용으로 설정합니다.
-3. 이 방법을 사용할때는 추가 단계를 거치도록 요청하는 "보안문자(captcha)" 사용을 비활성화 시키고 액세스 허용을 해야 합니다. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[추가 액세스 허용](https://accounts.google.com/b/0/displayunlockcaptcha){:target="_blank"}</span>
+3. 이 방법을 사용할때는 추가 단계를 거치도록 요청하는 "보안문자(captcha)" 사용을 비활성화 시키고 액세스 허용을 해야 합니다. <span class="link">[추가 액세스 허용](https://accounts.google.com/b/0/displayunlockcaptcha){:target="_blank"}</span>
 
 ## 2단계 인증을 사용하는 계정
 
 2단계 인증을 사용하는 계정이라면 앱 비밀번호를 생성해서 사용해야 합니다. <br />
 구글에서 제공하는 가이드에 따라서 비밀번호를 생성합니다. <br />
 
-1. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin: 0px 5px"></i>[앱 비밀번호로 로그인하기](https://support.google.com/mail/answer/185833?hl=ko){:target="_blank"}</span>페이지로 이동합니다.
+1. <span class="link">[앱 비밀번호로 로그인하기](https://support.google.com/mail/answer/185833?hl=ko){:target="_blank"}</span>페이지로 이동합니다.
 2. 앱 비밀번호 생성 방법 섹션을 클릭하여 가이드에 따라 앱 비밀번호를 생성합니다.
 3. 생성된 앱 비밀번호 16자리를 danbee.Ai 의 Gmail 메일 전송 API 의 password 에 셋팅합니다.
 
