@@ -34,19 +34,19 @@ Wikipedia에 따르면 [HCI](https://ko.wikipedia.org/wiki/인간-컴퓨터_상�
 초기에는 천공 카드, 천공 테이프를 이용해 컴퓨터에 입력하고, 저장하였습니다. 2018년 사용하고 있는 [OMR](https://ko.wikipedia.org/wiki/광학_마크_인식){:target=_blank} 카드를 떠올리면 이해가 쉽겠네요! 싸인펜으로 컴퓨터가 인식할 수 있도록 칠하듯 천공 카드나 천공 테이프에서는 2진법으로 구멍을 뚫었습니다. 구멍을 뚫는 
 전문적인 기계가 있었고, 구멍을 혹시라도 잘못 뚫으면(?) 다시 처음부터 구멍을 뚫기도 했습니다.
 
-{% include image.html file="blog/001_01_perforated_card.png" max-width="700" caption="천공카드" %}
+{% include image.html file="blog/001_01_perforated_card.png"  caption="천공카드" %}
 
 ### 명령어 기반의 인터렉션, CLI(Command Line Interface)
 
 시대가 흘러, Personal Computer 시대로 접어듭니다. 우주/항공 분야, 기업 시스템에서만 사용되는 컴퓨터가 직원들 책상마다, 일반가정마다 하나씩 들어옵니다. Text중심의 Operating System을 사용했고 명령어를 입력하면 컴퓨터가 응답하는 방식이었습니다. 명령어를 입력하고 실패하면 다시 배워서 다시 입력하는 방식이었습니다. 방식이 단순하고 명령어를 복합적으로 사용하면 매우 강력합니다. 얼마나 강력하나면, 컴퓨터에 있는 모든 데이터를 명령어 한 줄로 지울 수 있습니다. 강력하기 때문에 지금도 소프트웨어 개발자들에게는 유용한 인터페이스 방식입니다. CLI시대에서는 명령어를 많이 아는 사람이 컴퓨터를 잘하는 사람처럼 보였습니다. 하지만 사람들의 관심은 이제 컴퓨터를 잘 다루는 것 보다는 컴퓨터를 이용해 무엇을 할 수 있는지에 관심이 많아졌습니다.
 
-{% include image.html file="blog/001_02_cli.PNG" max-width="700" caption="danbee.Ai 서버를 위한 CLI인터페이스" %}
+{% include image.html file="blog/001_02_cli.PNG"  caption="danbee.Ai 서버를 위한 CLI인터페이스" %}
 
 ### 직관적인 상호작용, GUI(Graphic User Inteface)
 
  산술적, 논리적 연산을 위해 만들어진 장치였지만 컴퓨터 그래픽 기술이 발달하면서 컴퓨터로 할 수 있는 것은 무궁무진 해졌습니다. 게임을 하고, 책을 편집하고, 음악을 편집했습니다. 파일, 폴더, 데스크톱이라는 메타포를 시각적으로 표현한 아이콘을 마우스 커서로 클릭하여 사용합니다. 스마트폰 시대가 되어서는 직관적인 GUI가 더 중요해졌습니다.
 
-{% include image.html file="blog/001_03_GUI.png" max-width="700" caption="GUI의 시대, 데스크톱과 모바일" %}
+{% include image.html file="blog/001_03_GUI.png"  caption="GUI의 시대, 데스크톱과 모바일" %}
 
 {% include note.html content="GUI에서는 Graphic Design이 중요했습니다. 스크린에 나오는 아이콘과 폰트, 다양한 그래픽 요소들의 디자인 품질은 컴퓨터를 사용하는 UX전반의 품질을 좌지우지 했습니다. 현재도 활발히 활동하고 있는 대표적인 디자이너로 수전케어가 있습니다. [수전케어 홈페이지](http://kare.com/portfolio/){:target=_blank}" %}
 

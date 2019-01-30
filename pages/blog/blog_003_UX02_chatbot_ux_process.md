@@ -34,7 +34,7 @@ UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 �
 
 ## 꽤 오래된 챗봇의 개념
 
-{% include image.html file="blog/003_01_chatbot_concept_illustration.jpg" max-width="700" caption="챗봇의 컨셉, image source : <a href='https://dribbble.com/shots/2886534-Chatbots-Illustration-finished'>Christos</a>" %}
+{% include image.html file="blog/003_01_chatbot_concept_illustration.jpg"  caption="챗봇의 컨셉, image source : <a href='https://dribbble.com/shots/2886534-Chatbots-Illustration-finished'>Christos</a>" %}
 
 
 이 시대의 기업들은 앱이나 웹기반의 인터페이스에서 대화기반 플랫폼, 챗봇으로 전환하고 있습니다. 챗봇은 인터넷을 통해 인간 사용자와의 대화를 시뮬레이션 하도록 설계된 컴퓨터 프로그램입니다. 챗봇은 새로운 발명품이 아닙니다. 튜링테스트와 같은 실험과 최초의 챗봇 엘리자의 발명을 통해 1950~60년대에 앨런튜링(Alan Turing)과 요제프 바이첸바움이 인간과 같이 의사소통 하는 컨셉의 컴퓨터를 고민했었다는 것을 알 수 있습니다. 
@@ -47,7 +47,7 @@ UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 �
 
 ## 챗봇 디자인 프로세스
 
-{% include image.html file="blog/003_02_chatbot-design-process.jpg" max-width="700" caption="챗봇 디자인 프로세스" %}
+{% include image.html file="blog/003_02_chatbot-design-process.jpg"  caption="챗봇 디자인 프로세스" %}
 
 각각의 단계별로 고려해야할 사항을 살펴보도록 합시다.
 
@@ -73,7 +73,7 @@ UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 �
 
 페이스북, 트위터, 텔레그램, 위챗 등 챗봇을 지원하는 다수의 플랫폼들이 있습니다.아래 링크에서 다양한 템플릿을 확인해 보세요.
 
-{% include image.html file="003_03_chatbot-ui-element.jpg" max-width="700" caption="챗봇 UI 요소" %}
+{% include image.html file="003_03_chatbot-ui-element.jpg"  caption="챗봇 UI 요소" %}
 
 
 ### 4. 최초 인터렉션 세공작업
@@ -83,7 +83,7 @@ UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 �
 3. Call-To-Action을 제공합니다.
 4. 기본 액션을 제공합니다.
 
-{% include image.html file="blog/003_04_chatbot-ux-welcome-get-started-greeting.jpg" max-width="700" caption="챗봇 UI 요소, image source : <a href='https://www.searchenginejournal.com/marketers-guide-facebook-messenger-bots/179028'>searchenginejournal.com</a>" %}
+{% include image.html file="blog/003_04_chatbot-ux-welcome-get-started-greeting.jpg"  caption="챗봇 UI 요소, image source : <a href='https://www.searchenginejournal.com/marketers-guide-facebook-messenger-bots/179028'>searchenginejournal.com</a>" %}
 
 {% include note.html content="지난 포스트에서 Welcome Message의 설계 방법에 대해 공유한적이 있습니다. [여기](http://doc.danbee.ai/blog_002_UX01_welcome.html)에서 확인이 가능합니다. " %}
 
