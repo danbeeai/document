@@ -9,6 +9,10 @@ previous: {
         title: 의사결정나무봇, 디트 살펴보기,
         url: advanced_decision_tree_bot.html
 }
+next: {
+        title: 식당곰, 밥,
+        url: advanced_restaurant_bob.html
+}
 ---
 
 ## 샘플챗봇 살펴보기
@@ -127,7 +131,7 @@ danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 
 #### 2. 간편 답변 추가 
 사용자 로그에서 문의사항 및 자동 처리가능한 접수사항을 보면서 하나씩 추가하는 방법도 있고
-다량으로 업로드하여 학습시킬 수도 있습니다. [Intent 및 간단 답변 업로드](/intent.html#의도intent-업로드다운로드)
+다량으로 업로드하여 학습시킬 수도 있습니다. [Intent 및 간단 답변 업로드](/intent.html#의도intent-업로드)
 
 #### 3. API 설정
 단비에서 미리 만들어놓은 API가 있습니다. 사용자 및 운영자에게 전달하는 용도로 사용하실 수 있습니다.
@@ -153,7 +157,7 @@ danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 
 
 
-## 함께해요:) 챗봇시대;) 
+## 함께해요! 챗봇시대;) 
 단비아이엔씨는 함께 챗봇시대를 만들어갈 파트너, 인재를 찾고 있습니다. 
 
 [contact@danbee.ai](mailto:contact@danbee.ai)로 연락주세요!

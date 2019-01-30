@@ -20,7 +20,7 @@ previous: {
 다른 서비스나 제품과 다르게 말투, 표정, 몸짓 등을 통해 대화를 풍부하게 만들 수 있습니다. 만약 대화가 원할하고 만족스럽고 유쾌하고 재미있었다면 "친한 관계"가 되어 간다는 점이 다른 것입니다.
 
 
-{% include image.html file="blog/005_13_tars.png" max-width="700" caption="영화 인터스텔라의 대화AI, 타스(TARS)" %}
+{% include image.html file="blog/005_13_tars.png"  caption="영화 인터스텔라의 대화AI, 타스(TARS)" %}
 
 
 영화 인터스텔라를 보신 분들이라면, 우주비행사들을 도와주는 인공지능로봇 타스(TARS)를 기억하실텐데요. 틱틱거리는 말투와 도도한 태도로 비호감처럼 느껴졌지만, 마지막에 인간 우주비행사들을 위해 희생하는 모습을 보고 마음이 찡했습니다. 대화라는 사회적 인터렉션을 통해 타스와 친한 관계가 되었던 것이지요.
@@ -35,14 +35,14 @@ previous: {
 {% include note.html content="페르소나는 연극의 가면을 의미하는 라틴어에서 유래되었습니다. 정신의학 분야에서 사용하는 용어로 우리가 남들에게 노출시키는 성격을 의미합니다. UX나 소프트웨어 영역에서 페르소나는 1998년 엘런쿠퍼의 저서 정신병원에서 뛰쳐나온 디자인에서 페르소나의 개념이 처음 소개되었습니다." %}
 
 UX에서 페르소나는 사용자측의 페르소나 입니다. 하지만 최근 제품/서비스/브랜드의 페르소나라는 개념이 많이 이야기 되고 있습니다. 제품, 서비스, 브랜드를 인격화하여 페르소나 형태로 만드는 것이지요.
-{% include image.html file="blog/005_01_ux_elements_01.png" max-width="700" caption="UX의 핵심 4요소와 페르소나" %}
+{% include image.html file="blog/005_01_ux_elements_01.png"  caption="UX의 핵심 4요소와 페르소나" %}
 
 브랜드에 인격을 부여하여 브랜드 페르소나라고 부르기도 합니다. 사용자가 아닌 대상에 적용된 경우입니다. 대상에 적용된 페르소나는 의도적으로 디자인되기도 하고, 사용자 또는 고객과 상호작용 하면서 형성되기도 합니다.
 챗봇을 포함한 대화형서비스는 페르소나가 매우 중요합니다. 사용자는 대상의 페르소나가 어떠냐에 따라 최초의 인터렉션을 할지 말지 결정한다고 해도 과언이 아닙니다. 매력적인 페르소나가 느껴지는 프로필 사진만으로도 최초 대화를 유도할 수 있습니다. 첫번째 인터렉션에 성공해야 두번째 인터렉션의 기회가 생기고, 지속적인 인터렉션과 하고 관계를 형성까지 가능해 집니다.
 
 ### 미디어에서의 대화AI 페르소나 
 영화나 에니메이션에서는 다양한 페르소나를 가진 대화형AI가 등장합니다. 
-{% include image.html file="blog/005_02.png" max-width="700" caption="픽션, 대화형AI" %}
+{% include image.html file="blog/005_02.png"  caption="픽션, 대화형AI" %}
 
 
 #### 인간모사형
@@ -72,28 +72,28 @@ UX에서 페르소나는 사용자측의 페르소나 입니다. 하지만 최�
 
 ### AI Persona Quick Canvas
 인구통계학적인 정보, 취향과 성향, 멘탈구조와 행태. 그리고 욕구를 정리해봅니다. 살아있는 페르소나가 되려면 욕구가 있어야 하고, 이 욕구가 생기게 된 배경. 그리고 이 욕구가 표현되는 행태를 지녀야 합니다. 개연성이죠.
-{% include image.html file="blog/005_04.png" max-width="700" caption="Persona Quick CANVAS by danbee.Ai" %}
+{% include image.html file="blog/005_04.png"  caption="Persona Quick CANVAS by danbee.Ai" %}
 
 ### AI Linguistic Traits Quick Canvas
 말투, 어휘, 잡담, 목소리의 유형을 정리해봅니다. 
-{% include image.html file="blog/005_05.png" max-width="700" caption="Linguistic Traits Quick CANVAS by danbee.Ai" %}
+{% include image.html file="blog/005_05.png"  caption="Linguistic Traits Quick CANVAS by danbee.Ai" %}
 
 ### AI Visual Concept Quick Canvas
 시각적인 요소를 정리해 봅니다. 최초에 만든 Persona에서 정한 특징이 드러날 수 있도록 컨셉보드를 잘 만들고 디자인을 한 후, 다양한 표현으로 Variation을 칩니다.
-{% include image.html file="blog/005_06.png" max-width="700" caption="Visual Concept Quick CANVAS by danbee.Ai" %}
+{% include image.html file="blog/005_06.png"  caption="Visual Concept Quick CANVAS by danbee.Ai" %}
 
 ### 마지막으로 챙겨볼 것
 물리적인 대화AI라면, 촉각적인 요소, 후각요소, 청각 요소를 고려해야합니다.
 또한 디지털 요소는 디지털 시대인 현대에서 매우 중요한 요소입니다. 우리는 오프라인에서도 존재를 느끼지만, 온라인에서 보게 되는 소셜미디어 포스트, 문자, 메일을 보고 존재를 느끼고 상호작용합니다.
-{% include image.html file="blog/005_07.png" max-width="700" caption="오감 영역과 디지털 영역 고려" %}
+{% include image.html file="blog/005_07.png"  caption="오감 영역과 디지털 영역 고려" %}
 
 ## 챗봇 페르소나 적용기 
 최근 danbee.Ai에서 샘플챗봇으로 오픈한 버그채집봇, 파브르는 Quick Canvas를 활용해 빠르게 페르소나를 설정하였습니다.
 
-{% include image.html file="blog/005_08.png" max-width="700" caption="빠리지앵 고양이, 시크한 성격으로" %}
-{% include image.html file="blog/005_09.png" max-width="700" caption="~냥, ~양 과 같은 표현은 지양" %}
-{% include image.html file="blog/005_10.png" max-width="700" caption="불란서 느낌 최대로" %}
-{% include image.html file="blog/005_12.png" max-width="700" caption="디지털 프레젠스, Slack메시지를 보내는 파브르" %}
+{% include image.html file="blog/005_08.png"  caption="빠리지앵 고양이, 시크한 성격으로" %}
+{% include image.html file="blog/005_09.png"  caption="~냥, ~양 과 같은 표현은 지양" %}
+{% include image.html file="blog/005_10.png"  caption="불란서 느낌 최대로" %}
+{% include image.html file="blog/005_12.png"  caption="디지털 프레젠스, Slack메시지를 보내는 파브르" %}
 
 
 ## 페르소나는 계속 다듬어 져야 합니다.

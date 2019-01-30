@@ -31,7 +31,7 @@ next: {
 
 ## 지속적인 대화를 위한 3가지 UX요소
 
-{% include image.html file="blog/004_intro.png" max-width="700" caption="지속적인 대화를 위한 3가지 챗봇 UX요소. by danbee.Ai" %}
+{% include image.html file="blog/004_intro.png"  caption="지속적인 대화를 위한 3가지 챗봇 UX요소. by danbee.Ai" %}
 
 
 ### 1. 잘 만들어진 웰컴메시지
