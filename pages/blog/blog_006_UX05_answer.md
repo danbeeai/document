@@ -2,7 +2,7 @@
 title: 챗봇UX 5편, 챗봇의 답변수준 4단계
 tags: [blog, fallback, Chatbot-UX]
 keywords: blog
-summary: 챗봇에게 페르소나를 부여하세요!
+summary: 챗봇의 답변 수준 4단계를 소개합니다. 
 sidebar: blog_sidebar
 permalink: blog_006_UX05_answer.html
 folder: blog
