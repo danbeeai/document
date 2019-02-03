@@ -21,4 +21,7 @@ entries:
     - title: 챗봇UX 4편, 챗봇이 다른 서비스와 다른 점? 페르소나
       url: /blog_005_UX04_persona.html
       output: web
+    - title: 챗봇UX 5편, 챗봇의 답변수준 4단계
+      url: /blog_006_UX05_answer.html
+      output: web
     

@@ -8,14 +8,13 @@ permalink: blog_003_UX02_chatbot_ux_process.html
 folder: blog
 
 previous: {
-    title: 챗봇UX 1편, Welcome Message,
+    title: 챗봇UX 1편 - Welcome Message,
     url: blog_002_UX01_welcome.html
 }
 next: {
-    title: 챗봇UX 3편, 지속적인 대화를 위한 3가지 UX요소와 7가지 폴백메시지 유형,
+    title: 챗봇UX 3편 - 지속적인 대화를 위한 3가지 UX요소와 7가지 폴백메시지 유형,
     url: blog_004_UX03_continue_fallback.html
 }
-
 
 ---
 

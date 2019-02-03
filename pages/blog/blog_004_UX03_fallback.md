@@ -8,11 +8,11 @@ permalink: blog_004_UX03_continue_fallback.html
 folder: blog
 
 previous: {
-    title: 챗봇UX 2편, 챗봇 설계 UX 프로세스,
+    title: 챗봇UX 2편 - 챗봇 설계 UX 프로세스,
     url: blog_003_UX02_chatbot_ux_process.html
 }
 next: {
-    title: 챗봇UX 4편, 챗봇이 다른 서비스와 다른 점, 페르소나,
+    title: 챗봇UX 4편 - 챗봇이 다른 서비스와 다른 점 페르소나,
     url: blog_005_UX04_persona.html
 }
 
