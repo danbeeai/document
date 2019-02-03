@@ -7,7 +7,7 @@ sidebar: blog_sidebar
 permalink: blog_000_landing.html
 folder: blog
 next: {
-    title: 챗봇UX 1편, Welcome Message,
+    title: 챗봇UX 1편 - Welcome Message,
     url: blog_002_UX01_welcome.html
 }
 ---

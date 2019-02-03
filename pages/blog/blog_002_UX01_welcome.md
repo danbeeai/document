@@ -11,7 +11,7 @@ previous: {
     url: blog_000_landing.html
 }
 next: {
-    title: 챗봇UX 2편, 챗봇 설계 UX 프로세스,
+    title: 챗봇UX 2편 - 챗봇 설계 UX 프로세스,
     url: blog_003_UX02_chatbot_ux_process.html
 }
 ---
