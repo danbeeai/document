@@ -1,5 +1,5 @@
 ---
-title: Case Study - 민병철교육그룹, 유봇
+title: Case Study - 민병철유폰, 유봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
