@@ -11,6 +11,10 @@ next: {
 }
 ---
 
+## 챗봇을 만드는 가장 쉬운 방법 Danbee.Ai!
+
+<iframe  width="100%" height="380" src="https://www.youtube.com/embed/SjK1sM9RDGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 챗봇은 이미 알고 있고, 바로 만들어보고 싶은 분들께
 
 바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
