@@ -3,7 +3,7 @@
 entries:
 - title: Sidebar
   folders:
-  - title: 챗봇UX 연재
+  - title: 챗봇UX
     output: web
     folderitems:
     - title: HCI의 흐름에서 보는 챗봇의 미래
@@ -23,5 +23,11 @@ entries:
       output: web
     - title: 챗봇UX 5편, 챗봇의 답변수준 4단계
       url: /blog_006_UX05_answer.html
+      output: web
+  - title: 챗봇BIZ
+    output: web
+    folderitems:
+    - title: 챗봇도입시 고려해야할 7가지 체크포인트
+      url: /blog_007_BIZ01_checkpoint.html
       output: web
     
