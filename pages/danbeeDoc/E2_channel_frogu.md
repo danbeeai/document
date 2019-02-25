@@ -59,7 +59,11 @@ next: {
 
 홈페이지에 잘 어울리는 색상을 적용하실 수 있습니다.
 브랜드에 맞는 톤앤매너로 바꿔보세요.
+
 {% include image_border.html file="channel/frogue/frogue03_design.PNG"  caption="Frogue 디자인 설정" %}
+
+보슬비(무료) 사용자는 미리보기는 가능하지만, 실제 프로그에는 적용되지 않습니다. 
+
 
 ### 5. 아래 배너를 제거하실 수 있습니다. 
 
