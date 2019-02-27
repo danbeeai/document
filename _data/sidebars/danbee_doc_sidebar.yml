@@ -100,6 +100,10 @@ entries:
           url: /settings_nlu.html
           output: web, pdf
 
+        - title: 공통 변수 관리
+          url: /settings_manage_variables.html
+          output: web, pdf
+
     - title: 대화 이력 관리
       url: /log.html
       output: web, pdf
@@ -120,11 +124,11 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-      subfolders: 
+      subfolders:
       - title: 대화 채널 설정
         output: web, pdf
         subfolderitems:
-        
+
         - title: Frogue(자체웹채널)
           url: /channel_frogu.html
           output: web, pdf
