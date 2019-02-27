@@ -12,7 +12,7 @@ previous: {
 }
 next: {
     title: 공통 변수 관리,
-    url: log.html
+    url: settings_manage_variables.html
 }
 ---
 

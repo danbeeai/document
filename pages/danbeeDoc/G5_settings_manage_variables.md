@@ -12,7 +12,7 @@ previous: {
 }
 next: {
     title: 대화 이력 관리,
-    url: settings_manage_variables.html
+    url: log.html
 }
 ---
 
