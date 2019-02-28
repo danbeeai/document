@@ -6,7 +6,7 @@ sidebar: tutorial_sidebar
 permalink: advanced_bug_hunting_fabre.html
 summary: 시스템 문의/제보 접수를 담당하는 파브르입니다!
 previous: {
-        title: 의사결정나무봇, 디트 살펴보기,
+        title: 의사결정나무봇, 디트,
         url: advanced_decision_tree_bot.html
 }
 next: {

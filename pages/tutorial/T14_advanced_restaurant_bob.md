@@ -6,8 +6,12 @@ sidebar: tutorial_sidebar
 permalink: advanced_restaurant_bob.html
 summary: 식당에서 일하는 식당곰, 밥입니다!
 previous: {
-    title: 버그채집봇, 파브르 살펴보기,
+    title: 버그채집봇, 파브르,
     url: advanced_bug_hunting_fabre.html
+}
+next: {
+    title: 웹에이전씨봇, 스페이드컴퍼니,
+    url: advanced_agency_spadecompany.html
 }
 ---
 
