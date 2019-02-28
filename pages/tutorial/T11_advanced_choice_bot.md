@@ -10,7 +10,7 @@ previous: {
         url: advanced_order_pizza_bot.html
 }
 next: {
-    title: 의사결정나무봇, 디트 살펴보기,
+    title: 의사결정나무봇, 디트,
     url: advanced_decision_tree_bot.html
 }
 ---

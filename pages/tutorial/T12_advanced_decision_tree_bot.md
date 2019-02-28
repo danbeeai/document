@@ -6,7 +6,7 @@ sidebar: tutorial_sidebar
 permalink: advanced_decision_tree_bot.html
 summary: 대화를 통해 추천하는 챗봇을 샘플로 보고, 배워보아요.
 previous: {
-        title: 선택장애제거, 캡틴초이 살펴보기,
+        title: 선택장애제거, 캡틴초이,
         url: advanced_choice_bot.html
 }
 next: {

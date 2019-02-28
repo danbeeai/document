@@ -11,7 +11,7 @@ previous: {
         url: basic_function_node.html
 }
 next: {
-    title: 선택장애제거, 캡틴초이 살펴보기,
+    title: 선택장애제거, 캡틴초이,
     url: advanced_choice_bot.html
 }
 ---
