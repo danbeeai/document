@@ -90,7 +90,7 @@ danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 가지고 온 챗봇을 아래와 같은 방법을 통해 출동시킬 수 있습니다.
 
 1. danbee.Ai에서 제공하는 챗봇전용 채팅창, [프로그(Frogue)](/channel_frogu.html) <br>
-2. 개발자를 위한 [Native API](/channel_native_app.html)<br>
+2. 개발자를 위한 [API for Your App](/channel_native_app.html)<br>
 3. 다양한 메신저 플랫폼에 [연결](/channel_connection_settings.html)<br>
 
 가장 쉬운 방법은 프로그를 이용하는 방법입니다.

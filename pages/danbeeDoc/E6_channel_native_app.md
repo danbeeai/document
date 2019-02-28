@@ -1,5 +1,5 @@
 ---
-title: Native App(API) 
+title: API for Your App 
 tags: [api,channel, advanced]
 keywords: Basic Conversation
 summary:  danbee.Ai의 API를 활용하여 직접만든 대화채널에 연결할 수 있습니다.
@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-# Native App(API)
+# API for Your App
 채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명드리겠습니다.
 
 ## Welcome 메시지 API

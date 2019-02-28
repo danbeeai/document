@@ -19,7 +19,7 @@ next: {
 
 danbee.Ai로 만든 대화모델, 챗봇은 어떤 대화채널이든 연결 가능합니다.
 
-바로 사용하실 수 있는 웹 채팅창 Frogue, 음성인식/합성 기술과 연계하거나 다른 서비스와 연계할 수 있는 개발자를 위한 Native API.
+바로 사용하실 수 있는 웹 채팅창 Frogue, 음성인식/합성 기술과 연계하거나 다른 서비스와 연계할 수 있는 개발자를 위한 API for Your App.
 그리고 국내외 많은 사람들이 이용하고 있는 메신저 플랫폼과 연계가능합니다.
 
 
@@ -30,12 +30,12 @@ danbee.Ai로 만든 대화모델, 챗봇은 어떤 대화채널이든 연결 가
 danbee.Ai에서 제공하는 챗봇 전용 채팅창 frogue를 여러분의 웹사이트에 바로 적용하세요!
 [프로그 자세히 보기](channel_frogu.html)
 
-## 개발자를 위한 Native API
+## 개발자를 위한 API for Your App
 
 {% include image.html file="channel/c_danbee.png" max-width="200" caption="대화서비스와 연계할 수 있는 API by danbee.Ai" %}
 
 API를 활용해 자유롭게 챗봇, 음성봇 등 여러분이 상상하는 어떤 대화형 서비스라도 만들 수 있습니다.
-[Native App API 자세히 보기](channel_native_app.html)
+[API for Your App 자세히 보기](channel_native_app.html)
 
 ## 메신저 플랫폼 연동
 
