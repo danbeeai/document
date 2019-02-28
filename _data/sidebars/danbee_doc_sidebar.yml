@@ -133,7 +133,7 @@ entries:
           url: /channel_frogu.html
           output: web, pdf
 
-        - title: Native App(API)
+        - title: API for Your App
           url: /channel_native_app.html
           output: web, pdf
 

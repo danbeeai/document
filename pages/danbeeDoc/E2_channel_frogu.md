@@ -11,7 +11,7 @@ previous: {
     url: channel_connection_settings.html
 }
 next: {
-    title: Native App(API),
+    title: API for Your App,
     url: channel_native_app.html
 }
 ---

@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: channel_facebook.html
 folder: danbeeDoc
 previous: {
-    title: Native App(API),
+    title: API for Your App,
     url: channel_native_app.html
 }
 next: {
