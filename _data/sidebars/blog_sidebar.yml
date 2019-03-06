@@ -30,4 +30,7 @@ entries:
     - title: 챗봇도입시 고려해야할 7가지 체크포인트
       url: /blog_007_BIZ01_checkpoint.html
       output: web
+    - title: 산업분야 특화 챗봇적용 사업방안
+      url: /blog_007_BIZ02_domain.html
+      output: web
     
