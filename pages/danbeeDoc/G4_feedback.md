@@ -17,11 +17,11 @@ previous: {
 ### danbee.Ai 개선에 참여하세요
 단비만의 버그,개선,문의사항 채집봇 **파브르**를 이용하면 쉽게 의견을 보낼 수 있습니다. 파브르 버튼은 모든 페이지 우측 하단에 존재합니다.
 
-{% include image.html file="feedback/feedback_1.PNG"  caption="의견 보내기" %}
+{% include image.html file="feedback/feedback_1.png"  caption="의견 보내기" %}
 
 파브르 버튼을 클릭하고 **[개선포인트가 있어~]**을 선택한 뒤, 제목과 내용을 차례로 입력하고, 필요에 따라 [+]버튼을 눌러 이미지를 첨부할 수 있습니다.  **[버그 발견!]**, **[개선 포인트가 있어~]**, **[문의사항 접수]**를 상황에 맞게 이용하여 단비에게 해당사항을 접수할수 있답니다. 
 
-{% include image.html file="feedback/feedback_2.PNG"  caption="의견 보내기" %}
+{% include image.html file="feedback/feedback_2.png"  caption="의견 보내기" %}
 
 **파브르**를 통해 더욱 간단해진 **[사용자 의견 보내기]**, 단비는 여러분의 소중한 의견을 언제든지 환영합니다.
 
