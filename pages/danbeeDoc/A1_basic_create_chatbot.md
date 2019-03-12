@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: basic_create_chatbot.html
 folder: danbeeDoc
 previous: {
-    title: 챗봇의 기본,
-    url: index.html
+    title: 챗봇 위자드로 5분만에 챗봇 만들기,
+    url: chatbot_wizard.html
 }
 next: {
     title: 의도관리,
