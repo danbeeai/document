@@ -28,6 +28,10 @@ entries:
       output: web, pdf
       type: homepage
 
+    - title: 챗봇 위자드로 5분만에 챗봇 만들기
+      url: /chatbot_wizard.html
+      output: web, pdf
+
     - title: 간단한 챗봇 만들어보기
       url: /basic_create_chatbot.html
       output: web, pdf
