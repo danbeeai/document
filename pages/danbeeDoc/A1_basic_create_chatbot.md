@@ -26,27 +26,27 @@ next: {
 최초 로그인을 하게 되면, 아래와 같이 챗봇이 하나도 없는 상태입니다.
 이 곳에서 단비에서 제공하는 샘플챗봇을 가져오거나, 사용자가 직접 챗봇을 생성할 수도 있습니다.
 
-{% include image.html file="chatbot_create\no_chatbot_01.PNG"  caption="챗봇이 없는 상태" %}
+{% include image.html file="chatbot_create\no_chatbot_01.png"  caption="챗봇이 없는 상태" %}
 
 1) 해당 영역에서는 단비에서 제공하는 샘플챗봇들 중 **가장 인기있는 샘플챗봇**들이 보여집니다. 
 
-{% include image.html file="chatbot_create\no_chatbot_02.PNG"  caption="인기 샘플챗봇" %}
+{% include image.html file="chatbot_create\no_chatbot_02.png"  caption="인기 샘플챗봇" %}
 2) 인기샘플챗봇영역 하단에 위치한 **"샘플 더보기"**을 클릭하여, 단비에서 제공하는 모든 샘플챗봇들을 볼 수 있습니다.
 
-{% include image.html file="chatbot_create\sample_chatbot_03.PNG"  caption="모든 샘플챗봇" %}
+{% include image.html file="chatbot_create\sample_chatbot_03.png"  caption="모든 샘플챗봇" %}
 3) 샘플챗봇을 가져오지 않고, 챗봇을 바닥부터 직접 만들고 싶을때에는 화면의 하단 '처음부터 만들기'영역의 **"Chatbot 생성"**을 클릭하여 챗봇을 생성할 수 있는 화면으로 이동할 수 있습니다.
 이 곳에서 챗봇의 이름과 챗봇을 설명하는 텍스트를 입력하여 간단히 챗봇을 생성하고, 곧 바로 바닥부터 챗봇 빌드를 시작할 수 있습니다.  
 
 
-{% include image.html file="chatbot_create\chatbot_create_04.PNG"  caption="챗봇 직접생성" %}
+{% include image.html file="chatbot_create\chatbot_create_04.png"  caption="챗봇 직접생성" %}
 
 4) 최초로 챗봇을 생성하게되면 화면과 같은 단비 플랫폼의 **'기능 알림 튜토리얼'**이 진행됩니다. 
 튜토리얼에서는 **테스트패널의 사용법**부터, **추가 챗봇생성**, **전체적인 메뉴안내**까지 챗봇을 만드는데 필요한 기본적인 기능들을 간략히 설명합니다.  
 
-{% include image.html file="chatbot_create\tutorial_05.PNG"  caption="기능알림 튜토리얼 진행화면" %}
+{% include image.html file="chatbot_create\tutorial_05.png"  caption="기능알림 튜토리얼 진행화면" %}
 
 5) 튜토리얼이 끝나면 생성된 챗봇을 확인할 수 있으며, **챗봇별로 관리되는 데이터**가 보입니다.
-{% include image.html file="chatbot_create\chatbot_created_06.PNG"  caption="챗봇이 생성된 모습" %}
+{% include image.html file="chatbot_create\chatbot_created_06.png"  caption="챗봇이 생성된 모습" %}
 
  - [의도](intent.html) : 챗봇이 추론할 수 있는 **의도(Intent)**의 개수를 나타냅니다.
  - [핵심단어](entity.html): 챗봇이 추출할 수 있는 **핵심단어(Entity)**의 개수를 나타냅니다.
@@ -85,6 +85,8 @@ Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"Intent 생성
 "만남 인사"로 해석될 수 있는 표현은, "안녕" "반가워" "방가방가" "하이" 등이 될 수 있겠네요.
 
 
+
+
 {% include image.html file="chatbot_create\06_sample_sentence.gif"  caption="인텐트별 예문 등록" %}
 
 예문을 등록하고 나서는 우측 상단의 "저장" 버튼을 클릭하여 저장합니다.
@@ -109,7 +111,7 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 
 메뉴를 클릭하면, 아래와 같은 화면이 나타납니다.
 
-{% include image.html file="chatbot_create\08_chatflow_create.PNG"  caption="챗플로우 생성" %}
+{% include image.html file="chatbot_create\08_chatflow_create.png"  caption="챗플로우 생성" %}
 화면 중앙, 또는 우측상단에 있는 "Chatflow 생성" 버튼을 클릭합니다.
 
 {% include image.html file="chatbot_create\09_chatflow_name.PNG"  caption="챗플로우 생성" %}
