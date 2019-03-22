@@ -24,25 +24,40 @@ next: {
 ### 챗봇 생성
 
 최초 로그인을 하게 되면, 아래와 같이 챗봇이 하나도 없는 상태입니다.
+이 곳에서 단비에서 제공하는 샘플챗봇을 가져오거나, 사용자가 직접 챗봇을 생성할 수도 있습니다.
 
-{% include image.html file="chatbot_create\01_no_chatbot.PNG"  caption="챗봇이 없는 상태" %}
+{% include image.html file="chatbot_create\no_chatbot_01.PNG"  caption="챗봇이 없는 상태" %}
 
-1) 안내화면 가운데 또는 좌측 메뉴에 있는 ***"Chatbot 생성"*** 버튼을 클릭하여 아래와 같은 화면을 열어주세요.
+1) 해당 영역에서는 단비에서 제공하는 샘플챗봇들 중 **가장 인기있는 샘플챗봇**들이 보여집니다. 
 
-{% include image.html file="chatbot_create\02_chatbot_create.PNG"  caption="챗봇 생성 화면" %}
-2) Chatbot의 이름을 정하고 ***"저장"*** 버튼을 클릭합니다. 설명은 입력하지 않아도 저장이 가능합니다.
+{% include image.html file="chatbot_create\no_chatbot_02.PNG"  caption="인기 샘플챗봇" %}
+2) 인기샘플챗봇영역 하단에 위치한 **"샘플 더보기"**을 클릭하여, 단비에서 제공하는 모든 샘플챗봇들을 볼 수 있습니다.
 
-{% include image.html file="chatbot_create\03_chatbot_created.PNG"  caption="챗봇이 생성된 모습" %}
-3) 챗봇의 프로필이미지가 자동으로 생성되고 챗봇별로 관리되는 데이터가 보입니다.
- - [Intents](intent.html) : 챗봇이 추론할 수 있는 의도(Intent)의 개수
- - [Entities](entity.html): 챗봇이 추출할 수 있는 Entity종류 수
- - [Chatflows](chatflow.html) : 답변 가능하도록 설정된 챗플로우의 개수
- - Bot id : [대화채널 연결](channel_connection_settings.html)시 활용할 수 있는 챗봇별로 부여되는 ID입니다.
- - Token : [대화채널 연결](channel_connection_settings.html)시 활용할 수 있는 챗봇별로 부여되는 Token값입니다.
+{% include image.html file="chatbot_create\sample_chatbot_03.PNG"  caption="모든 샘플챗봇" %}
+3) 샘플챗봇을 가져오지 않고, 챗봇을 바닥부터 직접 만들고 싶을때에는 화면의 하단 '처음부터 만들기'영역의 **"Chatbot 생성"**을 클릭하여 챗봇을 생성할 수 있는 화면으로 이동할 수 있습니다.
+이 곳에서 챗봇의 이름과 챗봇을 설명하는 텍스트를 입력하여 간단히 챗봇을 생성하고, 곧 바로 바닥부터 챗봇 빌드를 시작할 수 있습니다.  
+
+
+{% include image.html file="chatbot_create\chatbot_create_04.PNG"  caption="챗봇 직접생성" %}
+
+4) 최초로 챗봇을 생성하게되면 화면과 같은 단비 플랫폼의 **'기능 알림 튜토리얼'**이 진행됩니다. 
+튜토리얼에서는 **테스트패널의 사용법**부터, **추가 챗봇생성**, **전체적인 메뉴안내**까지 챗봇을 만드는데 필요한 기본적인 기능들을 간략히 설명합니다.  
+
+{% include image.html file="chatbot_create\tutorial_05.PNG"  caption="기능알림 튜토리얼 진행화면" %}
+
+5) 튜토리얼이 끝나면 생성된 챗봇을 확인할 수 있으며, **챗봇별로 관리되는 데이터**가 보입니다.
+{% include image.html file="chatbot_create\chatbot_created_06.PNG"  caption="챗봇이 생성된 모습" %}
+
+ - [의도](intent.html) : 챗봇이 추론할 수 있는 **의도(Intent)**의 개수를 나타냅니다.
+ - [핵심단어](entity.html): 챗봇이 추출할 수 있는 **핵심단어(Entity)**의 개수를 나타냅니다.
+ - [대화흐름](chatflow.html) : 답변 가능하도록 설정된 **챗플로우**의 개수를 나타냅니다.
+ - [의도분류 이력조회](log.html) 사람들이 어떤 말을 걸었는지, Chatbot은 어떻게 이해했는지 확인해보세요. Default Fallback으로 처리된 대화 내용을 다른 Intent로 업데이트하면 Chatbot의 이해도가 더욱 향상됩니다.
+ - [대화흐름 이력조회](log.html) 사람들이 어떤 말을 걸었는지, Chatbot은 어떻게 이해했는지 확인할 수 있습니다.
 
 Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각각의 메뉴로 이동합니다.
 
-챗봇명 우측의 ***"설정"*** 버튼을 클릭하여 챗봇의 기본정보를 변경하거나 삭제할 수 있습니다.
+**"설정"** 버튼을 클릭하여 챗봇의 기본정보를 변경하거나 삭제할 수 있습니다.<br/>
+**"복제"** 버튼을 클릭하여 해당 챗봇을 복사한 새로운 챗봇이 생성됩니다.
 
 ### 챗봇 기본정보 변경
 챗봇명 우측의 ***"설정"*** 버튼을 클릭하면, 아래와 같은 화면이 나타납니다.
@@ -94,7 +109,7 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 
 메뉴를 클릭하면, 아래와 같은 화면이 나타납니다.
 
-{% include image.html file="chatbot_create\08_Chatflow_create.PNG"  caption="챗플로우 생성" %}
+{% include image.html file="chatbot_create\08_chatflow_create.PNG"  caption="챗플로우 생성" %}
 화면 중앙, 또는 우측상단에 있는 "Chatflow 생성" 버튼을 클릭합니다.
 
 {% include image.html file="chatbot_create\09_chatflow_name.PNG"  caption="챗플로우 생성" %}
