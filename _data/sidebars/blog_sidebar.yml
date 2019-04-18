@@ -33,4 +33,9 @@ entries:
     - title: 산업분야 특화 챗봇적용 사업방안
       url: /blog_007_BIZ02_domain.html
       output: web
-    
+  - title: 챗봇TECH
+    output: web
+    folderitems:
+    - title: AI를 위한 AI, 챗봇 학습 추천
+      url: /blog_009_TECH01_recommendation.html
+      output: web
