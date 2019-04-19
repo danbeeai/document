@@ -34,6 +34,8 @@ next: {
 {% include image.html file="intent/Intent_input_sentence.PNG"  caption="사용자 입력 예문 등록" %}
 
 사용자 예문 입력란에 추가하길 원하는 예문을 입력한 뒤 Enter나 예문등록 버튼을 누르면 예문이 추가됩니다. 추가된 예문은 전체 등록 예문에서 확인이 가능하며 예문 목록 타이틀 옆에는 등록된 총 예문 개수가 표시됩니다. <br/>
+{% include tip.html content="챗봇은 등록된 예문외에도 클라우드 학습을 통해 다양한 문장을 감지할 수 있지만, 많은 예문을 추가하면 더욱 높은 추론률을 가질 수 있습니다. danbee.Ai는 예문을 쉽고 빠르게 다양화 할 수 있도록 예문추천 기능을 제공하고 있습니다." %}
+
 
 ### 예문에서 정보 추출
 
@@ -50,12 +52,12 @@ next: {
 
 이제 챗봇이 **"치킨 먹고 싶어"**와 같거나 비슷한 문장을 이해하고 해당의도로 이해할 수 있게 되었습니다. 여기에서 **치킨**과 같은 음식 이름이 다양하게 위치할법한 영역을 드래그 합니다.
 
-예를 들어 '~~ 먹고 싶어'라는 문장에서 ~~부분에 다양한 음식종류를 얻어오고 싶다면, '치킨 먹고 싶어'와 같이 예문을 작성한 후 '치킨' 부분에 파라메터 영역을 설정하면 정보를 추출해 올 수 있습니다.<br/>
+예를 들어 **'~~ 먹고 싶어'**라는 문장에서 **~~**부분에 쓰일 수 있는 다양한 음식종류를 추출하고 싶다면, 방금 작성한 예문에서 **'치킨'** 부분을 드래그해 파라메터 영역을 설정하면 해당 영역에서 정보를 추출해 올 수 있습니다.<br/>
 
 {% include image.html file="intent/Intent_sentence_parameter_01.png"  caption="예문에 Parameter 추가 01" %}
 
 
-먼저, 입력한 예문에서 추출하고 싶은 영역을 드래그 하면 위 그림과 같이 엔티티를 선택할 수 있는 창이 뜹니다. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Entity](entity.html)</span>에 관한 자세한 내용은 다음 페이지에서 계속됩니다.
+입력한 예문에서 추출하고 싶은 영역을 드래그 하면 위 그림과 같이 엔티티를 선택할 수 있는 창이 뜹니다. <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Entity](entity.html)</span>에 관한 자세한 내용은 다음 페이지에서 계속됩니다. 
 
 {% include image.html file="intent/Intent_sentence_parameter_02.png"  caption="예문에 Parameter 추가 02" %}
 

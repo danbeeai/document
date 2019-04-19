@@ -25,12 +25,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    letter-spacing: -0.7px;
-    word-spacing: 0.5px;
+    /* letter-spacing: -0.7px;
+    word-spacing: 0.5px; */
 }
 
 h2{margin-top:28px; margin-bottom:8px;}
-h3{margin-top:24px;}
+h3{margin-top:45px;}
 h4{margin-top:20px;}
 
 
@@ -85,7 +85,9 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 }
 
 p{
-    line-height:32px;
+    line-height:27px;
+    padding: 10px 0;
+    letter-spacing:-0.3px;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
     line-height:24px;
@@ -300,9 +302,11 @@ div#toc_side ul ul ul {
     font-weight:700;
 }
 .post-content h3 {
-    color:#ff7000;
-    font-size:18px;
-    padding-bottom:6px;
+    color:#000;
+    font-size:24px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    border-top:3px solid #FF6647;
 }
 .post-content h4{
     font-size:16px;
@@ -335,7 +339,7 @@ div#toc_side ul ul ul {
 }
 .post-content figcaption {
     font-size: 14px;
-    font-style: normal;
+    font-style: italic;
     padding-top: 0;
     margin-bottom: 24px;
 }
