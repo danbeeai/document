@@ -18,39 +18,45 @@ next: {
 
 ## 엔티티(Entity)
 
-**엔티티(이하 Entity)**란, 사용자의 말 속에서 원하는 정보를 뽑아내기 위해 설정하는 값입니다. 앞서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Intent의 Parameter](intent.html#파라미터parameter)</span>에서 설명한 것과 같이 Parameter라는 껍데기가 어떤 정보를 담을 수 있을지 결정해주는 역할을 합니다.<br/>
+{% include image.html file="entity/chatbotflow.png"  caption="대화의도와 엔티티의 관계" %}
 
-Entity의 종류에는 크게 2가지가 있습니다.
-- [시스템 Entity](entity.html#시스템-entity)
-- [사용자정의 Entity](entity.html#사용자정의-entity)
+**엔티티**란, 사용자의 말이나 문장 속에서 원하는 정보를 추출하여 적절하게 대화를 이끌어 나갈 수 있도록 설정하는 단어군입니다. 
+엔티티는 [인텐트의 파라메터](intent.html#파라미터parameter)가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할을 합니다.
+엔티티에 대해 자세히 알아보며 어떻게 사용해야 할지 알아보도록 하겠습니다.
 
-### 시스템 Entity
-**시스템 Entity**는 danbee.Ai에서 기본적으로 제공하는 Entity를 의미합니다. danbee.Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
-- [날짜 Entity : sys.year, sys.month, sys.date](entity.html#날짜-entity)
-- [확인 Entity : sys.confirm](entity.html#확인-entity)
-- [숫자 Entity : sys.number](entity.html#숫자-entity)
-- [일반 Entity : sys.any](entity.html#일반-entity)
+엔티티에는 2가지 종류가 있습니다.<br/>
 
-#### 날짜 Entity
+<!-- 앞서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[Intent의 Parameter](intent.html#파라미터parameter)</span>에서 설명한 것과 같이 Parameter라는 껍데기가 어떤 정보를 담을 수 있을지 결정해주는 역할을 합니다.<br/>Entity의 종류에는 크게 2가지가 있습니다. -->
 
-| Entity | 대표어 |
-|--------|-------|
-| sys.date | 오늘, 내일, 모레, 어제, 그제, 3일 전, 3일 후 등 |
-| sys.month | 당월, 익월, 전월, 익익월, 전전월 등 |
-| sys.year | 올해, 내년, 작년, 내후년, 재작년 등 |
+- [시스템 엔티티](entity.html#시스템-entity)
+- [사용자정의 엔티티](entity.html#사용자정의-entity)
+
+### 시스템 엔티티
+**시스템 엔티티**는 danbee.Ai에서 기본적으로 제공하는 엔티티들을 의미합니다. danbee.Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
+- [날짜 엔티티 : sys.year, sys.month, sys.date](entity.html#날짜-entity)
+- [확인 엔티티 : sys.confirm](entity.html#확인-entity)
+- [숫자 엔티티 : sys.number](entity.html#숫자-entity)
+- [일반 엔티티 : sys.any](entity.html#일반-entity)
+
+#### 날짜 엔티티
+
+| 엔티티명 | 레퍼런스 | 값 |
+|--------|-------|-------|
+| sys.date | 오늘, 내일, 모레, 어제, 그제, 3일 전, 3일 후 등 | ..., -2, -1, 0, 1, ...|
+| sys.month | 당월, 익월, 전월, 익익월, 전전월 등 | ..., -2, -1, 0, 1, ... |
+| sys.year | 올해, 내년, 작년, 내후년, 재작년 등 | ..., -2, -1, 0, 1, ... |
 {: .table .table-striped}
 
-**날짜 Entity**는 날짜를 가리키는 단어를 구분합니다. 일, 월, 년에 대해 각각의 시스템 Entity를 제공합니다. 위 대표어 이외에 당일, 이번달, 금년 등 일반적으로 사용하는 날짜 지칭 단어를 구분할 수 있도록 제공되고 있습니다.
+**날짜 엔티티**는 날짜를 가리키는 단어를 추출합니다. 일, 월, 년에 대해 각각의 시스템 엔티티를 제공합니다. 위 대표어 이외에 당일, 이번달, 금년 등 일반적으로 사용하는 날짜 지칭 단어를 구분할 수 있도록 제공되고 있습니다. 날짜 엔티티는 자체적으로 현재시점으로부터 사용자 지칭 날짜까지의 차이를 값으로 제공합니다.<br>
+예) 오늘 날씨 어때 => 0, 어제 날씨 어때 => -1
 
-{% include image.html file="entity/Entitiy_system_date01.png"  caption="Parameter 추가 - sys.date Entity" %}
+{% include image.html file="entity/Entitiy_system_date01.png"  caption="인텐트에서 Parameter 추가 - sys.date 설정" %}
 
 {% include image.html file="entity/Entitiy_system_date02.png"  caption="sys.date 결과값 확인" %}
 
-Intent에 날짜 Entity 타입의 Parameter를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 단어가 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. '오늘', '당월', '올해'를 0으로 잡고 기준으로 부터 떨어진 날짜수를 계산하여 반환하게 됩니다.  
+인텐트에 날짜 엔티티타입의 파라메터를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 파라메터값(Value)이 숫자로 입력되고 있는 것을 확인 할 수 있습니다. 오늘, 당월, 올해를 기준으로 떨어진 날짜수를 계산하여 반환합니다.
 
-
-
-##### 날짜 Entity상대값을 절대값으로 변환하는 방법
+##### 날짜 엔티티의 값을 상대값에서 절대값으로 변환하는 방법
 sys.date에서는 0이 오늘(today)을 의미하고,
 sys.month는 0이 이번달(this month)를 의미합니다.
 하지만 필요에 따라 2019-01-29와 같이 날짜 포멧에 맞추어 표현을 바꾸고 싶을 수 있습니다.
@@ -88,76 +94,76 @@ fn_date함수의 세번째 파라미터인 계산값은 #{파라미터명} 또�
 
 
 
-#### 확인 Entity
+#### 확인 엔티티
 
-| Entity | 대표어(값) |
-|--------|-------|
-| sys.confirm | 예(Y), 아니오(N), 대답회피(C) |
+| 엔티티명 | 레퍼런스 | 값 |
+|--------|-------|-------|
+| sys.confirm | 예, 아니오, 대답회피 | Y, N, C |
 {: .table .table-striped}
 
-**확인 Entity**는 긍정,부정,중립을 구분합니다.
+**확인 엔티티**는 긍정,부정,중립을 구분합니다.
 
 {% include image.html file="entity/Entitiy_system_confirm.png"  caption="sys.confirm 결과값 확인" %}
 
 위 예시와 같이 좋고 싫음 혹은 예, 아니요를 요구하는 질문에 대하여 돌아오는 대답에 따라 다른 반응을 보일 수 있도록 지정하는데 유용하게 활용할 수 있습니다.
 
-#### 숫자 Entity
+#### 숫자 엔티티
 
-| Entity | 대표어(값) |
-|--------|-------|
-| sys.number | 일(1),이(2), ..., 백(100), 천(1000) 등 |
+| 엔티티명 | 레퍼런스 | 값 |
+|--------|-------|-------|
+| sys.number | 일(1),이(2), ..., 백(100), 천(1000) 등 | 0,1,2,3,4.. |
 {: .table .table-striped}
 
-**숫자 Entity**는 숫자 표현을 구분합니다.
+**숫자 엔티티**는 숫자 표현을 구분합니다.
 
 {% include image.html file="entity/Entitiy_system_number01.png"  caption="Parameter 추가 - sys.number Entity" %}
 
 {% include image.html file="entity/Entitiy_system_number02.png"  caption="sys.number 결과값 확인" %}
 
-Intent에 숫자 Entity 타입의 Parameter를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. danbee.Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
+대화 의도에 숫자 엔티티 타입의 파라메터를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. danbee.Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
 
-#### 일반 Entity
+#### 일반 엔티티
 
-| Entity | 대표어 |
-|--------|-------|
-| sys.any | N/A |
+| 엔티티명 | 레퍼런스 | 값 |
+|--------|-------|-------|
+| sys.any | N/A | (사용자입력단어) |
 
-**일반 Entity**는 모든 단어 또는 어구를 담을수 있는 타입이며 그렇기 때문에 가장 다양하게 활용할 수 있는 시스템 Entity 입니다. 주로 특정하기 힘든 단어 또는 어구를 찾기 위해 사용할 수 있습니다.
+**일반 엔티티**는 모든 단어 또는 어구를 담을수 있는 타입이며 그렇기 때문에 가장 다양하게 활용할 수 있는 시스템 엔티티 입니다. 주로 후보군을 특정하기 힘든 지명, 이름같은 고유명사나 어떤 단어가 들어올지 예상하기 힘든 영역에 활용하게 됩니다.
 
 {% include image.html file="entity/Entitiy_system_any_01.png"  caption="Parameter 추가 - sys.any Entity" %}
 
 {% include image.html file="entity/Entitiy_system_any_02.png"  caption="sys.any 결과값 확인" %}
 
-Intent에 일반 Entity 타입의 Parameter를 추가하고 예문의 특정 위치를 지정하면 해당 위치에 들어가는 모든 단어 또는 어구가 Parameter에 담기는 것을 확인할 수 있습니다.<br/>
-다만, 세 번째 테스트에서는 *'라파엘'*이라는 글자만 얻고자 했지만 문장 패턴이 '내 이름은 ~야'로 지정되어 있기 때문에 *'라파엘이'* 라는 정보를 가져오게 됩니다. 이와 같이 sys.any는 모든 말이 담기기 때문에 예문에 특정 패턴으로 지정해서 사용 시에는 주의해서 사용해야 합니다.
+대화 의도에서 예문에 sys.any 타입의 Parameter를 추가하면 를 해당 위치에 들어가는 모든 단어 또는 어구가 그대로 파라메터에 담기는 것을 확인할 수 있습니다.<br/>
+다만, 세 번째 테스트에서는 **'라파엘'**이라는 글자만 얻고자 했지만 문장 패턴이 **'내 이름은 ~야'**로 지정되어 있기 때문에 **'라파엘이'** 라는 정보를 가져오게 됩니다. 이와 같이 sys.any는 모든 말이 담기기 때문에 예문에 특정 패턴으로 지정해서 사용 시에는 예외가 있지는 않은지 점검하면서 사용해야 합니다.
 
-### 사용자정의 Entity
+### 사용자정의 엔티티
 
 {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [단어 추출(Entity)]" type="default" %}
 
-**사용자정의 Entity**는 직접 정의하여 사용하는 Entity 입니다. 즉, Parameter를 해당 Entity로 지정할 경우 담길 수 있는 정보를 직접 정의할 수 있습니다.<br/>
+**사용자정의 엔티티**는 사용자의 필요에 의해 직접 정의하여 사용하는 엔티티입니다. 즉, 파라메터에 어떤 정보를 담을지 직접 설정할 수 있습니다.<br/>
 
-#### 사용자정의 Entity 등록하기
+#### 사용자정의 엔티티 등록하기
 
-해당 메뉴에서는 Entry와 Reference를 등록하게 됩니다. **Entry**란 뽑아내고자 하는 정보의 대표어를 의미합니다. 그리고 **Reference**란 Entry로 인식되는 참조어를 의미합니다.<br/>
+해당 메뉴에서는 추출 항목과 레퍼런스를 등록하게 됩니다. **추출 항목**이란 사용자 입력 문장에서 추출하고자하는 정보의 대표어를 의미합니다. **레퍼런스**로 등록된 단어는 해당되는 추출 항목으로 인식되게 됩니다. 챗봇이 실제로 대화를 진행하면서 파라메터에 담게 되는 값은 **추출 항목**입니다.<br/>
 
-{% include image.html file="entity/Entitiy_user_define01.png"  caption="사용자정의 Entity 등록" %}
+{% include image.html file="entity/Entitiy_user_define01.png"  caption="사용자정의 엔티티 등록" %}
 
-{% include image.html file="entity/Entitiy_user_define02.png"  caption="사용자정의 Entity 테스트" %}
+{% include image.html file="entity/Entitiy_user_define02.png"  caption="사용자정의 엔티티 테스트" %}
 
-예를 들어 위와 같이 *'치킨'*이라는 Entry에는 *'통닭,Chicken,치느님'* 등의 Reference를 등록할 수 있습니다. 이렇게 등록하게 통닭,Chicken,치느님 등의 정보를 입력받았을 때 봇은 '치킨'으로 인식하게 됩니다.<br/>
+예를 들어 위와 같이 **'치킨'**이라는 추출 항목에는 **'통닭,Chicken,치느님'** 등의 레퍼런스를 등록할 수 있습니다. 이렇게 엔티티를 설정하면 챗봇은 '통닭','Chicken','치느님'이라는 문장을 입력받았을 때 **'치킨'으로 인식하게 됩니다.**<br/>
 
-Entity 등록/수정에는 다음과 같은 제약사항이 존재합니다.
+엔티티 등록/수정에는 다음과 같은 제약사항이 존재합니다.
 
-- Entity는 반드시 하나 이상의 Entry를 가져야 한다.
-- Entry는 반드시 하나 이상의 Reference를 가져야 한다.
-- Entry와 Reference는 최대 각 40자로 제한한다.
-- 하나의 Entry에 Reference는 최대 100개까지 등록이 가능하다.
+- 엔티티는 반드시 하나 이상의 추출 항목을 가져야 한다.
+- 추출 항목은 반드시 하나 이상의 레퍼런스를 가져야 한다.
+- 추출 항목과 레퍼런스는 최대 각 40자로 제한한다.
+- 하나의 추출항목에 레퍼런스는 최대 100개까지 등록이 가능하다.
 
 
 #### 사용자사전 등록 추천 단어
 
-사용자정의 Entity를 저장하면 사전에 등록하면 좋을 단어들을 추천합니다. 해당 단어는 인식률이 떨어질 수 있는 단어들이기 때문에 사용자사전 등록을 권장합니다. 사용자사전에 관하여 더 자세한 내용은 **[사용자사전 관리](dictionary.html)** 메뉴에서 확인할 수 있습니다.
+사용자정의 엔티티를 저장하게되면 사용자 사전에 등록하면 좋을 단어들을 추천합니다. 해당 단어는 인식률이 떨어질 수 있는 단어들이기 때문에 사용자사전 등록을 권장합니다. 사용자사전에 관하여 더 자세한 내용은 **[사용자사전 관리](dictionary.html)** 메뉴에서 확인할 수 있습니다.
 
 {% include image.html file="entity/Entity_user_define03_recommend.png"  caption="사전 등록 추천어 확인" %}
 
@@ -165,13 +171,13 @@ Entity 등록/수정에는 다음과 같은 제약사항이 존재합니다.
 
 {% include image.html file="entity/Entity_user_define04_userdic01.png"  caption="사용자사전 불러오기" %}
 
-위 버튼을 클릭하면 사용자정의 Entity에서 사용자사전에 등록해놓은 단어를 불러와서 사용할 수 있습니다. 원하는 단어를 체크한 뒤 불러오기 버튼을 클릭하면 해당 Entity의 Entry와 Reference로 추가되는 것을 확인할 수 있습니다.
+위 버튼을 클릭하면 사용자정의 엔티티로 사용자사전에 등록해놓은 단어를 불러와서 사용할 수 있습니다. 원하는 단어를 체크한 뒤 불러오기 버튼을 클릭하면 사용자 사전의 대표어는 추출 항목으로, 사용자 사전의 유의어는 레퍼런스로 추가되는 것을 확인할 수 있습니다.
 
 {% include image.html file="entity/Entity_user_define04_userdic02.png"  caption="사용자사전 불러오기 - 결과" %}
 
 ## 엔티티(Entity) 업로드
 
-danbee.Ai는 편의 기능의 일종으로 사용자정의Entity 업로드기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+danbee.Ai는 편의 기능의 일종으로 사용자정의 엔티티 업로드기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
