@@ -39,3 +39,6 @@ entries:
     - title: AI를 위한 AI, 챗봇 학습 추천
       url: /blog_009_TECH01_recommendation.html
       output: web
+    - title: 하루만에 FAQ챗봇 출격
+      url: /blog_010_TECH02_faq.html
+      output: web
