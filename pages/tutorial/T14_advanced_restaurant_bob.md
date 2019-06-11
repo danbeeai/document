@@ -19,7 +19,6 @@ next: {
 이번에 소개하려고 하는 챗봇은 식당에서 일하는 식당곰, 밥입니다.
 식당, 레스토랑, 카페에서 메뉴, 매장위치, 영업시간 등 자주 문의되는 질문에 대답하고 프랜차이즈 가입문의 접수를 받는 챗봇입니다.
 
-
 <span class="link">[식당곰, 밥을 Frogue에서 만나보기](https://frogue.danbee.ai/?chatbot_id=1f517ca0-4735-4d9a-85bf-65ccdf731f21){:target="_blank"}</span><br/>
 
 {% include image_border.html file="tutorial\sample_bob\bob_01_welcome.PNG" caption="Frogue에서 만나는 식당곰, 밥" %}
