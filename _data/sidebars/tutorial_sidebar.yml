@@ -70,6 +70,9 @@ entries:
     - title: 14. 에이전씨봇, 스페이드컴퍼니
       url: /advanced_agency_spadecompany.html
       output: web
+    - title: 15. NPS설문봇, 벼리
+      url: /advanced_nps.html
+      output: web
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web

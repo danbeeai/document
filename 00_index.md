@@ -15,6 +15,8 @@ next: {
 
 <iframe  width="100%" height="380" src="https://www.youtube.com/embed/SjK1sM9RDGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+챗봇에 대해 더 알아보고 싶다면, 영상강의를 한번 듣는 것을 추천드립니다. [영상강의 보러가기](https://www.youtube.com/watch?v=K1xePNCkLIM&list=PLruvwfGvt5CaTMrYuQdLSweTI9BG99mEJ&index=){:target="_blank"}
+
 ## 챗봇은 이미 알고 있고, 바로 만들어보고 싶은 분들께
 
 바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
