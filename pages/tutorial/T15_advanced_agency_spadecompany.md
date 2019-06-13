@@ -9,6 +9,10 @@ previous: {
     title: 식당곰, 밥,
     url: advanced_restaurant_bob.html
 }
+next: {
+    title: NPS설문봇, 벼리,
+    url: advanced_nps.html
+}
 ---
 
 ## 샘플챗봇 살펴보기
