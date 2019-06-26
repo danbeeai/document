@@ -9,6 +9,12 @@ entries:
     - title: danbee.Ai로 싹튼 챗봇 Case Study
       url: /casestudy_000_landing.html
       output: web
+    - title: NH농협은행, 로봇행원
+      url: /casestudy_012_nh_robot.html
+      output: web
+    - title: NH농협은행, NH디지털혁신캠퍼스 안내로봇
+      url: /casestudy_013_nh_robot_concierge.html
+      output: web
     - title: NH농협캐피탈, 업무지원챗봇
       url: /casestudy_011_nhc.html
       output: web
@@ -24,6 +30,9 @@ entries:
     - title: 씨드시스템, 대학학사지원 챗봇
       url: /casestudy_007_xidsystem.html
       output: web
+    - title: 한국전력공사, 조달시스템 챗봇
+      url: /casestudy_015_srm.html
+      output: web
     - title: 안양대학교, 대학학사지원챗봇 아리봇
       url: /casestudy_008_aribot.html
       output: web
@@ -32,6 +41,9 @@ entries:
       output: web
     - title: LG CNS, 마곡이
       url: /casestudy_010_magoki.html
+      output: web
+    - title: 구리도시공사, 홈페이지 안내 챗봇
+      url: /casestudy_014_guri.html
       output: web
     - title: 단비챗봇, 버그채집봇 파브르
       url: /casestudy_006_fabre.html
