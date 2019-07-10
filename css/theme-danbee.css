@@ -7,13 +7,13 @@ body, html {
     margin: 0;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%;
     word-break:keep-all;
     word-wrap:break-word;
+    text-size-adjust: 100%;
 }
 
 *, body, html, input, textarea, select, button {
-    font: 400 16px/24px Roboto,"Open Sans", "Noto Sans KR", "Nanum Barun Gothic", 나눔바른고딕, "Nanum Gothic", 나눔고딕, "Apple SD Gothic Neo", "Malgun Gothic", 맑은고딕, 돋움, dotum, san-serif;
+    font-family: "SD Apple Neo Gothic KR", "Noto Sans KR", serif;
 
 }
 
@@ -22,18 +22,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 0;
     padding: 0;
     border: 0;
+    font-weight:300;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
     /* letter-spacing: -0.7px;
     word-spacing: 0.5px; */
 }
 
-h2{margin-top:28px; margin-bottom:8px;}
+b, strong{
+    font-weight:400;
+    background:rgba(255, 106, 0, 0.14);
+}
+
+h2{margin-top:60px; margin-bottom:8px;}
 h3{margin-top:45px;}
 h4{margin-top:20px;}
 
+hr{
+    margin:60px 0;
+    width:100%;
+}
 
+.anchorjs-link{
+    position:absolute;
+}
 .highlight{
     background:#fff;
     border: 1px solid #666;
@@ -86,8 +98,8 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 p{
     line-height:27px;
-    padding: 10px 0;
-    letter-spacing:-0.3px;
+    margin: 15px 0;
+    letter-spacing:0.1px;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
     line-height:24px;
@@ -146,7 +158,7 @@ a[data-toggle="tooltip"] {
     background:none !important;
 }
 #search-demo-container input#search-input {
-    
+
     background:#15191c;
     border:1px solid #0d1012;
     color:#cfdbe5;
@@ -298,26 +310,33 @@ div#toc_side ul ul ul {
 }
 
 .post-content h2 {
-    font-size:24px;
-    font-weight:700;
+    font-size: 30px;
+    line-height: 1.6;
+    font-weight: 700;
+    height: auto;
+    margin-bottom:45px;
 }
 .post-content h3 {
-    color:#000;
-    font-size:24px;
-    padding-bottom: 30px;
-    padding-top: 40px;
-    border-top:3px solid #FF6647;
+    color: #000;
+    margin-top: 55px;
+    font-size: 21px;
+    font-weight: 500;
 }
 .post-content h4{
     font-size:16px;
-    border-left: 4px solid #555;
+    border-left: 4px solid #ccc;
     padding-left: 6px;
     margin-bottom: 8px;
+    margin-top:30px;
+    margin-left:20px;
 }
 .post-content h5{
     font-size:16px;
     font-weight:bold;
     margin-top: 24px;
+}
+.post-content .indented{
+    margin-left:20px;
 }
 .post-content .link{
   color:#395168;
@@ -329,7 +348,6 @@ div#toc_side ul ul ul {
 }
 .post-content p em {
     font-style: normal;
-    font-size:110%;
 }
 .post-content .bs-callout {
     border:none;
@@ -339,8 +357,9 @@ div#toc_side ul ul ul {
 }
 .post-content figcaption {
     font-size: 14px;
-    font-style: italic;
+    font-style: normal;
     padding-top: 0;
+    font-weight:300;
     margin-bottom: 24px;
 }
 .post-content .danbee-slider{
@@ -381,7 +400,7 @@ div#toc_side ul ul ul {
     border:1px solid #ccc;
 }
 .post-content table{
-    border-bottom:1px solid #ddd; 
+    border-bottom:1px solid #ddd;
     border-top:1px solid #ddd;
 }
 .post-content table th{
@@ -398,8 +417,24 @@ div#toc_side ul ul ul {
     padding:20px;
 }
 .post-content ol li, .post-content ul li {
-    margin: 4px 0px;
+    margin: 0px 0px 12px 20px;
+    font-weight:400;
 }
+.post-content ol li p, .post-content ul li p{
+    padding:0;
+}
+.post-content ul li em{
+    font-style: normal;
+    display: block;
+    margin-top: 3px;
+    color: #888;
+    font-size: 90%;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 0px;
+}
+
 .post-content img {
     margin: 12px 0px 3px 0px;
     width: auto;
@@ -451,6 +486,7 @@ div#toc_side ul ul ul {
 }
 .post-content ul.posts--previous-next li a.anchorjs-link {
     display:none;
+
 }
 
 .post-content .code-sample{
@@ -551,7 +587,7 @@ div#toc >ul::before {
     color:#b1ffbb;
     font-weight:normal;
 }
-.post-content .pricing table tr th a{   
+.post-content .pricing table tr th a{
     color: #b1ffbb;
     text-decoration: underline;
     cursor: pointer;
