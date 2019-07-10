@@ -29,6 +29,9 @@ next: {
 챗봇 사용에 익숙하고, 개발경험이 있으시다면 바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
 <span style="display:block" class="link">[챗봇 만들기 튜토리얼](/samplebot.html)</span>
 
+단비에서는 영상강의를 제공하고있습니다.
+[영상강의 보러가기](https://www.youtube.com/watch?v=K1xePNCkLIM&list=PLruvwfGvt5CaTMrYuQdLSweTI9BG99mEJ&index=){:target="_blank"}
+
 직접 만들기 힘들거나, 제작에 앞서 간편하게 단비플렛폼을 시도해보고 싶으신 분들을 위해 위자드 기능이 제공되고 있습니다.
 목적에 맞는 위자드 챗봇을 찾아 필요한 정보만 채워넣으면 바로 사용할 수 있는 챗봇이 완성됩니다.
 <span style="display:block" class="link">[위자드 챗봇 자세히 알아보기](/chatbot_wizard.html)</span>

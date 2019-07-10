@@ -27,6 +27,9 @@ entries:
   - title: 챗봇BIZ
     output: web
     folderitems:
+    - title: 챗봇 검토중이라면, 꼭 보세요
+      url: /blog_011_BIZ03_chatbot_start.html
+      output: web
     - title: 챗봇도입시 고려해야할 7가지 체크포인트
       url: /blog_007_BIZ01_checkpoint.html
       output: web
