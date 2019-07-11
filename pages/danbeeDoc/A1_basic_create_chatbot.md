@@ -11,8 +11,8 @@ previous: {
     url: chatbot_wizard.html
 }
 next: {
-    title: 의도관리,
-    url: intent.html
+    title: 업데이트 로그,
+    url: update_log.html
 }
 ---
 

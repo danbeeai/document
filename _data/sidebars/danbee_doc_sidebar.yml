@@ -36,9 +36,17 @@ entries:
       url: /basic_create_chatbot.html
       output: web, pdf
 
+    - title: 업데이트 로그
+      url: /update_log.html
+      output: web, pdf
+
   - title: 주요 기능
     output: web, pdf
     folderitems:
+
+    - title: 파라미터 관리
+      url: /parameter.html
+      output: web, pdf
 
     - title: 의도 관리
       url: /intent.html
