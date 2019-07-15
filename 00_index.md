@@ -24,17 +24,25 @@ next: {
 사용자의 의도는 ARS과 같이 숫자나 버튼, 명령어로 알아낼 수도 있고 사람이 실제 대화를 나누듯이 자연어를 통해 알아낼 수도 있습니다. ARS처럼 일정 의도를 미리 정해놓고 입력받아 처리하는 방식을 **룰기반 챗봇**이라고 하고, 자연어처리를 통해 의도를 인식하고 처리하는 챗봇을 **지능형 챗봇**이라고 합니다. **danbee.Ai는 개발코드 작성 없이 두 가지 방식 모두를 만들 수 있는 대화형 인터페이스 제작 플렛폼입니다.**
 <span class="link">[자주 묻는 질문](/faq_00_gateway.html)</span>
 
+### 단비와 함께하는 챗봇 입문교육
+
+단비에서는 챗봇을 시작하는 분들을 위한 입문교육을 영상으로 제공하고있습니다. 지금 유튜브에서 확인하실 수 있습니다.
+[영상강의 보러가기](https://www.youtube.com/watch?v=K1xePNCkLIM&list=PLruvwfGvt5CaTMrYuQdLSweTI9BG99mEJ&index=){:target="_blank"}
+
+{% include image_border.html file="manual/videolist.PNG"  caption="유튜브에 공유되어 있는 단비와 함께하는 챗봇 입문 교육" %}
+
+직접 만들기 힘들거나, 제작에 앞서 간편하게 단비플렛폼을 시도해보고 싶으신 분들을 위해 위자드 기능이 제공되고 있습니다.
+목적에 맞는 위자드 챗봇을 찾아 필요한 정보만 채워넣으면 바로 사용할 수 있는 챗봇이 완성됩니다.
+<span style="display:block" class="link">[위자드 챗봇 자세히 알아보기](/chatbot_wizard.html)</span>
+
+
 ### 튜토리얼
 
 챗봇 사용에 익숙하고, 개발경험이 있으시다면 바로 따라해볼 수 있는 튜토리얼을 추천드립니다.
 <span style="display:block" class="link">[챗봇 만들기 튜토리얼](/samplebot.html)</span>
 
-단비에서는 영상강의를 제공하고있습니다.
-[영상강의 보러가기](https://www.youtube.com/watch?v=K1xePNCkLIM&list=PLruvwfGvt5CaTMrYuQdLSweTI9BG99mEJ&index=){:target="_blank"}
 
-직접 만들기 힘들거나, 제작에 앞서 간편하게 단비플렛폼을 시도해보고 싶으신 분들을 위해 위자드 기능이 제공되고 있습니다.
-목적에 맞는 위자드 챗봇을 찾아 필요한 정보만 채워넣으면 바로 사용할 수 있는 챗봇이 완성됩니다.
-<span style="display:block" class="link">[위자드 챗봇 자세히 알아보기](/chatbot_wizard.html)</span>
+
 
 ---------
 

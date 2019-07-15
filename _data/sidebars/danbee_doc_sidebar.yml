@@ -36,6 +36,10 @@ entries:
       url: /basic_create_chatbot.html
       output: web, pdf
 
+    - title: 영상-단비와 함께하는 챗봇 입문 교육
+      url: /study_video.html
+      output: web, pdf
+
     - title: 업데이트 로그
       url: /update_log.html
       output: web, pdf
