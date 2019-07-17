@@ -7,6 +7,11 @@ sidebar: blog_sidebar
 permalink: blog_012_UX06_strategy.html
 folder: blog
 
+previous: {
+    title: 챗봇UX 5편 - 챗봇의 답변수준 4단계,
+    url : blog_006_UX05_answer.html
+}
+
 ---
 
 ## 대화모델 배치는 곧 UX전략

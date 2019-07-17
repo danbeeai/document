@@ -452,6 +452,7 @@ div#toc_side ul ul ul {
     text-align:right;
     margin-bottom:40px;
     padding-bottom:40px;
+    line-height: 46px;
 }
 .post-content ul.posts--previous-next li {
     display:inline-block;
