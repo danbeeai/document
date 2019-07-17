@@ -11,7 +11,10 @@ previous: {
     title: 챗봇UX 4편 - 챗봇이 다른 서비스와 다른 점 페르소나,
     url : blog_005_UX04_persona.html
 }
-
+next: {
+    title: 챗봇UX 6편 - 학익진(鶴翼陣) 챗봇 대화모델 구성 전략,
+    url: blog_012_UX06_strategy.html
+}
 ---
 
 ## 챗봇이 답변이 주는 만족도 = 답변 수준
