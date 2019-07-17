@@ -110,5 +110,10 @@ UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 �
 앞으로도 danbee.Ai 블로그에서는 챗봇관련 콘텐츠를 원작자의 허락하에 번역/공유할 계획입니다.
 좋은 글이 있다면 추천 부탁드립니다!
 
-{% include note.html content="danbee.Ai에서는 늘 함께 챗봇시대를 열어갈 인재와 파트너를 찾고 있습니다.
-<br/> [contact@danbee.Ai](mailto:contact@danbee.ai)로 편지를 보내주세요!" %}
+<hr>
+작성자 : RAPA
+
+### 함께해요! 챗봇시대:)
+모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
+
+{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}

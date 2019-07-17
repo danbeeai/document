@@ -24,6 +24,9 @@ entries:
     - title: 챗봇UX 5편, 챗봇의 답변수준 4단계
       url: /blog_006_UX05_answer.html
       output: web
+    - title: 챗봇UX 6편, 학익진(鶴翼陣), 챗봇 대화모델 구성 전략
+      url: /blog_012_UX06_strategy.html
+      output: web
   - title: 챗봇BIZ
     output: web
     folderitems:
