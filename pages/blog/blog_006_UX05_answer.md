@@ -74,10 +74,11 @@ Digital Agent보다 한 단계 더 나아갔습니다. 문의사항에 답변하
 danbee.Ai는 이와 같은 다양한 답변수준에 맞는 챗봇을 구현할 수 있는 도구를 클라우드로 제공합니다.
 무료로 여러분들의 고객을 위한 챗봇을 만들어보세요!
 
+<hr>
+작성자 : RAPA
 
-{% include note.html content="danbee.Ai에서는 늘 함께 챗봇시대를 열어갈 인재와 파트너를 찾고 있습니다.
-<br/> [contact@danbee.Ai](mailto:contact@danbee.ai)로 편지를 보내주세요!" %}
+### 함께해요! 챗봇시대:)
+모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
 
-
-
+{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
 
