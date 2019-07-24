@@ -28,16 +28,24 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: 챗봇 위자드로 5분만에 챗봇 만들기
+    - title: 영상-단비와 함께하는 챗봇 입문 교육
+      url: /study_video.html
+      output: web, pdf
+
+    - title: 영상-챗봇 위자드로 10분만에 챗봇 만들기
       url: /chatbot_wizard.html
+      output: web, pdf
+
+    - title: 영상-FAQ챗봇 하루만에 만들기
+      url: /blog_010_TECH02_faq.html
+      output: web, pdf
+
+    - title: 영상-잘 알아듣는 챗봇 만들기
+      url: /study_video_intent_entity.html
       output: web, pdf
 
     - title: 간단한 챗봇 만들어보기
       url: /basic_create_chatbot.html
-      output: web, pdf
-
-    - title: 영상-단비와 함께하는 챗봇 입문 교육
-      url: /study_video.html
       output: web, pdf
 
     - title: 업데이트 로그

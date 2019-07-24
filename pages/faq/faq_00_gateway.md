@@ -10,9 +10,24 @@ folder: FAQ
 
 ## Q. 챗봇은 처음입니다. 처음에 어떻게 시작해야 하나요?      
 
-> 어디에 적용할지 고민이 되시나요? 의사결정챗봇 디티와 이야기 해보세요. <br />
+### 단비와 함께하는 챗봇 입문교육
+
+단비에서는 챗봇을 시작하는 분들을 위한 입문교육을 영상으로 제공하고있습니다. 지금 유튜브에서 확인하실 수 있습니다.
+[영상강의 보러가기](https://www.youtube.com/watch?v=K1xePNCkLIM&list=PLruvwfGvt5CaTMrYuQdLSweTI9BG99mEJ&index=){:target="_blank"}
+
+{% include image_border.html file="manual/videolist.PNG"  caption="유튜브에 공유되어 있는 단비와 함께하는 챗봇 입문 교육" %}
+
+직접 만들기 힘들거나, 제작에 앞서 간편하게 단비플렛폼을 시도해보고 싶으신 분들을 위해 위자드 기능이 제공되고 있습니다.
+목적에 맞는 위자드 챗봇을 찾아 필요한 정보만 채워넣으면 바로 사용할 수 있는 챗봇이 완성됩니다.
+<span style="display:block" class="link">[위자드 챗봇 자세히 알아보기](/chatbot_wizard.html)</span>
+
+
+### 어디에 적용할지 고민이 되시나요? 의사결정챗봇 디티와 이야기 해보세요. 
+
 > <span class="link"></span>
 > [의사결정나무봇, 디트! 만나러 가기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5&user_id=fromfaq) <br/>
+
+### 튜토리얼이 있습니다.
 > 그리고 Tutorial을 통해서 하나씩 따라하며 이해해 보시길 권유드립니다.   
 > <span class="link"></span>[Tutorial](/samplebot.html), 챗봇을 만드는 방법을 순서대로 배우면서 기본기를 익힐 수 있습니다.
 
