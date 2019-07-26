@@ -29,7 +29,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     word-spacing: 0.5px; */
 }
 
-b, strong{
+.post-content p b, .post-content p strong{
     font-weight:400;
     background:rgba(255, 106, 0, 0.14);
 }
