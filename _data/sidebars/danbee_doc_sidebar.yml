@@ -64,20 +64,20 @@ entries:
       url: /chatbot_list.html
       output: web, pdf  
 
-    - title: 파라미터 관리
+    - title: 파라미터
       url: /parameter.html
       output: web, pdf
 
-    - title: 의도 관리
+    - title: 대화 의도
       url: /intent.html
       output: web, pdf
 
-    - title: 엔티티 관리
+    - title: 엔티티
       url: /entity.html
       output: web, pdf
 
       subfolders:
-      - title: 대화흐름 관리
+      - title: 대화흐름
         output: web, pdf
         subfolderitems:
         - title: 대화흐름 기본 설명
@@ -116,7 +116,7 @@ entries:
           url: /chatflow_jump.html
           output: web, pdf
 
-    - title: 사용자사전 관리
+    - title: 사용자사전
       url: /dictionary.html
       output: web, pdf
 
@@ -136,7 +136,7 @@ entries:
           url: /settings_manage_variables.html
           output: web, pdf
 
-    - title: 대화 이력 관리
+    - title: 대화 이력
       url: /log.html
       output: web, pdf
 
@@ -161,7 +161,7 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: Frogue(자체웹채널)
+        - title: Frogue - 단비 제공 채널
           url: /channel_frogu.html
           output: web, pdf
 
