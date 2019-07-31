@@ -106,7 +106,33 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 
 초기데이터가 프로그를 사용하는 도중 변경이 될 경우 셋팅할 수 있는 방법을 제공합니다.<br /><br />
 
-해당 함수는 추후 제공예정입니다.<br />
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>정보</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>함수명</td>
+      <td>frogueSetInitParam </td>
+    </tr>
+    <tr>
+      <td>파라미터(JSON)</td>
+      <td>전달데이터 - 대화흐름(챗플로우) 파라미터로 전달</td>
+    </tr>
+  </tbody>
+</table>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>사용 예시 : </th>
+      <th>frogueSetInitParam({"param1": 'value1', "param2": 'value2'});</th>
+    </tr>
+  </thead>
+</table>
+<br />
 
 </div>
 
