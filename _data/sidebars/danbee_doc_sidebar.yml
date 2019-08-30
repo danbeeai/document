@@ -56,7 +56,7 @@ entries:
       url: /study_video_intent_entity.html
       output: web, pdf
 
-  - title: 주요 개념
+  - title: 주요 기능
     output: web, pdf
     folderitems:
 
@@ -156,42 +156,42 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-      subfolders:
-      - title: 대화 채널 설정
-        output: web, pdf
-        subfolderitems:
+    - title: Frogue - 단비 제공 채널
+      url: /channel_frogu.html
+      output: web, pdf
 
-        - title: Frogue - 단비 제공 채널
-          url: /channel_frogu.html
-          output: web, pdf
+    - title: Kioscott
+      url: /channel_kioscott.html
+      output: web, pdf
 
-        - title: API for Your App
-          url: /channel_native_app.html
-          output: web, pdf
+    - title: API for Your App
+      url: /channel_native_app.html
+      output: web, pdf
 
-        - title: Facebook
-          url: /channel_facebook.html
-          output: web, pdf
+    - title: Facebook
+      url: /channel_facebook.html
+      output: web, pdf
 
-        - title: LINE
-          url: /channel_line.html
-          output: web, pdf
+    - title: LINE
+      url: /channel_line.html
+      output: web, pdf
 
-        - title: Telegram
-          url: /channel_telegram.html
-          output: web, pdf
+    - title: Telegram
+      url: /channel_telegram.html
+      output: web, pdf
 
-        - title: KakaoTalk
-          url: /channel_kakaotalk.html
-          output: web, pdf
+    - title: KakaoTalk
+      url: /channel_kakaotalk.html
+      output: web, pdf
 
-        - title: 네이버톡톡
-          url: /channel_navertalk.html
-          output: web, pdf
+    - title: 네이버톡톡
+      url: /channel_navertalk.html
+      output: web, pdf
 
-        - title: Slack
-          url: /channel_slack.html
-          output: web, pdf
+    - title: Slack
+      url: /channel_slack.html
+      output: web, pdf
+      
 
   - title: 외부 API 사용
     output: web, pdf
