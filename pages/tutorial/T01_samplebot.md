@@ -21,7 +21,7 @@ next: {
 챗봇 서비스들이 많이 등장하면서 챗봇과의 대화가 점점 익숙해지고 있지만 나에게 필요한 챗봇을 직접 만드는 것은 아직은 생소한 일입니다. 어디서부터 어떻게 시작해야 할지 고민되는 분들을 위해 튜토리얼 및 다양한 지원을 하고 있습니다.
 
 - <span class="link">[Tutorial](/samplebot.html)</span> : 챗봇을 만드는 방법을 순서대로 배우면서 기본기를 익힐 수 있습니다.
-- <span class="link">[Document](/index.html)</span> : 기능 별 자세한 설명을 제공하고 있습니다.
+- <span class="link">[Manual](/index.html)</span> : 기능 별 자세한 설명을 제공하고 있습니다.
 - <span class="link">[Q&A](http://doc.danbee.ai/feedback.html#qa-%EA%B2%8C%EC%8B%9C%ED%8C%90)</span> : Tutorial과 Document로 궁금증이 해소되지 않거나 danbee.Ai에 대한 의견이 있을 경우 운영자에게 문의할 수 있습니다.
 
 ## 샘플챗봇 따라하기
