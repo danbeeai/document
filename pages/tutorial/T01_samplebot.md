@@ -12,10 +12,6 @@ next: {
 }
 ---
 
-
-## 챗봇이 처음이신가요? 
-영상강의를 한번 듣는 것을 추천드립니다. [영상강의 보러가기](https://www.youtube.com/watch?v=K1xePNCkLIM&list=PLruvwfGvt5CaTMrYuQdLSweTI9BG99mEJ&index=){:target="_blank"}
-
 ## 개요
 
 챗봇 서비스들이 많이 등장하면서 챗봇과의 대화가 점점 익숙해지고 있지만 나에게 필요한 챗봇을 직접 만드는 것은 아직은 생소한 일입니다. 어디서부터 어떻게 시작해야 할지 고민되는 분들을 위해 튜토리얼 및 다양한 지원을 하고 있습니다.
