@@ -21,11 +21,11 @@ next: {
 챗봇 서비스들이 많이 등장하면서 챗봇과의 대화가 점점 익숙해지고 있지만 나에게 필요한 챗봇을 직접 만드는 것은 아직은 생소한 일입니다. 어디서부터 어떻게 시작해야 할지 고민되는 분들을 위해 튜토리얼 및 다양한 지원을 하고 있습니다.
 
 - <span class="link">[Tutorial](/samplebot.html)</span> : 챗봇을 만드는 방법을 순서대로 배우면서 기본기를 익힐 수 있습니다.
-- <span class="link">[Document](/index.html)</span> : 기능 별 자세한 설명을 제공하고 있습니다.
+- <span class="link">[Manual](/index.html)</span> : 기능 별 자세한 설명을 제공하고 있습니다.
 - <span class="link">[Q&A](http://doc.danbee.ai/feedback.html#qa-%EA%B2%8C%EC%8B%9C%ED%8C%90)</span> : Tutorial과 Document로 궁금증이 해소되지 않거나 danbee.Ai에 대한 의견이 있을 경우 운영자에게 문의할 수 있습니다.
 
+<!--
 ## 샘플챗봇 따라하기
-
 danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 차근차근 따라하며 챗봇을 만들어보실 수 있도록 샘플챗봇을 만드는 방법을 튜토리얼로 제공하고 있습니다.
 
 {% include image.html file="tutorial/sample_example.PNG"  caption="샘플챗봇 선택화면" %}
@@ -36,6 +36,7 @@ danbee.Ai를 이용하여 처음 챗봇을 만들어보시는 분들을 위해 �
 - <span class="link">[의사결정나무봇, 디트](/advanced_decision_tree_bot.html)</span> : 대화를 통해 추천하는 챗봇을 샘플로 보고, 배워보아요.
 - <span class="link">[버그채집봇, 파브르](/advanced_bug_hunting_fabre.html)</span> : 버그와 개선사항을 수집하는 챗봇을 샘플로 받아 적용해보세요.
 - <span class="link">[식당곰, 밥](/advanced_bug_hunting_fabre.html)</span> : 식당, 레스토랑, 프랜차이즈 기업에서 사용하기 좋은 챗봇입니다. 샘플로 받아 적용해보세요.
+-->
 
 ## 샘플챗봇 가져오기
 튜토리얼에서 만든 샘플챗봇 완성본을 직접 확인하고 수정해보실 수 있습니다. 챗봇을 처음 만들어본다면 샘플챗봇을 참고하면서 원하는대로 내용을 조금씩 수정하는 것이 더 쉽게 챗봇을 만드는 방법일 수 있습니다. 앞으로 다양하게 활용하실 수 있도록 계속해서 샘플챗봇을 추가할 예정입니다.

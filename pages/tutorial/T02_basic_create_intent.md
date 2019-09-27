@@ -16,9 +16,6 @@ next: {
 }
 ---
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/nuaRRwKoAYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-영상으로 danbee.Ai 사용법을 배울 수 있습니다. 위 영상은 튜토리얼의 ***1. Intent 생성하기***와 ***2. Chatflow 생성하기***의 내용을 포함합니다. 
-
 ## danbee.Ai의 기본 구조
 
 챗봇의 기본 동작원리를 생각해보면 사람들이 대화할 때 일어나는 의식의 흐름과 크게 다르지 않습니다. 사용자가 챗봇에게 어떤 말을 걸면 챗봇이 그 말을 듣고 사용자의 의도를 파악하여 적절한 답변을 하게 됩니다. 원활한 대화가 되기 위해서는 말을 잘 이해하고, 원하는 대답을 해주는 것이 중요합니다.
