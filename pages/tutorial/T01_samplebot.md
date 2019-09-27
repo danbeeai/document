@@ -30,21 +30,14 @@ next: {
 
 {% include image.html file="tutorial/basic00_tutorial_change.jpg"  caption="왼쪽 튜터리얼봇을 가져오기 해서 하나씩 따라하면, 오른쪽 샘플봇이 완성됩니다." %}
 
-### Bot List에 Sample Chatbot 추가하기
-1) 먼저 로그인한 후 Bot List에서 ***"Sample Chatbot 가져오기"*** 버튼을 클릭해 주세요.
+### 챗봇목록에서 튜터리얼봇 생성하기
+1) 먼저 로그인한 후 Bot List에서 ***챗봇 생성하기*** 버튼을 클릭해 주세요. (최초 로그인 한 경우, 첫화면에서 할 수 있어요.)
 
-{% include image.html file="tutorial/samplebot_empty.png"  caption="첫 로그인 화면" %}
+2) 원하는 샘플챗봇의 ***"생성하기"*** 버튼을 클릭해주세요. 여기서는 ***튜토리얼봇***을 가져와 보겠습니다.
 
-2) 원하는 샘플챗봇의 ***"가져오기"*** 버튼을 클릭해주세요.여기서는 ***"튜토리얼봇"***을 가져와 보겠습니다.
-
-{% include image.html file="tutorial/import_samplebot.png"  caption="샘플챗봇 가져오기" %}
-
-3) Bot List에 선택한 샘플챗봇이 추가된 것을 확인하실 수 있습니다. 챗봇을 클릭하면 챗봇이름과 설명을 수정하실 수 있습니다.
-
-{% include image.html file="tutorial/samplebot_list.png"  caption="챗봇 생성 완료" %}
+3) Bot List에 선택한 샘플챗봇이 추가된 것을 확인하실 수 있습니다. 
 
 4) ***의도추론(Intent)***과 ***대화흐름 목록(Chatflow List)*** 메뉴에서 샘플챗봇의 상세 내용을 확인할 수 있습니다.
-
 
 {% include image.html file="tutorial/samplebot_intent.png"  caption="Intent 상세화면" %}
 {% include image.html file="tutorial/samplebot_chatflow2.png"  caption="Chatflow 상세화면" %}
@@ -60,7 +53,7 @@ next: {
 {% include image.html file="tutorial/samplebot_test_tutorial2.png"  caption="Tutorial 2 테스트" %}
 
 ### 다른 Tutorial의 예시를 테스트할 때
-1) Tutorial 2. 주문확인과 연결된 선을 지워주세요. 선을 클릭하고 ***[Delete] 키***를 누르면 선이 삭제됩니다. 
+1) Tutorial 2. 주문확인과 연결된 선을 지워주세요. 선을 클릭하고 ***[Delete] 키***를 누르면 선이 삭제됩니다. (Mac에서는 function + backspace)
 
 2) 다른 Tutorial 노드에 선을 연결해주세요. ***"Tutorial 4. 피자메뉴질문"***이라는 노드에 선을 연결해보겠습니다.
 
