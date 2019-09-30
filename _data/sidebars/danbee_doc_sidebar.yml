@@ -28,22 +28,6 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: 영상-단비와 함께하는 챗봇 입문 교육
-      url: /study_video.html
-      output: web, pdf
-
-    - title: 영상-챗봇 위자드로 10분만에 챗봇 만들기
-      url: /chatbot_wizard.html
-      output: web, pdf
-
-    - title: 영상-FAQ챗봇 하루만에 만들기
-      url: /blog_010_TECH02_faq.html
-      output: web, pdf
-
-    - title: 영상-잘 알아듣는 챗봇 만들기
-      url: /study_video_intent_entity.html
-      output: web, pdf
-
     - title: 간단한 챗봇 만들어보기
       url: /basic_create_chatbot.html
       output: web, pdf
@@ -52,24 +36,48 @@ entries:
       url: /update_log.html
       output: web, pdf
 
+  - title: 영상 튜토리얼
+    output: web, pdf
+    folderitems:
+
+    - title: 단비와 함께하는 챗봇 입문 교육
+      url: /study_video.html
+      output: web, pdf
+
+    - title: 챗봇 위자드로 10분만에 챗봇 만들기
+      url: /chatbot_wizard.html
+      output: web, pdf
+
+    - title: FAQ챗봇 하루만에 만들기
+      url: /blog_010_TECH02_faq.html
+      output: web, pdf
+
+    - title: 잘 알아듣는 챗봇 만들기
+      url: /study_video_intent_entity.html
+      output: web, pdf
+
   - title: 주요 기능
     output: web, pdf
     folderitems:
 
-    - title: 파라미터 관리
+    - title: 그룹
+      url: /chatbot_list.html
+      output: web, pdf  
+
+    - title: 파라미터
       url: /parameter.html
       output: web, pdf
 
-    - title: 의도 관리
+    - title: 대화 의도
       url: /intent.html
       output: web, pdf
 
-    - title: 엔티티 관리
+    - title: 엔티티
       url: /entity.html
       output: web, pdf
 
       subfolders:
-      - title: 대화흐름 관리
+      - title: 대화흐름
         output: web, pdf
         subfolderitems:
         - title: 대화흐름 기본 설명
@@ -108,7 +116,7 @@ entries:
           url: /chatflow_jump.html
           output: web, pdf
 
-    - title: 사용자사전 관리
+    - title: 사용자사전
       url: /dictionary.html
       output: web, pdf
 
@@ -128,7 +136,7 @@ entries:
           url: /settings_manage_variables.html
           output: web, pdf
 
-    - title: 대화 이력 관리
+    - title: 대화 이력
       url: /log.html
       output: web, pdf
 
@@ -148,42 +156,42 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-      subfolders:
-      - title: 대화 채널 설정
-        output: web, pdf
-        subfolderitems:
+    - title: Frogue - 단비 제공 채널
+      url: /channel_frogu.html
+      output: web, pdf
 
-        - title: Frogue(자체웹채널)
-          url: /channel_frogu.html
-          output: web, pdf
+    - title: Kioscott
+      url: /channel_kioscott.html
+      output: web, pdf
 
-        - title: API for Your App
-          url: /channel_native_app.html
-          output: web, pdf
+    - title: API for Your App
+      url: /channel_native_app.html
+      output: web, pdf
 
-        - title: Facebook
-          url: /channel_facebook.html
-          output: web, pdf
+    - title: Facebook
+      url: /channel_facebook.html
+      output: web, pdf
 
-        - title: LINE
-          url: /channel_line.html
-          output: web, pdf
+    - title: LINE
+      url: /channel_line.html
+      output: web, pdf
 
-        - title: Telegram
-          url: /channel_telegram.html
-          output: web, pdf
+    - title: Telegram
+      url: /channel_telegram.html
+      output: web, pdf
 
-        - title: KakaoTalk
-          url: /channel_kakaotalk.html
-          output: web, pdf
+    - title: KakaoTalk
+      url: /channel_kakaotalk.html
+      output: web, pdf
 
-        - title: 네이버톡톡
-          url: /channel_navertalk.html
-          output: web, pdf
+    - title: 네이버톡톡
+      url: /channel_navertalk.html
+      output: web, pdf
 
-        - title: Slack
-          url: /channel_slack.html
-          output: web, pdf
+    - title: Slack
+      url: /channel_slack.html
+      output: web, pdf
+      
 
   - title: 외부 API 사용
     output: web, pdf
