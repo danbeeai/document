@@ -621,7 +621,7 @@ div#toc >ul::before {
     padding:0;
 }
 
-.post-content .pricing table tbody td:last-child{
+.post-content .pricing table tbody td:last-child, .post-content .pricing table tbody td:nth-child(6){
     background-color:#0043ff08;
 }
 .post-content .pricing table tbody th span.alert,
