@@ -16,7 +16,9 @@ next: {
 
 여러분들은 대화AI를 직접 만들기로 결심하신 분들이시군요? 정말 멋집니다. 저와 함께 차근 차근 만들어 보면, 생각하신 것보다 어렵지는 않으실 것입니다. 그럼 바로 시작하겠습니다.
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5p8JaK5eGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### 회사소개봇 챗봇위자드로 생성하기
 1) 회원가입 / 로그인을 진행합니다.
