@@ -718,6 +718,21 @@ video {
     border: 1px solid #c0c0c0;
 }
 
+.videowrapper { /* 유투브 영상 모바일에서 안짤리고 나오게 하는 코드 */
+position: relative;
+padding-bottom: 56.25%; /* 16:9 비율인 경우 */
+/* padding-bottom값은 4:3 비율인 경우 75%로 설정합니다 */
+padding-top: 25px;
+height: 0;
+}
+
+.videowrapper iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
 
 p.required, p.dataType {display: block; color: #c0c0c0; font-size: 80%; margin-left:4px;}
 
