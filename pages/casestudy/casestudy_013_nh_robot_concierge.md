@@ -19,7 +19,9 @@ NH농협은행에서 운영하는 NH디지털혁신캠퍼스에는 입주사들�
 
 실제 서비스 과정을 영상으로 확인해보세요!
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/epICSkNYyUs?autoplay=0&controls=1&autohide=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Voice와 Screen의 하이브리드 UX
 회의실을 예약하는 주체와 시간대를 말하면, 챗봇이 핵심어를 추출해서 선택사항을 미리 입력해줍니다.
