@@ -31,8 +31,9 @@ next: {
 혁신은 Why가 아닌, Why Not! 우리는 챗봇을 10분만에 만들 수 있는 방법을 찾았습니다.
 바로 챗봇을 만드는 마법사, 위자드입니다. 
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V5p8JaK5eGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 {% include image.html file="chatbot_create\wizard_steps.png"  caption="챗봇위자드 3 단계" %}
 

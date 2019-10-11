@@ -17,9 +17,9 @@ folder: blog
 
 이번 글에서는 개인 또는 소규모팀으로 하루만에 FAQ챗봇을 만들어 실제서비스로 오픈하는 절차에 대해 공유드리고자 합니다. 아래 프로세스대로 진행을 해보시기를 추천드립니다.
 
-
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HFE6djjaXxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 FAQ 봇은 **챗봇 목록>샘플 챗봇 가져오기>고객응대위자드-FAQ봇**을 통해 이용하실 수 있습니다.
 
