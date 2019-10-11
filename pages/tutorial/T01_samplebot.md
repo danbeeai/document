@@ -16,6 +16,8 @@ next: {
 
 여러분들은 대화AI를 직접 만들기로 결심하신 분들이시군요? 정말 멋집니다. 저와 함께 차근 차근 만들어 보면, 생각하신 것보다 어렵지는 않으실 것입니다. 그럼 바로 시작하겠습니다.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V5p8JaK5eGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 회사소개봇 챗봇위자드로 생성하기
 1) 회원가입 / 로그인을 진행합니다.
 
@@ -30,6 +32,8 @@ next: {
 
 ## 챗봇과 단비Ai에 대해 차근 차근 알아봅시다!
 어떤 챗봇이든 이렇게 쉽게 챗봇을 만들 수 있다면 좋겠네요. 바로 함께 일할 수 있는 훈련된 동료를 얻는 것이죠. 하지만, 더 여러가지를 할 수 있게 만들거나 더 복합적인 일을 맡기고 싶다면 챗봇에 대해 더 이해할 필요가 있습니다. 튜터리얼을 하나씩 따라해보시면, 챗봇과 단비AI의 다양한 기능을 쉽게 이해하실 수 있습니다.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RCfC8fqcnU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 챗봇목록에서 튜터리얼봇 생성하기
 1) 로그인 한 상태에서 챗봇목록에서 ***챗봇 생성하기*** 버튼을 클릭해 주세요. (최초 로그인 한 경우, 첫화면에서 할 수 있어요.)
