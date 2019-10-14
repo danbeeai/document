@@ -62,7 +62,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 하지만 필요에 따라 2019-01-29와 같이 날짜 포멧에 맞추어 표현을 바꾸고 싶을 수 있습니다.
 자바스크립트를 잘 다룰 수 있는 개발자라면, Function노드를 활용해 형변환을 할 수 있겠지만, 개발 경험이 없는 분들은 아래와 같은 형태의 수식을 통해 날짜포멧을 만들 수 있습니다.
 
-{% include sampleCode.html content="#{fn_date('yyyy-MM-dd', 'day', #{변수명})} /* fn_date(포맷, 일자계산유형, 계산값) */" %}
+{% include sampleCode.html content="#{fn_date(\\'yyyy-MM-dd\\', \\'day\\', #{변수명})} /* fn_date(포맷, 일자계산유형, 계산값) */" %}
 
 fn_date함수의 첫번째 파라미터의 포멧에서 지원하는 항목은 아래와 같습니다.
 
