@@ -74,6 +74,15 @@ API 선택시 기본적으로 'API관리'에 등록되었던 Value 값은 초기
 | 챗봇명 | @chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
 | 채널아이디 | @channelId | 접속한 채널 아이디가 표시됩니다. <br/>(ex : 5-facebook / 3-kakaotalk / 2-line / 7-navertalk / 6-telegram / 4-slack)  |
 | 받은 메시지 | @message | 사용자로부터 받은 질문 메시지 입니다. |
+| 현재년도 | @currentDateYYYY | 현재년도 정보입니다. (예:2019) |
+| 현재월 | @currentDateMM | 현재월 정보입니다. (예:12) |
+| 현재일 | @currentDateDD | 현재일 정보입니다. (예:31) |
+| 현재년월 | @currentDateYYYYMM | 현재년월 정보입니다. (예:201912) |
+| 현재년월일 | @currentDateYYYYMMDD | 현재년월일 정보입니다. (예:20191231) |
+| 현재시간 | @currentTimeHH | 현재시간 정보입니다. (예:23) |
+| 현재분 | @currentTimeMI | 현재분 정보입니다. (예:59) |
+| 현재초 | @currentTimeSS | 현재초 정보입니다. (예:59) |
+| 현재요일 | @currentDateWeek | 현재요일 정보입니다. (예: 1:일, 2:월, 3:화, 4:수, 5:목, 6:금, 7:토) |
 {: .table .table-striped}
 
 #### 응답 Parameter 와 출력 Parameters
