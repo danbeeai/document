@@ -18,13 +18,14 @@ next: {
 
 {% include note.html content=" [설정(Preference)] > [대화채널(Channel)]" %}
 
-### 준비하기
+### 1.준비하기
 챗봇을 카카오톡 채널에 연결하기 위해서는 아래항목들이 준비되어 있어야 합니다.
-- 카카오톡 플러스친구 계정
+- 카카오톡 계정
 - 카카오 i 오픈빌더 사용 권한: 카카오 i 오픈빌더 OBT 신청 절차가 필요합니다.
 - 카카오톡 어플리케이션(App)
+<hr/>
 
-### 단비에서 채널 연결 설정하기
+### 2.단비에서 채널 연결 설정하기
 #### Step1. 대화채널(Channel) 메뉴 이동
 **설정(Preference) > 대화채널(Channel)** 메뉴로 이동 합니다.
 #### Step2. 카카오 i 오픈 빌더 채널 선택
@@ -39,9 +40,11 @@ next: {
 #### Step5. 채널 연결
 **연결**을 눌러 단비에서의 채널 연결 설정을 마칩니다. 이제 카카오 i 오픈 빌더 설정을 해볼까요?
 
+{% include warning.html content=" 단비에서 채널 연결을 재설정할 경우 '3.카카오 i 오픈 빌더 설정하기' 단계를 다시 수행해야 합니다." %}
+<hr/>
 
 
-### 카카오 i 오픈 빌더 설정하기
+### 3.카카오 i 오픈 빌더 설정하기
 #### Step1. 카카오 i 오픈빌더 챗봇 생성
 카카오 i 오픈빌더에서 단비와 연동할 챗봇을 생성합니다.
 
@@ -73,7 +76,7 @@ next: {
 #### Step3. 스킬 생성
 단비에서 만든 챗봇을 카카오톡에 연동하기 위해서는 카카오 i 오픈빌더에서 챗봇을 생성한 뒤 스킬 기능을 통해 연동하게 됩니다.
 
-1) **[스킬]**탭의 **[생성]**버튼을 클릭합니다.
+1) **[스킬]탭**의 **[생성]**버튼을 클릭합니다.
 {% include image.html file="channel/kakaoibuilder/kakao-ibuilder-08.PNG"  caption="" %}
 
 2) 스킬을 생성하기 위한 모든값들을 입력합니다. 
@@ -98,25 +101,64 @@ next: {
 
 3) **[스킬 데이터]**로 설정된것을 확인하고, **[저장]** 버튼을 눌러 카카오 i 오픈 빌더 설정을 마칩니다.
 {% include image.html file="channel/kakaoibuilder/kakao-14.PNG"  caption="" %}
+<hr/>
 
+### 4.카카오톡채널 설정하기(구 플러스친구)
+#### Step1. 카카오톡채널 생성
+1) **[+ 새 채널 만들기]**버튼을 클릭합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-channel-01.PNG"  caption="" %}
 
-## 카카오톡 플러스 친구 만들기 
-1. 브라우저에서 <span class="link">[카카오톡 플러스친구](https://center-pf.kakao.com/login){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_homepage.png" alt="카카오톡 플러스친구" style="max-width: 800px"></figure>
-2. 플러스친구를 만들기 위해 카카오 계정으로 로그인을 합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_login.png" alt="카카오 로그인" style="max-width: 800px"></figure>
-3. 플러스 친구 관리자 가입을 합니다. ( 휴대기기에 KakaoTalk앱에서 본인확인 절차 필요 )<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_adminsign.png" alt="플러스친구 관리자가입" style="max-width: 800px"></figure>
-4. 플러스친구를 만듭니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_add1.png" alt="플러스친구 추가" style="max-width: 800px"></figure>
-5. 플러스친구정보 입력<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_add2.png" alt="플러스친구 추가" style="max-width: 800px"></figure>
-6. 플러스친구 개설 완료<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_add3.png" alt="플러스친구 추가" style="max-width: 800px"></figure>
+2) 채널생성에 필요한 정보들을 입력하고 **[확인]**버튼을 클릭합니다. 
+{% include image.html file="channel/kakaoibuilder/kakao-channel-02.PNG"  caption="" %}
 
-## 카카오톡 플러스 친구 공개설정
-* 플러스친구 관리자센터에서 관리 > 상세설정 메뉴에서 공개설정을 설정합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_public.png" alt="플러스친구 공개설정" style="max-width: 800px"></figure>
-## 카카오톡 스마트채팅 앱 만들기 
-1. 스마트채팅의 API형으로 앱을 등록합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_app1.png" alt="API형 추가" style="max-width: 800px"></figure>
-2. API형으로 앱 정보 입력 <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_app2.png" alt="API형 정보입력" style="max-width: 800px"></figure>
-3. danbee.Ai 설정에서 복사한 앱 URL을 입력한 후 API 테스트를합니다. ( 설정한 시작 버튼명이 보입니다. 여기서 저장된 값이 카카오톡에 보여집니다. )
-4. 개인정보 수집 및 이용에 동의, 전화번호 를 등록하여 알림설정을 한 후 API형을 저장합니다.<figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apisetting.png" alt="API형 정보입력" style="max-width: 800px"></figure>
-5. API형 시작하기 버튼을 눌러 서비스를 시작합니다. <figure><img class="docimage" src="images/channel/kakao/kakao_pfcenter_apistart.png" alt="API형 시작하기" style="max-width: 800px"></figure>
+3) **[네, 입력한 정보로 개설하겠습니다.]** 버튼을 클릭하여 채널 생성을 완료합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-channel-03.PNG"  caption="" %}
 
-## 카카오톡 앱 테스트
-* 챗봇을 테스트하려면 KakaoTalk앱에서 플러스친구를 검색하여 테스트할수 있습니다.<figure><img class="docimage" src="images/channel/kakao/kakao_app_add_chatbot.png" alt="line app add chatbot" style="max-width: 800px"></figure>
+#### Step2. 카카오톡채널 설정
+1) 채널 개설이 완료되었음을 확인하고, **[대시보드로 이동하기]**버튼을 클릭하여 대시보드로 이동합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-channel-04.PNG"  caption="" %}
 
+2) 오른쪽 하단 프로필 설정영역의 **[홈 공개]**,**[검색 허용]**을 **On** 으로 설정합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-channel-05.PNG"  caption="" %}
+
+#### Step3. 카카오톡채널 연결
+
+1) 카카오 i 오픈 빌더의 **[설정]탭**에서 **[카카오톡채널]**을 연결합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-channel-06.PNG"  caption="" %}
+{% include image.html file="channel/kakaoibuilder/kakao-channel-07.PNG"  caption="" %}
+
+2) 카카오톡채널 연결을 확인합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-channel-08.PNG"  caption="" %}
+<hr/>
+
+### 제약사항
+카카오톡 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약사항을 꼭 확인하세요.
+
+| 컴포넌트 | 제약사항 | 상세
+|--------|-------|-------|
+| 버튼 | 개수 | 최대 3개<br/>예) Speak노드에 버튼을 4개를 설정하더라도 처음 3개 버튼만 노출됩니다. |
+|     | 버튼명 길이 | 최대 8자 
+|     | 지원타입 | 선택지, callFlow, 웹링크, 전화걸기, 퀵리플라이
+| 퀵리플라이 | 개수 | 최대 10개<br/>예) 퀵리플라이를 12개 설정하더라도 처음 10개만 노출됩니다. |
+|     | 버튼명 길이 | 최대 14자 
+| 캐로샐 | 카드 개수 | 최대 10개<br/>예) 캐로셀노드의 카드를 15개 설정하더라도 처음 10개만 노출됩니다. |
+| 한번에 내보낼 수 있는 메세지노드 | 개수 | 최대 3개<br/><img src="images/channel/kakaoibuilder/kakao-guide-01.PNG" /> <br/> 메세지노드 : Speak,Slot,Carousel 노드를 말합니다.|
+| Speak,Slot노드(이미지,버튼 둘다없을때) | 메시지 길이 | 최대 1000자
+| Speak,Slot노드(이미지,버튼 하나라도있을때 ) | 메시지 길이 | 최대 380자
+| Carousel노드 | 카드명 길이 | 최대 2줄
+{: .table .table-striped}
+<hr/>
+
+### 빌드 가이드
+#### 웰컴메시지
+**[2.카카오 i 오픈 빌더 설정하기] - [Step2.봇 제네릭 메뉴 설정]** 을 기억하시나요? 챗봇의 웰컴메시지가 호출되기 위해서는 사용자가 채팅방에 진입해 카카오 i 오픈 빌더에서 설정한 제네릭 메뉴를 클릭해야합니다.
+<br/>그렇다면 단비에서 어떻게 웰컴메시지를 만들 수 있을까요?
+<br/><br/><br/>
+1) **설정(Preference) > 기본답변(General)** 메뉴로 이동 합니다.
+{% include image.html file="channel/kakaoibuilder/kakao-guide-02.PNG"  caption="" %}
+
+2) **[Welcome Message]** 영역에 인사말을 입력해 간단하게 웰켐메시지를 만들거나, **[CHATFLOW 연결]**을 선택해 대화흐름을 이용해 텍스트뿐만아니라, 이미지와 같은 다양한 기능으로 웰켐메시지를 만들 수 있습니다.
+{% include image.html file="channel/kakaoibuilder/kakao-guide-03.PNG"  caption="" %}
+{% include warning.html content=" 웰컴메시지가 정상적으로 호출되기 위해서는 단비에서 설정한 '시작하기버튼명'과 카카오 i 오픈 빌더에서 설정한 봇 제네릭 메뉴의 버튼명이 일치해야합니다." %}
+
+#### 최대 제한 길이를 초과한 버튼이 있는 메시지 노드
