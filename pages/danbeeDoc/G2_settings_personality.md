@@ -54,6 +54,11 @@ Welcome Message는 사용자가 처음 챗봇을 만났을 때 행동할 수 있
 Welcome과 마찬가지로 해당 상황에서 단순 답변 대신 특정 챗플로우의 Listen 노드로 연결하여 다양하게 메세지를 보낼 수 있습니다.
 {% include image.html file="personality/personality_default02.png"  caption="Deafult Fallback - Chatflow" %}
 
+대화 맥락을 판단하여 사용자의 말에 일일이 자동으로 답변하는 기능도 있습니다.<br> 
+<a href="https://builder.pingpong.us" target="_blank">핑퐁(Beta)</a>은 어떠한 질문이나 말에도 센스있게 대답하는 일상대화 인공지능 친구입니다.
+{% include image.html file="personality/personality_default03.png"  caption="Deafult Fallback - 자동답변" %}
+{% include note.html content="핑퐁은 베타서비스로 유료고객에 한해 무료로 제공되고 있습니다. 무료고객은 브랜드 메시지가 포함됩니다." %}
+
 #### Reconfirm
 **Reconfirm**은 사용자의 말과 Intent 매칭률이 설정한 Reconfirm Percent 범위 안에 있을 때, 한번 더 어떤 의도로 말을 했는지 물어볼 때 하는 말입니다.
 {% include image.html file="personality/personality_reconfirm01.png"  caption="Recofirm Message" %}
