@@ -184,6 +184,10 @@ entries:
       url: /channel_kakaotalk.html
       output: web, pdf
 
+    - title: 카카오톡(카카오i오픈빌더)
+      url: /channel_kakaoibuilder.html
+      output: web, pdf
+
     - title: 네이버톡톡
       url: /channel_navertalk.html
       output: web, pdf
