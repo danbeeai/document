@@ -165,5 +165,3 @@ next: {
 2) **[Welcome Message]** 영역에 인사말을 입력해 간단하게 웰켐메시지를 만들거나, **[CHATFLOW 연결]**을 선택해 대화흐름을 이용해 텍스트뿐만아니라, 이미지와 같은 다양한 기능으로 웰켐메시지를 만들 수 있습니다.
 {% include image.html file="channel/kakaoibuilder/kakao-guide-03.PNG"  caption="" %}
 {% include warning.html content=" 웰컴메시지가 정상적으로 호출되기 위해서는 단비에서 설정한 '시작하기버튼명'과 카카오 i 오픈 빌더에서 설정한 봇 제네릭 메뉴의 버튼명이 일치해야합니다." %}
-
-### 최대 제한 길이를 초과한 버튼이 있는 메시지 노드
