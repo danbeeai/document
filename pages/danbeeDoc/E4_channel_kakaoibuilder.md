@@ -105,6 +105,7 @@ next: {
 
 
 <h2><center>3.카카오톡채널 설정하기(구 플친)</center></h2>
+카카오톡채널 설정은 카카오아이 빌더의 우측상단에 **[카카오톡 채널 관리자센터]**를 클릭하여 하실 수 있습니다.
 ### Step1. 카카오톡채널 생성
 1) **[+ 새 채널 만들기]**버튼을 클릭합니다.
 {% include image.html file="channel/kakaoibuilder/kakao-channel-01.png"  caption="" %}
