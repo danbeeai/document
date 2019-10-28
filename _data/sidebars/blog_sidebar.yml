@@ -30,6 +30,9 @@ entries:
     - title: 대화흐름 설계패턴 1편, 단답형
       url: /blog_014_UX07_chatflow_pattern_single.html
       output: web
+    - title: 대화흐름 설계패턴 2편, 멀티턴
+      url: /blog_015_UX08_chatflow_pattern_multi.html
+      output: web
   - title: 챗봇BIZ
     output: web
     folderitems:
