@@ -27,6 +27,9 @@ entries:
     - title: 챗봇UX 6편, 학익진(鶴翼陣), 챗봇 대화모델 구성 전략
       url: /blog_012_UX06_strategy.html
       output: web
+    - title: 대화흐름 설계패턴 1편, 단답형
+      url: /blog_014_UX07_chatflow_pattern_single.html
+      output: web
   - title: 챗봇BIZ
     output: web
     folderitems:
@@ -38,6 +41,9 @@ entries:
       output: web
     - title: 산업분야 특화 챗봇적용 사업방안
       url: /blog_007_BIZ02_domain.html
+      output: web
+    - title: 챗봇 접객 자동화 3가지 영역
+      url: /blog_013_BIZ03_serve.html
       output: web
   - title: 챗봇TECH
     output: web
