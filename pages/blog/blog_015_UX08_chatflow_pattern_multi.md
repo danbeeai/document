@@ -2,7 +2,7 @@
 title: 대화흐름 설계패턴 2편, 멀티턴과 슬롯필링
 tags: [blog, chatbot-biz, Chatbot-UX]
 keywords: blog
-summary: 사용자가 한번 발화하면 챗봇이 한번 대답하면서 끝나는 방식
+summary: 사용자와 대화 AI가 2회 이상 말을 주고받는 대화흐름
 sidebar: blog_sidebar
 permalink: blog_015_UX08_chatflow_pattern_multi.html
 folder: blog
