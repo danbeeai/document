@@ -34,7 +34,7 @@ folder: FAQ
 
 ## Q. 가격정책이 궁금합니다.      
 > 
-> <span class="link"></span>[Pricing](/pricing.html)을 한번 확인해보시기 바랍니다.
+> <span class="link"></span>[Pricing](https://danbee.ai/pricing.html)을 한번 확인해보시기 바랍니다.
 
 
 ## Q. 바로 시작할 수 있는 템플릿이 있나요?   
