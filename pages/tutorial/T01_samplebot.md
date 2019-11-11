@@ -7,7 +7,7 @@ sidebar: tutorial_sidebar
 permalink: samplebot.html
 folder: tutorial
 next: {
-    title: Intent 생성하기,
+    title: 의도 생성하기,
     url: basic_create_intent.html
 }
 ---

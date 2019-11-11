@@ -7,7 +7,7 @@ sidebar: tutorial_sidebar
 permalink: basic_entity_parameter.html
 folder: tutorial
 previous: {
-    title: Chatflow 생성하기, 
+    title: 대화흐름 생성하기, 
     url: basic_listen_speak.html
 }
 next: {

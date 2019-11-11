@@ -18,10 +18,10 @@ entries:
     - title: 0. 튜토리얼 시작하기
       url: /samplebot.html
       output: web
-    - title: 1. Intent 생성하기
+    - title: 1. 대화의도 생성하기
       url: /basic_create_intent.html
       output: web
-    - title: 2. Chatflow 생성하기
+    - title: 2. 대화흐름 생성하기
       url: /basic_listen_speak.html
       output: web
     - title: 3. Entity와 Parameter 이해하기
