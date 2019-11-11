@@ -51,13 +51,20 @@ Welcome Message는 사용자가 처음 챗봇을 만났을 때 행동할 수 있
 
 {% include image.html file="personality/personality_default01.png"  caption="Deafult Fallback Percent" %}
 
-Welcome과 마찬가지로 해당 상황에서 단순 답변 대신 특정 챗플로우의 Listen 노드로 연결하여 다양하게 메세지를 보낼 수 있습니다.
+#### Default Fallback (대화흐름 방식)
+Welcome과 마찬가지로 해당 상황에서 단순 답변 대신 특정 챗플로우의 Listen 노드로 연결하여 다양하게 메세지를 보낼 수 있습니다. API를 통해 데이터베이스에 있는 정보를 제공하거나 챗봇이 되물어보고 사용자가 답하는 시나리오를 만들 수 있습니다. 또는 상황에 따라 특정 대화흐름으로 전환(JUMP)할 수도 있습니다. 원래 목적으로 되돌리기 위해서는 대화흐름을 잘 활용하는 것이 중요합니다. 
+
 {% include image.html file="personality/personality_default02.png"  caption="Deafult Fallback - Chatflow" %}
 
-대화 맥락을 판단하여 사용자의 말에 일일이 자동으로 답변하는 기능도 있습니다.<br> 
-<a href="https://builder.pingpong.us" target="_blank">핑퐁(Beta)</a>은 어떠한 질문이나 말에도 센스있게 대답하는 일상대화 인공지능 친구입니다.
+#### Default Fallback (일상대화 연결, 핑퐁)
+사용자가 말하는 대화 맥락에 맞게 적절히 대응할 수 있다면, "잘 못알아 들었습니다."와 같은 변명보다 더 똑똑한 상대와 대화한다는 느낌을 주겠죠? 단비AI는 핑퐁의 일상대화에 바로 연결해서 쓸 수 있도록 되어 있습니다. <br> 
+<a href="https://builder.pingpong.us" target="_blank">핑퐁(Beta)</a>은 어떠한 질문이나 말에도 센스있게 대답하는 일상대화 인공지능 친구입니다. 무료기간 동안에는 브랜드를 소개하는 문구가 같이 표시됩니다. 
 {% include image.html file="personality/personality_default03.png"  caption="Deafult Fallback - 자동답변" %}
 {% include note.html content="핑퐁은 베타서비스로 유료고객에 한해 무료로 제공되고 있습니다. 무료고객은 브랜드 메시지가 포함됩니다." %}
+
+
+
+
 
 #### Reconfirm
 **Reconfirm**은 사용자의 말과 Intent 매칭률이 설정한 Reconfirm Percent 범위 안에 있을 때, 한번 더 어떤 의도로 말을 했는지 물어볼 때 하는 말입니다.
