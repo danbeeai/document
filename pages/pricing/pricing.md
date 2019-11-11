@@ -5,7 +5,7 @@ summary: 챗봇 만들고 가꾸기를 무료로 시작하실 수 있습니다.
 permalink: pricing.html
 toc: false
 sidebar: false
-search: include
+search: exclude
 hide_sidebar: true
 folder: pricing
 comments : false

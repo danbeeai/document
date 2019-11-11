@@ -7,6 +7,7 @@ summary: "You can add tooltips to any word, such as an acronym or specialized te
 sidebar: danbee_doc_sidebar
 permalink: mydoc_adding_tooltips.html
 folder: mydoc
+search: exclude
 ---
 
 ## Creating tooltips

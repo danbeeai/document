@@ -6,6 +6,7 @@ sidebar: tutorial_sidebar
 permalink: advanced_order_pizza_bot.html
 folder: 피자주문봇 만들기
 summary: 피자주문봇을 만들어 봅니다.
+search: exclude
 previous: {
         title: Function 노드 사용하기,
         url: basic_function_node.html

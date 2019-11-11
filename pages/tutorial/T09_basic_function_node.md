@@ -6,6 +6,7 @@ sidebar: tutorial_sidebar
 permalink: basic_function_node.html
 folder: tutorial
 summary: Function Node의 개념을 이해할 수 있습니다.
+search: exclude
 previous: {
     title: API 노드 사용하기,
     url: basic_api_node.html
