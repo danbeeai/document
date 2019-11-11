@@ -17,7 +17,7 @@ topnav:
     - title: Tutorial
       url: /samplebot.html
     - title: Pricing
-      external_ur: https://danbee.ai/pricing.html
+      external_url: https://danbee.ai/pricing.html
 
 #Topnav dropdowns
 #topnav_dropdowns:
