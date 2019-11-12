@@ -11,8 +11,8 @@ previous: {
     url: predefined_api_gmailsender.html
 }
 next: {
-    title: 슬랙채널 메시지 전송,
-    url: predefined_api_slackchannelsender.html
+    title: AWS 메일 전송,
+    url: predefined_api_awssessender.html
 }
 ---
 
