@@ -19,19 +19,24 @@ next: {
 {% include callout.html content="화면 위치 : 챗봇 관리 > 대화의도" type="default" %}
  
 {% include image.html file="intent/chatbotflow.png"  caption="대화 의도와 엔티티의 관계" %}
+
 **대화 의도**란, 입력 문장이 어떤 의도인지 분류하기 위한 기준입니다. 문장을 입력 받으면 봇은 지금까지 학습된 문장을 바탕으로 가장 적절한 대화의도를 찾고, 설정에 따라 복잡한 업무를 처리하도록 만들거나, 단순한 문장으로 대답을 할도록 만들수도 있습니다.<br/>
+
+해당 메뉴에서는 다음과 같은 내용을 설정할 수 있습니다.<br/>
+ - [사용자 입력 예문](intent.html#사용자-입력-예문)
+ - [대화의도 속성](intent.html#intent-속성)
 
 ------------------------
 
 ## 대화의도 속성
 
-대화의도에서 아래와 같은 설정을 진행할 수 있습니다.
-
-- 대화의도 예문
-- 추론 후 답변
-- 의도 상세 설정
-
 대화의도에 따라 각 속성을 적절하게 설정하는 것이 중요합니다. 
+
+- [대화의도 버튼이름](intent.html#intent-버튼명)
+- [답변 유형](intent.html#답변-유형)
+- [Multi 대화의도 제외 설정](intent.html#multi-intent-제외-설정)
+- [채널 Fallback 설정](intent.html#채널-fallback-설정)
+- [대화의도 ID](intent.html#intent-id)
 
 ------------------------------------------------------------
 
@@ -41,9 +46,11 @@ next: {
 
 예를 들어 사용자가 '안녕'이라는 말을 했을 때 챗봇이 '인사'라는 이름의 대화의도로 알아듣길 원한다면 '인사' 대화의도를 생성하시고 '안녕'이라는 사용자 입력 예문을 추가하시면 됩니다. 더 다양한 상황에 유동적으로 대처하도록 만들고자 한다면, '안녕'외에도 다양하게 인사 상황에 쓰일만한 예문을 추가해주면 됩니다.
 
-{% include image.html file="intent/Intent_input_sentence.PNG"  caption="사용자 입력 예문 등록" %}
+{% include image.html file="intent/Intent_button_name_01.PNG"  caption="대화의도 버튼명 결과확인" %}
 
-사용자 예문 입력란에 추가하길 원하는 예문을 입력한 뒤 **Enter**나 **예문등록** 버튼을 누르면 예문이 추가됩니다. 추가된 예문은 하단의 예문 목록에서 확인이 가능하며 예문 목록 타이틀 옆에는 등록된 총 예문 개수가 표시됩니다. 단비.Ai 플렛폼에서는 클라우드 학습을 통해 입력하지 않은 문장에 대해서도 감지가 가능하지만, 예문등록을 통해 더욱 확실하게 추론률 올릴 수 있습니다. 단비.Ai에서예문을 쉽고 빠르게 다양화 할 수 있도록 **예문 추천 기능**을 제공하고 있습니다.
+### 대화의도 ID
+필요에 따라 임의로 대화 의도 ID를 지정할 수 있습니다. 단, 대화의도 ID는 한 챗봇 내에서 유일해야 하며 공백으로 둘 경우 자동적으로 시스템 ID가 적용됩니다.
+
 
 ### 예문에서 정보 추출
 
@@ -60,6 +67,9 @@ next: {
 ### 예문에 연결된 파라미터 관리
 
 {% include image.html file="intent/Intent_parameter_03.png"  caption="인텐트에서 관리되고 있는 파라미터 목록" %}
+
+
+#### Multi 대화의도 제외 설정
 
 해당 대화의도에 추가되어 있는 파라미터는 파라미터 목록에서 확인할 수 있습니다. 대화의도에서 지정된 파라미터는 해당 의도 안에서만 사용할 수 있습니다.  
 
@@ -105,7 +115,9 @@ next: {
 - 입력 문장에 대하여 2개 이상의 유효한 대화의도를 찾았을 경우. 이를 **Multi Intent**라고 합니다.
 
 
-{% include image.html file="intent/Intent_button_name_01.PNG"  caption="Intent 버튼명 결과확인" %}
+{% include image.html file="intent/Intent_parameter_03.png"  caption="대화의도에서 관리되고 있는 파라미터 목록" %}
+
+해당 대화의도에 추가되어 있는 전체 파라미터는 '추출되는 파라미터'에서 확인할 수 있습니다. 이때 사용개수는 해당 파라미터가 예문에서 지정되어 사용 중인 개수를 의미합니다. 예문에서 한 군데라도 사용중이라면 삭제가 불가능합니다.
 
 
 ### Multi Intent 제외 설정
@@ -114,18 +126,20 @@ next: {
 ### 채널 Fallback 설정
 체크하는 경우 해당 대화의도로 파악되면 강제적으로 Default Fallback으로 넘어갑니다. 즉, 의도를 성공적으로 추론했음에도 불구하고 말을 알아듣지 못한 것처럼 반응하게 됩니다. Default Fallback시 챗봇의 응답은 [특수 상황 설정]()에서 지정할 수 있습니다.
 
+{% include image.html file="intent/Intent_parameter_06_default_result.png"  caption="파라미터 Default 값 테스트" %}
 
 ----------------------------------
 
 ## 의도(Intent) 업로드
 
-단비.Ai는 편의 기능의 일종으로 Intent 업로드 기능을 제공하고 있습니다. 대화의도 생성 버튼 오른쪽 화살표를 누르면 업로드 기능을 이용할 수 있습니다. 해당 기능은 CSV파일만 지원합니다.
+danbee.Ai는 편의 기능의 일종으로 대화의도 업로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
 ### 업로드
 {% include callout.html content="화면 위치 : 챗봇 관리 > 대화의도 > 대화의도 생성 더보기 버튼" type="default" %}
 업로드 형식에 맞추어 작성한 CSV파일을 업로드하면 자동으로 내용이 생성됩니다. 업로드 파일은 다음과 같은 제약사항이 존재합니다.
+
  - CSV파일만 가능합니다.
  - 파일당 최대 3MB까지 가능합니다.
  - 파일명은 최대 70자까지 허용합니다.
@@ -152,12 +166,12 @@ next: {
         <tr>
             <td markdown="span">**INTENT**</td>
             <td markdown="span">필수</td>
-            <td markdown="span">해당 업로드 정보가 Intent에 관한 정보임을 나타냅니다.</td>
+            <td markdown="span">해당 업로드 정보가 대화의도에 관한 정보임을 나타냅니다.</td>
         </tr>
         <tr>
             <td markdown="span">**NAME**</td>
             <td markdown="span">부분 필수</td>
-            <td markdown="span">Intent명, Intent 버튼명, Intent ID에 관한 정보임을 나타냅니다. Intent명은 필수값이나 나머지는 생략이 가능합니다. 챗봇 내에서 동일한 Intent 명이 존재할 경우 이름이 변경되어 올라갑니다.</td>
+            <td markdown="span">Intent명, 대화의도 버튼명, 대화의도 ID에 관한 정보임을 나타냅니다. Intent명은 필수값이나 나머지는 생략이 가능합니다. 챗봇 내에서 동일한 대화의도 명이 존재할 경우 이름이 변경되어 올라갑니다.</td>
         </tr>
         <tr>
             <td markdown="span">**SENTENCE** </td>
@@ -167,7 +181,7 @@ next: {
         <tr>
             <td markdown="span">**PARAM**</td>
             <td markdown="span">선택</td>
-            <td markdown="span">Parameter에 관한 정보임을 나타냅니다. Parameter명과 Entity를 입력합니다. 존재하지 않는 Entity를 입력하면 업로드가 되지 않습니다. Entity명 앞에는 반드시 @를 붙여줘야 합니다. Parameter명이 중복될 시에도 업로드가 불가합니다.</td>
+            <td markdown="span">파라미터에 관한 정보임을 나타냅니다. 파라미터명과 Entity를 입력합니다. 존재하지 않는 Entity를 입력하면 업로드가 되지 않습니다. Entity명 앞에는 반드시 @를 붙여줘야 합니다. 파라미터명이 중복될 시에도 업로드가 불가합니다.</td>
         </tr>
         <tr>
             <td markdown="span">**ANSWER**</td>
@@ -190,7 +204,7 @@ Intent명,Intent별명(생략가능),IntentID(생략가능)
 "예문에 콤마(,) 입력시 반드시 큰따옴표로 묶어주세요"
 >>END_SENTENCE
 >>START_PARAM
-Parameter명,@Entity명
+파라미터명,@Entity명
 >>END_PARAM
 >>START_ANSWER
 간편답변입력줄

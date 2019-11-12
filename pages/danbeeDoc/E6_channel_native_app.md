@@ -203,7 +203,7 @@ next: {
 | resultCode | 결과 코드 |
 | resultMsg | 결과 메시지 |
  
-## Node Option Object
+## 노드 Option Object
 노드 옵션 기능은 챗봇의 답변을 표시하는 speak 노드, slot 노드, carousel 노드에서 설정할 수 있습니다. <figure><img class="docimage" src="images/channel/nptive/nptive_app_node_option.png" alt="Frogue 셋팅" style="max-width: 800px"></figure>
 
  * 노드 옵션의 정보는 아래와 같습니다. 
@@ -224,7 +224,7 @@ next: {
 | 내부 App 실행 | inApp | 스마트폰에서 내부 App 실행을 하기 위한 정보를 설정합니다. |
 | 외부 App 실행 | outApp | 스마트폰에서 외부 App 실행을 하기 위한 정보를 설정합니다. |
 | Call (전화연결) | call | 스마트폰에서 전화연결을 하기 위한 정보를 설정합니다. |
-| Chatflow 호출 | callFlow | 다른 Chatflow 를 진행하기 위한 정보를 설정합니다. |
+| 대화흐름 호출 | callFlow | 다른 대화흐름 를 진행하기 위한 정보를 설정합니다. |
  
 
 ## 사용자 대화 평가 API 
@@ -276,7 +276,7 @@ next: {
 | 200 | 정상코드 |
 | 201 | 여러가지 의도로 해석되는 경우 |
 | 400 | [NLU] 의도 파악이 안되었을 경우, EngineHandler 예외상황 |
-| 404 | [Chatflow] Intent에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
+| 404 | [Chatflow] 대화의도에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
 | 405 | [Chatflow] flow 설정 문제 (답변 메시지를 못 찾았을 때, 분기 오류인 경우) |
 
 ## 의도추론이력 조회 API

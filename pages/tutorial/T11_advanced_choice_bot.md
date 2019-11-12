@@ -195,9 +195,9 @@ danbee.Ai의 좌측메뉴에서 설정(Preference) > 기본답변(General)에 �
 ### 보완하기
 마지막에 "고마워"라고 했는데 대답을 못했네요. 이 부분을 보완해 보겠습니다. 앞서도 언급했든 인간사회에서 같이 살려면 인사는 기본이기 때문입니다. danbee.ai의 왼쪽 메뉴에서 자연어이해(NLU) > 의도추론(Intent)를 클릭합니다.
 
-{% include image.html file="tutorial/sample_captainchoi/simple_intent.jpg" caption="감사하다는 표현에 응답하는 간편 Intent 설정" %}
+{% include image.html file="tutorial/sample_captainchoi/simple_intent.jpg" caption="감사하다는 표현에 응답하는 간편 대화의도 설정" %}
 
-우측 상단에 [+간편 Intent 생성]을 클릭하고, Intent이름은 '감사'라고 정하죠.
+우측 상단에 [+간편 대화의도 생성]을 클릭하고, Intent이름은 '감사'라고 정하죠.
 사용자 등록예문에 고마워라고 입력하고 엔터를 칩니다.
 고마워 말고도 고마움을 표현하는 다양한 표현이 있습니다. 학습시키겠습니다.
 '고마워', '감사해요', '땡큐', '쌩유', '메시','아리가또','씨에씨에'뭐든 좋습니다.

@@ -23,7 +23,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 - [대화흐름 이력](log.html#대화흐름-이력)
 
 ### 의도 추론 이력
-{% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도추론 이력(Intent Log)]" type="default" %}
+{% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도추론 이력(대화의도 Log)]" type="default" %}
 
 의도 추론 이력 페이지에서는 입력된 문장이 어떤 Intent로 파악됐는지 확인할 수 있습니다. 최대 7일간의 대화 이력을 볼 수 있으며 입력 문장 단위로 다음과 같은 정보들을 제공합니다.
 
@@ -36,7 +36,7 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 | 구분 |  설명 |
 |------|------|
 | 대화내용 | 입력 문장을 보여줍니다. |
-| Intent | 입력 문장이 파악된 대표 Intent를 보여줍니다. |
+| 대화의도 | 입력 문장이 파악된 대표 Intent를 보여줍니다. |
 | Date | 입력 문장이 들어온 시간을 보여줍니다. |
 {: .table .table-striped}
 
@@ -47,8 +47,8 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 | 구분 |  설명 |
 |------|------|
 | NLU 의도 분류 | NLU 타입 및 매칭율을 보여줍니다. |
-| Intent | 입력 문장이 파악된 Intent를 보여줍니다. |
-| Parameter | Intent 내에 존재하는 Parameter 값을 보여줍니다. 여러 Intent로 파악될 때는 해당 정보를 제공하지 않습니다. | 
+| 대화의도 | 입력 문장이 파악된 Intent를 보여줍니다. |
+| 파라미터 | 대화의도 내에 존재하는 파라미터 값을 보여줍니다. 여러 Intent로 파악될 때는 해당 정보를 제공하지 않습니다. | 
 {: .table .table-striped}
 
 {% include note.html content="NLU는 A, B, C 타입으로 나눠집니다." %}
@@ -72,11 +72,11 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 **Intent** : 입력 문장이 어떤 Intent로 파악되었는지에 대하여 원하는 일부 Intent를 선택하여 조회가 가능합니다.
 
-{% include image.html file="log/nlu_log_filter_02_1.png"  caption="Intent 선택 팝업" %}
+{% include image.html file="log/nlu_log_filter_02_1.png"  caption="대화의도 선택 팝업" %}
 
-가운데 있는 조건을 선택하시면 위와 같이 Intent를 선택할 수 있는 팝업이 노출됩니다. 특정 Intent를 선택하고 싶으실 때는 '모든 Intent 선택' 체크 박스를 해제하고 원하는 Intent를 선택하시면 됩니다. Intent는 최대 10개까지 선택이 가능합니다.
+가운데 있는 조건을 선택하시면 위와 같이 Intent를 선택할 수 있는 팝업이 노출됩니다. 특정 Intent를 선택하고 싶으실 때는 '모든 대화의도 선택' 체크 박스를 해제하고 원하는 Intent를 선택하시면 됩니다. Intent는 최대 10개까지 선택이 가능합니다.
 
-{% include image.html file="log/nlu_log_filter_02_2.png"  caption="Intent 선택" %}
+{% include image.html file="log/nlu_log_filter_02_2.png"  caption="대화의도 선택" %}
 
 선택한 Intent는 [선택된 Intent] 아래에서 확인할 수 있습니다.
  <br/>
@@ -105,13 +105,13 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 #### 기타 기능
 
-의도 추론 페이지를 보다 활용할 수 있도록 danbee.Ai에서는 문장을 Intent에 바로 추가할 수 있는 기능을 제공합니다. 문장을 기존 Intent에 추가에 추가하거나 혹은 새로운 Intent 생성하여 추가하실 수 있습니다.
+의도 추론 페이지를 보다 활용할 수 있도록 danbee.Ai에서는 문장을 대화의도에 바로 추가할 수 있는 기능을 제공합니다. 문장을 기존 대화의도에 추가에 추가하거나 혹은 새로운 대화의도 생성하여 추가하실 수 있습니다.
 
-{% include image.html file="log/nlu_log_add_intent_01.png"  caption="다른 Intent에 추가" %}
+{% include image.html file="log/nlu_log_add_intent_01.png"  caption="다른 대화의도에 추가" %}
 
-위의 경우 '할롱'이라는 입력어가 어떤 의미인지 파악하지 못했으므로 해당 문장을 '안녕'아리는 Intent에 추가하려 합니다. 이때 이력 상세 우측 하단 [다른 Intent에 추가] 버튼을 누르면 등록되어 있는 Intent의 목록이 뜹니다. Intent 목록 중 원하는 Intent인 '안녕'을 선택하면 '할롱'이라는 문장이 '안녕'Intent 예문으로 즉시 등록되게 됩니다.
+위의 경우 '할롱'이라는 입력어가 어떤 의미인지 파악하지 못했으므로 해당 문장을 '안녕'아리는 대화의도에 추가하려 합니다. 이때 이력 상세 우측 하단 [다른 대화의도에 추가] 버튼을 누르면 등록되어 있는 대화의도의 목록이 뜹니다. 대화의도 목록 중 원하는 Intent인 '안녕'을 선택하면 '할롱'이라는 문장이 '안녕'대화의도 예문으로 즉시 등록되게 됩니다.
 
-{% include image.html file="log/nlu_log_add_intent_02.png"  caption="추가한 Intent 확인" %}
+{% include image.html file="log/nlu_log_add_intent_02.png"  caption="추가한 대화의도 확인" %}
 
 문장을 추가한 다음에는 상세 정보에서 해당 문장이 어디 추가되었는지를 확인할 수 있습니다.
 
@@ -119,12 +119,12 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 만약 분류할만한 Intent가 없다면 바로 새로운 Intent를 생성하여 예문으로 추가가 가능합니다.
 
-{% include image.html file="log/nlu_log_add_intent_04.png"  caption="Multi Intent에 즉시 추가" %}
+{% include image.html file="log/nlu_log_add_intent_04.png"  caption="Multi 대화의도에 즉시 추가" %}
 
-마지막으로 해당 문장이 여러 Intent로 파악될 경우 최우측의 [+]버튼을 누르면 파악된 Intent에 예문으로 즉시 추가가 됩니다.
+마지막으로 해당 문장이 여러 Intent로 파악될 경우 최우측의 [+]버튼을 누르면 파악된 대화의도에 예문으로 즉시 추가가 됩니다.
 
 ### 대화흐름 이력
-{% include callout.html content="화면 위치 : [대화흐름(Chatflow)] > [대화흐름 이력(Chatflow Log)]" type="default" %}
+{% include callout.html content="화면 위치 : [대화흐름 ] > [대화흐름 이력(대화흐름 Log)]" type="default" %}
 
 대화흐름 이력 페이지에서는 해당 챗봇이 실제로 어떤 대화를 나누었는지 확인할 수 있습니다. 최대 7일간의 이력을 볼 수 있으며 대화 세션 단위로 다음과 같은 정보들을 제공합니다.
 
@@ -136,9 +136,9 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 
 | 구분 |  설명 |
 |------|------|
-| 시작 Chatflow 명 | 해당 대화가 어떤 Chatflow로 시작되었는지를 보여줍니다. |
-| Chatflow 수 | 한 대화 세션에서 몇 개의 Chatflow를 탔는지 보여줍니다. |
-| Node 수 | 대화 속에서 사용된 총 Node 수를 보여줍니다. |
+| 시작 대화흐름 명 | 해당 대화가 어떤 대화흐름으로 시작되었는지를 보여줍니다. |
+| 대화흐름 수 | 한 대화 세션에서 몇 개의 대화흐름을 탔는지 보여줍니다. |
+| 노드 수 | 대화 속에서 사용된 총 노드 수를 보여줍니다. |
 | Defualt Fallback 수 | 봇이 알아듣지 못한 문장 개수를 보여줍니다. |
 | 감성 분석 | 대화 중 부정적인 감정으로 파악되는 입력 문장이 하나라도 있을 경우만 표시됩니다. |
 | 대화 구분 | 대화 도중 이탈하였는지의 여부를 보여줍니다. |
@@ -154,10 +154,10 @@ danbee.Ai에서는 실 챗봇 사용 이력 확인할 수 있도록 다음 2가�
 | 일시 | 해당 문장이 입력된 시간을 보여줍니다. |
 | 감정 | 입력된 문장이 어떤 감정 상태를 가졌는지 긍정/부정/중립으로 보여줍니다. |
 | 대화 | 주고 받은 실제 대화를 보여줍니다. 버튼 또는 캐로셀 형태가 출력될 경우 해당 정보도 함께 보여줍니다. |
-| Node Type | 현재 문장이 어떤 Node 종류를 타고 있는지 보여줍니다. |
-| Node Name | 현재 문장이 타고 있는 Node의 이름을 보여 줍니다. |
+| 노드 Type | 현재 문장이 어떤 노드 종류를 타고 있는지 보여줍니다. |
+| 노드명  | 현재 문장이 타고 있는 노드의 이름을 보여 줍니다. |
 | 연계 Intent/연계 파라미터 | 해당 문장이 어떤 Intent와 연결되었는지 보여줍니다. |
-| 연계 Chatflow | 해당 문장이 어떤 Chatflow를 탔는지 보여줍니다. |
+| 연계 대화흐름 | 해당 문장이 어떤 대화흐름을 탔는지 보여줍니다. |
 {: .table .table-striped}
 
 #### 조회 조건

@@ -69,8 +69,8 @@ API의 세부 정보에 입력한 정보를 통해 API가 실제로 동작하는
 1. Header : 입력한 API URL로 보내는 요청의 [Header](external_API_management.html#header-와-content-type) 정보를 설정하는 란입니다.<br/>
     [Content-Type](external_API_management.html#header-와-content-type) 은 고정값이며 현재 JSON 형태만 지원합니다.<br/>
     추가 Header 정보를 'Header 추가' 버튼으로 추가할 수 있습니다.
-2. Query Parameter : API URL에서 '?'뒤에 쿼리조건을 입력하는 방식입니다. name=value 형식으로 사용하는 Query Parameter 정보를 설정할 수 있습니다.<br/>
-3. Path Parameter : API URL에 '/'부터 '?'사이에 오는 경로로 설정하는 Parameter입니다. 경우에 따라 '?'조건이 없을 수 있습니다.
+2. Query 파라미터 : API URL에서 '?'뒤에 쿼리조건을 입력하는 방식입니다. name=value 형식으로 사용하는 Query 파라미터 정보를 설정할 수 있습니다.<br/>
+3. Path 파라미터 : API URL에 '/'부터 '?'사이에 오는 경로로 설정하는 파라미터입니다. 경우에 따라 '?'조건이 없을 수 있습니다.
 4. Body : API의 메서드가 'POST'일 경우(API 기본 정보 '2'번에서 POST를 선택한 경우) Body를 입력하는 란이 표시됩니다. Body는 다른 파라미터와 마찬가지로 하나씩 추가하여 입력하거나 Text Editor를 이용하여 입력할 수 있습니다. Header에서 선택한 Content-Type(JSON 또는 XML)에 따라 Body에 입력해야하는 양식이 달라집니다.
 
 
@@ -84,28 +84,28 @@ Content-Type도 그중 하나로써, 서버로 보내는 정보의 유형을 의
 - XML  : 'application/xml', 'text/xml' 두 가지 방식을 지원하며 사용하려는 API에서 정의된 형식을 선택하시면 됩니다.
 {% include image.html file="external_API/02_api_manage_c_header.png"  caption="Header와 Content-Type" %} 
 
-#### Query Parameter / Path Parameter
-API URL에 Parameter를 실어 보내는 방법으로 Query Parameter 방식과 Path Parameter 방식을 제공합니다.
+#### Query 파라미터 / Path 파라미터
+API URL에 파라미터를 실어 보내는 방법으로 Query 파라미터 방식과 Path 파라미터 방식을 제공합니다.
 'http://apiurl/api'이라는 API URL이 있을 때 'name'이란 변수명으로 'value'란 값을 보낼 때
-Query Parameter는 아래와 같이 '?'뒤에 추가되어 호출하게 됩니다.<br/>
+Query 파라미터는 아래와 같이 '?'뒤에 추가되어 호출하게 됩니다.<br/>
 <pre><code>http://apiurl/api?name=value</code></pre><br/>
-{% include image.html file="external_API/02_api_manage_c_parameter.png"  caption="Query Parameter" %}
-API자체에 고정된 Query Parameter가 있거나, 개발경험이 많아 직접 URL에 적용하는 것이 편하다면, 이 기능을 사용하지 않고 직접 URL에 입력해도 무방합니다.
+{% include image.html file="external_API/02_api_manage_c_parameter.png"  caption="Query 파라미터" %}
+API자체에 고정된 Query 파라미터가 있거나, 개발경험이 많아 직접 URL에 적용하는 것이 편하다면, 이 기능을 사용하지 않고 직접 URL에 입력해도 무방합니다.
 
 
-Path Parameter는<br/>
+Path 파라미터는<br/>
 <pre><code>http://apiurl/api/value</code></pre><br/>
 와 같이 URL의 경로처럼 사용하여 해당 경로를 값으로 사용하는 방식입니다.<br/>
-danbee.Ai에서는 Path Parameter 기능을 값 치환 방법으로 제공합니다.<br/>
-즉 아래와 같이 API URL에 '{name}' 과 같이 중괄호로 둘러싼 Path Parameter의 Name을 등록되어있는 Value로 치환합니다.
+danbee.Ai에서는 Path 파라미터 기능을 값 치환 방법으로 제공합니다.<br/>
+즉 아래와 같이 API URL에 '{name}' 과 같이 중괄호로 둘러싼 Path 파라미터의 Name을 등록되어있는 Value로 치환합니다.
 [주의] Chatflow에서 사용하는 양식인 '#{name}'이 아닌 '{name}'으로 사용해야 합니다.
-{% include image.html file="external_API/05_api_manage_path_param.png"  caption="Path Parameter" %}
+{% include image.html file="external_API/05_api_manage_path_param.png"  caption="Path 파라미터" %}
 
-두 가지 방식(Query Parameter와 Path Parameter)은 혼용하여 사용 가능합니다.<br/>
+두 가지 방식(Query 파라미터와 Path 파라미터)은 혼용하여 사용 가능합니다.<br/>
 
 #### Body
 등록할 외부 API의 메서드가 POST일 경우 Request Body를 작성할 수 있습니다.<br/>
-Header, 요청 Parameter와 같이 'Body 추가' 버튼으로 하나씩 추가하거나,<br/>
+Header, 요청 파라미터와 같이 'Body 추가' 버튼으로 하나씩 추가하거나,<br/>
 Editor를 이용하여 직접 작성할 수도 있습니다 <br/>
 (이때, Body 추가 기능을 이용해 입력하면 x-www-form-urlencoded 양식을 따르게 되며,
 Editor로 직접입력 하면, raw 양식을 따르게 됩니다.)
@@ -119,7 +119,7 @@ Response API Tree에서 API 적용 실행 결과를 확인할 수 있습니다.
 실행 성공시, Response API Tree에서 Tree 형태의 데이터가 조회됩니다.<br/>
 API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니다. 실패시 아무런 데이터가 조회되지 않습니다.
 {% include image.html file="external_API/02_api_manage_c_response_tree.png"  caption="Response API Tree 예시" %}
-{% include note.html content="이제 배열과 JSON 객체를 원하는 Parameter에 담아 사용할 수 있습니다." %}
+{% include note.html content="이제 배열과 JSON 객체를 원하는 파라미터에 담아 사용할 수 있습니다." %}
 - 자세한 사항은 [API 노드](chatflow_api.html#응답-parameter-와-출력-parameters) 에서 확인해 주세요.
 
 #### 저장
