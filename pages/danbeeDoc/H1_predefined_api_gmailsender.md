@@ -6,6 +6,10 @@ summary: danbee.Ai에서 제공하는 Google Gmail 게정을 통해 이메일을
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_gmailsender.html
 folder: danbeeDoc
+previous: {
+    title: 단비 제공 API,
+    url: predefined_api.html
+}
 next: {
     title: 네이버 메일 전송,
     url: predefined_api_navermailsender.html

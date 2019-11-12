@@ -107,6 +107,8 @@
 <!-- /#main -->
     </div>
 
+<script src="{{ "js/jquery.magnific-popup.min.js" }}"></script>
+
 <script>
     $(window).load(function() {
         $('.flexslider').flexslider({
@@ -121,6 +123,20 @@
             controlNav : true,
             itemWidth:400,
             touch: true
+        });
+
+        $('.post-content > figure > img').replaceWith(function () {
+            return ''
+                + '<a href="' + $(this).attr('src') + '" class="mg-link">'
+                + '<img src="' + $(this).attr('src') + '" width="'
+                + $(this).attr('width') + '"' + '/></a>'
+                + '<figcaption class="caption">' + $(this).attr('alt') + '</figcaption>'
+                + '';
+        });
+
+        $('.mg-link').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true
         });
     });
 </script>

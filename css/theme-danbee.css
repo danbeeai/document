@@ -14,7 +14,7 @@ body, html {
 
 *, body, html, input, textarea, select, button {
     font-family: "SD Apple Neo Gothic KR", "Noto Sans KR", serif;
-
+    word-break:keep-all;
 }
 
 
@@ -34,7 +34,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background:rgba(255, 106, 0, 0.14);
 }
 
-h2{margin-top:60px; margin-bottom:8px;}
+h2{margin-top:120px; margin-bottom:8px;}
 h3{margin-top:45px;}
 h4{margin-top:20px;}
 
@@ -55,8 +55,12 @@ hr{
     font-family: Menlo,Monaco,Consolas,"Courier New", dotum, gulim, monospace;
 }
 a {
-    color: #0d6fbd; /*#2b1a09*/
-    text-decoration: none;
+    color: #FFAD36; /*#2b1a09*/
+    text-decoration: underline;
+}
+a:hover{
+    color: #FFAD36; /*#2b1a09*/
+    text-decoration: underline;
 }
 
 .summary {
@@ -98,7 +102,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 p{
     line-height:27px;
-    margin: 15px 0;
+    margin: 35px 0;
     letter-spacing:0.1px;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
@@ -423,6 +427,10 @@ div#toc_side ul ul ul {
 .post-content ol li p, .post-content ul li p{
     padding:0;
 }
+.post-content ol li p:first-child, .post-content ul li p:first-child{
+    margin-top:0px;
+}
+
 .post-content ul li em{
     font-style: normal;
     display: block;
@@ -764,6 +772,13 @@ div#toc >ul::before {
     font-size:1em;
     line-height:1.8em;
     word-break : normal;
+    margin:15px;
+    margin-right:220px;
+    margin-left:20px;
+}
+
+.post-content blockquote p{
+    margin:15px 0 35px;
 }
 
 .modal-body{

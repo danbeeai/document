@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: predefined_api_slackchannelsender.html
 folder: danbeeDoc
 previous: {
-    title: 네이버 메일 전송,
-    url: predefined_api_navermailsender.html
-}
-next: {
     title: AWS 메일 전송,
     url: predefined_api_awssessender.html
+}
+next: {
+    title: 문자(SMS) 전송,
+    url: predefined_api_smssender.html
 }
 ---
 
