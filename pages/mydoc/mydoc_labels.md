@@ -7,6 +7,7 @@ summary: "Labels are just a simple Bootstrap component that you can include in y
 sidebar: danbee_doc_sidebar
 permalink: mydoc_labels.html
 folder: mydoc
+search: exclude
 ---
 
 ## About labels

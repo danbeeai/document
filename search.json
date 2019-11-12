@@ -6,13 +6,14 @@ search: exclude
 
 [
 {% for page in site.pages %}
-{% unless page.search == "exclude" %}
+{% unless page.search == "exclude" or page.title == "" %}
 {
 "title": "{{ page.title | escape }}",
 "tags": "{{ page.tags }}",
 "keywords": "{{page.keywords}}",
 "url": "{{ page.url | remove: "/"}}",
-"summary": "{{page.summary | strip }}"
+"summary": "{{page.summary | strip }}",
+"content"  : "{{ page.content | strip_html | strip_newlines | remove_chars | escape }}"
 }
 {% unless forloop.last and site.posts.size < 1 %},{% endunless %}
 {% endunless %}
@@ -25,9 +26,11 @@ search: exclude
 "tags": "{{ post.tags }}",
 "keywords": "{{post.keywords}}",
 "url": "{{ post.url | remove: "/" }}",
-"summary": "{{post.summary | strip }}"
+"summary": "{{post.summary | strip }}",
+"content"  : "{{ post.content | strip_html | strip_newlines | remove_chars | escape }}"
 }
 {% unless forloop.last %},{% endunless %}
+
 {% endfor %}
 
 ]

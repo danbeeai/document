@@ -7,6 +7,7 @@ summary: "You can insert notes, tips, warnings, and important alerts in your con
 sidebar: danbee_doc_sidebar
 permalink: mydoc_alerts.html
 folder: mydoc
+search: exclude
 ---
 
 ## About alerts

@@ -2,7 +2,7 @@
 title: API 관리 
 tags: [API, advanced]
 keywords: Basic Conversation
-summary: 챗플로우 설계에 사용할 외부 API를 등록 및 수정하는 페이지입니다.
+summary: 대화흐름 설계에 사용할 외부 API를 등록 및 수정하는 페이지입니다.
 sidebar: danbee_doc_sidebar
 permalink: external_API_management.html
 folder: danbeeDoc
@@ -17,7 +17,7 @@ next: {
 ---
 
 ## 개요
- {% include callout.html content="위치 : [대화흐름(Chatflow)] > [API 관리]" type="default" %}
+ {% include callout.html content="위치 : [그룹 관리] > [챗봇 관리] > [API 관리]" type="default" %}
  <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)</span> 시스템과 시스템이 서로 정보를 주고 받는 메시지 형식입니다. 챗봇이 사용자의 의도를 파악했다면, 실제 정보를 제공하거나 접수를 처리해주기 위해서는 다른 시스템과 정보를 주고받는 것이 필요합니다. [API관리]에서 API를 등록하여 테스트할 수 있는 환경을 제공하고, [API노드](/chatflow_api.html)에서 불러와 재사용 할 수 있습니다.즉, [API 관리]메뉴는 API를 등록하는 기능을 제공하며, [API노드](/chatflow_api.html)는 등록된 API를 활용하여 대화흐름에 적용하는 기능을 제공합니다. 지금 보고 계신 문서는 [API 관리]에 대한 설명입니다.
 
   
@@ -28,12 +28,12 @@ next: {
  - [API 조회](external_API_management.html#api-조회) 
 
 
-### API 등록
-신규 API를 등록을 요청 하고 수정할 수 있는 기능입니다.<br/>
-[API관리] 메뉴를 클릭하면, API목록이 나타납니다. 우측상단의 'API 등록' 버튼을 클릭하면, API를 등록하기위한 화면이 열립니다.<br/>
+### API 추가
+신규 API를 추가하고 수정할 수 있는 기능입니다.<br/>
+[API관리] 메뉴를 클릭하면, API목록이 나타납니다. 우측상단의 'API 추가' 버튼을 클릭하면, API를 추가하기위한 화면이 열립니다.<br/>
 
 ### API 수정
-이미 등록된 API가 있다면, API목록에 보이게 됩니다. 등록된 API 중 하나를 클릭하면, API상세 화면이 나타나며, 우측 상단에 [수정] 버튼을 클릭하여 수정이 가능합니다. API 수정을 위해서는 API 상세 조회 화면 우측 상단 [수정] 버튼을 클릭하면 됩니다. API 수정 절차는 API 등록 절차와 같습니다.
+이미 등록된 API가 있다면, API목록에 보이게 됩니다. 등록된 API 중 하나를 클릭하면, API상세 화면이 나타나며, 화면 하단에 [변경내용 저장] 버튼을 클릭하여 수정이 가능합니다. API 수정을 위해서는 API 상세 조회 화면 하단 [변경내용 저장] 버튼을 클릭하면 됩니다. API 수정 절차는 API 추가 절차와 같습니다.
 
 #### API 기본 정보
 연결하고자 하는 API의 기본정보를 입력해야 합니다.
@@ -123,17 +123,18 @@ API 적용 결과 조회된 데이터를 Tree형태로 조회해서 보여줍니
 - 자세한 사항은 [API 노드](chatflow_api.html#응답-parameter-와-출력-parameters) 에서 확인해 주세요.
 
 #### 저장
-API 정보 정상 입력 후 **저장** 버튼을 클릭해, API 등록 정보를 저장합니다. 
+API 정보 정상 입력 후 **변경내용 저장** 버튼을 클릭해, API 등록 정보를 저장합니다. 
 
 #### 취소
-{% include callout.html content="위치 : [API 관리] - [API클릭] - [더보기]- [취소]" type="default" %}
-화면 우측 상단의  **더보기** 버튼 클릭시, **취소**  버튼이 존재합니다.  **취소**  클릭시, API 목록화면으로 이동하고, 작성하던 정보는 삭제됩니다. 
+{% include callout.html content="위치 : [API 관리] - [취소]" type="default" %}
+화면 하단의  **취소**  버튼이 존재합니다.  **취소**  클릭시, API 목록화면으로 이동하고, 작성하던 정보는 삭제됩니다. 
 
 
 ### API 조회 
 API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습니다. 해당 목록에서는 등록한 API 이름으로 검색이 가능합니다.
 {% include image.html file="external_API/03_api_manage_r_list.png"  caption="API 조회" %}  
 
+
 ## API 사용
 등록된  API는 chatflow 설계의 API 노드에서 조회 및 사용 가능 합니다.
-{% include image.html file="external_API/cf_api_node.PNG"  caption="API 노드에서의 기등록 API 예시" %} 
+{% include image.html file="external_API/cf_api_node.png"  caption="API 노드에서의 기등록 API 예시" %} 

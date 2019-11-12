@@ -8,6 +8,7 @@ sidebar: danbee_doc_sidebar
 permalink: mydoc_glossary.html
 toc: false
 folder: mydoc
+search: exclude
 ---
 
 
