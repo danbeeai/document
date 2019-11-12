@@ -39,16 +39,16 @@ entries:
     - title: 2. 대화흐름 생성하기
       url: /basic_listen_speak.html
       output: web
-    - title: 3. Entity와 Parameter 이해하기
+    - title: 3. Entity와 파라미터 이해하기
       url: /basic_entity_parameter.html
       output: web
-    - title: 4. Slot Node 사용하기
+    - title: 4. Slot 노드 사용하기
       url: /basic_slot.html
       output: web
-    - title: 5. Carousel Node 사용하기
+    - title: 5. Carousel 노드 사용하기
       url: /basic_carousel.html
       output: web
-    - title: 6. Split Node 사용하기
+    - title: 6. Split 노드 사용하기
       url: /basic_split.html
       output: web        
     - title: 7. API 노드 사용하기

@@ -38,7 +38,7 @@ danbee.Ai를 이용하려면 먼저 <span class="link">[로그인](https://danbe
 ### 대화의도 생성
 1) ***”대화의도 생성”*** 버튼을 클릭하여 대화의도 생성 페이지로 이동해주세요.
 
-{% include image.html file="tutorial/basic01_empty_intent.png"  caption="Intent 없는 상태" %}
+{% include image.html file="tutorial/basic01_empty_intent.png"  caption="대화의도 없는 상태" %}
 
 2) 상단의 대화의도 명 입력란에 ***”피자주문하기”***과 같이 대화의도 명을 적어주세요. 챗봇의 완성도가 높아질수록 대화의도 수가 많아지므로 명확히 구분할 수 있고, 검색하기 쉽게 정의하는 것이 좋습니다.
 
@@ -49,11 +49,11 @@ danbee.Ai를 이용하려면 먼저 <span class="link">[로그인](https://danbe
 4) 대화의도 명과 예문을 입력하였으면 ***“대화의도 생성”*** 버튼을 클릭하여 대화의도를 생성합니다. 그 외의 대화의도 설정 항목에 관해서는 document의 <span class="link">[의도관리](/intent.html)</span>를 보시면 더욱 자세히 알 수 있습니다.
 
 
-## Intent 테스트
+## 대화의도 테스트
 우측의 테스트 패널에서 저장한 Intent가 제대로 동작하는지 테스트 해볼 수 있습니다.
-NLU Intent 탭에서 “피자 주문해줘” 예문을 입력해보면 대화의도가 “피자주문하기”으로 조회되는 것을 확인할 수 있습니다.
+대화의도 탭에서 “피자 주문해줘” 예문을 입력해보면 대화의도가 “피자주문하기”으로 조회되는 것을 확인할 수 있습니다.
 
-{% include image.html file="tutorial/basic01_test_intent.png"  caption="테스트패널에서 Intent 테스트" %}
+{% include image.html file="tutorial/basic01_test_intent.png"  caption="테스트패널에서 대화의도 테스트" %}
 
 
 ## 다음 Step에서는

@@ -36,7 +36,7 @@ Function 노드에 표시될 기본적인 노드명과 노드에 대한 내용�
 
 ### Script 정보
 
-Script 정보에는 Javascript 함수를 활용하여 변수(Parameter) 정보를 가공할 수 있습니다. 
+Script 정보에는 Javascript 함수를 활용하여 변수(파라미터) 정보를 가공할 수 있습니다. 
 
 {% include image.html file="chatflow/Chatflow_function_script.png"  caption="Function노드 Script" %}
 
@@ -78,7 +78,7 @@ test = 10;
 ### 샘플 시나리오 (랜덤 분기 테스트)
 
 Function 노드에 Javascript 함수를 활용하여 랜덤으로 Speak 노드를 실행하도록 샘플 시나리오를 설정해 보겠습니다. 
-해당 시나리오는 Function 노드에서 0 ~ 2 에 한정한 랜덤 수를 발생하여 randomNum 변수(Parameter)에 값을 저장하게 되고 Split 노드에서 randomNum 값을 기준으로
+해당 시나리오는 Function 노드에서 0 ~ 2 에 한정한 랜덤 수를 발생하여 randomNum 변수(파라미터)에 값을 저장하게 되고 Split 노드에서 randomNum 값을 기준으로
 '램덤1', '램덤2', '랜덤3' Speak 노드를 선택하여 실행하게 됩니다. 
 
 {% include image.html file="chatflow/Chatflow_function_random01.png"  caption="랜덤 테스트 시나리오" %}
