@@ -137,4 +137,4 @@ API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습
 
 ## API 사용
 등록된  API는 chatflow 설계의 API 노드에서 조회 및 사용 가능 합니다.
-{% include image.html file="external_API/cf_api_node.PNG"  caption="API 노드에서의 기등록 API 예시" %} 
+{% include image.html file="external_API/cf_api_node.png"  caption="API 노드에서의 기등록 API 예시" %} 
