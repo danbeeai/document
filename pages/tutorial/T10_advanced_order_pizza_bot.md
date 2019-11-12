@@ -106,7 +106,7 @@ Api 설정 방법 및 Api 노드 설정 방법은 위에 챕터 내용 참고해
 
 {% include image.html file="tutorial/ad_7.png"  caption="Api 설정 화면" %}
 {% include image.html file="tutorial/ad_8.png"  caption="메뉴 가격 조회 Api 노드 상세 요청 파라미터 화면" %}
-{% include image.html file="tutorial/ad_9.png"  caption="메뉴 가격 조회 Api 노드 상세 출력 파라미터s 화면" %}
+{% include image.html file="tutorial/ad_9.png"  caption="메뉴 가격 조회 Api 노드 상세 출력 파라미터 화면" %}
 
 ### 최종 가격 계산 Function 노드 설정하기
 사용자가 선택한 메뉴, 사이즈, 주문수량 그리고 외부시스템에서 가져온 피자 가격까지 대화흐름에 가져왔습니다. <br/>
