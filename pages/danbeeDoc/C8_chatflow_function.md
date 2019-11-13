@@ -16,8 +16,6 @@ next: {
 }
 ---
 
-## Function 노드
-
 챗봇의 대화 흐름 진행 과정에서 여러 파라미터들이 사용되는데, 경우에 따라서는 파라미터 문자열을 가공한다던가 날짜, 숫자 계산이 필요한 경우가 있습니다. 
 Function 노드에서는 자바스크립트 문법을 사용하여 이러한 파라미터 데이터를 가공처리 할 수 있는 기능을 제공합니다. 
 
@@ -28,20 +26,12 @@ Function 노드는 2개의 상세 화면으로 구성됩니다.
 
 {% include image.html file="chatflow/Chatflow_function_canvas.png"  caption="Function 노드" %}
 
-### 기본정보
-
-Function 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입력합니다.
-
-{% include image.html file="chatflow/Chatflow_function_basic.png"  caption="Function노드 기본정보" %}
-
 ### Script 정보
 
 Script 정보에는 Javascript 함수를 활용하여 변수(파라미터) 정보를 가공할 수 있습니다. 
 
-{% include image.html file="chatflow/Chatflow_function_script.png"  caption="Function노드 Script" %}
-
-Listen 노드에 선언된 변수를 가져다 활용할 수 있습니다.
-예를 들어 Listen 노드에 'test' 라는 변수가 선언되어 있고 이를 Function 노드에 임의의 값 10을 입력하고 싶다면
+선언된 파라미터를 가져다 활용할 수 있습니다.
+예를 들어 'test' 라는 파라미터가 선언되어 있고 이를 Function 노드에 임의의 값 10을 입력하고 싶다면
 우선 Script 영역에 test 변수를 아래와 같이 바인딩 합니다. 
 
 var test;
@@ -74,7 +64,7 @@ test = 10;
 | 현재초 | danbee_currentTimeSS | 현재초 정보입니다. (예:59) |
 | 현재요일 | danbee_currentDateWeek | 현재요일 정보입니다. (예: 1:일, 2:월, 3:화, 4:수, 5:목, 6:금, 7:토) |
 {: .table .table-striped}
-
+<!-- 
 ### 샘플 시나리오 (랜덤 분기 테스트)
 
 Function 노드에 Javascript 함수를 활용하여 랜덤으로 Speak 노드를 실행하도록 샘플 시나리오를 설정해 보겠습니다. 
@@ -116,4 +106,4 @@ Split 노드에 조건을 다음과 같이 randomNum 값이 0, 경우에는 '램
 
 랜덤 분기 테스트를 실행해 보면 다음과 같이 같은 질문에 무작위로 다른 메시지를 내뱉게 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_function_sampleTest.png"  caption="랜덤 분기 테스트 결과" %}
+{% include image.html file="chatflow/Chatflow_function_sampleTest.png"  caption="랜덤 분기 테스트 결과" %} -->

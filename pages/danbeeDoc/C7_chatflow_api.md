@@ -115,7 +115,7 @@ JSON 객체의 경우<br/>
 
 
 
-
+<!-- 
 
 ### 샘플 시나리오 (오늘 날씨 어때?)
 
@@ -162,4 +162,4 @@ Speak 노드에서 답변 메시지와 함께 API 노드에서 얻은 출력 파
 
 '오늘 날씨 어때?' 시나리오를 실행해 보면 아래와 같이 현재 기상정보를 답변하게 됩니다.
 
-{% include image.html file="chatflow/Chatflow_api_sampleTest.png"  caption="오늘 날씨 어때? 시나리오 결과" %}
+{% include image.html file="chatflow/Chatflow_api_sampleTest.png"  caption="오늘 날씨 어때? 시나리오 결과" %} -->
