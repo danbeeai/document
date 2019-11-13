@@ -324,6 +324,7 @@ div#toc_side ul ul ul {
     color: #000;
     margin-top: 55px;
     font-size: 21px;
+    margin-bottom:20px;
     font-weight: 500;
 }
 .post-content h4{
@@ -772,7 +773,7 @@ div#toc >ul::before {
     font-size:1em;
     line-height:1.8em;
     word-break : normal;
-    margin:15px;
+    margin:35px;
     margin-right:220px;
     margin-left:20px;
 }

@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 관리 > 대화의도" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 생성/관리 > 대화의도" type="default" %}
  
 {% include image.html file="intent/chatbotflow.png"  caption="대화 의도와 엔티티의 관계" %}
 
