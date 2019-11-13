@@ -5,6 +5,7 @@ tags: [formatting]
 summary: "This page shows how to create both bulleted and numbered lists"
 sidebar: danbee_doc_sidebar
 permalink: mydoc_lists.html
+search: exclude
 ---
 
 ## Bulleted Lists

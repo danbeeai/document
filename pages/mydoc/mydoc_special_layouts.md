@@ -7,6 +7,7 @@ summary: "This theme has a few special layouts. Special layouts include the JS f
 sidebar: danbee_doc_sidebar
 permalink: mydoc_special_layouts.html
 folder: mydoc
+search: exclude
 ---
 
 

@@ -5,6 +5,7 @@ search: exclude
 permalink: tag_log.html
 sidebar: tag_sidebar
 folder: tags
+search: exclude
 ---
 {% include taglogic.html %}
 

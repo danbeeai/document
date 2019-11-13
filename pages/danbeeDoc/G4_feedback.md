@@ -29,17 +29,18 @@ previous: {
 ## Q&A 게시판
 ### 내 의견을 자유롭게 작성하고 확인하세요.
 
-{% include callout.html content="화면 위치 : [Q&A Board] " type="default" %}
+{% include callout.html content="화면 위치 : [문의사항] - [문의하기] " type="default" %}
 
-**파브르**를 통해 접수한 버그나 개선,문의사항 또한 **Q&A 게시판**에 자동으로 등록됩니다.
+**파브르**를 통해 접수한 버그나 개선,문의사항 또한 **문의하기**에 자동으로 등록됩니다.
 또한 내가 보낸 의견과 답변을 확인할 수 있고 의견을 더 자유롭게 작성할 수 있습니다.
 
 
-담당자가 확인후 답변을 작성하면 Q&A 게시판을 통해 답변을 확인 하실 수 있습니다.
+담당자가 확인후 답변을 작성하면 **문의하기**을 통해 답변을 확인 하실 수 있습니다.
 {% include image.html file="feedback/feedback_3.png"  caption="Q&A 게시판" %}
 
 
 내 의견을 좀 더 자유롭게 의견을 작성해보세요.
+
 
 Q&A 게시판에서도 문의를 작성하면 사진, URL, 그리고 동영상을 링크를 첨부하고 텍스트를 편집할 수 있습니다.
 {% include image.html file="feedback/qna_board_02.png"  caption="Q&A 등록 예시" %}

@@ -7,6 +7,7 @@ summary: "You can implement advanced conditional logic that includes if statemen
 sidebar: danbee_doc_sidebar
 permalink: mydoc_conditional_logic.html
 folder: mydoc
+search: exclude
 ---
 
 ## About Liquid and conditional statements

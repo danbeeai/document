@@ -8,6 +8,7 @@ sidebar: danbee_doc_sidebar
 permalink: mydoc_kb_layout.html
 toc: false
 folder: mydoc
+search: exclude
 ---
 
 Here's the sample knowledge-base style layout:

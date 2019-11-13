@@ -24,7 +24,9 @@ next: {
 챗봇이 잘 알아듣기 위해서는 학습을 해야합니다. 학습이라는 것이 어려운 것이 아닙니다. 알아들었으면 하는 표현을 입력하고 이름을 붙여주는 과정입니다.
 모든 표현을 다 학습시킬 필요는 없습니다. 챗봇 엔진이 유사한 표현을 잡아줍니다. 아래 영상을 통해 살펴보세요 :)
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/f9upcJwb5wQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 

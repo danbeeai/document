@@ -80,7 +80,7 @@ Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각
 
 {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도 추론(Intent)]" type="default" %}
 
-Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"Intent 생성"*** 버튼을 클릭합니다.
+Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"대화의도 생성"*** 버튼을 클릭합니다.
 챗봇이 인식할 인텐트명을 입력하고, 해당 인텐트로 해석될 수 있는 표현을 입력하고 엔터키를 누릅니다.
 "만남 인사"로 해석될 수 있는 표현은, "안녕" "반가워" "방가방가" "하이" 등이 될 수 있겠네요.
 
@@ -94,7 +94,7 @@ Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"Intent 생성
 
 {% include image.html file="chatbot_create\07_intent_test.gif"  caption="인텐트 분류 테스트" %}
 
-"안녕" 이라고 테스트 해보면, Intent Candidate에 "만남 인사"로 100% 신뢰도로 추론된다는 결과가 나옵니다.
+"안녕" 이라고 테스트 해보면, 대화의도 Candidate에 "만남 인사"로 100% 신뢰도로 추론된다는 결과가 나옵니다.
 예문에 "안녕"이라는 학습데이터가 100% 일치하기 때문입니다.
 
 "안녕안녕" 이라고 테스트 해보면, 71.25% 정도의 신뢰도로 "만남 인사"인것 같다는 추론결과가 나옵니다.
@@ -107,12 +107,12 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 ### 의도에 맞는 대화흐름을 만들어 보자!
 반갑게 인사하는 상대에게는 당연히 반갑게 인사로 대응을 해야 예의바른 챗봇이겠죠?
 좌측 내비게이션에서 아래 메뉴를 클릭합니다.
-{% include callout.html content="화면 위치 : [대화흐름(Chatflow)] > [대화흐름 목록(Chatflow List)]" type="default" %}
+{% include callout.html content="화면 위치 : [대화흐름 ] > [대화흐름 목록]" type="default" %}
 
 메뉴를 클릭하면, 아래와 같은 화면이 나타납니다.
 
 {% include image.html file="chatbot_create\08_chatflow_create.png"  caption="챗플로우 생성" %}
-화면 중앙, 또는 우측상단에 있는 "Chatflow 생성" 버튼을 클릭합니다.
+화면 중앙, 또는 우측상단에 있는 "대화흐름 생성" 버튼을 클릭합니다.
 
 {% include image.html file="chatbot_create\09_chatflow_name.PNG"  caption="챗플로우 생성" %}
 챗플로우의 이름은 자유롭게 설정이 가능하지만, Intent명과 동일하게 작성하는 것이 나중에 다시 찾을때 편리합니다.
@@ -137,7 +137,7 @@ Listen노드를 더블클릭하여 대화흐름의 출발점이 되는 Intent를
 
 Listen노드와 Speak노드가 만들어졌다면, 우측 상단의 저장버튼을 클릭하면 대화모델 하나가 완성된 것입니다.
 
-화면 우측의 Chatflow 테스트 패널에서 테스트를 해볼 수 있습니다.
+화면 우측의 대화흐름 테스트 패널에서 테스트를 해볼 수 있습니다.
 
 {% include image.html file="chatbot_create\13_chatflow_test.gif"  caption="챗플로우 테스트" %}
 

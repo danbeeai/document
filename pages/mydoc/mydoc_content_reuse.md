@@ -7,6 +7,7 @@ summary: "You can reuse chunks of content by storing these files in the includes
 sidebar: danbee_doc_sidebar
 permalink: mydoc_content_reuse.html
 folder: mydoc
+search: exclude
 ---
 
 ## About content reuse

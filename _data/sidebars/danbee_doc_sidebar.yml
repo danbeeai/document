@@ -62,7 +62,7 @@ entries:
 
     - title: 그룹
       url: /chatbot_list.html
-      output: web, pdf  
+      output: web, pdf
 
     - title: 파라미터
       url: /parameter.html
@@ -184,6 +184,10 @@ entries:
       url: /channel_kakaotalk.html
       output: web, pdf
 
+    - title: 카카오톡(카카오i오픈빌더)
+      url: /channel_kakaoibuilder.html
+      output: web, pdf
+
     - title: 네이버톡톡
       url: /channel_navertalk.html
       output: web, pdf
@@ -191,7 +195,7 @@ entries:
     - title: Slack
       url: /channel_slack.html
       output: web, pdf
-      
+
 
   - title: 외부 API 사용
     output: web, pdf
@@ -213,18 +217,67 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Gmail 메일 전송
-      url: /predefined_api_gmailsender.html
+    - title: 단비 제공 API
+      url: /predefined_api.html
       output: web, pdf
 
-    - title: 네이버 메일 전송
-      url: /predefined_api_navermailsender.html
-      output: web, pdf
+      subfolders:
+      - title: 메일 전송
+        output: web, pdf
 
-    - title: 슬랙채널 메시지 전송
-      url: /predefined_api_slackchannelsender.html
-      output: web, pdf
+        subfolderitems:
+        - title: Gmail 메일 전송
+          url: /predefined_api_gmailsender.html
+          output: web, pdf
 
-    - title: AWS 메일 전송
-      url: /predefined_api_awssessender.html
-      output: web, pdf
+        - title: 네이버 메일 전송
+          url: /predefined_api_navermailsender.html
+          output: web, pdf
+
+        - title: AWS 메일 전송
+          url: /predefined_api_awssessender.html
+          output: web, pdf
+
+      - title: 메시지 알림 전송
+        output: web, pdf
+
+        subfolderitems:
+        - title: 슬랙채널 메시지 전송
+          url: /predefined_api_slackchannelsender.html
+          output: web, pdf
+
+        - title: 문자(SMS) 전송
+          url: /predefined_api_smssender.html
+          output: web, pdf
+
+        - title: 예약문자(SMS) 전송
+          url: /predefined_api_smsrsender.html
+          output: web, pdf
+
+        - title: 문자(LMS) 전송
+          url: /predefined_api_lmssender.html
+          output: web, pdf
+
+        - title: 예약문자(LMS) 전송
+          url: /predefined_api_lmsrsender.html
+          output: web, pdf
+
+      - title: 구글 스프레드시트 관리
+        output: web, pdf
+
+        subfolderitems:
+        - title: 구글 스프레드시트 행 추가
+          url: /predefined_api_googlespreadsheetrowappend.html
+          output: web, pdf
+
+        - title: 구글 스프레드시트 행 조회
+          url: /predefined_api_googlespreadsheetrowget.html
+          output: web, pdf
+
+        - title: 구글 스프레드시트 행 수정
+          url: /predefined_api_googlespreadsheetrowupdate.html
+          output: web, pdf
+
+        - title: 구글 스프레드시트 행 찾기
+          url: /predefined_api_googlespreadsheetrowfind.html
+          output: web, pdf

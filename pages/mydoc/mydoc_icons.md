@@ -7,6 +7,7 @@ summary: "You can integrate font icons through the Font Awesome and Glyphical Ha
 sidebar: danbee_doc_sidebar
 permalink: mydoc_icons.html
 folder: mydoc
+search: exclude
 ---
 
 ## Font icon options

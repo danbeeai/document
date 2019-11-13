@@ -7,6 +7,7 @@ summary: "Store images in the images folder and use the image.html include to in
 sidebar: danbee_doc_sidebar
 permalink: mydoc_images.html
 folder: mydoc
+search: exclude
 ---
 
 ## Image Include Template

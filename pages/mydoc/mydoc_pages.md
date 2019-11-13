@@ -7,6 +7,7 @@ summary: "This theme primarily uses pages. You need to make sure your pages have
 sidebar: danbee_doc_sidebar
 permalink: mydoc_pages.html
 folder: mydoc
+search: exclude
 ---
 
 ## Where to author content

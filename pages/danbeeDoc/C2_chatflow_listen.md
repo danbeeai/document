@@ -39,10 +39,10 @@ Listen Node에 표시될 기본적인 Node명과 Node에 대한 내용을 입력
 
 ### 인텐트 연결
 
-Listen Node 연결 방법 라디오 버튼 중 Intent를 선택합니다.
+Listen 노드 연결 방법 라디오 버튼 중 Intent를 선택합니다.
 인텐트 연결은 2개의 탭으로 구성되어 있습니다. 
 - [의도추론예문](chatflow_listen.html#의도추론예문)
-- [Parameter](chatflow_listen.html#parameter)
+- [파라미터](chatflow_listen.html#parameter)
 
 의도관리에서 등록된 인텐트들을 매핑함으로써 인텐트에 등록된 예문 페턴이 일치될때 해당 Listen Node가 구동되어 Chatflow의 흐름을 타게 됩니다. 
 Listen Node와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 때문에 인텐트 연결시 이미 매핑된 인텐트와 선택가능한 인텐트가 구분되어 보여지게 됩니다.
@@ -56,27 +56,27 @@ Listen Node와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 때
 
 {% include image.html file="chatflow/Chatflow_listen_intent.png"  caption="인텐트 탭" %}
 
-#### Parameter
+#### 파라미터
 
-선택된 인텐트에 등록되었던 Parameter가 화면에 나열됩니다. 
-Parameter(단어항목)은 의도관리에서 등록된 '추출된 Parameter' 데이터를 의미합니다. 
-사용자가 입력된 문장에서 NLU가 의미 있는 Parameter 정보를 추출하게 되고 그 정보를 매핑된 Listen Node가 전달받는 구조입니다.
-Listen Node에서 Parameter를 추가적으로 등록하고 싶다면 [+] 버튼을 클릭하여 Parameter 명과 유형을 지정해 주면 됩니다. 
+선택된 인텐트에 등록되었던 파라미터가 화면에 나열됩니다. 
+파라미터(단어항목)은 의도관리에서 등록된 '추출된 파라미터' 데이터를 의미합니다. 
+사용자가 입력된 문장에서 NLU가 의미 있는 파라미터 정보를 추출하게 되고 그 정보를 매핑된 Listen 노드가 전달받는 구조입니다.
+Listen 노드에서 파라미터를 추가적으로 등록하고 싶다면 [+] 버튼을 클릭하여 파라미터 명과 유형을 지정해 주면 됩니다. 
 
 {% include image.html file="chatflow/Chatflow_listen_parameter.png"  caption="파라미터 탭" %}
 
 ### Event 연결
 
-Listen Node 연결 방법 라디오 버튼 중 Event를 선택합니다.
+Listen 노드 연결 방법 라디오 버튼 중 Event를 선택합니다.
 Event 연결은 2개의 탭으로 구성되어 있습니다.
 
 - [Event](chatflow_listen.html#event)
-- [Parameter](chatflow_listen.html#event-parameter)
+- [파라미터](chatflow_listen.html#event-parameter)
 
 #### Event
 
 만들고자 하는 Event 명칭을 작성합니다. 확인 버튼을 누른 뒤 chatflow 저장 버튼을 눌러 chatflow를 저장합니다.
-저장 후 Listen Node 를 클릭 하면 Event Url 정보를 확인 할 수 있고, 해당 Url로 chatflow를 실행 할 수 있습니다.
+저장 후 Listen 노드 를 클릭 하면 Event Url 정보를 확인 할 수 있고, 해당 Url로 chatflow를 실행 할 수 있습니다.
 
 {% include image.html file="chatflow/Chatflow_listen_event.PNG"  caption="이벤트 탭" %}
 
@@ -85,10 +85,10 @@ Event호출 방법은 Post방식으로 호출 합니다. 필수 값은 chatbot i
 
 {% include image.html file="chatflow/Chatflow_listen_event_result.PNG"  caption="이벤트 결과 탭" %}
 
-#### Event Parameter
+#### Event 파라미터
 
-Event 내부에서 사용하는 Parameter를 설정 할 수 있습니다. Event 에서 Parameter를 등록하고 싶다면 [+] 버튼을
-클릭하여 Parameter 명을 설정 합니다. Default Value 는 해당 Parameter의 기본 값으로 입력 값이 없을때 Default Value
-를 Parameter 값 으로 다음 Node로 넘기게 됩니다.
+Event 내부에서 사용하는 파라미터를 설정 할 수 있습니다. Event 에서 파라미터를 등록하고 싶다면 [+] 버튼을
+클릭하여 파라미터 명을 설정 합니다. Default Value 는 해당 파라미터의 기본 값으로 입력 값이 없을때 Default Value
+를 파라미터 값 으로 다음 Node로 넘기게 됩니다.
 
 {% include image.html file="chatflow/Chatflow_listen_event_parameter.PNG"  caption="이벤트 파라미터 탭" %}
