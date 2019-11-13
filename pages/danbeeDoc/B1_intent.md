@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 관리 > 대화의도" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 생성/관리 > 대화의도" type="default" %}
  
 {% include image.html file="intent/chatbotflow.png"  caption="대화 의도와 엔티티의 관계" %}
 **대화 의도**란, 입력 문장이 어떤 의도인지 분류하기 위한 기준입니다. 문장을 입력 받으면 봇은 지금까지 학습된 문장을 바탕으로 가장 적절한 대화의도를 찾고, 설정에 따라 복잡한 업무를 처리하도록 만들거나, 단순한 문장으로 대답을 할도록 만들수도 있습니다.<br/>

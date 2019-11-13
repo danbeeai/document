@@ -1,8 +1,8 @@
 ---
-title: Listen 노드 
-tags: [chatflow, basic, listen, intent, event, 이벤트, 챗플로우, 리슨노드, 의도추론예문, 파라미터]
+title: Listen Node 
+tags: [chatflow, basic, listen, intent, event, 이벤트, 챗플로우, 리슨Node, 의도추론예문, 파라미터]
 keywords: Basic Conversation
-summary: Listen 노드에 대한 이해와 설정하는 방법을 설명합니다.
+summary: Listen Node에 대한 이해와 설정하는 방법을 설명합니다.
 sidebar: danbee_doc_sidebar
 permalink: chatflow_listen.html
 folder: danbeeDoc
@@ -11,34 +11,30 @@ previous: {
     url: chatflow.html
 }
 next: {
-    title: Speak 노드,
+    title: Speak Node,
     url: chatflow_speak.html
 }
 ---
 
-## Listen 노드
+## Listen Node
 
-Listen 노드는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫 번째 노드입니다.
+Listen Node는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫 번째 Node입니다.
+Listen Node는 대화의도나 사용자 이벤트에 연결되어 작동하게됩니다.
 
-Listen 노드가 없으면 대화흐름은 어떤 의도를 기반으로 어떤 질문들을 해야 할지 파악할 수 없는 필수 노드로
-매핑된 인텐트의 예문 패턴이 일치할 때 해당 Listen 노드가 대화 흐름을 시작하게 됩니다.
-
-
-
-Listen 노드는 2개의 상세 화면으로 구성됩니다.
+Listen Node는 2개의 상세 화면으로 구성됩니다.
 - [기본정보](chatflow_listen.html#기본정보)
 - [인텐트 연결](chatflow_listen.html#인텐트-연결)
 - [Event 연결](chatflow_listen.html#event-연결)
 
-{% include image.html file="chatflow/Chatflow_listen_canvas.png"  caption="Listen노드" %}
+{% include image.html file="chatflow/Chatflow_listen_canvas.png"  caption="ListenNode" %}
 
 
 
 ### 기본정보
 
-Listen 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입력합니다.
+Listen Node에 표시될 기본적인 Node명과 Node에 대한 내용을 입력합니다.
 
-{% include image.html file="chatflow/Chatflow_listen_basic.png"  caption="Listen노드 기본정보" %}
+{% include image.html file="chatflow/Chatflow_listen_basic.png"  caption="ListenNode 기본정보" %}
 
 
 ### 인텐트 연결
@@ -48,15 +44,15 @@ Listen Node 연결 방법 라디오 버튼 중 Intent를 선택합니다.
 - [의도추론예문](chatflow_listen.html#의도추론예문)
 - [Parameter](chatflow_listen.html#parameter)
 
-의도관리에서 등록된 인텐트들을 매핑함으로써 인텐트에 등록된 예문 페턴이 일치될때 해당 Listen 노드가 구동되어 Chatflow의 흐름을 타게 됩니다. 
-Listen 노드와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 때문에 인텐트 연결시 이미 매핑된 인텐트와 선택가능한 인텐트가 구분되어 보여지게 됩니다.
+의도관리에서 등록된 인텐트들을 매핑함으로써 인텐트에 등록된 예문 페턴이 일치될때 해당 Listen Node가 구동되어 Chatflow의 흐름을 타게 됩니다. 
+Listen Node와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 때문에 인텐트 연결시 이미 매핑된 인텐트와 선택가능한 인텐트가 구분되어 보여지게 됩니다.
 
 {% include image.html file="chatflow/Chatflow_listen_select.png"  caption="인텐트 선택" %}
 
 #### 의도추론예문
 
 선택된 인텐트에 대해서는 등록되었던 의도추론 예문 패턴이 화면에 나열됩니다. 
-아래 그림은 야식주문 Listen 노드가 구동되기 위한 인텐트가 매핑된 화면 입니다.
+아래 그림은 야식주문 Listen Node가 구동되기 위한 인텐트가 매핑된 화면 입니다.
 
 {% include image.html file="chatflow/Chatflow_listen_intent.png"  caption="인텐트 탭" %}
 
@@ -64,8 +60,8 @@ Listen 노드와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 �
 
 선택된 인텐트에 등록되었던 Parameter가 화면에 나열됩니다. 
 Parameter(단어항목)은 의도관리에서 등록된 '추출된 Parameter' 데이터를 의미합니다. 
-사용자가 입력된 문장에서 NLU가 의미 있는 Parameter 정보를 추출하게 되고 그 정보를 매핑된 Listen 노드가 전달받는 구조입니다.
-Listen 노드에서 Parameter를 추가적으로 등록하고 싶다면 [+] 버튼을 클릭하여 Parameter 명과 유형을 지정해 주면 됩니다. 
+사용자가 입력된 문장에서 NLU가 의미 있는 Parameter 정보를 추출하게 되고 그 정보를 매핑된 Listen Node가 전달받는 구조입니다.
+Listen Node에서 Parameter를 추가적으로 등록하고 싶다면 [+] 버튼을 클릭하여 Parameter 명과 유형을 지정해 주면 됩니다. 
 
 {% include image.html file="chatflow/Chatflow_listen_parameter.png"  caption="파라미터 탭" %}
 
