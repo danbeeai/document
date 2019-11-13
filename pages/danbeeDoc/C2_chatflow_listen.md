@@ -16,8 +16,6 @@ next: {
 }
 ---
 
-## Listen Node
-
 Listen Node는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫 번째 Node입니다.
 Listen Node는 대화의도나 사용자 이벤트에 연결되어 작동하게됩니다.
 
@@ -28,7 +26,7 @@ Listen Node는 2개의 상세 화면으로 구성됩니다.
 
 {% include image.html file="chatflow/Chatflow_listen_canvas.png"  caption="ListenNode" %}
 
-
+<!-- 
 
 ### 기본정보
 
@@ -63,22 +61,17 @@ Listen Node와 인텐트는 1:1 매핑 관계를 갖게 됩니다. 그렇기 때
 사용자가 입력된 문장에서 NLU가 의미 있는 파라미터 정보를 추출하게 되고 그 정보를 매핑된 Listen 노드가 전달받는 구조입니다.
 Listen 노드에서 파라미터를 추가적으로 등록하고 싶다면 [+] 버튼을 클릭하여 파라미터 명과 유형을 지정해 주면 됩니다. 
 
-{% include image.html file="chatflow/Chatflow_listen_parameter.png"  caption="파라미터 탭" %}
+{% include image.html file="chatflow/Chatflow_listen_parameter.png"  caption="파라미터 탭" %} -->
 
-### Event 연결
+### Event 관리
 
-Listen 노드 연결 방법 라디오 버튼 중 Event를 선택합니다.
-Event 연결은 2개의 탭으로 구성되어 있습니다.
-
-- [Event](chatflow_listen.html#event)
-- [파라미터](chatflow_listen.html#event-parameter)
+리슨노드 상세에서 이벤트 플로우에 대한 설정을 진행할 수 있습니다.
+이벤트 플로우로 전환하기 토글 버튼을 켜면 이벤트 플로우로 전환됩니다.
 
 #### Event
 
 만들고자 하는 Event 명칭을 작성합니다. 확인 버튼을 누른 뒤 chatflow 저장 버튼을 눌러 chatflow를 저장합니다.
 저장 후 Listen 노드 를 클릭 하면 Event Url 정보를 확인 할 수 있고, 해당 Url로 chatflow를 실행 할 수 있습니다.
-
-{% include image.html file="chatflow/Chatflow_listen_event.PNG"  caption="이벤트 탭" %}
 
 Event호출 방법은 Post방식으로 호출 합니다. 필수 값은 chatbot id, parameters 배열 객체를 기본값 으로 설정 하셔야합니다.
 응답 결과는 Json형태로 Return 됩니다.
@@ -87,8 +80,6 @@ Event호출 방법은 Post방식으로 호출 합니다. 필수 값은 chatbot i
 
 #### Event 파라미터
 
-Event 내부에서 사용하는 파라미터를 설정 할 수 있습니다. Event 에서 파라미터를 등록하고 싶다면 [+] 버튼을
+Event 내부에서 사용하는 파라미터를 설정 할 수 있습니다. Event 에서 파라미터를 등록하고 싶다면 대화흐름 상세 오른쪽 하단 [+] 버튼을
 클릭하여 파라미터 명을 설정 합니다. Default Value 는 해당 파라미터의 기본 값으로 입력 값이 없을때 Default Value
 를 파라미터 값 으로 다음 Node로 넘기게 됩니다.
-
-{% include image.html file="chatflow/Chatflow_listen_event_parameter.PNG"  caption="이벤트 파라미터 탭" %}

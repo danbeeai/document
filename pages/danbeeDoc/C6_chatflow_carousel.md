@@ -16,8 +16,6 @@ next: {
 }
 ---
 
-## Carousel 노드
-
 Carousel 노드는 사용자에게 필요한 정보를 묻는 차원에서 Slot 노드와 유사합니다. 단, Slot 노드는 되묻는 메시지에 버튼 또는 메시지로 답변 했다면 Carousel 노드는 카드 형태로 제공합니다. 
 Slot 노드는 하나의 노드에 여러 개의 질문지를 제시할 수 있지만 Carousel은 하나의 질문에 여러 개의 선택지를 카드형태로 제공하는 노드라고 이해하시면 됩니다. 
 
@@ -28,56 +26,32 @@ Carousel 노드는 2개의 상세 화면으로 구성됩니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_canvas.png"  caption="Carousel 노드" %}
 
-### 기본 정보
+## 메시지 카드 설정
 
-Carousel 노드에 표시될 기본적인 노드명과 노드에 대한 내용을 입력합니다.
-
-{% include image.html file="chatflow/Chatflow_carousel_basic.png"  caption="기본정보" %}
-
-### 메시지 카드 설정
-
-#### Slot같이 동작하는 Carousel만들기
+### Slot같이 동작하는 Carousel만들기
 Carousel 노드는 Slot 노드와 마찬가지로 대화자에게 선택을 받기 위한 노드입니다. 그렇기 때문에 Slot 노드에서 처럼 질문에 대한 메시지와 질문 대상을 파라미터로 입력 받을 수 있습니다. 단, Slot 노드와 동일하게 질문하고자하는 항목 변수의 값이 이미 있는 경우에는 해당 질문을 하지 않습니다. <br/>변수 값이 있는 경우라도 재확인 차원에서 질문을 해야하는 경우 **'무조건 물어보기'** 설정을 체크하면 됩니다.
 Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노드로 아래 그림처럼 "좋아하는 음식을 선택하시요" 라는 질문으로 짜장면과 짬뽕 카드를 제시할 수 있습니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_card.png"  caption="메시지 카드 설정" %}
 
-### 이미지 설정
+### Carousel 버튼 제약사항
 
-카드에 들어갈 이미지를 설정할 수 있습니다. 이미지를 불러올 수 있는 인터넷상의 URL을 활용하여 이미지를 올릴 수 있습니다.
-가급적 확장자(jpg, png, gif)가 있는 URL을 적용해야 정상적으로 출력됩니다.
+**카드**는 **최대 10개**까지 추가가 가능하며 각 **카드 당 버튼**은 **최대 5개**까지 추가할 수 있습니다. 카드 당 버튼 추가시 선택할 수 있는 옵션은 다음과 같습니다.
 
-{% include tip.html content="[imgur.com](https://imgur.com/){:target='_blank'}나 [giphy.com](https://giphy.com/){:target='_blank'}과 같은 간단 이미지 공유사이트를 활용하면 편리합니다. " %}
+### 퀵리플라이 설정
 
+카드 형태 메세지와 함께 보낼 Quick Reply 버튼은 리스트를 설정할 수 있습니다. 퀵리플라이 버튼은 입력창 상단에 위치하는 버튼 형태로 선택지와 대화흐름 호출 두가지 옵션을 선택할 수 있습니다.
 
-### 버튼(옵션) 설정
+{% include image.html file="chatflow/Chatflow_carousel_card02.png" caption="Quick Reply List 설정" %}
 
-**카드**는 **최대 10개**까지 추가가 가능하며 각 **카드 당 버튼**은 **최대 3개**까지 추가할 수 있습니다. 카드 당 버튼 추가시 선택할 수 있는 옵션은 다음과 같습니다.
-
-| 버튼 | 설명 | 
-|--------|-------|
-| 선택지 | 버튼 형태 선택지를 제공합니다. |
-| Web Link | 팝업으로 호출할 Link 정보를 제공합니다. |
-| 내부 App실행 | 스마트폰에서 내부 App을 실행합니다.  |
-| 외부 App실행 | 스마트폰에서 외부 App을 실행합니다.  |
-| 전화걸기 | 스마트폰에서 전화걸기로 연결합니다. |
-| <span class="link">[대화흐름호출](chatflow_speak.html#chatflow-호출-파라미터-연결)</span> | 다른 대화흐름을 호출합니다. 이때 현재 Chatflow의 파라미터를 넘겨줄 수 있습니다. |
-{: .table .table-striped}
-
-#### Quick Reply List 설정
-
-카드 형태 메세지와 함께 보낼 Quick Reply 버튼은 리스트를 설정할 수 있습니다. Quick Reply 버튼은 입력창 상단에 위치하는 버튼 형태로 선택지와 대화흐름 호출 두가지 옵션을 선택할 수 있습니다.
-
-{% include image.html file="chatflow/Chatflow_carousel_card02.png"  caption="Quick Reply List 설정" %}
-
-{% include image.html file="chatflow/Chatflow_carousel_card03.png"  caption="Quick Reply 사용 결과" %}
+{% include image.html file="chatflow/Chatflow_carousel_card03.png" caption="Quick Reply 사용 결과" %}
 
 **Quick Reply 버튼**은 **최대 20개**까지 설정 가능하나 실 사용 개수는 각 메신저에서 지원하는 개수에 따라 달라집니다.
 - Facebook : 최대 11개
 - 네이버톡톡 : 최대 10개
 
 {% include warning.html content="해당 기능은 ***Facebook***과 ***네이버 톡톡***에서만 제공됩니다. 현재 danbee.Ai 내의 시뮬레이션, 테스트 패널, 기타 다른 메신저에서는 확인이 불가합니다." %}
-
+<!-- 
 ### 샘플 시나리오 (좋아하는 음식은?)
 
 Carousel 노드에서는 Listen 노드에 선언된 단어항목(parameter)들에 한해 값을 카드 형태로 물어보기 위한 설정을 할 수 있습니다.
@@ -108,4 +82,4 @@ Speak 노드에 'question1' 변수 기준으로 값이 '짜장면', '짬뽕' 경
 
 '좋아하는 음식은?' 질문에 '짬뽕'을 선택하면 아래와 같이 결과가 나타납니다. 
 
-{% include image.html file="chatflow/Chatflow_carousel_sampleTest.png"  caption="좋아하는 음식은? 테스트 결과" %}
+{% include image.html file="chatflow/Chatflow_carousel_sampleTest.png"  caption="좋아하는 음식은? 테스트 결과" %} -->
