@@ -267,7 +267,7 @@ div#toc_side > ul > li {
     margin-bottom:10px;
 }
 div#toc_side > ul > li > ul > li {
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
 }
 div#toc_side > ul > li > a {
     display:inline-block;
