@@ -1,5 +1,5 @@
 ---
-title: 챗봇 추론 설정
+title: 예외상황 설정
 tags: [settings, basic]
 keywords: General Conversation
 summary: 챗봇의 답변을 여러 상황에 맞춰 다르게 말할 수 있도록 설정할 수 있습니다.
