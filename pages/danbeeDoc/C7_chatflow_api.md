@@ -18,10 +18,6 @@ next: {
 API 노드는 챗봇이 ‘날씨’, ‘검색’ 등과 같이 다양한 컨텐츠 서비스 정보를 활용하여 대답할 수 있도록 컨텐츠 서비스들과 연계하기 위해 관련 정보를 설정하는 노드입니다. 
 컨텐츠 서비스들은 공공기관에서 오픈 된 컨텐츠 뿐만 아니라 기업 내에 제공하는 기간계 서비스들과도 연계가 가능합니다. 
 
-Function 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](chatflow_api.html#기본정보)
-- [API 설정](chatflow_api.html#api-설정)
-
 {% include image.html file="chatflow/Chatflow_api_canvas.png"  caption="Api 노드" %}
 
 ## API 설정
@@ -91,17 +87,20 @@ API 서비스로 Request를 성공적으로 보냈다면 응답(Response) 결과
 다만 Function 노드를 이용해야 하며, 그 방법을 예시를 통해 알아보겠습니다.<br/>
 
 응답 결과를 표시하는 Tree는 크게 Root, Node, Leaf로 구성되어있습니다.
-- Root : 최상위를 의미 ($ 로 표시)
-- 노드 : 데이터 구조의 중간지점을 의미하며 노드 명을 key 로 사용 (첫번째 노드 명이 'node1' 일경우 $.node1 로 표시)
-- Leaf : 더이상 하위 Node가 없는 Node, 최하위 노드를 의미
-{% include image.html file="chatflow/00_api_node_response_tree_desc.png"  caption="응답 파라미터 Tree" %}
+>##### Root
+최상위를 의미 ($ 로 표시)
+>##### 노드
+데이터 구조의 중간지점을 의미하며 노드 명을 key 로 사용 (첫번째 노드 명이 'node1' 일경우 $.node1 로 표시)
+>##### Leaf
+더이상 하위 Node가 없는 Node, 최하위 노드를 의미
+>{% include image.html file="chatflow/00_api_node_response_tree_desc.png"  caption="응답 파라미터 Tree" %}
 
 아래 그림과같이 'test' 라는 '출력 파라미터' 변수에 데이터 묶음(JSON객체, 배열)을 담는다고 할 때,
 {% include image.html file="chatflow/00_api_node_out_mapping.png"  caption="응답 파라미터 Tree" %}
-JSON 객체의 경우<br/>
-&nbsp;&nbsp; 'soap:Body' 라는 객체를 담는다고 할 경우, 해당 노드를 마우스로 드래그 하거나 '$.soap:Envelope.soap:Body' 를 직접 입력하여 매핑합니다.<br/>
-배열의 경우 <br/>
-&nbsp;&nbsp; 'newAddressListAreaCd' 라는 배열을 담을경우, 해당 노드를 마우스로 드래그 하거나 '$.NewAddressListResponse.newAddressListAreaCd' 를 직접 입력하여 매핑합니다.
+>##### JSON 객체의 경우
+'soap:Body' 라는 객체를 담는다고 할 경우, 해당 노드를 마우스로 드래그 하거나 '$.soap:Envelope.soap:Body' 를 직접 입력하여 매핑합니다.<br/>
+###### 배열의 경우
+'newAddressListAreaCd' 라는 배열을 담을경우, 해당 노드를 마우스로 드래그 하거나 '$.NewAddressListResponse.newAddressListAreaCd' 를 직접 입력하여 매핑합니다.
 
 매핑이 완료한 뒤 API 노드 다음에 Function 노드를 연결합니다.
 {% include image.html file="chatflow/00_api_node_to_fn_node.png"  caption="응답 파라미터 Tree" %}

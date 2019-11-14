@@ -42,14 +42,9 @@ next: {
 
 ## 대화의도 예문
 
-**대화의도 예문**은 대화 의도에 해당하는 문장들의 예시입니다. 단비.Ai 챗봇은 사용자가 입력한 문장을 3가지 추론단계를 거쳐 가장 적합한 의도를 찾아내도록 되어있습니다. 대화의도 예문은 **패턴매칭**과 **형태소 분석** 단계에 필요한 데이터로**챗봇의 추론률에 가장 영향을 많이 주는 요소**입니다.
+**대화의도 예문**은 대화 의도에 해당하는 문장들의 예시입니다. 단비.Ai 챗봇은 사용자가 입력한 문장을 3가지 추론단계를 거쳐 가장 적합한 의도를 찾아내도록 되어있습니다. 대화의도 예문은 **패턴매칭**과 **형태소 분석** 단계에 필요한 데이터로 **챗봇의 추론률에 가장 영향을 많이 주는 요소**입니다.
 
 예를 들어 사용자가 '안녕'이라는 말을 했을 때 챗봇이 '인사'라는 이름의 대화의도로 알아듣길 원한다면 '인사' 대화의도를 생성하시고 '안녕'이라는 사용자 입력 예문을 추가하시면 됩니다. 더 다양한 상황에 유동적으로 대처하도록 만들고자 한다면, '안녕'외에도 다양하게 인사 상황에 쓰일만한 예문을 추가해주면 됩니다.
-
-{% include image.html file="intent/Intent_button_name_01.PNG"  caption="대화의도 버튼명 결과확인" %}
-
-### 대화의도 ID
-필요에 따라 임의로 대화 의도 ID를 지정할 수 있습니다. 단, 대화의도 ID는 한 챗봇 내에서 유일해야 하며 공백으로 둘 경우 자동적으로 시스템 ID가 적용됩니다.
 
 
 ### 예문에서 정보 추출
@@ -65,13 +60,9 @@ next: {
 {% include image.html file="intent/Intent_sentence_parameter_03.png" caption="예문은 하나지만 다른 단어를 동적으로 받는 모습을 확인 할 수 있습니다." %}
 
 ### 예문에 연결된 파라미터 관리
-
 {% include image.html file="intent/Intent_parameter_03.png"  caption="인텐트에서 관리되고 있는 파라미터 목록" %}
 
-
-#### Multi 대화의도 제외 설정
-
-해당 대화의도에 추가되어 있는 파라미터는 파라미터 목록에서 확인할 수 있습니다. 대화의도에서 지정된 파라미터는 해당 의도 안에서만 사용할 수 있습니다.  
+해당 대화의도에 추가되어 있는 파라미터는 파라미터 목록에서 확인할 수 있습니다. 대화의도에서 지정된 파라미터는 해당 의도 안에서만 사용할 수 있습니다.
 
 >##### 파라미터
 파라미터명입니다. 예문에 연결된 파라미터의 이름이 바뀌면 모든 예문에서 해당 파라미터명이 일괄적으로 수정됩니다.
@@ -81,11 +72,11 @@ next: {
 파라미터 값을 불러와 사용할때의 형태입니다.
 ##### Default
 파라미터에 따로 저장되는 값이 없을 때 기본값으로 지정되는 값입니다.
-##### 사용갯수
+>{% include image.html file="intent/Intent_parameter_06_default_result.png"  caption="Parameter Default 값 테스트" %}
+>##### 사용갯수
 해당 파라미터가 사용되고 있는 예문 갯수입니다. 하나라도 사용되고 있는 곳이 있으면 삭제할 수 없습니다.
 
 
-{% include image.html file="intent/Intent_parameter_06_default_result.png"  caption="Parameter Default 값 테스트" %}
 
 
 ### 답변 방식 설정
@@ -95,12 +86,10 @@ next: {
 >##### 간편답변
 대화 흐름에 연결하지 않으면 작성된 **간편 답변** 목록에서 무작위로 선택해 답변합니다. **+ 간편 답변 추가** 버튼으로 여러개의 메세지를 추가할 수 있습니다. 간편답변에도 파라미터를 사용하여 사용자 말에 적절한 대답을 하도록 만들 수 있습니다.
 
-
-{% include image.html file="intent/intent_simple_answer_01.png"  caption="파라미터를 이용한 간편답변" %}
+>{% include image.html file="intent/intent_simple_answer_01.png"  caption="파라미터를 이용한 간편답변" %}
 
 >간편 답변을 입력하지 않으면 아무런 답도 하지 않습니다. 테스트 패널에서는 실제 엔진이 동작했음을 보여주기 위하여 빈 말풍선을 내보내고 있지만 실제 작동시에는 아무런 말풍선도 출력되지 않습니다.
-
-{% include image.html file="intent/intent_simple_answer_02.png"  caption="값이 없는 간편 답변" %}
+>{% include image.html file="intent/intent_simple_answer_02.png"  caption="값이 없는 간편 답변" %}
 
 >##### 대화 흐름
 대화 흐름으로 연결하면 해당 대화의도와 연결된 대화흐름을 진행합니다. 미리 만들어둔 대화흐름 중 하나를 연결할 수도 있고, **+ 대화흐름 생성**버튼을 통해 바로 연결된 대화 흐름을 생성할 수도 있습니다. 대화흐름에 관한 자세한 내용은 [대화흐름 관리](chatflow.html) 문서를 참조하시기 바랍니다.
@@ -114,16 +103,12 @@ next: {
 
 - 입력 문장에 대하여 2개 이상의 유효한 대화의도를 찾았을 경우. 이를 **Multi Intent**라고 합니다.
 
-
-{% include image.html file="intent/Intent_parameter_03.png"  caption="대화의도에서 관리되고 있는 파라미터 목록" %}
-
-해당 대화의도에 추가되어 있는 전체 파라미터는 '추출되는 파라미터'에서 확인할 수 있습니다. 이때 사용개수는 해당 파라미터가 예문에서 지정되어 사용 중인 개수를 의미합니다. 예문에서 한 군데라도 사용중이라면 삭제가 불가능합니다.
-
+{% include image.html file="intent/Intent_button_name_01.PNG"  caption="대화의도 버튼명 결과확인" %}
 
 ### Multi Intent 제외 설정
 체크하는 경우 여러 개의 의도와 함께 multi intent로 파악되더라도 제외 설정된 대화의도는 버튼형식으로 노출되지 않습니다.
 
-### 채널 Fallback 설정
+### Default Fallback으로 답변
 체크하는 경우 해당 대화의도로 파악되면 강제적으로 Default Fallback으로 넘어갑니다. 즉, 의도를 성공적으로 추론했음에도 불구하고 말을 알아듣지 못한 것처럼 반응하게 됩니다. Default Fallback시 챗봇의 응답은 [특수 상황 설정]()에서 지정할 수 있습니다.
 
 {% include image.html file="intent/Intent_parameter_06_default_result.png"  caption="파라미터 Default 값 테스트" %}
