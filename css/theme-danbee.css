@@ -102,7 +102,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 
 p{
     line-height:27px;
-    margin: 35px 0;
+    margin: 15px 0;
     letter-spacing:0.1px;
 }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
@@ -399,7 +399,18 @@ div#toc_side ul ul ul {
 }
 .post-content figure img {
     max-width: 100%;
+    margin:0;
     max-height: 580px;
+    display:block;
+}
+.post-content figure a{
+    margin:0;
+    height:auto;
+    display:inline-block;
+    border:1px solid #eaeaea;
+}
+.post-content figure .caption{
+    display:none;
 }
 .post-content figure img.border{
     border:1px solid #ccc;
@@ -430,6 +441,7 @@ div#toc_side ul ul ul {
 }
 .post-content ol li p:first-child, .post-content ul li p:first-child{
     margin-top:0px;
+    margin-bottom:10px;
 }
 
 .post-content ul li em{
@@ -776,6 +788,14 @@ div#toc >ul::before {
     margin:35px;
     margin-right:220px;
     margin-left:20px;
+}
+
+.post-content blockquote.table{
+    width:auto;
+}
+
+.post-content blockquote.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
 }
 
 .post-content blockquote p{

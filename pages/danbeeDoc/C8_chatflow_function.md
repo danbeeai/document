@@ -19,11 +19,6 @@ next: {
 챗봇의 대화 흐름 진행 과정에서 여러 파라미터들이 사용되는데, 경우에 따라서는 파라미터 문자열을 가공한다던가 날짜, 숫자 계산이 필요한 경우가 있습니다. 
 Function 노드에서는 자바스크립트 문법을 사용하여 이러한 파라미터 데이터를 가공처리 할 수 있는 기능을 제공합니다. 
 
-
-Function 노드는 2개의 상세 화면으로 구성됩니다.
-- [기본정보](chatflow_function.html#기본정보)
-- [Script 연결](chatflow_function.html#Script 연결)
-
 {% include image.html file="chatflow/Chatflow_function_canvas.png"  caption="Function 노드" %}
 
 ### Script 정보
@@ -44,11 +39,10 @@ test = 10;
 
 {% include image.html file="chatflow/Chatflow_function_script01.png"  caption="Function노드 Script" %}
 
-#### 시스템 파라미터
-
+>##### 시스템 파라미터
 시스템에서 제공하는 파라미터도 사용가능합니다. 해당 파라미터는 스크립트내에서 읽기 전용으로만 사용가능합니다. ( 예 : var danbee_message; )
 
-| 시스템 파라미터 | 표기 | 설명 | 
+>| 시스템 파라미터 | 표기 | 설명 | 
 |--------|-------|-------|
 | 사용자 식별정보 | danbee_userId | 사용자ID가 표시됩니다. (ex: email ) |
 | 챗봇명 | danbee_chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
