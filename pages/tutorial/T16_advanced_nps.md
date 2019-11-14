@@ -44,18 +44,18 @@ NPS(순수고객추천지수, Net Promoter Score)란 만족도 지표 중 가장
 
 ### 챗봇이 받은 데이터를 구글스프레드 시트에 로그 남기는 법!
 
-#### 1. 구글스프레드시트 생성
+### 1. 구글스프레드시트 생성
 구글 스프레드 시트를 하나 만듭니다. 그리고 danbee.Ai에서 만든 API가 접근할 수 있게 권한을 부여합니다. 
 (구글스프레드시트 우측상단에 [공유설정]에서 “초대할 사용자”에 sheets-api01@danbee-ai.iam.gserviceaccount.com를 추가하고, 수정권한을 부여)
 참고로, 구글 스프레드시트는 MS오피스의 엑셀과 유사한 서비스입니다. [여기](https://docs.google.com/spreadsheets/){:target="_blank"}에서 만드실 수 있습니다.
 
-#### 2. 스프레드시트ID 복사해두기
+### 2. 스프레드시트ID 복사해두기
 spreadsheetId는 구글 스프레드시트가 열려있는 URL상에서 “https://docs.google.com/spreadsheets/d/” 이하에 있는 44자리 글자입니다. 44자리 글자 부분을 복사해서 API관리 > API설정 탭에 Body부분, spreadsheetId의 JSON 값을 바꿔주면, 해당 id의 스프레드시트에 데이터가 쌓이게 됩니다. (또는 Chatflow의 API노드에서 ID부분만 수정하셔도 됩니다.)
 
-#### 3. range 부분은 만지지 않기
+### 3. range 부분은 만지지 않기
 range는 스프레드시트 Head에 해당하는 부분입니다. (그냥 두시는 것이 좋겠어요.)
 
-#### 4. 아래 values부분에 배열로 정의된 항목들이 실제 쌓이게 됩니다. #{변수명}을 넣으면 사용자가 입력했거나 Function노드에서 처리한 변수에 담긴 값이 들어갑니다.
+### 4. 아래 values부분에 배열로 정의된 항목들이 실제 쌓이게 됩니다. #{변수명}을 넣으면 사용자가 입력했거나 Function노드에서 처리한 변수에 담긴 값이 들어갑니다.
 
         {
             "spreadsheetId":"1SFXKRAzCtLCmRNQnnSE1WxarUe5UzjLRRKlWNSJce2I",

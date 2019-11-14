@@ -56,18 +56,18 @@ IT시스템 운영자는 시스템에 숨어있는 버그, 개선사항에 대�
 
 ### 파브르 사용법
 
-#### 1. 파브르에게 버그 접수
+### 1. 파브르에게 버그 접수
 파브르에게 버그, 개선사항, 문의사항 중 무엇을 접수할지 클릭합니다.
 예제로 버그 접수를 해보겠습니다. 버튼을 클릭해도 되고, 버그가 있다고 입력을 해도 됩니다. (예. 버그가 있어)
 
-#### 2. 버그제목과 내용 입력
+### 2. 버그제목과 내용 입력
 어떤 버그인지 제목과 내용을 입력합니다.
 {% include image_border.html file="tutorial\sample_fabre\fabre_02_demo.PNG" caption="파브르에게 버그 접수" %}
 
 혹시 이미지가 있다면, 이미지도 하나 보내줍니다.
 {% include image_border.html file="tutorial\sample_fabre\fabre_04_bug.PNG" caption="파브르는 이미지도 받을 수 있습니다." %}
 
-#### 3. 접수 끝
+### 3. 접수 끝
 버그 제보 사항이 잘 접수되었다고 이야기를 해줍니다.
 제보자는 자신이 등록한 내용이 잘 접수되었다는 것을 이메일을 통해 쉽게 알 수 있습니다.
 {% include image_border.html file="tutorial\sample_fabre\fabre_05_mail.PNG" caption="파브르이름으로 접수자에게 메일을 보내줍니다." %}
@@ -99,8 +99,6 @@ danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 <span class="link">[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
 현재 danbee.Ai에서도 파브르가 일하고 있습니다.
-{% include image_border.html file="tutorial\sample_fabre\fabre_08_fabre_at_danbee.PNG" caption="파브르의 메인 Chatflow, 버그 접수" %}
-
 
 가지고 온 파브르를 아래와 같은 방법을 통해 출동시킬 수 있습니다.
 
@@ -126,14 +124,14 @@ danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 
 
 
-#### 1. 질문 변경
+### 1. 질문 변경
 접수 받고 싶은 유형이 다를 수도 있겠습니다. 다른 유형으로 바꾸어 보세요.
 
-#### 2. 간편 답변 추가 
+### 2. 간편 답변 추가 
 사용자 로그에서 문의사항 및 자동 처리가능한 접수사항을 보면서 하나씩 추가하는 방법도 있고
 다량으로 업로드하여 학습시킬 수도 있습니다. [대화의도 및 간단 답변 업로드](/intent.html#의도intent-업로드)
 
-#### 3. API 설정
+### 3. API 설정
 단비에서 미리 만들어놓은 API가 있습니다. 사용자 및 운영자에게 전달하는 용도로 사용하실 수 있습니다.
 좋은 아이디어가 있다면 직접 API를 만들어 적용해보는 것도 좋을 것 같습니다.
 1. [Gmail 메일 전송](/predefined_api_gmailsender.html) <br>
