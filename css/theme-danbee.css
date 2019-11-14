@@ -314,9 +314,9 @@ div#toc_side ul ul ul {
 }
 
 .post-content h2 {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.6;
-    font-weight: 700;
+    font-weight: 400;
     height: auto;
     margin-bottom:45px;
 }
@@ -337,7 +337,7 @@ div#toc_side ul ul ul {
 }
 .post-content h5{
     font-size:16px;
-    font-weight:bold;
+    font-weight:500;
     margin-top: 24px;
 }
 .post-content .indented{
@@ -785,9 +785,9 @@ div#toc >ul::before {
     font-size:1em;
     line-height:1.8em;
     word-break : normal;
-    margin:35px;
+    margin:25px;
     margin-right:220px;
-    margin-left:20px;
+    margin-left:32px;
 }
 
 .post-content blockquote.table{
@@ -799,7 +799,7 @@ div#toc >ul::before {
 }
 
 .post-content blockquote p{
-    margin:15px 0 35px;
+    margin:5px 0 15px;
 }
 
 .modal-body{

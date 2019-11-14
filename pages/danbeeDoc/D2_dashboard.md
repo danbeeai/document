@@ -16,12 +16,12 @@ next: {
 }
 ---
 
-## 대시보드
-
 danbee.Ai에서는 실 챗봇 사용 이력을 대시보드에서 시각화된 자료로 확인할 수 있습니다. 
-- [Transaction](dashboard.html#Transaction)
-- [Learning](dashboard.html#Learning)
-- [Dialog](dashboard.html#Dialog)
+- [처리량 통계](dashboard.html#Transaction)
+- [학습 통계](dashboard.html#Learning)
+- [대화 통계](dashboard.html#Dialog)
+- [행동 분석](dashboard.html#Dialog)
+- [리포트 다운로드](dashboard.html#Dialog)
 
 
 
