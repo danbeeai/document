@@ -143,55 +143,6 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: 채널 연결
-        output: web, pdf
-
-        subfolderitems:
-        - title: 연결 가능한 대화 채널
-          url: /channel_connection_settings.html
-          output: web, pdf
-
-        - title: Frogue - 단비 제공 채널
-          url: /channel_frogu.html
-          output: web, pdf
-
-        - title: Kioscott
-          url: /channel_kioscott.html
-          output: web, pdf
-
-        - title: API for Your App
-          url: /channel_native_app.html
-          output: web, pdf
-
-        - title: Facebook
-          url: /channel_facebook.html
-          output: web, pdf
-
-        - title: LINE
-          url: /channel_line.html
-          output: web, pdf
-
-        - title: Telegram
-          url: /channel_telegram.html
-          output: web, pdf
-
-        - title: 카카오톡(카카오i오픈빌더)
-          url: /channel_kakaoibuilder.html
-          output: web, pdf
-
-        - title: KakaoTalk(구버전)
-          url: /channel_kakaotalk.html
-          output: web, pdf
-
-        - title: 네이버톡톡
-          url: /channel_navertalk.html
-          output: web, pdf
-
-        - title: Slack
-          url: /channel_slack.html
-          output: web, pdf
-
-      subfolders:
       - title: 고급 기능
         output: web, pdf
 
@@ -208,6 +159,55 @@ entries:
       url: /demo_n_test_panel.html
       output: web, pdf
           
+    
+  - title: 채널 연결
+    output: web, pdf
+
+    folderitems:
+    - title: 연결 가능한 대화 채널
+      url: /channel_connection_settings.html
+      output: web, pdf
+
+    - title: Frogue - 단비 제공 채널
+      url: /channel_frogu.html
+      output: web, pdf
+
+    - title: Kioscott
+      url: /channel_kioscott.html
+      output: web, pdf
+
+    - title: API for Your App
+      url: /channel_native_app.html
+      output: web, pdf
+
+    - title: Facebook
+      url: /channel_facebook.html
+      output: web, pdf
+
+    - title: LINE
+      url: /channel_line.html
+      output: web, pdf
+
+    - title: Telegram
+      url: /channel_telegram.html
+      output: web, pdf
+
+    - title: 카카오톡(카카오i오픈빌더)
+      url: /channel_kakaoibuilder.html
+      output: web, pdf
+
+    - title: KakaoTalk(구버전)
+      url: /channel_kakaotalk.html
+      output: web, pdf
+
+    - title: 네이버톡톡
+      url: /channel_navertalk.html
+      output: web, pdf
+
+    - title: Slack
+      url: /channel_slack.html
+      output: web, pdf
+
   - title: 챗봇 운영 단계
     output: web, pdf
           
