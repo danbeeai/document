@@ -48,15 +48,22 @@ next: {
 5) 튜토리얼이 끝나면 생성된 챗봇을 확인할 수 있으며, **챗봇별로 관리되는 데이터**가 보입니다.
 {% include image.html file="chatbot_create\chatbot_created_06.png"  caption="챗봇이 생성된 모습" %}
 
+>##### 대화의도
+챗봇이 추론할 수 있는 의도의 개수를 나타냅니다.
+##### 앤티티
+챗봇이 추출할 수 있는 앤티티의 개수를 나타냅니다.
+##### 대화흐름
+답변 가능하도록 설정된 챗플로우의 개수를 나타냅니다.
+<!-- 
  - [의도](intent.html) : 챗봇이 추론할 수 있는 **의도(Intent)**의 개수를 나타냅니다.
  - [핵심단어](entity.html): 챗봇이 추출할 수 있는 **핵심단어(Entity)**의 개수를 나타냅니다.
  - [대화흐름](chatflow.html) : 답변 가능하도록 설정된 **챗플로우**의 개수를 나타냅니다.
  - [의도분류 이력조회](log.html) 사람들이 어떤 말을 걸었는지, Chatbot은 어떻게 이해했는지 확인해보세요. Default Fallback으로 처리된 대화 내용을 다른 Intent로 업데이트하면 Chatbot의 이해도가 더욱 향상됩니다.
- - [대화흐름 이력조회](log.html) 사람들이 어떤 말을 걸었는지, Chatbot은 어떻게 이해했는지 확인할 수 있습니다.
+ - [대화흐름 이력조회](log.html) 사람들이 어떤 말을 걸었는지, Chatbot은 어떻게 이해했는지 확인할 수 있습니다. -->
 
-Intents, Entities, Chatflows를 클릭하면, 챗봇을 설정할 수 있는 각각의 메뉴로 이동합니다.
+대화의도, 앤티티, 대화흐름을 클릭하면 각각의 메뉴로 이동합니다.
 
-**"설정"** 버튼을 클릭하여 챗봇의 기본정보를 변경하거나 삭제할 수 있습니다.<br/>
+**"설정"** 버튼을 클릭하여 챗봇의 기본정보를 변경하거나 삭제할 수 있습니다.
 **"복제"** 버튼을 클릭하여 해당 챗봇을 복사한 새로운 챗봇이 생성됩니다.
 
 ### 챗봇 기본정보 변경
@@ -87,7 +94,7 @@ Intent란 챗봇이 인식하는 사용자의 의도입니다. ***"대화의도 
 
 
 
-{% include image.html file="chatbot_create\06_sample_sentence.gif"  caption="인텐트별 예문 등록" %}
+{% include image.html file="chatbot_create\intent_create.PNG"  caption="인텐트별 예문 등록" %}
 
 예문을 등록하고 나서는 우측 상단의 "저장" 버튼을 클릭하여 저장합니다.
 저장하고 나면, 바로 오른쪽 테스트 패널에서 테스트가 가능합니다.
@@ -106,12 +113,17 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 
 ### 의도에 맞는 대화흐름을 만들어 보자!
 반갑게 인사하는 상대에게는 당연히 반갑게 인사로 대응을 해야 예의바른 챗봇이겠죠?
-좌측 내비게이션에서 아래 메뉴를 클릭합니다.
-{% include callout.html content="화면 위치 : [대화흐름 ] > [대화흐름 목록]" type="default" %}
+생성한 대화의도에서 스크롤을 내려 **답변 방식에서 대화흐름**으로 연결을 선택합니다.
 
-메뉴를 클릭하면, 아래와 같은 화면이 나타납니다.
+대화흐름 생성을 버튼을 누르면 자동으로 대화의도에 대응하는 대화흐름을 생성하고, 해당 화면으로 이동합니다.
 
-{% include image.html file="chatbot_create\08_chatflow_create.png"  caption="챗플로우 생성" %}
+{% include image.html file="chatbot_create\10_listen_speak.gif" %}
+
+
+
+
+<!-- {% include callout.html content="화면 위치 : 챗봇 생성/변경 > 대화흐름" type="default" %}
+
 화면 중앙, 또는 우측상단에 있는 "대화흐름 생성" 버튼을 클릭합니다.
 
 {% include image.html file="chatbot_create\09_chatflow_name.PNG"  caption="챗플로우 생성" %}
@@ -120,25 +132,21 @@ danbee.Ai의 NLU엔진에서 유사한 표현으로 인식한 경우 입니다.
 
 생성된 "만남 인사"라는 챗플로우를 클릭하면, 캔버스 화면이 나타납니다.
 만남인사로 인식되면, 답인사를 하는 간단한 흐름을 만들어 보겠습니다.
-아래와 같이 "Listen노드"와 "Speak노드"를 클릭하고 양쪽을 선으로 연결합니다.
+아래와 같이 "Listen노드"와 "Speak노드"를 클릭하고 양쪽을 선으로 연결합니다. 
 
-{% include image.html file="chatbot_create\10_listen_speak.gif"  caption="노드 생성 및 연결" %}
+{% include image.html file="chatbot_create\10_listen_speak.gif"  caption="노드 생성 및 연결" %}-->
 
-노드는 대화상에서의 단계를 의미합니다. Listen노드는 대화상대의 의도를 인식하는 단계이고, Speak노드는 챗봇이 말하는 단계입니다.
+
+Listen노드는 대화상대의 의도를 인식하는 단계이고, Speak노드는 챗봇이 말하는 단계입니다.
 두 가지 노드가 가장 자주 사용되는 노드이며, 다른 노드들에 대한 설명은 <span class="link">[여기](/chatflow.html)</span> 에서 더 자세히 설명해 놓았습니다.
-Listen노드를 더블클릭하여 대화흐름의 출발점이 되는 Intent를 정해줍니다.
-
-{% include image.html file="chatbot_create\11_listen_setup.gif"  caption="Listen노드 설정" %}
 
 인텐트가 설정되면, 추론을 위해 학습한 예문이 표시됩니다.
 
 이번에는 답변에 해당하는 Speak노드를 더블클릭하여 답변을 입력해보겠습니다.
-{% include image.html file="chatbot_create\12_speak_setup.gif"  caption="Speak노드 설정" %}
-
-Listen노드와 Speak노드가 만들어졌다면, 우측 상단의 저장버튼을 클릭하면 대화모델 하나가 완성된 것입니다.
-
+Listen노드와 Speak노드가 연결되었다면, 좌측 하단의 저장버튼을 클릭하면 대화모델 하나가 완성된 것입니다.
 화면 우측의 대화흐름 테스트 패널에서 테스트를 해볼 수 있습니다.
 
+{% include image.html file="chatbot_create\11_listen_setup.gif"  caption="Speak노드 설정" %}
 {% include image.html file="chatbot_create\13_chatflow_test.gif"  caption="챗플로우 테스트" %}
 
 
