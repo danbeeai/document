@@ -40,7 +40,7 @@ next: {
 
 ### 사용자 정의 엔티티 등록하기
 
-{% include image.html file="entity/entity_create.png"  caption="사용자정의 엔티티 등록" %}
+{% include image.html file="entity/entity_create.PNG"  caption="사용자정의 엔티티 등록" %}
 
 엔티티 등록은 **챗봇 생성/관리 > 엔티티 > 엔티티 생성** 버튼을 통해 할 수 있습니다. 추출 항목과 레퍼런스를 등록하게 됩니다. **추출 항목**이란 사용자 입력 문장에서 추출하고자하는 정보의 대표어를 의미합니다. **레퍼런스**로 등록된 단어는 해당되는 추출 항목으로 인식되게 됩니다. 챗봇이 실제로 대화를 진행하면서 파라메터에 담게 되는 값은 **추출 항목**입니다.<br/>
 
@@ -119,7 +119,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 
 >fn_date함수의 첫번째 파라미터의 포멧에서 지원하는 항목은 아래와 같습니다.
 
-| 포멧   |   내용 |
+>| 포멧   |   내용 |
 |--------|-------|
 | yyyy | 네자리 년도  |
 | yy   | 두자리 년도  |
@@ -136,7 +136,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 >fn_date함수의 두번째 파라미터의 포멧에서 지원하는 일자계산유형은 아래와 같습니다.
 유형에 따라 세번째 파라미터인 계산값의 기준이 됩니다. 유형을 day로 하고, 계산값을 -1로 하면 '어제'가 되지만 유형을 month로 설정하고 계산값을 -1을 입력하면 '지난달'이 나오게 되고 year로 설정하면 작년에 해당하는 숫자가 나오게 됩니다.
 
-| 유형   |   내용 |
+>| 유형   |   내용 |
 |--------|-------|
 | day    | 일자계산 |
 | month  | 월계산 |
@@ -144,51 +144,41 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 {: .table .table-striped}
 
 >fn_date함수의 세번째 파라미터인 계산값은 #{파라미터명} 또는 0, 1, -1과 같은 상대적인 숫자값을 넣어주시면 됩니다.
+##### 확인 엔티티
 
-
-
-### 확인 엔티티
-
-| 엔티티명 | 레퍼런스 | 값 |
+>| 엔티티명 | 레퍼런스 | 값 |
 |--------|-------|-------|
 | sys.confirm | 예, 아니오, 대답회피 | Y, N, C |
 {: .table .table-striped}
 
-**확인 엔티티**는 긍정,부정,중립을 구분합니다.
 
-{% include image.html file="entity/Entitiy_system_confirm.png"  caption="sys.confirm 결과값 확인" %}
+>**확인 엔티티**는 긍정,부정,중립을 구분합니다.
+>{% include image.html file="entity/Entitiy_system_confirm.png"  caption="sys.confirm 결과값 확인" %}
+>위 예시와 같이 좋고 싫음 혹은 예, 아니요를 요구하는 질문에 대하여 돌아오는 대답에 따라 다른 반응을 보일 수 있도록 지정하는데 유용하게 활용할 수 있습니다.
+##### 숫자 엔티티
 
-위 예시와 같이 좋고 싫음 혹은 예, 아니요를 요구하는 질문에 대하여 돌아오는 대답에 따라 다른 반응을 보일 수 있도록 지정하는데 유용하게 활용할 수 있습니다.
-
-### 숫자 엔티티
-
-| 엔티티명 | 레퍼런스 | 값 |
+>| 엔티티명 | 레퍼런스 | 값 |
 |--------|-------|-------|
 | sys.number | 일(1),이(2), ..., 백(100), 천(1000) 등 | 0,1,2,3,4.. |
 {: .table .table-striped}
 
-**숫자 엔티티**는 숫자 표현을 구분합니다.
+>**숫자 엔티티**는 숫자 표현을 구분합니다.
+>{% include image.html file="entity/Entitiy_system_number01.png"  caption="파라미터 추가 - sys.number Entity" %}
+>{% include image.html file="entity/Entitiy_system_number02.png"  caption="sys.number 결과값 확인" %}
+>대화 의도에 숫자 엔티티 타입의 파라메터를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. danbee.Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
+##### 일반 엔티티
 
-{% include image.html file="entity/Entitiy_system_number01.png"  caption="파라미터 추가 - sys.number Entity" %}
-
-{% include image.html file="entity/Entitiy_system_number02.png"  caption="sys.number 결과값 확인" %}
-
-대화 의도에 숫자 엔티티 타입의 파라메터를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. danbee.Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
-
-### 일반 엔티티
-
-| 엔티티명 | 레퍼런스 | 값 |
+>| 엔티티명 | 레퍼런스 | 값 |
 |--------|-------|-------|
 | sys.any | N/A | (사용자입력단어) |
+{: .table .table-striped}
 
-**일반 엔티티**는 모든 단어 또는 어구를 담을수 있는 타입이며 그렇기 때문에 가장 다양하게 활용할 수 있는 시스템 엔티티 입니다. 주로 후보군을 특정하기 힘든 지명, 이름같은 고유명사나 어떤 단어가 들어올지 예상하기 힘든 영역에 활용하게 됩니다.
-
-{% include image.html file="entity/Entitiy_system_any_01.png"  caption="파라미터 추가 - sys.any Entity" %}
-
-{% include image.html file="entity/Entitiy_system_any_02.png"  caption="sys.any 결과값 확인" %}
-
-대화 의도에서 예문에 sys.any 타입의 파라미터를 추가하면 를 해당 위치에 들어가는 모든 단어 또는 어구가 그대로 파라메터에 담기는 것을 확인할 수 있습니다.<br/>
+>**일반 엔티티**는 모든 단어 또는 어구를 담을수 있는 타입이며 그렇기 때문에 가장 다양하게 활용할 수 있는 시스템 엔티티 입니다. 주로 후보군을 특정하기 힘든 지명, 이름같은 고유명사나 어떤 단어가 들어올지 예상하기 힘든 영역에 활용하게 됩니다.
+>{% include image.html file="entity/Entitiy_system_any_01.png"  caption="파라미터 추가 - sys.any Entity" %}
+>{% include image.html file="entity/Entitiy_system_any_02.png"  caption="sys.any 결과값 확인" %}
+>대화 의도에서 예문에 sys.any 타입의 파라미터를 추가하면 를 해당 위치에 들어가는 모든 단어 또는 어구가 그대로 파라메터에 담기는 것을 확인할 수 있습니다.<br/>
 다만, 세 번째 테스트에서는 **'라파엘'**이라는 글자만 얻고자 했지만 문장 패턴이 **'내 이름은 ~야'**로 지정되어 있기 때문에 **'라파엘이'** 라는 정보를 가져오게 됩니다. 이와 같이 sys.any는 모든 말이 담기기 때문에 예문에 특정 패턴으로 지정해서 사용 시에는 예외가 있지는 않은지 점검하면서 사용해야 합니다.
+
 ---------------------------------------
 ## 엔티티(Entity) 업로드
 
@@ -197,7 +187,7 @@ danbee.Ai는 편의 기능의 일종으로 사용자정의 엔티티 업로드�
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
 ### 업로드
-{% include callout.html content="화면 위치 : [자연어이해(NLU)] > [단어추출(Entity)] > [더보기] > [Entity 업로드]" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 생성/변경 > 대화의도 > 대화의도 생성 옆 더보기 > 대화의도 업로드" type="default" %}
 업로드 형식에 맞추어 작성한 CSV파일을 올려주시면 자동으로 Entity가 생성됩니다. 업로드 파일은 다음과 같은 제약사항이 존재합니다.
  - CSV파일만 가능합니다.
  - 파일당 최대 3MB까지 가능합니다.
@@ -207,8 +197,7 @@ danbee.Ai는 편의 기능의 일종으로 사용자정의 엔티티 업로드�
 
 >##### 업로드 형식
 입력하고자 하는 정보는 정의된 구분자에 의해 구분되며 반드시 START 태그와 END 태그를 한쌍으로 가집니다. 구분자의 START와 END 사이의 정보를 업로드 하게 되며 구분자에는 ENTITY, NAME, ENTRY 가 존재합니다.
-
-<table>
+><table>
     <colgroup>
         <col width="15%" />
         <col width="15%" />
@@ -238,7 +227,6 @@ danbee.Ai는 편의 기능의 일종으로 사용자정의 엔티티 업로드�
             <td markdown="span">Entry명과 Reference 정보임을 나타냅니다. 한 줄당 하나의 Entry로 인식하며 반드시 하나 이상의 Entry를 요구합니다. 또한 Entry와 Reference는 콤마(,)로 구분되며 Reference는 큰따옴표("")로 묶여야만 합니다. 여러개의 Reference는 큰따옴표 내에서 콤마로 구분됩니다.</td>
         </tr>
     </tbody>
-</table>
 
 >필수값에 해당하는 정보가 없거나 형식이 맞지 않으면 파일은 업로드에 실패하게 됩니다. 실제 업로드 파일은 다음과 같은 형식으로 쓰게 됩니다.
 

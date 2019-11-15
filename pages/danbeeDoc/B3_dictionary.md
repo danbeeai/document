@@ -16,7 +16,8 @@ next: {
 }
 ---
 
- {% include callout.html content="화면 위치 : 그룹 관리 > 고유 용어 사전" type="default" %}
+{% include callout.html content="화면 위치 : 그룹 관리 > 고유 용어 사전" type="default" %}
+{% include image.html file="synonym/1.PNG" %}
 **고유 용어 사전**이란, 사용자가 원하는 단어를 직접 사전에 등록하여 이용할 수 있는 서비스입니다. danbee.Ai에서 기본적으로 제공하는 시스템사전에 등록되어 있지 않은 단어를 인식하거나 복합 명사를 하나의 단어로 인식하기 위해 사용할 수 있습니다. **인명, 상품명, 신조어 등 일반적이지 않은 명사**를 등록하면 해당 단어의 인식률을 높일 수 있습니다. <br/>
 
 해당 메뉴에서는 다음과 같은 기능을 사용할 수 있습니다.<br/> 
@@ -33,9 +34,7 @@ next: {
 >##### 대표어
 유의어의 대표 단어. 모든 유의어는 해당 대표어로 인식.
 
-예를 들어 '단비플랫폼, 챗봇플랫폼 단비, danbee.Ai'를 모두 '단비닷에이아이'로 인식하고 싶을 때 단어 추가 버튼을 눌러 다음과 같이 사전을 등록할 수 있습니다. 
-
-{% include image.html file="synonym/synonym_01_add_word.png"  caption="단어 추가" %}
+예를 들어 '단비플랫폼, 챗봇플랫폼 단비, danbee.Ai'를 모두 '단비닷에이아이'로 인식하고 싶을 때 단어 추가 버튼을 눌러 사전을 등록할 수 있습니다. 
 
 단어는 하나당 최대 40자까지 등록 가능하며 하나의 대표어당 최대 100개의 유의어를 가질 수 있습니다. 중복된 대표어 또는 유의어는 등록할 수 없습니다.
 
@@ -43,7 +42,7 @@ next: {
 등록한 단어를 삭제하고 싶을 때는 해당하는 사전 행 오른쪽의 휴지통 아이콘을 눌러 삭제합니다.
 삭제버튼을 누른뒤에 해당 변경사항을 실제로 반영하기 위해서는 저장해야 합니다.
 
-{% include image.html file="synonym/synonym_03_delete_word.png"  caption="단어 삭제" %}
+{% include image.html file="synonym/synonym_03_delete_word.png"  caption="단어 삭제 버튼" %}
 
 단, 현재 사전에 반영되어 있는 단어는 다음 반영 전까지 실제 사전에서 삭제되지 않으므로 삭제 예정 상태가 됨을 확인할 수 있습니다. 
 
@@ -52,7 +51,7 @@ next: {
 '사전 반영'에 대해서는 아래의 [반영 요청](dictionary.html#반영-요청)에서 확인할 수 있습니다. 한 번 삭제를 확정하면 되돌릴 수 없으니 주의하시기 바랍니다. 
 
 ### 단어 조회
-{% include image.html file="synonym/synonym_04_search.png"  caption="단어 조회" %}
+{% include image.html file="synonym/synonym_04_search.png" %}
 등록한 단어에 대하여 단어 종류를 선택하여 검색할 수 있습니다.
 
 >##### 전체
@@ -71,7 +70,7 @@ next: {
 
 {% include note.html content="해당 사전은 사용하고 있는 모든 챗봇에 동일하게 반영됩니다." %}
 
-{% include image.html file="synonym/synonym_05_request.png"  caption="반영 요청 버튼" %}
+{% include image.html file="synonym/1.png"  caption="반영 요청 버튼" %}
 
 반영 요청 시에 반영이 최종 완료될 때까지 단어 추가/수정/삭제가 불가능해집니다. <br/>
 
@@ -113,7 +112,4 @@ next: {
 
 danbee.Ai라는 단어가 단비닷에이아이로 바껴서 인식됨을 확인할 수 있습니다.
 
-
-
-<br/>
 이와 같이 고유 용어 사전을 활용하면 챗봇이 알아듣지 못하던 말을 더욱 잘 알아들을 수 있도록 도와줄 수 있습니다.
