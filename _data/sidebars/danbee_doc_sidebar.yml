@@ -158,85 +158,7 @@ entries:
     - title: 테스트 패널
       url: /demo_n_test_panel.html
       output: web, pdf
-          
-    
-  - title: 채널 연결
-    output: web, pdf
-
-    folderitems:
-    - title: 연결 가능한 대화 채널
-      url: /channel_connection_settings.html
-      output: web, pdf
-
-    - title: Frogue - 단비 제공 채널
-      url: /channel_frogu.html
-      output: web, pdf
-
-    - title: Kioscott
-      url: /channel_kioscott.html
-      output: web, pdf
-
-    - title: API for Your App
-      url: /channel_native_app.html
-      output: web, pdf
-
-    - title: Facebook
-      url: /channel_facebook.html
-      output: web, pdf
-
-    - title: LINE
-      url: /channel_line.html
-      output: web, pdf
-
-    - title: Telegram
-      url: /channel_telegram.html
-      output: web, pdf
-
-    - title: 카카오톡(카카오i오픈빌더)
-      url: /channel_kakaoibuilder.html
-      output: web, pdf
-
-    - title: KakaoTalk(구버전)
-      url: /channel_kakaotalk.html
-      output: web, pdf
-
-    - title: 네이버톡톡
-      url: /channel_navertalk.html
-      output: web, pdf
-
-    - title: Slack
-      url: /channel_slack.html
-      output: web, pdf
-
-  - title: 챗봇 운영 단계
-    output: web, pdf
-          
-    folderitems:
-    - title: 대화 이력
-      url: /log.html
-      output: web, pdf
-
-    - title: 애널리틱스
-      url: /dashboard.html
-      output: web, pdf
-        
-
-  # - title: 외부 API 사용
-  #   output: web, pdf
-
-  #   folderitems:
-  #   - title: API 관리
-  #     url: /external_API_management.html
-  #     output: web, pdf
-
-  # - title: 사용자 의견 보내기
-  #   output: web, pdf
-
-  #   folderitems:
-  #   - title: 사용자 의견 보내기
-  #     url: /feedback.html
-  #     output: web, pdf
-
+ 
   - title: 단비 제공 API
     output: web, pdf
 
@@ -305,3 +227,85 @@ entries:
         - title: 구글 스프레드시트 행 찾기
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
+
+    
+  - title: 채널 연결
+    output: web, pdf
+
+    folderitems:
+    - title: 연결 가능한 대화 채널
+      url: /channel_connection_settings.html
+      output: web, pdf
+
+    - title: Frogue - 단비 제공 채널
+      url: /channel_frogu.html
+      output: web, pdf
+
+    - title: Kioscott
+      url: /channel_kioscott.html
+      output: web, pdf
+
+    - title: API for Your App
+      url: /channel_native_app.html
+      output: web, pdf
+
+    - title: Facebook
+      url: /channel_facebook.html
+      output: web, pdf
+
+    - title: LINE
+      url: /channel_line.html
+      output: web, pdf
+
+    - title: Telegram
+      url: /channel_telegram.html
+      output: web, pdf
+
+    - title: 카카오톡(카카오i오픈빌더)
+      url: /channel_kakaoibuilder.html
+      output: web, pdf
+
+    - title: 카카오톡(구버전)
+      url: /channel_kakaotalk.html
+      output: web, pdf
+
+    - title: 네이버톡톡
+      url: /channel_navertalk.html
+      output: web, pdf
+
+    - title: Slack
+      url: /channel_slack.html
+      output: web, pdf
+
+  
+
+  - title: 챗봇 운영 단계
+    output: web, pdf
+          
+    folderitems:
+    - title: 대화 이력
+      url: /log.html
+      output: web, pdf
+
+    - title: 애널리틱스
+      url: /dashboard.html
+      output: web, pdf
+        
+
+  # - title: 외부 API 사용
+  #   output: web, pdf
+
+  #   folderitems:
+  #   - title: API 관리
+  #     url: /external_API_management.html
+  #     output: web, pdf
+
+  # - title: 사용자 의견 보내기
+  #   output: web, pdf
+
+  #   folderitems:
+  #   - title: 사용자 의견 보내기
+  #     url: /feedback.html
+  #     output: web, pdf
+
+  
