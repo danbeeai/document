@@ -16,7 +16,7 @@ next: {
 }
 ---
  {% include callout.html content="위치 : [그룹 관리] > [챗봇 관리] > [API 관리]" type="default" %}
-{% include image.html file="external_API/1.png" %}
+{% include image.html file="external_API/1.PNG" %}
 [API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)시스템과 시스템이 서로 정보를 주고 받는 메시지 형식입니다. 챗봇이 사용자의 의도를 파악했다면, 실제 정보를 제공하거나 접수를 처리해주기 위해서는 다른 시스템과 정보를 주고받는 것이 필요합니다. [API관리]에서 API를 등록하여 테스트할 수 있는 환경을 제공하고, [API노드](/chatflow_api.html)에서 불러와 재사용 할 수 있습니다.즉, [API 관리]메뉴는 API를 등록하는 기능을 제공하며, [API노드](/chatflow_api.html)는 등록된 API를 활용하여 대화흐름에 적용하는 기능을 제공합니다. 지금 보고 계신 문서는 [API 관리]에 대한 설명입니다.
 
   
