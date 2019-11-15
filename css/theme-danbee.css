@@ -406,6 +406,7 @@ div#toc_side ul ul ul {
 .post-content figure a{
     margin:0;
     height:auto;
+    padding:1px;
     display:inline-block;
     border:1px solid #eaeaea;
 }
@@ -793,8 +794,10 @@ div#toc >ul::before {
 .post-content blockquote.table{
     width:auto;
 }
-
-.post-content blockquote.table-striped>tbody>tr:nth-of-type(odd) {
+.post-content blockquote.table table{
+    width:100%;
+}
+.post-content blockquote.table-striped table>tbody>tr:nth-of-type(odd) {
     background-color: #f9f9f9;
 }
 

@@ -27,7 +27,7 @@ next: {
 
 ## 의도추론 신뢰도별 답변 설정
 
-{% include image.html file="nlu_setting/0_0.png" %}
+{% include image.html file="nlu_setting/0_0.PNG" %}
 
 챗봇은 의도추론 신뢰도에따라 의도추론 성공, 재확인, 의도추론 실패(Default Fallback)를 판단하게 됩니다. 의도추론 신뢰도별 답변 설정에서는 이 3가지 판단의 신뢰도 범위를 결정하고 각 상황에서 어떻게 대응할지 설정합니다.
 
@@ -48,7 +48,7 @@ next: {
 
 
 ## NLU 추론 설정
-{% include image.html file="nlu_setting/1_0.png" %}
+{% include image.html file="nlu_setting/1_0.PNG" %}
 챗봇의 추론 방식에 대해 설정을 진행합니다. 추론 순서나, 추론 단계별로 성공, 실패 임계점을 자세하게 설정할 수 있습니다.
  
 ### 추론 순서
@@ -65,7 +65,7 @@ next: {
 각각 추론 단계의 성공 범위를 조정하여 세가지 추론 방법이 적절한 결과를 내도록 설정합니다.
 
 ## 대화 평가
-{% include image.html file="nlu_setting/2_0.png" %}
+{% include image.html file="nlu_setting/2_0.PNG" %}
 챗봇이 대화를 진행하는 동안 여러가지 방법을 통해 대화진행 상황을 평가합니다.
 
 ### 감성 분석
