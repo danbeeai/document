@@ -265,11 +265,11 @@ entries:
       url: /channel_navertalk.html
       output: web, pdf
 
-    - title: 텔레그램
+    - title: Telegram
       url: /channel_telegram.html
       output: web, pdf
 
-    - title: 슬랙
+    - title: Slack
       url: /channel_slack.html
       output: web, pdf
 
