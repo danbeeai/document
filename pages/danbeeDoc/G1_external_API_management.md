@@ -16,10 +16,8 @@ next: {
 }
 ---
  {% include callout.html content="위치 : [그룹 관리] > [챗봇 관리] > [API 관리]" type="default" %}
-{% include image.html file="external_API/1.png" %}
+{% include image.html file="external_API/1.PNG" %}
 [API란?](http://terms.naver.com/entry.nhn?docId=1179553&cid=40942&categoryId=32837)시스템과 시스템이 서로 정보를 주고 받는 메시지 형식입니다. 챗봇이 사용자의 의도를 파악했다면, 실제 정보를 제공하거나 접수를 처리해주기 위해서는 다른 시스템과 정보를 주고받는 것이 필요합니다. [API관리]에서 API를 등록하여 테스트할 수 있는 환경을 제공하고, [API노드](/chatflow_api.html)에서 불러와 재사용 할 수 있습니다.즉, [API 관리]메뉴는 API를 등록하는 기능을 제공하며, [API노드](/chatflow_api.html)는 등록된 API를 활용하여 대화흐름에 적용하는 기능을 제공합니다. 지금 보고 계신 문서는 [API 관리]에 대한 설명입니다.
-
-  
 
 해당 메뉴에서는 다음과 같은 내용을 이용할 수 있습니다.<br/>
  - [API 등록](external_API_management.html#api-등록)  
@@ -64,7 +62,7 @@ danbee.Ai에서는 허가된 API만을 연계해드리고 있습니다.
 API의 세부 정보에 입력한 정보를 통해 API가 실제로 동작하는지 API를 테스트할 수 있습니다. 정상동작하는 API는 나중에 API노드에서 결과값을 활용하기 위해 Tree를 호출해 올때도 활용됩니다.
 
 >##### Header
-입력한 API URL로 보내는 요청의 [Header](external_API_management.html#header-와-content-type) 정보를 설정하는 란입니다. [Content-Type](external_API_management.html#header-와-content-type) 은 고정값이며 현재 JSON 형태만 지원합니다. 추가 Header 정보를 'Header 추가' 버튼으로 추가할 수 있습니다.
+입력한 API URL로 보내는 요청의 Header정보를 설정하는 란입니다. Content-Type은 고정값이며 현재 JSON 형태만 지원합니다. 추가 Header 정보를 'Header 추가' 버튼으로 추가할 수 있습니다.
 ##### Query 파라미터
 API URL에서 '?'뒤에 쿼리조건을 입력하는 방식입니다. name=value 형식으로 사용하는 Query 파라미터 정보를 설정할 수 있습니다. 'http://apiurl/api'이라는 API URL이 있을 때 'name'이란 변수명으로 'value'란 값을 보낼 때
 Query 파라미터는 아래와 같이 '?'뒤에 추가되어 호출하게 됩니다. 
