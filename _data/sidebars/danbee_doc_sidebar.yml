@@ -84,9 +84,6 @@ entries:
       url: /welcome.html
       output: web, pdf
 
-    - title: 파라미터
-      url: /parameter.html
-      output: web, pdf
 
     - title: 대화 의도
       url: /intent.html
@@ -99,6 +96,10 @@ entries:
         subfolderitems:
         - title: 대화흐름 기본 설명
           url: /chatflow.html
+          output: web, pdf
+
+        - title: 파라미터
+          url: /parameter.html
           output: web, pdf
 
         - title: Listen 노드
@@ -144,7 +145,8 @@ entries:
       subfolders:
       - title: 채널 연결
         output: web, pdf
-        folderitems:
+
+        subfolderitems:
         - title: 연결 가능한 대화 채널
           url: /channel_connection_settings.html
           output: web, pdf
@@ -173,12 +175,12 @@ entries:
           url: /channel_telegram.html
           output: web, pdf
 
-        - title: KakaoTalk
-          url: /channel_kakaotalk.html
-          output: web, pdf
-
         - title: 카카오톡(카카오i오픈빌더)
           url: /channel_kakaoibuilder.html
+          output: web, pdf
+
+        - title: KakaoTalk(구버전)
+          url: /channel_kakaotalk.html
           output: web, pdf
 
         - title: 네이버톡톡
@@ -192,6 +194,7 @@ entries:
       subfolders:
       - title: 고급 기능
         output: web, pdf
+
         subfolderitems:
         - title: 예외 상황 설정
           url: /settings_personality.html
