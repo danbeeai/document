@@ -233,47 +233,43 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: 연결 가능한 대화 채널
+    - title: 단비와 연결 가능한 채널
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: Frogue - 단비 제공 채널
+    - title: 프로그
       url: /channel_frogu.html
-      output: web, pdf
-
-    - title: Kioscott
-      url: /channel_kioscott.html
       output: web, pdf
 
     - title: API for Your App
       url: /channel_native_app.html
       output: web, pdf
 
-    - title: Facebook
-      url: /channel_facebook.html
+    - title: 키오스캇
+      url: /channel_kioscott.html
       output: web, pdf
 
-    - title: LINE
-      url: /channel_line.html
-      output: web, pdf
-
-    - title: Telegram
-      url: /channel_telegram.html
-      output: web, pdf
-
-    - title: 카카오톡(카카오i오픈빌더)
+    - title: 카카오톡
       url: /channel_kakaoibuilder.html
       output: web, pdf
 
-    - title: 카카오톡(구버전)
-      url: /channel_kakaotalk.html
+    - title: 페이스북
+      url: /channel_facebook.html
       output: web, pdf
 
-    - title: 네이버톡톡
+    - title: 네이버 라인
+      url: /channel_line.html
+      output: web, pdf
+
+    - title: 네이버 톡톡
       url: /channel_navertalk.html
       output: web, pdf
 
-    - title: Slack
+    - title: 텔레그램
+      url: /channel_telegram.html
+      output: web, pdf
+
+    - title: 슬랙
       url: /channel_slack.html
       output: web, pdf
 
