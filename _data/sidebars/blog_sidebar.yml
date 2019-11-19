@@ -36,6 +36,9 @@ entries:
     - title: 대화흐름 설계패턴 3편, 차근차근 설명형
       url: /blog_016_UX09_chatflow_pattern_c1.html
       output: web
+    - title: 대화흐름 설계패턴 4편, 스무고개형
+      url: /blog_017_UX10_chatflow_pattern_c2.html
+      output: web
   - title: 챗봇BIZ
     output: web
     folderitems:
