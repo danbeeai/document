@@ -40,7 +40,7 @@ next: {
 어떤 챗봇이든 이렇게 쉽게 챗봇을 만들 수 있다면 좋겠네요. 바로 함께 일할 수 있는 훈련된 동료를 얻는 것이죠. 하지만, 더 여러가지를 할 수 있게 만들거나 더 복합적인 일을 맡기고 싶다면 챗봇에 대해 더 이해할 필요가 있습니다. 튜토리얼을 하나씩 따라해보시면, 챗봇과 단비AI의 다양한 기능을 쉽게 이해하실 수 있습니다.
 
 <div class="videowrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RCfC8fqcnU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-VOXXVMwYsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### 튜토리얼 챗봇 살펴보기
