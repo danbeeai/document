@@ -28,13 +28,13 @@ folder: FAQ
 > [의사결정나무봇, 디트! 만나러 가기](https://frogue.danbee.ai/?chatbot_id=4cd99ed6-4029-4489-9e47-1e3a2dc74ea5&user_id=fromfaq) <br/>
 
 ### 튜토리얼이 있습니다.
-> 그리고 Tutorial을 통해서 하나씩 따라하며 이해해 보시길 권유드립니다.   
-> <span class="link"></span>[Tutorial](/samplebot.html), 챗봇을 만드는 방법을 순서대로 배우면서 기본기를 익힐 수 있습니다.
+> 그리고 튜토리얼을 통해서 하나씩 따라하며 이해해 보시길 권유드립니다.   
+> <span class="link"></span>[튜토리얼](/samplebot.html), 챗봇을 만드는 방법을 순서대로 배우면서 기본기를 익힐 수 있습니다.
 
 
 ## Q. 가격정책이 궁금합니다.      
 > 
-> <span class="link"></span>[Pricing](https://danbee.ai/pricing.html)을 한번 확인해보시기 바랍니다.
+> <span class="link"></span>[가격정책](https://danbee.ai/pricing.html)을 한번 확인해보시기 바랍니다.
 
 
 ## Q. 바로 시작할 수 있는 템플릿이 있나요?   

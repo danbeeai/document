@@ -1,8 +1,8 @@
 ---
-title: Case Study - 민병철유폰, 유봇
+title: 민병철유폰, 유봇
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
 sidebar: casestudy_sidebar
 permalink: casestudy_009_ubot.html
 folder: blog

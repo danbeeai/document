@@ -1,8 +1,8 @@
 ---
-title: Case Study - NH농협캐피탈, 업무지원챗봇
+title: NH농협캐피탈, 업무지원챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
 sidebar: casestudy_sidebar
 permalink: casestudy_011_nhc.html
 folder: blog

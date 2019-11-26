@@ -3,9 +3,9 @@ title: 하루만에 FAQ챗봇 출격
 tags: [blog, chatbot-biz, Chatbot-UX]
 keywords: blog
 summary: 하루만에 FAQ챗봇 출격 
-sidebar: blog_sidebar
+sidebar: tutorial_sidebar
 permalink: blog_010_TECH02_faq.html
-folder: blog
+folder: tutorial
 
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Case Study - danbee.Ai 자체 서비스, 버그채집봇 파브르
+title: 버그채집봇 파브르
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
 sidebar: casestudy_sidebar
 permalink: casestudy_006_fabre.html
 folder: blog

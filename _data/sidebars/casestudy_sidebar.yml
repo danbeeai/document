@@ -3,12 +3,36 @@
 entries:
 - title: Sidebar
   folders:
-  - title: Case Study, 단비로 싹튼 챗봇
+  
+  - title: 단비로 싹튼 챗봇
     output: web
     folderitems:
-    - title: danbee.Ai로 싹튼 챗봇 Case Study
+    - title: 개요
       url: /casestudy_000_landing.html
       output: web
+
+  - title: DIY! 빠르게 구현
+    output: web
+    folderitems:
+    - title: 한국전력공사, 조달시스템 챗봇
+      url: /casestudy_015_srm.html
+      output: web
+    - title: 안양대학교, 대학학사지원챗봇 아리봇
+      url: /casestudy_008_aribot.html
+      output: web
+    - title: 민병철유폰, 유봇
+      url: /casestudy_009_ubot.html
+      output: web
+    - title: LG CNS, 마곡이
+      url: /casestudy_010_magoki.html
+      output: web
+    - title: 구리도시공사, 홈페이지 안내 챗봇
+      url: /casestudy_014_guri.html
+      output: web
+
+  - title: 엔터프라이즈와 파트너
+    output: web
+    folderitems:
     - title: NH농협은행, 로봇행원
       url: /casestudy_012_nh_robot.html
       output: web
@@ -30,21 +54,10 @@ entries:
     - title: 씨드시스템, 대학학사지원 챗봇
       url: /casestudy_007_xidsystem.html
       output: web
-    - title: 한국전력공사, 조달시스템 챗봇
-      url: /casestudy_015_srm.html
-      output: web
-    - title: 안양대학교, 대학학사지원챗봇 아리봇
-      url: /casestudy_008_aribot.html
-      output: web
-    - title: 민병철유폰, 유봇
-      url: /casestudy_009_ubot.html
-      output: web
-    - title: LG CNS, 마곡이
-      url: /casestudy_010_magoki.html
-      output: web
-    - title: 구리도시공사, 홈페이지 안내 챗봇
-      url: /casestudy_014_guri.html
-      output: web
+
+  - title: 단비 실험실
+    output: web
+    folderitems:
     - title: 단비챗봇, 버그채집봇 파브르
       url: /casestudy_006_fabre.html
       output: web
