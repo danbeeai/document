@@ -32,34 +32,10 @@ entries:
       url: /basic_create_chatbot.html
       output: web, pdf
 
-    - title: 업데이트 로그
-      url: /update_log.html
-      output: web, pdf
-
-  - title: 영상 튜토리얼
-    output: web, pdf
-    folderitems:
-
-    - title: 단비와 함께하는 챗봇 입문 교육
-      url: /study_video.html
-      output: web, pdf
-
-    - title: 챗봇 위자드로 10분만에 챗봇 만들기
-      url: /chatbot_wizard.html
-      output: web, pdf
-
-    - title: FAQ챗봇 하루만에 만들기
-      url: /blog_010_TECH02_faq.html
-      output: web, pdf
-
-    - title: 잘 알아듣는 챗봇 만들기
-      url: /study_video_intent_entity.html
-      output: web, pdf
-
   - title: 그룹
     output: web, pdf
-
     folderitems:
+
     - title: 그룹이란?
       url: /chatbot_list.html
       output: web, pdf
@@ -71,6 +47,10 @@ entries:
     - title: 사용자사전
       url: /dictionary.html
       output: web, pdf
+        
+#    - title: 업데이트 로그
+#      url: /update_log.html
+#      output: web, pdf
 
   - title: 챗봇 제작 단계
     output: web, pdf
@@ -83,7 +63,6 @@ entries:
     - title: 시작 메세지
       url: /welcome.html
       output: web, pdf
-
 
     - title: 대화 의도
       url: /intent.html
@@ -276,8 +255,6 @@ entries:
     - title: Slack
       url: /channel_slack.html
       output: web, pdf
-
-  
 
   - title: 챗봇 운영 단계
     output: web, pdf

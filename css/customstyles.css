@@ -365,12 +365,13 @@ background-color: #347DBE;
 }
 
 span.projectTitle {
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 24px;
     line-height: 24px;
     display: inline-block;
     position: relative;
-    top: 5px;
+    top: 4px;
+    left: 4px;
 }
 
 .footer {

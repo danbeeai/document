@@ -5,8 +5,7 @@ entries:
   #levels: one 활성화 하면,
   folders:
 
-
-  - title: Tutorial(Basic)
+  - title: 튜토리얼(기본기)
     output: web
     folderitems:
     # - title: 인기 Tutorial
@@ -43,7 +42,7 @@ entries:
       url: /basic_function_node.html
       output: web
 
-  - title: Tutorial(Advanced)
+  - title: 튜토리얼(심화)
     output: web
     folderitems:
     # - title: 인기 Tutorial
@@ -76,3 +75,23 @@ entries:
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web
+
+  - title: 영상 튜토리얼
+    output: web, pdf
+    folderitems:
+
+    - title: 단비와 함께하는 챗봇 입문 교육
+      url: /study_video.html
+      output: web, pdf
+
+    - title: 챗봇 위자드로 10분만에 챗봇 만들기
+      url: /chatbot_wizard.html
+      output: web, pdf
+
+    - title: FAQ챗봇 하루만에 만들기
+      url: /blog_010_TECH02_faq.html
+      output: web, pdf
+
+    - title: 잘 알아듣는 챗봇 만들기
+      url: /study_video_intent_entity.html
+      output: web, pdf
