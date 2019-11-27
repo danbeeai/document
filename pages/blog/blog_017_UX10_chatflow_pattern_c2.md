@@ -2,7 +2,7 @@
 title: 대화흐름 설계패턴 4편, 스무고개형
 tags: [blog, chatbot-biz, Chatbot-UX]
 keywords: blog
-summary: 질문을 통해 설계
+summary: 몇 가지 질문을 바탕으로 추천하거나 답변, 진단.
 sidebar: blog_sidebar
 permalink: blog_017_UX10_chatflow_pattern_c2.html
 folder: blog
