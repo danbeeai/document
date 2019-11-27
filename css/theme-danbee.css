@@ -60,6 +60,9 @@ pre a{
     font-size: 14px;
     font-family: Menlo,Monaco,Consolas,"Courier New", dotum, gulim, monospace;
 }
+.highlight .highlight{
+    border:none;
+}
 a {
     color: #FF7600; /*#2b1a09*/
     text-decoration: underline;
