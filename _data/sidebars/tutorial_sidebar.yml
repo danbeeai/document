@@ -92,6 +92,10 @@ entries:
       url: /blog_010_TECH02_faq.html
       output: web, pdf
 
+    - title: 설문조사 챗봇 만들어보기
+      url: /video_tutorial_survey.html
+      output: web, pdf
+
     - title: 잘 알아듣는 챗봇 만들기
       url: /study_video_intent_entity.html
       output: web, pdf
