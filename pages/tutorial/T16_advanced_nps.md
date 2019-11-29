@@ -42,7 +42,10 @@ NPS(순수고객추천지수, Net Promoter Score)란 만족도 지표 중 가장
 수집된 만족도 조사 내용은 Google Spread Sheet에 차례로 모이게 됩니다.
 
 
-### 챗봇이 받은 데이터를 구글스프레드 시트에 로그 남기는 법!
+## 챗봇이 받은 데이터를 구글스프레드 시트에 로그 남기는 법!
+
+{% include note.html content="구글 스프레드 시트 API는 standard 버전부터 이용가능한 기능입니다." %}
+{% include tip.html content="2019년 11월 11일 부터 [구글스프레드시트 행추가](/predefined_api_googlespreadsheetrowappend.html)를 이용해서 만드실 수 있습니다." %}
 
 ### 1. 구글스프레드시트 생성
 구글 스프레드 시트를 하나 만듭니다. 그리고 danbee.Ai에서 만든 API가 접근할 수 있게 권한을 부여합니다. 
