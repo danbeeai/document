@@ -6,7 +6,7 @@ topnav:
 #    - title: GitHub
 #      external_url: https://github.com/danbeeai/document
 
-    - title: 메뉴얼
+    - title: 매뉴얼
       url: /index.html
     - title: 튜토리얼
       url: /samplebot.html
