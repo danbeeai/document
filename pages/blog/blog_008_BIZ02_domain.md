@@ -85,10 +85,6 @@ folder: blog
 {% include tip.html content="danbee.Ai에서는 꾸준히 챗봇을 업데이트 하고 있습니다. 필요한 템플릿이 있으면 contact@danbee.ai로 연락주시기 바랍니다." %}
 
 
-<hr>
 작성자 : RAPA
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
-
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+{% include bottom.html %}

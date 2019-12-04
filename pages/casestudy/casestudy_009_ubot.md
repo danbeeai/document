@@ -19,8 +19,6 @@ folder: blog
 [전화영어 민병철유폰, 24시간 잠들지 않는 챗봇매니저 ‘유봇’ 출시](http://news.mt.co.kr/mtview.php?no=2018080718004428299){:target=_blank}
 
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! 
-danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
 
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+
+{% include bottom.html %}

@@ -90,10 +90,6 @@ Welcome Message는 정말 중요합니다. 최초 오픈 전까지 심혈을 기
 {% include note.html content="danbee.Ai에서는 실제 사용자의 대화 행태를 분석할 수 있는 사용이력 로그를 제공합니다. <br/> [대화 이력 관리 기능 알아보기](http://doc.danbee.ai/log.html){:target=_blank}"%}
 
 
-<hr>
 작성자 : RAPA
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
-
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+{% include bottom.html %}

@@ -1,11 +1,11 @@
 <footer>
-            <div class="row">
-                <div class="col-lg-6">
-               &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved. <br />
-{% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} Site last generated: {{ site.time | date: "%b %-d, %Y"  }}
-                </div>
-                <div class="col-lg-6 footer">
-                    <img src="{{ "images/danbee_logo.png" }}" alt="danbee.Ai"/>
-                </div>
+        <div class="row">
+            <div class="col-lg-6">
+            &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved. <br />
+{% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} 업데이트 : {{ site.time | date: "%b %-d, %Y"  }}
             </div>
+            <div class="col-lg-6 footer">
+                <img src="{{ "images/danbee_logo.png" }}" alt="danbee.Ai"/>
+            </div>
+        </div>
 </footer>
