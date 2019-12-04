@@ -62,6 +62,9 @@ entries:
     - title: 대화흐름 설계패턴 5편, 접수형
       url: /blog_018_UX11_chatflow_pattern_c3.html
       output: web
+    - title: 대화흐름 설계패턴 6편, 게이트웨이형
+      url: /blog_019_UX12_chatflow_pattern_c4.html
+      output: web
 
   - title: 챗봇TECH
     output: web

@@ -55,3 +55,8 @@ next: {
 피자가격 변수의 값이 12,000 으로 변경된 것을 확인 할 수 있습니다.
 
 {% include image.html file="tutorial/basic_function_node1.png"  caption="Function 노드 생성하기2" %}
+
+
+
+
+{% include bottom.html %}
