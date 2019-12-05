@@ -292,3 +292,5 @@ Chatflow는 서버에 반영되고 나서야 Tester 혹은 시뮬레이션(Simul
 
 {% include image.html file="chatflow/Chatflow_sample_test2.png"  caption="야식주문 피자 선택 결과" %}
   -->
+
+{% include bottom.html %}

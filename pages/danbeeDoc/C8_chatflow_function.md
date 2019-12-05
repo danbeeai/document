@@ -101,3 +101,7 @@ Split 노드에 조건을 다음과 같이 randomNum 값이 0, 경우에는 '램
 랜덤 분기 테스트를 실행해 보면 다음과 같이 같은 질문에 무작위로 다른 메시지를 내뱉게 됩니다. 
 
 {% include image.html file="chatflow/Chatflow_function_sampleTest.png"  caption="랜덤 분기 테스트 결과" %} -->
+
+
+
+{% include bottom.html %}

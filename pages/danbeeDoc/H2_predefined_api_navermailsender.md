@@ -60,3 +60,6 @@ POP3/SMTP가 설정되지 않을 경우에 대한 설명을 Naver 고객센터�
 4. 생성된 애플리케이션 비밀번호 12자리를 danbee.Ai 의 Naver 메일 전송 API 의 password 에 셋팅합니다.
 
 <br />
+
+
+{% include bottom.html %}

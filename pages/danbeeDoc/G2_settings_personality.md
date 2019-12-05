@@ -174,3 +174,6 @@ Welcome과 마찬가지로 해당 상황에서 단순한 Error 메세지 대신 
 
 
  -->
+ 
+ {% include bottom.html %}
+ 

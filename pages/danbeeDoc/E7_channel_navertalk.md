@@ -76,3 +76,5 @@ next: {
 * 직접 접속 URL은 관리 계정 리스트에서 확인할 수 있습니다. 또는 톡톡앱아이디를 확인하여 talk.naver.com/{톡톡앱아이디} 로 접속할 수 있습니다.
 <figure><img class="docimage" src="images/channel/navertalk/navertalk_13_app_id.png" alt="line app add chatbot" style="max-width: 800px"></figure>
 
+
+{% include bottom.html %}

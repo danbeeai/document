@@ -45,3 +45,6 @@ Telegram 채널 연계 설정을 하려면 다음이 필요합니다.
 2. 생성한 봇 이름으로 검색 후 /start를 입력하여 챗봇과 대화를 시작합니다.<figure><img class="docimage" src="images/channel/telegram/telegram_app_add_chatbot.png" alt="line app add chatbot" style="max-width: 800px"></figure>
 3. 또는 https://web.telegram.org/#/im?p=@봇이름 으로 접속해서 대화를 시작합니다.
 
+
+{% include bottom.html %}
+

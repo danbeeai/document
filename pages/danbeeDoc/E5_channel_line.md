@@ -82,3 +82,5 @@ Using LINE@ features 의 Auto-reply messages을 disabled 처리합니다.
 그러면 해당 앱의 관리자가 친구가 추가됩니다.
 
 
+
+{% include bottom.html %}

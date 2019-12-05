@@ -21,3 +21,6 @@ danbee.Ai에서는 미리 정의된 여러가지 API가 있습니다. <br />
  - [메시지 알림 전송](predefined_api_slackchannelsender.html): 문자 또는 슬랙으로 알림 전송 ( 문자 발송은 추가 요금 발생 )
  - [구글 스프레드시트 관리](predefined_api_googlespreadsheetrowappend.html) : 구글 스프레드 시트의 데이터를 관리
  
+
+
+{% include bottom.html %}

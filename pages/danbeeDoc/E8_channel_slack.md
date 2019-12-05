@@ -110,3 +110,6 @@ Slack 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약�
 {: .table .table-striped}
 
 {% include warning.html content=" Danbee.Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}
+
+
+{% include bottom.html %}

@@ -167,3 +167,6 @@ Listen노드와 Speak노드가 연결되었다면, 좌측 하단의 저장버튼
 아니면 바로 메신저에 연결해 볼 수도 있습니다.
 
 <span class="link">[챗봇 채널 연계 설정](/channel_connection_settings.html)</span>
+
+
+{% include bottom.html %}

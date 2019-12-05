@@ -364,3 +364,6 @@ https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디
 | neg | Number | No | 대화내용 감정 부정 수치 |
 | neu | Number  | No | 대화내용 감정 중립 수치 |
 | pos | Number | No | 대화내용 감정 긍정 수치 |
+
+
+{% include bottom.html %}

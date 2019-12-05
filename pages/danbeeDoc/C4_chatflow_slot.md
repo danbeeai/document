@@ -69,3 +69,6 @@ Speak 노드에서는 답변 메시지를 입력할때 변수 값을 표시하�
 
 {% include image.html file="chatflow/Chatflow_slot_sampleTest.png"  caption="변수값 표시 테스트" %}
  -->
+
+
+{% include bottom.html %}

@@ -83,3 +83,6 @@ Speak 노드에 'question1' 변수 기준으로 값이 '짜장면', '짬뽕' 경
 '좋아하는 음식은?' 질문에 '짬뽕'을 선택하면 아래와 같이 결과가 나타납니다. 
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleTest.png"  caption="좋아하는 음식은? 테스트 결과" %} -->
+
+
+{% include bottom.html %}

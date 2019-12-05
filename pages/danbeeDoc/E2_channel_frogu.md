@@ -150,3 +150,6 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 
 서비스 레벨에 따라 danbee.Ai 브랜드가 나오지 않게 설정을 변경할 수 있습니다.
 {% include image_border.html file="channel/frogue/frogue04_banner.PNG"  caption="배너 설정" %}
+
+
+{% include bottom.html %}

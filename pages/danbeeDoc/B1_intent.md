@@ -203,3 +203,6 @@ Intent명,Intent별명(생략가능),IntentID(생략가능)
 
 샘플 파일을 다운로드 받은 후 업로드 해서 결과를 확인해보세요.
 
+
+
+{% include bottom.html %}

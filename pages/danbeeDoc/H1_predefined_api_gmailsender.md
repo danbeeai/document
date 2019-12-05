@@ -57,3 +57,6 @@ danbee.Ai에서 제공하는 여러가지 API 중 Google Gmail 게정을 통해 
 3. 생성된 앱 비밀번호 16자리를 danbee.Ai 의 Gmail 메일 전송 API 의 password 에 셋팅합니다.
 
 <br />
+
+
+{% include bottom.html %}

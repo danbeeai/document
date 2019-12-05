@@ -55,3 +55,6 @@ next: {
 
 [템플릿 챗봇 의견보내기](https://frogue.danbee.ai/?chatbot_id=f809afc6-927a-40e1-bca2-19cc07aa352e){:target=_blank}
 
+
+{% include bottom.html %}
+

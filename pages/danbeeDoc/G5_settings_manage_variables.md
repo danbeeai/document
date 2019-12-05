@@ -58,3 +58,6 @@ next: {
 {% include image.html file="manage_variables/manage_variables_8.png" %}
 {% include image.html file="manage_variables/manage_variables_7.png" %}
 
+
+
+{% include bottom.html %}
