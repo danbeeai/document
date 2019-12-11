@@ -6,6 +6,9 @@ entries:
   - title: 챗봇BIZ
     output: web
     folderitems:
+    - title: 밀레니얼 세대 다음은?
+      url: /blog_021_BIZ05_zgeneration.html
+      output: web
     - title: 챗봇 검토중이라면, 꼭 보세요
       url: /blog_011_BIZ03_chatbot_start.html
       output: web
@@ -17,6 +20,9 @@ entries:
       output: web
     - title: 챗봇 접객 자동화 3가지 영역
       url: /blog_013_BIZ03_serve.html
+      output: web
+    - title: 조직 유형별 챗봇 도입 3가지 방안
+      url: /blog_020_BIZ04_apply.html
       output: web
 
   - title: 챗봇UX
