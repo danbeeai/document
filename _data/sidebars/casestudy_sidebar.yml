@@ -26,9 +26,9 @@ entries:
     - title: LG CNS, 마곡이
       url: /casestudy_010_magoki.html
       output: web
-    - title: 구리도시공사, 홈페이지 안내 챗봇
-      url: /casestudy_014_guri.html
-      output: web
+#    - title: 구리도시공사, 홈페이지 안내 챗봇
+#      url: /casestudy_014_guri.html
+#      output: web
 
   - title: 엔터프라이즈와 파트너
     output: web
