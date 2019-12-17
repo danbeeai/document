@@ -45,6 +45,8 @@ folder: blog
           [요청/문의 사항 전달하기] [처음으로]
 
 
+
+<br>
 {% include image.html file="blog/biz/biz_chat_person.jpg"  caption="챗봇과 사람의 협업. 역할분담" %}
 
 
