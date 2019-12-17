@@ -24,6 +24,9 @@ entries:
     - title: 조직 유형별 챗봇 도입 3가지 방안
       url: /blog_020_BIZ04_apply.html
       output: web
+    - title: 아직 챗봇은 모든 질문에 대답 못하잖아요?
+      url: /blog_022_BIZ06_chatperson.html
+      output: web
 
   - title: 챗봇UX
     output: web
