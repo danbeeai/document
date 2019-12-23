@@ -56,7 +56,4 @@ menu = menu_list[Math.floor(Math.random() * menu_list.length)]; //메뉴를 선�
 대화흐름을 이용해서 챗봇을 만들면, 코딩능력이 없더라도 쉽게 가족이나 친구에게 자신이 만든 프로그램을 보여줄 수 있다. 물리적인 형태가 있는 것은 아니지만, 마치 살아있는 것처럼 반응하는 챗봇. 그리고 말투를 조금만 바꾸어도 전혀 다른 캐릭터가 되는 챗봇. 지금 후추를 한번 내려받아서 자기가 좋아하는 메뉴를 잔뜩 넣어보면 어떨까?
 
 
-[contact@danbee.ai](mailto:contact@danbee.ai)로 연락주세요!
-
-
 {% include bottom.html %}
