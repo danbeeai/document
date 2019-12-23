@@ -1,5 +1,5 @@
 ---
-title: 설문조사 챗봇 만들어보기 
+title: 개발1도 몰라도 영상 보고 따라하면 됨. 설문조사 챗봇 만들어보기 
 keywords: 고객만족, 설문, NPS, 설문조사
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
