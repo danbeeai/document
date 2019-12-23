@@ -9,6 +9,10 @@ previous: {
     title: 웹에이전씨봇, 스페이드컴퍼니,
     url: advanced_agency_spadecompany.html
 }
+next: {
+    title: 뭐먹냥, 후추,
+    url: advanced_whocho.html
+}
 ---
 
 ## “측정할 수 없으면 개선할 수 없다.” – 피터 드러커
