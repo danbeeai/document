@@ -19,10 +19,12 @@ summary: 만족도 조사 챗봇 템플릿을 고쳐서 설문조사 챗봇을 �
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B6Fil5qTNH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## 함께해요! 챗봇시대;) 
-단비아이엔씨는 함께 챗봇시대를 만들어갈 파트너, 인재를 찾고 있습니다. 
+챗봇을 이해하는 가장 빠른 방법은 하나 만들어 보는 것입니다.
+기능을 이용하는 상황과 맥락을 들으면서 차근 차근 해보도록 해요.
 
-[contact@danbee.ai](mailto:contact@danbee.ai)로 연락주세요!
+1. 모니터 2개를 셋팅하고, 한쪽에는 영상. 한쪽에는 [단비Ai](https://danbee.ai)를 켜둡니다.
+2. 영상을 틀고 하나씩 따라합니다. 편집이 되어 있지 않아서 빠짐 없이 경험하실 수 있습니다.
+
 
 
 
