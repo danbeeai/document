@@ -4,7 +4,7 @@ keywords: 맛집, 레시피, 생활서비스, 점심메뉴
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
 permalink: advanced_whocho.html
-summary: 만족도 조사 챗봇 템플릿입니다.
+summary: 점심메뉴를 정해주는 챗봇을 고쳐서 나만의 추천봇으로 만들어볼까?
 previous: {
     title: NPS설문봇, 벼리,
     url: advanced_nps.html
