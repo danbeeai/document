@@ -75,6 +75,9 @@ entries:
     - title: 샘플 - 뭐먹냥, 후추
       url: /advanced_whocho.html
       output: web
+    - title: 샘플 - 퀴즈봇, 당근씨
+      url: /advanced_carrot.html
+      output: web
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web
