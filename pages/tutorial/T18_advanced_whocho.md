@@ -9,6 +9,10 @@ previous: {
     title: NPS설문봇, 벼리,
     url: advanced_nps.html
 }
+next: {
+    title: 퀴즈봇, 당근씨,
+    url: advanced_carrot.html
+}
 ---
 
 ## 점심메뉴를 고민하고 있다고?
