@@ -24,7 +24,7 @@ next: {
 
 챗봇, 채팅창이 필요합니다. Frogue는 danbee.Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
 아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
-{% include note.html content="설정 > 채널연결 > Frogue by danbee.Ai" %}
+{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 {% include image_border.html file="channel/frogue/frogue05_livechat.PNG"  caption="danbee.Ai 홈페이지에 적용된 Frogue의 모습" %}
 

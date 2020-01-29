@@ -43,11 +43,11 @@ entries:
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
-      
+
     - title: 사용자사전
       url: /dictionary.html
       output: web, pdf
-        
+
 #    - title: 업데이트 로그
 #      url: /update_log.html
 #      output: web, pdf
@@ -112,7 +112,7 @@ entries:
         - title: Jump 노드
           url: /chatflow_jump.html
           output: web, pdf
-          
+
     - title: 엔티티
       url: /entity.html
       output: web, pdf
@@ -133,11 +133,11 @@ entries:
         - title: 추론 설정
           url: /settings_nlu.html
           output: web, pdf
- 
+
     - title: 테스트 패널
       url: /demo_n_test_panel.html
       output: web, pdf
- 
+
   - title: 단비 제공 API
     output: web, pdf
 
@@ -207,7 +207,7 @@ entries:
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
 
-    
+
   - title: 채널 연결
     output: web, pdf
 
@@ -236,16 +236,16 @@ entries:
       url: /channel_line.html
       output: web, pdf
 
+    - title: LINE WORKS
+      url: /channel_lineworks.html
+      output: web, pdf
+
     - title: Telegram
       url: /channel_telegram.html
       output: web, pdf
 
     - title: 카카오톡(카카오i오픈빌더)
       url: /channel_kakaoibuilder.html
-      output: web, pdf
-
-    - title: 카카오톡(구버전)
-      url: /channel_kakaotalk.html
       output: web, pdf
 
     - title: 네이버톡톡
@@ -258,7 +258,7 @@ entries:
 
   - title: 챗봇 운영 단계
     output: web, pdf
-          
+
     folderitems:
     - title: 대화 이력
       url: /log.html
@@ -267,7 +267,7 @@ entries:
     - title: 애널리틱스
       url: /dashboard.html
       output: web, pdf
-        
+
 
   # - title: 외부 API 사용
   #   output: web, pdf
@@ -285,4 +285,3 @@ entries:
   #     url: /feedback.html
   #     output: web, pdf
 
-  
