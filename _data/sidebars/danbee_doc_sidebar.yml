@@ -43,8 +43,8 @@ entries:
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
-
-    - title: 사용자사전
+      
+    - title: 고유 용어 사전
       url: /dictionary.html
       output: web, pdf
 
@@ -284,4 +284,3 @@ entries:
   #   - title: 사용자 의견 보내기
   #     url: /feedback.html
   #     output: web, pdf
-
