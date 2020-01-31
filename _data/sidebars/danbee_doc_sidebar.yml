@@ -44,7 +44,7 @@ entries:
       url: /external_API_management.html
       output: web, pdf
       
-    - title: 사용자사전
+    - title: 고유 용어 사전
       url: /dictionary.html
       output: web, pdf
         
