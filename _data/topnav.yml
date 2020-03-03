@@ -9,7 +9,7 @@ topnav:
     - title: 매뉴얼
       url: /index.html
     - title: 튜토리얼
-      url: /samplebot.html
+      url: /tutorial_home.html
     - title: FAQ
       url: /faq_00_gateway.html
     - title: 가격정책
