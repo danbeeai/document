@@ -5,11 +5,14 @@ entries:
   #levels: one 활성화 하면,
   folders:
 
-  - title: 기업담당자를 위한 튜토리얼 
+  - title: 추천 튜토리얼 
     output: web
     folderitems:
     - title: 챗봇담당자 김대리를 위한 튜토리얼   
       url: /tutorial_home.html
+      output: web
+    - title: FAQ챗봇 튜토리얼   
+      url: /tutorial_faq.html
       output: web
 
   - title: 차근 차근 온라인 튜토리얼
