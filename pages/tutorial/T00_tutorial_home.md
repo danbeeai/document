@@ -13,7 +13,7 @@ folder: tutorial
 아래의 슬라이드를 [다운로드](https://www.slideshare.net/moonkilism/ai-v1320200302)해서 차례대로 따라해보면, 회사에서 챗봇에 대해 가장 많이 아는 사람이 될꺼에요! 준비물은 인터넷되는 컴퓨터, 크롬브라우저! (꼼꼼히 따라하면, 4시간~6시간 소요)
 
 <div class="videowrapper">
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/gQIBKV03dpcvC7" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/moonkilism/ai-v1320200302" title="챗봇담당자 김대리를 위한 단비Ai 튜토리얼_v1.3_20200302" target="_blank">챗봇담당자 김대리를 위한 단비Ai 튜토리얼_v1.3_20200302</a> </strong> from <strong><a href="https://www.slideshare.net/moonkilism" target="_blank">Moonkil Seo</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/zTAMQOg3YFDtyO" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/moonkilism/ai-v1420200317" title="챗봇담당자 김대리를 위한 단비Ai 튜토리얼_v1.4_20200317" target="_blank">챗봇담당자 김대리를 위한 단비Ai 튜토리얼_v1.4_20200317</a> </strong> from <strong><a href="//www.slideshare.net/moonkilism" target="_blank">Moonkil Seo</a></strong> </div>
 </div>
 
 
