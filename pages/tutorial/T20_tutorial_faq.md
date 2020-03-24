@@ -2,14 +2,14 @@
 title: FAQ챗봇 만들기 튜토리얼  
 tags: [tutorial, basic]
 keywords: Tutorial
-summary: 질문과 답을 엑셀로 정리해놓았다면 3분이면 만들 수 있는 챗봇입니다.
+summary: 질문과 답을 엑셀로 정리해놓았다면 5분이면 만들 수 있는 챗봇입니다.
 sidebar: tutorial_sidebar
 permalink: tutorial_faq.html
 folder: tutorial
 
 ---
 
-## FAQ챗봇, 셀라몬!
+## FAQ위자드, 셀라몬!
 FAQ위자드, 셀라몬는 FAQ챗봇을 만들 때 활용할 수 있는 위자드 템플릿입니다. 질문과 응답을 엑셀과 같은 스프레드시트에 정리만 되어 있다면, 바로 챗봇을 생성하실 수 있습니다.
 
 ### 아래 순서대로 따라하세요.
