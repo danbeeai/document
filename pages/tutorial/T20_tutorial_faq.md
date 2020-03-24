@@ -12,6 +12,8 @@ folder: tutorial
 ## FAQ위자드, 셀라몬!
 FAQ위자드, 셀라몬는 FAQ챗봇을 만들 때 활용할 수 있는 위자드 템플릿입니다. 질문과 응답을 엑셀과 같은 스프레드시트에 정리만 되어 있다면, 바로 챗봇을 생성하실 수 있습니다.
 
+{% include image.html file="tutorial/sample_faq/cellamon.png" caption="엑셀을 잘하는 셀라몬은 FAQ위자드 입니다. 엑셀IN-챗봇OUT" %}
+
 ### 아래 순서대로 따라하세요.
 
 1. 단비Ai에 로그인합니다.
