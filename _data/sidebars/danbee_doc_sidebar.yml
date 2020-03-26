@@ -40,6 +40,10 @@ entries:
       url: /chatbot_list.html
       output: web, pdf
 
+    - title: 지식 라이브러리
+      url: /knowledge_library.html
+      output: web, pdf
+
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
