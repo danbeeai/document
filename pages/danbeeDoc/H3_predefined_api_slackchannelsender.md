@@ -52,3 +52,6 @@ danbee.Ai에서 제공하는 여러가지 API 중 슬랙(Slack)의 특정채널�
 9. 찾은 채널(Channel) ID를 API 의 channel 입력값에 설정합니다.
 
 <br />
+
+
+{% include bottom.html %}

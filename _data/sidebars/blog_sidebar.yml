@@ -3,6 +3,31 @@
 entries:
 - title: Sidebar
   folders:
+  - title: 챗봇BIZ
+    output: web
+    folderitems:
+    - title: 밀레니얼 세대 다음은?
+      url: /blog_021_BIZ05_zgeneration.html
+      output: web
+    - title: 챗봇 검토중이라면, 꼭 보세요
+      url: /blog_011_BIZ03_chatbot_start.html
+      output: web
+    - title: 챗봇도입시 고려해야할 7가지 체크포인트
+      url: /blog_007_BIZ01_checkpoint.html
+      output: web
+    - title: 산업분야 특화 챗봇적용 사업방안
+      url: /blog_007_BIZ02_domain.html
+      output: web
+    - title: 챗봇 접객 자동화 3가지 영역
+      url: /blog_013_BIZ03_serve.html
+      output: web
+    - title: 조직 유형별 챗봇 도입 3가지 방안
+      url: /blog_020_BIZ04_apply.html
+      output: web
+    - title: 아직 챗봇은 모든 질문에 대답 못하잖아요?
+      url: /blog_022_BIZ06_chatperson.html
+      output: web
+
   - title: 챗봇UX
     output: web
     folderitems:
@@ -27,6 +52,10 @@ entries:
     - title: 챗봇UX 6편, 학익진(鶴翼陣), 챗봇 대화모델 구성 전략
       url: /blog_012_UX06_strategy.html
       output: web
+
+  - title: 챗봇 대화흐름 설계 
+    output: web
+    folderitems:
     - title: 대화흐름 설계패턴 1편, 단답형
       url: /blog_014_UX07_chatflow_pattern_single.html
       output: web
@@ -36,27 +65,19 @@ entries:
     - title: 대화흐름 설계패턴 3편, 차근차근 설명형
       url: /blog_016_UX09_chatflow_pattern_c1.html
       output: web
-  - title: 챗봇BIZ
-    output: web
-    folderitems:
-    - title: 챗봇 검토중이라면, 꼭 보세요
-      url: /blog_011_BIZ03_chatbot_start.html
+    - title: 대화흐름 설계패턴 4편, 스무고개형
+      url: /blog_017_UX10_chatflow_pattern_c2.html
       output: web
-    - title: 챗봇도입시 고려해야할 7가지 체크포인트
-      url: /blog_007_BIZ01_checkpoint.html
+    - title: 대화흐름 설계패턴 5편, 접수형
+      url: /blog_018_UX11_chatflow_pattern_c3.html
       output: web
-    - title: 산업분야 특화 챗봇적용 사업방안
-      url: /blog_007_BIZ02_domain.html
+    - title: 대화흐름 설계패턴 6편, 게이트웨이형
+      url: /blog_019_UX12_chatflow_pattern_c4.html
       output: web
-    - title: 챗봇 접객 자동화 3가지 영역
-      url: /blog_013_BIZ03_serve.html
-      output: web
+
   - title: 챗봇TECH
     output: web
     folderitems:
     - title: AI를 위한 AI, 챗봇 학습 추천
       url: /blog_009_TECH01_recommendation.html
-      output: web
-    - title: 하루만에 FAQ챗봇 출격
-      url: /blog_010_TECH02_faq.html
       output: web

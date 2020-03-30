@@ -19,7 +19,7 @@ next: {
 
 챗봇으로 키오스크를 만들 수 있는 서비스입니다. 아래 경로에서 ON하면, 바로 이용할 수 있습니다.
 
-{% include note.html content="설정 > 채널연결 > kioscott" %}
+{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 ### 1. Kioscott에 [ON/OFF] 버튼을 클릭하십시오.
 
@@ -39,4 +39,8 @@ next: {
 
 {% include image_border.html file="image/kioskott_preview.PNG"  caption="Kioscott 디자인 설정" %}
 
-보슬비(무료) 사용자는 미리보기는 가능하지만, 연결하거나 저장할 수 없습니다. 
+보슬비(무료) 사용자는 미리보기는 가능하지만, 연결하거나 저장할 수 없습니다.
+
+
+{% include bottom.html %}
+ 

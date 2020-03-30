@@ -3,9 +3,9 @@ title: 영상-잘 알아듣는 챗봇, 인텐트와 엔티티
 tags: [chatbot]
 keywords: 챗봇, 인텐트, 엔티티, intent, entity, 잘 알아듣기, 잘 알아듣는
 summary: 챗봇의 기본개념부터, 사례, 도입검토, 설계방법까지
-sidebar: danbee_doc_sidebar
+sidebar: tutorial_sidebar
 permalink: study_video_intent_entity.html
-folder: danbeeDoc
+folder: tutorial
 previous: {
     title: 간단한 챗봇 만들어보기,
     url: basic_create_chatbot.html
@@ -33,3 +33,6 @@ next: {
 ## 튜토리얼을 권장합니다.
 실제로 만들어보면 더 구체적으로 아이디어를 현실화 하거나 실질적인 이해가 가능할 거에요!
 튜토리얼습을 보면서 하나씩 해보시기를 추천합니다.
+
+
+{% include bottom.html %}

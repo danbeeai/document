@@ -3,7 +3,7 @@ repository: danbeeai/document
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Document
+topnav_title: 단비Ai 도큐먼트
 # this appears on the top navigation bar next to the home button
 
 site_title: danbee.Ai Document

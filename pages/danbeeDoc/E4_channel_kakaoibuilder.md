@@ -16,12 +16,13 @@ next: {
 }
 ---
 
-{% include note.html content=" [설정(Preference)] > [대화채널(Channel)]" %}
+{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 <h2><center>준비하기</center></h2>
 챗봇을 카카오톡 채널에 연결하기 위해서는 아래항목들이 준비되어 있어야 합니다.
-- 카카오톡 계정
-- 카카오 i 오픈빌더 사용 권한: 카카오 i 오픈빌더 OBT 신청 절차가 필요합니다.
+- 카카오톡 계정[카카오 계정 생성 링크](https://accounts.kakao.com/weblogin/create_account?continue=https://accounts.kakao.com)
+- 카카오톡 채널 생성
+- 카카오 i 오픈빌더 사용 권한: 카카오 i 오픈빌더 OBT 신청 절차가 필요합니다. (2019년 12월 기준, 신청 심사는 약 6일 걸린다고 합니다.)
 - 카카오톡 어플리케이션(App)
 <hr/>
 
@@ -171,3 +172,5 @@ next: {
 카카오아이빌더의 메뉴중 "배포"라는 것이 있습니다. 배포를 하지않으면 챗봇이 연동되지 않습니다. 꼭 배포를 해주세요.
 배포 후에 "시작"하는 버튼이 표시되기까지 수분이 걸립니다. 조금 기다리시면 카카오톡에서 챗봇을 만나실 수 있을꺼에요!
 
+
+{% include bottom.html %}

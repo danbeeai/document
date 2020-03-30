@@ -1,8 +1,8 @@
 ---
-title: Case Study - LG U+, 고객센터 상담 챗봇
+title: LG U+, 고객센터 상담 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
 sidebar: casestudy_sidebar
 permalink: casestudy_001_lguplus_mobile_app.html
 folder: blog
@@ -41,8 +41,6 @@ U+ 모바일 고객센터 App 내의 검색버튼을 통해 제공되고 있는 
 인공지능(AI) 기반의 상담 서비스 ‘U봇’을 고객센터 앱에 도입한지 6개월 만에 모바일을 통한 이용자 상담 건수가 9배 증가했다고 23일 밝혔다.(2018.01.23)
 [LG U+ "챗봇 도입 후 모바일 상담 건수 9배"](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20180123092239&type=det&re=zdk){:target=_blank}
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! 
-danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
 
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+
+{% include bottom.html %}

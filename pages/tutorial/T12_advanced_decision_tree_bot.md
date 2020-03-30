@@ -84,6 +84,9 @@ next: {
 
 ### 챗봇이 받은 데이터를 구글스프레드 시트에 로그 남기는 법!
 
+{% include note.html content="구글 스프레드 시트 API는 standard 버전부터 이용가능한 기능입니다." %}
+{% include tip.html content="2019년 11월 11일 부터 [구글스프레드시트 행추가](/predefined_api_googlespreadsheetrowappend.html)를 이용해서 만드실 수 있습니다." %}
+
 1. 구글 스프레드 시트를 하나 만듭니다. 그리고 danbee.Ai에서 만든 API가 접근할 수 있게 권한을 부여합니다. (구글스프레드시트 우측상단에 [공유설정]에서 "초대할 사용자"에 sheets-api01@danbee-ai.iam.gserviceaccount.com를 추가하고, 수정권한을 부여)
 2. spreadsheetId는 구글 스프레드시트가 열려있는 URL상에서 "https://docs.google.com/spreadsheets/d/" 이하에 있는 44자리 글자입니다.
 44자리 글자 부분을 복사해서 API설정 탭에 Body부분, spreadsheetId의 JSON 값을 바꿔주면, 해당 id의 스프레드시트에 데이터가 쌓이게 됩니다.
@@ -106,3 +109,6 @@ next: {
 [contact@danbee.ai](mailto:contact@danbee.ai)로 연락주세요!
 
 
+
+
+{% include bottom.html %}

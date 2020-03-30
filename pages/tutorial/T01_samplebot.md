@@ -40,7 +40,7 @@ next: {
 어떤 챗봇이든 이렇게 쉽게 챗봇을 만들 수 있다면 좋겠네요. 바로 함께 일할 수 있는 훈련된 동료를 얻는 것이죠. 하지만, 더 여러가지를 할 수 있게 만들거나 더 복합적인 일을 맡기고 싶다면 챗봇에 대해 더 이해할 필요가 있습니다. 튜토리얼을 하나씩 따라해보시면, 챗봇과 단비AI의 다양한 기능을 쉽게 이해하실 수 있습니다.
 
 <div class="videowrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RCfC8fqcnU0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-VOXXVMwYsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### 튜토리얼 챗봇 살펴보기
@@ -88,4 +88,9 @@ next: {
 진행 중에 궁금하신 사항은 Manual을 찾아보거나 단비Ai에서 일하고 있는 "파브르"에게 접수하면, Q&A게시판으로 회신받을 수 있습니다.
 
 - <span class="link">[Manual](/index.html)</span> : 기능 별 자세한 설명을 제공하고 있습니다.
-- <span class="link">[Q&A](http://doc.danbee.ai/feedback.html#qa-%EA%B2%8C%EC%8B%9C%ED%8C%90)</span> : Tutorial과 Document로 궁금증이 해소되지 않거나 danbee.Ai에 대한 의견이 있을 경우 운영자에게 문의할 수 있습니다.
+- <span class="link">[Q&A](http://doc.danbee.ai/feedback.html#qa-%EA%B2%8C%EC%8B%9C%ED%8C%90)</span> : 튜토리얼과 메뉴얼로 궁금증이 해소되지 않거나 danbee.Ai에 대한 의견이 있을 경우 운영자에게 문의할 수 있습니다.
+
+
+
+
+{% include bottom.html %}

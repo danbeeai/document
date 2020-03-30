@@ -18,6 +18,7 @@ next: {
 
 # API for Your App
 채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명드리겠습니다.
+{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 ## Welcome 메시지 API
 대화 채널이 처음 사용자와 대화가 시작될때 챗봇이 먼저 인사를 하거나 메뉴 선택지를 제공하고자 할 경우 사용하는 API입니다.
@@ -35,6 +36,7 @@ next: {
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
 | chatbot_id | String | Yes | 챗봇아이디 |
+| session_id | Number | No | 대화 세션 아이디(기존대화이력과 연결하여 시작메시지를 사용할 경우 전달) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 
 ### RESPONSE 정보
@@ -363,3 +365,6 @@ https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디
 | neg | Number | No | 대화내용 감정 부정 수치 |
 | neu | Number  | No | 대화내용 감정 중립 수치 |
 | pos | Number | No | 대화내용 감정 긍정 수치 |
+
+
+{% include bottom.html %}

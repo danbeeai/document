@@ -42,3 +42,6 @@ AWS SES 이메일 전송 API 를 사용하기 위해서는 먼저 danbee.Ai 서�
 4. 검증확인된 이메일을 API 의 fromEmail 입력값에 설정합니다.
 
 <br />
+
+
+{% include bottom.html %}

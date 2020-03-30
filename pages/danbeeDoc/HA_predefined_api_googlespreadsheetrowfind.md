@@ -26,6 +26,7 @@ danbee.Ai에서 제공하는 여러가지 API 중 구글 스프레드시트 행 
 | sheetTabName | String | Yes | 시트하단탭이름 |
 | findColumn  | String | Yes | 찾을열(B,C....,Z) |
 | findValue  | String | Yes | 찾을값(일치하는값) |
+| findPosition  | String | No | 찾을위치(T-맨위, B-맨아래), 기본값(T) |
 
 ## API 결과값
 
@@ -34,6 +35,7 @@ danbee.Ai에서 제공하는 여러가지 API 중 구글 스프레드시트 행 
 | result_code | String | 결과코드 ( success / fail ) |
 | result_message | String | 결과 메시지 내용 |
 | spreadsheetId | String | 스프레드시트아이디 |
+| findRowIndex | String | 찾은 결과 모든 행 |
 | getRowIndex | String | 결과 행 위치 |
 | getRange | String | 결과 범위 ( 시트내 탭이름 포함 A~Z 범위 ) |
 | getvalues | JSON | 결과 값 ( { A:A열값, B:B열값, .... } ) |
@@ -41,3 +43,6 @@ danbee.Ai에서 제공하는 여러가지 API 중 구글 스프레드시트 행 
 
 
 <br />
+
+{% include bottom.html %}
+

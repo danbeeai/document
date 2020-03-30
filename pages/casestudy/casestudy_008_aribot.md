@@ -1,8 +1,8 @@
 ---
-title: Case Study - 안양대학교, 대학학사지원챗봇 아리봇
+title: 안양대학교, 대학학사지원챗봇 아리봇
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
 sidebar: casestudy_sidebar
 permalink: casestudy_008_aribot.html
 folder: blog
@@ -14,9 +14,6 @@ folder: blog
 
 {% include image_border.html file="casestudy/case08_aribot.png" %}
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! 
-danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
 
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
 
+{% include bottom.html %}

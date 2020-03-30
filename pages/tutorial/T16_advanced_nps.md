@@ -9,11 +9,17 @@ previous: {
     title: 웹에이전씨봇, 스페이드컴퍼니,
     url: advanced_agency_spadecompany.html
 }
+next: {
+    title: 뭐먹냥, 후추,
+    url: advanced_whocho.html
+}
 ---
 
 ## “측정할 수 없으면 개선할 수 없다.” – 피터 드러커
 
 어떠한 사업을 하든 고객에게 제공한 제품이나 서비스가 얼마나 만족스러운지 측정을 해야 개선이 가능합니다. 많은 기업에서 다양한 채널을 이용해 만족도 조사를 실시합니다. 웹사이트, 이메일, 전화, 그리고 고객과 대면해서 만족도를 물어보기도 합니다. 
+
+이 샘플 챗봇을 응용한 [동영상 튜토리얼](https://doc.danbee.ai/video_tutorial_survey.html)도 있습니다. 영상을 선호하신다면, 영상을 보면서 따라하기를 추천드립니다.
 
 ## 챗봇으로 설문을 한다면?
 효율적인 방법 중 하나로 챗봇을 이용한 만족도조사가 있습니다.
@@ -42,7 +48,10 @@ NPS(순수고객추천지수, Net Promoter Score)란 만족도 지표 중 가장
 수집된 만족도 조사 내용은 Google Spread Sheet에 차례로 모이게 됩니다.
 
 
-### 챗봇이 받은 데이터를 구글스프레드 시트에 로그 남기는 법!
+## 챗봇이 받은 데이터를 구글스프레드 시트에 로그 남기는 법!
+
+{% include note.html content="구글 스프레드 시트 API는 standard 버전부터 이용가능한 기능입니다." %}
+{% include tip.html content="2019년 11월 11일 부터 [구글스프레드시트 행추가](/predefined_api_googlespreadsheetrowappend.html)를 이용해서 만드실 수 있습니다." %}
 
 ### 1. 구글스프레드시트 생성
 구글 스프레드 시트를 하나 만듭니다. 그리고 danbee.Ai에서 만든 API가 접근할 수 있게 권한을 부여합니다. 
@@ -75,3 +84,7 @@ range는 스프레드시트 Head에 해당하는 부분입니다. (그냥 두시
 [contact@danbee.ai](mailto:contact@danbee.ai)로 연락주세요!
 
 
+
+
+
+{% include bottom.html %}

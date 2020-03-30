@@ -32,45 +32,29 @@ entries:
       url: /basic_create_chatbot.html
       output: web, pdf
 
-    - title: 업데이트 로그
-      url: /update_log.html
-      output: web, pdf
-
-  - title: 영상 튜토리얼
-    output: web, pdf
-    folderitems:
-
-    - title: 단비와 함께하는 챗봇 입문 교육
-      url: /study_video.html
-      output: web, pdf
-
-    - title: 챗봇 위자드로 10분만에 챗봇 만들기
-      url: /chatbot_wizard.html
-      output: web, pdf
-
-    - title: FAQ챗봇 하루만에 만들기
-      url: /blog_010_TECH02_faq.html
-      output: web, pdf
-
-    - title: 잘 알아듣는 챗봇 만들기
-      url: /study_video_intent_entity.html
-      output: web, pdf
-
   - title: 그룹
     output: web, pdf
-
     folderitems:
+
     - title: 그룹이란?
       url: /chatbot_list.html
+      output: web, pdf
+
+    - title: 지식 라이브러리
+      url: /knowledge_library.html
       output: web, pdf
 
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
       
-    - title: 사용자사전
+    - title: 고유 용어 사전
       url: /dictionary.html
       output: web, pdf
+
+#    - title: 업데이트 로그
+#      url: /update_log.html
+#      output: web, pdf
 
   - title: 챗봇 제작 단계
     output: web, pdf
@@ -83,7 +67,6 @@ entries:
     - title: 시작 메세지
       url: /welcome.html
       output: web, pdf
-
 
     - title: 대화 의도
       url: /intent.html
@@ -133,7 +116,7 @@ entries:
         - title: Jump 노드
           url: /chatflow_jump.html
           output: web, pdf
-          
+
     - title: 엔티티
       url: /entity.html
       output: web, pdf
@@ -154,11 +137,11 @@ entries:
         - title: 추론 설정
           url: /settings_nlu.html
           output: web, pdf
- 
+
     - title: 테스트 패널
       url: /demo_n_test_panel.html
       output: web, pdf
- 
+
   - title: 단비 제공 API
     output: web, pdf
 
@@ -248,7 +231,6 @@ entries:
             url: /predefined_api_knowledgerowdelete.html
             output: web, pdf
 
-    
   - title: 채널 연결
     output: web, pdf
 
@@ -275,29 +257,29 @@ entries:
 
     - title: 페이스북
       url: /channel_facebook.html
-      output: web, pdf
 
     - title: 네이버 라인
       url: /channel_line.html
       output: web, pdf
 
-    - title: 네이버 톡톡
-      url: /channel_navertalk.html
-      output: web, pdf
-
     - title: Telegram
       url: /channel_telegram.html
+
+    - title: 네이버톡톡
+      url: /channel_navertalk.html
       output: web, pdf
 
     - title: Slack
       url: /channel_slack.html
       output: web, pdf
 
-  
-
+    - title: LINE WORKS
+      url: /channel_lineworks.html
+      output: web, pdf
+      
   - title: 챗봇 운영 단계
     output: web, pdf
-          
+
     folderitems:
     - title: 대화 이력
       url: /log.html
@@ -306,7 +288,7 @@ entries:
     - title: 애널리틱스
       url: /dashboard.html
       output: web, pdf
-        
+
 
   # - title: 외부 API 사용
   #   output: web, pdf
@@ -323,5 +305,3 @@ entries:
   #   - title: 사용자 의견 보내기
   #     url: /feedback.html
   #     output: web, pdf
-
-  

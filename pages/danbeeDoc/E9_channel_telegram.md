@@ -17,7 +17,7 @@ next: {
 ---
 
 ## Telegram 채널 연결 
- {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 
 ### Telegram 설정
@@ -44,4 +44,7 @@ Telegram 채널 연계 설정을 하려면 다음이 필요합니다.
 1. 브라우저에서 <span class="link">[Telegram Web-version](https://web.telegram.org){:target="_blank"}</span>에 접속한 후 로그인 합니다.
 2. 생성한 봇 이름으로 검색 후 /start를 입력하여 챗봇과 대화를 시작합니다.<figure><img class="docimage" src="images/channel/telegram/telegram_app_add_chatbot.png" alt="line app add chatbot" style="max-width: 800px"></figure>
 3. 또는 https://web.telegram.org/#/im?p=@봇이름 으로 접속해서 대화를 시작합니다.
+
+
+{% include bottom.html %}
 

@@ -1,11 +1,11 @@
 ---
 title: 챗봇 위자드로 10분만에 챗봇 만들기
 tags: [chatbot]
-keywords: 챗봇 생성, 챗봇 만들기
+keywords: 챗봇 생성, 챗봇 만들기, 챗봇 따라하기
 summary: 챗봇을 10분만에 만드는 방법을 소개합니다.
-sidebar: danbee_doc_sidebar
+sidebar: tutorial_sidebar
 permalink: chatbot_wizard.html
-folder: danbeeDoc
+folder: tutorial
 previous: {
     title: 챗봇의 기본,
     url: index.html
@@ -54,4 +54,7 @@ next: {
 아래 링크를 통해 템플릿 챗봇에 대한 의견을 주시면, 다음 템플릿으로 제공할 수 있도록 면밀히 검토하도록 하겠습니다.  
 
 [템플릿 챗봇 의견보내기](https://frogue.danbee.ai/?chatbot_id=f809afc6-927a-40e1-bca2-19cc07aa352e){:target=_blank}
+
+
+{% include bottom.html %}
 

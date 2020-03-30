@@ -60,12 +60,15 @@ pre a{
     font-size: 14px;
     font-family: Menlo,Monaco,Consolas,"Courier New", dotum, gulim, monospace;
 }
+.highlight .highlight{
+    border:none;
+}
 a {
-    color: #FFAD36; /*#2b1a09*/
+    color: #FF7600; /*#2b1a09*/
     text-decoration: underline;
 }
 a:hover{
-    color: #FFAD36; /*#2b1a09*/
+    color: #FF7600; /*#2b1a09*/
     text-decoration: underline;
 }
 
@@ -146,10 +149,14 @@ a[data-toggle="tooltip"] {
 }
 .navbar-inverse .container .navbar-brand {
     color: #fff;
-    font-weight: normal;
+    font-weight: bold;
     margin-left:0;
     padding:0;
     margin-top: 3px;
+    text-decoration: none;
+}
+.navbar-inverse .container .navbar-brand .projectTitle{
+    
 }
 .navbar-inverse .navbar-brand>img {
     display: inline-block;
@@ -259,6 +266,10 @@ div#toc_side{
 div#toc_side ul a {
     color:#334a60;
     padding-left:0;
+    text-decoration:none;
+}
+div#toc_side ul a:hover{
+    text-decoration:underline;
 }
 div#toc_side > ul {
     border: 1px solid #bed5df;

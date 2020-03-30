@@ -13,7 +13,7 @@ previous: {
 ---
 
 ## Slack 채널 연결
- {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %} 
+{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %} 
 
 
 ### Slack 설정 개요
@@ -110,3 +110,6 @@ Slack 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약�
 {: .table .table-striped}
 
 {% include warning.html content=" Danbee.Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}
+
+
+{% include bottom.html %}

@@ -45,3 +45,6 @@ previous: {
 Q&A 게시판에서도 문의를 작성하면 사진, URL, 그리고 동영상을 링크를 첨부하고 텍스트를 편집할 수 있습니다.
 {% include image.html file="feedback/qna_board_02.png"  caption="Q&A 등록 예시" %}
 
+
+
+{% include bottom.html %}
