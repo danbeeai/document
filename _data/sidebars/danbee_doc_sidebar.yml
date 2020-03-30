@@ -228,6 +228,26 @@ entries:
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
 
+      - title: 지식 라이브러리 관리
+        output: web, pdf
+
+        subfolderitems:
+          - title: 지식 라이브러리 데이터 추가
+            url: /predefined_api_knowledgerowappend.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 수정
+            url: /predefined_api_knowledgerowupdate.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 찾기
+            url: /predefined_api_knowledgerowfind.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 삭제
+            url: /predefined_api_knowledgerowdelete.html
+            output: web, pdf
+
     
   - title: 채널 연결
     output: web, pdf
