@@ -16,21 +16,23 @@ next: {
 }
 ---
 
-## API 설명
+## 설명
 
-단비Ai에서 제공하는 여러가지 API 중 지식 라이브러리 데이터(행) 추가 API 입니다. <br >
+단비Ai에서 제공하는 여러가지 API 중 지식 라이브러리 데이터(행) 추가 API 입니다.
+<hr/>
 
-## API Request URL
+## Request URL
 <pre>POST  https://openapi.danbee.ai/openapis/knowledge/:knowledgeId/create</pre>
 ##### knowledgeId
 지식라이브러리 ID
+<hr/>
 
-## API 입력값
+## Input
 
-| KEY | TYPE | Required | VALUE | VALUE_EXAMPLE |
-|--------|--------|--------|--------|--------| 
-| accessKey | String | Yes | 액세스키 | dojfdo2Dfosk2@!dk
-| data | Array\<String\> | Yes | 데이터 | 하단 예시 참고
+| KEY | TYPE | Required | VALUE | 
+|--------|--------|--------|--------|
+| accessKey | String | Yes | 액세스키 | 
+| data | Array\<String\> | Yes | 데이터 |
 
 
 ##### accessKey
@@ -39,9 +41,9 @@ next: {
 Array\<String\> 타입으로, 아래를 예시를 참고해주세요.
 
 - FAQ : Array.length가 10으로, 질문과 답변은 필수<br/><br/>['질문', '답변', '버튼명1', '버튼링크1', '버튼명2', '버튼링크2', '버튼명3', '버튼링크3', '버튼명4', '버튼링크4']
+<hr/>
 
-
-## API 결과값
+## Output
 
 | KEY | TYPE | VALUE |
 |--------|--------|--------|

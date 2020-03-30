@@ -12,21 +12,23 @@ previous: {
 }
 ---
 
-## API 설명
+## 설명
 
 단비Ai에서 제공하는 여러가지 API 중 지식 라이브러리 데이터(행) 삭제 API 임니다. <br>
+<hr/>
 
-## API Request URL
+## Request URL
 <pre>POST  https://openapi.danbee.ai/openapis/knowledge/:knowledgeId/delete</pre>
 ##### knowledgeId
 지식라이브러리 ID
+<hr/>
 
-## API 입력값
+## Input
 
-| KEY | TYPE | Required | VALUE | VALUE_EXAMPLE |
-|--------|--------|--------|--------|--------| 
-| accessKey | String | Yes | 액세스키 | dojfdo2Dfosk2@!dk
-| id | Integer | Yes | 지식 데이터 id | 하단 설명 참고
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| accessKey | String | Yes | 액세스키 | 
+| id | Integer | Yes | 지식 데이터 id | 
 
 
 ##### accessKey
@@ -34,9 +36,9 @@ previous: {
 
 ##### id
 지식 라이브러리 데이터 중 각 데이터가 가지고 있는 고유 id로, id는 지식 데이터 찾기 API를 통해 확인할 수 있습니다.
+<hr/>
 
-
-## API 결과값
+## Output
 
 | KEY | TYPE | VALUE |
 |--------|--------|--------|

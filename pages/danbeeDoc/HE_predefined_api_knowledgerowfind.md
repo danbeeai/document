@@ -16,21 +16,22 @@ next: {
 }
 ---
 
-## API 설명   
+## 설명   
 
-단비Ai에서 제공하는 여러가지 API 중 지식 라이브러리 데이터(행) 찾기 API 임니다. <br>
+단비Ai에서 제공하는 여러가지 API 중 지식 라이브러리 데이터(행) 찾기 API 임니다.
+<hr/>
 
-## API Request URL
+## Request URL
 <pre>POST  https://openapi.danbee.ai/openapis/knowledge/:knowledgeId/find</pre>
 ##### knowledgeId
 지식라이브러리 ID
 
-## API 입력값
+## Input
 
-| KEY | TYPE | Required | VALUE | VALUE_EXAMPLE |
-|--------|--------|--------|--------|--------| 
-| accessKey | String | Yes | 액세스키 | dojfdo2Dfosk2@!dk
-| columnName | String | Yes | 컬럼명 | 하단 설명 참고
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| accessKey | String | Yes | 액세스키 | 
+| columnName | String | Yes | 컬럼명 | 
 | findValue | String | Yes | 검색어 |  
 
 
@@ -41,25 +42,26 @@ next: {
 
 FAQ 지식 라이브러리 
 
-| columnName | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| question | String | Yes | 질문 
-| answer | String | Yes | 답변 
-| buttonName1 | String | No | 버튼1 이름
-| buttonUrl1 | String | No | 버튼1 링크
-| ... |  |  | 
-| buttonName4 | String | No | 버튼4 이름
-| buttonUrl4 | String | No | 버튼4 링크
+| columnName | TYPE | VALUE |
+|--------|--------|--------|
+| question | String | 질문 |
+| answer | String | 답변 |
+| buttonName1 | String | 버튼1 이름 |
+| buttonUrl1 | String | 버튼1 링크 |
+| ... |  |  |
+| buttonName4 | String | 버튼4 이름 |
+| buttonUrl4 | String | 버튼4 링크 |
 
+<hr/>
 
-## API 결과값
+## Output
 
 | KEY | TYPE | VALUE |
 |--------|--------|--------|
 | result_status | String | 결과상태 ( success / fail ) |
 | result_message | String | 결과 메시지 내용 |
 | result_code | String | 결과코드 |
-| result | Array<Object> | 조회 데이터 |
+| result | Array\<Object\> | 조회 데이터 |
 
 
 
