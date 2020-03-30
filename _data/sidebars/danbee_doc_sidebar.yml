@@ -211,46 +211,59 @@ entries:
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
 
+      - title: 지식 라이브러리 관리
+        output: web, pdf
+
+        subfolderitems:
+          - title: 지식 라이브러리 데이터 추가
+            url: /predefined_api_knowledgerowappend.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 수정
+            url: /predefined_api_knowledgerowupdate.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 찾기
+            url: /predefined_api_knowledgerowfind.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 삭제
+            url: /predefined_api_knowledgerowdelete.html
+            output: web, pdf
 
   - title: 채널 연결
     output: web, pdf
 
     folderitems:
-    - title: 연결 가능한 대화 채널
+    - title: 단비와 연결 가능한 채널
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: Frogue - 단비 제공 채널
+    - title: 프로그
       url: /channel_frogu.html
-      output: web, pdf
-
-    - title: Kioscott
-      url: /channel_kioscott.html
       output: web, pdf
 
     - title: API for Your App
       url: /channel_native_app.html
       output: web, pdf
 
-    - title: Facebook
+    - title: 키오스캇
+      url: /channel_kioscott.html
+      output: web, pdf
+
+    - title: 카카오톡
+      url: /channel_kakaoibuilder.html
+      output: web, pdf
+
+    - title: 페이스북
       url: /channel_facebook.html
-      output: web, pdf
 
-    - title: LINE
+    - title: 네이버 라인
       url: /channel_line.html
-      output: web, pdf
-
-    - title: LINE WORKS
-      url: /channel_lineworks.html
       output: web, pdf
 
     - title: Telegram
       url: /channel_telegram.html
-      output: web, pdf
-
-    - title: 카카오톡(카카오i오픈빌더)
-      url: /channel_kakaoibuilder.html
-      output: web, pdf
 
     - title: 네이버톡톡
       url: /channel_navertalk.html
@@ -260,6 +273,10 @@ entries:
       url: /channel_slack.html
       output: web, pdf
 
+    - title: LINE WORKS
+      url: /channel_lineworks.html
+      output: web, pdf
+      
   - title: 챗봇 운영 단계
     output: web, pdf
 
