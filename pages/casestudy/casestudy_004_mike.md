@@ -3,7 +3,7 @@ title: 친절한 마이크
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_004_mike.html
 folder: blog
 ---

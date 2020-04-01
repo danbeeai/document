@@ -3,7 +3,7 @@ title: 안양대학교, 대학학사지원챗봇 아리봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_008_aribot.html
 folder: blog
 ---

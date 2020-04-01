@@ -3,7 +3,7 @@ title: 한국전력공사, 조달시스템 도우미 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_015_srm.html
 folder: blog
 ---
