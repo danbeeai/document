@@ -3,7 +3,7 @@ title: NH농협은행, NH디지털혁신캠퍼스 시설도우미
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_013_nh_robot_concierge.html
 folder: blog
 ---

@@ -1,9 +1,9 @@
 ---
-title: 단비로 싹튼 챗봇! 케이스스터디
+title: 단비로 싹튼 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 만들어진 챗봇 이야기
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_000_landing.html
 folder: blog
 ---
