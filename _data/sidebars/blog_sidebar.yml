@@ -3,6 +3,14 @@
 entries:
 - title: Sidebar
   folders:
+
+  - title: 시작하기
+    output: web
+    folderitems:
+    - title: 챗봇 시대를 여행하는 히치하이커를 위한 안내서
+      url: /index.html
+      output: web
+
   - title: 챗봇BIZ
     output: web
     folderitems:

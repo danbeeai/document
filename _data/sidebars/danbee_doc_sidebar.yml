@@ -23,15 +23,39 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 챗봇 기본 상식
-      url: /index.html
+    - title: 매뉴얼 구성
+      url: /manual_home_composition.html
+      output: web, pdf
+      type: homepage
+      
+    - title: 단비Ai 화면 구성
+      url: /manual_service_composition.html
       output: web, pdf
       type: homepage
 
-    - title: 간단한 챗봇 만들어보기
-      url: /basic_create_chatbot.html
+    - title: 파브르, 도와주세요!
+      url: /meet_fabre.html
       output: web, pdf
+      type: homepage
 
+    - title: FAQ, 가장 자주 묻는 문의
+      url: /faq_00_gateway.html
+      output: web
+      type: homepage
+
+
+# 챗봇기본상식과 간단한 챗봇 만들기는 힘들게 읽고 나서 얻는 것이 없어보여서. 2020-04-01 라파가 메뉴에서 제거함
+#    - title: 챗봇 기본 상식
+#      url: /index.html
+#      output: web, pdf
+#      type: homepage
+
+#    - title: 간단한 챗봇 만들어보기
+#      url: /basic_create_chatbot.html
+#      output: web, pdf
+
+
+      
   - title: 그룹
     output: web, pdf
     folderitems:
@@ -284,7 +308,4 @@ entries:
   # - title: 사용자 의견 보내기
   #   output: web, pdf
 
-  #   folderitems:
-  #   - title: 사용자 의견 보내기
-  #     url: /feedback.html
-  #     output: web, pdf
+

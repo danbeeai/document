@@ -6,18 +6,19 @@ topnav:
 #    - title: GitHub
 #      external_url: https://github.com/danbeeai/document
 
-    - title: 매뉴얼
+    - title: 블로그
       url: /index.html
     - title: 튜토리얼
       url: /tutorial_home.html
-    - title: FAQ
-      url: /faq_00_gateway.html
+    - title: 매뉴얼
+      url: /manual_home_composition.html
     - title: 가격정책
       external_url: https://danbee.ai/pricing.html
-    - title: 블로그
-      url: /blog_000_landing.html
-    - title: 단비챗봇사례
-      url: /casestudy_000_landing.html
+
+#    - title: FAQ
+#      url: /faq_00_gateway.html
+#    - title: 단비챗봇사례
+#      url: /casestudy_000_landing.html
 #Topnav dropdowns
 #topnav_dropdowns:
 #- title: Topnav dropdowns

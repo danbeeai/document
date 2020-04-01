@@ -3,7 +3,7 @@ title: FAQ, 가장 자주 묻는 문의
 tags: [faq, basic]
 keywords: FAQ
 summary: 자주 문의하는 사항에 대해 정리해 보았습니다. 천천히 살펴보세요.
-sidebar: faq_sidebar
+sidebar: danbee_doc_sidebar
 permalink: faq_00_gateway.html
 folder: FAQ
 ---
