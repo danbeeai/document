@@ -47,7 +47,7 @@ entries:
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
-      
+
     - title: 고유 용어 사전
       url: /dictionary.html
       output: web, pdf
@@ -239,7 +239,7 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: 프로그
+    - title: 프로그(Frogue)
       url: /channel_frogu.html
       output: web, pdf
 
@@ -247,36 +247,38 @@ entries:
       url: /channel_native_app.html
       output: web, pdf
 
-    - title: 키오스캇
+    - title: 키오스캇(Kioscott)
       url: /channel_kioscott.html
       output: web, pdf
 
-    - title: 카카오톡
+    - title: 카카오톡(Kakaotalk)
       url: /channel_kakaoibuilder.html
       output: web, pdf
 
-    - title: 페이스북
+    - title: 페이스북(Facebook)
       url: /channel_facebook.html
+      output: web, pdf
 
-    - title: 네이버 라인
+    - title: 네이버 라인(LINE)
       url: /channel_line.html
       output: web, pdf
 
-    - title: Telegram
+    - title: 텔레그램(Telegram)
       url: /channel_telegram.html
+      output: web, pdf
 
     - title: 네이버톡톡
       url: /channel_navertalk.html
       output: web, pdf
 
-    - title: Slack
+    - title: 슬랙(Slack)
       url: /channel_slack.html
       output: web, pdf
 
     - title: LINE WORKS
       url: /channel_lineworks.html
       output: web, pdf
-      
+
   - title: 챗봇 운영 단계
     output: web, pdf
 
