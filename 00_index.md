@@ -28,7 +28,7 @@ sidebar: blog_sidebar
 
 ### 혹시 서비스 소개서를 찾고 있나요?
 단비Ai 서비스 소개서는 아래 링크를 클릭해 다운로드 하실 수 있습니다.
-[단비Ai 서비스 소개서 PDF 다운로드](https://doc.danbee.ai/assets/단비에이아이_서비스소개서_2020.pdf)
+[단비Ai 서비스 소개서 PDF 다운로드](https://doc.danbee.ai/assets/단비에이아이_서비스소개서_2020_v2.3.pdf)
 
 
 {% include bottom.html %}

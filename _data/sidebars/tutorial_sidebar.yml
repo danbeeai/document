@@ -19,7 +19,7 @@ entries:
       url: /tutorial_for_kim.html
       output: web
 
-  - title: 차근 차근 온라인 튜토리얼
+  - title: 튜토리얼봇 따라해보기
     output: web
     folderitems:
     # - title: 인기 Tutorial
