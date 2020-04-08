@@ -46,11 +46,12 @@ Slot 노드와 같은 역할을 하기 위해서는 파라미터가 필요합니
 {% include image.html file="tutorial/basic05_add_parameter.png"  caption="선택 답변받기" %}
 
 ### 이미지 첨부하기
-이미지를 업로드하거나 URL을 등록해 연결할 수 있습니다. 이미지 영역을 클릭한 후 아래의 샘플이미지 URL을 복사하여 이미지를 첨부해주세요. <br> 
-샘플이미지 URL :<br>
- http://doc.danbee.ai/images/tutorial/pizza_001.png<br>
- http://doc.danbee.ai/images/tutorial/pizza_002.png<br>
- http://doc.danbee.ai/images/tutorial/pizza_003.png<br>
+이미지를 업로드하거나 URL을 등록해 연결할 수 있습니다. 아래의 샘플이미지 URL을 복사하여 이미지를 첨부해주세요. <br> 
+
+>##### 샘플이미지 URL :<br>
+http://doc.danbee.ai/images/tutorial/pizza_001.png<br>
+http://doc.danbee.ai/images/tutorial/pizza_002.png<br>
+http://doc.danbee.ai/images/tutorial/pizza_003.png<br>
 
 ### 버튼 및 설명 추가하기
 이미지 외에 Title, Sub Title, 버튼 등을 추가할 수 있습니다. 피자 토핑에 대한 설명과 메뉴를 선택할 수 있는 버튼을 추가해보겠습니다.
