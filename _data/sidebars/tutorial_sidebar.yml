@@ -28,7 +28,7 @@ entries:
     # - title: Tutorial 모음
     #   url: /tutorials_archive.html
     #   output: web
-    - title: 0. 튜토리얼 시작하기
+    - title: 0. 튜토리얼봇 살펴보기(영상)
       url: /samplebot.html
       output: web
     - title: 1. 대화의도 생성하기
