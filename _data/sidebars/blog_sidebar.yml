@@ -96,6 +96,14 @@ entries:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
       output: web
+
+      
+    - title: 어린이대공원, 홈페이지 안내 챗봇
+      url: /casestudy_016_children.html
+      output: web
+    - title: LS일렉트릭, 홈페이지 안내 챗봇
+      url: /casestudy_017_lse.html
+      output: web
     - title: 한국전력공사, 조달시스템 챗봇
       url: /casestudy_015_srm.html
       output: web
