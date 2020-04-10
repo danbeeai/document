@@ -804,7 +804,7 @@ div#toc >ul::before {
     line-height:1.8em;
     word-break : normal;
     margin:25px;
-    margin-right:220px;
+    /*margin-right:220px;*/
     margin-left:32px;
 }
 
