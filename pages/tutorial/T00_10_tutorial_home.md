@@ -22,7 +22,7 @@ folder: tutorial
 
 ## Level 1, FAQ
 질문과 답형태의 단답형 콘텐츠를 만든다면, 개발경험이 없는 김대리님 혼자 뚝딱 만들 수 있습니다. 엑셀정리하듯 질문과 답변을 정리만 하십시오.
-[FAQ챗봇 만들기 튜토리얼](tutorial_faq.html, 'FAQ챗봇 만들기 튜토리얼 바로가기')을 보고 따라해보세요. 3~5분이면 됩니다.
+[FAQ챗봇 만들기 튜토리얼](tutorial_faq.html)을 보고 따라해보세요. 3~5분이면 됩니다.
 <br/><br/>
 {% include button_cta.html value="FAQ챗봇 만들기 튜토리얼" title="FAQ챗봇 만들기 튜토리얼 바로가기" url="tutorial_faq.html" %}
 
