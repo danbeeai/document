@@ -21,10 +21,10 @@ sidebar: blog_sidebar
 
 | 메뉴 | 내용 | 대상자 |
 |-------|-------|------|
-| [블로그](/blog_021_BIZ05_zgeneration.html, '블로그 바로가기') | 챗봇빌더 단비Ai를 운영하면서 먼저 알게된 대화Ai BIZ, UX, TECH 관련 콘텐츠 | 사업기획자, IT기획자, 챗봇에 대한 상식을 넓히고 싶은 분 |
-| [튜토리얼](/tutorial_home.html, '튜토리얼 바로가기') | 차근차근 따라하다보면 어느 새 챗봇이 뚝딱! 나오는 교육콘텐츠 | 챗봇 제작 담당자 또는 챗봇 솔루션을 검토중이신 분 |
-| [메뉴얼](/manual_home_composition.html, '메뉴얼 바로가기') | 단비Ai메뉴별 기능과 사용법을 체계적이고 상세하게 | 직접 만들고 있으신 분들 |
-| [가격정책](https://danbee.ai/pricing.html, '가격정책 바로가기') | 서비스 이용정책 안내 및 가격정책 FAQ | 단비Ai를 도입하고자 하시는 분 |
+| [블로그]('/blog_021_BIZ05_zgeneration.html', '블로그 바로가기') | 챗봇빌더 단비Ai를 운영하면서 먼저 알게된 대화Ai BIZ, UX, TECH 관련 콘텐츠 | 사업기획자, IT기획자, 챗봇에 대한 상식을 넓히고 싶은 분 |
+| [튜토리얼]('/tutorial_home.html', '튜토리얼 바로가기') | 차근차근 따라하다보면 어느 새 챗봇이 뚝딱! 나오는 교육콘텐츠 | 챗봇 제작 담당자 또는 챗봇 솔루션을 검토중이신 분 |
+| [메뉴얼]('/manual_home_composition.html', '메뉴얼 바로가기') | 단비Ai메뉴별 기능과 사용법을 체계적이고 상세하게 | 직접 만들고 있으신 분들 |
+| [가격정책]('https://danbee.ai/pricing.html', '가격정책 바로가기') | 서비스 이용정책 안내 및 가격정책 FAQ | 단비Ai를 도입하고자 하시는 분 |
 {: .table .table-striped}
 
 ## DON'T PANIC
