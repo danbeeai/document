@@ -27,7 +27,7 @@ sidebar: blog_sidebar
 5. 만든 챗봇은 웹채팅창, 라이브챗, 메신저연결, API연결을 통해 사용자들이 쓸 수 있게 오픈할 수 있습니다.
    <br/>[단비와 연결 가능한 채널](/channel_connection_settings.html)
 6. 4주간 무료로 사용할 수 있고 결제정보를 먼저 입력하게 되어있지만, 4주전에 탈퇴하면 과금되지 않습니다.특히! 3,300원 요금제의 경우 월간 사용량을 측정하여 외부 사용자가 사용을 하지 않는 경우 과금되지 않습니다. <br />
-   [요금제 살펴보기](/pricing.html)
+   [요금제 살펴보기](https://danbee.ai/pricing.html)
 
 
 ## 안내서 구성
@@ -38,7 +38,7 @@ sidebar: blog_sidebar
 | [블로그](/blog_021_BIZ05_zgeneration.html) | 챗봇빌더 단비Ai를 운영하면서 먼저 알게된 대화Ai BIZ, UX, TECH 관련 콘텐츠 | 사업기획자, IT기획자, 챗봇에 대한 상식을 넓히고 싶은 분 |
 | [튜토리얼](/tutorial_home.html) | 차근차근 따라하다보면 어느 새 챗봇이 뚝딱! 나오는 교육콘텐츠 | 챗봇 제작 담당자 또는 챗봇 솔루션을 검토중이신 분 |
 | [메뉴얼](/manual_home_composition.html) | 단비Ai메뉴별 기능과 사용법을 체계적이고 상세하게 | 직접 만들고 있으신 분들 |
-| [가격정책](/pricing.html) | 서비스 이용정책 안내 및 가격정책 FAQ | 단비Ai를 도입하고자 하시는 분 |
+| [가격정책](https://danbee.ai/pricing.html) | 서비스 이용정책 안내 및 가격정책 FAQ | 단비Ai를 도입하고자 하시는 분 |
 {: .table .table-striped}
 
 ## DON'T PANIC
