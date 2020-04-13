@@ -56,6 +56,8 @@ FAQ(Frequently Asked Questions)는 가장 빈번하게 물어보는 질문들을
 
 예시처럼 FAQ 데이터를 습득한 챗봇은 따로 시나리오를 등록하지 않았음에도 알고있는 지식을 바탕으로 알맞은 답변을 해줍니다.
 
-
+## 빠르게 FAQ챗봇을 만들어 보기
+단비Ai에서 제공하는 위자드 템플릿을 이용하면, 빠르게 FAQ챗봇을 만들어 볼 수 있습니다. 튜토리얼을 참고하세요.
+[FAQ챗봇 만들기 튜토리얼](https://doc.danbee.ai/tutorial_faq.html)
 
 {% include bottom.html %}
