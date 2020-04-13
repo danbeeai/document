@@ -23,7 +23,7 @@ next: {
 단비로 만든 대화Ai는 어떤 대화채널이든 연결 가능합니다. 홈페이지, 앱, 음성봇, 메신저 까지 자유롭게 연결할 수 있습니다.
 
 ## 홈페이지 챗봇, 프로그(Frogue)
-{% include image.html file="channel/c_frogue.png" width="40" max-width="40" caption="챗봇 전용 웹채팅창 Frogue by danbee.Ai" %}
+{% include image.html file="ichannel/frogue/frogue05_livechat.PNG" caption="챗봇 전용 웹채팅창 Frogue by 단비Ai" %}
 홈페이지에 적용할 수 있는 웹채팅창, Frogue를 제공합니다. Frogue에서도 기본적인 디자인 변경은 가능합니다.
 단비Ai 홈페이지에 Frogue가 적용되어 있습니다. [단비Ai 홈페이지](https://danbee.ai)
 
@@ -31,7 +31,6 @@ next: {
 [연결하는 방법 알아보기](channel_frogu.html)
 
 ## API연동을 통해 자유롭게, API for your App.
-{% include image.html file="channel/c_danbee.png" width="40" max-width="40" caption="대화서비스와 연계할 수 있는 API by danbee.Ai" %}
 기본 웹채팅창 이상의 더 많은 변경을 원하신다면 채팅창을 별도로 제작을 하고 단비Ai에서 제공하는 API를 연결하여 구현하실 수 있습니다. 
 [연결하는 방법 알아보기](channel_native_app.html)
 
