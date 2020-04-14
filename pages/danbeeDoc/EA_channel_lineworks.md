@@ -16,7 +16,7 @@ next: {
 }
 ---
 ## 라인웍스 채널 연결 
-{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 
 ### 라인웍스 설정
@@ -49,7 +49,7 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
 
 
 ### 단비Ai 채널 연결 설정
-1. [챗봇 관리] > [챗봇 제작] > [채널 연결] 메뉴로 이동 하십시오.
+1. [챗봇] > [챗봇 제작] > [채널 연결] 메뉴로 이동 하십시오.
 2. LINE WORKS 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/lineworks/lineworks_danbee_setting.png" alt="danbee line works channel setting" style="max-width: 800px"></figure>
   * Bot ID : LINE WORKS Developers Console에서 생성한 Bot No

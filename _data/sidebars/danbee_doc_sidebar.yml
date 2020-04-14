@@ -272,8 +272,12 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: 프로그(Frogue)
+    - title: 프로그(Frogue) 
       url: /channel_frogu.html
+      output: web, pdf
+
+    - title: 프로그(Frogue) 오픈소스
+      url: /channel_frogu_open.html
       output: web, pdf
 
     - title: API for Your App
