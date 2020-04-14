@@ -154,13 +154,22 @@ entries:
         output: web, pdf
 
         subfolderitems:
-        - title: 예외 상황 설정
+        - title: 대화의도 테스트
+          url: /intent_test_batch.html
+          output: web, pdf
+
+        - title: 특수 상황 설정
           url: /settings_personality.html
           output: web, pdf
 
-        - title: 추론 설정
+        - title: 챗봇 추론 설정
           url: /settings_nlu.html
           output: web, pdf
+
+        - title: 지식 답변 관리
+          url: /knowledge_answer_mgmt.html
+          output: web, pdf
+
 
     - title: 테스트 패널
       url: /demo_n_test_panel.html
@@ -303,7 +312,7 @@ entries:
       url: /channel_lineworks.html
       output: web, pdf
 
-  - title: 챗봇 운영 단계
+  - title: 챗봇 운영 관련 기능
     output: web, pdf
 
     folderitems:
@@ -311,8 +320,20 @@ entries:
       url: /log.html
       output: web, pdf
 
-    - title: 애널리틱스
+    - title: 학습 추천
+      url: /learning_recommend.html
+      output: web, pdf
+
+    - title: 애널리틱스 - 통계
       url: /dashboard.html
+      output: web, pdf
+
+    - title: 애널리틱스 - 행동 분석
+      url: /dashboard_activity.html
+      output: web, pdf
+
+    - title: 애널리틱스 - 리포트 다운로드
+      url: /dashboard_report.html
       output: web, pdf
 
 
