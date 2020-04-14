@@ -1,5 +1,5 @@
 ---
-title: 예외상황 설정
+title: 특수 상황 설정
 tags: [settings, basic]
 keywords: General Conversation
 summary: 챗봇의 답변을 여러 상황에 맞춰 다르게 말할 수 있도록 설정할 수 있습니다.
@@ -16,9 +16,9 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/변경 > 챗봇 특수 상황 설정" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 고급 기능 > 챗봇 특수 상황 설정" type="default" %}
 
-챗봇이 예상치 못한 상황을 어떻게 처리할지 자세하게 설정합니다.
+사용자가 중의적인 표현을 했을 때, 불안전한 네트워크 등으로 인한 에러가 발생했을 때, 사용자가 '말'이 아닌 파일을 보낼 때,  대화 흐름 진행 도중 흐름과 관계없는 말을 했을 때 등 특수한 상황들에 대해 상세한 설정을 합니다. 
 
 - [예외상황 설정](settings_personality.html#정확도별-기본답변-설정)
 - [파일전송시 응답 설정](settings_personality.html#예외상황-설정)
