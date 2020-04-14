@@ -2,7 +2,7 @@
 title: Frogue(챗봇전용 채팅창) 
 tags: [channel]
 keywords: Basic Conversation
-summary: 간단한 설정으로 danbee.Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.
+summary: 간단한 설정으로 단비Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_frogu.html
 folder: danbeeDoc
@@ -22,7 +22,7 @@ next: {
 
 <strong>단비가 내리면, 개구리가 운다!</strong>
 
-챗봇, 채팅창이 필요합니다. Frogue는 danbee.Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
+챗봇, 채팅창이 필요합니다. Frogue는 단비Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
 아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
 {% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
 
@@ -81,7 +81,7 @@ next: {
     </tr>
     <tr>
       <td>파라미터2(JSON)</td>
-      <td>전달데이터 - 대화흐름(챗플로우) 파라미터로 전달</td>
+      <td>전달데이터 - 대화흐름(대화흐름) 파라미터로 전달</td>
     </tr>
   </tbody>
 </table>
@@ -120,7 +120,7 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
     </tr>
     <tr>
       <td>파라미터(JSON)</td>
-      <td>전달데이터 - 대화흐름(챗플로우) 파라미터로 전달</td>
+      <td>전달데이터 - 대화흐름(대화흐름) 파라미터로 전달</td>
     </tr>
   </tbody>
 </table>

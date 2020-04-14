@@ -60,7 +60,7 @@ next: {
 {% include image.html file="intent/Intent_sentence_parameter_03.png" caption="예문은 하나지만 다른 단어를 동적으로 받는 모습을 확인 할 수 있습니다." %}
 
 ### 예문에 연결된 파라미터 관리
-{% include image.html file="intent/Intent_parameter_03.png"  caption="인텐트에서 관리되고 있는 파라미터 목록" %}
+{% include image.html file="intent/Intent_parameter_03.png"  caption="대화의도에서 관리되고 있는 파라미터 목록" %}
 
 해당 대화의도에 추가되어 있는 파라미터는 파라미터 목록에서 확인할 수 있습니다. 대화의도에서 지정된 파라미터는 해당 의도 안에서만 사용할 수 있습니다.
 
@@ -117,7 +117,7 @@ next: {
 
 ## 의도(Intent) 업로드
 
-danbee.Ai는 편의 기능의 일종으로 대화의도 업로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+단비Ai는 편의 기능의 일종으로 대화의도 업로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 

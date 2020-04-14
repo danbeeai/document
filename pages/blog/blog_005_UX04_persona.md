@@ -93,7 +93,7 @@ UX에서 페르소나는 사용자측의 페르소나 입니다. 하지만 최�
 {% include image.html file="blog/005_07.png"  caption="오감 영역과 디지털 영역 고려" %}
 
 ## 챗봇 페르소나 적용기 
-최근 danbee.Ai에서 샘플챗봇으로 오픈한 버그채집봇, 파브르는 Quick Canvas를 활용해 빠르게 페르소나를 설정하였습니다.
+최근 단비Ai에서 샘플챗봇으로 오픈한 버그채집봇, 파브르는 Quick Canvas를 활용해 빠르게 페르소나를 설정하였습니다.
 
 {% include image.html file="blog/005_08.png"  caption="빠리지앵 고양이, 시크한 성격으로" %}
 {% include image.html file="blog/005_09.png"  caption="~냥, ~양 과 같은 표현은 지양" %}

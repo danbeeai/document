@@ -49,7 +49,7 @@ Slack 채널 연계 설정을 하려면 기본적으로 다음이 필요합니�
 
 
 ### 4. Slack 채널 연결 정보 입력하기
-대화 채널 연결을 위해 Danbee.ai에서 제공하는 url 정보를 Slack App 설정에 입력하고 연결합니다.
+대화 채널 연결을 위해 단비Ai에서 제공하는 url 정보를 Slack App 설정에 입력하고 연결합니다.
 
 <figure><img class="docimage" src="images/channel/slack/slack_04_url.png" alt="Facebook for developers" style="max-width: 800px"></figure>
 * Slack 채널 설정 팝업창의 oAuth URL 값을 복사하고 Slack App 설정의 OAuth & Permission 섹션으로 이동합니다.
@@ -109,7 +109,7 @@ Slack 채널의 경우 아래와 같은 제약사항이 존재합니다. 제약�
 | 메시지 전송 제한 | <span class="link">[Access Tier별 확인](https://api.slack.com/docs/rate-limits#tiers){:target="_blank"}</span> |
 {: .table .table-striped}
 
-{% include warning.html content=" Danbee.Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}
+{% include warning.html content=" 단비Ai에서 채널 연결을 재설정할 경우 '5. App Install 하기, Slack에 App 추가하기' 단계를 다시 수행해야 합니다." %}
 
 
 {% include bottom.html %}

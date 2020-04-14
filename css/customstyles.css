@@ -577,6 +577,12 @@ li.activeSeries {
     color: #444;
 }
 
+.alert-dev {
+    border-color: #f05f70;
+    color: #82232e;
+    background-color: #fcf8e3;
+}
+
 div.alert code, h2 code {
     background-color: transparent !important;
 }

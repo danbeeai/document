@@ -56,7 +56,7 @@ next: {
 단비아이엔씨에서는 챗봇을 어디에 적용하는 것이 좋을지 추천하는 챗봇을 간단히 만들어 보았습니다.
 의사결정나무의 영어표현인 디씨전트리(Decision Tree)를 줄여서 디트라고 이름지어 보았습니다. 디트는 피노키오처럼(?) 나무로 만든 로봇입니다. 
 
-의사결정나무봇, 디트는 danbee.Ai에서 샘플챗봇 가져오기를 통해 어떻게 만들어졌는지 살펴보실 수 있습니다. 이 챗봇의 주안점은 아래와 같습니다.
+의사결정나무봇, 디트는 단비Ai에서 샘플챗봇 가져오기를 통해 어떻게 만들어졌는지 살펴보실 수 있습니다. 이 챗봇의 주안점은 아래와 같습니다.
 
 1. 하나의 파라미터로 SLOT과 SPLIT을 통해 의사결정을 찾아가는 과정을 만들었다는 점
 2. 사용자의 의사결정사항을 데이터로 쌓는다는 점
@@ -87,7 +87,7 @@ next: {
 {% include note.html content="구글 스프레드 시트 API는 standard 버전부터 이용가능한 기능입니다." %}
 {% include tip.html content="2019년 11월 11일 부터 [구글스프레드시트 행추가](/predefined_api_googlespreadsheetrowappend.html)를 이용해서 만드실 수 있습니다." %}
 
-1. 구글 스프레드 시트를 하나 만듭니다. 그리고 danbee.Ai에서 만든 API가 접근할 수 있게 권한을 부여합니다. (구글스프레드시트 우측상단에 [공유설정]에서 "초대할 사용자"에 sheets-api01@danbee-ai.iam.gserviceaccount.com를 추가하고, 수정권한을 부여)
+1. 구글 스프레드 시트를 하나 만듭니다. 그리고 단비Ai에서 만든 API가 접근할 수 있게 권한을 부여합니다. (구글스프레드시트 우측상단에 [공유설정]에서 "초대할 사용자"에 sheets-api01@danbee-ai.iam.gserviceaccount.com를 추가하고, 수정권한을 부여)
 2. spreadsheetId는 구글 스프레드시트가 열려있는 URL상에서 "https://docs.google.com/spreadsheets/d/" 이하에 있는 44자리 글자입니다.
 44자리 글자 부분을 복사해서 API설정 탭에 Body부분, spreadsheetId의 JSON 값을 바꿔주면, 해당 id의 스프레드시트에 데이터가 쌓이게 됩니다.
 3. range는 스프레드시트 Head에 해당하는 부분입니다. (그냥 두시는 것이 좋겠어요.)
