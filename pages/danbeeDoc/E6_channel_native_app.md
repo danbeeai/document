@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc
 previous: {
-    title: 프로그(챗봇전용 채팅창),
-    url: channel_frogu.html
+    title: Frogue(챗봇전용 채팅창)오픈소스,
+    url: channel_frogu_open.html
 }
 next: {
     title: 페이스북,
@@ -16,9 +16,12 @@ next: {
 }
 ---
 
-# API for Your App
+{% include important_developer.html content="웹개발에 대한 기본적인 이해가 필요한 개발자의 영역입니다. <br /> 개발자가 아니라면, 개발자 동료에게 도움을 요청하세요." type="default" %}
+
+## API for Your App
 채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명드리겠습니다.
-{% include callout.html content="화면 위치 : [챗봇 관리] > [챗봇 제작] > [채널 연결]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇] > [챗봇 제작] > [채널 연결]" type="default" %}
+
 
 ## Welcome 메시지 API
 대화 채널이 처음 사용자와 대화가 시작될때 챗봇이 먼저 인사를 하거나 메뉴 선택지를 제공하고자 할 경우 사용하는 API입니다.
