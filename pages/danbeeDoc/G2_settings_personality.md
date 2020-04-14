@@ -87,7 +87,7 @@ Welcome Message는 사용자가 처음 챗봇을 만났을 때 행동할 수 있
 
  - Chatflow
 
-해당 상황에서 단순한 메시지 대신 특정 챗플로우의 Listen 노드로 연결하여 다양한 인사말을 할 수 있습니다. 예를 들어 다음과 같이 Welcome Message를 대화흐름으로 설정하여 Welcome 대화흐름을 선택합니다.
+해당 상황에서 단순한 메시지 대신 특정 대화흐름의 Listen 노드로 연결하여 다양한 인사말을 할 수 있습니다. 예를 들어 다음과 같이 Welcome Message를 대화흐름으로 설정하여 Welcome 대화흐름을 선택합니다.
 
 {% include image.html file="personality/personality_welcome02.png"  caption="Welcome Message - Chatflow" %}
 
@@ -103,7 +103,7 @@ Welcome Message는 사용자가 처음 챗봇을 만났을 때 행동할 수 있
 {% include image.html file="personality/personality_default01.png"  caption="Deafult Fallback Percent" %}
 
 #### Default Fallback (대화흐름 방식)
-Welcome과 마찬가지로 해당 상황에서 단순 답변 대신 특정 챗플로우의 Listen 노드로 연결하여 다양하게 메세지를 보낼 수 있습니다. API를 통해 데이터베이스에 있는 정보를 제공하거나 챗봇이 되물어보고 사용자가 답하는 시나리오를 만들 수 있습니다. 또는 상황에 따라 특정 대화흐름으로 전환(JUMP)할 수도 있습니다. 원래 목적으로 되돌리기 위해서는 대화흐름을 잘 활용하는 것이 중요합니다. 
+Welcome과 마찬가지로 해당 상황에서 단순 답변 대신 특정 대화흐름의 Listen 노드로 연결하여 다양하게 메세지를 보낼 수 있습니다. API를 통해 데이터베이스에 있는 정보를 제공하거나 챗봇이 되물어보고 사용자가 답하는 시나리오를 만들 수 있습니다. 또는 상황에 따라 특정 대화흐름으로 전환(JUMP)할 수도 있습니다. 원래 목적으로 되돌리기 위해서는 대화흐름을 잘 활용하는 것이 중요합니다. 
 
 {% include image.html file="personality/personality_default02.png"  caption="Deafult Fallback - Chatflow" %}
 
@@ -133,11 +133,11 @@ Welcome과 마찬가지로 해당 상황에서 단순 답변 대신 특정 챗�
 예를 들어 '배고파'라는 말이 야식주문 Intent와 나가서먹자 대화의도에 같은 확률로 매칭될 경우 우측과 같이 Multi 대화의도 Message를 이용하여 되묻게 됩니다.
 
 #### Error
-**Error**는 사용자가 챗봇과 대화 중 챗봇 서버에서 예상치 못한 에러가 발생했을 때 사용자에게 하는 말입니다. 해당 메시지가 발송될 경우 danbee.Ai에 문의하시는 것을 권장합니다.
+**Error**는 사용자가 챗봇과 대화 중 챗봇 서버에서 예상치 못한 에러가 발생했을 때 사용자에게 하는 말입니다. 해당 메시지가 발송될 경우 단비Ai에 문의하시는 것을 권장합니다.
 
 {% include image.html file="personality/personality_error01.png"  caption="Error Message" %}
 
-Welcome과 마찬가지로 해당 상황에서 단순한 Error 메세지 대신 특정 챗플로우의 Listen 노드로 연결하여 다양하게 메시지를 보낼 수 있습니다.
+Welcome과 마찬가지로 해당 상황에서 단순한 Error 메세지 대신 특정 대화흐름의 Listen 노드로 연결하여 다양하게 메시지를 보낼 수 있습니다.
 
 ### 이전 대화 복귀 설정
 **이전 대화 복귀**란, 사용자가 챗봇의 질문에 대답하지 않고 다른 대화로 넘어갔을 때 이전 대화를 기억해두었다가 다시 이야기를 이어가는 기능입니다. 즉, 이전 대화 복귀는 실질적으로 사용자에게 질문에 대한 답을 받을 수 있는 Slot 노드와 Carousel 노드에 연관된 기능입니다.
@@ -153,7 +153,7 @@ Welcome과 마찬가지로 해당 상황에서 단순한 Error 메세지 대신 
 이전 대화 복귀 기능의 사용 여부를 설정할 수 있습니다. 우측 상단 Toggle 버튼을 이용해 간단하게 설정이 가능합니다.
 
 #### 복귀 확인 메시지
-이전 대화 복귀 기능 사용 시 챗봇이 되물어보는 말과 버튼명을 설정할 수 있습니다. 첫번째 버튼은 긍정의 의미, 두번째 버튼은 부정의 의미로 이용됩니다. 이때 danbee.Ai에서는 **slotMsg**라는 파라미터를 제공함니다.
+이전 대화 복귀 기능 사용 시 챗봇이 되물어보는 말과 버튼명을 설정할 수 있습니다. 첫번째 버튼은 긍정의 의미, 두번째 버튼은 부정의 의미로 이용됩니다. 이때 단비Ai에서는 **slotMsg**라는 파라미터를 제공함니다.
 
  - slotMsg : 이전에 대화가 끊겼던 질문 메시지를 담고 있는 파라미터
 

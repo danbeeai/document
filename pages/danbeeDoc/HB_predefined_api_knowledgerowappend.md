@@ -2,7 +2,7 @@
 title: 지식 라이브러리 데이터(행) 추가
 tags: [chatflow, API, advanced]
 keywords: api
-summary: danbee.Ai에서 제공하는 지식 라이브러리를 관리하는 api입니다.
+summary: 단비Ai에서 제공하는 지식 라이브러리를 관리하는 api입니다.
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_knowledgerowappend.html
 folder: danbeeDoc

@@ -2,7 +2,7 @@
 title: kioscott(키오스캇)
 tags: [channel]
 keywords: 
-summary: 간단한 설정으로 danbee.Ai에서 제공하는 키오스크 채널입니다.
+summary: 간단한 설정으로 단비Ai에서 제공하는 키오스크 채널입니다.
 sidebar: danbee_doc_sidebar
 permalink: channel_kioscott.html
 folder: danbeeDoc

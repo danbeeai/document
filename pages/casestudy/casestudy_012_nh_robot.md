@@ -10,7 +10,7 @@ folder: blog
 
 ## 번호표 발급부터 상품 가입까지, NH농협은행 로봇행원, ‘올리’
 영업점을 방문한 고객에게 번호표를 발급하고, 기다리는 동안 고객에게 금융상품을 추천해주는 로봇행원입니다.
-danbee.Ai에 챗봇을 만들고, 음성인식과 음성합성을 연결하여 음성으로 대화가 가능한 서비스 로봇입니다. 키오스크보다 대화를 유발하는 행동유발성이 높고 큰 화면에서 말로 전달할 수 없는 정보를 시원하게 제공합니다.
+단비Ai에 챗봇을 만들고, 음성인식과 음성합성을 연결하여 음성으로 대화가 가능한 서비스 로봇입니다. 키오스크보다 대화를 유발하는 행동유발성이 높고 큰 화면에서 말로 전달할 수 없는 정보를 시원하게 제공합니다.
 
 <div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nWTHl9uVAic?autoplay=0&controls=1&autohide=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

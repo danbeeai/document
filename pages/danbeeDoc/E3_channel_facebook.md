@@ -51,8 +51,8 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 1. <span class="link">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 돌아갑니다. 
 2. Webhooks 영역의 Webhooks 설정 버튼을 클릭하여 설정을 합니다. 
 3. 다음 필드에 관련 값을 입력하십시오. 입력 후 확인 및 저장버튼을 클릭합니다.
-  * 콜백 URL : danbee.Ai에서 자동생성된 URL
-  * 확인 토큰 : danbee.Ai에 입력한 확인 토큰 
+  * 콜백 URL : 단비Ai에서 자동생성된 URL
+  * 확인 토큰 : 단비Ai에 입력한 확인 토큰 
 4. 웹훅이 추가되고 나면 [받아보기 추가]버튼을 클릭하여 아래 필드의 체크박스를 체크상태로 바꿉니다.
   * 받아보기 필드 : messages, messaging_postbacks, messaging_option 체크 
 
@@ -87,7 +87,7 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 ## Facebook 고정메뉴
 {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
 
-danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook 고정메뉴 설정 기능을 제공하고 있습니다.
+단비Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook 고정메뉴 설정 기능을 제공하고 있습니다.
 
 ### Facebook 고정메뉴 설정
 
@@ -98,7 +98,7 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 
 {% include image.html file="channel/facebook/facebook_menu_setting_01.png"  caption="Facebook 메인 메뉴 설정" %} 
 
-메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 챗플로우 호출, 서브메뉴가 존재합니다.
+메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 대화흐름 호출, 서브메뉴가 존재합니다.
 
 | 메뉴 옵션 | 설명 | 
 |--------|-------|

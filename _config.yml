@@ -6,7 +6,7 @@ output: web
 topnav_title: 단비Ai 도큐먼트
 # this appears on the top navigation bar next to the home button
 
-site_title: danbee.Ai Document
+site_title: 단비Ai 도큐먼트
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: danbee Inc

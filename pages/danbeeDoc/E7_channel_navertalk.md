@@ -55,7 +55,7 @@ next: {
 
 ### 네이버톡톡 Webhook 설정
 1. <span class="link">[네이버톡톡 파트너센터](https://partner.talk.naver.com/){:target="_blank"}</span> 의 [계정관리 홈] - [개발자도구] - [챗봇API설정] 페이지로 돌아갑니다.
-2. Webhook의 이벤트 받을 URL 란에 danbee.Ai에서 복사한 콜백 URL을 입력하고 등록을 클릭합니다.
+2. Webhook의 이벤트 받을 URL 란에 단비Ai에서 복사한 콜백 URL을 입력하고 등록을 클릭합니다.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_10_webhook.png" alt="네이버톡톡 Webhook설정" style="max-width: 800px"></figure>
 3. 이벤트 변경 버튼을 클릭하여 send, open을 선택합니다.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_11_event_setting.png" alt="네이버톡톡 이벤트 설정" style="max-width: 800px"></figure>

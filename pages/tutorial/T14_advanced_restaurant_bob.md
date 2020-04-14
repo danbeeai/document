@@ -76,19 +76,19 @@ next: {
 한편, 프랜차이즈 상담팀은 즉시 상담신청 내용을 받아볼 수 있게 됩니다.
 {% include image_border.html file="tutorial\sample_bob\bob_08_fran_03.PNG" caption="Slack으로 접수된 프랜차이즈 상담 내용" %}
 
-식당곰, 밥은 샘플챗봇이기 때문에 danbee.Ai에서 바로 받아서 원하는 질문과 흐름으로 수정하여 홈페이지나 모바일앱, 페이스북과 같은 메신저에 연결이 가능합니다.
+식당곰, 밥은 샘플챗봇이기 때문에 단비Ai에서 바로 받아서 원하는 질문과 흐름으로 수정하여 홈페이지나 모바일앱, 페이스북과 같은 메신저에 연결이 가능합니다.
 {% include image_border.html file="tutorial\sample_bob\bob_10_fran_05.PNG" caption="시각적으로 드러나는 대화흐름" %}
 
 
 ## 적용 방법
 
-danbee.Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
+단비Ai에 접속하여, 챗봇 샘플 가져오기할 수 있습니다.
 <span class="link">[Sample Chatbot 가져오는 방법 확인하기](/samplebot.html#%EC%83%98%ED%94%8C%EC%B1%97%EB%B4%87-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0)</span><br/>
 
 
 가지고 온 챗봇을 아래와 같은 방법을 통해 출동시킬 수 있습니다.
 
-1. danbee.Ai에서 제공하는 챗봇전용 채팅창, [프로그(Frogue)](/channel_frogu.html) <br>
+1. 단비Ai에서 제공하는 챗봇전용 채팅창, [프로그(Frogue)](/channel_frogu.html) <br>
 2. 개발자를 위한 [API for Your App](/channel_native_app.html)<br>
 3. 다양한 메신저 플랫폼에 [연결](/channel_connection_settings.html)<br>
 
