@@ -2,7 +2,7 @@
 title: 구글 스프레드시트 행 추가
 tags: [chatflow, API, advanced]
 keywords: api
-summary: 단비Ai에서 제공하는 슬랙의 특정 채널에 메시지를 전송하는 API입니다.
+summary: 단비Ai에서 제공하는 구글 스프레드시트 행추가 API입니다.
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_googlespreadsheetrowappend.html
 folder: danbeeDoc
