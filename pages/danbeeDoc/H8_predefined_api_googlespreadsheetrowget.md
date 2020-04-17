@@ -2,7 +2,7 @@
 title: 구글 스프레드시트 행 조회
 tags: [chatflow, API, advanced]
 keywords: api
-summary: 단비Ai에서 제공하는 슬랙의 특정 채널에 메시지를 전송하는 API입니다.
+summary: 단비Ai에서 제공하는 구글 스프레드시트 API입니다.
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_googlespreadsheetrowget.html
 folder: danbeeDoc
@@ -21,6 +21,11 @@ next: {
 단비Ai에서 제공하는 여러가지 API 중 구글 스프레드시트 행 조회 API임니다. <br>
 요금제는 Standard 이상부터 사용가능합니다. <br>
 
+### 구글스프레드시트 권한을 부여해야 됩니다.
+구글스프레드시트에서 [공유] > 사용자 목록에 아래 이메일을 등록하고 [수정가능]권한을 부여합니다. 
+
+    sheets-api01@danbee-ai.iam.gserviceaccount.com
+    
 ## API 입력값
 
 | KEY | TYPE | Required | VALUE |
