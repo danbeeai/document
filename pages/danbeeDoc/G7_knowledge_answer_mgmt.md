@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: knowledge_answer_mgmt.html
 folder: danbeeDoc
 previous: {
-    title: 기본 답변 설정,
-    url: settings_personality.html
+    title: 챗봇 추론 설정,
+    url: settings_nlu.html
 }
 next: {
-    title: 공통 변수 관리,
-    url: settings_manage_variables.html
+    title: 지식 답변 관리,
+    url: knowledge_answer_mgmt.html
 }
 ---
 

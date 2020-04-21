@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: log.html
 folder: danbeeDoc
 previous: {
-    title: NLU 설정,
-    url: settings_nlu.html
+    title: 단비와 연결 가능한 채널,
+    url: channel_connection_settings.html
 }
 next: {
-    title: 대시보드,
-    url: dashboard.html
+    title: 학습 추천,
+    url: learning_recommend.html
 }
 ---
 

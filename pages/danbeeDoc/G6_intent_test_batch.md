@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: intent_test_batch.html
 folder: danbeeDoc
 previous: {
-    title: 기본 답변 설정,
-    url: settings_personality.html
-}
-next: {
     title: 공통 변수 관리,
     url: settings_manage_variables.html
+}
+next: {
+    title: 특수 상황 설정,
+    url: settings_personality.html
 }
 ---
 

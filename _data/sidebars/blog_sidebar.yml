@@ -89,6 +89,9 @@ entries:
     - title: AI를 위한 AI, 챗봇 학습 추천
       url: /blog_009_TECH01_recommendation.html
       output: web
+    - title: 챗봇 회사에서 챗봇 채팅창 소스코드를 오픈한다고?
+      url: /blog_023_TECH03_frogue_opensource.html
+      output: web
 
   - title:  케이스스터디
     output: web

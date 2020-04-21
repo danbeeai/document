@@ -7,11 +7,11 @@ sidebar: danbee_doc_sidebar
 permalink: settings_personality.html
 folder: danbeeDoc
 previous: {
-    title: 사용자사전 관리,
-    url: dictionary.html
+    title: 대화의도 테스트,
+    url: intent_test_batch.html
 }
 next: {
-    title: NLU 설정,
+    title: 챗봇 추론 설정,
     url: settings_nlu.html
 }
 ---

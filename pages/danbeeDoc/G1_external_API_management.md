@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: external_API_management.html
 folder: danbeeDoc
 previous: {
-    title: 카카오톡,
-    url: channel_kakaotalk.html
+    title: 지식 라이브러리,
+    url: knowledge_library.html
 }
 next: {
-    title: 사용자 의견 보내기,
-    url: feedback.html
+    title: 고유 용어 사전,
+    url: dictionary.html
 }
 ---
 {% include callout.html content="메뉴위치 : 그룹 > 그룹 챗봇 > API 관리" type="default" %}

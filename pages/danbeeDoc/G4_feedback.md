@@ -6,7 +6,14 @@ summary: 단비Ai 메뉴를 호출하거나 버그/의견/문의사항을 접수
 sidebar: danbee_doc_sidebar
 permalink: meet_fabre.html
 folder: danbeeDoc
-
+previous: {
+    title: 단비Ai 화면 구성,
+    url: manual_service_composition.html
+}
+next: {
+    title: FAQ, 가장 자주 묻는 문의,
+    url: faq_00_gateway.html
+}
 ---
 
 ## 파브르는 단비Ai의 디지털 직원

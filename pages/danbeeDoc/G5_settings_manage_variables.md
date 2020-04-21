@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: settings_manage_variables.html
 folder: danbeeDoc
 previous: {
-    title: NLU 설정,
-    url: settings_nlu.html
+    title: 엔티티,
+    url: entity.html
 }
 next: {
-    title: 대화 이력 관리,
-    url: log.html
+    title: 대화의도 테스트,
+    url: intent_test_batch.html
 }
 ---
 

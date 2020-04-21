@@ -6,7 +6,14 @@ summary: 기업에서 챗봇관련 미션을 부여받은 분을 위한 튜토�
 sidebar: tutorial_sidebar
 permalink: tutorial_for_kim.html
 folder: tutorial
-
+previous: {
+    title: 마음이 급한 분을 위한 추천 콘텐츠,
+    url: tutorial_recommend.html
+}
+next: {
+    title: 튜토리얼봇 살펴보기 (영상),
+    url: samplebot.html
+}
 ---
 
 ## 챗봇을 담당하게 되셨다고요?

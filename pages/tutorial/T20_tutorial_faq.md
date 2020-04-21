@@ -6,7 +6,14 @@ summary: 질문과 답을 엑셀로 정리해놓았다면 5분이면 만들 수 
 sidebar: tutorial_sidebar
 permalink: tutorial_faq.html
 folder: tutorial
-
+previous: {
+    title: 챗봇 레벨별 접근하기,
+    url: tutorial_home.html
+}
+next: {
+    title: 마음이 급한 분을 위한 추천 콘텐츠,
+    url: tutorial_recommend.html
+}
 ---
 
 ## FAQ위자드, 셀라몬!

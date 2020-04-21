@@ -1,18 +1,18 @@
 ---
-title: 테스트 패널 및 시뮬레이션 
+title: 테스트 패널
 tags: [simulation, nlu, chatflow]
 keywords: Basic Conversation
-summary: 테스트 패널 및 시뮬레이션을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
+summary: 테스트 패널을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: demo_n_test_panel.html
 folder: danbeeDoc
 previous: {
-    title: 대시보드,
-    url: dashboard.html
+    title: 지식 답변 관리,
+    url: knowledge_answer_mgmt.html
 }
 next: {
-    title: 챗봇 채널 연계 설정,
-    url: channel_connection_settings.html
+    title: 단비 제공 API,
+    url: predefined_api.html
 }
 ---
 

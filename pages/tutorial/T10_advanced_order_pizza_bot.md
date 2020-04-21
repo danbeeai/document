@@ -1,5 +1,5 @@
 ---
-title: 피자주문봇 만들기 
+title: 튜토리얼 심화 - 피자주문봇 만들기 
 keywords: 피자주문봇
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
@@ -8,11 +8,11 @@ folder: 피자주문봇 만들기
 summary: 피자주문봇을 만들어 봅니다.
 search: exclude
 previous: {
-        title: Function 노드 사용하기,
-        url: basic_function_node.html
+    title: Function 노드 사용하기,
+    url: basic_function_node.html
 }
 next: {
-    title: 선택장애제거, 캡틴초이,
+    title: 선택장애제거봇, 캡틴초이,
     url: advanced_choice_bot.html
 }
 ---

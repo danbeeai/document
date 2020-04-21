@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: entity.html
 folder: danbeeDoc
 previous: {
-    title: 의도 관리,
-    url: intent.html
+    title: JUMP 노드,
+    url: chatflow_jump.html
 }
 next: {
-    title: 대화흐름 기본 설명,
-    url: chatflow.html
+    title: 공통 변수 관리,
+    url: settings_manage_variables.html
 }
 ---
 

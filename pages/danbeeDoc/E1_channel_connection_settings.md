@@ -8,7 +8,7 @@ sidebar: danbee_doc_sidebar
 permalink: channel_connection_settings.html
 folder: danbeeDoc
 previous: {
-    title: 테스트 패널 및 시뮬레이션,
+    title: 테스트 패널,
     url: demo_n_test_panel.html
 }
 next: {

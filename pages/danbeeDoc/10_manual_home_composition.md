@@ -6,7 +6,14 @@ summary: 단비Ai 서비스를 이용하기 위한 매뉴얼 구성안내입니�
 sidebar: danbee_doc_sidebar
 permalink: manual_home_composition.html
 folder: manual
-
+previous: {
+    title: 챗봇 시대를 여행하는 히치하이커를 위한 안내서,
+    url: index.html
+}
+next: {
+    title: 단비Ai 화면 구성,
+    url: manual_service_composition.html
+}
 ---
 
 ## 단비Ai에 대해 자세히 알고 싶은 여러분!
