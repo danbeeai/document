@@ -7,7 +7,7 @@ sidebar: tutorial_sidebar
 permalink: basic_create_intent.html
 folder: tutorial
 previous: {
-    title: 튜토리얼 시작하기,
+    title: 튜토리얼봇 살펴보기 (영상),
     url: samplebot.html
 }
 next: {

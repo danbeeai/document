@@ -1,18 +1,18 @@
 ---
-title: 챗봇 생성/관리
+title: 챗봇 생성
 tags: [nlu, advanced]
 keywords: Chatbot Management
-summary: 챗봇을 생성하고 관리하는 법에 대해서 설명합니다.
+summary: 챗봇을 생성하는 법에 대해서 설명합니다.
 sidebar: danbee_doc_sidebar
 permalink: chatbot_create.html
 folder: danbeeDoc
 previous: {
-    title: Jump 노드,
-    url: chatflow_jump.html
+    title: 고유 용어 사전,
+    url: dictionary.html
 }
 next: {
-    title: 기본답변 설정,
-    url: chatflow_jump.html
+    title: 시작 메세지,
+    url: welcome.html
 }
 ---
 

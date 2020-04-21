@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: dictionary.html
 folder: danbeeDoc
 previous: {
-    title: Jump 노드,
-    url: chatflow_jump.html
+    title: API 관리,
+    url: external_API_management.html
 }
 next: {
-    title: 기본답변 설정,
-    url: settings_personality.html
+    title: 챗봇 생성,
+    url: chatbot_create.html
 }
 ---
 

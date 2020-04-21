@@ -1,5 +1,5 @@
 ---
-title: 파라미터 관리 
+title: 파라미터
 tags: [intent, nlu, basic]
 keywords: Basic Conversation
 summary: 대화에서 추출한 정보나, 설정된 값을 가지고 대화흐름을 진행합니다.
@@ -7,18 +7,18 @@ sidebar: danbee_doc_sidebar
 permalink: parameter.html
 folder: danbeeDoc
 previous: {
-    title: 업데이트 로그,
-    url: update_log.html
+    title: 대화흐름 기본 설명,
+    url: chatflow.html
 }
 next: {
-    title: 대화의도 관리,
-    url: intent.html
+    title: Listen Node,
+    url: chatflow_listen.html
 }
 ---
 
 {% include image.html file="intent/parameter_explain.png" %}
 
-## 파라미터(파라미터)
+## 파라미터(Parameter)
 
 **파라미터**란 사용자와의 대화에서 뽑아내는 정보를 담아내는 껍데기입니다. 변수와도 같은 개념으로 특정 값을 저장하고 대화흐름에서 사용하기위해 사용됩니다. 파라미터에는 **파라미터명**과 **엔티티**가 반드시 설정되어야합니다. 파라미터명은 변수 명, 엔티티는 변수 타입과 같은 종류로 볼 수 있습니다.
 

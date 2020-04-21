@@ -6,7 +6,14 @@ summary: 단비Ai 서비스를 이용하기 위한 매뉴얼 구성안내입니�
 sidebar: danbee_doc_sidebar
 permalink: manual_service_composition.html
 folder: manual
-
+previous: {
+    title: 매뉴얼 구성,
+    url: manual_home_composition.html
+}
+next: {
+    title: 파브르, 도와주세요!,
+    url: meet_fabre.html
+}
 ---
 
 

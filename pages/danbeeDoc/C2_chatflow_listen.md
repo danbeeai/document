@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: chatflow_listen.html
 folder: danbeeDoc
 previous: {
-    title: 대화흐름 기본 설명, 
-    url: chatflow.html
+    title: 파라미터, 
+    url: parameter.html
 }
 next: {
     title: Speak Node,
@@ -16,10 +16,11 @@ next: {
 }
 ---
 
+## Listen Node 개요
 Listen Node는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫 번째 Node입니다.
-Listen Node는 대화의도나 사용자 이벤트에 연결되어 작동하게됩니다.
+Listen Node는 대화의도나 사용자 이벤트에 연결되어 작동하게됩니다. 
 
-{% include image.html file="chatflow/Chatflow_listen_canvas.png"  caption="ListenNode" %}
+{% include image.html file="chatflow/Chatflow_listen_canvas.png"  caption="Listen Node" %}
 
 <!-- 
 

@@ -33,6 +33,7 @@ next: {
 | URL | https://danbee.ai/chatflow/welcome.do |
 | METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
 
 ### REQUEST 정보 
 
@@ -41,6 +42,7 @@ next: {
 | chatbot_id | String | Yes | 챗봇아이디 |
 | session_id | Number | No | 대화 세션 아이디(기존대화이력과 연결하여 시작메시지를 사용할 경우 전달) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
+{: .table .table-striped}
 
 ### RESPONSE 정보
 
@@ -65,6 +67,7 @@ next: {
 | debugCode | String | No | 디버그 코드정보|
 | debugMsg | String | No | 디버그 메시지|
 | resultStatus | JSON | No | 결과 상태정보|
+{: .table .table-striped}
 
 #### RESPONSE Object 정보
 * another_result Object
@@ -75,6 +78,7 @@ next: {
 | intent_name | 대화의도 명 |
 | intent_id | 대화의도 아이디 |
 | intent_alias | 대화의도 별명 |
+{: .table .table-striped}
 
  * result Object
 
@@ -84,12 +88,14 @@ next: {
 | imgRoute | 메시지에 표시될 이미지 정보가 표시됩니다. |
 | optionList | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
+{: .table .table-striped}
 
  * parameters Object
 
 | KEY | Description |
 |--------|--------|
 | 대화의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
+{: .table .table-striped}
 
  * emotions Object
 
@@ -98,6 +104,7 @@ next: {
 | positive | 긍정 확률 |
 | neutral | 중립 확률 |
 | negative | 부정 확률 |
+{: .table .table-striped}
 
  * resultStatus Object
  
@@ -106,7 +113,7 @@ next: {
 | resultCmt | 결과 코멘트 |
 | resultCode | 결과 코드 |
 | resultMsg | 결과 메시지 |
- 
+{: .table .table-striped}
 
 ## 대화 엔진 API 
 대화 채널에서 주고받는 대화를 처리하는 API. 사용자의 질문의 의도를 파악하고 그에 따른 대화흐름을 관리하는 대화흐름를 사용하는 API입니다.
@@ -118,6 +125,7 @@ next: {
 | URL | https://danbee.ai/chatflow/engine.do |
 | METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
 
 ### REQUEST 정보 
 
@@ -133,6 +141,7 @@ next: {
 | param_id | String | No | 파라미터 아이디 (Slot 노드, Carousel 노드 경우 사용됨) |
 | chatflow_id | String | No | 대화흐름 아이디 |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
+{: .table .table-striped}
 
 #### REQUEST Object 정보
 
@@ -141,6 +150,7 @@ next: {
 | KEY | Description |
 |--------|--------|
 | 대화의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
+{: .table .table-striped}
 
 ### RESPONSE 정보
 
@@ -166,6 +176,7 @@ next: {
 | debugCode | String | No | 디버그 코드정보|
 | debugMsg | String | No | 디버그 메시지|
 | resultStatus | JSON | No | 결과 상태정보|
+{: .table .table-striped}
 
 #### RESPONSE Object 정보
 * another_result Object
@@ -185,12 +196,14 @@ next: {
 | imgRoute | 메시지에 표시될 이미지 정보가 표시됩니다. |
 | optionList | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
+{: .table .table-striped}
 
  * parameters Object
 
 | KEY | Description |
 |--------|--------|
 | 대화의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
+{: .table .table-striped}
 
  * emotions Object
 
@@ -199,6 +212,7 @@ next: {
 | positive | 긍정 확률 |
 | neutral | 중립 확률 |
 | negative | 부정 확률 |
+{: .table .table-striped}
 
  * resultStatus Object
  
@@ -207,7 +221,8 @@ next: {
 | resultCmt | 결과 코멘트 |
 | resultCode | 결과 코드 |
 | resultMsg | 결과 메시지 |
- 
+{: .table .table-striped}
+
 ## 노드 Option Object
 노드 옵션 기능은 챗봇의 답변을 표시하는 speak 노드, slot 노드, carousel 노드에서 설정할 수 있습니다. <figure><img class="docimage" src="images/channel/nptive/nptive_app_node_option.png" alt="Frogue 셋팅" style="max-width: 800px"></figure>
 
@@ -219,6 +234,7 @@ next: {
 | type | 6 가지의 옵션 구분값이 표시됩니다. |
 | label | 채널 화면에서 보여질 명칭이 표시됩니다. |
 | value | 채널에서 옵션에 따라 처리할 정보가 표시됩니다. |
+{: .table .table-striped}
 
  * 노드 옵션의 유형에는 아래와 같습니다.
  
@@ -230,7 +246,7 @@ next: {
 | 외부 App 실행 | outApp | 스마트폰에서 외부 App 실행을 하기 위한 정보를 설정합니다. |
 | Call (전화연결) | call | 스마트폰에서 전화연결을 하기 위한 정보를 설정합니다. |
 | 대화흐름 호출 | callFlow | 다른 대화흐름 를 진행하기 위한 정보를 설정합니다. |
- 
+{: .table .table-striped}
 
 ## 사용자 대화 평가 API 
 대화 채널에서 챗봇 대화에 대해서 사용자 평가를 처리하는 API. 챗봇에 대답에 대해 약 7가지의 평가를 진행할 수 있습니다.
@@ -250,6 +266,7 @@ next: {
 | URL | https://danbee.ai/chatflow/evaluateMsg.do |
 | METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
 
 ### REQUEST 정보 
 
@@ -257,6 +274,7 @@ next: {
 |--------|--------|--------|--------|
 | log_id | int | Yes | 로그아이디 |
 | evaluate_flag | String | Yes | 평가 |
+{: .table .table-striped}
 
 ### RESPONSE 정보
 
@@ -264,6 +282,7 @@ next: {
 |--------|--------|--------|--------|
 | code | String | Yes | 결과코드  |
 | result | JSON | No | 결과 |
+{: .table .table-striped}
 
 #### RESPONSE Object 정보
 * result Object
@@ -272,6 +291,7 @@ next: {
 |--------|--------|
 | log_id | 로그아이디 |
 | evaluate_flag | 평가 |
+{: .table .table-striped}
 
 
 #### RESPONSE resultStatus 유형
@@ -283,6 +303,7 @@ next: {
 | 400 | [NLU] 의도 파악이 안되었을 경우, EngineHandler 예외상황 |
 | 404 | [Chatflow] 대화의도에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
 | 405 | [Chatflow] flow 설정 문제 (답변 메시지를 못 찾았을 때, 분기 오류인 경우) |
+{: .table .table-striped}
 
 ## 의도추론이력 조회 API
 의도추론이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
@@ -296,6 +317,7 @@ next: {
 | URL | https://danbee.ai/chatbot/chatbotlog/nlu/retrieve |
 | METHOD | GET |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
 
 ### REQUEST 정보 
 
@@ -304,6 +326,7 @@ next: {
 | chatbotId | String | Yes | 챗봇아이디 |
 | baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
 | apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 의도추론이력 화면에서 생성 및 조회 가능 ) |
+{: .table .table-striped}
 
 ### REQUEST 브라우저 테스트
 아래의 예시로 브라우저에서 간단히 테스트가 가능함.
@@ -324,6 +347,7 @@ https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&base
 | opIntentId | String | No | 의도추론 아이디 ( 의도추론 상세화면에서 설정된 값 ) |
 | userId | String | Yes | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
 | chatSessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
+{: .table .table-striped}
 
 ## 대화이력 조회 API
 대화 이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
@@ -337,6 +361,7 @@ https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&base
 | URL | https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve |
 | METHOD | GET |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
 
 ### REQUEST 정보 
 
@@ -345,6 +370,7 @@ https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&base
 | chatbotId | String | Yes | 챗봇아이디 |
 | baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
 | apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 대화이력 화면에서 생성 및 조회 가능 ) |
+{: .table .table-striped}
 
 ### REQUEST 브라우저 테스트
 아래의 예시로 브라우저에서 간단히 테스트가 가능함.
@@ -368,6 +394,7 @@ https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디
 | neg | Number | No | 대화내용 감정 부정 수치 |
 | neu | Number  | No | 대화내용 감정 중립 수치 |
 | pos | Number | No | 대화내용 감정 긍정 수치 |
+{: .table .table-striped}
 
 
 {% include bottom.html %}

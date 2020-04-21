@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: intent.html
 folder: danbeeDoc
 previous: {
-    title: 챗봇 생성하기,
-    url: basic_create_chatbot.html
+    title: 시작 메세지,
+    url: welcome.html
 }
 next: {
-    title: 엔티티 관리,
-    url: entity.html
+    title: 대화흐름 기본 설명,
+    url: chatflow.html
 }
 ---
 

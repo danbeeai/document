@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: dashboard.html
 folder: danbeeDoc
 previous: {
-    title: 대화 이력 관리 ,
-    url: log.html
+    title: 학습 추천,
+    url: learning_recommend.html
 }
 next: {
-    title: 테스트 패널 및 시뮬레이션,
-    url: demo_n_test_panel.html
+    title: 애널리틱스 - 행동 분석,
+    url: dashboard_activity.html
 }
 ---
 

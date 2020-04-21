@@ -12,7 +12,7 @@ previous: {
     url: basic_api_node.html
 }
 next: {
-    title: 피자주문봇 만들기,
+    title: 튜토리얼 심화 - 피자주문봇 만들기,
     url: advanced_order_pizza_bot.html
 }
 ---

@@ -7,11 +7,11 @@ sidebar: danbee_doc_sidebar
 permalink: learning_recommend.html
 folder: danbeeDoc
 previous: {
-    title: NLU 설정,
-    url: settings_nlu.html
+    title: 대화 이력 관리,
+    url: log.html
 }
 next: {
-    title: 대시보드,
+    title: 애널리틱스 - 통계,
     url: dashboard.html
 }
 ---

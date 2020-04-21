@@ -7,12 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: dashboard_report.html
 folder: danbeeDoc
 previous: {
-    title: 대화 이력 관리 ,
-    url: log.html
-}
-next: {
-    title: 테스트 패널 및 시뮬레이션,
-    url: demo_n_test_panel.html
+    title: 애널리틱스 - 행동분석 ,
+    url: dashboard_activity.html
 }
 ---
 
@@ -24,7 +20,11 @@ next: {
 
 1. 챗봇별 세션수, 사용량, Chat Count
 2. 대화의도(Intent) 추론 사용량 순위
-3. 대화흐름(Chat-folw) 사용량 순위
+3. 대화흐름(Chatflow) 사용량 순위
 4. 접속한 UserID별 사용량 순위
+
+{% include image_border.html file="dashboard/dasnboard_report_download.jpg"  caption="다양한 View를 다운로드 할 수 있는 리포트 다운로드 화면" %}
+
+
 
 {% include bottom.html %}
