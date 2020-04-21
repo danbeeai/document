@@ -1,5 +1,5 @@
 ---
-title: FAQ챗봇 만들기 튜토리얼  
+title: FAQ챗봇 튜토리얼  
 tags: [tutorial, basic]
 keywords: Tutorial
 summary: 질문과 답을 엑셀로 정리해놓았다면 5분이면 만들 수 있는 챗봇입니다.
