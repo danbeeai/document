@@ -152,3 +152,10 @@ entries:
     - title: 단비챗봇, 친절한 마이크
       url: /casestudy_004_mike.html
       output: web
+
+  - title:  보도자료
+    output: web
+    folderitems:
+    - title: 준비중입니다.
+      url: /ready.html
+      output: web
