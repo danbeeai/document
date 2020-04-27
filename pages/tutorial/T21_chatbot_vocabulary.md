@@ -12,8 +12,9 @@ next: {
 ---
 
 
-
+<div class="videowrapper">
 <iframe  width="100%" height="380" src="https://www.youtube.com/embed/SjK1sM9RDGQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## 챗봇을 만드는 가장 쉬운 방법 단비.Ai!
 

@@ -16,8 +16,9 @@ summary: 만족도 조사 챗봇 템플릿을 고쳐서 설문조사 챗봇을 �
 {% include note.html content="구글 스프레드 시트 API는 standard 버전부터 이용가능한 기능입니다." %}
 {% include tip.html content="2019년 11월 11일 부터 [구글스프레드시트 행추가](/predefined_api_googlespreadsheetrowappend.html)를 이용해서 만드실 수 있습니다." %}
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B6Fil5qTNH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 챗봇을 이해하는 가장 빠른 방법은 하나 만들어 보는 것입니다.
 기능을 이용하는 상황과 맥락을 들으면서 차근 차근 해보도록 해요.
