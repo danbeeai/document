@@ -25,8 +25,9 @@ FAQ위자드, 셀라몬는 FAQ챗봇을 만들 때 활용할 수 있는 위자�
 ## 영상으로 만나보는 FAQ챗봇 제작 과정
 단순문의에 응답하는 챗봇 제작과정을 영상으로 만나보세요.
 
+<div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BqdJUdwEU44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 ### 아래 순서대로 따라하세요.
 
