@@ -3,7 +3,7 @@ title: 씨드시스템, 대학학사지원 챗봇
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_007_xidsystem.html
 folder: blog
 ---

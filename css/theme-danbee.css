@@ -121,6 +121,22 @@ pre code{
     line-height:24px;
 }
 
+
+.button-cta:link, .button-cta:visited{
+    font-weight:bold;
+    color:#fff;
+    background-color:#ff7621;
+    display:inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin:4px 2px;
+    border-radius : 12px;
+}
+.button-cta:hover, .button-cta:active {
+    background-color:#ff8c44;
+}
+
 @media (max-width: 1000px){
     .githubEditButton{
         top: 0px;
@@ -331,7 +347,7 @@ div#toc_side ul ul ul {
 }
 
 .post-content h2 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.6;
     font-weight: 400;
     height: auto;

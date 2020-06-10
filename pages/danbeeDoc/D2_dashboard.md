@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-danbee.Ai에서는 실 챗봇 사용 통계를 애널리틱스 메뉴에서 시각화된 자료로 확인할 수 있습니다. 
+danbee.Ai에서는 실 챗봇 사용 통계를 애널리틱스 메뉴에서 시각화된 자료로 확인할 수 있습니다! 
 
 - [처리량 통계](dashboard.html#Transaction)
 - [학습 통계](dashboard.html#Learning)

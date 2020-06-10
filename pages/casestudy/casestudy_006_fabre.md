@@ -3,7 +3,7 @@ title: 버그채집봇 파브르
 tags: [blog, case, study, case-study]
 keywords: case-study
 summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+sidebar: blog_sidebar
 permalink: casestudy_006_fabre.html
 folder: blog
 ---

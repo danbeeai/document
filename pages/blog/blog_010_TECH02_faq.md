@@ -21,20 +21,14 @@ folder: tutorial
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HFE6djjaXxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-FAQ 봇은 **챗봇 목록>샘플 챗봇 가져오기>고객응대위자드-FAQ봇**을 통해 이용하실 수 있습니다.
 
-※ 엑셀파일 템플릿은 단비에이아이(https://danbee.ai) > 챗봇 목록 > 샘플챗봇 가져오기 버튼을 클릭. FAQ봇 (Beta)를 가져오기 하면, 다운로드할 수 있는 링크가 있습니다.
-
-<span>1.</span>  자주 문의 되는 질문과 답을 기존에 정리되어 있는 FAQ와 Q&A자료를 “(ID), 질문, 답, (버튼명), (홈페이지링크)” 형식으로 엑셀파일에 정리합니다. 팀원들이 있다면 나누어서 작업하고 하나로 합치면 됩니다. 이미 작성된 내용이 있다구요?! 그럼 오전에 쉬십시오.   {% include image.html file="blog/010_01_excel.PNG" %}<figcaption style="padding-left:20px">저희는 엑셀로 관리해서.. 커피나 한잔 하러 가시죠</figcaption>
+{% include note.html content="영상 촬영 당시의 기능이 개선되어, 현재는 직접 붙여넣기 할 수 있는 형태입니다. " %}
 
 
-<span>2.</span>  점심먹고 오셔서 danbee.Ai에서 FAQ챗봇 템플릿 위자드를 실행합니다. 작성된 엑셀파일을 업로드합니다. 짠! 챗봇이 완성되었습니다. {% include image.html file="blog/010_02_wizard.PNG" %}<figcaption style="padding-left:20px">업로드만 하면 뚝딱</figcaption>
+FAQ 봇은 **챗봇 목록> FAQ챗봇 스티브**를 통해 이용할 수 있어요. [FAQ챗봇 만들기 튜토리얼](/tutorial_faq.html)에서 따라해보세요!
 
 
-<span>3.</span>  danbee.Ai에서 제공하는 무료 챗봇 전용 채팅창, Frogue의 Embedding 코드를 홈페이지에 삽입합니다. 와우! 라이브로 챗봇서비스가 시작되었습니다. {% include image.html file="blog/010_03_frogue.PNG" %}<figcaption style="padding-left:20px">라이브에 적용된 모습</figcaption>
-
-
-처음부터 모든 문의사항에 응답하는 챗봇을 만들려고 하지 마세요! 가장 빈번한 문의사항에 집중하고, 운영을 하는 과정에서 추가 학습을 하는 것을 권장합니다.여기서 추가로, 알아듣지 못한 경우 담당자에게 관련 내용을 전달하는 시나리오를 추가해주면 챗봇과 사람이 효율적으로 일을 나누어 처리할 수 있는 구조가 됩니다. 채팅상담원이 있다면 1:1채팅상담과 연결하는 것도 가능합니다. 간단한 문의사항에 자동으로 응답하는 챗봇을 여러분들의 웹사이트에 적용해보시기 바랍니다.
+간단한 문의사항에 자동으로 응답하는 챗봇을 여러분들의 웹사이트에 적용해보시기 바랍니다.
 
 
 작성자 : RAPA

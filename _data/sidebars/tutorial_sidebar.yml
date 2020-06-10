@@ -5,14 +5,21 @@ entries:
   #levels: one 활성화 하면,
   folders:
 
-  - title: 기업담당자를 위한 튜토리얼 
+  - title: 튜토리얼 시작하기 
     output: web
     folderitems:
-    - title: 챗봇담당자 김대리를 위한 튜토리얼   
+
+    - title: 챗봇 레벨별 접근하기
       url: /tutorial_home.html
       output: web
+    - title: FAQ챗봇 튜토리얼   
+      url: /tutorial_faq.html
+      output: web
+    - title: 챗봇담당자 김대리를 위한 튜토리얼   
+      url: /tutorial_for_kim.html
+      output: web
 
-  - title: 차근 차근 온라인 튜토리얼
+  - title: 튜토리얼봇 따라해보기
     output: web
     folderitems:
     # - title: 인기 Tutorial
@@ -21,7 +28,7 @@ entries:
     # - title: Tutorial 모음
     #   url: /tutorials_archive.html
     #   output: web
-    - title: 0. 튜토리얼 시작하기
+    - title: 0. 튜토리얼봇 살펴보기(영상)
       url: /samplebot.html
       output: web
     - title: 1. 대화의도 생성하기

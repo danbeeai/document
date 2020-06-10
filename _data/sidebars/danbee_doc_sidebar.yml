@@ -23,15 +23,39 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 챗봇 기본 상식
-      url: /index.html
+    - title: 매뉴얼 구성
+      url: /manual_home_composition.html
+      output: web, pdf
+      type: homepage
+      
+    - title: 단비Ai 화면 구성
+      url: /manual_service_composition.html
       output: web, pdf
       type: homepage
 
-    - title: 간단한 챗봇 만들어보기
-      url: /basic_create_chatbot.html
+    - title: 파브르, 도와주세요!
+      url: /meet_fabre.html
       output: web, pdf
+      type: homepage
 
+    - title: FAQ, 가장 자주 묻는 문의
+      url: /faq_00_gateway.html
+      output: web
+      type: homepage
+
+
+# 챗봇기본상식과 간단한 챗봇 만들기는 힘들게 읽고 나서 얻는 것이 없어보여서. 2020-04-01 라파가 메뉴에서 제거함
+#    - title: 챗봇 기본 상식
+#      url: /index.html
+#      output: web, pdf
+#      type: homepage
+
+#    - title: 간단한 챗봇 만들어보기
+#      url: /basic_create_chatbot.html
+#      output: web, pdf
+
+
+      
   - title: 그룹
     output: web, pdf
     folderitems:
@@ -40,10 +64,14 @@ entries:
       url: /chatbot_list.html
       output: web, pdf
 
+    - title: 지식 라이브러리
+      url: /knowledge_library.html
+      output: web, pdf
+
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
-      
+
     - title: 고유 용어 사전
       url: /dictionary.html
       output: web, pdf
@@ -207,53 +235,72 @@ entries:
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
 
+      - title: 지식 라이브러리 관리
+        output: web, pdf
+
+        subfolderitems:
+          - title: 지식 라이브러리 데이터 추가
+            url: /predefined_api_knowledgerowappend.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 수정
+            url: /predefined_api_knowledgerowupdate.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 찾기
+            url: /predefined_api_knowledgerowfind.html
+            output: web, pdf
+
+          - title: 지식 라이브러리 데이터 삭제
+            url: /predefined_api_knowledgerowdelete.html
+            output: web, pdf
 
   - title: 채널 연결
     output: web, pdf
 
     folderitems:
-    - title: 연결 가능한 대화 채널
+    - title: 단비와 연결 가능한 채널
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: Frogue - 단비 제공 채널
+    - title: 프로그(Frogue)
       url: /channel_frogu.html
-      output: web, pdf
-
-    - title: Kioscott
-      url: /channel_kioscott.html
       output: web, pdf
 
     - title: API for Your App
       url: /channel_native_app.html
       output: web, pdf
 
-    - title: Facebook
+    - title: 키오스캇(Kioscott)
+      url: /channel_kioscott.html
+      output: web, pdf
+
+    - title: 카카오톡(Kakaotalk)
+      url: /channel_kakaoibuilder.html
+      output: web, pdf
+
+    - title: 페이스북(Facebook)
       url: /channel_facebook.html
       output: web, pdf
 
-    - title: LINE
+    - title: 네이버 라인(LINE)
       url: /channel_line.html
       output: web, pdf
 
-    - title: LINE WORKS
-      url: /channel_lineworks.html
-      output: web, pdf
-
-    - title: Telegram
+    - title: 텔레그램(Telegram)
       url: /channel_telegram.html
-      output: web, pdf
-
-    - title: 카카오톡(카카오i오픈빌더)
-      url: /channel_kakaoibuilder.html
       output: web, pdf
 
     - title: 네이버톡톡
       url: /channel_navertalk.html
       output: web, pdf
 
-    - title: Slack
+    - title: 슬랙(Slack)
       url: /channel_slack.html
+      output: web, pdf
+
+    - title: LINE WORKS
+      url: /channel_lineworks.html
       output: web, pdf
 
   - title: 챗봇 운영 단계
@@ -280,7 +327,4 @@ entries:
   # - title: 사용자 의견 보내기
   #   output: web, pdf
 
-  #   folderitems:
-  #   - title: 사용자 의견 보내기
-  #     url: /feedback.html
-  #     output: web, pdf
+

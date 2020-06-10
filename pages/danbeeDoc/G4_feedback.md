@@ -1,50 +1,31 @@
 ---
-title: 사용자 의견 보내기 
+title: 파브르, 도와주세요! 
 tags: [basic]
 keywords: Basic Conversation
-summary: 화면 어디에서든 쉽게 의견을 보낼 수 있습니다.
+summary: 단비Ai 메뉴를 호출하거나 버그/의견/문의사항을 접수하세요.
 sidebar: danbee_doc_sidebar
-permalink: feedback.html
+permalink: meet_fabre.html
 folder: danbeeDoc
-previous: {
-    title: API 관리,
-    url: external_API_management.html
-}
+
 ---
 
-## 사용자 의견 보내기
+## 파브르는 단비Ai의 디지털 직원
+2019년부터 일하고 있는 빠리지앵 고양이 파브르는 단비Ai에서 사용자를 돕고 있습니다. 파브르는 우측 하단에 늘 대기중이에요.
 
-### danbee.Ai 개선에 참여하세요
-단비만의 버그,개선,문의사항 채집봇 **파브르**를 이용하면 쉽게 의견을 보낼 수 있습니다. 파브르 버튼은 모든 페이지 우측 하단에 존재합니다.
+{% include image.html file="manual/danbeeai_frame.png" alt="단비Ai의 디지털 직원, 파브르" caption="단비Ai의 디지털 직원, 파브르" %}
 
-{% include image.html file="feedback/feedback_1.png"  caption="의견 보내기" %}
+클릭하고 궁금한 것을 물어보거나 문의사항이나 버그를 접수하실 수 있습니다.
+접수된 내용은 [단비에게 문의] 게시판에도 등록됩니다.
 
-파브르 버튼을 클릭하고 **[개선포인트가 있어~]**을 선택한 뒤, 제목과 내용을 차례로 입력하고, 필요에 따라 [+]버튼을 눌러 이미지를 첨부할 수 있습니다.  **[버그 발견!]**, **[개선 포인트가 있어~]**, **[문의사항 접수]**를 상황에 맞게 이용하여 단비에게 해당사항을 접수할수 있답니다. 
+## 단비에게 문의 게시판
 
-{% include image.html file="feedback/feedback_2.png"  caption="의견 보내기" %}
+**파브르**를 통해 접수한 버그나 개선,문의사항 또한 **단비에게 문의**에 자동으로 등록됩니다.
+게시판을 이용하면, 
+1. 사진, URL, 그리고 동영상을 링크를 첨부하고 텍스트를 편집할 수 있습니다.
+2. 내가 보낸 의견과 답변을 확인할 수 있습니다.
+3. 담당자의 답변을 확인할 수 있습니다.
 
-**파브르**를 통해 더욱 간단해진 **[사용자 의견 보내기]**, 단비는 여러분의 소중한 의견을 언제든지 환영합니다.
-
-<br/>
-## Q&A 게시판
-### 내 의견을 자유롭게 작성하고 확인하세요.
-
-{% include callout.html content="화면 위치 : [문의사항] - [문의하기] " type="default" %}
-
-**파브르**를 통해 접수한 버그나 개선,문의사항 또한 **문의하기**에 자동으로 등록됩니다.
-또한 내가 보낸 의견과 답변을 확인할 수 있고 의견을 더 자유롭게 작성할 수 있습니다.
-
-
-담당자가 확인후 답변을 작성하면 **문의하기**을 통해 답변을 확인 하실 수 있습니다.
-{% include image.html file="feedback/feedback_3.png"  caption="Q&A 게시판" %}
-
-
-내 의견을 좀 더 자유롭게 의견을 작성해보세요.
-
-
-Q&A 게시판에서도 문의를 작성하면 사진, URL, 그리고 동영상을 링크를 첨부하고 텍스트를 편집할 수 있습니다.
-{% include image.html file="feedback/qna_board_02.png"  caption="Q&A 등록 예시" %}
-
-
+## 질문, 의견, 버그 모두 환영!
+접수된 내용은 즉시 개발팀에게 전달됩니다. 모든 의견을 다 수용할 수 는 없지만 분명히 모두 읽어보고 있습니다. 늘 감사해요!
 
 {% include bottom.html %}
