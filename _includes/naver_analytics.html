@@ -1,0 +1,8 @@
+<!-- the google_analytics_id gets auto inserted from the config file -->
+
+{% if site.naver_analytics %}
+
+<script type="text/javascript" src="https//wcs.naver.net/wcslog.js"></script>
+<script type="text/javascript">if(!wcs_add) {var wcs_add = {};} wcs_add["wa"] = "{{site.naver_analytics}}"; if(window.wcs) { wcs_do(); }</script>
+
+{% endif %}
