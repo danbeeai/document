@@ -16,6 +16,8 @@ next: {
 }
 ---
 
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
+
 ## Listen Node 개요
 Listen Node는 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 가장 첫 번째 Node입니다.
 Listen Node는 대화의도나 사용자 이벤트에 연결되어 작동하게됩니다. 

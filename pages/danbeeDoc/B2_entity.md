@@ -11,12 +11,12 @@ previous: {
     url: chatflow_jump.html
 }
 next: {
-    title: 공통 변수 관리,
+    title: 공통 변수,
     url: settings_manage_variables.html
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/관리 > 엔티티" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 엔티티" type="default" %}
 
 
 {% include image.html file="entity/chatbotflow.png"  caption="대화의도와 엔티티의 관계" %}

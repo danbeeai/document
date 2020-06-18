@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/변경 > 시작 메세지" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 시작 메세지" type="default" %}
 
 ## 시작 메세지의 중요성
 {% include image.html file="welcome/0.PNG" %}

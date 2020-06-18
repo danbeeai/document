@@ -16,7 +16,6 @@ next: {
 }
 ---
 
-
 ## 챗봇 목록
 
 {% include image.html file="image/chatbot_list.PNG" %}

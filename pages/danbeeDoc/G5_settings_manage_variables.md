@@ -1,5 +1,5 @@
 ---
-title: 공통 변수 관리
+title: 공통 변수
 tags: [settings, nlu, chatflow, advanced]
 keywords: General Conversation
 summary: 챗봇에서 자주사용하는 값을 관리할 수 있습니다.
@@ -16,8 +16,10 @@ next: {
 }
 ---
 
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 공통 변수" type="default" %}
+
 {% include image.html file="manage_variables/1.PNG"  caption="기본 공통변수" %}
-{% include callout.html content="화면 위치 : [설정(Preference)] > [공통 변수 관리]" type="default" %}
+
 **공통변수**란, 챗봇에서 자주 사용되거나, 공통적으로 사용될 수 있는 정보를 말합니다.
 공통변수는 대화의도 간편답변 작성시,혹은 대화흐름의 'SpeakNode','SlotNode','CarouselNode'등 노드설정화면에서 사용될 수 있으며, API 호출 값으로도 사용될 수 있습니다.
 또한, 하나의 챗봇모델을 만들어놓고 회사명,챗봇명,오시는 길 등을 공통변수로 설정한 뒤 챗봇을 복사하면, 공통변수부분만 수정하면 유사한 챗봇을 쉽고 빠르게 만들 수 있습니다.

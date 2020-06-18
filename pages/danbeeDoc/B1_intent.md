@@ -1,5 +1,5 @@
 ---
-title: 대화의도
+title: 대화 의도
 tags: [intent, nlu, basic]
 keywords: Basic Conversation
 summary: 대화 의도를 통하여 입력 문장을 어떤 의도로 분류할 것인가를 설정할 수 있습니다.
@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/관리 > 대화의도" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화 의도" type="default" %}
  
 {% include image.html file="intent/chatbotflow.png"  caption="대화 의도와 엔티티의 관계" %}
 

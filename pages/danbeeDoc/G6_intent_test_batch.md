@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: intent_test_batch.html
 folder: danbeeDoc
 previous: {
-    title: 공통 변수 관리,
+    title: 공통 변수,
     url: settings_manage_variables.html
 }
 next: {

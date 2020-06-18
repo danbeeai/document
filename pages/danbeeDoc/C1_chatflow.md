@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/변경 > 대화흐름" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
 
 사람과 사람간의 대화에는 이야기 흐름이 있습니다. 
 
