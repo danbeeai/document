@@ -16,6 +16,8 @@ next: {
 }
 ---
 
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
+
 {% include image.html file="intent/parameter_explain.png" %}
 
 ## 파라미터(Parameter)
@@ -70,7 +72,7 @@ next: {
 파라미터는 **챗봇 세션동안 유지되는 세션파라미터**와, **대화흐름 단위로 유지되는 의도/이벤트 파리미터로** 이루어져 있습니다.
 대화의도와 연결된 대화흐름일 때는 의도 파라미터를, 함수를 통해 호출되는 이벤트플로우일 때에는 이벤트 파라미터를 생성/관리하게 됩니다.
 
-{% include image.html file="intent/make_intent_parameter.png" caption="파라미터 목록과 파라미터 생성팝업" %}
+{% include image.html file="intent/make_intent_parameter.PNG" caption="파라미터 목록과 파라미터 생성팝업" %}
 
 대화흐름/이벤트 파라미터를 생성할 때에는 각각 파라미터 성격에 맞는 엔티티를 설정하도록 되어있습니다. 엔티티에 대한 자세한 내용은 [여기](entity.html)에서 확인하실 수 있습니다.
 

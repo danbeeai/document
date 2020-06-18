@@ -16,7 +16,8 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 그룹 관리 > 고유 용어 사전" type="default" %}
+{% include callout.html content="위치 : 그룹 > 그룹 챗봇 > 고유 용어 사전" type="default" %}
+  
 {% include image.html file="synonym/1.PNG" %}
 **고유 용어 사전**이란, 사용자가 원하는 단어를 직접 사전에 등록하여 이용할 수 있는 서비스입니다. 단비Ai에서 기본적으로 제공하는 시스템사전에 등록되어 있지 않은 단어를 인식하거나 복합 명사를 하나의 단어로 인식하기 위해 사용할 수 있습니다. **인명, 상품명, 신조어 등 일반적이지 않은 명사**를 등록하면 해당 단어의 인식률을 높일 수 있습니다. <br/>
 
