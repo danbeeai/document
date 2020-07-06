@@ -81,10 +81,10 @@ next: {
         <th>버튼 값</th>
         <td>
             ▶ 버튼값 작성법 <br><br>
-            1. 웹 링크 버튼웹 링크 호출코드와 주소를 입력합니다.(예시) 🔗https://www.naver.com or #링크_https://www.naver.com <br><br>
-            2. 내부 App 링크내부 App 링크 호출코드와 주소를 입력합니다.(예시) 😀https://NMXWArA or #내부앱_https://NMXWArA <br><br>
-            3. 외부 App 링크외부 App 링크 호출코드와 주소를 입력합니다.(예시)😎https://N347ccc or #외부앱_https://N347ccc <br><br>
-            4. 전화걸기전화걸기 호출코드와 주소를 입력합니다.(예시)📞01012345678 or #전화_01012345678
+            1. 웹 링크: 버튼웹 링크 호출코드와 주소를 입력합니다.(예시) 🔗https://www.naver.com or #링크_https://www.naver.com <br><br>
+            2. 내부 App 링크: 내부 App 링크 호출코드와 주소를 입력합니다.(예시) 😀https://NMXWArA or #내부앱_https://NMXWArA <br><br>
+            3. 외부 App 링크: 외부 App 링크 호출코드와 주소를 입력합니다.(예시)😎https://N347ccc or #외부앱_https://N347ccc <br><br>
+            4. 전화걸기: 전화걸기 호출코드와 주소를 입력합니다.(예시)📞01012345678 or #전화_01012345678
         </td>
     </tr>
 </table>
