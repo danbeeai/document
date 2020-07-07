@@ -141,7 +141,7 @@ entries:
           url: /chatflow_jump.html
           output: web, pdf
 
-    - title: 버튼식 대화흐름
+    - title: 버튼식 흐름
       url: /chatflow_tree.html
       output: web, pdf
 
