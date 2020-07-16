@@ -62,7 +62,7 @@ API 요청값에는 고정된 값을 입력할 수 있으며, 대화흐름에 �
 | 사용자 식별정보 | @userId | 사용자ID가 표시됩니다. (ex: email ) |
 | 챗봇명 | @chatbotName | 챗봇 생성시 명명했던 이름이 표시됩니다.  |
 | 채널아이디 | @channelId | 접속한 채널 아이디가 표시됩니다. <br/>(ex : 5-facebook / 3-kakaotalk / 2-line / 7-navertalk / 6-telegram / 4-slack)  |
-| 받은 메시지 | @message | 사용자로부터 받은 질문 메시지 입니다. |
+| 받은 메시지 | @message | 사용자로부터 받은 질문 메시지 입니다. 사용자가 마지막으로 입력한 메시지로 최초 발화어 또는 Slot노드에서 마지막으로 입력받은 메시지입니다. |
 | 현재년도 | @currentDateYYYY | 현재년도 정보입니다. (예:2019) |
 | 현재월 | @currentDateMM | 현재월 정보입니다. (예:12) |
 | 현재일 | @currentDateDD | 현재일 정보입니다. (예:31) |
