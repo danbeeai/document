@@ -28,6 +28,22 @@ Carousel 노드는 2개의 상세 화면으로 구성됩니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_canvas.png"  caption="Carousel 노드" %}
 
+## 캐로셀 서브타이틀 채널별 제한
+
+| 채널명 | 캐로셀 서브타이틀 제한 | 참고링크 |
+|-------|-------|------|
+| Frogue | 제한없음 | https://doc.danbee.ai/channel_frogu.html |
+| Facebook | 최대80자 | developers.facebook.com/docs/messenger-platform/reference/templates/generic |
+| Telegram | subtitle 사용안함 | https://core.telegram.org/bots |
+| Slack | 정보없음 | api.slack.com/reference/messaging/attachments
+| Line Works | 이미지O 100자, 이미지X 120자 | https://developers.worksmobile.com/kr/document/1005008?lang=ko |
+| Line | 최소60자, 최대120자 | developers.line.biz/en/reference/messaging-api/#template-messages |
+| Naver 톡톡 | 최대1000자 | github.com/navertalk/chatbot-api#composite-object |
+| Kakao i Builder | 단일 230자 / 캐로셀 이미지X 76자, 이미지O 40자 | https://i.kakao.com/docs/tutorial-chatbot-response#%EB%A7%90%ED%92%8D%EC%84%A0-%EC%A0%9C%EC%9E%91-%EC%8A%A4%ED%8E%99-%EC%A0%95%EB%B3%B4 |
+| Kioscott - beta | 제한없음 | https://doc.danbee.ai/channel_kioscott.html |
+
+
+
 ## 메시지 카드 설정
 
 ### Slot같이 동작하는 Carousel만들기
