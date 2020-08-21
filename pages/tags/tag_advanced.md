@@ -10,3 +10,6 @@ search: exclude
 {% include taglogic.html %}
 
 {% include links.html %}
+
+{% include bottom.html %}
+

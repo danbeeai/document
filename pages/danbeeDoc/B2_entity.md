@@ -7,22 +7,22 @@ sidebar: danbee_doc_sidebar
 permalink: entity.html
 folder: danbeeDoc
 previous: {
-    title: 의도 관리,
-    url: intent.html
+    title: JUMP 노드,
+    url: chatflow_jump.html
 }
 next: {
-    title: 대화흐름 기본 설명,
-    url: chatflow.html
+    title: 공통 변수,
+    url: settings_manage_variables.html
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/관리 > 엔티티" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 엔티티" type="default" %}
 
 
 {% include image.html file="entity/chatbotflow.png"  caption="대화의도와 엔티티의 관계" %}
 
 **엔티티**란, 사용자의 말이나 문장 속에서 원하는 정보를 추출하여 적절하게 대화를 이끌어 나갈 수 있도록 설정하는 단어군입니다. 
-엔티티는 [인텐트의 파라미터](intent.html#파라미터parameter)가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할을 합니다.
+엔티티는 [대화의도의 파라미터](intent.html#파라미터parameter)가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할을 합니다.
 엔티티에 대해 자세히 알아보며 어떻게 사용해야 할지 알아보도록 하겠습니다.
 
 엔티티에는 2가지 종류가 있습니다.<br/>
@@ -68,24 +68,24 @@ next: {
 - 하나의 추출항목에 레퍼런스는 최대 100개까지 등록이 가능하다.
 
 
-### 사용자사전 등록 추천 단어
+### 고유 용어 사전 등록 추천 단어
 
-사용자정의 엔티티를 저장하게되면 사용자 사전에 등록하면 좋을 단어들을 추천합니다. 해당 단어는 인식률이 떨어질 수 있는 단어들이기 때문에 사용자사전 등록을 권장합니다. 사용자사전에 관하여 더 자세한 내용은 [사용자사전 관리](dictionary.html) 메뉴에서 확인할 수 있습니다.
+사용자정의 엔티티를 저장하게되면 고유 용어 사전에 등록하면 좋을 단어들을 추천합니다. 해당 단어는 인식률이 떨어질 수 있는 단어들이기 때문에 고유 용어 사전 등록을 권장합니다. 고유 용어 사전에 관하여 더 자세한 내용은 [고유 용어 사전 관리](dictionary.html) 메뉴에서 확인할 수 있습니다.
 
 {% include image.html file="entity/Entity_user_define03_recommend.png"  caption="사전 등록 추천어 확인" %}
 
-### 사용자사전 불러오기
+### 고유 용어 사전 불러오기
 
 {% include image.html file="entity/Entity_user_define04_userdic01.png"  caption="사용자사전 불러오기" %}
 
-위 버튼을 클릭하면 사용자정의 엔티티로 사용자사전에 등록해놓은 단어를 불러와서 사용할 수 있습니다. 원하는 단어를 체크한 뒤 불러오기 버튼을 클릭하면 사용자 사전의 대표어는 추출 항목으로, 사용자 사전의 유의어는 레퍼런스로 추가되는 것을 확인할 수 있습니다.
+위 버튼을 클릭하면 사용자정의 엔티티로 사용자사전에 등록해놓은 단어를 불러와서 사용할 수 있습니다. 원하는 단어를 체크한 뒤 불러오기 버튼을 클릭하면 고유 용어 사전의 대표어는 추출 항목으로, 고유 용어 사전의 유의어는 레퍼런스로 추가되는 것을 확인할 수 있습니다.
 
 {% include image.html file="entity/Entity_user_define04_userdic02.png"  caption="사용자사전 불러오기 - 결과" %}
 
 ---------------------
 
 ## 시스템 엔티티
-**시스템 엔티티**는 danbee.Ai에서 기본적으로 제공하는 엔티티들을 의미합니다. danbee.Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
+**시스템 엔티티**는 단비Ai에서 기본적으로 제공하는 엔티티들을 의미합니다. 단비Ai에서는 기본적으로 다음과 같은 시스템 Entity를 제공합니다.
 - [날짜 엔티티 : sys.year, sys.month, sys.date](entity.html#날짜-entity)
 - [확인 엔티티 : sys.confirm](entity.html#확인-entity)
 - [숫자 엔티티 : sys.number](entity.html#숫자-entity)
@@ -107,7 +107,7 @@ next: {
 
 {% include image.html file="entity/Entitiy_system_date02.png"  caption="sys.date 결과값 확인" %}
 
-인텐트에 날짜 엔티티타입의 파라메터를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 파라메터값(Value)이 숫자로 입력되고 있는 것을 확인 할 수 있습니다. 오늘, 당월, 올해를 기준으로 떨어진 날짜수를 계산하여 반환합니다.
+대화의도에 날짜 엔티티타입의 파라메터를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 파라메터값(Value)이 숫자로 입력되고 있는 것을 확인 할 수 있습니다. 오늘, 당월, 올해를 기준으로 떨어진 날짜수를 계산하여 반환합니다.
 
 >##### 날짜 엔티티의 값을 상대값에서 절대값으로 변환하는 방법
 sys.date에서는 0이 오늘(today)을 의미하고,
@@ -165,7 +165,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 >**숫자 엔티티**는 숫자 표현을 구분합니다.
 >{% include image.html file="entity/Entitiy_system_number01.png"  caption="파라미터 추가 - sys.number Entity" %}
 >{% include image.html file="entity/Entitiy_system_number02.png"  caption="sys.number 결과값 확인" %}
->대화 의도에 숫자 엔티티 타입의 파라메터를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. danbee.Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
+>대화 의도에 숫자 엔티티 타입의 파라메터를 추가하고 숫자를 지칭 단어가 들어가는 문장을 입력하면 단어가 실제 숫자값으로 변환되어 들어오는 것을 확인할 수 있습니다. 단비Ai는 1,2,3과 같은 숫자 형태와 일,이,삼 또는 하나,둘,셋과 같은 한글 형태의 서수 및 기수 표현을 sys.number로 지원하고 있습니다. 두번째 표현과 같이 숫자와 한글을 섞은 표현 역시 지원됩니다. 다만, 현재 한글 형태의 경우 자연수만 지원하고 있습니다.
 ##### 일반 엔티티
 
 >| 엔티티명 | 레퍼런스 | 값 |
@@ -182,7 +182,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 ---------------------------------------
 ## 엔티티(Entity) 업로드
 
-danbee.Ai는 편의 기능의 일종으로 사용자정의 엔티티 업로드기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+단비Ai는 편의 기능의 일종으로 사용자정의 엔티티 업로드기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
@@ -247,4 +247,8 @@ Entry2,"ref2_1,ref2_2"
 {% include warning.html content="정보 구분을 위한 콤마(,)간 띄워쓰기는 불가합니다." %}
 
 샘플 파일을 다운로드 받으셔서 해당 파일을 업로드 해서 결과를 확인해보세요.
+
+
+
+{% include bottom.html %}
 

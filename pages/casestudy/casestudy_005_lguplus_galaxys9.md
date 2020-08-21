@@ -1,9 +1,9 @@
 ---
-title: Case Study - LG U+, U+갤럭시 S9 사전예약
+title: LG U+, U+갤럭시 S9 사전예약
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+sidebar: blog_sidebar
 permalink: casestudy_005_lguplus_galaxys9.html
 folder: blog
 ---
@@ -12,7 +12,7 @@ folder: blog
 ## 프로모션, 이벤트에 최적인 챗봇
 
 프로모션, 이벤트는 일시적으로 트래픽이 급상승하게 됩니다.
-danbee.Ai는 클라우드 서비스이기에 IT인프라를 유연하게 활용가능합니다.
+단비Ai는 클라우드 서비스이기에 IT인프라를 유연하게 활용가능합니다.
 
 U+ 갤럭시 S9 사전예약 페이지 내 상담 버튼을 통해 제공되고 있는 챗봇 서비스로 갤럭시 S9 예약을 위해 특화된 상담 서비스를 제공합니다. 예약하고 싶은 모델명, 색상, 가입자정보만 입력하면 간편하게 사전예약을 할 수 있습니다.
 
@@ -44,8 +44,6 @@ U+ 갤럭시 S9 사전예약 페이지 내 상담 버튼을 통해 제공되고 
 </div>
 
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! 
-danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
 
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+
+{% include bottom.html %}

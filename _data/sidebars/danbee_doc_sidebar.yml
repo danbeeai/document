@@ -23,54 +23,62 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: 챗봇 기본 상식
-      url: /index.html
+    - title: 매뉴얼 구성
+      url: /manual_home_composition.html
+      output: web, pdf
+      type: homepage
+      
+    - title: 단비Ai 화면 구성
+      url: /manual_service_composition.html
       output: web, pdf
       type: homepage
 
-    - title: 간단한 챗봇 만들어보기
-      url: /basic_create_chatbot.html
+    - title: 파브르, 도와주세요!
+      url: /meet_fabre.html
       output: web, pdf
+      type: homepage
 
-    - title: 업데이트 로그
-      url: /update_log.html
-      output: web, pdf
+    - title: FAQ, 가장 자주 묻는 문의
+      url: /faq_00_gateway.html
+      output: web
+      type: homepage
 
-  - title: 영상 튜토리얼
-    output: web, pdf
-    folderitems:
 
-    - title: 단비와 함께하는 챗봇 입문 교육
-      url: /study_video.html
-      output: web, pdf
+# 챗봇기본상식과 간단한 챗봇 만들기는 힘들게 읽고 나서 얻는 것이 없어보여서. 2020-04-01 라파가 메뉴에서 제거함
+#    - title: 챗봇 기본 상식
+#      url: /index.html
+#      output: web, pdf
+#      type: homepage
 
-    - title: 챗봇 위자드로 10분만에 챗봇 만들기
-      url: /chatbot_wizard.html
-      output: web, pdf
+#    - title: 간단한 챗봇 만들어보기
+#      url: /basic_create_chatbot.html
+#      output: web, pdf
 
-    - title: FAQ챗봇 하루만에 만들기
-      url: /blog_010_TECH02_faq.html
-      output: web, pdf
 
-    - title: 잘 알아듣는 챗봇 만들기
-      url: /study_video_intent_entity.html
-      output: web, pdf
-
+      
   - title: 그룹
     output: web, pdf
-
     folderitems:
+
     - title: 그룹이란?
       url: /chatbot_list.html
+      output: web, pdf
+
+    - title: 지식 라이브러리
+      url: /knowledge_library.html
       output: web, pdf
 
     - title: API 관리
       url: /external_API_management.html
       output: web, pdf
-      
-    - title: 사용자사전
+
+    - title: 고유 용어 사전
       url: /dictionary.html
       output: web, pdf
+
+#    - title: 업데이트 로그
+#      url: /update_log.html
+#      output: web, pdf
 
   - title: 챗봇 제작 단계
     output: web, pdf
@@ -83,7 +91,6 @@ entries:
     - title: 시작 메세지
       url: /welcome.html
       output: web, pdf
-
 
     - title: 대화 의도
       url: /intent.html
@@ -133,7 +140,11 @@ entries:
         - title: Jump 노드
           url: /chatflow_jump.html
           output: web, pdf
-          
+
+    - title: 버튼식 흐름
+      url: /chatflow_tree.html
+      output: web, pdf
+
     - title: 엔티티
       url: /entity.html
       output: web, pdf
@@ -147,18 +158,27 @@ entries:
         output: web, pdf
 
         subfolderitems:
-        - title: 예외 상황 설정
+        - title: 대화의도 테스트
+          url: /intent_test_batch.html
+          output: web, pdf
+
+        - title: 특수 상황 설정
           url: /settings_personality.html
           output: web, pdf
 
-        - title: 추론 설정
+        - title: 챗봇 추론 설정
           url: /settings_nlu.html
           output: web, pdf
- 
+
+        - title: 지식 답변 관리
+          url: /knowledge_answer_mgmt.html
+          output: web, pdf
+
+
     - title: 테스트 패널
       url: /demo_n_test_panel.html
       output: web, pdf
- 
+
   - title: 단비 제공 API
     output: web, pdf
 
@@ -248,7 +268,6 @@ entries:
             url: /predefined_api_knowledgerowdelete.html
             output: web, pdf
 
-    
   - title: 채널 연결
     output: web, pdf
 
@@ -257,56 +276,74 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: 프로그
+    - title: 프로그(Frogue) 
       url: /channel_frogu.html
+      output: web, pdf
+
+    - title: 프로그(Frogue) 오픈소스
+      url: /channel_frogu_open.html
       output: web, pdf
 
     - title: API for Your App
       url: /channel_native_app.html
       output: web, pdf
 
-    - title: 키오스캇
+    - title: 키오스캇(Kioscott)
       url: /channel_kioscott.html
       output: web, pdf
 
-    - title: 카카오톡
+    - title: 카카오톡(Kakaotalk)
       url: /channel_kakaoibuilder.html
       output: web, pdf
 
-    - title: 페이스북
+    - title: 페이스북(Facebook)
       url: /channel_facebook.html
       output: web, pdf
 
-    - title: 네이버 라인
+    - title: 네이버 라인(LINE)
       url: /channel_line.html
       output: web, pdf
 
-    - title: 네이버 톡톡
-      url: /channel_navertalk.html
-      output: web, pdf
-
-    - title: Telegram
+    - title: 텔레그램(Telegram)
       url: /channel_telegram.html
       output: web, pdf
 
-    - title: Slack
+    - title: 네이버톡톡
+      url: /channel_navertalk.html
+      output: web, pdf
+
+    - title: 슬랙(Slack)
       url: /channel_slack.html
       output: web, pdf
 
-  
+    - title: LINE WORKS
+      url: /channel_lineworks.html
+      output: web, pdf
 
-  - title: 챗봇 운영 단계
+  - title: 챗봇 운영 관련 기능
     output: web, pdf
-          
+
     folderitems:
     - title: 대화 이력
       url: /log.html
       output: web, pdf
 
-    - title: 애널리틱스
+    - title: 학습 추천
+      url: /learning_recommend.html
+      output: web, pdf
+
+    - title: 애널리틱스 - 통계
       url: /dashboard.html
       output: web, pdf
-        
+
+    - title: 애널리틱스 - 행동 분석
+      url: /dashboard_activity.html
+      output: web, pdf
+
+    - title: 애널리틱스 - 리포트 다운로드
+      url: /dashboard_report.html
+      output: web, pdf
+
 
   # - title: 외부 API 사용
   #   output: web, pdf
@@ -319,9 +356,4 @@ entries:
   # - title: 사용자 의견 보내기
   #   output: web, pdf
 
-  #   folderitems:
-  #   - title: 사용자 의견 보내기
-  #     url: /feedback.html
-  #     output: web, pdf
 
-  

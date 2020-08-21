@@ -1,5 +1,5 @@
 ---
-title: 피자주문봇 만들기 
+title: 튜토리얼 심화 - 피자주문봇 만들기 
 keywords: 피자주문봇
 tags: [tutorial, advanced]
 sidebar: tutorial_sidebar
@@ -8,14 +8,16 @@ folder: 피자주문봇 만들기
 summary: 피자주문봇을 만들어 봅니다.
 search: exclude
 previous: {
-        title: Function 노드 사용하기,
-        url: basic_function_node.html
+    title: Function 노드 사용하기,
+    url: basic_function_node.html
 }
 next: {
-    title: 선택장애제거, 캡틴초이,
+    title: 선택장애제거봇, 캡틴초이,
     url: advanced_choice_bot.html
 }
 ---
+
+{% include important_developer.html content="API에 대한 기본적인 이해가 필요한 개발자의 영역입니다. <br /> 튜토리얼에서는 개발자가 아니더라도 동작원리를 이해할 수 있도록 따라할 수 있는 예제가 제공됩니다." type="default" %}
 
 ## 피자주문봇 만들기
 
@@ -145,3 +147,7 @@ Speak 노드 사용방법은 위에 챕터 내용을 참고 하시기 바랍니�
 ## 마무리
 지금까지 피자주문봇을 만드시느라 수고 많았습니다. 더 많은 챗봇 샘플이 준비되어 있습니다. 하나씩 열어보고 챗봇으로 어떤 것을 할 수 있을지 생각해보세요!
 
+
+
+
+{% include bottom.html %}

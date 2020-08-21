@@ -1,22 +1,22 @@
 ---
-title: 의도 관리 
+title: 대화 의도
 tags: [intent, nlu, basic]
 keywords: Basic Conversation
-summary: Intent를 통하여 입력 문장을 어떤 의도로 분류할 것인가를 설정할 수 있습니다.
+summary: 대화 의도를 통하여 입력 문장을 어떤 의도로 분류할 것인가를 설정할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: intent.html
 folder: danbeeDoc
 previous: {
-    title: 챗봇 생성하기,
-    url: basic_create_chatbot.html
+    title: 시작 메세지,
+    url: welcome.html
 }
 next: {
-    title: 엔티티 관리,
-    url: entity.html
+    title: 대화흐름 기본 설명,
+    url: chatflow.html
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 생성/관리 > 대화의도" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화 의도" type="default" %}
  
 {% include image.html file="intent/chatbotflow.png"  caption="대화 의도와 엔티티의 관계" %}
 
@@ -51,7 +51,7 @@ next: {
 
 사용자가 입력한 문장에서 특정 정보를 추출해야 할 때에는 등록한 예문에 [파라미터](parameter.html) 영역을 설정 하실 수 있습니다. 파라미터 영역을 지정하면 지정한 영역에 들어오는 정보를 변수로 사용할 수 있게 됩니다.
 
-{% include image.html file="intent/parameter_from_sentence.gif"  caption="대화의도에 맞는 예문 등록" %}
+{% include image.html file="intent/Intent_sentence_parameter_00.PNG"  caption="대화의도에 맞는 예문 등록" %}
 
 위와 같이 설정함으로써 챗봇은 **"치킨 먹고 싶어"**와 같거나 비슷한 문장을 이해하고 **야식 주문하기** 의도로 적절하게 이해할 수 있게 되었습니다. 예문에서 **치킨**부분을 드래그 하여 파라미터 영역으로 지정함으로써 **~~ 먹고 싶어**에서 **~~**에 해당하는 부분을 치킨외의 피자, 초밥, 카레등등 동적으로 추출할 수 있게 되었습니다.
 
@@ -60,7 +60,7 @@ next: {
 {% include image.html file="intent/Intent_sentence_parameter_03.png" caption="예문은 하나지만 다른 단어를 동적으로 받는 모습을 확인 할 수 있습니다." %}
 
 ### 예문에 연결된 파라미터 관리
-{% include image.html file="intent/Intent_parameter_03.png"  caption="인텐트에서 관리되고 있는 파라미터 목록" %}
+{% include image.html file="intent/Intent_parameter_03.png"  caption="대화의도에서 관리되고 있는 파라미터 목록" %}
 
 해당 대화의도에 추가되어 있는 파라미터는 파라미터 목록에서 확인할 수 있습니다. 대화의도에서 지정된 파라미터는 해당 의도 안에서만 사용할 수 있습니다.
 
@@ -117,7 +117,7 @@ next: {
 
 ## 의도(Intent) 업로드
 
-danbee.Ai는 편의 기능의 일종으로 대화의도 업로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
+단비Ai는 편의 기능의 일종으로 대화의도 업로드 기능을 제공하고 있습니다. 해당 기능은 CSV파일로 지원됩니다.
 
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
@@ -203,3 +203,6 @@ Intent명,Intent별명(생략가능),IntentID(생략가능)
 
 샘플 파일을 다운로드 받은 후 업로드 해서 결과를 확인해보세요.
 
+
+
+{% include bottom.html %}

@@ -1,16 +1,16 @@
 ---
-title: Case Study - NH농협은행, 로봇행원
+title: NH농협은행, 로봇행원
 tags: [blog, case, study, case-study]
 keywords: case-study
-summary:  danbee.Ai에서 싹튼 챗봇에 대한 이야기를 공유합니다.
-sidebar: casestudy_sidebar
+summary:  단비AI에서 싹튼 챗봇에 대한 이야기를 공유합니다.
+sidebar: blog_sidebar
 permalink: casestudy_012_nh_robot.html
 folder: blog
 ---
 
 ## 번호표 발급부터 상품 가입까지, NH농협은행 로봇행원, ‘올리’
 영업점을 방문한 고객에게 번호표를 발급하고, 기다리는 동안 고객에게 금융상품을 추천해주는 로봇행원입니다.
-danbee.Ai에 챗봇을 만들고, 음성인식과 음성합성을 연결하여 음성으로 대화가 가능한 서비스 로봇입니다. 키오스크보다 대화를 유발하는 행동유발성이 높고 큰 화면에서 말로 전달할 수 없는 정보를 시원하게 제공합니다.
+단비Ai에 챗봇을 만들고, 음성인식과 음성합성을 연결하여 음성으로 대화가 가능한 서비스 로봇입니다. 키오스크보다 대화를 유발하는 행동유발성이 높고 큰 화면에서 말로 전달할 수 없는 정보를 시원하게 제공합니다.
 
 <div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nWTHl9uVAic?autoplay=0&controls=1&autohide=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,8 +26,6 @@ danbee.Ai에 챗봇을 만들고, 음성인식과 음성합성을 연결하여 �
 ### 관련기사 
 [코리아 핀테크 위크 2019] 번호표 출력부터 상품 가입까지…NH농협은행, 로봇행원 '올리' 선봬 [기사보기](http://m.fntimes.com/html/view.php?ud=2019052419035744488a55064dd1_18#_enliple)
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! 
-danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
 
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+
+{% include bottom.html %}

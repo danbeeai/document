@@ -86,14 +86,10 @@ next: {
 
 Welcome Message는 정말 중요합니다. 최초 오픈 전까지 심혈을 기울여 Welcome Message의 세공작업을 해야겠습니다. 더 중요한 것은 실 사용자들의 사용 행태와 피드백을 분석해서 지속적으로 개선하고 최적화 해나가야 한다는 점입니다. 5가지 고려사항을 잘 챙겨, 여러분들의 멋진 챗봇을 잘 키우시기 바랍니다.
 
-{% include note.html content="danbee.Ai에서는 Welcome Message를 대화 흐름형태로 만들 수 있습니다. <br/> [Welcome Message 설정 방법 알아보기](http://doc.danbee.ai/settings_personality.html){:target=_blank}" %}
-{% include note.html content="danbee.Ai에서는 실제 사용자의 대화 행태를 분석할 수 있는 사용이력 로그를 제공합니다. <br/> [대화 이력 관리 기능 알아보기](http://doc.danbee.ai/log.html){:target=_blank}"%}
+{% include note.html content="단비Ai에서는 Welcome Message를 대화 흐름형태로 만들 수 있습니다. <br/> [Welcome Message 설정 방법 알아보기](http://doc.danbee.ai/settings_personality.html){:target=_blank}" %}
+{% include note.html content="단비Ai에서는 실제 사용자의 대화 행태를 분석할 수 있는 사용이력 로그를 제공합니다. <br/> [대화 이력 관리 기능 알아보기](http://doc.danbee.ai/log.html){:target=_blank}"%}
 
 
-<hr>
 작성자 : RAPA
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
-
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+{% include bottom.html %}

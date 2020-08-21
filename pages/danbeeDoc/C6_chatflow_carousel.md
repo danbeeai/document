@@ -16,6 +16,8 @@ next: {
 }
 ---
 
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
+
 Carousel 노드는 사용자에게 필요한 정보를 묻는 차원에서 Slot 노드와 유사합니다. 단, Slot 노드는 되묻는 메시지에 버튼 또는 메시지로 답변 했다면 Carousel 노드는 카드 형태로 제공합니다. 
 Slot 노드는 하나의 노드에 여러 개의 질문지를 제시할 수 있지만 Carousel은 하나의 질문에 여러 개의 선택지를 카드형태로 제공하는 노드라고 이해하시면 됩니다. 
 
@@ -25,6 +27,22 @@ Carousel 노드는 2개의 상세 화면으로 구성됩니다.
 - [메시지 카드 설정](chatflow_carousel.html#메시지-카드-설정)
 
 {% include image.html file="chatflow/Chatflow_carousel_canvas.png"  caption="Carousel 노드" %}
+
+## 캐로셀 서브타이틀 채널별 제한
+
+| 채널명 | 캐로셀 서브타이틀 제한 | 참고링크 |
+|-------|-------|------|
+| Frogue | 제한없음 | https://doc.danbee.ai/channel_frogu.html |
+| Facebook | 최대80자 | developers.facebook.com/docs/messenger-platform/reference/templates/generic |
+| Telegram | subtitle 사용안함 | https://core.telegram.org/bots |
+| Slack | 정보없음 | api.slack.com/reference/messaging/attachments
+| Line Works | 이미지O 100자, 이미지X 120자 | https://developers.worksmobile.com/kr/document/1005008?lang=ko |
+| Line | 최소60자, 최대120자 | developers.line.biz/en/reference/messaging-api/#template-messages |
+| Naver 톡톡 | 최대1000자 | github.com/navertalk/chatbot-api#composite-object |
+| Kakao i Builder | 단일 230자 / 캐로셀 이미지X 76자, 이미지O 40자 | https://i.kakao.com/docs/tutorial-chatbot-response#%EB%A7%90%ED%92%8D%EC%84%A0-%EC%A0%9C%EC%9E%91-%EC%8A%A4%ED%8E%99-%EC%A0%95%EB%B3%B4 |
+| Kioscott - beta | 제한없음 | https://doc.danbee.ai/channel_kioscott.html |
+
+
 
 ## 메시지 카드 설정
 
@@ -83,3 +101,6 @@ Speak 노드에 'question1' 변수 기준으로 값이 '짜장면', '짬뽕' 경
 '좋아하는 음식은?' 질문에 '짬뽕'을 선택하면 아래와 같이 결과가 나타납니다. 
 
 {% include image.html file="chatflow/Chatflow_carousel_sampleTest.png"  caption="좋아하는 음식은? 테스트 결과" %} -->
+
+
+{% include bottom.html %}

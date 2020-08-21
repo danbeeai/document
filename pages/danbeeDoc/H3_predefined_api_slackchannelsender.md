@@ -2,7 +2,7 @@
 title: 슬랙채널 메시지 전송
 tags: [chatflow, API, advanced]
 keywords: api
-summary: danbee.Ai에서 제공하는 슬랙의 특정 채널에 메시지를 전송하는 API입니다.
+summary: 단비Ai에서 제공하는 슬랙의 특정 채널에 메시지를 전송하는 API입니다.
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_slackchannelsender.html
 folder: danbeeDoc
@@ -18,7 +18,7 @@ next: {
 
 ## API 설명
 
-danbee.Ai에서 제공하는 여러가지 API 중 슬랙(Slack)의 특정채널에 메시지를 전송하는 API임니다. 
+단비Ai에서 제공하는 여러가지 API 중 슬랙(Slack)의 특정채널에 메시지를 전송하는 API임니다. 
 슬랙(Slack)의 보내고자 하는 채널에 초대된 사용자로 Legacy token 을 생성하여 사용가능합니다.
 
 ## API 입력값
@@ -52,3 +52,6 @@ danbee.Ai에서 제공하는 여러가지 API 중 슬랙(Slack)의 특정채널�
 9. 찾은 채널(Channel) ID를 API 의 channel 입력값에 설정합니다.
 
 <br />
+
+
+{% include bottom.html %}

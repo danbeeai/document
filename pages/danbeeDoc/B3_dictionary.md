@@ -7,18 +7,19 @@ sidebar: danbee_doc_sidebar
 permalink: dictionary.html
 folder: danbeeDoc
 previous: {
-    title: Jump 노드,
-    url: chatflow_jump.html
+    title: API 관리,
+    url: external_API_management.html
 }
 next: {
-    title: 기본답변 설정,
-    url: settings_personality.html
+    title: 챗봇 생성,
+    url: chatbot_create.html
 }
 ---
 
-{% include callout.html content="화면 위치 : 그룹 관리 > 고유 용어 사전" type="default" %}
+{% include callout.html content="위치 : 그룹 > 그룹 챗봇 > 고유 용어 사전" type="default" %}
+  
 {% include image.html file="synonym/1.PNG" %}
-**고유 용어 사전**이란, 사용자가 원하는 단어를 직접 사전에 등록하여 이용할 수 있는 서비스입니다. danbee.Ai에서 기본적으로 제공하는 시스템사전에 등록되어 있지 않은 단어를 인식하거나 복합 명사를 하나의 단어로 인식하기 위해 사용할 수 있습니다. **인명, 상품명, 신조어 등 일반적이지 않은 명사**를 등록하면 해당 단어의 인식률을 높일 수 있습니다. <br/>
+**고유 용어 사전**이란, 사용자가 원하는 단어를 직접 사전에 등록하여 이용할 수 있는 서비스입니다. 단비Ai에서 기본적으로 제공하는 시스템사전에 등록되어 있지 않은 단어를 인식하거나 복합 명사를 하나의 단어로 인식하기 위해 사용할 수 있습니다. **인명, 상품명, 신조어 등 일반적이지 않은 명사**를 등록하면 해당 단어의 인식률을 높일 수 있습니다. <br/>
 
 해당 메뉴에서는 다음과 같은 기능을 사용할 수 있습니다.<br/> 
  - [사전 단어 관리](dictionary.html#사전-단어-관리)
@@ -95,11 +96,11 @@ next: {
 
 ### 사전 반영 후
 
-사용자 사전에 대표어 '단비닷에이아이', 유의어 '단비플랫폼, 챗봇플랫폼 단비, danbee.Ai'를 반영 한 후 위와 동일한 테스트를 진행합니다.
+고유 용어 사전에 대표어 '단비닷에이아이', 유의어 '단비플랫폼, 챗봇플랫폼 단비, danbee.Ai'를 반영 한 후 위와 동일한 테스트를 진행합니다.
 
 {% include image.html file="synonym/synonym_07_test_02.png"  caption="분석 결과 - 사전 등록 후 대표어 테스트" %}
 
-원하는 대로 '단비닷에이아이'라는 단어가 하나의 단어로 인식됨을 확인할 수 있습니다. 또한 해당 단어가 사용자 사전에 등록된 단어임이 표시됩니다.
+원하는 대로 '단비닷에이아이'라는 단어가 하나의 단어로 인식됨을 확인할 수 있습니다. 또한 해당 단어가 고유 용어 사전에 등록된 단어임이 표시됩니다.
 
 만약 유의어에 넣었던 'danbee.Ai'이란 단어를 이용해 'danbee.Ai가 뭐하는 데야?'라고 테스트하면 다음과 같은 분석 결과가 나옵니다.
 
@@ -108,3 +109,6 @@ next: {
 danbee.Ai라는 단어가 단비닷에이아이로 바껴서 인식됨을 확인할 수 있습니다.
 
 이와 같이 고유 용어 사전을 활용하면 챗봇이 알아듣지 못하던 말을 더욱 잘 알아들을 수 있도록 도와줄 수 있습니다.
+
+
+{% include bottom.html %}

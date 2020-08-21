@@ -11,13 +11,13 @@ previous: {
     url: channel_facebook.html
 }
 next: {
-    title: 텔레그램,
-    url: channel_telegram.html
+    title: 라인웍스,
+    url: channel_lineworks.html
 }
 ---
 
 ## LINE 채널 연결 
- {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 
 ### LINE 설정
@@ -67,7 +67,7 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
 
 ### LINE 채널 연계 정보 설정 수정 
 <span class="link">[LINE developers](https://developers.line.me/en/){:target="_blank"}</span> 페이지로 돌아가서 
-Messaging settings 의 Webhook URL로 스크롤하여 danbee.Ai에서 복사 한 URL 을 입력하십시오. 
+Messaging settings 의 Webhook URL로 스크롤하여 단비Ai에서 복사 한 URL 을 입력하십시오. 
 확인 버튼을 클릭하여 테스트가 완료되면 녹색 확인 아이콘이 표시됩니다.<figure><img class="docimage" src="images/channel/line/line_channel_webhook_setting.png" alt="line channel url setting" style="max-width: 800px"></figure>
 
 ### LINE 채널 자동 대답 설정 변경 
@@ -82,3 +82,5 @@ Using LINE@ features 의 Auto-reply messages을 disabled 처리합니다.
 그러면 해당 앱의 관리자가 친구가 추가됩니다.
 
 
+
+{% include bottom.html %}

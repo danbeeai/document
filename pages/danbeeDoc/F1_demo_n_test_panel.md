@@ -1,18 +1,18 @@
 ---
-title: 테스트 패널 및 시뮬레이션 
+title: 테스트 패널
 tags: [simulation, nlu, chatflow]
 keywords: Basic Conversation
-summary: 테스트 패널 및 시뮬레이션을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
+summary: 테스트 패널을 활용하여 봇이 어떻게 동작하는지 확인할 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: demo_n_test_panel.html
 folder: danbeeDoc
 previous: {
-    title: 대시보드,
-    url: dashboard.html
+    title: 지식 답변 관리,
+    url: knowledge_answer_mgmt.html
 }
 next: {
-    title: 챗봇 채널 연계 설정,
-    url: channel_connection_settings.html
+    title: 단비 제공 API,
+    url: predefined_api.html
 }
 ---
 
@@ -20,7 +20,7 @@ next: {
 
 {% include callout.html content="화면 위치 : [자연어이해(NLU)] > [의도추론(Intent)]/[단어추출(Entity)] & [대화흐름(CHATFLOW)] > [대화흐름 목록(대화흐름 List)] 우측" type="default" %}
 
-danbee.Ai에서는 지금까지 등록한 정보가 시스템에서 어떻게 인식되는지 테스트할 수 있도록 테스트 패널을 제공하고 있습니다. 테스트 패널은 총 2가지 종류가 제공됩니다.
+단비Ai에서는 지금까지 등록한 정보가 시스템에서 어떻게 인식되는지 테스트할 수 있도록 테스트 패널을 제공하고 있습니다. 테스트 패널은 총 2가지 종류가 제공됩니다.
 
 - [대화의도 테스트 패널](demo_n_test_panel.html#nlu-intent-테스트-패널)
 - [대화흐름 테스트 패널](demo_n_test_panel.html#chatflow-테스트-패널)
@@ -41,7 +41,7 @@ danbee.Ai에서는 지금까지 등록한 정보가 시스템에서 어떻게 �
 
 앞서 [기본 답변 설정](settings_personality)에서 설명한 것과 같이 입력 문장은 여러개의 Intent로 파악될 수 있습니다. 그렇기 때문에 **대화의도 Candidates 영역**에서는 입력 문장이 분류될 수 있는 모든 Intent를 보여줍니다. 또한 하나의 Intent로 파악되더라도 해당 Intent로 파악된 매칭률을 확인할 수 있습니다.<br/>
 
-대화의도 Candidates 영역 우측에 보면 [+] 버튼이 존재합니다. 해당 버튼을 누를 시 테스트로 입력한 문장이 자동으로 해당 인텐트에 들어가게 됩니다.<br/>
+대화의도 Candidates 영역 우측에 보면 [+] 버튼이 존재합니다. 해당 버튼을 누를 시 테스트로 입력한 문장이 자동으로 해당 대화의도에 들어가게 됩니다.<br/>
 
 또한 대화의도 Candidates의 헤더를 클릭하면 파악된 Intent를 Intent명과 버튼명 2가지 모드로 확인할 수 있습니다.<br/>
 
@@ -89,7 +89,7 @@ danbee.Ai에서는 지금까지 등록한 정보가 시스템에서 어떻게 �
 | 요청 파라메터 |  마지막 답변 또는 클릭된 노드에서 정보를 받고자하는 파라미터를 보여줍니다. |
 {: .table .table-striped}
 
-우측 **[챗플로우 상세]** 버튼을 클릭하면 해당 노드가 존재하는 Chatflow의 상세 화면으로 이동합니다.
+우측 **[대화흐름 상세]** 버튼을 클릭하면 해당 노드가 존재하는 Chatflow의 상세 화면으로 이동합니다.
 
 #### 디버그 모드
 
@@ -162,3 +162,6 @@ danbee.Ai에서는 지금까지 등록한 정보가 시스템에서 어떻게 �
 {% include image.html file="test_panel_n_demo/DEMO.png"  caption="시뮬레이션" %}
 
 시뮬레이션 화면에서는 웰컴 메세지부터 시작하여 실제로 챗봇이 어떻게 대답하는지 확인하실 수 있습니다. -->
+
+
+{% include bottom.html %}

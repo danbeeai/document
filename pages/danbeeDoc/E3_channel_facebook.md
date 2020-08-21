@@ -17,7 +17,7 @@ next: {
 ---
 
 ## Facebook 채널 연결 
- {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 
 ### Facebook 설정
@@ -29,15 +29,15 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 
 
 ### Facebook 앱 만들기
-1. 브라우저에서 <span class="link">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span>에 접속하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_homepage.png" alt="Facebook for developers" style="max-width: 800px"></figure>
-2. Facebook 계정으로 로그인 후 우측 상단의 내앱 > ***새앱 추가***를 클릭합니다.
+1. 브라우저에서 <span class="link">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span>에 접속하십시오.
+2. Facebook 계정으로 로그인 후 우측 상단의 내앱 > ***앱 만들기***를 클릭합니다.
 3. 표시이름과 연락처 이메일을 입력 후 앱ID를 만듭니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_appadd.png" alt="Facebook App Add" style="max-width: 800px"></figure>
 4. 제품중 Messenger의 버튼을 클릭 하여 설정 페이지로 이동한다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_messenger_setting.png" alt="Facebook Messenger Set" style="max-width: 800px"></figure>
 5. 토큰 생성 영역의 페이지 선택을 클릭하여 챗봇을 추가할 페이스북 페이지를 선택합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_dev_page_setting.png" alt="Facebook Page Set" style="max-width: 800px"></figure>
 6. 생성된 페이지 액세스 토큰은 danbee.Ai 설정에 사용하므로 미리 기록해놓으십시오.
 
 ### danbee.Ai 채널 연결 설정
-1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
+1. [챗봇제작] > [채널 연결] 메뉴로 이동 하십시오.
 2. Facebook 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오. 이전에 기록한 페이지 엑세스 토큰도 함께 입력하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_danbee_setting.png" alt="danbee facebook channel setting" style="max-width: 800px"></figure>
   * 콜백 URL : 채널 WEBHOOK URL ( 자동생성 )
@@ -50,11 +50,11 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 ### Facebook Webhook 설정 
 1. <span class="link">[Facebook for developers](https://developers.facebook.com/){:target="_blank"}</span> 페이지로 돌아갑니다. 
 2. Webhooks 영역의 Webhooks 설정 버튼을 클릭하여 설정을 합니다. 
-3. 다음 필드에 관련 값을 입력하십시오. 입력 후 확인 및 저장버튼을 클릭합니다.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
-  * 콜백 URL : danbee.Ai에서 자동생성된 URL
-  * 확인 토큰 : danbee.Ai에 입력한 확인 토큰 
+3. 다음 필드에 관련 값을 입력하십시오. 입력 후 확인 및 저장버튼을 클릭합니다.
+  * 콜백 URL : 단비Ai에서 자동생성된 URL
+  * 확인 토큰 : 단비Ai에 입력한 확인 토큰 
+4. 웹훅이 추가되고 나면 [받아보기 추가]버튼을 클릭하여 아래 필드의 체크박스를 체크상태로 바꿉니다.
   * 받아보기 필드 : messages, messaging_postbacks, messaging_option 체크 
-4. 설정 페이지로 다시 들어오면 Webhooks가 "완료"상태 여야합니다. 그리고 이벤트를 받아볼 페이지를 선택 후 받아보기를 선택하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_channel_webhook_setting1.png" alt="facebook channel url setting" style="max-width: 800px"></figure>
 
 ### Facebook Messenger 테스트
 
@@ -81,13 +81,13 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
   Facebook 앱 관리 페이지의 **[Messenger] - [설정]**에 들어가서 하단으로 내려보시면 [Messenger의 앱 검수] 블럭이 존재합니다. 해당 블럭에서 **pages_messaging** 우측 [제출에 추가] 버튼을 클릭하시면 해당 사항에 대하여 검수를 받으실 수 있습니다.
 
 3. 앱 공개<br/>
-  : [앱 검수]메뉴에서 앱 공개를 '예'로 변경합니다. 검수가 완료되면 모드 사용자가 해당 앱을 사용할 수 있습니다. 
+  : 검수가 완료되면 모듈 사용자가 해당 앱을 사용할 수 있습니다. 상단의 앱ID옆의 [개발중] 토글버튼을 클릭하여 [라이브됨]으로 변경하면 앱이 공개되어 사람들이 챗봇을 사용할 수 있게 됩니다.
 
 
 ## Facebook 고정메뉴
 {% include callout.html content="화면 위치 : [고급설정(Advanced)] > [채널 연결(Connect of Channel)]" type="default" %}
 
-danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook 고정메뉴 설정 기능을 제공하고 있습니다.
+단비Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook 고정메뉴 설정 기능을 제공하고 있습니다.
 
 ### Facebook 고정메뉴 설정
 
@@ -98,7 +98,7 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 
 {% include image.html file="channel/facebook/facebook_menu_setting_01.png"  caption="Facebook 메인 메뉴 설정" %} 
 
-메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 챗플로우 호출, 서브메뉴가 존재합니다.
+메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 대화흐름 호출, 서브메뉴가 존재합니다.
 
 | 메뉴 옵션 | 설명 | 
 |--------|-------|
@@ -120,5 +120,8 @@ danbee.Ai에서는 Facebook Messenger 하단 입력창 옆에 위치한 Facebook
 
 {% include warning.html content="메뉴 적용 여부 확인 시 Facebook Messanger 대화창이 켜져있다면 나갔다 다시 접속해야 변경 사항을 확인할 수 있습니다." %}
 
+
+
+{% include bottom.html %}
 
 

@@ -16,6 +16,8 @@ next: {
 }
 ---
 
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
+
 챗봇의 대화 흐름 진행 과정에서 여러 파라미터들이 사용되는데, 경우에 따라서는 파라미터 문자열을 가공한다던가 날짜, 숫자 계산이 필요한 경우가 있습니다. 
 Function 노드에서는 자바스크립트 문법을 사용하여 이러한 파라미터 데이터를 가공처리 할 수 있는 기능을 제공합니다. 
 
@@ -101,3 +103,7 @@ Split 노드에 조건을 다음과 같이 randomNum 값이 0, 경우에는 '램
 랜덤 분기 테스트를 실행해 보면 다음과 같이 같은 질문에 무작위로 다른 메시지를 내뱉게 됩니다. 
 
 {% include image.html file="chatflow/Chatflow_function_sampleTest.png"  caption="랜덤 분기 테스트 결과" %} -->
+
+
+
+{% include bottom.html %}

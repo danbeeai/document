@@ -12,10 +12,12 @@ previous: {
     url: basic_api_node.html
 }
 next: {
-    title: 피자주문봇 만들기,
+    title: 튜토리얼 심화 - 피자주문봇 만들기,
     url: advanced_order_pizza_bot.html
 }
 ---
+
+{% include important_developer.html content="API에 대한 기본적인 이해가 필요한 개발자의 영역입니다. <br /> 튜토리얼에서는 개발자가 아니더라도 동작원리를 이해할 수 있도록 따라할 수 있는 예제가 제공됩니다." type="default" %}
 
 ## Function 노드 를 활용하여 변수값을 가공하기
 대화흐름에서 사용하기 위해 만든 내부변수의 경우 Slot 노드에서 사용자가 입력한 값이나 API 노드 에서 받아온 값을 사용할 수 있다는 것을 배웠습니다. 하지만 보다 자연스러운 대화를 위해서는 값을 그대로 쓰기 보다는 조금 가공하여 사용해야 할 때도 있죠. <br/>
@@ -55,3 +57,8 @@ next: {
 피자가격 변수의 값이 12,000 으로 변경된 것을 확인 할 수 있습니다.
 
 {% include image.html file="tutorial/basic_function_node1.png"  caption="Function 노드 생성하기2" %}
+
+
+
+
+{% include bottom.html %}

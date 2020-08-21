@@ -3,9 +3,9 @@ title: 영상-단비와 함께하는 챗봇 입문교육
 tags: [chatbot]
 keywords: 챗봇, 입문교육, 동작원리, 기획, 도입
 summary: 챗봇의 기본개념부터, 사례, 도입검토, 설계방법까지
-sidebar: danbee_doc_sidebar
+sidebar: tutorial_sidebar
 permalink: study_video.html
-folder: danbeeDoc
+folder: tutorial
 previous: {
     title: 간단한 챗봇 만들어보기,
     url: basic_create_chatbot.html
@@ -93,3 +93,6 @@ next: {
 모든 강의를 보셨나요? 이제 챗봇을 잘 알게되셨을 것 같아요.
 실제로 만들어보면 더 구체적으로 아이디어를 현실화 하거나 실질적인 이해가 가능할 거에요!
 튜토리얼을 보면서 하나씩 해보시기를 추천합니다.
+
+
+{% include bottom.html %}

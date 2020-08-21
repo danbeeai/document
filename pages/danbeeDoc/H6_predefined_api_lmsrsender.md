@@ -2,7 +2,7 @@
 title: 예약문자(LMS) 전송
 tags: [chatflow, API, advanced]
 keywords: api
-summary: danbee.Ai에서 제공하는 슬랙의 특정 채널에 메시지를 전송하는 API입니다.
+summary: 단비Ai에서 제공하는 슬랙의 특정 채널에 메시지를 전송하는 API입니다.
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_lmsrsender.html
 folder: danbeeDoc
@@ -18,7 +18,7 @@ next: {
 
 ## API 설명
 
-danbee.Ai에서 제공하는 여러가지 API 중 길이가 긴 예약 문자 메시지를 전송하는 API임니다. <br>
+단비Ai에서 제공하는 여러가지 API 중 길이가 긴 예약 문자 메시지를 전송하는 API임니다. <br>
 요금제는 Standard 이상부터 사용가능합니다. <br>
 LMS 문자의 경우 1000자까지 전송이 가능하며 한건당 50원의 추가요금이 발생합니다. <br>
 
@@ -50,3 +50,6 @@ LMS 문자의 경우 1000자까지 전송이 가능하며 한건당 50원의 추
 문자 발송은 단비의 전화번호로만 발송되며 발송자 전화번호의 변경을 원하는 경우 contact@danbee.ai 로 문의바랍니다.
 <br />
 
+
+
+{% include bottom.html %}

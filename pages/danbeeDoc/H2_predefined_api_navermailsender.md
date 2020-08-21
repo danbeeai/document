@@ -2,7 +2,7 @@
 title: 네이버 메일 전송
 tags: [chatflow, API, advanced]
 keywords: api
-summary: danbee.Ai에서 제공하는 Naver 게정을 통해 이메일을 전송하는 API입니다.
+summary: 단비Ai에서 제공하는 Naver 게정을 통해 이메일을 전송하는 API입니다.
 sidebar: danbee_doc_sidebar
 permalink: predefined_api_navermailsender.html
 folder: danbeeDoc
@@ -18,7 +18,7 @@ next: {
 
 ## API 설명
 
-danbee.Ai에서 제공하는 여러가지 API 중 Naver 게정을 통해 이메일을 전송하는 API임니다.  <br />
+단비Ai에서 제공하는 여러가지 API 중 Naver 게정을 통해 이메일을 전송하는 API임니다.  <br />
 Naver의 이메일 서비스를 통해서 이메일을 사용하려면 추가적인 설정이 필요합니다.  <br />
 
 
@@ -60,3 +60,6 @@ POP3/SMTP가 설정되지 않을 경우에 대한 설명을 Naver 고객센터�
 4. 생성된 애플리케이션 비밀번호 12자리를 danbee.Ai 의 Naver 메일 전송 API 의 password 에 셋팅합니다.
 
 <br />
+
+
+{% include bottom.html %}

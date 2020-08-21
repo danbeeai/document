@@ -2,12 +2,12 @@
 title: 대화의도 생성하기 
 tags: [nlu, tutorial, basic]
 keywords: Tutorial
-summary: danbee.Ai의 기본 구조를 이해할 수 있습니다.
+summary: 단비Ai의 기본 구조를 이해할 수 있습니다.
 sidebar: tutorial_sidebar
 permalink: basic_create_intent.html
 folder: tutorial
 previous: {
-    title: 튜토리얼 시작하기,
+    title: 튜토리얼봇 살펴보기 (영상),
     url: samplebot.html
 }
 next: {
@@ -20,14 +20,14 @@ next: {
 
 지금부터 소개되는 1. 대화의도 생성하기 부터 8. Function노드 사용하기까지 8단계를 거치면, 앞서 소개된 [튜토리얼 시작하기](samplebot.html)에 나와 있는 챗봇이 완성됩니다. 
 
-## danbee.Ai의 기본 구조
+## 단비Ai의 기본 구조
 
 챗봇의 기본 동작원리를 생각해보면 사람들이 대화할 때 일어나는 의식의 흐름과 다르지 않습니다. 사용자가 챗봇에게 어떤 말을 걸면 챗봇이 그 말을 듣고 사용자의 의도를 파악하여 적절한 답변을 하게 됩니다. 원활한 대화가 되기 위해서는 말을 잘 이해하고, 원하는 대답을 해주는 것이 중요합니다.
-이를 위해 danbee.Ai의 기본 구조는 크게 사용자의 의도를 파악할 수 있는 ***의도 추론***과 여러 상황에 따라 적절하게 답변을 할 수 있도록 대화를 설계하는 ***대화흐름 빌더***로 구성되어 있습니다. 
+이를 위해 단비Ai의 기본 구조는 크게 사용자의 의도를 파악할 수 있는 ***의도 추론***과 여러 상황에 따라 적절하게 답변을 할 수 있도록 대화를 설계하는 ***대화흐름 빌더***로 구성되어 있습니다. 
 어떤 말을 알아들을 것인지와 어떻게 대답할 것인지를 정의하면 하나의 대화를 완성할 수 있습니다.
 
 ## 챗봇 생성
-danbee.Ai를 이용하려면 먼저 <span class="link">[로그인](https://danbee.ai/platform/#/danbeelogin)</span>을 해주셔야 합니다.
+단비Ai를 이용하려면 먼저 <span class="link">[로그인](https://danbee.ai/platform/#/danbeelogin)</span>을 해주셔야 합니다.
 
 처음 로그인을 하시면, 먼저 챗봇을 만들어주세요.
 챗봇 생성방법은 document의 <span class="link">[간단한 챗봇 만들어보기](/basic_create_chatbot.html)</span>를 참고하시면 됩니다.
@@ -62,3 +62,7 @@ danbee.Ai를 이용하려면 먼저 <span class="link">[로그인](https://danbe
 사용자의 “피자주문하기” 의도를 파악할 수 있게 되었으니 이제 어떻게 응답할지 정의해야겠죠?
 대화흐름 빌더에서 챗봇이 대답할 메시지를 정의해보도록 하겠습니다.
 
+
+
+
+{% include bottom.html %}

@@ -141,21 +141,15 @@ next: {
 챗봇은 계속 가꾸어 주어야 합니다.
 폴백메시지를 잘 만드는 것은 시작이고, 폴백메시지에서 어떻게 사용자들이 움직이는지 대화이력을 분석해서 꾸준히 발전시켜야 하겠습니다.
 <br/>
-danbee.Ai는 지속적인 대화를 위한 3가지 UX요소와 7가지 유형의 폴백메시지를 모두 구현할 수 있는 챗봇빌더 서비스입니다. 대화 이력에서 폴백메시지를 필터링해서 볼 수 있는 분석 기능도 제공합니다.  https://danbee.ai 에 오셔서 바로 첫번째 챗봇을 만들어 보세요 :)
+단비Ai는 지속적인 대화를 위한 3가지 UX요소와 7가지 유형의 폴백메시지를 모두 구현할 수 있는 챗봇빌더 서비스입니다. 대화 이력에서 폴백메시지를 필터링해서 볼 수 있는 분석 기능도 제공합니다.  https://danbee.ai 에 오셔서 바로 첫번째 챗봇을 만들어 보세요 :)
 
-{% include note.html content="danbee.Ai에서는 늘 함께 챗봇시대를 열어갈 인재와 파트너를 찾고 있습니다.
+{% include note.html content="단비Ai에서는 늘 함께 챗봇시대를 열어갈 인재와 파트너를 찾고 있습니다.
 <br/> [contact@danbee.Ai](mailto:contact@danbee.ai)로 편지를 보내주세요!" %}
 
 #### 참고 문서
 
 https://chatbotsmagazine.com/6-must-haves-for-chatbot-ux-design-cc2a21b944e
 
-<hr>
 작성자 : RAPA
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
-
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
-
-
+{% include bottom.html %}

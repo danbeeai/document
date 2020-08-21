@@ -55,7 +55,7 @@ previous: {
 {% include image.html file="blog/006_level_4_carousel.gif" alt="겨울방학때 뭐하지? 라고 물어본 사용자에게 계절학기 수강신청, 캐나다 어학연수, 유럽배낭여행등을 추천하고 있는 챗봇 대화 예시" caption="잡담을 영업기회로. 대화 맥락기반 추천" %}
 
 
-{% include note.html content="danbee.Ai에서는 이러한 광고를 대화 맥락 기반 광고(CCBA, Conversational Context Based Advertisement)라고 한다." %}
+{% include note.html content="단비Ai에서는 이러한 광고를 대화 맥락 기반 광고(CCBA, Conversational Context Based Advertisement)라고 한다." %}
 
 {% include image.html file="blog/012_turtleship_04.jpg" alt="사용자가 잡담을 시도했다가 다시 메인시나리오로 돌아오는 전략지도" caption="일상대화, Small Talk으로 가더라도 다시 메인시나리오로 돌리자." %}
 
@@ -94,10 +94,6 @@ previous: {
 5. 최종적으로 BETA딱지를 뗀다. 
 
 
-<hr>
 작성자 : RAPA
 
-### 함께해요! 챗봇시대:)
-모든 사물, 디지털 매체와 말이 통하는 시대! danbee.Ai와 함께 반드시 오게될 챗봇시대를 열어갔으면 좋겠습니다.
-
-{% include tip.html content="danbee.Ai는 보다 나은 챗봇, 챗봇만들기, 챗봇운영 경험을 만들기 위해 노력하고 있습니다. https://danbee.Ai 에서 여러분만의 챗봇을 🌱싹틔우세요!" %}
+{% include bottom.html %}

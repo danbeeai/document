@@ -60,12 +60,15 @@ pre a{
     font-size: 14px;
     font-family: Menlo,Monaco,Consolas,"Courier New", dotum, gulim, monospace;
 }
+.highlight .highlight{
+    border:none;
+}
 a {
-    color: #FFAD36; /*#2b1a09*/
+    color: #FF7600; /*#2b1a09*/
     text-decoration: underline;
 }
 a:hover{
-    color: #FFAD36; /*#2b1a09*/
+    color: #FF7600; /*#2b1a09*/
     text-decoration: underline;
 }
 
@@ -118,6 +121,22 @@ pre code{
     line-height:24px;
 }
 
+
+.button-cta:link, .button-cta:visited{
+    font-weight:bold;
+    color:#fff;
+    background-color:#ff7621;
+    display:inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin:4px 2px;
+    border-radius : 12px;
+}
+.button-cta:hover, .button-cta:active {
+    background-color:#ff8c44;
+}
+
 @media (max-width: 1000px){
     .githubEditButton{
         top: 0px;
@@ -146,10 +165,14 @@ a[data-toggle="tooltip"] {
 }
 .navbar-inverse .container .navbar-brand {
     color: #fff;
-    font-weight: normal;
+    font-weight: bold;
     margin-left:0;
     padding:0;
     margin-top: 3px;
+    text-decoration: none;
+}
+.navbar-inverse .container .navbar-brand .projectTitle{
+    
 }
 .navbar-inverse .navbar-brand>img {
     display: inline-block;
@@ -259,6 +282,10 @@ div#toc_side{
 div#toc_side ul a {
     color:#334a60;
     padding-left:0;
+    text-decoration:none;
+}
+div#toc_side ul a:hover{
+    text-decoration:underline;
 }
 div#toc_side > ul {
     border: 1px solid #bed5df;
@@ -320,7 +347,7 @@ div#toc_side ul ul ul {
 }
 
 .post-content h2 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.6;
     font-weight: 400;
     height: auto;
@@ -793,7 +820,7 @@ div#toc >ul::before {
     line-height:1.8em;
     word-break : normal;
     margin:25px;
-    margin-right:220px;
+    /*margin-right:220px;*/
     margin-left:32px;
 }
 

@@ -5,8 +5,24 @@ entries:
   #levels: one 활성화 하면,
   folders:
 
+  - title: 튜토리얼 시작하기 
+    output: web
+    folderitems:
 
-  - title: Tutorial(Basic)
+    - title: 챗봇 레벨별 접근하기
+      url: /tutorial_home.html
+      output: web
+    - title: FAQ챗봇 튜토리얼   
+      url: /tutorial_faq.html
+      output: web
+    - title: 마음이 급한 분들을 위한 추천 콘텐츠
+      url: /tutorial_recommend.html
+      output: web
+    - title: 챗봇담당자 김대리를 위한 튜토리얼   
+      url: /tutorial_for_kim.html
+      output: web
+
+  - title: 튜토리얼봇 따라해보기
     output: web
     folderitems:
     # - title: 인기 Tutorial
@@ -15,7 +31,7 @@ entries:
     # - title: Tutorial 모음
     #   url: /tutorials_archive.html
     #   output: web
-    - title: 0. 튜토리얼 시작하기
+    - title: 0. 튜토리얼봇 살펴보기(영상)
       url: /samplebot.html
       output: web
     - title: 1. 대화의도 생성하기
@@ -43,7 +59,7 @@ entries:
       url: /basic_function_node.html
       output: web
 
-  - title: Tutorial(Advanced)
+  - title: 예제를 통해 빠르게 경험하기
     output: web
     folderitems:
     # - title: 인기 Tutorial
@@ -52,27 +68,57 @@ entries:
     # - title: Tutorial 모음
     #   url: /tutorials_archive.html
     #   output: web
-    - title: 9. 피자주문봇 만들기
+    - title: 튜토리얼 심화, 피자주문봇 만들기
       url: /advanced_order_pizza_bot.html
       output: web
-    - title: 10. 선택장애제거봇, 캡틴초이
+    - title: 샘플 - 선택장애제거봇, 초이
       url: /advanced_choice_bot.html
       output: web
-    - title: 11. 의사결정나무봇, 디트
+    - title: 샘플 - 의사결정나무봇, 디트
       url: /advanced_decision_tree_bot.html
       output: web
-    - title: 12. 버그채집봇, 파브르
+    - title: 샘플 - 버그채집봇, 파브르
       url: /advanced_bug_hunting_fabre.html
       output: web
-    - title: 13. 식당곰, 밥
+    - title: 샘플 - 식당곰, 밥
       url: /advanced_restaurant_bob.html
       output: web
-    - title: 14. 에이전씨봇, 스페이드컴퍼니
+    - title: 샘플 - 에이전씨봇, 스페이드컴퍼니
       url: /advanced_agency_spadecompany.html
       output: web
-    - title: 15. NPS설문봇, 벼리
+    - title: 샘플 - NPS설문봇, 벼리
       url: /advanced_nps.html
+      output: web
+    - title: 샘플 - 뭐먹냥, 후추
+      url: /advanced_whocho.html
+      output: web
+    - title: 샘플 - 퀴즈봇, 당근씨
+      url: /advanced_carrot.html
       output: web
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web
+
+  - title: 영상 튜토리얼
+    output: web, pdf
+    folderitems:
+
+    - title: 단비와 함께하는 챗봇 입문 교육
+      url: /study_video.html
+      output: web, pdf
+
+    - title: 챗봇 위자드로 10분만에 챗봇 만들기
+      url: /chatbot_wizard.html
+      output: web, pdf
+
+    - title: FAQ챗봇 하루만에 만들기
+      url: /blog_010_TECH02_faq.html
+      output: web, pdf
+
+    - title: 설문조사 챗봇 만들어보기
+      url: /video_tutorial_survey.html
+      output: web, pdf
+
+    - title: 잘 알아듣는 챗봇 만들기
+      url: /study_video_intent_entity.html
+      output: web, pdf

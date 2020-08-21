@@ -17,7 +17,7 @@ next: {
 ---
 
 ## 네이버톡톡 채널 연결 
- {% include callout.html content="화면 위치 : [설정(Preference)] > [대화채널(Channel)]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇] > [챗봇 제작] > [채널 연결]" type="default" %}
 
 네이버톡톡 채널 연계 설정을 위해서는 다음이 필요합니다.
 
@@ -55,7 +55,7 @@ next: {
 
 ### 네이버톡톡 Webhook 설정
 1. <span class="link">[네이버톡톡 파트너센터](https://partner.talk.naver.com/){:target="_blank"}</span> 의 [계정관리 홈] - [개발자도구] - [챗봇API설정] 페이지로 돌아갑니다.
-2. Webhook의 이벤트 받을 URL 란에 danbee.Ai에서 복사한 콜백 URL을 입력하고 등록을 클릭합니다.
+2. Webhook의 이벤트 받을 URL 란에 단비Ai에서 복사한 콜백 URL을 입력하고 등록을 클릭합니다.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_10_webhook.png" alt="네이버톡톡 Webhook설정" style="max-width: 800px"></figure>
 3. 이벤트 변경 버튼을 클릭하여 send, open을 선택합니다.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_11_event_setting.png" alt="네이버톡톡 이벤트 설정" style="max-width: 800px"></figure>
@@ -76,3 +76,5 @@ next: {
 * 직접 접속 URL은 관리 계정 리스트에서 확인할 수 있습니다. 또는 톡톡앱아이디를 확인하여 talk.naver.com/{톡톡앱아이디} 로 접속할 수 있습니다.
 <figure><img class="docimage" src="images/channel/navertalk/navertalk_13_app_id.png" alt="line app add chatbot" style="max-width: 800px"></figure>
 
+
+{% include bottom.html %}
