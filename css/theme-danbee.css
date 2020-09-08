@@ -337,6 +337,34 @@ div#toc_side ul ul,
 div#toc_side ul ul ul {
     list-style:none;
 }
+
+/* cta_document */
+#cta_document{
+    position:fixed;
+    bottom:10px;
+    width:250px;
+    height: 100px;
+}
+#cta_document a{
+    position: relative;
+    padding: 10px 20px;
+    padding-left:76px;
+    color:#fff;
+    font-weight: bold;
+    display:inline-block;
+    text-decoration:none;
+    font-size:20px;
+    background-color: #ff7621;
+    border-radius: 12px;
+}
+#cta_document #cta_img{
+    position: absolute;
+    left:10px;
+    top:10px;
+    width:56px;
+    display:inline-block;
+}
+
 /*-- content --*/
 .post-header{
     padding-top:20px;
