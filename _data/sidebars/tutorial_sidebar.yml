@@ -22,6 +22,51 @@ entries:
       url: /tutorial_for_kim.html
       output: web
 
+
+  - title: 영상 튜토리얼
+    output: web, pdf
+    folderitems:
+
+    - title: 쉽따시작 - 5분만에 FAQ챗봇 만들기 (영상)
+      url: /ez_tutorial_0.html
+      output: web, pdf
+
+    - title: 쉽따1편 - 회사소개봇 만들고 채팅창 디자인 (영상)
+      url: /ez_tutorial_1.html
+      output: web, pdf
+
+    - title: 쉽따2편 - 텔레그램에 연결하기 (영상)
+      url: /ez_tutorial_2.html
+      output: web, pdf
+
+    - title: 쉽따3편 - 페이스북에 연결하기 (영상)
+      url: /ez_tutorial_3.html
+      output: web, pdf
+
+    - title: 쉽따4편 - 시작 메시지 바꾸는 법 (영상)
+      url: /ez_tutorial_4.html
+      output: web, pdf
+
+    - title: 챗봇 위자드로 10분만에 챗봇 만들기(영상)
+      url: /chatbot_wizard.html
+      output: web, pdf
+
+    - title: FAQ챗봇 하루만에 만들기(영상)
+      url: /blog_010_TECH02_faq.html
+      output: web, pdf
+
+    - title: 설문조사 챗봇 만들어보기(영상)
+      url: /video_tutorial_survey.html
+      output: web, pdf
+
+    - title: 단비와 함께하는 챗봇 입문 교육(이론영상)
+      url: /study_video.html
+      output: web, pdf
+
+    - title: 잘 알아듣는 챗봇 만들기(이론영상)
+      url: /study_video_intent_entity.html
+      output: web, pdf
+
   - title: 튜토리얼봇 따라해보기
     output: web
     folderitems:
@@ -98,27 +143,3 @@ entries:
     # - title: 11. 한국날씨안내봇, 날씨냥 살펴보기
     #  url: /advanced_weather_bot.html
     #  output: web
-
-  - title: 영상 튜토리얼
-    output: web, pdf
-    folderitems:
-
-    - title: 단비와 함께하는 챗봇 입문 교육
-      url: /study_video.html
-      output: web, pdf
-
-    - title: 챗봇 위자드로 10분만에 챗봇 만들기
-      url: /chatbot_wizard.html
-      output: web, pdf
-
-    - title: FAQ챗봇 하루만에 만들기
-      url: /blog_010_TECH02_faq.html
-      output: web, pdf
-
-    - title: 설문조사 챗봇 만들어보기
-      url: /video_tutorial_survey.html
-      output: web, pdf
-
-    - title: 잘 알아듣는 챗봇 만들기
-      url: /study_video_intent_entity.html
-      output: web, pdf

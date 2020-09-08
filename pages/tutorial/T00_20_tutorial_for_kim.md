@@ -40,7 +40,11 @@ FAQ챗봇 만들기부터 채널 연결까지 챗봇이 어떤 것인지 감을 
 {% include button_cta.html value="📙 4편 - 챗봇, 운영 및 참고자료 다운로드" title="4편 - 챗봇, 운영 및 참고자료 다운로드" url="https://doc.danbee.ai/assets/챗봇담당자 김대리를 위한 단비Ai 튜토리얼_4편_운영및참고자료_v1.8.pdf" %}
 
 
+### 영상을 선호하신다면? 영상튜토리얼!
 
+영상튜토리얼이 PDF튜토리얼 메뉴얼을 바탕으로 제작하여 오픈하고 있습니다. 실제 기업용 교육과정이나 마찬가지이니 차근 차근 따라해보세요!<br/>
+
+{% include button_cta.html value="영상튜토리얼 시작하기" title="영상튜토리얼 시작하기" url="ez_tutorial_0.html" %}
 
 
 {% include bottom.html %}
