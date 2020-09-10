@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: chatflow_api.html
 folder: danbeeDoc
 previous: {
-    title: Carousel 노드,
-    url: chatflow_carousel.html
+    title: Knowledge 노드,
+    url: chatflow_knowledge.html
 }
 next: {
     title: Function 노드,

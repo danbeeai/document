@@ -129,6 +129,10 @@ entries:
           url: /chatflow_carousel.html
           output: web, pdf
 
+        - title: Knowledge 노드
+          url: /chatflow_knowledge.html
+          output: web, pdf
+
         - title: API 노드
           url: /chatflow_api.html
           output: web, pdf

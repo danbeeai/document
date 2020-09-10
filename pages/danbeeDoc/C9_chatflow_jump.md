@@ -11,8 +11,8 @@ previous: {
     url: chatflow_function.html
 }
 next: {
-    title: 엔티티,
-    url: entity.html
+    title: 버튼식 흐름,
+    url: chatflow_tree.html
 }
 ---
 
