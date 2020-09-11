@@ -11,8 +11,8 @@ previous: {
     url: chatflow_split.html
 }
 next: {
-    title: API 노드,
-    url: chatflow_api.html
+    title: Knowledge 노드,
+    url: chatflow_knowledge.html
 }
 ---
 
