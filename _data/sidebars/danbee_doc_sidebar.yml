@@ -64,9 +64,22 @@ entries:
       url: /chatbot_list.html
       output: web, pdf
 
-    - title: 지식 라이브러리
-      url: /knowledge_library.html
-      output: web, pdf
+      subfolders:
+        - title: 지식 라이브러리
+          output: web, pdf
+
+          subfolderitems:
+            - title: FAQ+
+              url: /knowledge_faq2.html
+              output: web, pdf
+
+            - title: FAQ
+              url: /knowledge_faq.html
+              output: web, pdf
+
+            - title: Sheet
+              url: /knowledge_sheet.html
+              output: web, pdf
 
     - title: API 관리
       url: /external_API_management.html
