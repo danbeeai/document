@@ -18,10 +18,9 @@ next: {
 
 {% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
 
-Knowledge 노드는 단비의 <a href="knowledge_library.html">지식라이브러리</a>에서 Sheet지식 데이터를 불러담는데에 사용됩니다. 사용자에게 받은 파라미터의 값에 따라 행을 조회하고, 해당 행 중 특정 열의 값을 파라미터에 담을 수 있습니다.
+Knowledge 노드는 단비의 지식라이브러리에서 [Sheet지식](knowledge_sheet.html) 데이터를 불러담는데에 사용됩니다. 사용자에게 받은 파라미터의 값에 따라 행을 조회하고, 해당 행 중 특정 열의 값을 파라미터에 담을 수 있습니다.
 
-### 사용법
-
+## 사용법
 <ol>
     <li>
         <p>Knowledge 노드를 Slot>Knowledge>Speak 등과 연결하여 사용하시면 됩니다.</p>
