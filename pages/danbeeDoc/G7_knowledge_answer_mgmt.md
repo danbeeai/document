@@ -33,5 +33,9 @@ next: {
 - 단답형으로 응답해야 하는 시나리오가 많다면, 지식답변관리를 통해 쉽게 단답형 콘텐츠를 관리할 수 있습니다.
 - [FAQ챗봇 만들기 튜토리얼](/tutorial_faq.html)을 이용하면 보다 쉽게 지식 답변 관리 기능을 체험할 수 있습니다.
 
+### 지식별 자세한 설명보기
+- [FAQ+지식 사용법](/knowledge_faq2.html)
+- [FAQ 지식 사용법](/knowledge_faq.html)
+- [Sheet 지식 사용법](/knowledge_sheet.html)
 
 {% include bottom.html %}
