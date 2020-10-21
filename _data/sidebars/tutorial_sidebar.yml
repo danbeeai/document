@@ -47,6 +47,26 @@ entries:
       url: /ez_tutorial_4.html
       output: web, pdf
 
+    - title: 쉽따5편 - '대화의도', '대화흐름'이란? (영상)
+      url: /ez_tutorial_5.html
+      output: web, pdf
+
+    - title: 쉽따6편 - 챗봇에 대화의도 추가, 리컨펌 메시지/버튼, 테스트 패널 활용법 (영상)
+      url: /ez_tutorial_6.html
+      output: web, pdf
+
+    - title: 쉽따7편 - 대화의도테스트, 추론신뢰도별 답변설정, 디폴트폴백 수정, 추론실패대응 3way, 대응법별 장단점 (영상)
+      url: /ez_tutorial_7.html
+      output: web, pdf
+
+    - title: 쉽따8편 - 예문넣기 꿀팁 'Active learning' / 챗봇을 점점 똑똑하게 하는 '대화이력 학습' (영상)
+      url: /ez_tutorial_8.html
+      output: web, pdf
+
+    - title: 쉽따9편 - 고유용어를 탄생시킨 빠바 파바 (영상)
+      url: /ez_tutorial_9.html
+      output: web, pdf
+
     - title: 챗봇 위자드로 10분만에 챗봇 만들기(영상)
       url: /chatbot_wizard.html
       output: web, pdf
