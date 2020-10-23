@@ -313,10 +313,6 @@ entries:
       output: web, pdf
 
     - title: 슬랙(Slack)
-      url: /channel_slack.html
-      output: web, pdf
-
-    - title: New 슬랙(Slack)
       url: /channel_newslack.html
       output: web, pdf
 
