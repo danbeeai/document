@@ -333,7 +333,7 @@ entries:
       url: /channel_newslack.html
       output: web, pdf
 
-    - title: LINE WORKS
+    - title: NAVER WORKS(구 LINE WORKS)
       url: /channel_lineworks.html
       output: web, pdf
 
