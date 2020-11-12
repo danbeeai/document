@@ -45,4 +45,11 @@ next: {
 > Standard 이상 회원은 Frogue채팅창의 아이콘, 로딩이미지, 단비소개문구제거를 할 수 있습니다.
 > [가격정책](https://danbee.ai/pricing.html)
 
+## Q. 탈퇴 후 거래명세서가 필요하면 어떻게 발급받나요?
+> contact@danbee.ai로 이메일을 보내주시면 해당 주소로 거래명세서를 회신드리겠습니다. 아래 내용을 꼭 적어주셔야 정상발급이 가능합니다.
+> • 메일 제목: 탈퇴 후 거래명세서 발급 요청
+> • 메일 내용: 
+> 가입 시 E-mail. (예)danbee@email.com
+> 발급을 희망하는 월. (예)2020년 10월
+
 {% include bottom.html %}
