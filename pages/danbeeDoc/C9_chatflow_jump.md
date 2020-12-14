@@ -11,8 +11,8 @@ previous: {
     url: chatflow_function.html
 }
 next: {
-    title: 버튼식 흐름,
-    url: chatflow_tree.html
+    title: Parameter 노드,
+    url: chatflow_parameter.html
 }
 ---
 
