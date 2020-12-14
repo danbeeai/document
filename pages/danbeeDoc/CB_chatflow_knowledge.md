@@ -18,7 +18,12 @@ next: {
 
 {% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
 
+## 개요
+
 Knowledge 노드는 단비의 지식라이브러리에서 [Sheet지식](knowledge_sheet.html) 데이터를 불러담는데에 사용됩니다. 사용자에게 받은 파라미터의 값에 따라 행을 조회하고, 해당 행 중 특정 열의 값을 파라미터에 담을 수 있습니다.
+
+{% include image.html file="chatflow/Chatflow_knowledge_canvas.png"  caption="ㅏnowledge 노드" %}
+
 
 ## 사용법
 <ol>

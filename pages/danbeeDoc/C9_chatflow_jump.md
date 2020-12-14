@@ -18,12 +18,14 @@ next: {
 
 {% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 대화흐름" type="default" %}
 
+## 개요
+
 JUMP 노드는 대화흐름 시나리오 도중에 다른 대화흐름로 이동하는 기능을 제공합니다. 
 JUMP 노드를 통해 대화흐름 간 이동하면서 파라미터 값을 전달을 할 수 있는 기능을 함께 제공함으로써 연이은 대화 시나리오 흐름을 이어 갈 수 있도록 구성이 가능합니다. 
 
 {% include image.html file="chatflow/Chatflow_jump_canvas.png"  caption="Jump 노드" %}
 
-### Jump 설정
+## Jump 노드 설정
 
 Jump 노드는 이동할 대화흐름를 지정하고 전달하고 싶은 파라미터들을 매핑 설정하는 방식으로 구성이 되어 있습니다. 
 대화흐름의 흐름에서 Jump 노드에 도달하게 되면 이후에 다른 노드가 남아 있더라도 Jump 노드에서 지정된 다음 대화흐름로 이동하게 됩니다. 

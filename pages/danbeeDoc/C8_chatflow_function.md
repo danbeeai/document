@@ -25,7 +25,7 @@ Function 노드에서는 자바스크립트 문법을 사용하여 이러한 파
 
 {% include image.html file="chatflow/Chatflow_function_canvas.png"  caption="Function 노드" %}
 
-### Script 정보
+## Script 정보
 
 Script 정보에는 Javascript 함수를 활용하여 변수(파라미터) 정보를 가공할 수 있습니다. 
 
@@ -43,7 +43,7 @@ test = 10;
 
 {% include image.html file="chatflow/Chatflow_function_script01.png"  caption="Function노드 Script" %}
 
->##### 시스템 파라미터
+>### 시스템 파라미터
 시스템에서 제공하는 파라미터도 사용가능합니다. 해당 파라미터는 스크립트내에서 읽기 전용으로만 사용가능합니다. ( 예 : var danbee_message; )
 
 >| 시스템 파라미터 | 표기 | 설명 | 
