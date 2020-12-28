@@ -1,10 +1,10 @@
 ---
-title: Sheet 행 추가
+title: Knowledge 노드 > Sheet 행 추가
 tags: [chatflow, advanced]
 keywords: Basic Conversation
 summary: 단비 Sheet 지식 맨 아래에 새로운 행을 추가합니다.
 sidebar: danbee_doc_sidebar
-permalink: sheet_add.html
+permalink: sheet_create.html
 folder: danbeeDoc
 previous: {
     title: Carousel 노드,
@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 > 챗봇제작 > 주요대화 > 대화흐름 > Knowledge 노드" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 > 챗봇제작 > 대화흐름" type="default" %}
 
 ## 개요
 
