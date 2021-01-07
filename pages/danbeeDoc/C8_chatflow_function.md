@@ -60,6 +60,14 @@ test = 10;
 | 현재초 | danbee_currentTimeSS | 현재초 정보입니다. (예:59) |
 | 현재요일 | danbee_currentDateWeek | 현재요일 정보입니다. (예: 1:일, 2:월, 3:화, 4:수, 5:목, 6:금, 7:토) |
 {: .table .table-striped}
+
+### 로그 기록
+
+javascript에서 console.log 함수를 이용하듯이, Function 노드에서도 danbee.log함수를 이용하면 로그를 기록할 수 있습니다.
+기록된 로그는 [테스트 패널(디버그 모드)](demo_n_test_panel.html) 또는, [대화 흐름 이력 화면](log.html)에서 확인할 수 있습니다.
+
+사용 예시 : danbee.log("출력할 문자열");
+ 
 <!-- 
 ### 샘플 시나리오 (랜덤 분기 테스트)
 
