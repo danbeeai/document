@@ -1,5 +1,5 @@
 ---
-title: LINE WORKS 
+title: NAVER WORKS 
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 네이버웍스에 연결할 수 있습니다.
