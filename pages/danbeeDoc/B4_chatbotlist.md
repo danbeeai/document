@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="위치 : 그룹" type="default" %}
+{% include callout.html content="위치 : 그룹 관리" type="default" %}
 
 ## 그룹(Group)
 
