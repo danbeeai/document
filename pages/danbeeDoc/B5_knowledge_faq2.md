@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="위치 : 그룹 > 그룹 챗봇 > 지식 라이브러리" type="default" %}
+{% include callout.html content="위치 : 그룹 관리 > 그룹 챗봇 > 지식 라이브러리" type="default" %}
 
 ## FAQ+ 타입의 지식
 단비에서는 질문/답변을 쉽게 관리할 수 있는 기존 FAQ지식에서 업그레이드해, 답변을 좀 더 풍성하게 할 수 있도록 FAQ+(플러스)기능을 내놓았습니다. 샘플파일을 받아 해당하는 값을 채워넣고 업로드를 하시면 간단하게 FAQ+ 을 제작하실 수 있습니다.
