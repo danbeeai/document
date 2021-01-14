@@ -15,7 +15,7 @@ next: {
     url: dictionary.html
 }
 ---
-{% include callout.html content="메뉴위치 : 그룹 > 그룹 챗봇 > API 관리" type="default" %}
+{% include callout.html content="메뉴위치 : 그룹 관리 > 그룹 챗봇 > API 관리" type="default" %}
 
 ## 개요
 

@@ -22,7 +22,7 @@ next: {
 - [대화흐름 이력](log.html#대화흐름-이력)
 
 ## 의도 추론 이력
-{% include callout.html content="화면 위치 : 챗봇 > 챗봇 운영 > 대화의도 이력" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 운영 > 대화의도 이력" type="default" %}
 
 {% include image.html file="log/nlu_log_01.png"  caption="의도 추론 이력 페이지" %}
 

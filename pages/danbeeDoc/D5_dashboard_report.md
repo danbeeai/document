@@ -1,5 +1,5 @@
 ---
-title: 애널리틱스 - 리포트 다운로드 
+title: 사용 현황 - 리포트 다운로드 
 tags: [dashboard, nlu, chatflow, basic]
 keywords: 대화 이력 시각화
 summary: 챗봇의 동작 정보를 리포트 형태로 다운로드 할 수 있습니다. 
@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: dashboard_report.html
 folder: danbeeDoc
 previous: {
-    title: 애널리틱스 - 행동분석 ,
+    title: 사용 현황 - 행동 분석 ,
     url: dashboard_activity.html
 }
 ---
 
-{% include callout.html content="위치 : 이용자분석 > 애널리틱스 > 리포트 다운로드" type="default" %}
+{% include callout.html content="위치 : 사용 현황 > 사용 현황 > 리포트 다운로드" type="default" %}
 
 {% include important.html content="Superior 요금제에서 제공되는 기능입니다. [요금제 살펴보기](https://danbee.ai/pricing.html)" type="default" %}
 
