@@ -1,5 +1,5 @@
 ---
-title: 애널리틱스 - 행동 분석 
+title: 사용 현황 - 행동 분석 
 tags: [dashboard, nlu, chatflow, basic]
 keywords: 대화 이력 시각화
 summary: 챗봇의 동작한 이력을 시각화 하여 대쉬보드로 보여드립니다.
@@ -7,17 +7,17 @@ sidebar: danbee_doc_sidebar
 permalink: dashboard_activity.html
 folder: danbeeDoc
 previous: {
-    title: 대화 이력 관리 ,
-    url: log.html
+    title: 사용 현황 - 처리량/학습/대화,
+        url: dashboard.html
 }
 next: {
-    title: 테스트 패널 및 시뮬레이션,
-    url: demo_n_test_panel.html
+    title: 사용 현황 - 리포트 다운로드,
+    url: dashboard_report.html
 }
 ---
 
 
-{% include callout.html content="위치 : 이용자분석 > 애널리틱스 > 행동 분석" type="default" %}
+{% include callout.html content="위치 : 사용 현황 > 사용 현황 > 행동 분석" type="default" %}
 
 {% include important.html content="Superior 요금제에서 제공되는 기능입니다. [요금제 살펴보기](https://danbee.ai/pricing.html)" type="default" %}
 

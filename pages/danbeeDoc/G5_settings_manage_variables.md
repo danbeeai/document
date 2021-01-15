@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 공통 변수" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 공통 변수" type="default" %}
 
 {% include image.html file="manage_variables/1.PNG"  caption="기본 공통변수" %}
 

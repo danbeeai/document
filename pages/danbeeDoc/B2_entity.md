@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 > 챗봇 제작 > 엔티티" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 엔티티" type="default" %}
 
 
 {% include image.html file="entity/chatbotflow.png"  caption="대화의도와 엔티티의 관계" %}
@@ -187,7 +187,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
 ### 업로드
-{% include callout.html content="화면 위치 : 챗봇 생성/변경 > 대화의도 > 대화의도 생성 옆 더보기 > 대화의도 업로드" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 챗봇 만들기 > 대화의도 > 대화의도 생성 옆 더보기 > 대화의도 업로드" type="default" %}
 업로드 형식에 맞추어 작성한 CSV파일을 올려주시면 자동으로 Entity가 생성됩니다. 업로드 파일은 다음과 같은 제약사항이 존재합니다.
  - CSV파일만 가능합니다.
  - 파일당 최대 3MB까지 가능합니다.

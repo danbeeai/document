@@ -16,7 +16,7 @@ next: {
 }
 ---
 
- {% include callout.html content="화면 위치 : 챗봇 > 고급 기능 > 챗봇 추론 설정" type="default" %}
+ {% include callout.html content="화면 위치 : 챗봇 만들기 > 고급 기능 > 챗봇 추론 설정" type="default" %}
 
 챗봇 추론 설정 페이지에서는 아래와 같은 설정을 진행할 수 있습니다.
 

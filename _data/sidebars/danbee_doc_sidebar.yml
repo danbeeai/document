@@ -353,15 +353,15 @@ entries:
       url: /learning_recommend.html
       output: web, pdf
 
-    - title: 애널리틱스 - 통계
+    - title: 사용 현황 - 처리량/학습/대화
       url: /dashboard.html
       output: web, pdf
 
-    - title: 애널리틱스 - 행동 분석
+    - title: 사용 현황 - 행동 분석
       url: /dashboard_activity.html
       output: web, pdf
 
-    - title: 애널리틱스 - 리포트 다운로드
+    - title: 사용 현황 - 리포트 다운로드
       url: /dashboard_report.html
       output: web, pdf
 
