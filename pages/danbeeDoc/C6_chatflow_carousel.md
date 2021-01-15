@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 대화흐름" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 대화 흐름" type="default" %}
 
 ## 개요
 
@@ -60,7 +60,7 @@ Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노�
 
 ### 퀵리플라이 설정
 
-카드 형태 메세지와 함께 보낼 Quick Reply 버튼은 리스트를 설정할 수 있습니다. 퀵리플라이 버튼은 입력창 상단에 위치하는 버튼 형태로 선택지와 대화흐름 호출 두가지 옵션을 선택할 수 있습니다.
+카드 형태 메세지와 함께 보낼 Quick Reply 버튼은 리스트를 설정할 수 있습니다. 퀵리플라이 버튼은 입력창 상단에 위치하는 버튼 형태로 선택지와 대화 흐름 호출 두가지 옵션을 선택할 수 있습니다.
 
 {% include image.html file="chatflow/Chatflow_carousel_card02.png" caption="Quick Reply List 설정" %}
 

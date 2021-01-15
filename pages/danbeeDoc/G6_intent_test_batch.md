@@ -1,5 +1,5 @@
 ---
-title: 대화의도 테스트
+title: 대화 의도 테스트
 tags: [settings, nlu, advanced]
 keywords: General Conversation
 summary: 대량의 문장을 업로드하여 일괄적으로 테스트 할 수 있는 기능입니다.
@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 만들기 > 고급기능 > 대화의도 테스트" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 고급기능 > 대화 의도 테스트" type="default" %}
 
 {% include important.html content="Standard 요금제에서 제공되는 기능입니다. [요금제 살펴보기](https://danbee.ai/pricing.html)" type="default" %}
 
@@ -33,7 +33,7 @@ next: {
 
 ## 대화 의도 테스트를 사용하기에 좋은 시점
 - 챗봇 서비스를 오픈하기 전에 모든 대화 의도가 제대로 동작하는지 확인하기에 좋습니다.
-- 대화 의도의 종류가 많은 챗봇을 운영할 때 유용한 기능입니다. A라는 대화의도에 추가로 학습된 예문으로 인해 B라는 대화의도가 잘못 추론되는 등의 파급효과를 확인하기 위한 회기테스트 용도로 사용할 수 있습니다.
+- 대화 의도의 종류가 많은 챗봇을 운영할 때 유용한 기능입니다. A라는 대화 의도에 추가로 학습된 예문으로 인해 B라는 대화 의도가 잘못 추론되는 등의 파급효과를 확인하기 위한 회기테스트 용도로 사용할 수 있습니다.
 
 ## 사용시 고려사항
 - 테스트 시 예문 수만큼 사용량(CC)이 측정됩니다.

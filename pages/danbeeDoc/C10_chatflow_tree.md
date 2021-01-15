@@ -1,13 +1,13 @@
 ---
-title: 버튼식 대화흐름 
+title: 버튼식 대화 흐름 
 tags: [chatflow, tree]
 keywords: Basic Conversation
-summary: ARS와 같이 하위메뉴가 연속되는 버튼식 대화흐름을 손쉽게 만들 수 있습니다.
+summary: ARS와 같이 하위메뉴가 연속되는 버튼식 대화 흐름을 손쉽게 만들 수 있습니다.
 sidebar: danbee_doc_sidebar
 permalink: chatflow_tree.html
 folder: danbeeDoc
 previous: {
-    title: 대화흐름, 
+    title: 대화 흐름, 
     url: chatflow.html
 }
 next: {
@@ -16,17 +16,17 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 대화흐름" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 대화 흐름" type="default" %}
 
 
-## 버튼식 대화흐름
+## 버튼식 대화 흐름
 단비에서는 엑셀 템플릿을 이용하여 간단하게 버튼식 챗봇을 만드실 수 있습니다. 퀵리플라이 형태로 하위메뉴가 노출됩니다.
 
-{% include image.html file="chatflow/chatflow-tree01.png"  caption="버튼식 대화흐름 채팅창" %}
-{% include image.html file="chatflow/chatflow-tree02.png"  caption="버튼식 대화흐름 템플릿" %}
+{% include image.html file="chatflow/chatflow-tree01.png"  caption="버튼식 대화 흐름 채팅창" %}
+{% include image.html file="chatflow/chatflow-tree02.png"  caption="버튼식 대화 흐름 템플릿" %}
 
 ### 버튼식 흐름 만드는 방법
-1. [챗봇 > 대화흐름] 메뉴에 들어갑니다.
+1. [챗봇 > 대화 흐름] 메뉴에 들어갑니다.
 2. [버튼식 흐름 생성] 버튼을 클릭합니다.
 3. 버튼식 흐름의 시작 메세지를 채웁니다. 이미지를 포함하고 싶다면 이미지 URL을 추가로 입력합니다.
 4. [예시 채우기 버튼]을 눌러 작성양식을 확인하고 삭제합니다.
@@ -63,12 +63,12 @@ next: {
             4. 외부 App 링크<br/>외부 App 링크 호출코드와 주소를 입력합니다.(예시)😎https://N347ccc or #외부앱_https://N347ccc<br/><br/>
             5. 전화걸기<br/>전화걸기 호출코드와 주소를 입력합니다.(예시)📞01012345678 or #전화_01012345678<br/><br/>
             6. FAQ+ 스킬 사용<br/>FAQ+ 호출코드와 ID를 입력합니다.(예시)🗣FAQ+답변1 or #간편답변_FAQ+답변1<br/><br/>
-            7. 대화의도에 연결된 답변대화의도 호출코드와 ID를 입력합니다.(예시)👂대화의도ID or #대화의도_대화의도ID
+            7. 대화 의도에 연결된 답변대화 의도 호출코드와 ID를 입력합니다.(예시)👂대화 의도ID or #대화 의도_대화 의도ID
         </td>
     </tr>
 </table>
 
-| 값 종류 | 메시지 | 🔗웹, 😀내부앱, 😎외부앱 링크 | 🗣FAQ+ ID | 🦻대화의도 ID | 
+| 값 종류 | 메시지 | 🔗웹, 😀내부앱, 😎외부앱 링크 | 🗣FAQ+ ID | 🦻대화 의도 ID | 
 |---|---|---|---|---|
 | 버튼 타입 | 퀵 | 선택지 | 선택지 | 선택지 |
 | 하위메뉴 있을때 노출항목 | 메시지<br/>하위메뉴 퀵버튼<br/>처음&이전 퀵버튼 | 버튼 클릭 시 링크 바로 열기 | 호출값 | 호출값 |

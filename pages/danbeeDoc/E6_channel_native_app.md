@@ -53,12 +53,12 @@ next: {
 | user_id | String | No | 사용자 아이디 |
 | input_sentence | String | No | 사용자 대화 문장 |
 | session_id | String | Yes | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
-| ins_id | String | Yes | 대화흐름 인스턴스 아이디 (대화흐름 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
-| intent_id | String | Yes | 대화의도 아이디 (Slot 노드, Carousel 노드에서 사용함) |
+| ins_id | String | Yes | 대화 흐름 인스턴스 아이디 (대화 흐름 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
+| intent_id | String | Yes | 대화 의도 아이디 (Slot 노드, Carousel 노드에서 사용함) |
 | node_id | String | Yes | 노드 아이디 |
 | param_id | String | Yes | 파라미터 아이디 (Slot 노드, Carousel 노드 경우 사용됨) |
-| ref_intent_id | String | No | 대화의도 아이디 (참조) |
-| chatflow_id | String | No | 대화흐름 아이디 |
+| ref_intent_id | String | No | 대화 의도 아이디 (참조) |
+| chatflow_id | String | No | 대화 흐름 아이디 |
 | another_result | JSON Array  | No | NLU 에서 파악한 다른 의도 결과 |
 | result | JSON Array | No | 답변 메시지 결과 정보 |
 | parameters | JSON | No | 파라미터 정보 (내부 파라미터 정보가 표시됩니다)|
@@ -74,10 +74,10 @@ next: {
 
 | KEY | Description |
 |--------|--------|
-| object_match_rate | 대화의도 매칭률 |
-| intent_name | 대화의도 명 |
-| intent_id | 대화의도 아이디 |
-| intent_alias | 대화의도 별명 |
+| object_match_rate | 대화 의도 매칭률 |
+| intent_name | 대화 의도 명 |
+| intent_id | 대화 의도 아이디 |
+| intent_alias | 대화 의도 별명 |
 {: .table .table-striped}
 
  * result Object
@@ -94,7 +94,7 @@ next: {
 
 | KEY | Description |
 |--------|--------|
-| 대화의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
+| 대화 의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
 {: .table .table-striped}
 
  * emotions Object
@@ -116,7 +116,7 @@ next: {
 {: .table .table-striped}
 
 ## 대화 엔진 API 
-대화 채널에서 주고받는 대화를 처리하는 API. 사용자의 질문의 의도를 파악하고 그에 따른 대화흐름을 관리하는 대화흐름를 사용하는 API입니다.
+대화 채널에서 주고받는 대화를 처리하는 API. 사용자의 질문의 의도를 파악하고 그에 따른 대화 흐름을 관리하는 대화 흐름를 사용하는 API입니다.
 
 ### 기본 정보
 
@@ -135,11 +135,11 @@ next: {
 | input_sentence | String | Yes | 사용자 대화 문장 |
 | user_id | String | No | 사용자 아이디 |
 | session_id | String | No | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
-| ins_id | String | No | 대화흐름 인스턴스 아이디 (대화흐름 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
-| intent_id | String | No | 대화의도 아이디 (Slot 노드, Carousel 노드에서 사용함) |
+| ins_id | String | No | 대화 흐름 인스턴스 아이디 (대화 흐름 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
+| intent_id | String | No | 대화 의도 아이디 (Slot 노드, Carousel 노드에서 사용함) |
 | node_id | String | No | 노드 아이디 |
 | param_id | String | No | 파라미터 아이디 (Slot 노드, Carousel 노드 경우 사용됨) |
-| chatflow_id | String | No | 대화흐름 아이디 |
+| chatflow_id | String | No | 대화 흐름 아이디 |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -149,7 +149,7 @@ next: {
 
 | KEY | Description |
 |--------|--------|
-| 대화의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
+| 대화 의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
 {: .table .table-striped}
 
 ### RESPONSE 정보
@@ -162,12 +162,12 @@ next: {
 | input_sentence | String | No | 사용자 대화 문장 |
 | session_id | String | Yes | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
 | log_id | int | Yes | 챗봇 대화의 로그 아이디 ( 사용자 평가 시 사용 )  |
-| ins_id | String | Yes | 대화흐름 인스턴스 아이디 (대화흐름 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
-| intent_id | String | Yes | 대화의도 아이디 (Slot 노드, Carousel 노드에서 사용함) |
+| ins_id | String | Yes | 대화 흐름 인스턴스 아이디 (대화 흐름 단위의 대화가 진행될 때 마다 채번되는 인스턴스 아이디) |
+| intent_id | String | Yes | 대화 의도 아이디 (Slot 노드, Carousel 노드에서 사용함) |
 | node_id | String | Yes | 노드 아이디 |
 | param_id | String | Yes | 파라미터 아이디 (Slot 노드, Carousel 노드 경우 사용됨) |
-| ref_intent_id | String | No | 대화의도 아이디 (참조) |
-| chatflow_id | String | No | 대화흐름 아이디 |
+| ref_intent_id | String | No | 대화 의도 아이디 (참조) |
+| chatflow_id | String | No | 대화 흐름 아이디 |
 | another_result | JSON Array | No | NLU 에서 파악한 다른 의도 결과 |
 | result | JSON Array | No | 답변 메시지 결과 정보 |
 | parameters | JSON | No | 파라미터 정보 (내부 파라미터 정보가 표시됩니다)|
@@ -183,10 +183,10 @@ next: {
 
 | KEY | Description |
 |--------|--------|
-| object_match_rate | 대화의도 매칭률 |
-| intent_name | 대화의도 명 |
-| intent_id | 대화의도 아이디 |
-| intent_alias | 대화의도 별명 |
+| object_match_rate | 대화 의도 매칭률 |
+| intent_name | 대화 의도 명 |
+| intent_id | 대화 의도 아이디 |
+| intent_alias | 대화 의도 별명 |
 
  * result Object
 
@@ -202,7 +202,7 @@ next: {
 
 | KEY | Description |
 |--------|--------|
-| 대화의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
+| 대화 의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
 {: .table .table-striped}
 
  * emotions Object
@@ -245,7 +245,7 @@ next: {
 | 내부 App 실행 | inApp | 스마트폰에서 내부 App 실행을 하기 위한 정보를 설정합니다. |
 | 외부 App 실행 | outApp | 스마트폰에서 외부 App 실행을 하기 위한 정보를 설정합니다. |
 | Call (전화연결) | call | 스마트폰에서 전화연결을 하기 위한 정보를 설정합니다. |
-| 대화흐름 호출 | callFlow | 다른 대화흐름 를 진행하기 위한 정보를 설정합니다. |
+| 대화 흐름 호출 | callFlow | 다른 대화 흐름 를 진행하기 위한 정보를 설정합니다. |
 {: .table .table-striped}
 
 ## 사용자 대화 평가 API 
@@ -301,7 +301,7 @@ next: {
 | 200 | 정상코드 |
 | 201 | 여러가지 의도로 해석되는 경우 |
 | 400 | [NLU] 의도 파악이 안되었을 경우, EngineHandler 예외상황 |
-| 404 | [Chatflow] 대화의도에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
+| 404 | [Chatflow] 대화 의도에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
 | 405 | [Chatflow] flow 설정 문제 (답변 메시지를 못 찾았을 때, 분기 오류인 경우) |
 {: .table .table-striped}
 
@@ -383,8 +383,8 @@ https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디
 |--------|--------|--------|--------|
 | logId | Number | Yes | 대화이력 로그 아이디 |
 | sessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
-| flowId | String | Yes | 대화흐름 아이디 |
-| flowName | String | Yes | 대화흐름 명 |
+| flowId | String | Yes | 대화 흐름 아이디 |
+| flowName | String | Yes | 대화 흐름 명 |
 | nodeName | String | No | 노드 명 |
 | nodeType | String | No | 노드 유형 |
 | userId | String | No | 사용자 아이디 ( 채널별로 형식이 상이함 ) |

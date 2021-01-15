@@ -35,7 +35,7 @@ next: {
 8. 생성된 데이터는 언제든 수정이 가능합니다.
 
 ### Sheet 지식을 챗봇에 연결하는 방법
-1. 챗봇 만들기 > 대화흐름 > 대화 흐름 생성 > Knowledge Node를 사용합니다. 
+1. 챗봇 만들기 > 대화 흐름 > 대화 흐름 생성 > Knowledge Node를 사용합니다. 
    자세한 설명은 [knowledge Node 설명](https://doc.danbee.ai/chatflow_knowledge.html)을 참조하세요.
 
 {% include bottom.html %}

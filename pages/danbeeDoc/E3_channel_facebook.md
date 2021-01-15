@@ -98,13 +98,13 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 
 {% include image.html file="channel/facebook/facebook_menu_setting_01.png"  caption="Facebook 메인 메뉴 설정" %} 
 
-메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 대화흐름 호출, 서브메뉴가 존재합니다.
+메인 메뉴에서 설정 가능한 메뉴 종류는 선택지, Web Link, 대화 흐름 호출, 서브메뉴가 존재합니다.
 
 | 메뉴 옵션 | 설명 | 
 |--------|-------|
 | 선택지 | 입력값을 호출합니다. |
 | Web Link | 팝업으로 호출할 Link 정보를 제공합니다. |
-| 대화흐름호출 | 다른 대화흐름을 호출합니다. |
+| 대화 흐름호출 | 다른 대화 흐름을 호출합니다. |
 | 서브메뉴 | 하위 메뉴를 설정합니다. |
 {: .table .table-striped}
 

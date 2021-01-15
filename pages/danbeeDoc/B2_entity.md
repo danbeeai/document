@@ -19,15 +19,15 @@ next: {
 {% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 엔티티" type="default" %}
 
 
-{% include image.html file="entity/chatbotflow.png"  caption="대화의도와 엔티티의 관계" %}
+{% include image.html file="entity/chatbotflow.png"  caption="대화 의도와 엔티티의 관계" %}
 
 **엔티티**란, 사용자의 말이나 문장 속에서 원하는 정보를 추출하여 적절하게 대화를 이끌어 나갈 수 있도록 설정하는 단어군입니다. 
-엔티티는 [대화의도의 파라미터](intent.html#파라미터parameter)가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할을 합니다.
+엔티티는 [대화 의도의 파라미터](intent.html#파라미터parameter)가 실제로 어떤 종류의 값을 가지게 될지 결정해 주는 역할을 합니다.
 엔티티에 대해 자세히 알아보며 어떻게 사용해야 할지 알아보도록 하겠습니다.
 
 엔티티에는 2가지 종류가 있습니다.<br/>
 
-<!-- 앞서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[대화의도의 파라미터](intent.html#파라미터parameter)</span>에서 설명한 것과 같이 파라미터라는 껍데기가 어떤 정보를 담을 수 있을지 결정해주는 역할을 합니다.<br/>Entity의 종류에는 크게 2가지가 있습니다. -->
+<!-- 앞서 <span class="link"><i class="fa fa-external-link-square" aria-hidden="true" style="margin:0px 5px"></i>[대화 의도의 파라미터](intent.html#파라미터parameter)</span>에서 설명한 것과 같이 파라미터라는 껍데기가 어떤 정보를 담을 수 있을지 결정해주는 역할을 합니다.<br/>Entity의 종류에는 크게 2가지가 있습니다. -->
 
 - [시스템 엔티티](entity.html#시스템-entity)
 - [사용자정의 엔티티](entity.html#사용자정의-entity)
@@ -103,11 +103,11 @@ next: {
 **날짜 엔티티**는 날짜를 가리키는 단어를 추출합니다. 일, 월, 년에 대해 각각의 시스템 엔티티를 제공합니다. 위 대표어 이외에 당일, 이번달, 금년 등 일반적으로 사용하는 날짜 지칭 단어를 구분할 수 있도록 제공되고 있습니다. 날짜 엔티티는 자체적으로 현재시점으로부터 사용자 지칭 날짜까지의 차이를 값으로 제공합니다.<br>
 예) 오늘 날씨 어때 => 0, 어제 날씨 어때 => -1
 
-{% include image.html file="entity/Entitiy_system_date01.png"  caption="대화의도에서 파라미터 추가 - sys.date 설정" %}
+{% include image.html file="entity/Entitiy_system_date01.png"  caption="대화 의도에서 파라미터 추가 - sys.date 설정" %}
 
 {% include image.html file="entity/Entitiy_system_date02.png"  caption="sys.date 결과값 확인" %}
 
-대화의도에 날짜 엔티티타입의 파라메터를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 파라메터값(Value)이 숫자로 입력되고 있는 것을 확인 할 수 있습니다. 오늘, 당월, 올해를 기준으로 떨어진 날짜수를 계산하여 반환합니다.
+대화 의도에 날짜 엔티티타입의 파라메터를 추가하고 날짜 지칭 단어가 들어가는 문장을 입력하면 파라메터값(Value)이 숫자로 입력되고 있는 것을 확인 할 수 있습니다. 오늘, 당월, 올해를 기준으로 떨어진 날짜수를 계산하여 반환합니다.
 
 >##### 날짜 엔티티의 값을 상대값에서 절대값으로 변환하는 방법
 sys.date에서는 0이 오늘(today)을 의미하고,
@@ -187,7 +187,7 @@ sys.month는 0이 이번달(this month)를 의미합니다.
 {% include warning.html content="CSV파일을 열 때에는 **메모장, UltraEdit** 등의 편집기 사용을 권장합니다. MS Excel 사용 시 한글이 깨질 수 있습니다." %}
 
 ### 업로드
-{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 챗봇 만들기 > 대화의도 > 대화의도 생성 옆 더보기 > 대화의도 업로드" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 챗봇 만들기 > 대화 의도 > 대화 의도 생성 옆 더보기 > 대화 의도 업로드" type="default" %}
 업로드 형식에 맞추어 작성한 CSV파일을 올려주시면 자동으로 Entity가 생성됩니다. 업로드 파일은 다음과 같은 제약사항이 존재합니다.
  - CSV파일만 가능합니다.
  - 파일당 최대 3MB까지 가능합니다.
