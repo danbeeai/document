@@ -110,11 +110,11 @@ entries:
       output: web, pdf
 
       subfolders:
-      - title: 대화흐름
+      - title: 대화 흐름
         output: web, pdf
 
         subfolderitems:
-        - title: 대화흐름 기본 설명
+        - title: 대화 흐름 기본 설명
           url: /chatflow.html
           output: web, pdf
 
@@ -179,7 +179,7 @@ entries:
         output: web, pdf
 
         subfolderitems:
-        - title: 대화의도 테스트
+        - title: 대화 의도 테스트
           url: /intent_test_batch.html
           output: web, pdf
 

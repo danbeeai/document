@@ -2,7 +2,7 @@
 title: API 관리 
 tags: [API, advanced]
 keywords: Basic Conversation
-summary: 대화흐름 설계에 사용할 외부 API를 등록 및 수정하는 페이지입니다.
+summary: 대화 흐름 설계에 사용할 외부 API를 등록 및 수정하는 페이지입니다.
 sidebar: danbee_doc_sidebar
 permalink: external_API_management.html
 folder: danbeeDoc
@@ -23,15 +23,15 @@ next: {
 {% include important_developer.html content="API에 대한 기본적인 이해가 필요한 개발자의 영역입니다. <br /> 개발자가 아니라면, 개발자 동료에게 도움을 요청하세요. [API관련 튜토리얼](/basic_api_node.html)에서는 개발자가 아니더라도 동작원리를 이해할 수 있도록 따라할 수 있는 예제가 제공됩니다." type="default" %}
 
 ### API관리와 API노드
-[API관리]에서 API를 등록하여 테스트할 수 있는 환경을 제공하고, [API노드](/chatflow_api.html)에서 불러와 재사용 할 수 있게 되어있습니다. [API관리]는 [그룹]단위로 관리할 수 있게 [그룹]메뉴에서 제공되고 있고, [API노드](/chatflow_api.html)는 챗봇별로 설정하게 되어 있습니다. 다시 말해, API관리에 등록한 API는 여러 챗봇의 대화흐름에서 재사용할 수 있습니다. 지금 보고 계신 문서는 [API 관리]에 대한 설명입니다. 
+[API관리]에서 API를 등록하여 테스트할 수 있는 환경을 제공하고, [API노드](/chatflow_api.html)에서 불러와 재사용 할 수 있게 되어있습니다. [API관리]는 [그룹]단위로 관리할 수 있게 [그룹]메뉴에서 제공되고 있고, [API노드](/chatflow_api.html)는 챗봇별로 설정하게 되어 있습니다. 다시 말해, API관리에 등록한 API는 여러 챗봇의 대화 흐름에서 재사용할 수 있습니다. 지금 보고 계신 문서는 [API 관리]에 대한 설명입니다. 
 {% include image.html file="external_API/1.PNG" %}
 
 ### 사용 절차
 1. API의 정보를 입력하여 API를 등록합니다. 
 2. 테스트 기능을 이용해 Response가 제대로 나오는 지 확인합니다.
-3. 대화흐름의 [API노드]에서 등록한 API를 불러옵니다.
-4. 테스트 했던 파라미터를 고려하여 실제 대화흐름에 맞게 파라미터를 재설정합니다.
-5. 실제로 챗봇이 대화흐름 도중에 API를 호출하여 응답 또는 접수를 하게 됩니다.
+3. 대화 흐름의 [API노드]에서 등록한 API를 불러옵니다.
+4. 테스트 했던 파라미터를 고려하여 실제 대화 흐름에 맞게 파라미터를 재설정합니다.
+5. 실제로 챗봇이 대화 흐름 도중에 API를 호출하여 응답 또는 접수를 하게 됩니다.
 
 
 
@@ -152,7 +152,7 @@ API관리 메뉴에 들어가면 등록한 API의 목록을 확인할 수 있습
 
 
 ## API 사용
-등록된  API는 대화흐름의 [API 노드](chatflow_api.html)에서 조회 및 사용 가능 합니다.
+등록된  API는 대화 흐름의 [API 노드](chatflow_api.html)에서 조회 및 사용 가능 합니다.
 {% include image.html file="external_API/cf_api_node.png"  caption="API 노드에서의 등록된 API 예시" %} 
 
 

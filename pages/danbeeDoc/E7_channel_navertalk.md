@@ -66,9 +66,9 @@ next: {
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_14_event_setting.png" alt="네이버톡톡 이벤트 설정" style="max-width: 800px"></figure>
 3. 핸드오버 API 를 'ON' 으로 설정합니다. <span class="link">[핸드오버API 가이드 바로가기](https://github.com/navertalk/chatbot-api/blob/master/handover_v1.md){:target="_blank"}</span>
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_15_handover_setting.png" alt="네이버톡톡 핸드오버 설정" style="max-width: 800px"></figure>
-4. 대화흐름의 액션기능으로 상담원 호출하기 - 스피크노드의 액션데이터 설정 : 'navertalk:passThread:톡톡앱아이디' 
+4. 대화 흐름의 액션기능으로 상담원 호출하기 - 스피크노드의 액션데이터 설정 : 'navertalk:passThread:톡톡앱아이디' 
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_16_speaknode_passthread.png" alt="상담원 호출 설정" style="max-width: 800px"></figure>
-5. 해당 대화흐름의 스피크노드가 응답이 되면 네이버톡톡 상담메뉴에서 상담사가 대답을 할 수 있습니다. ( 챗봇이 응답하지 않습니다. 상담종료를 한 후 챗봇이 다시 응답을 합니다. )
+5. 해당 대화 흐름의 스피크노드가 응답이 되면 네이버톡톡 상담메뉴에서 상담사가 대답을 할 수 있습니다. ( 챗봇이 응답하지 않습니다. 상담종료를 한 후 챗봇이 다시 응답을 합니다. )
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_17_chat_person.png" alt="네이버톡톡 상담하기" style="max-width: 800px"></figure>
 
 ## 네이버톡톡 테스트
