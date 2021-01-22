@@ -27,7 +27,7 @@ entries:
       url: /manual_home_composition.html
       output: web, pdf
       type: homepage
-      
+
     - title: 단비Ai 화면 구성
       url: /manual_service_composition.html
       output: web, pdf
@@ -55,7 +55,7 @@ entries:
 #      output: web, pdf
 
 
-      
+
   - title: 그룹
     output: web, pdf
     folderitems:
@@ -269,6 +269,15 @@ entries:
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
 
+      - title: 구글 번역
+        output: web, pdf
+
+        subfolderitems:
+          - title: 구글 번역
+            url: /predefined_api_googletranslation.html
+            output: web, pdf
+
+
       - title: 지식 라이브러리 관리
         output: web, pdf
 
@@ -297,7 +306,7 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: 프로그(Frogue) 
+    - title: 프로그(Frogue)
       url: /channel_frogu.html
       output: web, pdf
 
