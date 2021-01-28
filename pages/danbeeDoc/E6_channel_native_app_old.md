@@ -35,7 +35,7 @@ next: {
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 {: .table .table-striped}
 
-### REQUEST 정보 
+### REQUEST BODY 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
@@ -127,7 +127,7 @@ next: {
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
 {: .table .table-striped}
 
-### REQUEST 정보 
+### REQUEST BODY 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|

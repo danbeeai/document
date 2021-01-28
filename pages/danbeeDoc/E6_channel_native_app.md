@@ -44,7 +44,7 @@ next: {
 | chatbotId | String | Yes | 챗봇아이디 |
 {: .table .table-striped}
 
-### REQUEST 정보 
+### REQUEST BODY 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
@@ -146,7 +146,7 @@ next: {
 | chatbotId | String | Yes | 챗봇아이디 |
 {: .table .table-striped}
 
-### REQUEST 정보 
+### REQUEST BODY 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
@@ -294,7 +294,7 @@ next: {
 | eventId | String | Yes | 이벤트아이디 |
 {: .table .table-striped}
 
-### REQUEST 정보 
+### REQUEST BODY 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
