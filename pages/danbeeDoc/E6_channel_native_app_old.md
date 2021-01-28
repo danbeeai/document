@@ -1,10 +1,10 @@
 ---
-title: API for Your App 
+title: API for Your App (이전버전)
 tags: [api,channel, advanced]
 keywords: Basic Conversation
-summary:  단비Ai의 API를 활용하여 직접만든 대화채널에 연결할 수 있습니다.
+summary:  단비Ai의 API를 활용하여 직접만든 대화채널에 연결할 수 있습니다. (이전버전)
 sidebar: danbee_doc_sidebar
-permalink: channel_native_app.html
+permalink: channel_native_app_old.html
 folder: danbeeDoc
 previous: {
     title: Frogue(챗봇전용 채팅창)오픈소스,
@@ -16,13 +16,12 @@ next: {
 }
 ---
 
-{% include important_developer.html content="웹개발에 대한 기본적인 이해가 필요한 개발자의 영역입니다. <br /> 개발자가 아니라면, 개발자 동료에게 도움을 요청하세요." type="default" %}
+{% include important_developer.html content="이전 버전의 API 입니다. <br /> 새로운 버전의 API를 사용하세요." type="default" %}
 
-## API for Your App
+## API for Your App (이전버전)
 채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명드리겠습니다.
 {% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [채널 연결]" type="default" %}
-이전 버전의 API 는 [여기](channel_native_app_old.html)에서 확인하십시오.
-
+최신 버전의 API 는 [여기](channel_native_app.html)에서 확인하십시오.
 
 ## Welcome 메시지 API
 대화 채널이 처음 사용자와 대화가 시작될때 챗봇이 먼저 인사를 하거나 메뉴 선택지를 제공하고자 할 경우 사용하는 API입니다.
@@ -31,25 +30,17 @@ next: {
 
 | Field | Infomation |
 |--------|--------|
-| URL | https://danbee.ai/chatflow/chatbot/{version}/{chatbotId}/welcome.do |
+| URL | https://danbee.ai/chatflow/welcome.do |
 | METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
-{: .table .table-striped}
-
-### PATH 파라미터 정보 
-
-| KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| version | String | Yes | API 버전 ( v1.0 / v2.0 ) |
-| chatbotId | String | Yes | 챗봇아이디 |
 {: .table .table-striped}
 
 ### REQUEST 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
+| chatbot_id | String | Yes | 챗봇아이디 |
 | session_id | Number | No | 대화 세션 아이디(기존대화이력과 연결하여 시작메시지를 사용할 경우 전달) |
-| user_id | String | Yes | 사용자아이디 |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -97,8 +88,6 @@ next: {
 | imgRoute | 메시지에 표시될 이미지 정보가 표시됩니다. |
 | optionList | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
-| actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
-| msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
 {: .table .table-striped}
 
  * parameters Object
@@ -133,23 +122,16 @@ next: {
 
 | Field | Infomation |
 |--------|--------|
-| URL | https://danbee.ai/chatflow/chatbot/{version}/{chatbotId}/message.do |
+| URL | https://danbee.ai/chatflow/engine.do |
 | METHOD | POST |
 | HEADER | "Content-Type" : "application/json;charset=UTF-8" |
-{: .table .table-striped}
-
-### PATH 파라미터 정보 
-
-| KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| version | String | Yes | API 버전 ( v1.0 / v2.0 ) |
-| chatbotId | String | Yes | 챗봇아이디 |
 {: .table .table-striped}
 
 ### REQUEST 정보 
 
 | KEY | TYPE | Required | VALUE |
 |--------|--------|--------|--------|
+| chatbot_id | String | Yes | 챗봇아이디 |
 | input_sentence | String | Yes | 사용자 대화 문장 |
 | user_id | String | No | 사용자 아이디 |
 | session_id | String | No | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
@@ -214,8 +196,6 @@ next: {
 | imgRoute | 메시지에 표시될 이미지 정보가 표시됩니다. |
 | optionList | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
-| actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
-| msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
 {: .table .table-striped}
 
  * parameters Object
@@ -261,61 +241,12 @@ next: {
 | 구분 | 유형값 | 기능설명 |
 |--------|--------|--------|
 | 선택지 | btn | 사용자의 답변을 선택지로 받기 위한 정보를 설정합니다. |
-| 선택지-노드직접연결 | callNode | 사용자의 답변을 다음 노드이동에 대한 정보를 설정합니다. |
 | Web Link | link | 웹 팝업을 호출하기위 위한 정보를 설정합니다. |
 | 내부 App 실행 | inApp | 스마트폰에서 내부 App 실행을 하기 위한 정보를 설정합니다. |
 | 외부 App 실행 | outApp | 스마트폰에서 외부 App 실행을 하기 위한 정보를 설정합니다. |
 | Call (전화연결) | call | 스마트폰에서 전화연결을 하기 위한 정보를 설정합니다. |
 | 대화 흐름 호출 | callFlow | 다른 대화 흐름 를 진행하기 위한 정보를 설정합니다. |
-| 퀵리플라이 | quick | 사용자의 답변을 버튼값으로 받기 위한 정보를 설정합니다. |
-| 액션 | action | 버튼 클릭 시 사용할 액션스크립트 정보를 설정합니다. |
-| 지식답변호출 | callKnowledge | FAQ PLUS 의 지식라이브러리 답변을 가져올 ID정보를 설정합니다. |
 {: .table .table-striped}
-
-
-## 이벤트 대화흐름 API 
-대화 채널에서 사용할 이벤트 처리 API. 사용자의 이벤트(클릭, 페이지접근, 스크롤 등)에 따른 대화 흐름를 사용하는 API입니다.
-
-### 기본 정보
-
-| Field | Infomation |
-|--------|--------|
-| URL | https://danbee.ai/chatflow/event/{version}/{chatbotId}/{eventId}/message.do |
-| METHOD | POST |
-| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
-{: .table .table-striped}
-
-### PATH 파라미터 정보 
-
-| KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| version | String | Yes | API 버전 ( v1.0 / v2.0 ) |
-| chatbotId | String | Yes | 챗봇아이디 |
-| eventId | String | Yes | 이벤트아이디 |
-{: .table .table-striped}
-
-### REQUEST 정보 
-
-| KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| user_id | String | No | 사용자 아이디 |
-| session_id | String | No | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
-| parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
-{: .table .table-striped}
-
-#### REQUEST Object 정보
-
- * parameters Object
-
-| KEY | Description |
-|--------|--------|
-| 대화 의도에 정의된 파라미터 Key | 대화 흐름 시 전달된 파라미터 Value |
-{: .table .table-striped}
-
-### RESPONSE 정보
-
-대화 엔진 API의 RESPONSE 정보와 동일합니다.
-
 
 ## 사용자 대화 평가 API 
 대화 채널에서 챗봇 대화에 대해서 사용자 평가를 처리하는 API. 챗봇에 대답에 대해 약 7가지의 평가를 진행할 수 있습니다.
