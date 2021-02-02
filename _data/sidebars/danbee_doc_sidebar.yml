@@ -277,6 +277,14 @@ entries:
             url: /predefined_api_knowledgerowdelete.html
             output: web, pdf
 
+      - title: 닮은 유명인 찾기
+        output: web, pdf
+
+        subfolderitems:
+          - title: 닮은 유명인 찾기
+            url: /predefined_api_navercelebrity.html
+            output: web, pdf
+
   - title: 채널 연결
     output: web, pdf
 

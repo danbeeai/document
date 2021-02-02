@@ -10,6 +10,10 @@ previous: {
     title: 지식 라이브러리 데이터 추가,
     url: predefined_api_knowledgerowfind.html
 }
+next: {
+    title: 닮은 유명인 찾기,
+    url: predefined_api_navercelebrity.html
+}
 ---
 
 ## 설명
