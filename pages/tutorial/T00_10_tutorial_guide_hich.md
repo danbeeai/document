@@ -2,12 +2,12 @@
 title:  챗봇 시대를 여행하는 히치하이커를 위한 안내서
 keywords: 챗봇시대, 단비Ai, 히치하이커, 안내서, 머릿말, 도큐먼트 구성
 tags: [basic]
-permalink: index.html
+permalink: tutorial_home.html
 summary: 챗봇과 단비Ai에 대한 모든 것이 담긴 안내서입니다. 
-sidebar: blog_sidebar
+sidebar: tutorial_sidebar
 next: {
     title: 챗봇 레벨별 접근하기,
-    url: tutorial_home.html
+    url: tutorial_level.html
 }
 
 ---

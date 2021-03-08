@@ -7,7 +7,7 @@ entries:
   - title: 시작하기
     output: web
     folderitems:
-    - title: 챗봇 시대를 여행하는 히치하이커를 위한 안내서
+    - title: 챗봇은 단비로 만드세요.
       url: /index.html
       output: web
 

@@ -8,12 +8,15 @@ topnav:
 
     - title: 블로그
       url: /index.html
+      folderitems:    
     - title: 튜토리얼
       url: /tutorial_home.html
     - title: 매뉴얼
       url: /manual_home_composition.html
     - title: 가격정책
       external_url: https://danbee.ai/pricing.html
+
+
 
 #    - title: FAQ
 #      url: /faq_00_gateway.html
