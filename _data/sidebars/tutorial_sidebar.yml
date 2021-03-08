@@ -9,8 +9,11 @@ entries:
     output: web
     folderitems:
 
-    - title: 챗봇 레벨별 접근하기
+    - title: 챗봇 시대를 여행하는 히치하이커를 위한 안내서
       url: /tutorial_home.html
+      output: web
+    - title: 챗봇 레벨별 접근하기
+      url: /tutorial_level.html
       output: web
     - title: FAQ챗봇 튜토리얼   
       url: /tutorial_faq.html

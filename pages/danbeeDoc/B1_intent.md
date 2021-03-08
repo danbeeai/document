@@ -134,7 +134,7 @@ next: {
 #### 업로드 형식
 입력하고자 하는 정보는 정의된 구분자에 의해 구분되며 반드시 START 태그와 END 태그를 한쌍으로 가집니다. 구분자의 START와 END 사이의 정보를 업로드 하게 되며 구분자에는 INTENT, NAME, SENTENCE, PARAM, ANSWER 이 존재합니다.
 
-<table>
+<table class="table-bordered table-striped">
     <colgroup>
         <col width="15%" />
         <col width="15%" />

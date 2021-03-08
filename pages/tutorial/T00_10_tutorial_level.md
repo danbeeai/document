@@ -4,11 +4,11 @@ tags: [tutorial, basic]
 keywords: Tutorial
 summary: 만들려고 하는 챗봇의 수준에 따라 다르게 접근해야 합니다.
 sidebar: tutorial_sidebar
-permalink: tutorial_home.html
+permalink: tutorial_level.html
 folder: tutorial
 previous: {
     title: 챗봇 시대를 여행하는 히치하이커를 위한 안내서,
-    url: index.html
+    url: tutorial_home.html
 }
 next: {
     title: FAQ챗봇 만들기 튜토리얼,

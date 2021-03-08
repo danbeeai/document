@@ -13,7 +13,7 @@ body, html {
 }
 
 *, body, html, input, textarea, select, button {
-    font-family: "SD Apple Neo Gothic KR", "Noto Sans KR", serif;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,open sans,Helvetica,Arial,"Roboto", "Noto Sans KR", sans-serif,Apple Color Emoji,Segoe UI Emoji;
     word-break:keep-all;
 }
 
@@ -23,7 +23,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 0;
     border: 0;
     font-weight:300;
-    font-size: 100%;
+    /* font-size: 100%; */
+    font-size:16px;
     vertical-align: baseline;
     /* letter-spacing: -0.7px;
     word-spacing: 0.5px; */
@@ -65,7 +66,7 @@ pre a{
 }
 a {
     color: #FF7600; /*#2b1a09*/
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 a:hover{
     color: #FF7600; /*#2b1a09*/
@@ -187,7 +188,7 @@ a[data-toggle="tooltip"] {
 }
 .navbar-inverse .navbar-nav>.active>a {
     font-weight:bold;
-    color:#f8ac59;
+    color:#ffbb00;
     background:none !important;
 }
 #search-demo-container input#search-input {
@@ -226,8 +227,16 @@ a[data-toggle="tooltip"] {
 /*-- lnb --*/
 ul#mysidebar {
     border-radius: 0px;
+    position: fixed;
+    max-width: 270px;
+    width:270px;
+    min-width: 180px;
+    height: calc(100VH - 60px);
+    overflow: auto;
+    /* 
     border: 2px solid whitesmoke;
     margin-top: 20px;
+    */
 }
 ul#mysidebar .sidebarTitle {
     display:none;
@@ -240,7 +249,7 @@ ul#mysidebar > li > a {
     font-size:14px;
     color:#333;
     padding:12px 20px;
-    border-bottom:1px solid #f0f0f0;
+    /*border-bottom:1px solid #f0f0f0;*/
 }
 ul#mysidebar > li.active > a {
     background:#fff !important;
@@ -288,9 +297,9 @@ div#toc_side ul a:hover{
     text-decoration:underline;
 }
 div#toc_side > ul {
-    border: 1px solid #bed5df;
-    background: #ebf5fa;
-    padding: 14px 10px 14px 16px;
+    /* border: 1px solid #bed5df; */
+    /* background: #ebf5fa; */
+    /* padding: 14px 10px 14px 16px; */
     max-width: 250px;
 }
 div#toc_side ul > li {
@@ -310,7 +319,7 @@ div#toc_side ul li ul li a {
     font-size:13px;
 }
 div#toc_side ul li ul li a:before {
-    content:"- ";
+    content:" ";
 }
 div#toc_side .anchorjs-link  {
     display:none;
@@ -326,8 +335,8 @@ div#toc_side ul li ul li ul li a {
 div#toc_side >ul::before {
     display:block;
     margin-bottom:10px;
-    content: "본문 목차";
-    font-size:15px;
+    content: "C O N T E N T";
+    font-size:13px;
     font-weight: 600;
     color:#333;
 }
@@ -370,7 +379,7 @@ div#toc_side ul ul ul {
     padding-top:20px;
 }
 .post-header h1 {
-    font-weight:900;
+    font-weight:700;
     font-size: 36px;
 }
 
@@ -599,10 +608,10 @@ div#toc ul li {
     list-style: none;
 }
 div#toc > ul {
-    border:1px solid #dae6eb;
+    /* border:1px solid #dae6eb;
     background:#f5fafc;
     padding:14px 10px 14px 16px;
-    line-height: 24px;
+    line-height: 24px; */
 }
 
 div#toc ul a {
@@ -615,7 +624,7 @@ div#toc ul a.anchorjs-link  {
     display:none;
 }
 div#toc ul li ul, div#toc_side ul li ul {
-    padding-left:8px;
+    padding-left:16px;
 }
 div#toc ul li ul li::before{
     content: "–  ";
@@ -627,7 +636,7 @@ div#toc > ul > li> ul > a{
 }
 
 div#toc >ul::before {
-    content: "본문 목차";
+    content: "C O N T E N T";
     font-weight: 500;
     color: #555;
     text-align:center;
@@ -637,6 +646,7 @@ div#toc >ul::before {
     padding-top:20px;
     padding-bottom:20px;
     padding-left:10px;
+    font-size:13px;
 }
 /* pricing */
 .post-content .pricing table thead tr th{
@@ -944,8 +954,13 @@ div#toc >ul::before {
     .side-toc {
         display:none;
     }
+    
     .center-toc{
-        display:block;
+        display:none;
+    }
+    ul#mysidebar{
+         width:230px;
+         max-width:230px;
     }
 }
 @media (min-width: 1201px){
@@ -956,6 +971,26 @@ div#toc >ul::before {
         display:none;
     }
 }
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #444;
+    }
+}
+
+@media (max-width: 991px) {
+    ul#mysidebar {
+        position: static;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        border-bottom: 8px solid #1e2d38;
+    }
+    .center-toc{
+        display:none;
+    }
+}
+
+
 /*-- 스타일 변경 반응형 처리 --*/
 @media (max-width: 640px) {
     .container{
@@ -975,6 +1010,9 @@ div#toc >ul::before {
     #search-demo-container input#search-input {
         margin:0;
         width:100%;
+    }
+    #cta_document{
+        display:none;
     }
 
 }
