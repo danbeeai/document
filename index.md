@@ -1,8 +1,8 @@
 ---
-title: 챗봇은 단비로 만드세요.
+title: 챗봇, 단비로 직접 만드는 게 가장 좋습니다.
 tags: [tutorial, basic]
 keywords: Tutorial
-summary: 비용, 유지보수, 콘텐츠 업데이트 측면에서 단비로 직접 만드는 것이 가장 좋습니다.
+summary: 비용, 유지보수, 콘텐츠 업데이트 모든 측면에서요.
 sidebar: blog_sidebar
 permalink: index.html
 folder: tutorial
