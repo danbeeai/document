@@ -159,14 +159,15 @@ Standard 요금제 입니다. (33,000원/월)
 <div style="text-align:right;">
 {% include button_cta.html value="아이티메시지 홈페이지 바로가기" title="아이티메시지 홈페이지 바로가기" url="http://www.itmsg.co.kr/mod/contact_mail.html" %}
 </div>
-
-
+<br>
+<br>
 그루브웍스는 AI시대의 사용자경험에 대해 고민하고 창조하는 기업입니다. 미래의 UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 느껴보시기 바랍니다. 차별화된 대화형 UX를 고민하신다면 그루브웍스에 문의 하십시오.
 <div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9u3QZBeKwTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div style="text-align:right;">
+<br>
 {% include button_cta.html value="그루브웍스 홈페이지 바로가기" title="그루브웍스 홈페이지 바로가기" url="https://www.groovworks.com/" %}
 </div>
 
