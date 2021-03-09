@@ -46,7 +46,7 @@ chat+bot = chatbot 🤖 <br>
 
 정말 간단한 챗봇도 브랜드 정체성을 담아
 웹, 앱, 소셜미디어 채널에 걸 수준이 되려면 
-홈페이지 제작처럼 챗봇 에이전씨와 많은 소통이 필요합니다.
+홈페이지 제작처럼 챗봇 에이전시와 많은 소통이 필요합니다.
 
 제작을 맡겨 놓고 잊으면, 마음에 드는 챗봇이 
 저절로 만들어지는 일은 없습니다.
@@ -72,7 +72,7 @@ Standard 요금제 입니다. (33,000원/월)
 {% include image.html file="mkt/7.jpg" caption="인프라, 소통 최소화" %}
 
 
-### 1) 직접 만들지 않은 경우, 번거러움
+### 1) 직접 만들지 않은 경우, 번거로움
 서버 관리부터 업그레이드 할때 마다 많은 고민이 필요합니다. 
 외부 솔루션을 라이선싱하여 기업내 서버에 설치했다면, 솔루션 업체에 업그레이드 요청을 해야겠죠?
 서버 증설요청부터 작성해야 할 것입니다.
@@ -159,19 +159,20 @@ Standard 요금제 입니다. (33,000원/월)
 <div style="text-align:right;">
 {% include button_cta.html value="아이티메시지 홈페이지 바로가기" title="아이티메시지 홈페이지 바로가기" url="http://www.itmsg.co.kr/mod/contact_mail.html" %}
 </div>
-
-
+<br>
+<br>
 그루브웍스는 AI시대의 사용자경험에 대해 고민하고 창조하는 기업입니다. 미래의 UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 느껴보시기 바랍니다. 차별화된 대화형 UX를 고민하신다면 그루브웍스에 문의 하십시오.
 <div class="videowrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9u3QZBeKwTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div style="text-align:right;">
+<br>
 {% include button_cta.html value="그루브웍스 홈페이지 바로가기" title="그루브웍스 홈페이지 바로가기" url="https://www.groovworks.com/" %}
 </div>
 
 ## Ai와 협업 단비에서 시작 🧙‍♂️ 
-미래는 AI와 협업하는 시대가 됩니다. AI는 정확도 향상과 자동처리 업무를 담당하고, 사람은 사람만이 할 수 있는 복합적이고 창의적인 업무를 담당하게 된다고 합니다.
+미래는 AI와 협업하는 시대가 됩니다. AI는 정확도 향상과 자동처리 업무를 담당하고, 사람은 사람만이 할 수 있는 복합적이고 창의적인 업무를 담당하게 됩니다.
 <br/><br/>
 여러분의 기업에서 처음으로 시작하는 AI와 협업. 챗봇으로 시작하면 어떨까요?
 <br/><br/>
