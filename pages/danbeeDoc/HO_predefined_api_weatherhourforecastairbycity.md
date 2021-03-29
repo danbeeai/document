@@ -63,7 +63,7 @@ previous: {
     "cityName": "서울특별시",
     "hourType": "1",
     "hourValue1": "2021032909",
-    "dateValue2": "",
+    "hourValue2": "",
     "dateFormatter": "HH기준",
     "decimalPoint": 1
 }
