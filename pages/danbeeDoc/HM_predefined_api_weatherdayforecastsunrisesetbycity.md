@@ -21,7 +21,7 @@ next: {
 단비Ai에서 제공하는 도시별 일자별 일출일몰 조회 API 입니다. <br>
 요금제는 Starter 이상부터 사용가능합니다. (무료) <br>
 
-해당 API 는 https://sunrise-sunset.org/api 에서 제공하는 데이터입니다.
+해당 API 는 [sunrise-sunset.org](https://sunrise-sunset.org/api){:target="_blank"} 에서 제공하는 데이터입니다.
  
 [일출-해동이](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%8F%8B%EC%9D%B4){:target="_blank"}, [일몰-해넘이](https://ko.wikipedia.org/wiki/%ED%95%B4%EB%84%98%EC%9D%B4){:target="_blank"}, [박명](https://ko.wikipedia.org/wiki/%EB%B0%95%EB%AA%85){:target="_blank"}에 대한 측정값을 조회한다.
 

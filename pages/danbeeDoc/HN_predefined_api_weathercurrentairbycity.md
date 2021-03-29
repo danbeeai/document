@@ -21,7 +21,7 @@ next: {
 단비Ai에서 제공하는 도시별 현재 공기현황 조회 API 입니다. <br>
 요금제는 Starter 이상부터 사용가능합니다. (무료) <br>
 
-해당 API 는 https://openweathermap.org/api/air-pollution 에서 제공하는 데이터입니다.
+해당 API 는 [openweathermap](https://openweathermap.org/api/air-pollution){:target="_blank"} 에서 제공하는 데이터입니다.
 
 [대기오염물질](https://www.airkorea.or.kr/web/airMatter?pMENU_NO=130){:target="_blank"}에 대한 측정값을 조회한다.
 
