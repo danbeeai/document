@@ -23,6 +23,7 @@ next: {
  - [구글 번역](predefined_api_googletranslation.html) : 구글의 번역 서비스를 이용
  - [지식 라이브러리 관리](predefined_api_knowledgerowappend) : 단비Ai의 지식 라이브러리 데이터를 관리
  - [닮은 유명인 찾기](predefined_api_navercelebrity) : 네이버 CFR(Clova Face Recognition)의 닮은 유명인 찾기
+ - [도시별 날씨 조회](predefined_api_weathercurrentbycity.html) : 도시별 현재날씨, 예보, 일출/일몰시간, 공기현황 조회
  
 
 

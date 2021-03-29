@@ -306,6 +306,38 @@ entries:
             url: /predefined_api_navercelebrity.html
             output: web, pdf
 
+      - title: 도시별 날씨 조회
+        output: web, pdf
+
+        subfolderitems:
+          - title: 도시별 현재 날씨 조회
+            url: /predefined_api_weathercurrentbycity.html
+            output: web, pdf
+
+          - title: 도시별 일자별 날씨예보 조회
+            url: /predefined_api_weatherdayforecastbycity.html
+            output: web, pdf
+
+          - title: 도시별 시간별 날씨예보 조회
+            url: /predefined_api_weatherhourforecastbycity.html
+            output: web, pdf
+
+          - title: 도시별 오늘 일출일몰 조회
+            url: /predefined_api_weathertodaysunrisesetbycity.html
+            output: web, pdf
+
+          - title: 도시별 일자별 일출일몰 조회
+            url: /predefined_api_weatherdayforecastsunrisesetbycity.html
+            output: web, pdf
+
+          - title: 도시별 현재 공기현황 조회
+            url: /predefined_api_weathercurrentairbycity.html
+            output: web, pdf
+
+          - title: 도시별 시간별 공기현황 조회
+            url: /predefined_api_weatherhourforecastairbycity.html
+            output: web, pdf
+
   - title: 채널 연결
     output: web, pdf
 
