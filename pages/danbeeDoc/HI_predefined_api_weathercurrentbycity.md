@@ -21,7 +21,7 @@ next: {
 단비Ai에서 제공하는 도시별 현재 날씨조회 API 입니다. <br>
 요금제는 Starter 이상부터 사용가능합니다. (무료) <br>
 
-해당 API 는 https://openweathermap.org/api/one-call-api 에서 제공하는 데이터입니다.
+해당 API 는 [openweathermap](https://openweathermap.org/api/one-call-api){:target="_blank"} 에서 제공하는 데이터입니다.
 
 ### 도시 목록
 
