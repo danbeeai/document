@@ -13,7 +13,7 @@ body, html {
 }
 
 *, body, html, input, textarea, select, button {
-    font-family: -apple-system, "Roboto", "Noto Sans KR", sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    font-family: -apple-system, "Noto Sans KR", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     word-break:keep-all;
 }
 
