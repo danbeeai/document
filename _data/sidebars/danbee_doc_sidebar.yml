@@ -390,6 +390,11 @@ entries:
       url: /channel_lineworks.html
       output: web, pdf
 
+    - title: 마이크로소프트 팀즈(MS TEAMS)
+      url: /channel_teams.html
+      output: web, pdf
+
+
   - title: 챗봇 운영 관련 기능
     output: web, pdf
 

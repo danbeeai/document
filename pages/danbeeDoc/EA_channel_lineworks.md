@@ -11,8 +11,8 @@ previous: {
     url: channel_line.html
 }
 next: {
-    title: 텔레그램,
-    url: channel_telegram.html
+    title: 마이크로소프트 팀즈(MS TEAMS),
+    url: channel_teams.html
 }
 ---
 ## 네이버웍스 채널 연결 
