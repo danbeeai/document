@@ -11,8 +11,8 @@ previous: {
     url: channel_lineworks.html
 }
 next: {
-    title: 텔레그램,
-    url: channel_telegram.html
+    title: 채팅상담으로 전환하는 방법,
+    url: channel_chatperson.html
 }
 ---
 ## MS Teams에서 웹사이트 등록방법
