@@ -394,6 +394,9 @@ entries:
       url: /channel_teams.html
       output: web, pdf
 
+    - title: 채팅상담으로 전환하는 방법
+      url: /channel_chatperson.html
+      output: web, pdf
 
   - title: 챗봇 운영 관련 기능
     output: web, pdf
