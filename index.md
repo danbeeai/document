@@ -125,6 +125,8 @@ Standard 요금제 입니다. (33,000원/월)
 초등학생들이 인공지능을 배우기 위해 단비를 이용하고 있습니다. 그만큼 쉽습니다.
 뛰어난 기술이 쉬운 사용자 경험으로 정리되었습니다.
 
+{% include note.html content="AI교육을 고민하고 있는 선생님이신가요? 에이아이런을 만나보세요. [에이아이런 홈페이지](http://ailearn.co.kr){:target=_blank}" %}
+
 {% include image.html file="mkt/9.png" caption="단비AI를 기반으로 만들어진 에이아이런은 국립과천과학관에서도 사용되고 있어요." %}  
 
 ### 5. 다양한 메신저 연결 지원, API 제공 
