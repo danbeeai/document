@@ -99,8 +99,12 @@ entries:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
       output: web
-
-      
+    - title: 삼양그룹, 채용 홈페이지 챗봇
+      url: /casestudy_019_syhr.html
+      output: web
+    - title: 전남대학교병원, 홈페이지 챗봇
+      url: /casestudy_018_jnu.html
+      output: web
     - title: 어린이대공원, 홈페이지 안내 챗봇
       url: /casestudy_016_children.html
       output: web
