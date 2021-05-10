@@ -113,6 +113,138 @@ next: {
 
 
 
+## 의도추론이력 조회 API
+의도추론이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
+
+의도추론이력 다운로드 KEY 발급은 [의도추론 이력 관리-다운로드-api-key-관리](log.html#다운로드-api-key-관리) 에서 확인 가능합니다.
+
+### 기본 정보
+
+| Field | Infomation |
+|--------|--------|
+| URL | https://danbee.ai/chatbot/chatbotlog/nlu/retrieve |
+| METHOD | GET |
+| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
+
+### REQUEST 정보 
+
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| chatbotId | String | Yes | 챗봇아이디 |
+| baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
+| apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 의도추론이력 화면에서 생성 및 조회 가능 ) |
+{: .table .table-striped}
+
+### REQUEST 브라우저 테스트
+아래의 예시로 브라우저에서 간단히 테스트가 가능함.
+
+https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXXXXXXXX
+
+### RESPONSE 정보
+
+| KEY | TYPE | Required | Description |
+|--------|--------|--------|--------|
+| logId | String | Yes | 의도추론이력 로그 아이디 |
+| logSdatetime | Date | Yes | 의도추론 이력 시작일시 |
+| logDatetime | Date | Yes | 의도추론 이력 일시 |
+| inputSentence | String | Yes | 사용자 입력 문장 |
+| intentId | String | No | 의도추론 아이디 |
+| intentName | String | No | 의도추론 명 |
+| resultScore | Number | No | 의도 추론율 |
+| opIntentId | String | No | 의도추론 아이디 ( 의도추론 상세화면에서 설정된 값 ) |
+| userId | String | Yes | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
+| chatSessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
+{: .table .table-striped}
+
+## 대화이력 조회 API
+대화 이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
+
+대화이력 다운로드 KEY 발급은 [대화 이력 관리-다운로드-api-key-관리](log.html#다운로드-api-key-관리) 에서 확인 가능합니다.
+
+### 기본 정보
+
+| Field | Infomation |
+|--------|--------|
+| URL | https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve |
+| METHOD | GET |
+| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
+{: .table .table-striped}
+
+### REQUEST 정보 
+
+| KEY | TYPE | Required | VALUE |
+|--------|--------|--------|--------|
+| chatbotId | String | Yes | 챗봇아이디 |
+| baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
+| apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 대화이력 화면에서 생성 및 조회 가능 ) |
+{: .table .table-striped}
+
+### REQUEST 브라우저 테스트
+아래의 예시로 브라우저에서 간단히 테스트가 가능함.
+
+https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXXXXXXXX
+
+### RESPONSE 정보
+
+| KEY | TYPE | Required | Description |
+|--------|--------|--------|--------|
+| logId | Number | Yes | 대화이력 로그 아이디 |
+| sessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
+| flowId | String | Yes | 대화 흐름 아이디 |
+| flowName | String | Yes | 대화 흐름 명 |
+| nodeName | String | No | 노드 명 |
+| nodeType | String | No | 노드 유형 |
+| userId | String | No | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
+| message | String | No | 사용자 또는 챗봇의 대화내용 |
+| createDate | String | Yes | 로그 생성 일시 |
+| updateDate | String | Yes | 로그 수정 일시 |
+| neg | Number | No | 대화내용 감정 부정 수치 |
+| neu | Number  | No | 대화내용 감정 중립 수치 |
+| pos | Number | No | 대화내용 감정 긍정 수치 |
+{: .table .table-striped}
+
+## 대화이력 API 엑셀로 불러오기
+대화이력 API를 엑셀에서 사용하는 방법을 공유드립니다.
+
+<ol>
+    <li>
+        엑셀에서 "데이터 > 새쿼리 > 기타 원본에서 > 웹"을 선택합니다.
+        {% include image.html file="log/excel_webquery01.png"  caption="엑셀에서 새쿼리에서 웹 선택" %}
+    </li>
+    <li>
+        API 조건에 맞는 URL을 입력하여 데이터를 가져옵니다.
+        <ul>
+            <li>
+                대화의도이력 URL 
+                https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXX
+             </li>
+             <li>
+                대화흐름이력 URL 
+                https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXX
+             </li>
+         </ul>
+        챗봇아이디와 특정년월일, API까지 입력하시면됩니다.        
+        https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=bbec1b2a-0722-41d9-ac3a-e7a9edf481d3&baseDate=20210430&apiKey=c258ce022faa9e3f9dd6ebf5e4e8f722531e2680e7adb9b4f381926b93573a
+        {% include image.html file="log/excel_webquery02.png" caption="대화이력 url 입력" %}        
+    </li>
+    <li>
+        왼쪽 상단에 있는 [테이블로] 버튼을 클릭하고, 옵션을 구분자 "없음"을 선택합니다.
+        {% include image.html file="log/excel_webquery03.png" caption="테이블로 클릭" %}
+        {% include image.html file="log/excel_webquery04.png" caption="옵션 없음 선택" %}
+    </li>
+    <li>
+        엑셀 테이블이 하나 생깁니다. 이때 "새 행으로 확장"한 후에 데이터를 불러 옵니다.
+        {% include image.html file="log/excel_webquery05.png" caption="필터에서 새 행으로 확장 클릭" %}
+        {% include image.html file="log/excel_webquery06.png" caption="필터를 눌러 데이터를 가져온다." %}
+    </li>
+    <li>
+        [닫기 및 로드]를 클릭하여 데이터 가져오기를 하면 대화이력을 깔끔하게 엑셀로 받으실 수 있습니다.
+        {% include image.html file="log/excel_webquery07.png" caption="닫기 및 로드 클릭" %}
+        {% include image.html file="log/excel_webquery08.png" caption="대화이력 데이터 엑셀화면에 표시" %}
+    </li>
+</ol>
+
 
 
 <!-- 
