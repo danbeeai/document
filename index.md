@@ -185,3 +185,11 @@ Standard 요금제 입니다. (33,000원/월)
 <div style="text-align:right;">
 {% include button_cta.html value="무료로 챗봇 만들기 시작" title="무료로 챗봇 만들기 시작" url="https://danbee.ai/platform/#/join" %}
 </div>
+
+### 챗봇을 교육용도로 활용하고 싶으신가요?
+단비Ai를 기반으로 만들어진 Ai교육, 에이아이런을 만나보세요 :)
+<div>
+    <a href="https://ailearn.co.kr" target="_blank">
+        <img src="images/mkt/banner-ailearn3.png" >
+    </a>
+</div>
