@@ -356,21 +356,23 @@ div#toc_side ul ul ul {
 }
 #cta_document a{
     position: relative;
+    display:inline-block;
+    /*
     padding: 10px 20px;
     padding-left:76px;
     color:#fff;
     font-weight: bold;
-    display:inline-block;
     text-decoration:none;
     font-size:20px;
     background-color: #ff7621;
     border-radius: 12px;
+    */
 }
 #cta_document #cta_img{
     position: absolute;
     left:10px;
     top:10px;
-    width:56px;
+    width:218px;
     display:inline-block;
 }
 
@@ -590,8 +592,16 @@ div#toc_side ul ul ul {
 
 /*-- footer --*/
 footer {
-    font-size:12px;
-    color:#999;
+    font-size: 12px;
+    color: #999;
+    padding-bottom: 22px;
+    border-top: 1px solid #eee;
+    padding-top: 8px;
+}
+
+/*-- pagination --*/
+.pagination-title a{
+    display:inline-block
 }
 
 /*-- 본문목차 --*/
