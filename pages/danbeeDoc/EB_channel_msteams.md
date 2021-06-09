@@ -41,7 +41,7 @@ next: {
 
 {% include note.html content="MS Teams뿐 만 아니라 Frogue를 업무용 시스템에 적용한 경우에도 보안 강화 커스터마이즈가 가능합니다." %}
 
-[요금정책 살펴보기](https://danbee.ai/pricing.html){:target=_blank}" %}
+[요금정책 살펴보기](https://danbee.ai/pricing.html){:target='_blank'}" %}
 
 
 

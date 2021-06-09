@@ -19,7 +19,7 @@ folder: blog
 
 #### 관련기사 
 동명대는 이 챗봇서비스를 위하여 학사, 교무, 장학 등 각 부서의 부서 인원을 선발하여 ㈜씨드시스템과 방대한 양의 데이터를 인공지능 챗봇플랫폼 단비에이아이(danbee.Ai)에 교육시켜 완성하였다... <br>
-[동명대 전자출결서비스 연동 ‘AI 챗봇’ 서비스 개시](http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20181120.99099008856){:target=_blank}
+[동명대 전자출결서비스 연동 ‘AI 챗봇’ 서비스 개시](http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20181120.99099008856){:target="_blank"}
 
 
 

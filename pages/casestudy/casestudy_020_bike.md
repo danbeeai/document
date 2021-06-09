@@ -13,7 +13,7 @@ folder: blog
 서울자전거 따릉이는 서울특별시에서 운영하고 잇는 공공 자전거 입니다. 따릉이를 이용하는 분들을 위한 안내를 하고 있는 챗봇입니다.
 버튼을 누르거나 궁금한 점을 입력하면 자연스럽게 응답합니다.
 
-[서울자전거 홈페이지 링크](https://bikeseoul.com/){:target=_blank}
+[서울자전거 홈페이지 링크](https://bikeseoul.com/){:target="_blank"}
 
 {% include image.html file="casestudy/casestudy20_seoul_bike.PNG" caption="서울자전거 홈페이지에 적용된 AI챗봇, 누비" alt="서울시 공공 자전거, 따릉이 홈페이지 챗봇(스크린샷)" %}
 
