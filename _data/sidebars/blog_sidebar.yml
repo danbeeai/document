@@ -99,6 +99,9 @@ entries:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
       output: web
+    - title: 서울특별시, 따릉이 홈페이지 챗봇 
+      url: /casestudy_020_bike.html
+      output: web
     - title: 삼양그룹, 채용 홈페이지 챗봇
       url: /casestudy_019_syhr.html
       output: web
