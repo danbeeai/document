@@ -17,7 +17,7 @@ folder: blog
 {% include image_border.html file="casestudy/casestudy_12srm.PNG" caption="한국전력공사 조달시스템 홈페이지에서 일하고 있는 챗봇"  %}
 
 
-[한국전력공사, 조달시스템 홈페이지](https://srm.kepco.net/){:target=_blank}
+[한국전력공사, 조달시스템 홈페이지 링크](https://srm.kepco.net/){:target=_blank}
 ※ Internet Explorer 11에서 각종 보안 프로그램 설치후 확인 가능합니다.
 
 
