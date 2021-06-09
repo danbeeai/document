@@ -14,7 +14,7 @@ folder: blog
 
 담당자 한 분이 홈페이지에 있는 FAQ파일을 엑셀로 만들고 업로드하여 제작했습니다.
 
-[서울특별시 어린이대공원 링크](https://www.sisul.or.kr/open_content/childrenpark/){:target=_blank}
+[서울특별시 어린이대공원 링크](https://www.sisul.or.kr/open_content/childrenpark/){:target="_blank"}
 
 {% include image.html file="blog/biz/BIZ_001_sisul.jpg" alt="서울 어린이대공원 담당자가 직접 만들어 오픈한 웹컨시어지챗봇 (스크린샷)" caption="서울 어린이대공원 담당자가 직접 만들어 오픈한 웹컨시어지챗봇 (스크린샷)" %}
 

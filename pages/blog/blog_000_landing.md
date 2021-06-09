@@ -13,12 +13,12 @@ next: {
 ---
 
 ## 챗봇 적용했더니 괜찮아?
-2018년 11월 현재, 챗봇은 [가트너 하이프 사이클](https://ko.wikipedia.org/wiki/하이프_사이클){:target=_blank} 상에서 환멸단계(Trough of Disillusionment)라고 느껴집니다. 부풀려진 기대의 정점(Peak of Inflated Expectations)에서 성공과 실패를 지켜보면서 성공한 사례에만 투자하는 것이죠. 최근 챗봇을 적용한 기업들이 챗봇을 통해 얻은 성과에 대해 발표를 하고 있지만, '폭발적인' '혁신적인'이라는 표현보다는 '의미있는' 정도의 평가입니다. 하지만, 그럼에도 불구하고 기업들이 챗봇에 관심을 끈을 놓지 않는 이유는 잘될 수 밖에 없는 근본적인 이유가 있기 때문입니다.
+2018년 11월 현재, 챗봇은 [가트너 하이프 사이클](https://ko.wikipedia.org/wiki/하이프_사이클){:target="_blank"} 상에서 환멸단계(Trough of Disillusionment)라고 느껴집니다. 부풀려진 기대의 정점(Peak of Inflated Expectations)에서 성공과 실패를 지켜보면서 성공한 사례에만 투자하는 것이죠. 최근 챗봇을 적용한 기업들이 챗봇을 통해 얻은 성과에 대해 발표를 하고 있지만, '폭발적인' '혁신적인'이라는 표현보다는 '의미있는' 정도의 평가입니다. 하지만, 그럼에도 불구하고 기업들이 챗봇에 관심을 끈을 놓지 않는 이유는 잘될 수 밖에 없는 근본적인 이유가 있기 때문입니다.
 
 
 ## 왜 챗봇이 잘 될 수 밖에 없나? 
 
-챗봇은 [인간과 컴퓨터 상호작용(HCI, Human Computer Interaction)](https://ko.wikipedia.org/wiki/인간-컴퓨터_상호작용){:target=_blank}의 미래입니다.
+챗봇은 [인간과 컴퓨터 상호작용(HCI, Human Computer Interaction)](https://ko.wikipedia.org/wiki/인간-컴퓨터_상호작용){:target="_blank"}의 미래입니다.
 인간과 컴퓨터의 상호작용이 어떻게 진화해왔는지 하나씩 살펴보면서 왜 챗봇이 HCI의 미래인지 함께 생각해보시죠!
 
 ## 챗봇은 HCI의 미래야!
@@ -31,7 +31,7 @@ Wikipedia에 따르면 [HCI](https://ko.wikipedia.org/wiki/인간-컴퓨터_상�
 
 ### 천공 카드, 천공 테이프
 
-초기에는 천공 카드, 천공 테이프를 이용해 컴퓨터에 입력하고, 저장하였습니다. 2018년 사용하고 있는 [OMR](https://ko.wikipedia.org/wiki/광학_마크_인식){:target=_blank} 카드를 떠올리면 이해가 쉽겠네요! 싸인펜으로 컴퓨터가 인식할 수 있도록 칠하듯 천공 카드나 천공 테이프에서는 2진법으로 구멍을 뚫었습니다. 구멍을 뚫는 
+초기에는 천공 카드, 천공 테이프를 이용해 컴퓨터에 입력하고, 저장하였습니다. 2018년 사용하고 있는 [OMR](https://ko.wikipedia.org/wiki/광학_마크_인식){:target="_blank"} 카드를 떠올리면 이해가 쉽겠네요! 싸인펜으로 컴퓨터가 인식할 수 있도록 칠하듯 천공 카드나 천공 테이프에서는 2진법으로 구멍을 뚫었습니다. 구멍을 뚫는 
 전문적인 기계가 있었고, 구멍을 혹시라도 잘못 뚫으면(?) 다시 처음부터 구멍을 뚫기도 했습니다.
 
 {% include image.html file="blog/001_01_perforated_card.png"  caption="천공카드" %}
@@ -48,7 +48,7 @@ Wikipedia에 따르면 [HCI](https://ko.wikipedia.org/wiki/인간-컴퓨터_상�
 
 {% include image.html file="blog/001_03_GUI.png"  caption="GUI의 시대, 데스크톱과 모바일" %}
 
-{% include note.html content="GUI에서는 Graphic Design이 중요했습니다. 스크린에 나오는 아이콘과 폰트, 다양한 그래픽 요소들의 디자인 품질은 컴퓨터를 사용하는 UX전반의 품질을 좌지우지 했습니다. 현재도 활발히 활동하고 있는 대표적인 디자이너로 수전케어가 있습니다. [수전케어 홈페이지](http://kare.com/portfolio/){:target=_blank}" %}
+{% include note.html content="GUI에서는 Graphic Design이 중요했습니다. 스크린에 나오는 아이콘과 폰트, 다양한 그래픽 요소들의 디자인 품질은 컴퓨터를 사용하는 UX전반의 품질을 좌지우지 했습니다. 현재도 활발히 활동하고 있는 대표적인 디자이너로 수전케어가 있습니다. [수전케어 홈페이지](http://kare.com/portfolio/){:target='_blank'}" %}
 
 ### 인간의 인터렉션을 그대로 사용, NUI (Natural User Interface)
 
