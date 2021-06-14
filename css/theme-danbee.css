@@ -506,7 +506,7 @@ div#toc_side ul ul ul {
     padding:20px;
 }
 .post-content ol li, .post-content ul li {
-    margin: 0px 0px 12px 20px;
+    margin: 0px 0px 12px 0;
     font-weight:400;
 }
 .post-content ol li p, .post-content ul li p{
@@ -588,6 +588,14 @@ div#toc_side ul ul ul {
     padding:10px;
     font-size:14px;
     font-family: Menlo,Monaco,Consolas,"Courier New", dotum, gulim, monospace;
+}
+
+/*-- flex slider control --*/
+.flexslider:hover .flex-direction-nav .flex-prev {
+    left: -10px !important;
+}
+.flexslider:hover .flex-direction-nav .flex-next {
+    right: -10px !important;
 }
 
 /*-- footer --*/
