@@ -16,7 +16,7 @@ folder: blog
 
 {% include image.html file="casestudy/casestudy24_subwaykj.PNG" caption="광주도시철도공사 챗봇" alt="광주도시철도공사 홈페이지에 적용된 챗봇 스크린샷" %}
 <br><br>
-{% include image.html file="casestudy/casestudy24_subwaykj2.PNG" caption="광주도시철도공사 챗봇 주요 시나리오" alt="광주도시철도공사 홈페이지에 적용된 챗봇 주요 시나리오" %}
+{% include image.html file="casestudy/casestudy24_subwaykj2.png" caption="광주도시철도공사 챗봇 주요 시나리오" alt="광주도시철도공사 홈페이지 챗봇 주요 시나리오" %}
 <br><br>
 
 
