@@ -50,6 +50,7 @@ next: {
 |--------|--------|--------|--------|
 | session_id | Number | No | 대화 세션 아이디(기존대화이력과 연결하여 시작메시지를 사용할 경우 전달) |
 | user_id | String | Yes | 사용자아이디 |
+| postBackFlag | String | No | 버튼클릭여부 ( true / false : default : false ) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -158,6 +159,7 @@ next: {
 | node_id | String | No | 노드 아이디 |
 | param_id | String | No | 파라미터 아이디 (Slot 노드, Carousel 노드 경우 사용됨) |
 | chatflow_id | String | No | 대화 흐름 아이디 |
+| postBackFlag | String | No | 버튼클릭여부 ( true / false : default : false ) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -300,6 +302,7 @@ next: {
 |--------|--------|--------|--------|
 | user_id | String | No | 사용자 아이디 |
 | session_id | String | No | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
+| postBackFlag | String | No | 버튼클릭여부 ( true / false : default : false ) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
