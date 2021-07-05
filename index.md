@@ -157,23 +157,7 @@ Standard 요금제 입니다. (33,000원/월)
 
 단비 챗봇 빌더로 챗봇을 제작해주는 파트너에게 연락하십시오.
 
-아이티메시지는 RPA, 챗봇 등 기업 업무 자동화 솔루션을 제공하는 기업입니다. 기업업무를 자동화 관점으로 혁신하고 싶으시다면, 아이티메시지에 문의 하십시오.<br>
-
-(김승준 이사 / <a href="tel:010-5253-0527">010-5253-0527</a> / <a href="mailto:seungjoon.kim@itmsg.co.kr">seungjoon.kim@itmsg.co.kr</a>)
-<div style="text-align:right;">
-{% include button_cta.html value="아이티메시지 홈페이지 바로가기" title="아이티메시지 홈페이지 바로가기" url="http://www.itmsg.co.kr/mod/contact_mail.html" %}
-</div>
-<br>
-<br>
-그루브웍스는 AI시대의 사용자경험에 대해 고민하고 창조하는 기업입니다. 미래의 UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 느껴보시기 바랍니다. 차별화된 대화형 UX를 고민하신다면 그루브웍스에 문의 하십시오.
-<div class="videowrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9u3QZBeKwTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div style="text-align:right;">
-<br>
-{% include button_cta.html value="그루브웍스 홈페이지 바로가기" title="그루브웍스 홈페이지 바로가기" url="https://www.groovworks.com/" %}
-</div>
+[▶️ 챗봇 제작 의뢰](/biz_build_chatbot.html)
 
 ## Ai와 협업 단비에서 시작 🧙‍♂️ 
 미래는 AI와 협업하는 시대가 됩니다. AI는 정확도 향상과 자동처리 업무를 담당하고, 사람은 사람만이 할 수 있는 복합적이고 창의적인 업무를 담당하게 됩니다.
