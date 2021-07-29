@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: chatflow_parameter.html
 folder: danbeeDoc
 previous: {
-    title: Carousel 노드,
-    url: chatflow_carousel.html
+    title: Jump 노드,
+    url: chatflow_jump.html
 }
 next: {
-    title: 버튼식 흐름,
-    url: chatflow_tree.html
+    title: Sleep 노드,
+    url: chatflow_sleep.html
 }
 ---
 

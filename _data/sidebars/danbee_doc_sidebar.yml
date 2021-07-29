@@ -162,6 +162,10 @@ entries:
           url: /chatflow_parameter.html
           output: web, pdf
 
+        - title: Sleep 노드
+          url: /chatflow_sleep.html
+          output: web, pdf
+
     - title: 버튼식 흐름
       url: /chatflow_tree.html
       output: web, pdf
