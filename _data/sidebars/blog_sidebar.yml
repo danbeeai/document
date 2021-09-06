@@ -105,6 +105,12 @@ entries:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
       output: web
+    - title: 뮤지션마켓, 악기 추천 챗봇 
+      url: /casestudy_025_musician_market.html
+      output: web
+    - title: NH농협캐피탈, 장기렌터카 상담 접수 챗봇 
+      url: /casestudy_016_nhcapital_rent.html
+      output: web
     - title: 서울특별시, 따릉이 홈페이지 챗봇 
       url: /casestudy_020_bike.html
       output: web
