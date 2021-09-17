@@ -342,6 +342,26 @@ entries:
             url: /predefined_api_weatherhourforecastairbycity.html
             output: web, pdf
 
+#      - title: 얼굴컬렉션 관리
+#        output: web, pdf
+#
+#        subfolderitems:
+#          - title: 컬렉션에 얼굴사진 추가
+#            url: /predefined_api_collectionFace.html
+#            output: web, pdf
+#
+#          - title: 컬렉션에 얼굴사진 삭제
+#            url: /predefined_api_collectionFaceDelete.html
+#            output: web, pdf
+
+      - title: 얼굴찾기
+        output: web, pdf
+
+        subfolderitems:
+          - title: 얼굴찾기
+            url: /predefined_api_searchFacesByImage.html
+            output: web, pdf
+
   - title: 채널 연결
     output: web, pdf
 
