@@ -14,7 +14,7 @@ folder: blog
 보통 챗봇은 궁금한 사항을 물어보면 단답형으로 대답해주는 경우가 많은데요. 뮤지션마켓에서는 적극적으로 상품을 소개하는 추천봇을 만들었습니다.
 [뮤지션마켓 홈페이지 링크](https://www.musicianmarket.co.kr/){:target="_blank"}
 
-오프라인 매장 한 쪽에서 방문자가 원한다면 추천해줄 수 있게 자리잡고 있습니다. 
+온라인 매장 한 쪽에서 방문자가 원한다면 추천해줄 수 있게 자리잡고 있습니다. 
 {% include image.html file="casestudy/musicianMarket/musician-01-02.png" caption="오른쪽 하단에 위치한 추천 챗봇" alt="뮤지션 마켓에서 일하는 챗봇 위치" %}
 <br><br>
 
