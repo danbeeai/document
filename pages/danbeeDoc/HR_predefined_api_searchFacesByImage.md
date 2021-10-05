@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: predefined_api_searchFacesByImage.html
 folder: danbeeDoc
 previous: {
-    title: 얼굴컬렉션에 얼굴사진 추가하기,
-    url: predefined_api_collectionFace.html
+    title: 닮은 유명인 찾기,
+    url: predefined_api_navercelebrity.html
 }
 next: {
-    title: 도시별 현재 날씨 조회,
-    url: predefined_api_weathercurrentbycity.html
+    title: 사진 필터,
+    url: predefined_api_photoapi.html
 }
 ---
 

@@ -302,12 +302,20 @@ entries:
             url: /predefined_api_knowledgerowdelete.html
             output: web, pdf
 
-      - title: 닮은 유명인 찾기
+      - title: 이미지 처리
         output: web, pdf
 
         subfolderitems:
           - title: 닮은 유명인 찾기
             url: /predefined_api_navercelebrity.html
+            output: web, pdf
+
+          - title: 얼굴찾기
+            url: /predefined_api_searchFacesByImage.html
+            output: web, pdf
+
+          - title: 사진 필터
+            url: /predefined_api_photoapi.html
             output: web, pdf
 
       - title: 도시별 날씨 조회
@@ -353,14 +361,6 @@ entries:
 #          - title: 컬렉션에 얼굴사진 삭제
 #            url: /predefined_api_collectionFaceDelete.html
 #            output: web, pdf
-
-      - title: 얼굴찾기
-        output: web, pdf
-
-        subfolderitems:
-          - title: 얼굴찾기
-            url: /predefined_api_searchFacesByImage.html
-            output: web, pdf
 
   - title: 채널 연결
     output: web, pdf

@@ -10,6 +10,10 @@ previous: {
     title: 지식 라이브러리 데이터(행) 삭제,
     url: predefined_api_knowledgerowdelete.html
 }
+next: {
+    title: 얼굴찾기,
+    url: predefined_api_searchFacesByImage.html
+}
 ---
 
 ## API 설명
