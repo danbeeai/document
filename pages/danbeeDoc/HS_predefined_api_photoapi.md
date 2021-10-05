@@ -19,9 +19,9 @@ next: {
 ## API 설명
 
  단비Ai에서 제공하는 pho.to 사진 필터링 API입니다. <br>
-해당 기능은 한시적으로 무료로 제공하고 있습니다. ( 추후 비용 <br>
+해당 기능은 한시적으로 무료로 제공하고 있습니다. ( 추후 비용 발생 ) <br>
 
-해당 API 는 Pho.To의 [Pho.To](https://pho.to/){:target="_blank"} 에서 제공하는 api를 활용하였습니다.
+해당 API 는 [Pho.To](https://pho.to/){:target="_blank"} 에서 제공하는 api를 활용하였습니다.
 
 ## API 종류
 - [캐리커쳐](predefined_api_photoapi.html#캐리커쳐 만들기) : 캐리커쳐 만들기
@@ -40,7 +40,7 @@ next: {
 예시)
 ```javascript
 {
-    "imageUrl": "서울특별시",
+    "imageUrl": "https://",
     "morphingType": "1",
     "cartoon": "Y"
 }
