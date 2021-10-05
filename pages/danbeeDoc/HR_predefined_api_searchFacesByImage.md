@@ -23,8 +23,6 @@ next: {
 
 해당 API 는 Amazon Rekognition의 [SearchFacesByImage](https://docs.aws.amazon.com/ko_kr/rekognition/latest/dg/API_DeleteFaces.html){:target="_blank"} 에서 제공하는 api를 활용하였습니다.
 
-## API 주소
-<pre>POST https://internalapi.danbee.ai/predefineapis/knowledge/awsRekog/matchingFace</pre>
 
 ## API 입력값 유형
 form_data
