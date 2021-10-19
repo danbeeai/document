@@ -25,7 +25,7 @@ next: {
 
 챗봇, 채팅창이 필요합니다. Frogue는 단비Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
 아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
-{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [채널 연결]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [웹 채팅창]" type="default" %}
 
 {% include image_border.html file="channel/frogue/frogue05_livechat.PNG"  caption="단비Ai 홈페이지에 적용된 Frogue의 모습" %}
 
@@ -33,16 +33,11 @@ next: {
 ### 1. Frogue by danbee.Ai 에 [ON/OFF] 버튼을 클릭하십시오.
 
 홈페이지에 바로 적용을 하거나 별도의 URL에서 동작하는 챗봇을 사용하실 수 있습니다.
-
-{% include image.html file="channel/frogue/frogue06_on.PNG"  caption="danbee.Ai 홈페이지에 적용된 Frogue의 모습" %}
-
-### 2. 연결을 한 후 즉시 URL에서 확인이 가능합니다.
 기본적으로 접근 가능한 URL을 제공합니다. 오프라인 환경에서 챗봇을 만나게 하실 경우 QR코드를 활용하세요.
 
-{% include image_border.html file="channel/frogue/frogue01_basic.PNG"  caption="기본설정" %}
+{% include image.html file="channel/frogue/frogue01_basic.png"  caption="기본설정" %}
 
-
-### 3. 홈페이지에 붙이고 싶은 경우, embedding 코드를 활용하여 적용할 수 있습니다.
+### 2. 홈페이지에 붙이고 싶은 경우, embedding 코드를 활용하여 적용할 수 있습니다.
 
 모바일에서도 잘 동작하는 라이브챗 스타일로 홈페이지에서 안내, 문의응답을 고려하신다면 임베딩 코드를 홈페이지에 삽입하시기 바랍니다.
 {% include image_border.html file="channel/frogue/frogue02_embedding.PNG"  caption="임베딩 코드로 홈페이지에 라이브챗 스타일로 적용할 수 있습니다." %}
@@ -50,7 +45,7 @@ next: {
 라이브챗 스타일은 홈페이지 우측 하단에 대화를 유도하는 버튼을 달아 사용자와 실시간으로 채팅하는 스타일의 UI를 말합니다.
 
 
-#### 3.1 웹페이지와 연동하기
+#### 2.1 웹페이지와 연동하기
 
 <div class="indented">
 
@@ -98,7 +93,7 @@ next: {
 이렇게 호출할때 우측하단의 프로그 대화창이 닫혀있을때 말풍선으로, 대화창이 열려있을때 대화창내 챗봇이 말을 하게 됩니다.<br /> 
 </div>
 
-#### 3.2 웹페이지에서 프로그 초기 데이터 변경하기
+#### 2.2 웹페이지에서 프로그 초기 데이터 변경하기
 
 <div class="indented">
 
@@ -137,8 +132,7 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 
 </div>
 
-
-#### 3.3 웹페이지안에 아이프레임으로 넣기
+#### 2.3 웹페이지안에 아이프레임으로 넣기
 
 <div class="indented">
 
@@ -157,20 +151,27 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
     
 </div>
 
-### 4. 디자인을 변경하실 수 있어요! 테마를 선택하거나 색상을 변경하실 수 있습니다.
+
+### 3. 디자인을 변경하실 수 있어요! 테마를 선택하거나 색상을 변경하실 수 있습니다.
 
 홈페이지에 잘 어울리는 색상을 적용하실 수 있습니다.
-브랜드에 맞는 톤앤매너로 바꿔보세요.
+브랜드에 맞는 톤앤매너로 바꿔보세요. <br/>
+또한, Superior요금제를 이용하시면 헤더나 채팅창,하단 입력창 영역의 배경이미지까지 설정할 수 있습니다.
 
 {% include image_border.html file="channel/frogue/frogue03_design.PNG"  caption="Frogue 디자인 설정" %}
 
-보슬비(무료) 사용자는 미리보기는 가능하지만, 실제 프로그에는 적용되지 않습니다. 
+Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실제 프로그에는 적용되지 않습니다. 
 
 
-### 5. 아래 배너를 제거하실 수 있습니다. 
+### 4. 아래 배너를 제거하실 수 있습니다. 
 
 서비스 레벨에 따라 danbee.Ai 브랜드가 나오지 않게 설정을 변경할 수 있습니다.
-{% include image_border.html file="channel/frogue/frogue04_banner.PNG"  caption="배너 설정" %}
+{% include image_border.html file="channel/frogue/frogue04_banner.png"  caption="배너 설정" %}
+
+
+### 5. 기타 
+
+이 외에도 파일 업로드, 사용자의 말풍선 평가, 말풍선에 챗봇이미지 표시하기 등 더 다양한 기능들을 설정할 수 있습니다.
 
 
 {% include bottom.html %}
