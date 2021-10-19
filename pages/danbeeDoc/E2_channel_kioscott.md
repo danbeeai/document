@@ -39,7 +39,7 @@ next: {
 
 {% include image_border.html file="image/kioskott_preview.PNG"  caption="Kioscott 디자인 설정" %}
 
-보슬비(무료) 사용자는 미리보기는 가능하지만, 연결하거나 저장할 수 없습니다.
+Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 연결하거나 저장할 수 없습니다.
 
 
 {% include bottom.html %}
