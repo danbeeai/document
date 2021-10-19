@@ -10,6 +10,12 @@ entries:
     - title: 챗봇은 단비로 만드세요.
       url: /index.html
       output: web
+    - title: 챗봇 제작 의뢰
+      url: /biz_build_chatbot.html
+      output: web
+    - title: 단비AI요금제 FAQ
+      url: /biz_price_faq.html
+      output: web
 
   - title: 챗봇BIZ
     output: web
@@ -99,8 +105,33 @@ entries:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
       output: web
-
-      
+    - title: 뮤지션마켓, 악기 추천 챗봇 
+      url: /casestudy_025_musician_market.html
+      output: web
+    - title: NH농협캐피탈, 장기렌터카 상담 접수 챗봇 
+      url: /casestudy_016_nhcapital_rent.html
+      output: web
+    - title: 서울특별시, 따릉이 홈페이지 챗봇 
+      url: /casestudy_020_bike.html
+      output: web
+    - title: 환경공단, 자원순환지키미 챗봇 
+      url: /casestudy_021_eco.html
+      output: web
+    - title: 국가상수도정보시스템 홈페이지 챗봇
+      url: /casestudy_023_water.html
+      output: web
+    - title: 광주광역시도시철도공사 홈페이지 챗봇
+      url: /casestudy_024_grtc.html
+      output: web
+    - title: 티처빌, T봇 
+      url: /casestudy_022_teacher.html
+      output: web
+    - title: 삼양그룹, 채용 홈페이지 챗봇
+      url: /casestudy_019_syhr.html
+      output: web
+    - title: 전남대학교병원, 홈페이지 챗봇
+      url: /casestudy_018_jnu.html
+      output: web
     - title: 어린이대공원, 홈페이지 안내 챗봇
       url: /casestudy_016_children.html
       output: web

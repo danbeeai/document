@@ -14,7 +14,7 @@ folder: blog
 
 현재는 페이스북 메신저를 위주로 서비스를 제공하고 있으며, Line 메신저에서도 체험이 가능합니다.
 
-[적용사례 보러가기](https://www.facebook.com/shymarieyang/){:target=_blank}
+[적용사례 보러가기](https://www.facebook.com/shymarieyang/){:target="_blank"}
 
 
 ### 서비스 화면

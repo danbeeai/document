@@ -132,6 +132,26 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 
 </div>
 
+#### 2.3 웹페이지안에 아이프레임으로 넣기
+
+<div class="indented">
+
+아이프레임안에 프로그 URL을 셋팅할 경우 웹페이지 안에서 웹채팅창 서비스를 할 수 있습니다.. <br />
+
+시작메시지가 바로 나오게 하려면 URK 뒤에 값을 &force_welcome=Y 붙여넣습니다.<br /><br />
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>사용 예시 : </th>
+      <th>https://frogue.danbee.ai/?chatbot_id=챗봇아이디&user_id=사용자ID&force_welcome=Y</th>
+    </tr>
+  </thead>
+</table>
+    
+</div>
+
+
 ### 3. 디자인을 변경하실 수 있어요! 테마를 선택하거나 색상을 변경하실 수 있습니다.
 
 홈페이지에 잘 어울리는 색상을 적용하실 수 있습니다.

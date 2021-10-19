@@ -17,7 +17,7 @@ folder: blog
 
 모두 공개되어 있는 정보이고, 웹사이트에서 1레벨 부터 3레벨까지 메뉴를 찾아가는 번거로움을 챗봇으로 해결해준 사례입니다.
 
-[구리도시공사 홈페이지](http://http://www.gwdcguri.or.kr/){:target=_blank}
+[구리도시공사 홈페이지 링크](http://http://www.gwdcguri.or.kr/){:target="_blank"}
 
 {% include image_border.html file="casestudy/casestudy_11guri.PNG" caption="구리도시공사 홈페이지에서 일하고 있는 챗봇" %}
 

@@ -50,6 +50,7 @@ next: {
 |--------|--------|--------|--------|
 | session_id | Number | No | 대화 세션 아이디(기존대화이력과 연결하여 시작메시지를 사용할 경우 전달) |
 | user_id | String | Yes | 사용자아이디 |
+| postBackFlag | String | No | 버튼클릭여부 ( true / false : default : false ) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -158,6 +159,7 @@ next: {
 | node_id | String | No | 노드 아이디 |
 | param_id | String | No | 파라미터 아이디 (Slot 노드, Carousel 노드 경우 사용됨) |
 | chatflow_id | String | No | 대화 흐름 아이디 |
+| postBackFlag | String | No | 버튼클릭여부 ( true / false : default : false ) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -300,6 +302,7 @@ next: {
 |--------|--------|--------|--------|
 | user_id | String | No | 사용자 아이디 |
 | session_id | String | No | 대화 세션 아이디(대화창이 오픈되어 끝날 때까지의 대화이력을 식별할 수 있는 정보) |
+| postBackFlag | String | No | 버튼클릭여부 ( true / false : default : false ) |
 | parameters | JSON | No | 전체 파라미터 정보 (전달할 파라미터가 있는 경우 key, value 값을 전달해야 합니다.) |
 {: .table .table-striped}
 
@@ -373,97 +376,5 @@ next: {
 | 404 | [Chatflow] 대화 의도에 해당하는 flow를 찾지 못할 경우, 노드가 10번이상 진행될 경우, EngineService 예외상황 |
 | 405 | [Chatflow] flow 설정 문제 (답변 메시지를 못 찾았을 때, 분기 오류인 경우) |
 {: .table .table-striped}
-
-## 의도추론이력 조회 API
-의도추론이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
-
-의도추론이력 다운로드 KEY 발급은 [의도추론 이력 관리-다운로드-api-key-관리](log.html#다운로드-api-key-관리) 에서 확인 가능합니다.
-
-### 기본 정보
-
-| Field | Infomation |
-|--------|--------|
-| URL | https://danbee.ai/chatbot/chatbotlog/nlu/retrieve |
-| METHOD | GET |
-| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
-{: .table .table-striped}
-
-### REQUEST 정보 
-
-| KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| chatbotId | String | Yes | 챗봇아이디 |
-| baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
-| apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 의도추론이력 화면에서 생성 및 조회 가능 ) |
-{: .table .table-striped}
-
-### REQUEST 브라우저 테스트
-아래의 예시로 브라우저에서 간단히 테스트가 가능함.
-
-https://danbee.ai/chatbot/chatbotlog/nlu/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXXXXXXXX
-
-### RESPONSE 정보
-
-| KEY | TYPE | Required | Description |
-|--------|--------|--------|--------|
-| logId | String | Yes | 의도추론이력 로그 아이디 |
-| logSdatetime | Date | Yes | 의도추론 이력 시작일시 |
-| logDatetime | Date | Yes | 의도추론 이력 일시 |
-| inputSentence | String | Yes | 사용자 입력 문장 |
-| intentId | String | No | 의도추론 아이디 |
-| intentName | String | No | 의도추론 명 |
-| resultScore | Number | No | 의도 추론율 |
-| opIntentId | String | No | 의도추론 아이디 ( 의도추론 상세화면에서 설정된 값 ) |
-| userId | String | Yes | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
-| chatSessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
-{: .table .table-striped}
-
-## 대화이력 조회 API
-대화 이력을 일자별로 조회 가능한 API. 제휴회원만 사용가능.
-
-대화이력 다운로드 KEY 발급은 [대화 이력 관리-다운로드-api-key-관리](log.html#다운로드-api-key-관리) 에서 확인 가능합니다.
-
-### 기본 정보
-
-| Field | Infomation |
-|--------|--------|
-| URL | https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve |
-| METHOD | GET |
-| HEADER | "Content-Type" : "application/json;charset=UTF-8" |
-{: .table .table-striped}
-
-### REQUEST 정보 
-
-| KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
-| chatbotId | String | Yes | 챗봇아이디 |
-| baseDate | String | Yes | 기준일자 ( YYYYMMDD : 예 - 20180101 ) |
-| apiKey | String | Yes | 챗봇 이력 다운로드 키 ( 대화이력 화면에서 생성 및 조회 가능 ) |
-{: .table .table-striped}
-
-### REQUEST 브라우저 테스트
-아래의 예시로 브라우저에서 간단히 테스트가 가능함.
-
-https://danbee.ai/chatbot/chatbotlog/chatflow/retrieve?chatbotId=챗봇아이디&baseDate=년월일&apiKey=XXXXXXXXXXXXXXXXX
-
-### RESPONSE 정보
-
-| KEY | TYPE | Required | Description |
-|--------|--------|--------|--------|
-| logId | Number | Yes | 대화이력 로그 아이디 |
-| sessionId | Number | Yes | 챗봇과 사용자 대화 세션 아이디 |
-| flowId | String | Yes | 대화 흐름 아이디 |
-| flowName | String | Yes | 대화 흐름 명 |
-| nodeName | String | No | 노드 명 |
-| nodeType | String | No | 노드 유형 |
-| userId | String | No | 사용자 아이디 ( 채널별로 형식이 상이함 ) |
-| message | String | No | 사용자 또는 챗봇의 대화내용 |
-| createDate | String | Yes | 로그 생성 일시 |
-| updateDate | String | Yes | 로그 수정 일시 |
-| neg | Number | No | 대화내용 감정 부정 수치 |
-| neu | Number  | No | 대화내용 감정 중립 수치 |
-| pos | Number | No | 대화내용 감정 긍정 수치 |
-{: .table .table-striped}
-
 
 {% include bottom.html %}

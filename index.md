@@ -125,6 +125,8 @@ Standard 요금제 입니다. (33,000원/월)
 초등학생들이 인공지능을 배우기 위해 단비를 이용하고 있습니다. 그만큼 쉽습니다.
 뛰어난 기술이 쉬운 사용자 경험으로 정리되었습니다.
 
+{% include note.html content="AI교육을 고민하고 있는 선생님이신가요? 에이아이런을 만나보세요. [에이아이런 홈페이지](http://ailearn.co.kr){:target='_blank'}" %}
+
 {% include image.html file="mkt/9.png" caption="단비AI를 기반으로 만들어진 에이아이런은 국립과천과학관에서도 사용되고 있어요." %}  
 
 ### 5. 다양한 메신저 연결 지원, API 제공 
@@ -155,21 +157,7 @@ Standard 요금제 입니다. (33,000원/월)
 
 단비 챗봇 빌더로 챗봇을 제작해주는 파트너에게 연락하십시오.
 
-아이티메시지는 RPA, 챗봇 등 기업 업무 자동화 솔루션을 제공하는 기업입니다. 기업업무를 자동화 관점으로 혁신하고 싶으시다면, 아이티메시지에 문의 하십시오.
-<div style="text-align:right;">
-{% include button_cta.html value="아이티메시지 홈페이지 바로가기" title="아이티메시지 홈페이지 바로가기" url="http://www.itmsg.co.kr/mod/contact_mail.html" %}
-</div>
-<br>
-<br>
-그루브웍스는 AI시대의 사용자경험에 대해 고민하고 창조하는 기업입니다. 미래의 UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 느껴보시기 바랍니다. 차별화된 대화형 UX를 고민하신다면 그루브웍스에 문의 하십시오.
-<div class="videowrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9u3QZBeKwTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div style="text-align:right;">
-<br>
-{% include button_cta.html value="그루브웍스 홈페이지 바로가기" title="그루브웍스 홈페이지 바로가기" url="https://www.groovworks.com/" %}
-</div>
+[▶️ 챗봇 제작 의뢰](/biz_build_chatbot.html)
 
 ## Ai와 협업 단비에서 시작 🧙‍♂️ 
 미래는 AI와 협업하는 시대가 됩니다. AI는 정확도 향상과 자동처리 업무를 담당하고, 사람은 사람만이 할 수 있는 복합적이고 창의적인 업무를 담당하게 됩니다.
@@ -180,4 +168,12 @@ Standard 요금제 입니다. (33,000원/월)
 지금 여러분만의 챗봇을 🌱 싹틔우세요! <br>
 <div style="text-align:right;">
 {% include button_cta.html value="무료로 챗봇 만들기 시작" title="무료로 챗봇 만들기 시작" url="https://danbee.ai/platform/#/join" %}
+</div>
+
+### 챗봇을 교육용도로 활용하고 싶으신가요?
+단비Ai를 기반으로 만들어진 Ai교육, 에이아이런을 만나보세요 :)
+<div>
+    <a href="https://ailearn.co.kr" target="_blank">
+        <img src="images/mkt/banner-ailearn3.png" >
+    </a>
 </div>

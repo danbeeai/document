@@ -21,7 +21,7 @@ next: {
 챗봇시대를 함께 열어가는 여러분, 안녕하세요!
 
 이번 포스트는 원작자인 Abhishek Jain으로 부터 번역 및 배포에 대한 허락하에
-UXness에 기고된 [Designing a Chatbot - UX Process](http://www.uxness.in/2017/11/designing-chatbot-ux-process.html){:target=_blank}를 번역하여 공유드립니다.
+UXness에 기고된 [Designing a Chatbot - UX Process](http://www.uxness.in/2017/11/designing-chatbot-ux-process.html){:target="_blank"}를 번역하여 공유드립니다.
 
 챗봇도 사용자와 인터렉션하는 도구이며, UX관점에서 바라봐야 한다고 생각합니다.
 UX관점으로 가벼우면서 핵심적인 내용이 잘 정리되어 있어 공유드리게 되었습니다.

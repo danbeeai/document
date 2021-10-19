@@ -39,7 +39,7 @@ U+ 모바일 고객센터 App 내의 검색버튼을 통해 제공되고 있는 
 
 #### 관련기사 
 인공지능(AI) 기반의 상담 서비스 ‘U봇’을 고객센터 앱에 도입한지 6개월 만에 모바일을 통한 이용자 상담 건수가 9배 증가했다고 23일 밝혔다.(2018.01.23)
-[LG U+ "챗봇 도입 후 모바일 상담 건수 9배"](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20180123092239&type=det&re=zdk){:target=_blank}
+[LG U+ "챗봇 도입 후 모바일 상담 건수 9배"](http://www.zdnet.co.kr/news/news_view.asp?artice_id=20180123092239&type=det&re=zdk){:target="_blank"}
 
 
 

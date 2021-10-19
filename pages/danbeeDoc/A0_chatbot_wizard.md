@@ -71,7 +71,7 @@ next: {
 새로운 템플릿에 대한 의견은 어떤 템플릿 챗봇이 필요하신지 의견을 받고 있습니다.
 아래 링크를 통해 템플릿 챗봇에 대한 의견을 주시면, 다음 템플릿으로 제공할 수 있도록 면밀히 검토하도록 하겠습니다.  
 
-[템플릿 챗봇 의견보내기](https://frogue.danbee.ai/?chatbot_id=f809afc6-927a-40e1-bca2-19cc07aa352e){:target=_blank}
+[템플릿 챗봇 의견보내기](https://frogue.danbee.ai/?chatbot_id=f809afc6-927a-40e1-bca2-19cc07aa352e){:target="_blank"}
 
 
 {% include bottom.html %}
