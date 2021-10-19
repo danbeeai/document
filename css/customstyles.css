@@ -502,6 +502,7 @@ hr.shaded {
     background: white;
     width: 100%;
     margin-bottom: 10px;
+    box-shadow:none;
 }
 
 .fa-6x{font-size:900%;}

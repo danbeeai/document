@@ -19,7 +19,7 @@ folder: blog
 파브르의 능력과 적용하는 방법은 튜토리얼로 제공되고 있습니다.
 지금 확인해보세요!
 [파브르 만나보기](https://doc.danbee.ai/advanced_bug_hunting_fabre.html) <br/><br/>
-[파브르 한번 써보기](https://frogue.danbee.ai/?chatbot_id=4064be4c-a3d1-4663-aa2e-ca9d2d852518){:target=_blank}<br/>
+[파브르 한번 써보기](https://frogue.danbee.ai/?chatbot_id=4064be4c-a3d1-4663-aa2e-ca9d2d852518){:target="_blank"}<br/>
 
 {% include image_border.html file="tutorial/sample_fabre/fabre_01_welcome.PNG" %}
 

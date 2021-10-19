@@ -18,7 +18,7 @@ github_editme_path: danbeeai/document/blob/gh-pages/
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
-disqus_shortname: danbeeai
+disqus_shortname: 
 # if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
 google_analytics: UA-91561921-4

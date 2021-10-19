@@ -302,12 +302,20 @@ entries:
             url: /predefined_api_knowledgerowdelete.html
             output: web, pdf
 
-      - title: 닮은 유명인 찾기
+      - title: 이미지 처리
         output: web, pdf
 
         subfolderitems:
           - title: 닮은 유명인 찾기
             url: /predefined_api_navercelebrity.html
+            output: web, pdf
+
+          - title: 얼굴찾기
+            url: /predefined_api_searchFacesByImage.html
+            output: web, pdf
+
+          - title: 사진 필터
+            url: /predefined_api_photoapi.html
             output: web, pdf
 
       - title: 도시별 날씨 조회
@@ -341,6 +349,18 @@ entries:
           - title: 도시별 시간별 공기현황 조회
             url: /predefined_api_weatherhourforecastairbycity.html
             output: web, pdf
+
+#      - title: 얼굴컬렉션 관리
+#        output: web, pdf
+#
+#        subfolderitems:
+#          - title: 컬렉션에 얼굴사진 추가
+#            url: /predefined_api_collectionFace.html
+#            output: web, pdf
+#
+#          - title: 컬렉션에 얼굴사진 삭제
+#            url: /predefined_api_collectionFaceDelete.html
+#            output: web, pdf
 
   - title: 채널 연결
     output: web, pdf
@@ -392,6 +412,14 @@ entries:
 
     - title: NAVER WORKS(구 LINE WORKS)
       url: /channel_lineworks.html
+      output: web, pdf
+
+    - title: 마이크로소프트 팀즈(MS TEAMS)
+      url: /channel_teams.html
+      output: web, pdf
+
+    - title: 채팅상담으로 전환하는 방법
+      url: /channel_chatperson.html
       output: web, pdf
 
   - title: 챗봇 운영 관련 기능

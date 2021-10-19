@@ -20,7 +20,9 @@ next: {
 
 단비Ai에서 제공하는 여러가지 API 중 구글 번역 API입니다. <br>
 요금제는 Standard 이상부터 사용가능합니다. (100글자당 10원)<br>
-    
+
+지원 언어는 [해당페이지](https://cloud.google.com/translate/docs/languages){:target="_blank"}에서 확인가능합니다.
+
 ## API 입력값
 
 | KEY | TYPE | Required | VALUE |
