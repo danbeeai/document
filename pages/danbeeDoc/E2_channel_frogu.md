@@ -158,7 +158,7 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 브랜드에 맞는 톤앤매너로 바꿔보세요. <br/>
 또한, Superior요금제를 이용하시면 헤더나 채팅창,하단 입력창 영역의 배경이미지까지 설정할 수 있습니다.
 
-{% include image_border.html file="channel/frogue/frogue03_design.PNG"  caption="Frogue 디자인 설정" %}
+{% include image_border.html file="channel/frogue/frogue03_design.png"  caption="Frogue 디자인 설정" %}
 
 Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실제 프로그에는 적용되지 않습니다. 
 
