@@ -173,5 +173,31 @@ Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실�
 
 이 외에도 파일 업로드, 사용자의 말풍선 평가, 말풍선에 챗봇이미지 표시하기 등 더 다양한 기능들을 설정할 수 있습니다.
 
+### 6. 라이브 챗 위치 및 사이즈 변경하기
 
+라이브 챗의 위치와 사이즈를 수정하고싶을 땐
+`<head>`태그 최하단에 단비 프로그 스타일 경로를 넣어주시고 그 다음 위치와 사이즈를 수정할 스타일 경로(_프로그 위치 및 사이즈 수정.css_)를 넣어 주시고 아래 주석을 참고하여
+위치를 변경하시면 됩니다.
+
+```html
+<!--단비 프로그 스타일-->
+<link id="frogue-embed-css" rel="stylesheet" href="https://danbee.ai/js/plugins/frogue-embed/frogue-embed.min.css">
+
+<!-- 프로그 위치 및 사이즈 수정 스타일 -->
+<link rel="stylesheet" href="프로그 위치 및 사이즈 수정.css">
+```
+
+프로그 위치 및 사이즈 수정.css 스타일 소스
+```css
+#frogue-container {
+    right: 80px; /* 프로그 버튼 오른쪽 기준 */
+    bottom: 85px; /* 프로그 버튼 아래쪽 기준 */
+}
+.frogue-chat {
+    right: 220px; /* 채팅창 오른쪽 기준 위치 */
+    bottom: 320px; /* 채팅창 아래쪽 기준 위치 */
+    width: 320 !important; /* 채팅창 width */
+    max-height: 720px !important; /* 채팅창 height */
+}
+```
 {% include bottom.html %}
