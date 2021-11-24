@@ -28,9 +28,23 @@ Enterprise요금은 서비스 운영과정에 필요한 챗봇 학습, 콘텐츠
 ### 고객사 서버에 설치 또는 독립된 클라우드 인프라에 적용할 수 있나요?
 단비AI는 클라우드 서비스이지만 고객사의 정책에 따라 고객사가 자체 보유한 서버에 설치할 수 있습니다. 
 
-### RPA자동화와 연계한 IT솔루션 전문 기업, 아이티메시지
+### 챗봇 제작 및 UX 전문 파트너사, 그루브웍스
+그루브웍스는 AI시대의 사용자경험에 대해 고민하고 창조하는 기업입니다. 미래의 UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 느껴보시기 바랍니다. 차별화된 대화형 UX를 고민하신다면 그루브웍스에 문의 하십시오.
+
+<div class="videowrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9u3QZBeKwTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+{% include image.html file="mkt/partner_groovworks.PNG" caption="챗봇 제작 및 UX전문 파트너사, 그루브웍스" %}  
+<div style="text-align:right;">
+<br>
+{% include button_cta.html value="그루브웍스 홈페이지 바로가기" title="챗봇 제작 및 UX 전문 파트너사 그루브웍스 문의하기" url="https://forms.gle/AYGRTqwpte2D4zsKA" %}
+</div>
+
+
+### RPA자동화와 연계한 IT솔루션 전문 파트너사, 아이티메시지
 아이티메시지는 RPA, 챗봇 등 기업 업무 자동화 솔루션을 제공하는 기업입니다. 기업업무를 자동화 관점으로 혁신하고 싶으시다면, 아이티메시지에 문의 하십시오. <br>
-{% include image.html file="mkt/partner_itmessage.PNG" caption="IT 전문 파트너, 아이티메시지" %}  
+{% include image.html file="mkt/partner_itmessage.PNG" caption="챗봇 SI 전문 파트너사, 아이티메시지" %}  
 (김승준 이사 / <a href="tel:010-5253-0527">010-5253-0527</a> / <a href="mailto:seungjoon.kim@itmsg.co.kr">seungjoon.kim@itmsg.co.kr</a>)
 <div style="text-align:right;">
 
@@ -41,18 +55,7 @@ Enterprise요금은 서비스 운영과정에 필요한 챗봇 학습, 콘텐츠
 <br>
 <br>
 
-### AI UX 전문 기업, 그루브웍스
-그루브웍스는 AI시대의 사용자경험에 대해 고민하고 창조하는 기업입니다. 미래의 UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 느껴보시기 바랍니다. 차별화된 대화형 UX를 고민하신다면 그루브웍스에 문의 하십시오.
 
-<div class="videowrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9u3QZBeKwTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-{% include image.html file="mkt/partner_groovworks.PNG" caption="AI UX 전문 파트너, 그루브웍스" %}  
-<div style="text-align:right;">
-<br>
-{% include button_cta.html value="그루브웍스 홈페이지 바로가기" title="그루브웍스 홈페이지 바로가기" url="https://www.groovworks.com/" %}
-</div>
 
 
 {% include bottom.html %}
