@@ -49,11 +49,19 @@ UX인 대화형 UX는 어떤 방식일까요? 아래의 데모영상을 통해 �
 {% include image.html file="mkt/partner_itmessage.PNG" caption="챗봇 SI 전문 파트너사, 아이티메시지" %}  
 (김승준 이사 / <a href="tel:010-5253-0527">010-5253-0527</a> / <a href="mailto:seungjoon.kim@itmsg.co.kr">seungjoon.kim@itmsg.co.kr</a>)
 <div style="text-align:right;">
-
-
-
 {% include button_cta.html value="아이티메시지 홈페이지 바로가기" title="아이티메시지 홈페이지 바로가기" url="http://www.itmsg.co.kr/mod/contact_mail.html" %}
 </div>
+  
+### 인공지능컨택센터 전문 파트너사, 아이컴시스
+고객센터에서 가장 많이 사용하는 기본적인 대화AI를 기반으로 전화 주문, 반품 등 문의 접수, 주소를 자동으로 찾아주는 주소봇 등 전화 상담을 자동화하는 영역과
+상담원이 빠르고 정확한 답변을 할 수 있도록 돕는 상담가이드봇을 구축하는 인공지능 솔루션 전문 기업입니다.
+{% include image.html file="http://www.icomsys.co.kr/assets/front/images/img-guidebot.png" caption="AI컨텍센터 전문 파트너사, 아이컴시스" %}  
+
+<div style="text-align:right;">
+{% include button_cta.html value="아이컴시스 홈페이지 바로가기" title="아이컴시스 홈페이지 바로가기" url="http://www.icomsys.co.kr/" %}
+</div>
+
+
 <br>
 <br>
 
