@@ -13,7 +13,7 @@ previous: {
 ---
 
 ## Slack 채널 연결
-{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [채널 연결]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 배포] > [메신저 연결]" type="default" %}
 
 
 ### Slack 설정 개요
