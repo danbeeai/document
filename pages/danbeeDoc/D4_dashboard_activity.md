@@ -17,7 +17,7 @@ next: {
 ---
 
 
-{% include callout.html content="위치 : 사용 현황 > 사용 현황 > 행동 분석" type="default" %}
+{% include callout.html content="위치 : 그룹 관리 > 그룹 챗봇 관리 > 행동 분석" type="default" %}
 
 {% include important.html content="Superior 요금제에서 제공되는 기능입니다. [요금제 살펴보기](https://danbee.ai/pricing.html)" type="default" %}
 

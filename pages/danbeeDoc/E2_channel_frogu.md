@@ -25,7 +25,7 @@ next: {
 
 챗봇, 채팅창이 필요합니다. Frogue는 단비Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
 아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
-{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [웹 채팅창]" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 배포 > 웹 채팅창" type="default" %}
 
 {% include image_border.html file="channel/frogue/frogue05_livechat.PNG"  caption="단비Ai 홈페이지에 적용된 Frogue의 모습" %}
 
