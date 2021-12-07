@@ -1,8 +1,8 @@
 ---
-title: 챗봇, 단비로 직접 만드는 게 가장 좋습니다.
+title: 챗봇은 단비로 만드세요.
 tags: [tutorial, basic]
 keywords: Tutorial
-summary: 비용, 유지보수, 콘텐츠 업데이트 모든 측면에서요.
+summary: 챗봇이 무엇인지, 챗봇의 활용, 챗봇 적용방법에 대해 안내드립니다.
 sidebar: blog_sidebar
 permalink: index.html
 folder: tutorial
@@ -16,20 +16,74 @@ next: {
 }
 ---
 
-## 비용이 가장 큰 장점 💸
+## 챗봇이란? 🤖
    
-<strong>구축은 수천만 원, 제작은 수백만 원 듭니다.
-단비로 하면 연 40만 원에 충분합니다.</strong>
+챗봇은 일상에서 사용하는 자연어를 인식하여 대답하거나 업무를 처리해주는 인공지능 프로그램입니다.
 
-chat+bot = chatbot 🤖 <br>
-챗봇은 대화를 자동으로 하는 대화 로봇입니다. 챗봇을 만드는 방법은 크게 3단계로 나뉩니다. 
+{% include image.html file="mkt/2022/intro_01.png" caption="챗봇의 활용처" %}
 
-1. 인프라 구축 ➡️ 챗봇이 동작할 서버부터 마련합니다.  
-2. 챗봇빌더 구축 ➡️ 자연어 처리와 대화흐름 관리, 운영 기능을 만듭니다.  
-3. 챗봇 제작 ➡️ 마지막으로 실제 챗봇 서비스를 만듭니다.  
 
-### 1) 구축 의뢰: 수 천만원 이상
-구축은 위의 3단계를 모두 진행하는 것입니다.
+## 챗봇의 핵심 가치
+챗봇은 반복되는 단순한 상담업무를 자동화합니다.
+단순한 문의사항에 답변하거나 반복되는 대량 설문/접수를 대신 할 수 있습니다.
+
+{% include image.html file="mkt/2022/intro_2.png" caption="챗봇과 사람의 역할 구분" %}
+
+## 챗봇의 활동 영역
+영업/마케팅 영역, 업무지원 영역, 고객센터 영역 모든 곳에서 챗봇이 활약할 수 있습니다.
+{% include image.html file="mkt/2022/intro_3.png" caption="챗봇이 일할 수 있는 곳들" %}
+
+## 단비AI로 탄생한 챗봇들
+단비AI를 통해 다양한 분야의 챗봇이 탄생했고 지금도 일하고 있습니다. [사례 더 보기](https://doc.danbee.ai/casestudy_000_landing.html)
+
+{% include image.html file="mkt/2022/intro_4.png" caption="단비AI로 탄생한 챗봇" %}
+
+## 챗봇의 종류
+가장 많이 사용되는 형태는 <strong>단답형</strong>이며
+추천이나 설문, 접수 등의 특수한 업무를 처리하는 <strong>시나리오형</strong>,
+그리고 단답형과 시나리오형이 합쳐진 <strong>복합형</strong>이 있습니다.
+{% include image.html file="mkt/2022/intro_5.png" caption="챗봇의 종류" %}
+
+## 챗봇 콘텐츠 구성요소
+챗봇의 목적에 따라 4가지 콘텐츠 요소를 이해하고 활용해야 합니다. 
+맨 처음 챗봇을 어떻게 사용하는 것인지 안내하는 시작메시지가 있습니다.
+시작메시지를 보고 나서 사용자는 자신이 원하는 것을 이야기 하게 됩니다. 이때 한번 질문에 한번 답변하는 간편 대화도 있고 여러번 대화를 주고 받는 대화흐름이 진행되기도 합니다.
+챗봇이 대응할 수 있는 콘텐츠가 없는 경우엔 어떻게 대응할지 정책에 맞는 실패 메시지를 표시해야 합니다.
+{% include image.html file="mkt/2022/intro_6.png" caption="챗봇 콘텐츠 구성요소" %}
+
+### 챗봇 콘텐츠 구성요소 1. 시작메시지
+사용자에게 반갑게 인사하며 챗봇의 사용 방법을 이해할 수 있게 간략하고 명확하게 표현합니다.
+{% include image.html file="mkt/2022/intro_7.png" caption="시작메시지의 구조" %}
+
+### 챗봇 콘텐츠 구성요소 2. 간편대화 (단답형)
+말풍선 안에 간단 명료하게 정보를 제공하고 추가 정보는 다른 대화나 링크로 이어지게 구성합니다.
+{% include image.html file="mkt/2022/intro_8.png" caption="간편대화의 구조" %}
+
+채팅창이라는 작은 공간에 많은 콘텐츠를 담는 것은 한계가 있습니다. 따라서 웹페이지, 문서파일, 영상의 링크를 제공하는 경우도 많습니다.
+{% include image.html file="mkt/2022/intro_9.png" caption="링크로 안내하는 챗봇" %}
+
+음성 챗봇의 경우 명령어를 인식하는 간편대화가 많습니다. 답변이 아닌 처리를 원하는 경우죠.
+{% include image.html file="mkt/2022/intro_10.png" caption="음성 명령도 단답형 간편 대화!" %}
+
+### 챗봇 콘텐츠 구성요소 3. 대화흐름 (시나리오형-조회)
+ARS처럼 선택에 따라 세분화된 콘텐츠를 제공하거나 상품을 추천합니다. 한 문장의 질문으로 답변이 어려운 경우 추가 정보를 되물어보고 최종 답변을 하는 형태죠.
+{% include image.html file="mkt/2022/intro_11.png" caption="단비AI로 탄생한 챗봇" %}
+
+## 챗봇 콘텐츠 구성요소 4. 대화흐름 (시나리오형-설문/접수)
+여러번의 대화 결과가 답변이 아닌 접수 처리인 경우도 있습니다. 사용자가 이야기한 내용을 담당자에게 전달하는데요. 이와 같은 방식으로 만들 수 있는 것은 설문조사, 만족도 조사와 같은 정보 수집용 시나리오 또는 퀴즈, 이벤트 참여 신청, 세일즈 리드 생성 등이 있습니다.
+{% include image.html file="mkt/2022/intro_12.png" caption="단비AI로 탄생한 챗봇" %}
+
+
+{% include image.html file="mkt/2022/intro_13.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_14.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_15.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_16.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_17.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_18.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_19.png" caption="단비AI로 탄생한 챗봇" %}
+{% include image.html file="mkt/2022/intro_20.png" caption="단비AI로 탄생한 챗봇" %}
+
+
 
 {% include image.html file="mkt/1.jpg" caption="밑바닥 부터 차근차근 구축" %}
 
