@@ -56,7 +56,7 @@ NAVER WORKS 채널 연계 설정을 하려면 다음이 필요합니다. (NAVER 
   * API ID : LINE WORKS Developers Console에서 생성한 API ID
   * Consumer Key : LINE WORKS Developers Console에서 생성한 Server API Consumer Key
   * 인증구분 : SERVER IP ( SERVER ID는 추후 제공 )
-  * 인증 : LINE WORKS Developers Console에서 생성한 Server List의 토큰정보 <br>( IP는 18.178.93.206, 18.178.164.122 두개 등록 )
+  * 인증 : LINE WORKS Developers Console에서 생성한 Server List의 토큰정보 <br>( IP는 3.35.70.32, 3.35.109.86 두개 등록 )
   
 4. Webhook URL 복사하십시오.
 5. 연결 버튼을 클릭하십시오.
