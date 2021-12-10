@@ -42,7 +42,7 @@ NAVER WORKS 채널 연계 설정을 하려면 다음이 필요합니다. (NAVER 
 1. Console의 API 메뉴에서 필요한 API ID, Server API Consumer Key, Server List를 발급 또는 등록합니다.<figure><img class="docimage" src="images/channel/lineworks/lineworks_api_create.png" alt="line works api create" style="max-width: 800px"></figure>
   * API ID : API 연결 시 사용할 ID <figure><img class="docimage" src="images/channel/lineworks/lineworks_api_id.png" alt="line works api id create" style="max-width: 800px"></figure>
   * Server API Consumer Key : API 연결 시 사용할 Consumer Key ( 카테고리 : 메시지 Bot 전체 ) <figure><img class="docimage" src="images/channel/lineworks/lineworks_api_consumer_key.png" alt="line works api consumer key create" style="max-width: 800px"></figure>
-  * Server List(고정 IP 방식) : API 연결 시 인증할 서버 IP 등록 ( 18.178.93.206, 18.178.164.122 두개 등록 ) <figure><img class="docimage" src="images/channel/lineworks/lineworks_api_server_ip.png" alt="line works api server ip create" style="max-width: 800px"></figure>
+  * Server List(고정 IP 방식) : API 연결 시 인증할 서버 IP 등록 ( 3.35.70.32, 3.35.109.86 두개 등록 ) <figure><img class="docimage" src="images/channel/lineworks/lineworks_api_server_ip.png" alt="line works api server ip create" style="max-width: 800px"></figure>
   * Server List(ID 등록 방식) : API 연결 시 인증할 서버 ID 등록 ( 추후 제공 ) <figure><img class="docimage" src="images/channel/lineworks/lineworks_api_server_id.png" alt="line works api server id create" style="max-width: 800px"></figure>
   
 2. 해당 정보를 복사한 후 단비Ai 채널 연결 정보를 설정한다.
