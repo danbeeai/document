@@ -105,6 +105,9 @@ entries:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
       output: web
+    - title: 에어캐나다 항공 안내 챗봇, 단풍이
+      url: /casestudy_026_aircanada_airport.html
+      output: web
     - title: 뮤지션마켓, 악기 추천 챗봇 
       url: /casestudy_025_musician_market.html
       output: web
