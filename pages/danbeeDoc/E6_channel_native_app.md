@@ -100,6 +100,7 @@ next: {
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
 | actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
+| nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
 {: .table .table-striped}
 
  * parameters Object
@@ -218,6 +219,7 @@ next: {
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
 | actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
+| nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
 {: .table .table-striped}
 
  * parameters Object
