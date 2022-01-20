@@ -125,7 +125,7 @@ next: {
 단비에게 의뢰하세요.
 
 제작하고자 하는 챗봇의 주요 시나리오와 챗봇이 적용되고자 하는 위치,
-일정과 예산 등을 contact@danbee.ai로 보내주세요.
+일정과 예산 등을 <a href="mailto:contact@danbee.ai">contact@danbee.ai</a>로 보내주세요.
 
 
 
