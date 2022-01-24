@@ -16,6 +16,12 @@ entries:
     - title: 단비AI요금제 FAQ
       url: /biz_price_faq.html
       output: web
+    - title: 슈페리어 요금제에 대해서
+      url: /biz_price_superior.html
+      output: web
+    - title: 보안이 강화된 챗봇 적용 방법
+      url: /biz_security_chatbot.html
+      output: web
 
   - title: 챗봇BIZ
     output: web
