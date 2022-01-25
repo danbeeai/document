@@ -199,5 +199,9 @@ Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실�
     width: 320 !important; /* 채팅창 width */
     max-height: 720px !important; /* 채팅창 height */
 }
+.frogue-talkpop {
+    right: 0px; /* 말풍선 오른쪽 기준 위치 */
+    bottom: 20px; /* 말풍선 아래쪽 기준 위치 */
+}
 ```
 {% include bottom.html %}
