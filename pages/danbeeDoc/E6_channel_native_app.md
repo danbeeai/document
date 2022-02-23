@@ -20,7 +20,7 @@ next: {
 
 ## API for Your App
 채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명드리겠습니다.
-{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [채널 연결]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 배포] > [메신저 연결]" type="default" %}
 이전 버전의 API 는 [여기](channel_native_app_old.html)에서 확인하십시오.
 
 
@@ -100,6 +100,7 @@ next: {
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
 | actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
+| nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
 {: .table .table-striped}
 
  * parameters Object
@@ -218,6 +219,7 @@ next: {
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
 | actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
+| nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
 {: .table .table-striped}
 
  * parameters Object
