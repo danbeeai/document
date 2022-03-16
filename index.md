@@ -152,6 +152,14 @@ next: {
 제작하고자 하는 챗봇의 주요 시나리오와 챗봇이 적용되고자 하는 위치,
 일정과 예산 등을 <a href="mailto:contact@danbee.ai">contact@danbee.ai</a>로 보내주세요. 
 
+<strong>디지털 전환을 담당하고 있는 담당자이신가요? </strong>
+가성비 좋은 디지털 전환 상품. 단비 DT챗봇 패키지를 살펴보세요.
+많은 기업, 기관 고객들이 제작하는 형태의 챗봇 제작과 
+가장 인기 있는 챗봇 서비스 이용료를 합친 상품입니다. [단비 DT챗봇 패키지 자세히 보기](biz_DT_chatbot_package.html)
+
+{% include image.html file="mkt/2022/DT/dt-00.png" caption="단비 DT챗봇 패키지" %}  
+
+
 
 
 {% include bottom.html %}
