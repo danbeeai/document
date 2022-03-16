@@ -13,6 +13,9 @@ entries:
     - title: 챗봇 제작 의뢰
       url: /biz_build_chatbot.html
       output: web
+    - title: 단비 DT챗봇 패키지
+      url: /biz_DT_chatbot_package.html
+      output: web
     - title: 단비AI요금제 FAQ
       url: /biz_price_faq.html
       output: web
