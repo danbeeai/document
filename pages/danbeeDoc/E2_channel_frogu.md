@@ -151,6 +151,69 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
     
 </div>
 
+<br /><br />
+
+#### 2.4 Embedding코드의 data 속성 활용하기
+Embedding 코드의 div태그를 보시면 data-chatbot, data-user등의 속성들이 많이 보입니다. 이러한 값들을 입력하시면
+라이브챗에서의 더욱 많은 기능을 이용하실 수 있습니다.<br /><br />
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>속성</th>
+      <th>설명</th>
+      <th>값</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>data-chatbot</td>
+      <td>(필수값) 챗봇 ID </td>
+      <td>챗봇의 ID</td>
+    </tr>
+    <tr>
+      <td>data-user</td>
+      <td>사이트에 들어오는 유저id로, 사이트사용자관리가 가능할때 연결을 해주시면 사용자별로 사용로그를 확인할수 있습니다.</td>
+      <td>사용자 ID</td>
+    </tr>
+    <tr>
+        <td>data-init-key</td>
+        <td>처음에 챗봇이 로딩딜때 넘길수있는값으로, 대화흐름파라미터와 연동하여 사용됩니다.보통 로그인여부나, 개인정보동의 등의 값을 사이트에서 받아서 처리합니다.</td>
+        <td>예) data-init-loginYn="Y"</td>
+    </tr>
+    <tr>
+        <td>data-close-use</td>
+        <td>챗봇 아이콘 숨김 버튼 사용 여부</td>
+        <td>사용:Y, 사용안함:N</td>
+    </tr>
+    <tr>
+        <td>data-close-bgcolor</td>
+        <td>챗봇 아이콘 숨김 버튼의 배경색</td>
+        <td>예) #ffffff</td>
+    </tr>
+    <tr>
+        <td>data-close-linecolor</td>
+        <td>챗봇 아이콘 숨김 버튼의 X글자의 색상</td>
+        <td>예) #000000</td>
+    </tr>
+    <tr>
+        <td>data-move-use</td>
+        <td>챗봇 아이콘 위치 이동 기능 사용 여부</td>
+        <td>사용:Y, 사용안함:N</td>
+    </tr>
+    <tr>
+        <td>data-move-bgcolor</td>
+        <td>챗봇 아이콘 위치 이동 버튼의 배경색</td>
+        <td>예) #ffffff</td>
+    </tr>
+    <tr>
+        <td>data-move-linecolor</td>
+        <td>챗봇 아이콘 위치 이동 버튼의 글자 색상</td>
+        <td>예) #000000</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3. 디자인을 변경하실 수 있어요! 테마를 선택하거나 색상을 변경하실 수 있습니다.
 
