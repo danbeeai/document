@@ -178,9 +178,9 @@ Embedding 코드의 div태그를 보시면 data-chatbot, data-user등의 속성�
       <td>사용자 ID</td>
     </tr>
     <tr>
-        <td>data-init-key</td>
-        <td>처음에 챗봇이 로딩딜때 넘길수있는값으로, 대화흐름파라미터와 연동하여 사용됩니다.보통 로그인여부나, 개인정보동의 등의 값을 사이트에서 받아서 처리합니다.</td>
-        <td>예) data-init-loginYn="Y"</td>
+        <td>data-init-식별키</td>
+        <td>처음에 챗봇이 로딩딜때 넘길수있는값으로, 대화흐름파라미터와 연동하여 사용됩니다.보통 로그인여부나, 개인정보동의 등의 값을 사이트에서 받아서 처리합니다. (식별키는 소문자만 가능)</td>
+        <td>예) data-init-loginyn="Y"</td>
     </tr>
     <tr>
         <td>data-close-use</td>
