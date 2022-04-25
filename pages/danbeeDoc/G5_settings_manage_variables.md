@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: settings_manage_variables.html
 folder: danbeeDoc
 previous: {
-    title: 엔티티,
-    url: entity.html
+    title: 간편대화,
+    url: nlu_faq.html
 }
 next: {
     title: 대화 의도 테스트,
