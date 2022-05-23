@@ -54,9 +54,9 @@ next: {
 
 {% include image.html file="chatflow/Chatflow_design.png"  caption="대화 흐름 canvas" %}
 
-### 이벤트 플로우
+### 이벤트 대화흐름
 
-이벤트 플로우란 대화 의도에서 시작되는 흐름이 아닌, 특정 조건에서 시작되는 흐름을 이야기합니다. 이벤트 플로우는 이벤트 URL과 이벤트명을 가지며 스크립트를 통해 직접 호출해야합니다.
+이벤트 대화흐름이란 대화 의도에서 시작되는 흐름이 아닌, 특정 조건에서 시작되는 흐름을 이야기합니다. 이벤트 플로우는 이벤트 URL과 이벤트명을 가지며 스크립트를 통해 직접 호출해야합니다.
 
 {% include image.html file="chatflow/Chatflow_event.png"  caption="이벤트 플로우로 설정" %}
 
