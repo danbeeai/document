@@ -21,7 +21,7 @@ DT패키지란?
 위 다섯 항목에 해당되는 경우 추천드리는 챗봇도입 패키지에요.
 
 자세한 내용은 
-https://doc.danbee.ai/biz_DT_chatbot_package.html
+[DT 패키지](https://doc.danbee.ai/biz_DT_chatbot_package.html)
 링크를 참조하세요 😀
 
 
