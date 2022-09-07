@@ -267,9 +267,9 @@ Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실�
     bottom: 20px; /* 말풍선 아래쪽 기준 위치 */
 }
 .frogue-btn-iframe-wrap{
-	border-radius : 0;  /* 프로그버튼 사각형으로 보이게 변경 */
-	-webkit-box-shadow : 0 !important;  /* 프로그버튼 그림자 없애기 */
-	box-shadow : none !important;
+    border-radius : 0;  /* 프로그버튼 사각형으로 보이게 변경 */
+    -webkit-box-shadow : 0 !important;  /* 프로그버튼 그림자 없애기 */
+    box-shadow : none !important;
 }
 ```
 {% include bottom.html %}
