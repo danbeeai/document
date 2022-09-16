@@ -272,4 +272,14 @@ Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실�
 	box-shadow : none !important;
 }
 ```
+
+### 7. STT(Speech To Text)
+
+브라우저의 STT 기능을 이용하여 챗봇에게 음성 메시지를 전달합니다. <br/>
+(* PC Chrome 브라우저에서만 오픈된 기능으로, 기타 브라우저나 모바일 환경에서는 '사용'으로 설정하였더라도 기능이 노출되지 않습니다.)
+
+{% include image_border.html file="channel/frogue/frogue_stt_01.png"  caption="STT 1" %} <br/>
+{% include image_border.html file="channel/frogue/frogue_stt_02.png"  caption="STT 2" %}
+
+
 {% include bottom.html %}
