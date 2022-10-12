@@ -1,49 +1,51 @@
 ---
-title: 프로그(단비 자체 채널)
+title: 토드(단비 자체 채널)
 tags: [channel]
 keywords: Basic Conversation
-summary: 간단한 설정으로 단비Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.
+summary: 간단한 설정으로 단비Ai에서 제공하는 새로운 웹 채팅창에 연결할 수 있습니다.
 sidebar: danbee_doc_sidebar
-permalink: channel_frogu.html
+permalink: channel_toad.html
 folder: danbeeDoc
 previous: {
-    title: 챗봇 채널 연계 설정,
-    url: channel_connection_settings.html
-}
-next: {
     title: 프로그(단비 자체 채널) 오픈소스,
     url: channel_frogu_open.html
+}
+next: {
+    title: API for Your App,
+    url: channel_native_app.html
 }
 
 ---
 
 
-## Frogue(프로그)
+## 토드(Toad)
 
 
 <strong>단비가 내리면, 개구리가 운다!</strong>
 
-챗봇, 채팅창이 필요합니다. Frogue는 단비Ai로 만든 챗봇이 바로 출동할 수 있도록 만든 서비스 입니다.
-아래 경로에서 ON 하면, 바로 사용하실 수 있습니다.
+만든 챗봇이 바로 출동할 수 있는 더욱 새로워진 모습의 웹채팅창 서비스를 만나 보세요. 
+아래 화면 위치에서 바로 채널 '토드'를 연결할 수 있습니다.
+토드는 기존 프로그 채널에서 더욱 세련된 디자인으로 변화된 새로운 웹 채팅창 서비스입니다. 기능적인 면에서는 기존 프로그 채널과 동일합니다. 
+
 {% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 배포 > 웹 채팅창" type="default" %}
 
-{% include image_border.html file="channel/frogue/frogue05_livechat.PNG"  caption="단비Ai 홈페이지에 적용된 Frogue의 모습" %}
+{% include image_border.html file="channel/toad/toad_livechat.png"  caption="단비Ai 홈페이지에 적용된 쳇봇 Toad 채널 모습" %}
 
 
 ### 1. 채널에 연결하기
 
-'연결 상태'를 ON으로 설정하시고, '채널 유형'을 '클래식(프로그)'를 선택하시면 채널 연결하기가 완료됩니다!
-채널 유형을 '플러스(토드)'로 변경하시면, 프로그와 연결이 해제되고 토드 채널과 연결됩니다.
+'연결 상태'를 ON으로 설정하시고, '채널 유형'을 '플러스(토드)'를 선택하시면 채널 연결하기가 완료됩니다!
+채널 유형을 '클래식(프로그)'로 변경하시면, 토드와 연결이 해제되고 프로그 채널과 연결됩니다.
 
 홈페이지에 바로 적용을 하거나 별도의 URL에서 동작하는 챗봇을 사용하실 수 있습니다.
 기본적으로 접근 가능한 URL을 제공합니다. 오프라인 환경에서 챗봇을 만나게 하실 경우 QR코드를 활용하세요.
 
-{% include image.html file="channel/frogue/frogue01_basic.png"  caption="기본설정" %}
+{% include image.html file="channel/toad/toad_connect.png"  caption="기본설정" %}
 
 ### 2. 홈페이지에 붙이고 싶은 경우, embedding 코드를 활용하여 적용할 수 있습니다.
 
 모바일에서도 잘 동작하는 라이브챗 스타일로 홈페이지에서 안내, 문의응답을 고려하신다면 임베딩 코드를 홈페이지에 삽입하시기 바랍니다.
-{% include image_border.html file="channel/frogue/frogue02_embedding.PNG"  caption="임베딩 코드로 홈페이지에 라이브챗 스타일로 적용할 수 있습니다." %}
+{% include image_border.html file="channel/toad/toad_embed.png"  caption="임베딩 코드로 홈페이지에 라이브챗 스타일로 적용할 수 있습니다." %}
 
 라이브챗 스타일은 홈페이지 우측 하단에 대화를 유도하는 버튼을 달아 사용자와 실시간으로 채팅하는 스타일의 UI를 말합니다.
 
@@ -147,7 +149,7 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
   <thead>
     <tr>
       <th>사용 예시 : </th>
-      <th>https://frogue.danbee.ai/?chatbot_id=챗봇아이디&user_id=사용자ID&force_welcome=Y</th>
+      <th>https://frogue.danbee.ai/toad?chatbot_id=챗봇아이디&user_id=사용자ID&force_welcome=Y</th>
     </tr>
   </thead>
 </table>
@@ -224,7 +226,7 @@ Embedding 코드의 div태그를 보시면 data-chatbot, data-user등의 속성�
 브랜드에 맞는 톤앤매너로 바꿔보세요. <br/>
 또한, Superior요금제를 이용하시면 헤더나 채팅창,하단 입력창 영역의 배경이미지까지 설정할 수 있습니다.
 
-{% include image_border.html file="channel/frogue/frogue03_design.png"  caption="Frogue 디자인 설정" %}
+{% include image_border.html file="channel/toad/toad_custom.png"  caption="토드 커스텀 디자인 설정" %}
 
 Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실제 프로그에는 적용되지 않습니다. 
 
@@ -282,7 +284,7 @@ Trial(무료체험)요금제 사용자는 미리보기는 가능하지만, 실�
 (* PC Chrome 브라우저에서만 오픈된 기능으로, 기타 브라우저나 모바일 환경에서는 '사용'으로 설정하였더라도 기능이 노출되지 않습니다.)
 
 {% include image_border.html file="channel/frogue/frogue_stt_01.png"  caption="플랫폼에서의 설정 화면" %} <br/>
-{% include image_border.html file="channel/frogue/frogue_stt_02.png"  caption="웹채팅창에 적용된 모습" %}
+{% include image_border.html file="channel/toad/toad_stt.png"  caption="웹채팅창에 적용된 모습" %}
 
 
 {% include bottom.html %}

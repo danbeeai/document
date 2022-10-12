@@ -1,5 +1,5 @@
 ---
-title: 프로그(Frogue) 오픈소스
+title: 프로그(단비 자체 채널) 오픈소스
 tags: [channel]
 keywords: Basic Conversation
 summary: Frogue를 수정해서 사이트에 적용할 수 있는 오픈소스입니다. 설치 후, 챗봇ID만 변경하면 바로 사용할 수 있습니다.
@@ -7,12 +7,12 @@ sidebar: danbee_doc_sidebar
 permalink: channel_frogu_open.html
 folder: danbeeDoc
 previous: {
-    title: Frogue(챗봇전용 채팅창),
+    title: 프로그(단비 자체 채널),
     url: channel_frogu.html
 }
 next: {
-    title: API for Your App,
-    url: channel_native_app.html
+    title: 토드(단비 자체 채널),
+    url: channel_toad.html
 }
 ---
 
