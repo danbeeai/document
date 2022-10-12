@@ -1,5 +1,5 @@
 ---
-title: 토드(단비 자체 채널)
+title: 토드(단비 웹채팅창)
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 단비Ai에서 제공하는 새로운 웹 채팅창에 연결할 수 있습니다.
@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: channel_toad.html
 folder: danbeeDoc
 previous: {
-    title: 프로그(단비 자체 채널) 오픈소스,
+    title: 프로그(단비 웹채팅창) 오픈소스,
     url: channel_frogu_open.html
 }
 next: {

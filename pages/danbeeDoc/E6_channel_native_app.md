@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc
 previous: {
-    title: 토드(단비 자체 채널),
+    title: 토드(단비 웹채팅창),
     url: channel_toad.html
 }
 next: {

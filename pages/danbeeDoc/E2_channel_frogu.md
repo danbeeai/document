@@ -1,5 +1,5 @@
 ---
-title: 프로그(단비 자체 채널)
+title: 프로그(단비 웹채팅창)
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 단비Ai에서 제공하는 웹채팅창에 연결할 수 있습니다.
@@ -11,7 +11,7 @@ previous: {
     url: channel_connection_settings.html
 }
 next: {
-    title: 프로그(단비 자체 채널) 오픈소스,
+    title: 프로그(단비 웹채팅창) 오픈소스,
     url: channel_frogu_open.html
 }
 
