@@ -144,22 +144,5 @@ next: {
 
 {% include image.html file="mkt/9.png" caption="단비AI를 기반으로 만들어진 에이아이런은 많은 초/중/고 및 교육기관에서도 사용되고 있어요." %}  
 
-### 2. 챗봇 개발사에게 의뢰하기
-<strong>챗봇을 직접 만들 시간이 없지만 예산은 있는 경우 또는 잘 만들어 줄 수 있는 전문가에게 맡기고 싶다면?</strong>
-
-단비에게 의뢰하세요!
-
-제작하고자 하는 챗봇의 주요 시나리오와 챗봇이 적용되고자 하는 위치,
-일정과 예산 등을 <a href="mailto:contact@danbee.ai">contact@danbee.ai</a>로 보내주세요. 
-
-<strong>디지털 전환을 담당하고 있는 담당자이신가요? </strong>
-가성비 좋은 디지털 전환 상품. 단비 DT챗봇 패키지를 살펴보세요.
-많은 기업, 기관 고객들이 제작하는 형태의 챗봇 제작과 
-가장 인기 있는 챗봇 서비스 이용료를 합친 상품입니다. [단비 DT챗봇 패키지 자세히 보기](biz_DT_chatbot_package.html)
-
-{% include image.html file="mkt/2022/DT/dt-00.png" caption="단비 DT챗봇 패키지" %}  
-
-
-
 
 {% include bottom.html %}
