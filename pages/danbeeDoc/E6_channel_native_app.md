@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: channel_native_app.html
 folder: danbeeDoc
 previous: {
-    title: Frogue(챗봇전용 채팅창)오픈소스,
-    url: channel_frogu_open.html
+    title: 토드(단비 웹채팅창),
+    url: channel_toad.html
 }
 next: {
     title: 페이스북,
