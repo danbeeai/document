@@ -374,15 +374,15 @@ entries:
       url: /channel_connection_settings.html
       output: web, pdf
 
-    - title: 프로그(단비 자체 채널)
+    - title: 프로그(단비 웹채팅창)
       url: /channel_frogu.html
       output: web, pdf
 
-    - title: 프로그(단비 자체 채널) 오픈소스
+    - title: 프로그(단비 웹채팅창) 오픈소스
       url: /channel_frogu_open.html
       output: web, pdf
 
-    - title: 토드(단비 자체 채널)
+    - title: 토드(단비 웹채팅창)
       url: /channel_toad.html
       output: web, pdf
 
