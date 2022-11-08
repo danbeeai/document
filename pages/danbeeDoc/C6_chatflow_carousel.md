@@ -37,14 +37,12 @@ Carousel 노드는 2개의 상세 화면으로 구성됩니다.
 | Frogue | 제한없음 | https://doc.danbee.ai/channel_frogu.html |
 | Facebook | 최대80자 | developers.facebook.com/docs/messenger-platform/reference/templates/generic |
 | Telegram | subtitle 사용안함 | https://core.telegram.org/bots |
-| Slack | 정보없음 | api.slack.com/reference/messaging/attachments
+| Slack | 정보없음 | api.slack.com/reference/messaging/attachments |
 | Line Works | 이미지O 100자, 이미지X 120자 | https://developers.worksmobile.com/kr/document/1005008?lang=ko |
 | Line | 최소60자, 최대120자 | developers.line.biz/en/reference/messaging-api/#template-messages |
 | Naver 톡톡 | 최대1000자 | github.com/navertalk/chatbot-api#composite-object |
 | Kakao i Builder | 단일 230자 / 캐로셀 이미지X 76자, 이미지O 40자 | https://i.kakao.com/docs/tutorial-chatbot-response#%EB%A7%90%ED%92%8D%EC%84%A0-%EC%A0%9C%EC%9E%91-%EC%8A%A4%ED%8E%99-%EC%A0%95%EB%B3%B4 |
 | Kioscott - beta | 제한없음 | https://doc.danbee.ai/channel_kioscott.html |
-
-
 
 ## 메시지 카드 설정
 
@@ -71,6 +69,14 @@ Carousel은 추가적으로 선택지를 카드형태로 받을 수 있는 노�
 - 네이버톡톡 : 최대 10개
 
 {% include warning.html content="해당 기능은 ***Facebook***과 ***네이버 톡톡***에서만 제공됩니다. 현재 danbee.Ai 내의 시뮬레이션, 테스트 패널, 기타 다른 메신저에서는 확인이 불가합니다." %}
+
+## 시간 설정
+
+챗봇이 메시지를 대답하는 시간은 1초가 기본값으로 설정되어 있습니다. 챗봇이 바로 대답하기를 원하지 않을 경우, 얼마만큼 지연시킬것인지
+시간을 밀리초(millisecond, ms) 단위로 설정할 수도 있습니다. (1초는 1000ms입니다.)
+
+{% include image.html file="chatflow/chatflow_timedelay.png"  caption="메시지 시간 설정" %}
+
 <!-- 
 ### 샘플 시나리오 (좋아하는 음식은?)
 

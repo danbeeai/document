@@ -92,15 +92,16 @@ next: {
 
  * result Object
 
-| KEY | Description |
-|--------|--------|
-| message | 노드에 설정된 메시지를 표시합니다. |
-| imgRoute | 메시지에 표시될 이미지 정보가 표시됩니다. |
-| optionList | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
+| KEY          | Description |
+|--------------|--------|
+| message      | 노드에 설정된 메시지를 표시합니다. |
+| imgRoute     | 메시지에 표시될 이미지 정보가 표시됩니다. |
+| optionList   | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
 | actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
 | nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
+| delayTime    | (v2.0) 노드에 설정된 메시지가 화면에 표시되기까지 지연되는 시간입니다. |
 {: .table .table-striped}
 
  * parameters Object
@@ -211,15 +212,16 @@ next: {
 
  * result Object
 
-| KEY | Description |
-|--------|--------|
-| message | 노드에 설정된 메시지를 표시합니다. |
-| imgRoute | 메시지에 표시될 이미지 정보가 표시됩니다. |
-| optionList | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
+| KEY          | Description |
+|--------------|--------|
+| message      | 노드에 설정된 메시지를 표시합니다. |
+| imgRoute     | 메시지에 표시될 이미지 정보가 표시됩니다. |
+| optionList   | 버튼, 팝업, 전화연결과 같은 설정정보가 표시됩니다. |
 | carouselList | 캐로셀 노드의 카드 정보가 표시됩니다 |
 | actionData | (v1.0) 해당노드의 액션스크립트 정보가 표시됩니다. |
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
 | nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
+| delayTime    | (v2.0) 노드에 설정된 메시지가 화면에 표시되기까지 지연되는 시간입니다. |
 {: .table .table-striped}
 
  * parameters Object
