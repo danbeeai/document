@@ -20,7 +20,7 @@ next: {
 
 ## API for Your App (이전버전)
 채널에서 danbee.Ai 와 연계하기 위해 제공되는 API들과 각 이벤트시에 처리되고 활용되는 데이터 항목에 대해 설명드리겠습니다.
-{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 제작] > [채널 연결]" type="default" %}
+{% include callout.html content="화면 위치 : [챗봇 만들기] > [챗봇 배포] > [메신저 연결]" type="default" %}
 최신 버전의 API 는 [여기](channel_native_app.html)에서 확인하십시오.
 
 ## Welcome 메시지 API

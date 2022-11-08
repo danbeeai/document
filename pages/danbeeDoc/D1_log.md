@@ -67,7 +67,7 @@ next: {
 
 ## 대화 흐름 이력
 
-{% include callout.html content="화면 위치 : 챗봇 > 챗봇 운영 > 대화 흐름 이력" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 운영 > 대화 흐름 이력" type="default" %}
 {% include image.html file="log/1_0.PNG" %}
 대화 흐름 이력 페이지에서는 해당 챗봇이 실제로 어떤 대화를 나누었는지 확인할 수 있습니다. 최대 7일간의 이력을 볼 수 있으며 대화 세션 단위로 다음과 같은 정보들을 제공합니다.
 

@@ -16,7 +16,7 @@ next: {
 }
 ---
 
-{% include callout.html content="화면 위치 : 챗봇 만들기 > 고급기능 > 대화 의도 테스트" type="default" %}
+{% include callout.html content="화면 위치 : 챗봇 만들기 > 고급 설정 > 대화 의도 테스트" type="default" %}
 
 {% include important.html content="Standard 요금제에서 제공되는 기능입니다. [요금제 살펴보기](https://danbee.ai/pricing.html)" type="default" %}
 

@@ -11,7 +11,6 @@ folder: blog
 ## 모바일 웹 전용 장기렌터카 상담접수 챗봇
 
 NH농협캐피탈에서는 장기렌터카 상품을 제공하고 있습니다. 직급은 계장으로 잡고 고객에게 대화로 다가갑니다.
-[캐피계장 만나보기(모바일 전용)](https://rent.nhcapital.co.kr/){:target="_blank"}
 
 {% include image.html file="casestudy/nhcapital/nh-01.PNG" caption="NH농협캐피탈에서 제공하고 있는 장기렌터카 상담접수 챗봇, 캐피계장" alt="NH농협캐피탈에서 제공하고 있는 장기렌터카 상담접수 챗봇, 캐피계장" %}
 <br><br>

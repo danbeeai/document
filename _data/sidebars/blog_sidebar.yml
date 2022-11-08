@@ -16,6 +16,12 @@ entries:
     - title: 단비AI요금제 FAQ
       url: /biz_price_faq.html
       output: web
+    - title: 슈페리어 요금제에 대해서
+      url: /biz_price_superior.html
+      output: web
+    - title: 보안이 강화된 챗봇 적용 방법
+      url: /biz_security_chatbot.html
+      output: web
 
   - title: 챗봇BIZ
     output: web
@@ -104,6 +110,9 @@ entries:
     folderitems:
     - title: 단비로 싹튼 챗봇
       url: /casestudy_000_landing.html
+      output: web
+    - title: 에어캐나다 항공 안내 챗봇, 단풍이
+      url: /casestudy_026_aircanada_airport.html
       output: web
     - title: 뮤지션마켓, 악기 추천 챗봇 
       url: /casestudy_025_musician_market.html
