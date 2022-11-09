@@ -11,7 +11,7 @@ previous: {
     url: dictionary.html
 }
 next: {
-    title: 시작 메세지,
+    title: 시작 메시지,
     url: welcome.html
 }
 ---
