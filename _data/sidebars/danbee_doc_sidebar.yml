@@ -101,7 +101,7 @@ entries:
       url: /chatbot_create.html
       output: web, pdf
 
-    - title: 시작 메세지
+    - title: 시작 메시지
       url: /welcome.html
       output: web, pdf
 

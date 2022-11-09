@@ -7,7 +7,7 @@ sidebar: danbee_doc_sidebar
 permalink: intent.html
 folder: danbeeDoc
 previous: {
-    title: 시작 메세지,
+    title: 시작 메시지,
     url: welcome.html
 }
 next: {
