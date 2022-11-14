@@ -18,61 +18,90 @@ next: {
 
 {% include callout.html content="화면 위치 : 챗봇 만들기 > 챗봇 제작 > 주요 대화 > 대화 흐름" type="default" %}
 
-사람과 사람간의 대화에는 이야기 흐름이 있습니다. 
+사람과 사람간의 대화에는 '흐름'이 있습니다. 
 
-처음에 인사를 하고 안부를 묻고 둘 사이의 관심사 등에 대해서 서로 이야기를 진행해 나가듯이 대화 과정에서 하나하나의 이야기 단위들이 (인사, 날씨문의, 취미 등) 모여 대화의 흐름을 구성하게 됩니다. 
+처음엔 인사를 하고 ➡️ 안부를 묻고 ➡️ 둘 사이 관심사 등에 대해서 이야기를 진행해 나갑니다. 대화 과정에서 '하나하나의 이야기 단위'들이 (인사, 안부, 관심사 등) 모여서, 대화의 '흐름'을 구성하게 됩니다.
 
-여기에서 그 하나하나의 이야기 단위를 단비Ai에서는 대화 흐름 라는 이야기 단위로 명명을 하고 있습니다. 
-대화할 때에는 상대방의 이야기를 듣고 대답하는 것이 기본일 것입니다. 대화 흐름에서도 챗봇이 사람과 대화하는데 있어서 말귀를 알아 듣고 (Listen 노드) 대답 (Speak 노드) 하는 기본 방식으로 구성이 되어 있습니다. 
+지금 말한 '하나하나의 이야기 단위'를 단비에서는 '대화 흐름' 라는 단위로 정의하고 있습니다. 
 
-대화 과정에서 확인해야 할 사항이 있다면 되묻는 질문을 할 수 도 있겠고, 상대방의 답변에 대해 논리적으로 판단하여 대화의 흐름을 달리 이야기해야 할 경우도 있을 것입니다. 
-대화 흐름은 이러한 대화 과정에서 필요한 기본적인 듣고, 말하고, 판단하고 정보를 활용하는 기본적인 대화 노드들의 조합으로 대화의 흐름을 구성할 수 있는 역할을 담당하고 있습니다. 
-다음 내용에서는 대화 흐름에서 사용되고 있는 각각의 대화 노드들에 대해 자세히 알아보겠습니다
+대화할 때는 상대방의 이야기를 듣고 대답하는 것이 기본일 것입니다. 흐름을 놓치지 않기 위해서입니다. 챗봇의 대화 흐름에서도 마찬가지입니다.
+
+말귀를 알아 듣기 위한 **[Listen 노드]** + 대답을 위한 **[Speak 노드]** 라는 방식이 챗봇의 기본입니다. 중요하니까 다시 한 번 따로 정리합니다.
+
+[듣고 = Listen 노드] + [대답한다 = Speak 노드]
+
+{% include image.html file="chatflow/01_chatflow_basic.png" caption="노드 연결" %}
+
+대화를 하다보면 무슨 말인지 잘 못알아들을 수 있습니다. 이때 정확히 확인하려면 '다시 물어보는' 질문을 던지게 됩니다
+
+A: 이게 또 고장났네요. 저번 달에 고쳤던 건데
+
+B: (저번 달에 고친게 두개 있는데...) 정수기? 에어컨?
+
+챗봇의 대화 흐름은 이렇게 대화 과정에서 필요한 기본적인 기능을 '노드'라는 형태로 제공합니다. 듣기, 말하기, 판단하기, 저장되어 있는 정보에서 가져오기 등등 여러가지 기능을 가진 노드를 조합해서 챗봇의 대화 흐름을 만들게 됩니다.
+
+앞으로 차근차근 각각의 대화 노드에 대해 알아보겠습니다.
 
 ## 대화 흐름 생성
 
-대화 흐름 목록 메뉴 우측 상단에 있는 [대화 흐름 생성] 버튼을 눌러 호출된 팝업에서 대화 흐름 제목을 입력하면 신규 대화 흐름이 생성됩니다.
+좌측 메뉴 [대화 흐름] 클릭 후 나타나는 화면에서 우측 **[+대화 흐름 생성]** 버튼을 클릭하시면 대화흐름 생성 팝업이 나타납니다.
 
-{% include image.html file="chatflow/Chatflow_create.png"  caption="대화 흐름 생성" %}
+{% include image.html file="chatflow/02_chatflow_basic.png" caption="대화 흐름 생성1" %}
+
+생성할 대화 흐름의 이름을 입력하신 후 **[대화 흐름 생성]** 버튼을 누르면 대화 흐름이 생성됩니다.
+
+{% include image.html file="chatflow/03_chatflow_basic.png" caption="대화 흐름 생성2" %}
 
 ### 대화노드 추가
 
-대화 흐름 캔버스 화면 상단에 있는 노드를 클릭하여 Canvas에 필요한 Node들을 추가할 수 있습니다. 
-대화 흐름의 대화 노드 종류에는 크게 8가지가 있습니다.
+대화 흐름 캔버스 화면 상단에 있는 노드를 클릭하면 추가됩니다.
+
+{% include image.html file="chatflow/04_chatflow_basic.png" caption="대화노드" %} 
+
+총 11가지의 노드가 있습니다. 
+
+각각의 노드에 대한 한줄 설명은 아래와 같습니다.
 
 | 대화노드 | 설명 | 
 |--------|-------|
-| [Listen 노드](chatflow_listen.html#Listen 노드) | 사용자의 의도가 무엇인지 가장 먼저 파악하고 대화의 흐름을 시작하는 노드입니다. |
-| [Speak 노드](chatflow_speak.html#Speak 노드) | 챗봇의 답변 메시지를 설정하는 노드입니다. |
-| [Slot 노드](chatflow_slot.html#Slot 노드) | 대화 과정에서 필요한 정보를 얻기 위해 되묻는 질문을 설정하는 노드입니다. |
-| [Split 노드](chatflow_split.html#Split 노드) | 대화 흐름을 분기하기 위해 정보를 설정하는 노드입니다. |
-| [Carousel 노드](chatflow_carousel.html#Corousel 노드) | 사용자에게 카드 형태로 선택지를 제시하는 노드입니다. |
-| [Api 노드](chatflow_api.html#API 노드) | 다른 컨텐츠 서비스와 연계하여 정보를 얻기 위한 노드입니다. |
-| [Function 노드](chatflow_function.html#Function 노드) | 파라미터 정보를 가공 처리할 경우 사용하는 노드입니다. |
-| [Jump 노드](chatflow_jump.html#Jump 노드) | 대화 흐름상 다른 대화 흐름로 이동하고자 할 경우 사용하는 노드입니다. |
+| [Listen 노드](chatflow_listen.html#Listen 노드) | 사용자의 **의도**가 무엇인지 **파악**하고, **대화의 흐름을 시작하는** 노드입니다. |
+| [Speak 노드](chatflow_speak.html#Speak 노드) | 챗봇의 **답변 메시지를 설정하는** 노드입니다. |
+| [Carousel 노드](chatflow_carousel.html#Carousel 노드) | 사용자에게 **카드 형태로 선택지를 제시하는** 노드입니다. |
+| [Slot 노드](chatflow_slot.html#Slot 노드) | 대화 과정에서 필요한 정보를 얻기 위해 **되묻는 질문을 설정하는** 노드입니다. |
+| [Split 노드](chatflow_split.html#Split 노드) | **대화 흐름을 분기하기 위해** 정보를 설정하는 노드입니다. |
+| [Jump 노드](chatflow_jump.html#Jump 노드) | 대화 흐름상 **다른 대화 흐름로 이동하고자 할 경우** 사용하는 노드입니다. |
+| [Sleep 노드](chatflow_sleep.html#Sleep 노드) | 챗봇이 **받은 응답을 일정시간동안 지연**시키는 노드입니다. |
+| [Knowledge 노드](chatflow_knowledge.html#Knowledge 노드) | **[지식 라이브러리] 메뉴와 연결**하여 데이터를 읽고 쓰는 노드입니다. |
+| [Api 노드](chatflow_api.html#API 노드) | **다른 컨텐츠 서비스와 연계**하여 정보를 얻기 위한 노드입니다. |
+| [Function 노드](chatflow_function.html#Function 노드) | **파라미터 정보를 가공 처리할 경우** 사용하는 노드입니다. |
+| [Parameter 노드](chatflow_parameter.html#Parameter 노드) | **파라미터 값을 바로 설정**할 수 있는 노드입니다. |
 {: .table .table-striped}
-
-{% include image.html file="chatflow/Chatflow_design.png"  caption="대화 흐름 canvas" %}
 
 ### 이벤트 대화흐름
 
-이벤트 대화흐름이란 대화 의도에서 시작되는 흐름이 아닌, 특정 조건에서 시작되는 흐름을 이야기합니다. 이벤트 플로우는 이벤트 URL과 이벤트명을 가지며 스크립트를 통해 직접 호출해야합니다.
+대화 의도에서 시작되는 흐름이 아닌, '특정 조건'에서 시작되는 흐름을 이야기합니다. '특정 조건'을 갖추면 '이벤트'가 발생했다고 보는 것입니다.
 
-{% include image.html file="chatflow/Chatflow_event.png"  caption="이벤트 플로우로 설정" %}
+이벤트 플로우는 이벤트 URL과 이벤트명을 가지며, 스크립트를 통해 직접 호출해야 합니다.
+
+이벤트 전환 토글 버튼을 눌러 활성/비활성 하실 수 있습니다.
+
+{% include image.html file="chatflow/05_chatflow_basic.png"  caption="이벤트 플로우로 설정1" %}
+{% include image.html file="chatflow/06_chatflow_basic.png"  caption="이벤트 플로우로 설정2" %}
+
 
 ## 대화 흐름 기본 조작
 
 ### 노드 선택
-노드는 클릭 또는 드래그로 선택할 수 있습니다. 
-{% include image.html file="chatflow/Chatflow_select.png"  caption="노드 선택" %}
+노드는 클릭 또는 드래그로 선택할 수 있습니다.
+{% include image.html file="chatflow/07_chatflow_basic.gif"  caption="노드 선택" %}
 
 ### 노드 연결
-노드의 연결점을 클릭, 드래그하는 방식으로 노드들을 연결할 수 있습니다.
-{% include image.html file="chatflow/Chatflow_node_line.png"  caption="노드 연결" %}
+노드의 연결점을 클릭, 드래그하는 방식으로 노드끼리 연결할 수 있습니다.
+{% include image.html file="chatflow/08_chatflow_basic.gif"  caption="노드 연결" %}
 
 ### 노드 삭제
-대화 흐름 캔버스 상에 있는 Node와 연결 선은 선택한 후에 delete키를 눌러 삭제할 수 있습니다. (Mac에서는 fn + delete)
-{% include image.html file="chatflow/Chatflow_node_delete.png"  caption="노드 삭제" %}
+노드와 연결선을 선택한 후 [삭제] 버튼을 눌러 삭제할 수 있습니다. 단축키 [delete]키도 가능합니다. (Mac에서는 fn + delete)
+{% include image.html file="chatflow/09_chatflow_basic.gif"  caption="노드 삭제" %}
 
 ## 노드 개별 수정
 모든 노드는 더블클릭하면 상세 화면을 열 수 있습니다. 
