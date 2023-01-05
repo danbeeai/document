@@ -102,6 +102,9 @@ next: {
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
 | nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
 | delayTime    | (v2.0) 노드에 설정된 메시지가 화면에 표시되기까지 지연되는 시간입니다. |
+| mediaType    | (v2.0) 메시지에 표시될 미디어 타입 ( image, video, audio ) |
+| videoRoute   | (v2.0) 메시지에 표시될 비디오 정보가 표시됩니다. |
+| audioRoute   | (v2.0) 메시지에 표시될 오디오 정보가 표시됩니다. |
 {: .table .table-striped}
 
  * parameters Object
@@ -222,6 +225,9 @@ next: {
 | msgBlocked | (v2.0) 입력창 제어 여부 ( Y ) |
 | nodeId | (v2.0) 표시되는 메시지가 설정된 노드 아이디 |
 | delayTime    | (v2.0) 노드에 설정된 메시지가 화면에 표시되기까지 지연되는 시간입니다. |
+| mediaType    | (v2.0) 메시지에 표시될 미디어 타입 ( image, video, audio ) |
+| videoRoute   | (v2.0) 메시지에 표시될 비디오 정보가 표시됩니다. |
+| audioRoute   | (v2.0) 메시지에 표시될 오디오 정보가 표시됩니다. |
 {: .table .table-striped}
 
  * parameters Object
