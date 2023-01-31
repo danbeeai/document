@@ -193,6 +193,13 @@ entries:
       url: /casestudy_004_mike.html
       output: web
 
+  - title:  뉴스레터
+    output: web
+    folderitems:
+      - title: 1월 업데이트 - 챗봇 만들기가 더 쉬어졌어요!
+        url: /newsletter_2301.html
+        output: web
+
   - title:  보도자료
     output: web
     folderitems:
