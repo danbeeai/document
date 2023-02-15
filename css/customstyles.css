@@ -1111,6 +1111,9 @@ h4.panel-title {
     .navbar-toggle {
         display: block;
     }
+    .sns-box {
+        display: block !important;
+    }
     .navbar-collapse {
         border-top: 1px solid transparent;
     }
@@ -1147,5 +1150,12 @@ h4.panel-title {
     #search-demo-container ul#results-container{
         top: 44px;
         left: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .sns-box {
+        clear: both;
+        margin: -8px 8px 10px 10px !important;
     }
 }
