@@ -1153,9 +1153,22 @@ h4.panel-title {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 366px) {
     .sns-box {
-        clear: both;
-        margin: -8px 8px 10px 10px !important;
+        margin: 16px 2px 0 !important;
+    }
+}
+
+@media (max-width: 348px) {
+    .sns-box {
+        margin: 14px 2px 0 !important;
+        position: absolute;
+        right: 50px;
+    }
+    .navbar-inverse .container .navbar-header .sns-box li {
+        margin: 0 1px !important;
+    }
+    .navbar-inverse .container .navbar-header .sns-box li img {
+        width: 18px !important;
     }
 }
