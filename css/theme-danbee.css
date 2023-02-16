@@ -184,7 +184,7 @@ a[data-toggle="tooltip"] {
 .navbar-inverse .container .navbar-header button {
     background:none;
     border:none;
-    margin: 11px 0;
+    margin: 11px 0 0;
 }
 .navbar-inverse .navbar-nav>.active>a {
     font-weight:bold;
@@ -194,20 +194,20 @@ a[data-toggle="tooltip"] {
 .navbar-inverse .container .navbar-header .sns-box {
     display: none;
     float: right;
-    margin: 14px 15px;
+    margin: 16px 10px 0;
 }
 .navbar-inverse .container .navbar-header .sns-box li {
     display: inline-block;
+    margin: 0 2px;
+}
+.navbar-inverse .container .navbar-header .sns-box li a {
+    display: block;
 }
 .navbar-inverse .container .navbar-header .sns-box li img {
-    width: 24px;
-    vertical-align: middle;
-}
-.navbar-inverse .container .navbar-header .sns-box li.blog img {
-    width: 40px;
+    width: 20px;
+    vertical-align: bottom;
 }
 #search-demo-container input#search-input {
-
     background:#15191c;
     border:1px solid #0d1012;
     color:#cfdbe5;
