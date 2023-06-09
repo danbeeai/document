@@ -53,6 +53,9 @@ next: {
 3. 앱 비밀번호를 생성 앱 및 기기에 danbeeai 로 설정하여 추후에 관리하시면 편합니다.
 4. 생성된 앱 비밀번호 16자리를 단비.Ai 의 Gmail 메일 전송 API 의 password 에 셋팅합니다.
 
+{% include image.html file="/external_API/api_gmail_setting1.png" caption="Gmail 앱비밀번호생성1" %}
+{% include image.html file="/external_API/api_gmail_setting2.png" caption="Gmail 앱비밀번호생성2" %}
+
 
 ## Google Workspace의 Gmail 전송 한도
 
