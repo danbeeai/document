@@ -35,6 +35,14 @@ next: {
 | subject | String | Yes | 이메일 제목 |
 | message | String | Yes | 이메일 내용 ( html 사용가능 ) |
 
+
+## 보안관련 Gmail 로그인 정책 변경
+
+현재 구글의 보안정책 변경으로 외부앱에서 로그인을 제한하고 있습니다.  <br />
+이에 따라 구글 이메일 발송이 로그인 문제로 안되는 경우가 발생 할 수 있습니다. ( 보안 수준이 낮은 앱을 허용해도 안됨 ) <br />
+해당 문제에 대한 내용을 개발팀에서 해결 중에 있습니다. <br />
+우선 2단계인증을 사용하여 앱 비밀번호를 사용해서 진행하시면 됩니다.  <br />
+
 ## API 사용을 위한 Gmail 설정
 
 구글에서 제공하는 가이드에 따라서 보안수준이 낮은 앱이 계정에 액세스하도록 허용설정을 진행합니다. <br />
@@ -55,6 +63,12 @@ next: {
 1. <span class="link">[앱 비밀번호로 로그인하기](https://support.google.com/mail/answer/185833?hl=ko){:target="_blank"}</span>페이지로 이동합니다.
 2. 앱 비밀번호 생성 방법 섹션을 클릭하여 가이드에 따라 앱 비밀번호를 생성합니다.
 3. 생성된 앱 비밀번호 16자리를 danbee.Ai 의 Gmail 메일 전송 API 의 password 에 셋팅합니다.
+
+## Google Workspace의 Gmail 전송 한도
+
+Google Workspace의 Gmail 전송 한도가 있습니다. <br />
+고객센터 : https://support.google.com/a/answer/166852?hl=ko <br />
+
 
 <br />
 
