@@ -139,18 +139,18 @@ B: (저번 달에 고친게 두개 있는데...) 정수기? 에어컨? <br/><br/
     </tr>
     <tr>
         <th>speak(스피크)</th>
-        <td>330 X 230</td>
-        <td>380 X 280</td>
+        <td>660 X 460</td>
+        <td>760 X 560</td>
     </tr>    
     <tr>
         <th>slot(슬롯)</th>
-        <td>330 X 230</td>
-        <td>380 X 280</td>
+        <td>660 X 460</td>
+        <td>760 X 560</td>
     </tr>    
     <tr>
         <th>carousel(캐로셀)</th>
-        <td>260 X 260</td>
-        <td>320 X 240</td>
+        <td>520 X 520</td>
+        <td>640 X 480</td>
     </tr>
 </table>
 <br><br>
