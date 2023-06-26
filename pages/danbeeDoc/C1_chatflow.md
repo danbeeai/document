@@ -148,7 +148,7 @@ B: (저번 달에 고친게 두개 있는데...) 정수기? 에어컨? <br/><br/
         <td>380 X 280</td>
     </tr>    
     <tr>
-        <th>carousel(캐로셀ㅋ)</th>
+        <th>carousel(캐로셀)</th>
         <td>260 X 260</td>
         <td>320 X 240</td>
     </tr>
