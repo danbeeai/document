@@ -125,8 +125,35 @@ B: (저번 달에 고친게 두개 있는데...) 정수기? 에어컨? <br/><br/
 
 {% include image.html file="chatflow/12_chatflow_basic.png"  caption="" %}
 
-{% include tip.html content="[imgur.com](https://imgur.com/){:target='_blank'}나 [giphy.com](https://giphy.com/){:target='_blank'}과 같은 간단 이미지 공유사이트를 활용하면 편리합니다. " %} <br><br>
+{% include tip.html content="[imgur.com](https://imgur.com/){:target='_blank'}나 [giphy.com](https://giphy.com/){:target='_blank'}과 같은 간단 이미지 공유사이트를 활용하면 편리합니다. " %} <br>
 
+
+### 이미지 사이즈
+채널 유형에 따라 노드의 권장 사이즈입니다.
+
+<table class="table table-bordered">
+    <tr>
+        <th></th>
+        <th>클래식(프로그)</th>
+        <th>플러스(토드)</th>
+    </tr>
+    <tr>
+        <th>speak(스피크)</th>
+        <td>330 X 230</td>
+        <td>380 X 280</td>
+    </tr>    
+    <tr>
+        <th>slot(슬롯)</th>
+        <td>330 X 230</td>
+        <td>380 X 280</td>
+    </tr>    
+    <tr>
+        <th>carousel(캐로셀ㅋ)</th>
+        <td>260 X 260</td>
+        <td>320 X 240</td>
+    </tr>
+</table>
+<br><br>
 
 ### 파라미터 활용
 노드는 단순히 입력된 메시지만 출력할 뿐만 아니라, 사용자로부터 입력받은 파라미터 정보들을 활용하여 메시지를 표시할 수 있습니다. <br/><br/>  
