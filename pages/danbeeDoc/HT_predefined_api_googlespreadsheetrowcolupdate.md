@@ -1,24 +1,24 @@
 ---
-title: 구글 스프레드시트 행 수정
+title: 구글 스프레드시트 행컬럼 수정
 tags: [chatflow, API, advanced]
 keywords: api
-summary: 단비Ai에서 제공하는 구글 스프레드시트 행수정 API입니다.
+summary: 단비Ai에서 제공하는 구글 스프레드시트 행컬럼 수정 API입니다.
 sidebar: danbee_doc_sidebar
-permalink: predefined_api_googlespreadsheetrowupdate.html
+permalink: predefined_api_googlespreadsheetrowcolupdate.html
 folder: danbeeDoc
 previous: {
-    title: 구글 스프레드시트 행 조회,
-    url: predefined_api_googlespreadsheetrowget.html
+    title: 구글 스프레드시트 행 수정,
+    url: predefined_api_googlespreadsheetrowupdate.html
 }
 next: {
-    title: 구글 스프레드시트 행컬럼 수정,
-    url: predefined_api_googlespreadsheetrowcolupdate.html
+    title: 구글 스프레드시트 행 찾기,
+    url: predefined_api_googlespreadsheetrowfind.html
 }
 ---
 
 ## API 설명
 
-단비Ai에서 제공하는 여러가지 API 중 구글 스프레드시트 행 수정 API임니다. <br>
+단비Ai에서 제공하는 여러가지 API 중 구글 스프레드시트 행의 컬럼값 수정 API임니다. <br>
 요금제는 Standard 이상부터 사용가능합니다. <br>
 
 ### 구글스프레드시트 권한을 부여해야 됩니다.
@@ -29,14 +29,12 @@ next: {
 ## API 입력값
 
 | KEY | TYPE | Required | VALUE |
-|--------|--------|--------|--------|
+|------|--------|-----|-----|
 | spreadsheetId | String | Yes | 스프레드시트아이디 |
 | sheetTabName | String | Yes | 시트하단탭이름 |
 | rowIndex | String | Yes | 수정행 |
-| B | String | No | B열 |
-| C | String | No | C열 |
-| D | String | No | D열 |
-| E | String | No | E열(Z열까지가능) |
+| columnName | String | Yes | A~Z |
+| value | String | No  | 수정값 |
 
 ## API 결과값
 

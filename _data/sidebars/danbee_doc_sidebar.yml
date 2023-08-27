@@ -273,6 +273,10 @@ entries:
           url: /predefined_api_googlespreadsheetrowupdate.html
           output: web, pdf
 
+        - title: 구글 스프레드시트 행컬럼 수정
+          url: /predefined_api_googlespreadsheetrowcolupdate.html
+          output: web, pdf
+
         - title: 구글 스프레드시트 행 찾기
           url: /predefined_api_googlespreadsheetrowfind.html
           output: web, pdf
