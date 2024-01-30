@@ -96,6 +96,10 @@ next: {
 </table>
 <br />
 이렇게 호출할때 우측하단의 프로그 대화창이 닫혀있을때 말풍선으로, 대화창이 열려있을때 대화창내 챗봇이 말을 하게 됩니다.<br /> 
+
+* 주의사항 : 이벤트 대화흐름이 호출되면 사용량 1CC 계산됩니다.
+<br /><br />
+
 </div>
 
 #### 2.2 웹페이지에서 프로그 초기 데이터 변경하기
@@ -145,6 +149,9 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 
 시작메시지가 바로 나오게 하려면 URK 뒤에 값을 &force_welcome=Y 붙여넣습니다.<br /><br />
 
+* 주의사항 : 시작메시지가 호출되면 사용량 1CC 계산됩니다.
+<br /><br />
+
 <table class="table table-striped">
   <thead>
     <tr>
@@ -157,6 +164,7 @@ frogue-container 의 data-init-전달값 속성을 통해서 전달합니다. <b
 </div>
 
 <br /><br />
+
 
 #### 2.4 Embedding코드의 data 속성 활용하기
 Embedding 코드의 div태그를 보시면 data-chatbot, data-user등의 속성들이 많이 보입니다. 이러한 값들을 입력하시면
