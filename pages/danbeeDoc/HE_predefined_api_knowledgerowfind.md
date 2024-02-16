@@ -52,6 +52,24 @@ FAQ 지식 라이브러리
 | buttonName4 | String | 버튼4 이름 |
 | buttonUrl4 | String | 버튼4 링크 |
 
+<br />
+FAQ+ 지식 라이브러리 
+
+| columnName | TYPE | VALUE |
+|--------|--------|--------|
+| dataA | String | 호출 값 |
+| dataB | String | ID |
+| dataC | String | 질문 |
+| dataD | String | 이미지 |
+| dataE | String | 답변액션 |
+| dataF | String | 답변 |
+| dataG | String | 버튼 |
+| ... |  |  |
+| dataAg | String | 버튼14 이름 |
+| dataAh | String | 버튼14 값 |
+
+<hr/>
+
 <hr/>
 
 ## Output
