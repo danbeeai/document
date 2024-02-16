@@ -1,5 +1,5 @@
 ---
-title: NAVER WORKS 
+title: NAVER WORKS 1.0( 지원종료 )
 tags: [channel]
 keywords: Basic Conversation
 summary: 간단한 설정으로 네이버웍스에 연결할 수 있습니다.

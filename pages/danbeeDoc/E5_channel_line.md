@@ -11,8 +11,8 @@ previous: {
     url: channel_facebook.html
 }
 next: {
-    title: 라인웍스,
-    url: channel_lineworks.html
+    title: 네이버웍스,
+    url: channel_naverworks.html
 }
 ---
 

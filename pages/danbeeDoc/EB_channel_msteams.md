@@ -7,8 +7,8 @@ sidebar: danbee_doc_sidebar
 permalink: channel_teams.html
 folder: danbeeDoc
 previous: {
-    title: 네이버웍스 (구 라인웍스),
-    url: channel_lineworks.html
+    title: 네이버웍스,
+    url: channel_naverworks.html
 }
 next: {
     title: 채팅상담으로 전환하는 방법,

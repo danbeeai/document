@@ -1,67 +1,10 @@
 # DANBEE.AI Documentaion
-2018.03.16 기준
-http://doc.danbee.ai
+2024.02.16 기준
+https://doc.danbee.ai
 
-## Requirement
-ruby 2.0 and above (전역 설치)
+# Docker Run
 
-### window
- - https://rubyinstaller.org/downloads/
- - RubyInstallers download
-
- #### ruby 2.0.0 ~ 2.3.x (for window)
- 1. run rubyinstaller.exe - "Add Ruby executables to your PATH" 반드시 체크 <br/>
- 2. Development Kit download <br/> 
- 3. Extract the compressed folder’s contents into any folder in C dirve <br/> 
- 4. cd foldername <br/> 
- 5. ruby dk.rb init <br/> 
- 6. config.yml edit
-  ```
-  # 
-  # Example:
-  # ---
-  # - C:/ruby19trunk
-  # - C:/ruby192dev
-  #
-  --- 
-  - C:\Ruby23-x64 #여기에 실제 Ruby를 설치한 위치를 입력해주세요.
-  ```
- 7. ruby dk.rb install <br/>
- 
- #### ruby 2.4.x
-  ruby installer download page 참고
-
-### mac
- - ruby가 깔려서 나옵니다:)
- 
- #### ruby for mac
- - https://brew.sh/index_ko 여기가서 홈브류를 설치하세요. 그리고 아래 내용대로 쭉쭉..<br/>
- - $ brew update  <br/>
- - $ brew install rbenv  <br/>
- - $ brew upgrade ruby-build  <br/>
- - $ rbenv install 2.5.1 && rbenv rehash <br /> 
- - $ rbenv global 2.3.3 <br />
- - 다 되고 나면 아래 Install부분을 차례로 진행합니다.
- 
-
-
-## Install
-git clone https://github.com/danbeeai/document.git <br/>
-cd document <br/>
-..document> gem install jekyll <br/>
-..document> gem install bundler <br/>
-..document> gem install wdm -v '0.1.1' <br/>
-..document> bundle install <br/>
-
-※ window 에서 SSL error 시 Gemfile 파일 내용중 source 를 https 에서 http 로 변경한후 다시 install <br/>
-
-## START
-..document> bundle exec jekyll serve
-
-※ window 에서 Conversion error 시 cmd창에서, <br/>
-  ..document> chcp 65001<br/>
-위 명령어로 cmd utf-8로 encoding 후 serve 재실행 시도<br/>
-  
+docker run -it -v "$PWD:/srv/jekyll:Z" -p 4000:4000 jekyll/builder:3.6.2 jekyll serve
 
 
 ## Manual Add/Edit

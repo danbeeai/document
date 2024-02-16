@@ -422,8 +422,8 @@ entries:
       url: /channel_newslack.html
       output: web, pdf
 
-    - title: NAVER WORKS(구 LINE WORKS)
-      url: /channel_lineworks.html
+    - title: NAVER WORKS
+      url: /channel_naverworks.html
       output: web, pdf
 
     - title: 마이크로소프트 팀즈(MS TEAMS)
