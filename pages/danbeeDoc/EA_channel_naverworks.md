@@ -74,7 +74,7 @@ Naver WORKS 채널 연계 설정을 하려면 다음이 필요합니다.
 2. Console의 Bot 메뉴에서 Bot을 선택한 후 수정하기 버튼을 클릭하여 설정페이지로 이동합니다.
 3. Callback URL을 설정합니다.<figure><img class="docimage" src="images/channel/naverworks/naverworks_add_chatbot.png" alt="naver works add chatbot" style="max-width: 800px"></figure>
   * Callback URL : On 으로 변경 ( Text 필수 체크, 위치공유, 스티커, 사진은 추후 기능제공 예정 )
-4. 저장버튼을 클릭하여 설정을 마무리한다.
+4. 저장버튼을 클릭하여 설정을 마무리합니다.
 
 
 ### 네이버웍스 서비스에 봇 추가
@@ -88,6 +88,14 @@ Naver WORKS 채널 연계 설정을 하려면 다음이 필요합니다.
 ### 네이버웍스 챗봇 테스트
 챗봇을 테스트하려면 네이버웍스 메시지에서 Bot을 초대하여 메시지방을 생성한 후 사용이 가능합니다.<figure><img class="docimage" src="images/channel/naverworks/naverworks_chatbot_test.png" alt="naver works chatbot test" style="max-width: 800px"></figure>
 
+
+### 네이버웍스 인증키 연동
+1. [챗봇] > [챗봇 제작] > [채널 연결] 메뉴로 이동 하십시오.
+2. NAVER WORKS 타일 우측 상단에 설정 아이콘을 클릭하십시오.
+3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/naverworks/naverworks_danbee_setting_auth.png" alt="danbee naver works channel setting auth" style="max-width: 800px"></figure>
+  * Auth Header : 네이버웍스 인증정보를 가져오기 위한 헤더 정보 ( 인증정보를 조회할때 체크를 위한 값 )
+4. 저장버튼을 클릭하여 설정을 마무리합니다.
+5. Auth Url을 호출(GET방식) 시 헤더(DANBEE_NAVERWORKS_AUTH)값에 설정된 정보를 포함하면 인증정보를 조회할 수 있습니다. 
 
 
 {% include bottom.html %}
