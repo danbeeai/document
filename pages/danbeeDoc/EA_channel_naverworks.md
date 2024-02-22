@@ -95,7 +95,7 @@ Naver WORKS 채널 연계 설정을 하려면 다음이 필요합니다.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/naverworks/naverworks_danbee_setting_auth.png" alt="danbee naver works channel setting auth" style="max-width: 800px"></figure>
   * Auth Header : 네이버웍스 인증정보를 가져오기 위한 헤더 정보 ( 인증정보를 조회할때 체크를 위한 값 )
 4. 저장버튼을 클릭하여 설정을 마무리합니다.
-5. Auth Url을 호출(GET방식) 시 헤더(DANBEE_NAVERWORKS_AUTH)값에 설정된 정보를 포함하면 인증정보를 조회할 수 있습니다. 
-5. Auth Refesh Url을 호출(POST방식) 시 헤더(DANBEE_NAVERWORKS_AUTH)값에 설정된 정보를 포함하면 인증정보를 재생성 할 수 있습니다.
+5. Auth Url을 호출(GET방식) 시 헤더(DANBEE-NAVERWORKS-AUTH)값에 설정된 정보를 포함하면 인증정보를 조회할 수 있습니다. 
+5. Auth Refesh Url을 호출(POST방식) 시 헤더(DANBEE-NAVERWORKS-AUTH)값에 설정된 정보를 포함하면 인증정보를 재생성 할 수 있습니다.
 
 {% include bottom.html %}
