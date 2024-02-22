@@ -34,7 +34,7 @@ Telegram 채널 연계 설정을 하려면 다음이 필요합니다.
 6. BotFather(봇 아버지)가 생성해준 액세스 토큰을 기록해 놓습니다.<figure><img class="docimage" src="images/channel/telegram/telegram_web_newbot.png" alt="telegram 봇 만들기" style="max-width: 800px"></figure>
 
 ### danbee.Ai 채널 연결 설정
-1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
+1. [챗봇 만들기] > [챗봇 배포] > [메신저 연결] 메뉴로 이동 하십시오.
 2. Telegram 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/telegram/telegram_danbee_setting.png" alt="danbee line channel setting" style="max-width: 800px"></figure>
   * 텔레그램 엑세스 토큰 : BotFather 가 생성해준 액세스 토큰

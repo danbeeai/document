@@ -37,7 +37,7 @@ Facebook 채널 연계 설정을 하려면 다음이 필요합니다.
 6. 생성된 페이지 액세스 토큰은 danbee.Ai 설정에 사용하므로 미리 기록해놓으십시오.
 
 ### danbee.Ai 채널 연결 설정
-1. [챗봇제작] > [채널 연결] 메뉴로 이동 하십시오.
+1. [챗봇 만들기] > [챗봇 배포] > [메신저 연결] 메뉴로 이동 하십시오.
 2. Facebook 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오. 이전에 기록한 페이지 엑세스 토큰도 함께 입력하십시오.<figure><img class="docimage" src="images/channel/facebook/facebook_danbee_setting.png" alt="danbee facebook channel setting" style="max-width: 800px"></figure>
   * 콜백 URL : 채널 WEBHOOK URL ( 자동생성 )

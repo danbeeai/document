@@ -56,7 +56,7 @@ Naver WORKS 채널 연계 설정을 하려면 다음이 필요합니다.
    * Private Key : 발행 후 안에 내용을 복사하여 사용
 
 ### 단비Ai 채널 연결 설정
-1. [챗봇] > [챗봇 제작] > [채널 연결] 메뉴로 이동 하십시오.
+1. [챗봇 만들기] > [챗봇 배포] > [메신저 연결] 메뉴로 이동 하십시오.
 2. NAVER WORKS 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/naverworks/naverworks_danbee_setting.png" alt="danbee naver works channel setting" style="max-width: 800px"></figure>
   * Bot ID : Naver Works Developers Console에서 생성한 Bot ID
@@ -90,12 +90,12 @@ Naver WORKS 채널 연계 설정을 하려면 다음이 필요합니다.
 
 
 ### 네이버웍스 인증키 연동
-1. [챗봇] > [챗봇 제작] > [채널 연결] 메뉴로 이동 하십시오.
-2. NAVER WORKS 타일 우측 상단에 설정 아이콘을 클릭하십시오.
+1. [챗봇 만들기] > [챗봇 배포] > [메신저 연결] 메뉴로 이동 하십시오.
+2. NAVER WORKS 2 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/naverworks/naverworks_danbee_setting_auth.png" alt="danbee naver works channel setting auth" style="max-width: 800px"></figure>
   * Auth Header : 네이버웍스 인증정보를 가져오기 위한 헤더 정보 ( 인증정보를 조회할때 체크를 위한 값 )
 4. 저장버튼을 클릭하여 설정을 마무리합니다.
 5. Auth Url을 호출(GET방식) 시 헤더(DANBEE_NAVERWORKS_AUTH)값에 설정된 정보를 포함하면 인증정보를 조회할 수 있습니다. 
-
+5. Auth Refesh Url을 호출(POST방식) 시 헤더(DANBEE_NAVERWORKS_AUTH)값에 설정된 정보를 포함하면 인증정보를 재생성 할 수 있습니다.
 
 {% include bottom.html %}

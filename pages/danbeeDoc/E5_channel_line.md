@@ -56,7 +56,7 @@ LINE 채널 연계 설정을 하려면 다음이 필요합니다.
   * Channel access token : 채널 액세스 토큰
 
 ### danbee.Ai 채널 연결 설정
-1. [고급설정(Advanced)] > [채널 연결(Connect of Channel)] 메뉴로 이동 하십시오.
+1. [챗봇 만들기] > [챗봇 배포] > [메신저 연결] 메뉴로 이동 하십시오.
 2. LINE 타일 우측 상단에 설정 아이콘을 클릭하십시오.
 3. 다음 필드에 관련 값을 입력하십시오.<figure><img class="docimage" src="images/channel/line/line_danbee_setting.png" alt="danbee line channel setting" style="max-width: 800px"></figure>
   * Channel ID : 채널 ID

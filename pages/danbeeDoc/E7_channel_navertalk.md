@@ -45,7 +45,7 @@ next: {
 9. 생성된 Authorization을 복사합니다.
 
 ### danbee.Ai 채널 연결 설정
-1. [설정 (Preference)] > [대화채널(Channel)] 메뉴로 이동 하십시오.
+1. [챗봇 만들기] > [챗봇 배포] > [메신저 연결] 메뉴로 이동 하십시오.
 2. 네이버톡톡 타일 우측 상단에 설정 아이콘을 클릭하십시오.
     <figure><img class="docimage" src="images/channel/navertalk/navertalk_09_danbee_connect.png" alt="네이버톡톡 셋팅" style="max-width: 800px"></figure>
 3. 다음 필드에 관련 값을 입력하십시오.
