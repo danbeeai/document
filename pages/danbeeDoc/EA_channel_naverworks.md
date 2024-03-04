@@ -43,7 +43,7 @@ Naver WORKS 채널 연계 설정을 하려면 다음이 필요합니다.
 1. Console의 API 2.0 메뉴에서 앱을 추가합니다.<figure><img class="docimage" src="images/channel/naverworks/naverworks_add_app.png" alt="naver works add app" style="max-width: 800px"></figure>
    * Client ID : 클라이언트(앱) 아이디
    * Client Secret : 클라이언트(앱) 비밀
-   * OAuth Scopes : bot, bot.message, bot.read, user.profile.read 를 선택합니다.
+   * OAuth Scopes : bot, bot.message, bot.read, user.read, user.profile.read 를 선택합니다.
 
 2. 생성된 앱의 Service Account와 Private Key를 발급합니다.<figure><img class="docimage" src="images/channel/naverworks/naverworks_create_key.png" alt="naver works create key" style="max-width: 800px"></figure>
    * Service Account : "serviceaccount"로 끝남
